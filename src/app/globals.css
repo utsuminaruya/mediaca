@@ -58,10 +58,18 @@ body {
 /* ── ベトナム語フォント統一 ─────────────────────────────────────
    Be Vietnam Pro の font-weight は必ず明示指定する。
    指定なしだと各ブラウザが異なるウェイトをフォールバックするため
-   太太になったり細細になったりする問題が起きる。               */
+   太太になったり細細になったりする問題が起きる。
+   data-locale="vi" 配下の全テキストに一括適用する。            */
 .vn, [data-font="vn"] {
   font-family: 'Be Vietnam Pro', sans-serif;
   font-weight: 400;
+  font-synthesis: none;
+}
+
+/* vi ロケール全体に Be Vietnam Pro を適用 */
+[data-locale="vi"],
+[data-locale="vi"] * {
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-synthesis: none;
 }
 

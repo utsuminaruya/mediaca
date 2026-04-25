@@ -4,7 +4,8 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { Menu, X, MessageSquare, FileText, Bot, Briefcase, Radio } from 'lucide-react';
+import { usePathname } from 'next/navigation';
+import { Menu, X, MessageSquare, FileText, Bot, Briefcase } from 'lucide-react';
 
 interface HeaderProps {
   locale: string;
@@ -42,9 +43,14 @@ const comingSoonBadge = (label: string): React.ReactNode => (
 export default function Header({ locale }: HeaderProps) {
   const t = useTranslations('nav');
   const [mobileOpen, setMobileOpen] = useState(false);
+  const pathname = usePathname();
 
   const isJa = locale !== 'vi';
   const lineUrl = process.env.NEXT_PUBLIC_LINE_JOBSEEKER || 'https://lin.ee/xUocVyI';
+
+  // 現在のパスのロケール部分だけ入れ替える
+  const switchLocalePath = (targetLocale: string) =>
+    pathname.replace(/^\/(ja|vi)(\/|$)/, `/${targetLocale}$2`) || `/${targetLocale}`;
 
   return (
     <header style={{
@@ -105,23 +111,6 @@ export default function Header({ locale }: HeaderProps) {
             {isJa ? '就職相談' : 'Tư vấn việc làm'}
           </a>
 
-          {/* 料金 */}
-          <Link href={`/${locale}/pricing`} style={navItemStyle}
-            onMouseEnter={e => { const el = e.currentTarget; el.style.color = 'var(--ink)'; el.style.background = 'rgba(10,27,61,0.04)'; }}
-            onMouseLeave={e => { const el = e.currentTarget; el.style.color = 'var(--ink-soft)'; el.style.background = 'transparent'; }}
-          >
-            {isJa ? '料金' : 'Giá'}
-          </Link>
-
-          {/* Live勉強会 準備中 */}
-          <a href="#live-study" title={isJa ? '近日開催予定' : 'Sắp ra mắt'} style={{
-            ...navItemStyle, color: 'rgba(255,80,80,0.7)', cursor: 'pointer', userSelect: 'none', textDecoration: 'none',
-          }}>
-            <Radio size={13} style={{ color: 'rgba(255,80,80,0.65)' }} />
-            {isJa ? 'Live勉強会' : 'Học Live'}
-            {comingSoonBadge(isJa ? '企画中' : 'Sắp ra mắt')}
-          </a>
-
           {/* AIロールプレイ 準備中 */}
           <span title={isJa ? 'まもなく開設予定' : 'Sắp ra mắt'} style={{
             ...navItemStyle, color: 'rgba(139,92,246,0.5)', cursor: 'default', userSelect: 'none',
@@ -149,7 +138,7 @@ export default function Header({ locale }: HeaderProps) {
             display: 'flex', background: 'rgba(10,27,61,0.05)', padding: 3, borderRadius: 8,
             fontSize: 12, fontFamily: 'var(--font-mono)', letterSpacing: '0.04em',
           }}>
-            <Link href="/ja" style={{
+            <Link href={switchLocalePath('ja')} style={{
               display: 'flex', alignItems: 'center', gap: 5,
               padding: '5px 10px', borderRadius: 5, textDecoration: 'none', transition: 'all .2s',
               background: locale === 'ja' ? 'var(--white)' : 'transparent',
@@ -158,7 +147,7 @@ export default function Header({ locale }: HeaderProps) {
             }}>
               <JpMark/> 日本語
             </Link>
-            <Link href="/vi" style={{
+            <Link href={switchLocalePath('vi')} style={{
               display: 'flex', alignItems: 'center', gap: 5,
               padding: '5px 10px', borderRadius: 5, textDecoration: 'none', transition: 'all .2s',
               background: locale === 'vi' ? 'var(--white)' : 'transparent',
@@ -212,7 +201,6 @@ export default function Header({ locale }: HeaderProps) {
           {[
             { href: `/${locale}/courses`,   label: isJa ? 'コース' : 'Khóa học', icon: null },
             { href: `/${locale}/ai-tutor`,  label: isJa ? 'Medi先生' : 'Medi-sensei', icon: <Bot size={15} style={{ color: '#0066CC' }} /> },
-            { href: `/${locale}/pricing`,   label: isJa ? '料金' : 'Giá', icon: null },
           ].map(item => (
             <Link key={item.href} href={item.href} onClick={() => setMobileOpen(false)} style={{
               display: 'flex', alignItems: 'center', gap: 8,
@@ -233,21 +221,6 @@ export default function Header({ locale }: HeaderProps) {
           }}>
             <Briefcase size={15} style={{ color: '#00B894' }} />
             {isJa ? '就職相談（LINE）' : 'Tư vấn việc làm (LINE)'}
-          </a>
-          {/* Live勉強会 企画中 */}
-          <a href="#live-study" onClick={() => setMobileOpen(false)} style={{
-            display: 'flex', alignItems: 'center', gap: 8,
-            padding: '12px 0', fontSize: 15, fontWeight: 500,
-            color: 'rgba(255,80,80,0.8)', textDecoration: 'none',
-            borderBottom: '1px solid var(--line)',
-          }}>
-            <Radio size={15} style={{ color: 'rgba(255,80,80,0.7)' }} />
-            {isJa ? 'Live勉強会' : 'Học Live'}
-            <span style={{
-              fontSize: 9, fontWeight: 700, color: 'var(--ink-soft)',
-              background: 'rgba(10,27,61,0.07)', border: '1px solid rgba(10,27,61,0.12)',
-              borderRadius: 4, padding: '1px 5px',
-            }}>{isJa ? '企画中' : 'Sắp ra mắt'}</span>
           </a>
           {/* AIロールプレイ 準備中 */}
           <div style={{
@@ -282,7 +255,7 @@ export default function Header({ locale }: HeaderProps) {
 
           {/* Language toggle */}
           <div style={{ display: 'flex', gap: 8, marginTop: 20 }}>
-            <Link href="/ja" onClick={() => setMobileOpen(false)} style={{
+            <Link href={switchLocalePath('ja')} onClick={() => setMobileOpen(false)} style={{
               flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6,
               padding: '10px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
               background: locale === 'ja' ? 'var(--primary)' : 'rgba(10,27,61,0.05)',
@@ -290,7 +263,7 @@ export default function Header({ locale }: HeaderProps) {
             }}>
               <JpMark/> 日本語
             </Link>
-            <Link href="/vi" onClick={() => setMobileOpen(false)} style={{
+            <Link href={switchLocalePath('vi')} onClick={() => setMobileOpen(false)} style={{
               flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6,
               padding: '10px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
               background: locale === 'vi' ? 'var(--primary)' : 'rgba(10,27,61,0.05)',
