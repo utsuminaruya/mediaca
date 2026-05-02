@@ -2254,6 +2254,493 @@ Trong 80 chữ Kanji N5, hãy học 5 chữ dùng nhiều nhất trong môi trư
     },
   },
 
+  'n5-05-2': {
+    courseTitle: { ja: 'N5 漢字入門 〜80字〜', vi: 'Nhập môn Kanji N5 - 80 chữ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5漢字L2: 大・小・上・下・中・左・右',
+      titleTranslation: 'Kanji N5 Bài 2: 大・小・上・下・中・左・右 — Kích thước & Phương hướng',
+      introduction: `大きさや方向を表す7つの漢字を学びます。介護の現場では「上半身・下肢・左右確認・体の中央」など、場所・方向の表現が毎日使われます。
+
+Hãy học 7 chữ Kanji biểu thị kích thước và hướng. Trong môi trường điều dưỡng, các cách diễn đạt về vị trí và hướng như "上半身・下肢・左右確認・体の中央" được dùng hàng ngày.`,
+      keyPoints: [
+        '大（だい・おお）: 大きい（おおきい）、大人（おとな）、大切（たいせつ）',
+        '小（しょう・ちい）: 小さい（ちいさい）、小学校（しょうがっこう）',
+        '上（うえ・じょう）: 上（うえ）、上半身（じょうはんしん）、以上（いじょう）',
+        '下（した・か・げ）: 下（した）、下肢（かし）、以下（いか）',
+        '中（なか・ちゅう）: 中（なか）、中心（ちゅうしん）、中断（ちゅうだん）',
+        '左（ひだり・さ）: 左（ひだり）、左手（ひだりて）、左側（ひだりがわ）',
+        '右（みぎ・う・ゆう）: 右（みぎ）、右手（みぎて）、右側（みぎがわ）',
+      ],
+      vocabulary: [
+        { word: '上半身', reading: 'じょうはんしん', meaning: '腰より上の体（nửa trên cơ thể）', example: '上半身を起こします' },
+        { word: '下肢', reading: 'かし', meaning: '足のこと（chi dưới）', example: '下肢の浮腫を確認する' },
+        { word: '大切', reading: 'たいせつ', meaning: '重要（quan trọng）', example: '安全が大切です' },
+        { word: '中心', reading: 'ちゅうしん', meaning: 'まん中（trung tâm）', example: '体の中心を保つ' },
+        { word: '左右', reading: 'さゆう', meaning: '左と右（trái và phải）', example: '左右の確認をする' },
+        { word: '以上', reading: 'いじょう', meaning: '〜より多い（hơn〜）', example: '37度以上は発熱' },
+        { word: '以下', reading: 'いか', meaning: '〜より少ない（dưới〜）', example: '60kg以下を維持する' },
+      ],
+      examples: [
+        { japanese: '上半身を少し起こしてください。背中の下にクッションを入れます。', reading: 'じょうはんしんをすこしおこしてください。せなかのしたにくっしょんをいれます。', translation: 'Hãy nâng phần trên cơ thể lên một chút. Đặt gối vào dưới lưng.' },
+        { japanese: '体温が37.5度以上のときはすぐに報告してください。', reading: 'たいおんが37.5どいじょうのときはすぐにほうこくしてください。', translation: 'Khi nhiệt độ cơ thể từ 37.5 độ trở lên, hãy báo cáo ngay.' },
+        { japanese: '左右の足の浮腫の大きさを確認します。', reading: 'さゆうのあしのふしゅのおおきさをかくにんします。', translation: 'Kiểm tra mức độ phù nề ở hai chân trái và phải.' },
+      ],
+      grammarNote: `【方向・位置の漢字熟語】
+上：上半身・以上・上着・上向き
+下：下肢・以下・下着・下向き
+左：左手・左側・左折・左右
+右：右手・右側・右折・左右
+中：中心・中断・集中・中止
+
+【大小の使い分け】
+大きい（おおきい）← 形容詞（tính từ）
+大（だい）← 接頭辞・熟語（đứng đầu từ ghép）
+例：大切（たいせつ）・大事（だいじ）・大好き（だいすき）
+
+【介護で重要な位置語】
+上半身（じょうはんしん）= nửa trên
+下肢（かし）= chi dưới
+左右確認（さゆうかくにん）= kiểm tra hai bên`,
+      quiz: {
+        question: '「下肢（かし）」とはどの部位ですか？',
+        options: [
+          { id: 'a', text: '腕（うで）' },
+          { id: 'b', text: '足（あし）・膝から下' },
+          { id: 'c', text: '腰（こし）' },
+          { id: 'd', text: '頭（あたま）' },
+        ],
+        correctId: 'b',
+        explanation: '「下肢（かし）」は「下（した）」+「肢（し：手足）」で、下の手足、つまり足・膝から下の部位。\n"下肢（かし）" = "下" (dưới) + "肢" (tay chân) = chi dưới (từ đầu gối xuống).',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n5-05-3': {
+    courseTitle: { ja: 'N5 漢字入門 〜80字〜', vi: 'Nhập môn Kanji N5 - 80 chữ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5漢字L3: 山・川・田・木・本・火・水',
+      titleTranslation: 'Kanji N5 Bài 3: 山・川・田・木・本・火・水 — Tự nhiên & Gốc rễ',
+      introduction: `自然を表す漢字と、そこから派生した重要語を学びます。「本」は「もと（根元・基本）」を意味し、「水分補給」「火気厳禁」など介護・医療の書類でもよく登場します。
+
+Hãy học các chữ Kanji biểu thị tự nhiên và các từ quan trọng được phát sinh từ đó. "本" có nghĩa là "gốc/cơ bản", và các chữ như 水分補給, 火気厳禁 cũng thường xuất hiện trong tài liệu điều dưỡng và y tế.`,
+      keyPoints: [
+        '山（やま・さん）: 山（やま）、富士山（ふじさん）、山田（やまだ・名前）',
+        '川（かわ・がわ）: 川（かわ）、川口（かわぐち・名前）',
+        '田（た・でん）: 田中（たなか・名前）、田舎（いなか）',
+        '木（き・もく・ぼく）: 木（き）、木曜日（もくようび）',
+        '本（ほん・もと）: 本（ほん）、日本（にほん）、基本（きほん）',
+        '火（ひ・か）: 火（ひ）、火曜日（かようび）、火気（かき）',
+        '水（みず・すい）: 水（みず）、水分（すいぶん）、水曜日（すいようび）',
+      ],
+      vocabulary: [
+        { word: '水分補給', reading: 'すいぶんほきゅう', meaning: '水を飲む（bổ sung nước）', example: 'こまめに水分補給してください' },
+        { word: '基本', reading: 'きほん', meaning: '土台・もと（cơ bản）', example: '介護の基本を学ぶ' },
+        { word: '日本語', reading: 'にほんご', meaning: '日本の言語（tiếng Nhật）', example: '日本語を勉強する' },
+        { word: '木曜日', reading: 'もくようび', meaning: '週の4日目（thứ Năm）', example: '木曜日に入浴します' },
+        { word: '火気厳禁', reading: 'かきげんきん', meaning: '火を使ってはいけない（cấm lửa）', example: '酸素使用中は火気厳禁' },
+        { word: '田中', reading: 'たなか', meaning: '日本の苗字（họ Tanaka）', example: '田中さん、薬の時間です' },
+      ],
+      examples: [
+        { japanese: '水分補給は1日1.5リットルを目標にしています。', reading: 'すいぶんほきゅうは1にち1.5りっとるをもくひょうにしています。', translation: 'Mục tiêu bổ sung nước là 1.5 lít mỗi ngày.' },
+        { japanese: '酸素吸入中は火気厳禁です。必ず確認してください。', reading: 'さんそきゅうにゅうちゅうはかきげんきんです。かならずかくにんしてください。', translation: 'Trong khi hút oxy, cấm sử dụng lửa. Hãy nhớ xác nhận.' },
+        { japanese: '田中さんの基本情報を確認してください。', reading: 'たなかさんのきほんじょうほうをかくにんしてください。', translation: 'Hãy xác nhận thông tin cơ bản của bác Tanaka.' },
+      ],
+      grammarNote: `【曜日の漢字】
+月（つき）→ 月曜日（げつようび）Monday
+火（ひ）→ 火曜日（かようび）Tuesday
+水（みず）→ 水曜日（すいようび）Wednesday
+木（き）→ 木曜日（もくようび）Thursday
+金（かね）→ 金曜日（きんようび）Friday
+土（つち）→ 土曜日（どようび）Saturday
+日（ひ）→ 日曜日（にちようび）Sunday
+
+【「本」の多様な意味】
+本（ほん）= cuốn sách
+日本（にほん）= nước Nhật
+基本（きほん）= cơ bản
+本人（ほんにん）= bản thân / chính người đó
+本日（ほんじつ）= hôm nay（formal）`,
+      quiz: {
+        question: '「水分補給（すいぶんほきゅう）」の意味は？',
+        options: [
+          { id: 'a', text: '水を出す' },
+          { id: 'b', text: '水分を十分に摂ること' },
+          { id: 'c', text: '薬を飲む' },
+          { id: 'd', text: '入浴する' },
+        ],
+        correctId: 'b',
+        explanation: '水分（すいぶん）= nước/độ ẩm、補給（ほきゅう）= bổ sung。水分補給 = bổ sung nước cho cơ thể。介護では脱水予防に重要。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n5-05-4': {
+    courseTitle: { ja: 'N5 漢字入門 〜80字〜', vi: 'Nhập môn Kanji N5 - 80 chữ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5漢字L4: 学・校・先・生・年・月・週',
+      titleTranslation: 'Kanji N5 Bài 4: 学・校・先・生・年・月・週 — Học tập & Thời gian',
+      introduction: `学習・時間に関する7つの漢字を学びます。「先生・学校・今年・先月・今週」など、日常会話や書類でよく使う表現が多数あります。介護記録の日付・期間の表現にも必須です。
+
+Hãy học 7 chữ Kanji liên quan đến học tập và thời gian. Có nhiều cách diễn đạt thường dùng trong hội thoại hàng ngày và tài liệu như 先生・学校・今年・先月・今週. Cũng cần thiết cho cách diễn đạt ngày tháng và khoảng thời gian trong hồ sơ điều dưỡng.`,
+      keyPoints: [
+        '学（まな・がく）: 学ぶ（まなぶ）、学校（がっこう）、学習（がくしゅう）',
+        '校（こう）: 学校（がっこう）、高校（こうこう）',
+        '先（さき・せん）: 先生（せんせい）、先月（せんげつ）、先週（せんしゅう）',
+        '生（いき・せい・しょう）: 先生（せんせい）、誕生日（たんじょうび）、生活（せいかつ）',
+        '年（とし・ねん）: 今年（ことし）、去年（きょねん）、〜年前（〜ねんまえ）',
+        '月（つき・がつ・げつ）: 今月（こんげつ）、先月（せんげつ）、来月（らいげつ）',
+        '週（しゅう）: 今週（こんしゅう）、先週（せんしゅう）、来週（らいしゅう）',
+      ],
+      vocabulary: [
+        { word: '先生', reading: 'せんせい', meaning: '教える人（thầy/cô giáo・bác sĩ）', example: '先生に相談します' },
+        { word: '生活', reading: 'せいかつ', meaning: '日常の暮らし（cuộc sống）', example: '日常生活の支援' },
+        { word: '今年', reading: 'ことし', meaning: 'この年（năm nay）', example: '今年から介護を始めた' },
+        { word: '先月', reading: 'せんげつ', meaning: '前の月（tháng trước）', example: '先月から体重が減った' },
+        { word: '来週', reading: 'らいしゅう', meaning: '次の週（tuần tới）', example: '来週、家族が面会に来る' },
+        { word: '誕生日', reading: 'たんじょうび', meaning: '生まれた日（ngày sinh nhật）', example: '田中さんの誕生日は来月です' },
+      ],
+      examples: [
+        { japanese: '先月から体重が2kg減少しています。先生に報告します。', reading: 'せんげつからたいじゅうが2kgげんしょうしています。せんせいにほうこくします。', translation: 'Từ tháng trước cân nặng đã giảm 2kg. Tôi sẽ báo cáo với bác sĩ.' },
+        { japanese: '今週の入浴スケジュールを確認してください。', reading: 'こんしゅうのにゅうよくすけじゅーるをかくにんしてください。', translation: 'Hãy xác nhận lịch tắm của tuần này.' },
+        { japanese: '日常生活の自立を支援するのが介護の目標です。', reading: 'にちじょうせいかつのじりつをしえんするのがかいごのもくひょうです。', translation: 'Mục tiêu của điều dưỡng là hỗ trợ tự lập trong cuộc sống hàng ngày.' },
+      ],
+      grammarNote: `【時間の表現パターン】
+今〜（kon〜）= hiện tại
+今日（きょう）・今週（こんしゅう）・今月（こんげつ）・今年（ことし）
+
+先〜（sen〜）= trước đó
+先日（せんじつ）・先週（せんしゅう）・先月（せんげつ）
+
+来〜（rai〜）= sau này
+来週（らいしゅう）・来月（らいげつ）・来年（らいねん）
+
+【「先生」の使い方】
+学校の先生 = thầy/cô giáo
+お医者さん = bác sĩ（でも「先生」と呼ぶのが一般的）
+介護施設では医師・看護師長なども「先生」と呼ぶことがある`,
+      quiz: {
+        question: '「先月（せんげつ）」の意味は？',
+        options: [
+          { id: 'a', text: '来月' },
+          { id: 'b', text: '今月' },
+          { id: 'c', text: '前の月' },
+          { id: 'd', text: '毎月' },
+        ],
+        correctId: 'c',
+        explanation: '先（せん）= trước。先月 = tháng trước。同様に先週（せんしゅう）= tuần trước、先日（せんじつ）= hôm trước。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n5-05-5': {
+    courseTitle: { ja: 'N5 漢字入門 〜80字〜', vi: 'Nhập môn Kanji N5 - 80 chữ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5漢字L5: 見・聞・書・読・話・来・行',
+      titleTranslation: 'Kanji N5 Bài 5: 見・聞・書・読・話・来・行 — Động từ cơ bản',
+      introduction: `日本語で最もよく使う動詞の漢字7つを学びます。これらは「見学・聞取り・書類・読書・会話・来院・外出」など、介護書類や職場のコミュニケーションで毎日使われます。
+
+Hãy học 7 chữ Kanji của những động từ dùng nhiều nhất trong tiếng Nhật. Các chữ này được dùng hàng ngày trong tài liệu điều dưỡng và giao tiếp tại nơi làm việc như 見学・聞取り・書類・読書・会話・来院・外出.`,
+      keyPoints: [
+        '見（み・けん）: 見る（みる）、見学（けんがく）、意見（いけん）',
+        '聞（き・ぶん）: 聞く（きく）、聞取り（ききとり）、新聞（しんぶん）',
+        '書（か・しょ）: 書く（かく）、書類（しょるい）、教科書（きょうかしょ）',
+        '読（よ・どく）: 読む（よむ）、読書（どくしょ）',
+        '話（はな・わ）: 話す（はなす）、会話（かいわ）、電話（でんわ）',
+        '来（く・らい）: 来る（くる）、来院（らいいん）、来日（らいにち）',
+        '行（い・こう）: 行く（いく）、外行（がいこう）→外出（がいしゅつ）',
+      ],
+      vocabulary: [
+        { word: '書類', reading: 'しょるい', meaning: '文書（tài liệu）', example: '書類に記入する' },
+        { word: '会話', reading: 'かいわ', meaning: '話し合い（hội thoại）', example: '日本語で会話する' },
+        { word: '聞取り', reading: 'ききとり', meaning: 'ヒアリング（nghe hiểu）', example: '利用者から聞取りをする' },
+        { word: '来院', reading: 'らいいん', meaning: '病院に来る（đến viện）', example: '家族が来院します' },
+        { word: '外出', reading: 'がいしゅつ', meaning: '外に出ること（ra ngoài）', example: '外出の許可が必要です' },
+        { word: '意見', reading: 'いけん', meaning: '考え（ý kiến）', example: '利用者の意見を聞く' },
+      ],
+      examples: [
+        { japanese: '毎朝、利用者の様子を見て記録します。聞取りも大切です。', reading: 'まいあさ、りようしゃのようすをみてきろくします。ききとりもたいせつです。', translation: 'Mỗi sáng, tôi quan sát tình trạng người dùng và ghi chép. Nghe hiểu cũng rất quan trọng.' },
+        { japanese: '書類に名前と日付を書いてください。', reading: 'しょるいになまえとひづけをかいてください。', translation: 'Hãy viết tên và ngày tháng vào tài liệu.' },
+        { japanese: '外出の際は必ず帰院時間を確認してください。', reading: 'がいしゅつのさいはかならずきいんじかんをかくにんしてください。', translation: 'Khi ra ngoài, nhất định hãy xác nhận giờ về.' },
+      ],
+      grammarNote: `【動詞漢字の訓読み（動詞形）】
+見る（みる）・見た・見て・見ます
+聞く（きく）・聞いた・聞いて・聞きます
+書く（かく）・書いた・書いて・書きます
+読む（よむ）・読んだ・読んで・読みます
+話す（はなす）・話した・話して・話します
+来る（くる）・来た・来て・来ます（不規則！）
+行く（いく）・行った・行って・行きます
+
+【熟語での音読み】
+見：見学・意見・発見
+聞：聞取り・新聞・見聞
+書：書類・書道・読書
+話：会話・電話・童話
+来：来院・来日・来月`,
+      quiz: {
+        question: '「書類（しょるい）」の意味は？',
+        options: [
+          { id: 'a', text: '本（書物）' },
+          { id: 'b', text: '文書・紙の資料' },
+          { id: 'c', text: '書く道具' },
+          { id: 'd', text: '教科書' },
+        ],
+        correctId: 'b',
+        explanation: '書類（しょるい）= 書（文書）+ 類（종류/種類）→ 文書・紙の資料のこと。介護記録・申請書など介護現場の「書類」は毎日作成します。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n5-05-6': {
+    courseTitle: { ja: 'N5 漢字入門 〜80字〜', vi: 'Nhập môn Kanji N5 - 80 chữ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5漢字L6: 金・円・百・千・万・白・赤',
+      titleTranslation: 'Kanji N5 Bài 6: 金・円・百・千・万・白・赤 — Tiền tệ & Màu sắc',
+      introduction: `お金の単位と色を表す漢字を学びます。「金額・円・白衣・赤信号・万全」など、日常生活と医療介護の場面で頻出の表現です。数字の漢字は給与・保険・費用の書類にも必須です。
+
+Hãy học các chữ Kanji biểu thị đơn vị tiền tệ và màu sắc. Các cách diễn đạt thường gặp trong cuộc sống hàng ngày và môi trường y tế điều dưỡng như 金額・円・白衣・赤信号・万全. Chữ số Kanji cũng cần thiết cho tài liệu lương, bảo hiểm, chi phí.`,
+      keyPoints: [
+        '金（かね・きん）: お金（おかね）、金額（きんがく）、金曜日（きんようび）',
+        '円（えん）: 円（えん・通貨）、円高（えんだか）、一円（いちえん）',
+        '百（ひゃく）: 百円（ひゃくえん）、百人（ひゃくにん）',
+        '千（せん）: 千円（せんえん）、千人（せんにん）',
+        '万（まん）: 一万円（いちまんえん）、万全（ばんぜん）',
+        '白（しろ・はく）: 白い（しろい）、白衣（はくい）、白血球（はっけっきゅう）',
+        '赤（あか・せき）: 赤い（あかい）、赤信号（あかしんごう）、赤ちゃん（あかちゃん）',
+      ],
+      vocabulary: [
+        { word: '金額', reading: 'きんがく', meaning: 'お金の量（số tiền）', example: '利用料金の金額を確認する' },
+        { word: '白衣', reading: 'はくい', meaning: '医療・介護スタッフの白い服（áo trắng y tế）', example: '白衣を着る' },
+        { word: '万全', reading: 'ばんぜん', meaning: '完璧な準備（chu đáo/hoàn hảo）', example: '万全の準備をする' },
+        { word: '赤ちゃん', reading: 'あかちゃん', meaning: '乳幼児（em bé）', example: '赤ちゃんのように大切に' },
+        { word: '赤信号', reading: 'あかしんごう', meaning: '止まれ（đèn đỏ）', example: '赤信号では止まる' },
+        { word: '白血球', reading: 'はっけっきゅう', meaning: '免疫の血球（bạch cầu）', example: '白血球の数値を確認する' },
+      ],
+      examples: [
+        { japanese: '介護保険の利用料金は月に数千円から数万円です。', reading: 'かいごほけんのりようりょうきんはつきにすうせんえんからすうまんえんです。', translation: 'Chi phí sử dụng bảo hiểm điều dưỡng là vài nghìn đến vài chục nghìn yên mỗi tháng.' },
+        { japanese: '白衣は清潔に保ち、毎日洗濯してください。', reading: 'はくいはせいけつにたもち、まいにちせんたくしてください。', translation: 'Hãy giữ áo trắng sạch sẽ và giặt mỗi ngày.' },
+        { japanese: '万全の準備で利用者さんをお迎えします。', reading: 'ばんぜんのじゅんびでりようしゃさんをおむかえします。', translation: 'Chúng tôi đón tiếp người dùng với sự chuẩn bị chu đáo.' },
+      ],
+      grammarNote: `【日本の通貨単位と数え方】
+1円（いちえん）= 1 yên
+100円（ひゃくえん）= 100 yên
+1,000円（せんえん）= 1.000 yên
+10,000円（いちまんえん）= 10.000 yên
+100,000円（じゅうまんえん）= 100.000 yên
+
+【色の表現】
+白（しろ/はく）= trắng：白衣・白髪（はくはつ）
+赤（あか/せき）= đỏ：赤血球（せっけっきゅう）
+青（あお/せい）= xanh：青信号（あおしんごう）
+黒（くろ/こく）= đen：黒板（こくばん）
+黄（き/おう）= vàng：黄色（きいろ）
+
+【医療系の白・赤漢字】
+白血球（はっけっきゅう）= bạch cầu
+赤血球（せっけっきゅう）= hồng cầu`,
+      quiz: {
+        question: '「万全の準備（ばんぜんのじゅんび）」の意味は？',
+        options: [
+          { id: 'a', text: '一万円の準備' },
+          { id: 'b', text: '何も準備しない' },
+          { id: 'c', text: 'すべてにおいて完璧な準備' },
+          { id: 'd', text: 'お金の準備' },
+        ],
+        correctId: 'c',
+        explanation: '万全（ばんぜん）= 万（すべて）+ 全（全部）→ 完璧・完全な準備のこと。"Banzen" = chuẩn bị hoàn hảo/chu đáo。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n5-05-7': {
+    courseTitle: { ja: 'N5 漢字入門 〜80字〜', vi: 'Nhập môn Kanji N5 - 80 chữ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5漢字L7: 医・病・薬・手・目・耳・口',
+      titleTranslation: 'Kanji N5 Bài 7: 医・病・薬・手・目・耳・口 — Y tế & Bộ phận cơ thể',
+      introduction: `介護・医療の現場で最重要の漢字7つです。「医師・病院・薬剤・手術・目薬・耳鳴り・口腔ケア」など、毎日の業務・書類に必ず出てきます。これらをマスターすることで仕事の理解が格段に向上します。
+
+Đây là 7 chữ Kanji quan trọng nhất trong môi trường điều dưỡng và y tế. Các từ như 医師・病院・薬剤・手術・目薬・耳鳴り・口腔ケア chắc chắn xuất hiện trong công việc hàng ngày và tài liệu. Thành thạo những chữ này sẽ cải thiện đáng kể sự hiểu biết công việc của bạn.`,
+      keyPoints: [
+        '医（い）: 医師（いし）、医療（いりょう）、医院（いいん）',
+        '病（やまい・びょう）: 病気（びょうき）、病院（びょういん）、病室（びょうしつ）',
+        '薬（くすり・やく）: 薬（くすり）、薬剤師（やくざいし）、目薬（めぐすり）',
+        '手（て・しゅ）: 手（て）、手術（しゅじゅつ）、手洗い（てあらい）',
+        '目（め・もく）: 目（め）、目薬（めぐすり）、目標（もくひょう）',
+        '耳（みみ・じ）: 耳（みみ）、耳鳴り（みみなり）、耳鼻科（じびか）',
+        '口（くち・こう）: 口（くち）、口腔（こうくう）、口座（こうざ）',
+      ],
+      vocabulary: [
+        { word: '医師', reading: 'いし', meaning: 'お医者さん（bác sĩ）', example: '医師の指示に従う' },
+        { word: '口腔ケア', reading: 'こうくうけあ', meaning: '口の中のケア（chăm sóc khoang miệng）', example: '食後に口腔ケアをする' },
+        { word: '手洗い', reading: 'てあらい', meaning: '手を洗う（rửa tay）', example: 'こまめに手洗いする' },
+        { word: '目標', reading: 'もくひょう', meaning: '達成したいこと（mục tiêu）', example: '今月の目標を立てる' },
+        { word: '病室', reading: 'びょうしつ', meaning: '入院している部屋（phòng bệnh）', example: '病室を清潔に保つ' },
+        { word: '薬剤師', reading: 'やくざいし', meaning: '薬の専門家（dược sĩ）', example: '薬剤師に確認する' },
+      ],
+      examples: [
+        { japanese: '食後の口腔ケアと手洗いは感染予防の基本です。', reading: 'しょくごのこうくうけあとてあらいはかんせんよぼうのきほんです。', translation: 'Chăm sóc khoang miệng sau bữa ăn và rửa tay là cơ bản phòng chống nhiễm khuẩn.' },
+        { japanese: '目薬は医師の指示通りに点眼してください。', reading: 'めぐすりはいしのしじどおりにてんがんしてください。', translation: 'Hãy nhỏ thuốc mắt đúng theo chỉ dẫn của bác sĩ.' },
+        { japanese: '耳鳴りや目のかすみがある場合は、すぐに報告してください。', reading: 'みみなりやめのかすみがあるばあいは、すぐにほうこくしてください。', translation: 'Trường hợp có ù tai hay mờ mắt, hãy báo cáo ngay.' },
+      ],
+      grammarNote: `【医療系漢字熟語まとめ】
+医：医師・医療・医院・医学・内科医・外科医
+病：病気・病院・病室・疾病・病棟
+薬：薬（くすり）・薬剤・目薬・薬局・投薬
+手：手術・手洗い・手当て・握手
+目：目薬・目標・目的・眼科
+耳：耳鳴り・耳鼻科・難聴
+口：口腔・口座・入口・出口
+
+【介護で毎日使う医療漢字フレーズ】
+医師の指示（いしのしじ）= theo chỉ dẫn bác sĩ
+口腔ケア（こうくうけあ）= chăm sóc khoang miệng
+手洗い（てあらい）= rửa tay
+投薬（とうやく）= dùng thuốc
+病室（びょうしつ）= phòng bệnh`,
+      quiz: {
+        question: '「口腔ケア（こうくうけあ）」とは何のケアですか？',
+        options: [
+          { id: 'a', text: '耳のケア' },
+          { id: 'b', text: '目のケア' },
+          { id: 'c', text: '口の中のケア（歯磨き・うがい等）' },
+          { id: 'd', text: '手のケア' },
+        ],
+        correctId: 'c',
+        explanation: '口腔（こうくう）= khoang miệng（口の中）。口腔ケア = chăm sóc khoang miệng（đánh răng, súc miệng）。介護では誤嚥性肺炎予防に重要。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n5-05-8': {
+    courseTitle: { ja: 'N5 漢字入門 〜80字〜', vi: 'Nhập môn Kanji N5 - 80 chữ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5漢字L8: 総復習テスト〜N5漢字80字〜',
+      titleTranslation: 'Kanji N5 Bài 8: Kiểm tra tổng hợp - 80 chữ Kanji N5',
+      introduction: `N5漢字コースの総まとめです。全7レッスンで学んだ漢字を総復習し、介護現場で使える読み書きの力を確認しましょう。読み方・意味・熟語をまとめてチェックします！
+
+Đây là tổng kết của khóa học Kanji N5. Hãy ôn tập tổng hợp các chữ Kanji đã học trong 7 bài học và xác nhận khả năng đọc viết có thể dùng tại hiện trường điều dưỡng. Kiểm tra cùng lúc cách đọc, nghĩa và từ ghép!`,
+      keyPoints: [
+        '【L1】人・日・時・体・食 → 介護の基本5字',
+        '【L2】大・小・上・下・中・左・右 → 方向・大きさ',
+        '【L3】山・川・田・木・本・火・水 → 自然・曜日',
+        '【L4】学・校・先・生・年・月・週 → 時間・学習',
+        '【L5】見・聞・書・読・話・来・行 → 動詞漢字',
+        '【L6】金・円・百・千・万・白・赤 → 数・通貨・色',
+        '【L7】医・病・薬・手・目・耳・口 → 医療・体パーツ',
+      ],
+      vocabulary: [
+        { word: '読み方', reading: 'よみかた', meaning: '漢字の読み方（cách đọc）', example: '漢字の読み方を覚える' },
+        { word: '熟語', reading: 'じゅくご', meaning: '漢字を組み合わせた単語（từ ghép）', example: '熟語を作る' },
+        { word: '訓読み', reading: 'くんよみ', meaning: '日本語の読み方（âm Nhật）', example: '水（みず）は訓読み' },
+        { word: '音読み', reading: 'おんよみ', meaning: '中国語由来の読み方（âm Hán）', example: '水（すい）は音読み' },
+        { word: '部首', reading: 'ぶしゅ', meaning: '漢字の構成要素（bộ thủ）', example: '部首で漢字を分類する' },
+        { word: 'ストローク', reading: 'すとろーく', meaning: '画数（số nét）', example: '「山」は3画です' },
+      ],
+      examples: [
+        { japanese: '体温・血圧・体重・食事量・水分量を毎日記録します。', reading: 'たいおん・けつあつ・たいじゅう・しょくじりょう・すいぶんりょうをまいにちきろくします。', translation: 'Ghi chép hàng ngày: nhiệt độ, huyết áp, cân nặng, lượng ăn, lượng nước.' },
+        { japanese: '医師の指示に基づき、薬の投与時間と量を確認してください。', reading: 'いしのしじにもとづき、くすりのとうよじかんとりょうをかくにんしてください。', translation: 'Dựa trên chỉ dẫn của bác sĩ, hãy xác nhận thời gian và liều lượng dùng thuốc.' },
+        { japanese: '先生、先月から下肢の浮腫が大きくなっています。', reading: 'せんせい、せんげつからかしのふしゅがおおきくなっています。', translation: 'Bác sĩ, từ tháng trước phù chi dưới ngày càng to hơn.' },
+      ],
+      grammarNote: `【N5漢字80字 全リスト】
+■数字：一二三四五六七八九十百千万
+■人・関係：人女男子父母兄姉弟妹
+■自然：山川田木本土石火水日月
+■方向・大きさ：上下中大小左右
+■時間：年月週時分
+■体・医療：体手目耳口足医病薬
+■学習・仕事：学校先生書読話
+■生活：食飲来行見聞金円白赤
+
+【覚え方のコツ】
+①まず読み方（訓読み）を覚える
+②次に熟語（音読み）で使い方を覚える
+③介護の文章で使うことで定着させる`,
+      quizzes: [
+        {
+          question: '「口腔ケア」の読み方は？',
+          options: [
+            { id: 'a', text: 'くちくうけあ' },
+            { id: 'b', text: 'こうくうけあ' },
+            { id: 'c', text: 'くちこうけあ' },
+            { id: 'd', text: 'こうこうけあ' },
+          ],
+          correctId: 'b',
+          explanation: '口腔（こうくう）は音読み。口（こう）+ 腔（くう）。介護現場で毎日使う言葉です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「上半身（じょうはんしん）」とはどの部位ですか？',
+          options: [
+            { id: 'a', text: '腰より下' },
+            { id: 'b', text: '腰より上（胸・腕・頭）' },
+            { id: 'c', text: '足全体' },
+            { id: 'd', text: '背中だけ' },
+          ],
+          correctId: 'b',
+          explanation: '上半身 = nửa trên cơ thể（腰より上：胸・腕・頭・背中）。対義語は下半身（かはんしん）= nửa dưới。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「水分補給（すいぶんほきゅう）」の意味は？',
+          options: [
+            { id: 'a', text: '水を飲む・補う' },
+            { id: 'b', text: '血圧を測る' },
+            { id: 'c', text: '体温を下げる' },
+            { id: 'd', text: '薬を飲む' },
+          ],
+          correctId: 'a',
+          explanation: '水分（すいぶん）= độ ẩm/nước、補給（ほきゅう）= bổ sung。水分補給 = bổ sung nước cho cơ thể。高齢者の脱水予防に必須。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「医師の指示（いしのしじ）」とはどういう意味？',
+          options: [
+            { id: 'a', text: '看護師の命令' },
+            { id: 'b', text: '家族の要望' },
+            { id: 'c', text: '医者からの指示・命令' },
+            { id: 'd', text: '自分の判断' },
+          ],
+          correctId: 'c',
+          explanation: '医師（いし）= bác sĩ、指示（しじ）= chỉ thị/hướng dẫn。「医師の指示に従う」= tuân theo chỉ dẫn của bác sĩ。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「毎日（まいにち）」の「毎」に最も近い意味は？',
+          options: [
+            { id: 'a', text: '一度だけ' },
+            { id: 'b', text: 'たまに' },
+            { id: 'c', text: '〜のたびに・いつも' },
+            { id: 'd', text: '一日' },
+          ],
+          correctId: 'c',
+          explanation: '毎（まい）= every / mỗi。毎日（まいにち）= mỗi ngày、毎週（まいしゅう）= mỗi tuần、毎月（まいつき）= mỗi tháng。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
   // ===== N4 語彙 =====
   'n4-01': {
     courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
@@ -5480,6 +5967,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n5-02': ['n5-02', 'n5-02-2', 'n5-02-3', 'n5-02-4', 'n5-02-5', 'n5-02-6', 'n5-02-7', 'n5-02-8', 'n5-02-9', 'n5-02-10'],
   'n5-03': ['n5-03', 'n5-03-2', 'n5-03-3', 'n5-03-4', 'n5-03-5', 'n5-03-6', 'n5-03-7', 'n5-03-8', 'n5-03-9', 'n5-03-10', 'n5-03-11', 'n5-03-12', 'n5-03-13', 'n5-03-14', 'n5-03-15'],
   'n5-04': ['n5-04', 'n5-04-2', 'n5-04-3', 'n5-04-4', 'n5-04-5', 'n5-04-6', 'n5-04-7', 'n5-04-8', 'n5-04-9', 'n5-04-10', 'n5-04-11', 'n5-04-12'],
+  'n5-05': ['n5-05', 'n5-05-2', 'n5-05-3', 'n5-05-4', 'n5-05-5', 'n5-05-6', 'n5-05-7', 'n5-05-8'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -5530,6 +6018,14 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n5-04-10': { ja: '介護現場のダイアログ', vi: 'Hội thoại điều dưỡng' },
   'n5-04-11': { ja: '家族・個人情報の会話', vi: 'Gia đình & Thông tin cá nhân' },
   'n5-04-12': { ja: '総復習ロールプレイ', vi: 'Kiểm tra nhập vai tổng hợp' },
+  'n5-05':    { ja: '人・日・時・体・食', vi: 'Người・Ngày・Giờ・Thân・Ăn' },
+  'n5-05-2':  { ja: '大・小・上・下・左・右', vi: 'To nhỏ & Phương hướng' },
+  'n5-05-3':  { ja: '山・川・田・木・本・火・水', vi: 'Tự nhiên & Thứ trong tuần' },
+  'n5-05-4':  { ja: '学・校・先・生・年・月・週', vi: 'Học tập & Thời gian' },
+  'n5-05-5':  { ja: '見・聞・書・読・話・来・行', vi: 'Động từ cơ bản' },
+  'n5-05-6':  { ja: '金・円・百・千・万・白・赤', vi: 'Tiền tệ & Màu sắc' },
+  'n5-05-7':  { ja: '医・病・薬・手・目・耳・口', vi: 'Y tế & Bộ phận cơ thể' },
+  'n5-05-8':  { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp 80 chữ' },
 };
 
 // Find course ID for a given lesson ID
