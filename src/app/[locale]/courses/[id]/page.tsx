@@ -3572,6 +3572,1097 @@ Từ vựng về cảm xúc và tâm trạng rất cần thiết trong chăm só
       xpReward: 50,
     },
   },
+
+  // ===== N5 文法 L2: 助詞 に・で・へ =====
+  'n5-03-2': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第2回 〜助詞「に」「で」「へ」〜',
+      titleTranslation: 'Ngữ pháp Bài 2 - Trợ từ に・で・へ',
+      introduction: `日本語には場所・時間・方向を表す助詞が複数あります。「に」「で」「へ」は介護現場でも毎日使う重要な助詞です。意味を正しく区別すると、利用者さんへの声かけが自然になります。
+
+Tiếng Nhật có nhiều trợ từ chỉ địa điểm, thời gian, phương hướng. に・で・へ là 3 trợ từ quan trọng dùng hàng ngày trong điều dưỡng.`,
+      keyPoints: [
+        '「に」= 時間・場所（存在）・方向：7時に起きます／部屋にいます／日本に来ました',
+        '「で」= 動作の場所・手段：食堂で食べます／バスで行きます',
+        '「へ」= 方向（〜に近いが、より方向性を強調）：会社へ行きます',
+        '存在の動詞：います（人・動物）／あります（物）',
+        '時間の助詞：〜時に・〜日に・〜月に　※「今日」「明日」には付かない',
+        '場所の使い分け：「〜にいる/ある」=存在 ／「〜で動詞」=動作',
+      ],
+      vocabulary: [
+        { word: '部屋', reading: 'へや', meaning: '部屋（phòng）', example: '部屋にいます' },
+        { word: '食堂', reading: 'しょくどう', meaning: '食堂（nhà ăn）', example: '食堂で食べます' },
+        { word: '病院', reading: 'びょういん', meaning: '病院（bệnh viện）', example: '病院へ行きます' },
+        { word: 'トイレ', reading: 'トイレ', meaning: 'お手洗い（toilet）', example: 'トイレに行きたいです' },
+        { word: '車椅子', reading: 'くるまいす', meaning: '車椅子（xe lăn）', example: '車椅子で移動します' },
+        { word: 'お風呂', reading: 'おふろ', meaning: 'お風呂（phòng tắm）', example: 'お風呂に入ります' },
+      ],
+      examples: [
+        { japanese: '田中さんは部屋にいます。', reading: 'たなかさんはへやにいます。', translation: 'Anh Tanaka đang ở trong phòng.' },
+        { japanese: '食堂でお昼ご飯を食べます。', reading: 'しょくどうでおひるごはんをたべます。', translation: 'Ăn trưa ở nhà ăn.' },
+        { japanese: '8時にお薬を飲みましょう。', reading: 'はちじにおくすりをのみましょう。', translation: 'Hãy uống thuốc lúc 8 giờ.' },
+        { japanese: '車椅子でリハビリ室へ行きます。', reading: 'くるまいすでリハビリしつへいきます。', translation: 'Đi đến phòng phục hồi bằng xe lăn.' },
+      ],
+      grammarNote: `【に vs で の違い】
+「に」= 存在の場所（部屋にいます）／到着点（病院に行く）／時間（7時に）
+「で」= 動作の場所（食堂で食べる）／手段（バスで行く）
+
+【〜へ vs 〜に】
+ほぼ同じ意味だが、「へ」は方向性、「に」は到着点を強調。
+日常会話ではどちらも使えますが、丁寧な書き言葉では「へ」が好まれます。
+
+Trong môi trường điều dưỡng:
+お部屋に入ります / トイレに行きます / 食堂で食事します`,
+      quizzes: [
+        {
+          question: '正しい文を選んでください：「7時（  ）起きます」',
+          options: [{ id: 'a', text: 'で' }, { id: 'b', text: 'に' }, { id: 'c', text: 'へ' }, { id: 'd', text: 'を' }],
+          correctId: 'b',
+          explanation: '時間には「に」を使います。7時に起きます。\nThời gian dùng trợ từ「に」.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「食堂（  ）ご飯を食べます」 — 正しいのは？',
+          options: [{ id: 'a', text: 'に' }, { id: 'b', text: 'で' }, { id: 'c', text: 'へ' }, { id: 'd', text: 'を' }],
+          correctId: 'b',
+          explanation: '動作（食べる）の場所には「で」を使います。\n「で」chỉ địa điểm hành động.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「田中さんは部屋（  ）います」',
+          options: [{ id: 'a', text: 'で' }, { id: 'b', text: 'に' }, { id: 'c', text: 'を' }, { id: 'd', text: 'へ' }],
+          correctId: 'b',
+          explanation: '存在の場所には「に」を使います。「います」は人・動物の存在。\n「に」+います dùng cho sự tồn tại của người/động vật.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「車椅子（  ）リハビリ室へ行きます」',
+          options: [{ id: 'a', text: 'に' }, { id: 'b', text: 'で' }, { id: 'c', text: 'と' }, { id: 'd', text: 'を' }],
+          correctId: 'b',
+          explanation: '手段（道具）には「で」を使います。「車椅子で移動」「バスで行く」。\n「で」+ phương tiện.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L3: 動詞ます形・過去・否定 =====
+  'n5-03-3': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第3回 〜動詞ます形：現在・過去・否定〜',
+      titleTranslation: 'Ngữ pháp Bài 3 - Động từ thể ます: hiện tại・quá khứ・phủ định',
+      introduction: `動詞のます形は丁寧な日本語の基本です。現在「〜ます」、過去「〜ました」、否定「〜ません」、過去否定「〜ませんでした」の4つを正しく使い分けられると、ほとんどの介護現場の会話に対応できます。
+
+Thể ます của động từ là cơ bản của tiếng Nhật lịch sự. Nắm vững 4 dạng cơ bản: hiện tại・quá khứ・phủ định・quá khứ phủ định.`,
+      keyPoints: [
+        '現在肯定：〜ます（食べます・飲みます・行きます）',
+        '現在否定：〜ません（食べません・飲みません）',
+        '過去肯定：〜ました（食べました・飲みました）',
+        '過去否定：〜ませんでした（食べませんでした）',
+        '質問形：〜ますか？（食べますか？／行きますか？）',
+        '介護でよく使う動詞：起きます・寝ます・食べます・飲みます・歩きます・座ります',
+      ],
+      vocabulary: [
+        { word: '起きます', reading: 'おきます', meaning: 'wake up', example: '7時に起きます' },
+        { word: '寝ます', reading: 'ねます', meaning: 'sleep', example: '10時に寝ます' },
+        { word: '歩きます', reading: 'あるきます', meaning: 'walk', example: 'ゆっくり歩きます' },
+        { word: '座ります', reading: 'すわります', meaning: 'sit', example: 'こちらに座ります' },
+        { word: '立ちます', reading: 'たちます', meaning: 'stand', example: 'ゆっくり立ちます' },
+        { word: '飲みます', reading: 'のみます', meaning: 'drink', example: 'お薬を飲みます' },
+        { word: '食べます', reading: 'たべます', meaning: 'eat', example: 'ご飯を食べます' },
+        { word: '見ます', reading: 'みます', meaning: 'watch/look', example: 'テレビを見ます' },
+      ],
+      examples: [
+        { japanese: '今朝、お薬を飲みましたか？', reading: 'けさ、おくすりをのみましたか？', translation: 'Sáng nay đã uống thuốc chưa?' },
+        { japanese: 'はい、飲みました。', reading: 'はい、のみました。', translation: 'Vâng, đã uống rồi.' },
+        { japanese: '昨日はお風呂に入りませんでした。', reading: 'きのうはおふろにはいりませんでした。', translation: 'Hôm qua đã không tắm.' },
+        { japanese: '明日はリハビリに行きますか？', reading: 'あしたはリハビリにいきますか？', translation: 'Ngày mai có đi phục hồi chức năng không?' },
+      ],
+      grammarNote: `【ます形 4活用まとめ】
+肯定　　現在：飲み**ます**　　過去：飲み**ました**
+否定　　現在：飲み**ません**　過去：飲み**ませんでした**
+
+【質問の作り方】
+〜ますか？　文末に「か」を付けるだけ。
+　例：食べます→食べますか？／来ますか？／いますか？
+
+【介護でよく使う流れ】
+朝：起きます → 顔を洗います → ご飯を食べます → お薬を飲みます
+夜：お風呂に入ります → 寝ます`,
+      quizzes: [
+        {
+          question: '「飲みます」の過去形は？',
+          options: [{ id: 'a', text: '飲みません' }, { id: 'b', text: '飲みました' }, { id: 'c', text: '飲みませんでした' }, { id: 'd', text: '飲みましょう' }],
+          correctId: 'b',
+          explanation: '過去肯定は「〜ました」。飲みます→飲みました。\nQuá khứ khẳng định: 〜ました.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「昨日お風呂に入らなかった」を丁寧に言うと？',
+          options: [
+            { id: 'a', text: '入りません' },
+            { id: 'b', text: '入りました' },
+            { id: 'c', text: '入りませんでした' },
+            { id: 'd', text: '入りますか' },
+          ],
+          correctId: 'c',
+          explanation: '過去否定は「〜ませんでした」。\nQuá khứ phủ định: 〜ませんでした.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「Did you eat?」を日本語で？',
+          options: [
+            { id: 'a', text: '食べますか？' },
+            { id: 'b', text: '食べましたか？' },
+            { id: 'c', text: '食べませんか？' },
+            { id: 'd', text: '食べますよ' },
+          ],
+          correctId: 'b',
+          explanation: '過去の質問は「〜ましたか？」。\n「〜ましたか？」= câu hỏi quá khứ.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L4: い形容詞 =====
+  'n5-03-4': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第4回 〜い形容詞〜',
+      titleTranslation: 'Ngữ pháp Bài 4 - Tính từ đuôi い',
+      introduction: `日本語の形容詞には「い形容詞」と「な形容詞」の2種類があります。今回は「い形容詞」を学びます。「あつい・さむい・おいしい」など末尾が「い」で終わるものです。介護では体調や気持ちを表すときによく使います。
+
+Tính từ tiếng Nhật có 2 loại: い形容詞 và な形容詞. Bài này học 「い形容詞」 — những tính từ kết thúc bằng「い」(あつい・さむい・おいしい). Hay dùng khi mô tả tình trạng và cảm xúc.`,
+      keyPoints: [
+        '基本形：〜い（あつい・さむい・おいしい・たかい）',
+        '現在肯定：〜いです（あついです）',
+        '現在否定：〜くないです（あつくないです）',
+        '過去肯定：〜かったです（あつかったです）',
+        '過去否定：〜くなかったです（あつくなかったです）',
+        '名詞修飾：〜い + 名詞（あつい日／おいしいご飯）',
+        '※「いい」だけ特殊：いい→よくない・よかった・よくなかった',
+      ],
+      vocabulary: [
+        { word: '熱い', reading: 'あつい', meaning: 'hot', example: 'お茶が熱いです' },
+        { word: '冷たい', reading: 'つめたい', meaning: 'cold (touch)', example: '水が冷たいです' },
+        { word: '寒い', reading: 'さむい', meaning: 'cold (weather)', example: '今日は寒いです' },
+        { word: '暑い', reading: 'あつい', meaning: 'hot (weather)', example: '夏は暑いです' },
+        { word: '痛い', reading: 'いたい', meaning: 'painful', example: 'お腹が痛いです' },
+        { word: '美味しい', reading: 'おいしい', meaning: 'delicious', example: 'ご飯がおいしいです' },
+        { word: '高い', reading: 'たかい', meaning: 'expensive/tall', example: '値段が高いです' },
+        { word: 'いい', reading: 'いい', meaning: 'good', example: '気分がいいです' },
+      ],
+      examples: [
+        { japanese: 'お風呂のお湯はちょうどいいですか？', reading: 'おふろのおゆはちょうどいいですか？', translation: 'Nước nóng trong bồn vừa phải không?' },
+        { japanese: '今日は寒くないですよ。', reading: 'きょうはさむくないですよ。', translation: 'Hôm nay không lạnh đâu.' },
+        { japanese: '昨日のお食事はおいしかったです。', reading: 'きのうのおしょくじはおいしかったです。', translation: 'Bữa ăn hôm qua ngon quá.' },
+        { japanese: '体の痛い場所はありますか？', reading: 'からだのいたいばしょはありますか？', translation: 'Có chỗ nào trên người đau không?' },
+      ],
+      grammarNote: `【い形容詞の活用まとめ】
+あつい (基本) → あついです (肯定) → あつくないです (否定)
+　　　　　　　→ あつかったです (過去) → あつくなかったです (過去否定)
+
+【特例：「いい」(良い)】
+いいです → よくないです → よかったです → よくなかったです
+※会話では「よい」も使う
+
+【介護で重要な い形容詞】
+痛い・熱い・冷たい・寒い・暑い・苦しい・気持ちいい`,
+      quizzes: [
+        {
+          question: '「あつい」の否定形は？',
+          options: [{ id: 'a', text: 'あついじゃない' }, { id: 'b', text: 'あつくない' }, { id: 'c', text: 'あつないい' }, { id: 'd', text: 'あつでない' }],
+          correctId: 'b',
+          explanation: 'い形容詞の否定は「〜い」を「〜くない」に変えます。\nい形容詞 phủ định: 〜い → 〜くない.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「Was delicious」の正しい言い方は？',
+          options: [
+            { id: 'a', text: 'おいしいでした' },
+            { id: 'b', text: 'おいしかったです' },
+            { id: 'c', text: 'おいしくでした' },
+            { id: 'd', text: 'おいしかった' },
+          ],
+          correctId: 'b',
+          explanation: '過去肯定：〜い → 〜かったです。「おいしかったです」。\n「い」→「かった」+「です」.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「いい」の過去否定形は？',
+          options: [
+            { id: 'a', text: 'いくなかったです' },
+            { id: 'b', text: 'よくなかったです' },
+            { id: 'c', text: 'いいじゃなかった' },
+            { id: 'd', text: 'よかったくない' },
+          ],
+          correctId: 'b',
+          explanation: '「いい」は特殊：いい→よくない→よかった→よくなかった。\n「いい」đặc biệt, dùng「よく〜」khi biến hình.',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L5: な形容詞 =====
+  'n5-03-5': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第5回 〜な形容詞〜',
+      titleTranslation: 'Ngữ pháp Bài 5 - Tính từ đuôi な',
+      introduction: `「な形容詞」は名詞のように扱う形容詞です。「きれい・しずか・げんき・しんぱい」など。「い形容詞」と活用が違うので注意。介護では利用者さんの状態を表すときに必須です。
+
+「な形容詞」là loại tính từ hoạt động giống danh từ. Cách chia khác với い形容詞.`,
+      keyPoints: [
+        '基本形：〜な + 名詞（きれいな部屋／元気な人）',
+        '現在肯定：〜です（しずかです）',
+        '現在否定：〜じゃありません／〜ではありません（しずかじゃありません）',
+        '過去肯定：〜でした（しずかでした）',
+        '過去否定：〜じゃありませんでした（しずかじゃありませんでした）',
+        '注意：「きれい・きらい」は語尾が「い」でもな形容詞！',
+      ],
+      vocabulary: [
+        { word: '元気', reading: 'げんき', meaning: 'energetic/healthy', example: '元気な毎日' },
+        { word: 'きれい', reading: 'きれい', meaning: 'clean/beautiful', example: 'きれいな部屋' },
+        { word: '静か', reading: 'しずか', meaning: 'quiet', example: '静かな夜' },
+        { word: '好き', reading: 'すき', meaning: 'like', example: '魚が好きです' },
+        { word: '嫌い', reading: 'きらい', meaning: 'dislike', example: '辛い物が嫌いです' },
+        { word: '心配', reading: 'しんぱい', meaning: 'worried', example: '心配です' },
+        { word: '大丈夫', reading: 'だいじょうぶ', meaning: 'OK / fine', example: '大丈夫ですか？' },
+        { word: '便利', reading: 'べんり', meaning: 'convenient', example: '便利な道具' },
+      ],
+      examples: [
+        { japanese: '今日はお元気ですか？', reading: 'きょうはおげんきですか？', translation: 'Hôm nay anh/chị có khỏe không?' },
+        { japanese: 'お部屋はとてもきれいですね。', reading: 'おへやはとてもきれいですね。', translation: 'Phòng rất sạch đẹp nhỉ.' },
+        { japanese: '昨日は静かじゃありませんでした。', reading: 'きのうはしずかじゃありませんでした。', translation: 'Hôm qua không yên tĩnh.' },
+        { japanese: '心配しないでください。大丈夫ですよ。', reading: 'しんぱいしないでください。だいじょうぶですよ。', translation: 'Đừng lo lắng. Không sao đâu.' },
+      ],
+      grammarNote: `【な形容詞の活用まとめ】
+きれい → きれいです (肯定) → きれいじゃありません (否定)
+　　　　　 → きれいでした (過去) → きれいじゃありませんでした (過去否定)
+
+【名詞修飾は「な」が必要】
+きれい**な**部屋 / 元気**な**人 / 静か**な**場所
+※い形容詞は「い」のまま（あつい部屋）
+
+【〜じゃありません vs 〜ではありません】
+意味は同じ、「ではありません」の方が丁寧・改まった表現`,
+      quizzes: [
+        {
+          question: '「元気な人」「きれいな部屋」— なぜ「な」が必要？',
+          options: [
+            { id: 'a', text: '名詞だから' },
+            { id: 'b', text: 'な形容詞は名詞修飾時に「な」が必要だから' },
+            { id: 'c', text: 'い形容詞だから' },
+            { id: 'd', text: '動詞だから' },
+          ],
+          correctId: 'b',
+          explanation: 'な形容詞は名詞を修飾するときに「な」を付けます。\n「な」cần khi tính từ này tu sức danh từ.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「きれい」の過去否定形を選んでください',
+          options: [
+            { id: 'a', text: 'きれいくないでした' },
+            { id: 'b', text: 'きれいじゃありませんでした' },
+            { id: 'c', text: 'きれいかったです' },
+            { id: 'd', text: 'きれいませんでした' },
+          ],
+          correctId: 'b',
+          explanation: 'な形容詞の過去否定は「〜じゃありませんでした」。\nQuá khứ phủ định của な形容詞: 〜じゃありませんでした.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '次のうち「な形容詞」はどれ？',
+          options: [
+            { id: 'a', text: '熱い (あつい)' },
+            { id: 'b', text: '美味しい (おいしい)' },
+            { id: 'c', text: '元気 (げんき)' },
+            { id: 'd', text: '高い (たかい)' },
+          ],
+          correctId: 'c',
+          explanation: '「元気」は語尾が「い」じゃないのでな形容詞。「あつい・おいしい・たかい」はい形容詞。\n「元気」là な形容詞.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L6: 指示詞 これ・それ・あれ・どれ =====
+  'n5-03-6': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第6回 〜指示詞 これ・それ・あれ〜',
+      titleTranslation: 'Ngữ pháp Bài 6 - Đại từ chỉ định これ・それ・あれ',
+      introduction: `「こ・そ・あ・ど」シリーズは日本語の重要な指示詞。物・場所・方向・人を指すときに使います。介護では「これは○○ですよ」と利用者さんに説明する場面が多いので重要です。
+
+Hệ thống「こ・そ・あ・ど」là đại từ chỉ định quan trọng. Dùng để chỉ vật・địa điểm・phương hướng・người.`,
+      keyPoints: [
+        '物：これ（near me）／それ（near you）／あれ（far）／どれ（which）',
+        '名詞修飾：この〜／その〜／あの〜／どの〜（この薬／その本／あの方）',
+        '場所：ここ／そこ／あそこ／どこ',
+        '方向：こちら／そちら／あちら／どちら',
+        '人（丁寧）：こちら・そちら・あちらの方（あの方=あの人の丁寧語）',
+        '応用：こんな・そんな・あんな・どんな（このような）',
+      ],
+      vocabulary: [
+        { word: 'これ', reading: 'これ', meaning: 'this (near me)', example: 'これは薬です' },
+        { word: 'それ', reading: 'それ', meaning: 'that (near you)', example: 'それを取ってください' },
+        { word: 'あれ', reading: 'あれ', meaning: 'that (over there)', example: 'あれは何ですか？' },
+        { word: 'この', reading: 'この', meaning: 'this (+noun)', example: 'この薬は朝飲みます' },
+        { word: 'ここ', reading: 'ここ', meaning: 'here', example: 'ここに座ります' },
+        { word: 'あそこ', reading: 'あそこ', meaning: 'over there', example: 'あそこにあります' },
+      ],
+      examples: [
+        { japanese: 'これはお薬ですよ。今飲みましょうね。', reading: 'これはおくすりですよ。いまのみましょうね。', translation: 'Đây là thuốc. Uống bây giờ nhé.' },
+        { japanese: 'その本を取ってください。', reading: 'そのほんをとってください。', translation: 'Lấy giúp cuốn sách đó nhé.' },
+        { japanese: 'あちらが田中さんのお部屋です。', reading: 'あちらがたなかさんのおへやです。', translation: 'Bên kia là phòng của anh Tanaka.' },
+        { japanese: 'どの椅子に座りますか？', reading: 'どのいすにすわりますか？', translation: 'Anh/chị ngồi vào ghế nào?' },
+      ],
+      grammarNote: `【こ・そ・あ・ど 体系まとめ】
+　　　　　　話し手の近く｜聞き手の近く｜両方から遠い｜疑問
+物　　　　　これ　　　　　それ　　　　　あれ　　　　　どれ
++名詞　　　 この〜　　　　 その〜　　　　 あの〜　　　　 どの〜
+場所　　　　ここ　　　　　そこ　　　　　あそこ　　　　 どこ
+方向（丁寧）こちら　　　　 そちら　　　　 あちら　　　　 どちら
+状態　　　　こんな　　　　 そんな　　　　 あんな　　　　 どんな`,
+      quizzes: [
+        {
+          question: '相手の近くにある物を指すときに使うのは？',
+          options: [{ id: 'a', text: 'これ' }, { id: 'b', text: 'それ' }, { id: 'c', text: 'あれ' }, { id: 'd', text: 'どれ' }],
+          correctId: 'b',
+          explanation: '「それ」= 聞き手の近くにある物。\n「それ」chỉ vật ở gần người nghe.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「あの方は田中さんです」の意味は？',
+          options: [
+            { id: 'a', text: 'この人は田中さん' },
+            { id: 'b', text: 'あの人（遠くの人）は田中さん（丁寧）' },
+            { id: 'c', text: '田中さんはどの方ですか' },
+            { id: 'd', text: '田中さんは方向です' },
+          ],
+          correctId: 'b',
+          explanation: '「あの方」=「あの人」の丁寧な言い方。離れた所の人を指す。\n「あの方」là cách nói lịch sự của「あの人」.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L7: 場所表現 ここ・あります・います =====
+  'n5-03-7': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第7回 〜場所表現 あります・います〜',
+      titleTranslation: 'Ngữ pháp Bài 7 - Diễn đạt địa điểm: あります・います',
+      introduction: `「あります」「います」は存在を表す動詞です。物には「あります」、人や動物には「います」を使います。介護では「○○はどこにありますか？」「△△さんはお部屋にいます」など、毎日使う表現です。
+
+「あります」「います」là động từ chỉ sự tồn tại. 「あります」cho vật, 「います」cho người và động vật.`,
+      keyPoints: [
+        '物：〜があります／〜にあります（机の上に本があります）',
+        '人・動物：〜がいます／〜にいます（部屋に田中さんがいます）',
+        '所有・存在の質問：〜はありますか？／〜はいますか？',
+        '位置：上・下・前・後ろ・隣・近く・遠く',
+        '〜の上に／〜の下に／〜の中に／〜の隣に',
+        '否定：〜はありません／〜はいません',
+      ],
+      vocabulary: [
+        { word: '上', reading: 'うえ', meaning: 'on/above', example: '机の上' },
+        { word: '下', reading: 'した', meaning: 'under', example: 'ベッドの下' },
+        { word: '中', reading: 'なか', meaning: 'inside', example: 'お部屋の中' },
+        { word: '前', reading: 'まえ', meaning: 'in front of', example: '建物の前' },
+        { word: '後ろ', reading: 'うしろ', meaning: 'behind', example: '車の後ろ' },
+        { word: '隣', reading: 'となり', meaning: 'next to', example: '隣の部屋' },
+        { word: '近く', reading: 'ちかく', meaning: 'near', example: '駅の近く' },
+      ],
+      examples: [
+        { japanese: 'お薬は引き出しの中にあります。', reading: 'おくすりはひきだしのなかにあります。', translation: 'Thuốc ở trong ngăn kéo.' },
+        { japanese: '田中さんは食堂にいます。', reading: 'たなかさんはしょくどうにいます。', translation: 'Anh Tanaka đang ở nhà ăn.' },
+        { japanese: 'トイレはどこにありますか？', reading: 'トイレはどこにありますか？', translation: 'Toilet ở đâu?' },
+        { japanese: 'ベッドの隣にテーブルがあります。', reading: 'ベッドのとなりにテーブルがあります。', translation: 'Cạnh giường có cái bàn.' },
+      ],
+      grammarNote: `【あります vs います】
+あります = 物・植物（動かないもの）
+　例：本があります／病院があります
+います = 人・動物（動くもの）
+　例：田中さんがいます／犬がいます
+
+【場所表現の語順】
+〜は + 場所 + に + あります／います
+　例：お薬は机の上にあります。
+
+【質問パターン】
+　〜はどこにありますか？／〜はどこにいますか？
+　〜には何がありますか？／〜には誰がいますか？`,
+      quizzes: [
+        {
+          question: '「机の上に本（  ）あります」',
+          options: [{ id: 'a', text: 'は' }, { id: 'b', text: 'を' }, { id: 'c', text: 'が' }, { id: 'd', text: 'に' }],
+          correctId: 'c',
+          explanation: '存在を初めて伝えるときは「が」を使います。\n「が」dùng khi giới thiệu sự tồn tại lần đầu.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「田中さん」に使うのは「あります」「います」どちら？',
+          options: [{ id: 'a', text: 'あります' }, { id: 'b', text: 'います' }, { id: 'c', text: 'どちらでも' }, { id: 'd', text: 'あるです' }],
+          correctId: 'b',
+          explanation: '人には「います」を使います。\nNgười dùng「います」.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L8: 数字・時間・日付 =====
+  'n5-03-8': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第8回 〜数字・時間・日付の表現〜',
+      titleTranslation: 'Ngữ pháp Bài 8 - Số đếm, giờ, ngày tháng',
+      introduction: `数字・時間・日付の表現は介護で毎日使います。「3時にお薬を飲みましょう」「明日10時に検査です」など。基本の数字、時刻、日付の言い方を覚えましょう。
+
+Số đếm, giờ giấc, ngày tháng dùng hàng ngày trong điều dưỡng. Ghi nhớ cách nói cơ bản.`,
+      keyPoints: [
+        '時刻：1時=いちじ、2時=にじ、4時=よじ、7時=しちじ、9時=くじ',
+        '分：1分=いっぷん、3分=さんぷん、半=はん（30分）',
+        '日付：1日=ついたち、2日=ふつか、3日=みっか…20日=はつか',
+        '月：1月=いちがつ、4月=しがつ、7月=しちがつ、9月=くがつ',
+        '曜日：月・火・水・木・金・土・日曜日',
+        '助数詞：〜回（かい）／〜個（こ）／〜本（ほん）／〜人（にん）',
+      ],
+      vocabulary: [
+        { word: '時間', reading: 'じかん', meaning: 'time', example: '何時間？' },
+        { word: '半', reading: 'はん', meaning: 'half (30 min)', example: '3時半' },
+        { word: '今', reading: 'いま', meaning: 'now', example: '今は3時です' },
+        { word: '何時', reading: 'なんじ', meaning: 'what time', example: '今何時ですか？' },
+        { word: '今日', reading: 'きょう', meaning: 'today', example: '今日は月曜日' },
+        { word: '明日', reading: 'あした', meaning: 'tomorrow', example: '明日は休みです' },
+        { word: '昨日', reading: 'きのう', meaning: 'yesterday', example: '昨日は雨' },
+        { word: '毎日', reading: 'まいにち', meaning: 'every day', example: '毎日散歩します' },
+      ],
+      examples: [
+        { japanese: '今、午前9時半です。', reading: 'いま、ごぜんくじはんです。', translation: 'Bây giờ là 9 giờ rưỡi sáng.' },
+        { japanese: '今日は4月15日、火曜日です。', reading: 'きょうはしがつじゅうごにち、かようびです。', translation: 'Hôm nay là thứ Ba ngày 15 tháng 4.' },
+        { japanese: '毎朝7時にお薬を1錠飲みます。', reading: 'まいあさしちじにおくすりをいちじょうのみます。', translation: 'Mỗi sáng 7 giờ uống 1 viên thuốc.' },
+        { japanese: '次の検査は来週の水曜日です。', reading: 'つぎのけんさはらいしゅうのすいようびです。', translation: 'Xét nghiệm tiếp theo vào thứ Tư tuần sau.' },
+      ],
+      grammarNote: `【特殊な読み方の時間】
+4時=よじ（しじ ✗）／7時=しちじ／9時=くじ／14時=じゅうよじ
+1分=いっぷん／3分=さんぷん／6分=ろっぷん／8分=はっぷん／10分=じっぷん
+
+【特殊な日付】
+1日=ついたち（×いちにち）／2日=ふつか／3日=みっか／4日=よっか
+5日=いつか／6日=むいか／7日=なのか／8日=ようか／9日=ここのか
+10日=とおか／14日=じゅうよっか／20日=はつか／24日=にじゅうよっか
+
+【曜日】
+月=げつ／火=か／水=すい／木=もく／金=きん／土=ど／日=にち（曜日）`,
+      quizzes: [
+        {
+          question: '「4時」の正しい読み方は？',
+          options: [{ id: 'a', text: 'しじ' }, { id: 'b', text: 'よじ' }, { id: 'c', text: 'よんじ' }, { id: 'd', text: 'よっじ' }],
+          correctId: 'b',
+          explanation: '4時は「よじ」と読みます。「しじ」は「死時」を連想させ縁起が悪いため避ける。\n4時 đọc là「よじ」.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「1日」の特殊な読み方は？',
+          options: [{ id: 'a', text: 'いちにち' }, { id: 'b', text: 'ひとひ' }, { id: 'c', text: 'ついたち' }, { id: 'd', text: 'いっぴ' }],
+          correctId: 'c',
+          explanation: '月の「1日」は「ついたち」と読みます。\n「1日」trong ngày tháng đọc là「ついたち」.',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L9: 接続助詞 と・も・や =====
+  'n5-03-9': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第9回 〜助詞「と」「も」「や」〜',
+      titleTranslation: 'Ngữ pháp Bài 9 - Trợ từ と・も・や',
+      introduction: `「と」「も」「や」は名詞をつなぐ助詞です。意味と使い方を区別すると会話がぐっと豊かになります。介護でも「ご飯とお茶」「お薬や水」など毎日使います。
+
+「と」「も」「や」là trợ từ kết nối danh từ. Phân biệt được thì hội thoại phong phú hơn.`,
+      keyPoints: [
+        '「と」= 〜and〜（全部列挙）：パンと卵を食べます',
+        '「や」= 〜and〜（一部列挙、他にもある）：野菜や果物を食べます',
+        '「も」= 〜too / also：私も行きます／お茶もコーヒーもあります',
+        '「と一緒に」= together with：田中さんと一緒にお散歩します',
+        '〜と〜と〜：複数の物を全部挙げる',
+        '〜や〜など：例を挙げる（など=etc.）',
+      ],
+      vocabulary: [
+        { word: 'と', reading: 'と', meaning: 'and (all)', example: 'パンと牛乳' },
+        { word: 'や', reading: 'や', meaning: 'and (some)', example: '本や雑誌' },
+        { word: 'も', reading: 'も', meaning: 'also/too', example: '私も学生です' },
+        { word: '一緒に', reading: 'いっしょに', meaning: 'together', example: '一緒に行きましょう' },
+        { word: 'など', reading: 'など', meaning: 'etc.', example: '本やノートなど' },
+      ],
+      examples: [
+        { japanese: '朝はパンと牛乳とりんごを食べます。', reading: 'あさはパンとぎゅうにゅうとりんごをたべます。', translation: 'Sáng ăn bánh mì, uống sữa và ăn táo.' },
+        { japanese: '冷蔵庫にお茶やジュースがあります。', reading: 'れいぞうこにおちゃやジュースがあります。', translation: 'Trong tủ lạnh có trà, nước ép v.v.' },
+        { japanese: '田中さんも私も日本人です。', reading: 'たなかさんもわたしもにほんじんです。', translation: 'Anh Tanaka và tôi cũng đều là người Nhật.' },
+        { japanese: '一緒に体操をしましょう。', reading: 'いっしょにたいそうをしましょう。', translation: 'Cùng tập thể dục nhé.' },
+      ],
+      grammarNote: `【と vs や】
+と：全部を列挙（A と B と C — 3つだけ）
+や：一部を列挙、他にもある可能性（A や B など — 例として2つ）
+
+【も の使い方】
+〜も = 〜too / also
+　例：私もベトナム人です。/ 田中さんもいます。
+〜も〜も = 両方とも
+　例：お茶もコーヒーもあります。
+
+【〜と一緒に】
+人と一緒に動詞 = with someone
+　例：娘さんと一緒に来ました。`,
+      quizzes: [
+        {
+          question: '「全部を列挙する」助詞は？',
+          options: [{ id: 'a', text: 'や' }, { id: 'b', text: 'と' }, { id: 'c', text: 'も' }, { id: 'd', text: 'を' }],
+          correctId: 'b',
+          explanation: '「と」は全部を列挙、「や」は一部を列挙。\n「と」liệt kê tất cả, 「や」liệt kê một phần.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「私も学生です」の意味は？',
+          options: [
+            { id: 'a', text: '私だけが学生' },
+            { id: 'b', text: '私も他の人と同じく学生' },
+            { id: 'c', text: '私が一番学生' },
+            { id: 'd', text: '私は学生じゃない' },
+          ],
+          correctId: 'b',
+          explanation: '「も」= also / too。他の人と同じことを示します。\n「も」= cũng, also.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L10: 〜たい・〜ましょう =====
+  'n5-03-10': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第10回 〜希望と勧誘 〜たい・〜ましょう・〜ませんか〜',
+      titleTranslation: 'Ngữ pháp Bài 10 - Mong muốn và mời rủ',
+      introduction: `自分の希望（〜たい）、相手を誘う（〜ましょう・〜ませんか）の表現を学びます。介護では「お風呂に入りたいです」「散歩しましょうね」など、利用者さんとの会話で必須です。
+
+Học cách diễn đạt mong muốn (〜たい) và mời rủ (〜ましょう, 〜ませんか). Quan trọng trong giao tiếp với người được chăm sóc.`,
+      keyPoints: [
+        '〜たい：自分がしたい（食べたい・行きたい）※第一人称が基本',
+        '〜たくない：自分がしたくない（行きたくない）',
+        '〜たかったです：過去の希望（食べたかった）',
+        '〜ましょう：一緒にしよう（行きましょう・食べましょう）',
+        '〜ませんか：誘い（より丁寧）（一緒に行きませんか？）',
+        '〜たがっています：第三者の希望（田中さんは帰りたがっています）',
+      ],
+      vocabulary: [
+        { word: '〜たい', reading: 'たい', meaning: 'want to ~', example: '帰りたい' },
+        { word: '休みたい', reading: 'やすみたい', meaning: 'want to rest', example: 'ちょっと休みたい' },
+        { word: '見たい', reading: 'みたい', meaning: 'want to see', example: 'テレビを見たい' },
+        { word: 'お手洗い', reading: 'おてあらい', meaning: 'restroom', example: 'お手洗いに行きたい' },
+        { word: 'お散歩', reading: 'おさんぽ', meaning: 'walk', example: 'お散歩しませんか' },
+      ],
+      examples: [
+        { japanese: 'お手洗いに行きたいです。', reading: 'おてあらいにいきたいです。', translation: 'Tôi muốn đi vệ sinh.' },
+        { japanese: '一緒にお茶を飲みませんか？', reading: 'いっしょにおちゃをのみませんか？', translation: 'Cùng uống trà không?' },
+        { japanese: 'もう少し休みましょう。', reading: 'もうすこしやすみましょう。', translation: 'Nghỉ thêm một chút nữa nhé.' },
+        { japanese: '田中さんは帰りたがっています。', reading: 'たなかさんはかえりたがっています。', translation: 'Anh Tanaka có vẻ muốn về.' },
+      ],
+      grammarNote: `【作り方：ます形 → 「ます」を取って 「たい」】
+食べます → 食べたい
+行きます → 行きたい
+飲みます → 飲みたい
+
+【〜たい vs 〜ほしい】
+〜たい = 動作の希望（行きたい）
+〜ほしい = 物の希望（水がほしい）
+
+【勧誘の丁寧度】
+〜ましょう（提案）< 〜ませんか（より丁寧な誘い）
+　行きましょう = let's go
+　行きませんか = won't you go (with me)?`,
+      quizzes: [
+        {
+          question: '「食べます」を「食べたい」にする変化は？',
+          options: [
+            { id: 'a', text: 'ます→たい' },
+            { id: 'b', text: 'う→たい' },
+            { id: 'c', text: 'る→たい' },
+            { id: 'd', text: '何も変えない' },
+          ],
+          correctId: 'a',
+          explanation: 'ます形の「ます」を「たい」に変えます。\n「ます」→「たい」.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: 'より丁寧な誘いは？',
+          options: [
+            { id: 'a', text: '行きましょう' },
+            { id: 'b', text: '行きませんか' },
+            { id: 'c', text: '行こう' },
+            { id: 'd', text: '行きます' },
+          ],
+          correctId: 'b',
+          explanation: '「〜ませんか」の方が丁寧。「〜ましょう」は提案。\n「〜ませんか」lịch sự hơn「〜ましょう」.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L11: 〜てください・〜てもいい =====
+  'n5-03-11': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第11回 〜依頼と許可 〜てください・〜てもいいですか〜',
+      titleTranslation: 'Ngữ pháp Bài 11 - Yêu cầu và xin phép',
+      introduction: `相手に何かをお願いする「〜てください」、許可を求める「〜てもいいですか」は介護で毎日使う重要表現です。「ゆっくり立ってください」「お部屋に入ってもいいですか？」など。
+
+「〜てください」(yêu cầu) và 「〜てもいいですか」(xin phép) là biểu hiện quan trọng dùng hàng ngày.`,
+      keyPoints: [
+        '〜てください：丁寧な依頼（座ってください）',
+        '〜ないでください：禁止の依頼（無理しないでください）',
+        '〜てもいいですか：許可を求める（入ってもいいですか）',
+        '〜てはいけません：禁止（走ってはいけません）',
+        'て形の作り方：1グループ動詞・2グループ動詞・3グループ動詞で異なる',
+        '介護現場：「ゆっくり起きてください」「ここに座ってもいいですよ」',
+      ],
+      vocabulary: [
+        { word: '〜てください', reading: 'てください', meaning: 'please ~', example: '座ってください' },
+        { word: '〜てもいい', reading: 'てもいい', meaning: 'may I ~', example: '入ってもいい？' },
+        { word: '無理', reading: 'むり', meaning: 'too much / impossible', example: '無理しないで' },
+        { word: 'ゆっくり', reading: 'ゆっくり', meaning: 'slowly', example: 'ゆっくり歩いて' },
+        { word: '少し', reading: 'すこし', meaning: 'a little', example: '少し待って' },
+      ],
+      examples: [
+        { japanese: 'ゆっくり立ってください。', reading: 'ゆっくりたってください。', translation: 'Hãy đứng dậy từ từ.' },
+        { japanese: 'お薬を飲んでください。', reading: 'おくすりをのんでください。', translation: 'Hãy uống thuốc.' },
+        { japanese: 'ここに座ってもいいですか？', reading: 'ここにすわってもいいですか？', translation: 'Tôi ngồi đây được không?' },
+        { japanese: '無理をしないでくださいね。', reading: 'むりをしないでくださいね。', translation: 'Đừng cố quá nhé.' },
+      ],
+      grammarNote: `【て形の作り方（簡略）】
+う・つ・る → って（買う→買って／立つ→立って）
+ぶ・む・ぬ → んで（呼ぶ→呼んで／飲む→飲んで）
+く → いて（書く→書いて）／ぐ → いで（泳ぐ→泳いで）
+す → して（話す→話して）
+特例：行く→行って／する→して／来る→来て
+
+【〜ないでください】
+動詞の「ない形」+ でください
+　走らないでください = please don't run
+　心配しないでください = please don't worry`,
+      quizzes: [
+        {
+          question: '「座る」の「て形」は？',
+          options: [{ id: 'a', text: '座いて' }, { id: 'b', text: '座って' }, { id: 'c', text: '座んで' }, { id: 'd', text: '座して' }],
+          correctId: 'b',
+          explanation: '「座る」は「る」グループ。て形は「座って」。\n「座る」+ て形 = 「座って」.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '許可を求めるときに使うのは？',
+          options: [
+            { id: 'a', text: '〜てください' },
+            { id: 'b', text: '〜てもいいですか' },
+            { id: 'c', text: '〜ないでください' },
+            { id: 'd', text: '〜てはいけません' },
+          ],
+          correctId: 'b',
+          explanation: '「〜てもいいですか」= May I ~ ?\n「〜てもいいですか」= Tôi có thể ~ không?',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L12: 〜ています =====
+  'n5-03-12': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第12回 〜進行・状態の「〜ています」〜',
+      titleTranslation: 'Ngữ pháp Bài 12 - Thể tiếp diễn 〜ています',
+      introduction: `「〜ています」は今していること（進行）と、今の状態を表します。介護では「今、お食事をしています」「結婚しています」「眠っています」など重要な表現です。
+
+「〜ています」diễn đạt hành động đang xảy ra và trạng thái hiện tại.`,
+      keyPoints: [
+        '進行形：今〜している（食べています・寝ています）',
+        '状態：結婚しています／知っています／住んでいます',
+        '繰り返しの習慣：毎日散歩しています',
+        '職業：先生をしています／看護師をしています',
+        '否定：〜ていません（食べていません）',
+        '質問：〜ていますか？（起きていますか？）',
+      ],
+      vocabulary: [
+        { word: '住んでいます', reading: 'すんでいます', meaning: 'live (in)', example: '東京に住んでいます' },
+        { word: '結婚', reading: 'けっこん', meaning: 'marriage', example: '結婚しています' },
+        { word: '知る', reading: 'しる', meaning: 'know', example: '知っています' },
+        { word: '働く', reading: 'はたらく', meaning: 'work', example: '介護施設で働いています' },
+        { word: '眠る', reading: 'ねむる', meaning: 'sleep', example: '眠っています' },
+      ],
+      examples: [
+        { japanese: '田中さんは今、お食事をしています。', reading: 'たなかさんはいま、おしょくじをしています。', translation: 'Anh Tanaka đang ăn bây giờ.' },
+        { japanese: '私は介護施設で働いています。', reading: 'わたしはかいごしせつではたらいています。', translation: 'Tôi đang làm việc ở cơ sở chăm sóc.' },
+        { japanese: 'もう田中さんは眠っていますか？', reading: 'もうたなかさんはねむっていますか？', translation: 'Anh Tanaka đã ngủ chưa?' },
+        { japanese: 'ベトナム語を少し知っています。', reading: 'ベトナムごをすこししっています。', translation: 'Tôi biết một chút tiếng Việt.' },
+      ],
+      grammarNote: `【〜ています の3つの意味】
+1. 進行：今〜している（テレビを見ています）
+2. 状態：〜の状態（結婚しています／めがねをかけています）
+3. 習慣：毎日〜している（毎日散歩しています）
+
+【「知っています」の特殊性】
+肯定：知っています（I know）
+否定：知りません（×知っていません） — 「I don't know」
+
+【職業の表現】
+〜の仕事をしています／〜をしています
+　例：介護士をしています／日本語を教えています`,
+      quizzes: [
+        {
+          question: '「今、テレビを見ています」の「〜ています」の意味は？',
+          options: [
+            { id: 'a', text: '過去形' },
+            { id: 'b', text: '進行形（今〜している）' },
+            { id: 'c', text: '希望' },
+            { id: 'd', text: '禁止' },
+          ],
+          correctId: 'b',
+          explanation: '進行形：今行っている動作を表す。\n「〜ています」chỉ hành động đang xảy ra.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「I don\'t know」を日本語で？',
+          options: [
+            { id: 'a', text: '知っていません' },
+            { id: 'b', text: '知りません' },
+            { id: 'c', text: '知らないです' },
+            { id: 'd', text: 'b と c の両方' },
+          ],
+          correctId: 'd',
+          explanation: '「知っていません」は使いません。「知りません」「知らないです」が正しい。\n「知らない」/「知りません」là đúng.',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L13: 比較表現 =====
+  'n5-03-13': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第13回 〜比較表現 〜より・〜のほうが〜',
+      titleTranslation: 'Ngữ pháp Bài 13 - So sánh 〜より, 〜のほうが',
+      introduction: `2つの物を比べるときは「〜より」「〜のほうが」を使います。「コーヒーより、お茶のほうが好きです」など。介護でも「今日は昨日より調子がいいです」のように使います。
+
+So sánh 2 thứ dùng「〜より」「〜のほうが」. Hữu ích để diễn đạt sở thích, tình trạng.`,
+      keyPoints: [
+        'AよりBのほうが〜：A < B（コーヒーよりお茶のほうが好き）',
+        'AはBより〜：A > B（東京は大阪より大きい）',
+        'AとB、どちらが〜ですか：質問（コーヒーとお茶、どちらが好き）',
+        'AとBとCの中で、〜が一番〜：最上級（家族の中で母が一番優しい）',
+        'もっと〜：more（もっとゆっくり）',
+        '〜と同じ：same as（昨日と同じ）',
+      ],
+      vocabulary: [
+        { word: '〜より', reading: 'より', meaning: 'than', example: 'AはBより大きい' },
+        { word: '〜のほうが', reading: 'のほうが', meaning: '〜 is more', example: 'お茶のほうが好き' },
+        { word: '一番', reading: 'いちばん', meaning: 'the most', example: '一番おいしい' },
+        { word: 'もっと', reading: 'もっと', meaning: 'more', example: 'もっとゆっくり' },
+        { word: 'どちら', reading: 'どちら', meaning: 'which (of 2)', example: 'どちらが好き？' },
+      ],
+      examples: [
+        { japanese: '今日は昨日より調子がいいです。', reading: 'きょうはきのうよりちょうしがいいです。', translation: 'Hôm nay khỏe hơn hôm qua.' },
+        { japanese: 'コーヒーとお茶、どちらがいいですか？', reading: 'コーヒーとおちゃ、どちらがいいですか？', translation: 'Cà phê hay trà, anh/chị thích cái nào?' },
+        { japanese: 'お茶のほうが好きです。', reading: 'おちゃのほうがすきです。', translation: 'Tôi thích trà hơn.' },
+        { japanese: '家族の中でお母さんが一番優しいです。', reading: 'かぞくのなかでおかあさんがいちばんやさしいです。', translation: 'Trong gia đình, mẹ là người dịu dàng nhất.' },
+      ],
+      grammarNote: `【比較表現の基本パターン】
+1. AはBより〜（A is more 〜 than B）
+　 東京は大阪より大きいです
+2. AよりBのほうが〜（B is more 〜 than A）
+　 大阪より東京のほうが大きいです
+3. AとB、どちらが〜（質問）
+　 コーヒーとお茶、どちらが好きですか？
+4. 〜の中で〜が一番〜（最上級）
+　 季節の中で春が一番好きです`,
+      quizzes: [
+        {
+          question: '「お茶のほうが好き」の意味は？',
+          options: [
+            { id: 'a', text: 'お茶を好きじゃない' },
+            { id: 'b', text: '他のものより、お茶が好き' },
+            { id: 'c', text: 'お茶が一番好き' },
+            { id: 'd', text: 'お茶を飲みたい' },
+          ],
+          correctId: 'b',
+          explanation: '「〜のほうが好き」= 比較してこちらが好き。\n「〜のほうが好き」= thích cái này hơn (so sánh).',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L14: 接続詞 =====
+  'n5-03-14': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第14回 〜接続詞 〜から・〜が・〜ので〜',
+      titleTranslation: 'Ngữ pháp Bài 14 - Liên từ 〜から・〜が・〜ので',
+      introduction: `2つの文をつなぐ接続詞を学びます。「〜から」「〜ので」（理由）、「〜が」「〜けれど」（逆接）。介護では「お腹が痛いから、お薬を飲みます」のように頻繁に使います。
+
+Học liên từ kết nối câu: 「〜から」「〜ので」(lý do), 「〜が」「〜けれど」(trái ngược).`,
+      keyPoints: [
+        '〜から：理由（カジュアル〜中立）寒いから上着を着ます',
+        '〜ので：理由（より丁寧）暑いので、窓を開けてもいいですか',
+        '〜が：逆接（but）寒いですが、大丈夫です',
+        '〜けど／〜けれど：逆接（カジュアル）',
+        '〜とき：when（食事のとき／薬を飲むとき）',
+        '〜ながら：while（テレビを見ながらご飯を食べる）',
+      ],
+      vocabulary: [
+        { word: '〜から', reading: 'から', meaning: 'because', example: '寒いから' },
+        { word: '〜ので', reading: 'ので', meaning: 'because (polite)', example: '暑いので' },
+        { word: '〜が', reading: 'が', meaning: 'but', example: '寒いですが' },
+        { word: '〜とき', reading: 'とき', meaning: 'when', example: '食事のとき' },
+        { word: '〜ながら', reading: 'ながら', meaning: 'while', example: '見ながら' },
+      ],
+      examples: [
+        { japanese: 'お腹が痛いので、お薬を飲みたいです。', reading: 'おなかがいたいので、おくすりをのみたいです。', translation: 'Vì đau bụng nên tôi muốn uống thuốc.' },
+        { japanese: '寒いですが、大丈夫です。', reading: 'さむいですが、だいじょうぶです。', translation: 'Tuy lạnh nhưng không sao.' },
+        { japanese: 'お薬を飲むとき、お水を一緒に飲んでください。', reading: 'おくすりをのむとき、おみずをいっしょにのんでください。', translation: 'Khi uống thuốc, hãy uống cùng nước.' },
+        { japanese: 'テレビを見ながらお茶を飲みます。', reading: 'テレビをみながらおちゃをのみます。', translation: 'Vừa xem TV vừa uống trà.' },
+      ],
+      grammarNote: `【〜から vs 〜ので】
+〜から：話し手の主観的理由・カジュアル
+〜ので：客観的理由・より丁寧（介護現場で推奨）
+　例：暑い**ので**、窓を開けてもいいですか？
+
+【〜が vs 〜けれど】
+意味は同じ「but」、〜が はやや改まった表現
+　寒いです**が**、外出します。
+　寒いです**けれど**、外出します。（カジュアル）
+
+【〜ながら】
+2つの動作を同時に。動詞のます形 + ながら
+　例：歩きながら話す／聞きながらメモを取る`,
+      quizzes: [
+        {
+          question: 'より丁寧な理由の表現は？',
+          options: [{ id: 'a', text: '〜から' }, { id: 'b', text: '〜ので' }, { id: 'c', text: '〜が' }, { id: 'd', text: '〜けど' }],
+          correctId: 'b',
+          explanation: '「〜ので」のほうが丁寧で客観的。介護現場では推奨。\n「〜ので」lịch sự hơn 「〜から」.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「歩きながら話す」の意味は？',
+          options: [
+            { id: 'a', text: '歩いてから話す' },
+            { id: 'b', text: '歩きと話す' },
+            { id: 'c', text: '歩くと同時に話す' },
+            { id: 'd', text: '話す前に歩く' },
+          ],
+          correctId: 'c',
+          explanation: '「〜ながら」= while doing 〜（同時動作）。\n「〜ながら」= vừa ~ vừa ~.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  // ===== N5 文法 L15: 総復習テスト =====
+  'n5-03-15': {
+    courseTitle: { ja: 'N5 基礎文法 〜です・ます体〜', vi: 'Ngữ pháp cơ bản N5 - thể lịch sự' },
+    isLocked: false, requiredPlan: 'free',
+    lesson: {
+      title: '文法第15回 〜総復習テスト〜',
+      titleTranslation: 'Ngữ pháp Bài 15 - Kiểm tra tổng hợp',
+      introduction: `N5基礎文法の総復習テストです。L1〜L14で学んだ「です・ます体」「助詞」「動詞活用」「形容詞」「指示詞」「あります・います」「数字・時間」「接続詞」などを横断的に確認します。8問正解で合格、ボーナスXPがもらえます！
+
+Kiểm tra tổng hợp ngữ pháp cơ bản N5. Ôn tập toàn bộ nội dung từ Bài 1 đến Bài 14. Đạt 8/15 sẽ qua bài.`,
+      keyPoints: [
+        'です・ます体（4活用：現在肯定・否定・過去・過去否定）',
+        '助詞：は・が・を・に・で・へ・と・も・や',
+        'い形容詞 vs な形容詞の活用',
+        'こ・そ・あ・ど指示詞体系',
+        'あります（物）・います（人/動物）',
+        '時刻・日付の特殊な読み方',
+        '〜たい・〜ましょう・〜てください・〜ています',
+        '比較（より・のほうが・一番）と接続詞（から・ので・が）',
+      ],
+      vocabulary: [
+        { word: '復習', reading: 'ふくしゅう', meaning: 'review', example: '復習をします' },
+        { word: '練習', reading: 'れんしゅう', meaning: 'practice', example: '毎日練習' },
+        { word: '理解', reading: 'りかい', meaning: 'understanding', example: '理解しました' },
+        { word: 'がんばって', reading: 'がんばって', meaning: 'do your best', example: 'がんばってください' },
+      ],
+      examples: [
+        { japanese: 'L1〜L14の文法を全部使って会話できますか？', reading: 'エルいちからエルじゅうよんのぶんぽうをぜんぶつかってかいわできますか？', translation: 'Bạn có thể hội thoại bằng toàn bộ ngữ pháp Bài 1-14 không?' },
+        { japanese: '練習を続けると、N5レベルに到達します。', reading: 'れんしゅうをつづけると、エヌごレベルにとうたつします。', translation: 'Tiếp tục luyện tập sẽ đạt trình độ N5.' },
+      ],
+      grammarNote: `【N5基礎文法 全体まとめ】
+
+★ です・ます体
+肯定：飲みます／否定：飲みません／過去：飲みました／過去否定：飲みませんでした
+
+★ 助詞のキーポイント
+は（テーマ）／が（主語強調）／を（動作対象）
+に（時間・場所・方向）／で（動作場所・手段）／へ（方向）
+と（全部）／や（一部）／も（〜も）
+
+★ 形容詞活用
+い形容詞：あつい→あついです→あつくないです→あつかったです→あつくなかったです
+な形容詞：きれい→きれいです→きれいじゃありません→きれいでした
+
+★ 重要な決まり文句
+〜たいです（希望）／〜ましょう（提案）／〜ませんか（誘い）
+〜てください（依頼）／〜てもいいですか（許可）／〜ています（進行/状態）
+
+このコース修了後は「N5会話」「N5医療日本語」へ進んでください！`,
+      quizzes: [
+        {
+          question: '「私はベトナム人（  ）」 — 正しい助詞は？',
+          options: [{ id: 'a', text: 'を' }, { id: 'b', text: 'は' }, { id: 'c', text: 'です' }, { id: 'd', text: 'に' }],
+          correctId: 'c',
+          explanation: '名詞文：「Aは Bです」。「私はベトナム人です」が正しい文。\n「私はベトナム人です」là câu đúng.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「7時に起きました」の「に」の役割は？',
+          options: [
+            { id: 'a', text: '場所' },
+            { id: 'b', text: '時間' },
+            { id: 'c', text: '手段' },
+            { id: 'd', text: '方向' },
+          ],
+          correctId: 'b',
+          explanation: '時間には「に」を使います。7時**に**起きます。\n「に」+ thời gian.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「あつい」の過去形は？',
+          options: [
+            { id: 'a', text: 'あついでした' },
+            { id: 'b', text: 'あつかったです' },
+            { id: 'c', text: 'あつでした' },
+            { id: 'd', text: 'あつくでした' },
+          ],
+          correctId: 'b',
+          explanation: 'い形容詞の過去：〜い→〜かったです。\n「〜い」→「〜かったです」.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「きれい」の現在否定は？',
+          options: [
+            { id: 'a', text: 'きれくない' },
+            { id: 'b', text: 'きれいじゃありません' },
+            { id: 'c', text: 'きれいくないです' },
+            { id: 'd', text: 'きれいでない' },
+          ],
+          correctId: 'b',
+          explanation: '「きれい」はな形容詞。否定は「〜じゃありません」。\n「きれい」là な形容詞.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「田中さんはどこ（  ）いますか？」',
+          options: [{ id: 'a', text: 'で' }, { id: 'b', text: 'に' }, { id: 'c', text: 'を' }, { id: 'd', text: 'へ' }],
+          correctId: 'b',
+          explanation: '存在の場所には「に」。「います」の前は必ず「に」。\n「に」+います.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「お薬を飲みたいです」の意味は？',
+          options: [
+            { id: 'a', text: 'お薬を飲んだ' },
+            { id: 'b', text: 'お薬を飲みたい（希望）' },
+            { id: 'c', text: 'お薬を飲まない' },
+            { id: 'd', text: 'お薬がほしい' },
+          ],
+          correctId: 'b',
+          explanation: '「〜たい」は自分の希望を表す。\n「〜たい」= mong muốn.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「ゆっくり座ってください」の文型は？',
+          options: [
+            { id: 'a', text: '希望' },
+            { id: 'b', text: '依頼' },
+            { id: 'c', text: '禁止' },
+            { id: 'd', text: '比較' },
+          ],
+          correctId: 'b',
+          explanation: '「〜てください」= 丁寧な依頼。\n「〜てください」= yêu cầu lịch sự.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「コーヒーとお茶、どちらが好きですか？」と聞かれたら？',
+          options: [
+            { id: 'a', text: '比較の質問' },
+            { id: 'b', text: '時間の質問' },
+            { id: 'c', text: '場所の質問' },
+            { id: 'd', text: '理由の質問' },
+          ],
+          correctId: 'a',
+          explanation: '「どちら」= 2つを比較。比較の質問。\n「どちら」= câu hỏi so sánh.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「お腹が痛い（  ）、お薬を飲みます」（理由を表す丁寧な接続）',
+          options: [{ id: 'a', text: 'が' }, { id: 'b', text: 'けど' }, { id: 'c', text: 'ので' }, { id: 'd', text: 'のに' }],
+          correctId: 'c',
+          explanation: '「〜ので」= 理由を表す丁寧な接続。\n「〜ので」= lý do (lịch sự).',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「テレビを見（  ）ご飯を食べます」（同時動作）',
+          options: [
+            { id: 'a', text: 'ながら' },
+            { id: 'b', text: 'けど' },
+            { id: 'c', text: 'から' },
+            { id: 'd', text: 'ので' },
+          ],
+          correctId: 'a',
+          explanation: '同時動作は「ます形+ながら」。「見ます」→「見ながら」。\n「〜ながら」= vừa ~ vừa ~.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
 };
 
 // Fallback lesson for unknown IDs
@@ -3615,6 +4706,7 @@ const fallbackLesson: LessonData = {
 const courseLessonMap: Record<string, string[]> = {
   'n5-01': ['n5-01', 'n5-01-2', 'n5-01-3', 'n5-01-4', 'n5-01-5', 'n5-01-6', 'n5-01-7', 'n5-01-8', 'n5-01-9', 'n5-01-10'],
   'n5-02': ['n5-02', 'n5-02-2', 'n5-02-3', 'n5-02-4', 'n5-02-5', 'n5-02-6', 'n5-02-7', 'n5-02-8', 'n5-02-9', 'n5-02-10'],
+  'n5-03': ['n5-03', 'n5-03-2', 'n5-03-3', 'n5-03-4', 'n5-03-5', 'n5-03-6', 'n5-03-7', 'n5-03-8', 'n5-03-9', 'n5-03-10', 'n5-03-11', 'n5-03-12', 'n5-03-13', 'n5-03-14', 'n5-03-15'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -3638,6 +4730,21 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n5-02-8':  { ja: '交通・移動・方向', vi: 'Giao thông & Hướng đi' },
   'n5-02-9':  { ja: '感情・状態・気持ち', vi: 'Cảm xúc & Trạng thái' },
   'n5-02-10': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
+  'n5-03':    { ja: 'です・ます体・は/が/を', vi: 'Thể lịch sự & は/が/を' },
+  'n5-03-2':  { ja: '助詞 に・で・へ', vi: 'Trợ từ に・で・へ' },
+  'n5-03-3':  { ja: '動詞ます形・過去・否定', vi: 'Động từ ます・quá khứ・phủ định' },
+  'n5-03-4':  { ja: 'い形容詞', vi: 'Tính từ い' },
+  'n5-03-5':  { ja: 'な形容詞', vi: 'Tính từ な' },
+  'n5-03-6':  { ja: '指示詞 これ・それ・あれ', vi: 'これ・それ・あれ' },
+  'n5-03-7':  { ja: 'あります・います', vi: 'あります・います' },
+  'n5-03-8':  { ja: '数字・時間・日付', vi: 'Số・Giờ・Ngày' },
+  'n5-03-9':  { ja: '助詞 と・も・や', vi: 'Trợ từ と・も・や' },
+  'n5-03-10': { ja: '〜たい・〜ましょう', vi: '〜たい・〜ましょう' },
+  'n5-03-11': { ja: '〜てください・〜てもいい', vi: '〜てください・〜てもいい' },
+  'n5-03-12': { ja: '〜ています', vi: '〜ています' },
+  'n5-03-13': { ja: '比較 〜より・〜のほうが', vi: 'So sánh 〜より' },
+  'n5-03-14': { ja: '接続詞 から・ので・が', vi: 'Liên từ から・ので' },
+  'n5-03-15': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
 };
 
 // Find course ID for a given lesson ID
