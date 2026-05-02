@@ -2796,6 +2796,1113 @@ Cấp N4 cần khoảng 1.000 từ vựng. Lần này tập trung học các đ�
     },
   },
 
+  // ===== N4 語彙マスター レッスン2〜10 =====
+  'n4-01-2': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 身体症状・医療名詞',
+      titleTranslation: 'Từ vựng N4: Triệu chứng cơ thể và danh từ y tế',
+      introduction: `介護・医療現場では、利用者の体の状態を正確に言葉で表すことが求められます。「浮腫（むくみ）」「倦怠感」「嚥下困難」など専門的な症状語を習得し、観察・申し送りの精度を高めましょう。
+
+Trong môi trường điều dưỡng và y tế, cần diễn đạt chính xác bằng lời trạng thái cơ thể của người dùng. Hãy học các từ triệu chứng chuyên ngành như phù nề, mệt mỏi, khó nuốt để nâng cao độ chính xác khi quan sát và bàn giao ca.`,
+      keyPoints: [
+        '浮腫（ふしゅ）: 体の一部がむくんだ状態（phù nề） — 足首の浮腫に注意',
+        '倦怠感（けんたいかん）: 全身の疲れ・だるさ（mệt mỏi toàn thân） — 倦怠感を訴える',
+        '嚥下（えんげ）: 飲食物を飲み込む動作（nuốt） — 嚥下困難・嚥下反射',
+        '呼吸（こきゅう）: 息をすること（hô hấp） — 呼吸数・呼吸困難',
+        '血圧（けつあつ）: 血管内の圧力（huyết áp） — 収縮期血圧・拡張期血圧',
+        '脈拍（みゃくはく）: 心臓の拍動（mạch đập） — 脈拍数を測る',
+      ],
+      vocabulary: [
+        { word: '浮腫', reading: 'ふしゅ', meaning: '体組織に水分がたまる状態（phù nề）', example: '足首に浮腫が見られる' },
+        { word: '倦怠感', reading: 'けんたいかん', meaning: '体全体のだるさ・疲労感（cảm giác mệt mỏi, uể oải）', example: '倦怠感を強く訴えている' },
+        { word: '嚥下', reading: 'えんげ', meaning: '食物を口から胃へ送る動作（nuốt）', example: '嚥下機能が低下している' },
+        { word: '呼吸', reading: 'こきゅう', meaning: '肺で空気を吸う・吐く動作（hô hấp）', example: '呼吸が浅くなっている' },
+        { word: '血圧', reading: 'けつあつ', meaning: '動脈にかかる圧力（huyết áp）', example: '血圧が高めです' },
+        { word: '脈拍', reading: 'みゃくはく', meaning: '心臓の収縮による血管の拍動（mạch đập）', example: '脈拍が不規則です' },
+      ],
+      examples: [
+        { japanese: '利用者さんの足首に浮腫が見られ、呼吸も少し浅いです。', reading: 'りようしゃさんのあしくびにふしゅがみられ、こきゅうもすこしあさいです。', translation: 'Người dùng có phù ở mắt cá chân và hơi thở cũng hơi nông.' },
+        { japanese: '朝から倦怠感を訴えており、血圧と脈拍を確認しました。', reading: 'あさからけんたいかんをうったえており、けつあつとみゃくはくをかくにんしました。', translation: 'Từ buổi sáng đã than mệt mỏi, đã xác nhận huyết áp và mạch đập.' },
+        { japanese: '嚥下困難があるため、食事の形態を変更しました。', reading: 'えんげこんなんがあるため、しょくじのけいたいをへんこうしました。', translation: 'Do có khó nuốt, đã thay đổi dạng bữa ăn.' },
+      ],
+      grammarNote: `【N4文法：〜ため（原因・理由）】
+「嚥下困難があるため、軟食にした」＝ Vì khó nuốt nên đổi sang thức ăn mềm
+〜ため（に）は書き言葉・報告書でよく使われる丁寧な原因表現。
+
+【関連語】
+呼吸困難（こきゅうこんなん）= khó thở
+浮腫（むくみ）= phù / 意識障害（いしきしょうがい）= rối loạn ý thức
+チアノーゼ = tím tái / 発熱（はつねつ）= sốt`,
+      quiz: {
+        question: '食べ物を飲み込む動作を何といいますか？',
+        options: [
+          { id: 'a', text: '呼吸（こきゅう）' },
+          { id: 'b', text: '嚥下（えんげ）' },
+          { id: 'c', text: '脈拍（みゃくはく）' },
+          { id: 'd', text: '浮腫（ふしゅ）' },
+        ],
+        correctId: 'b',
+        explanation: '「嚥下（えんげ）」は食物を口から胃へ飲み込む動作です。「嚥下困難」は介護現場で頻出の重要語です。\n「Nuốt (えんげ)」là động tác nuốt thức ăn từ miệng xuống dạ dày. Khó nuốt là từ quan trọng thường gặp trong điều dưỡng.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-3': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 感情・状態の形容詞',
+      titleTranslation: 'Từ vựng N4: Tính từ mô tả cảm xúc và trạng thái',
+      introduction: `利用者の心理状態を正確に観察・記録するためには、感情を表す語彙が欠かせません。「不安・安心・穏やか・興奮・混乱・落ち着く・つらい・楽しい」など、豊かな感情語彙を身につけましょう。
+
+Để quan sát và ghi chép chính xác trạng thái tâm lý của người dùng, từ vựng biểu đạt cảm xúc là không thể thiếu. Hãy học phong phú từ vựng cảm xúc như lo lắng, yên tâm, bình yên, hưng phấn, bối rối, bình tĩnh, khó chịu, vui vẻ.`,
+      keyPoints: [
+        '不安（ふあん）: 心配で落ち着かない状態（lo lắng, bất an） — 不安を感じている',
+        '安心（あんしん）: 心配がなくなり穏やかな状態（yên tâm） — 安心してもらう',
+        '穏やか（おだやか）: 静かで落ち着いた様子（bình tĩnh, nhẹ nhàng） — 穏やかな表情',
+        '興奮（こうふん）: 感情が高まり激しくなる（hưng phấn, kích động） — 興奮状態',
+        '混乱（こんらん）: 状況がわからず戸惑う（bối rối, hỗn loạn） — 混乱している様子',
+        '落ち着く（おちつく）: 気持ちが安定してくる（bình tĩnh lại） — 少し落ち着いた',
+      ],
+      vocabulary: [
+        { word: '不安', reading: 'ふあん', meaning: '心配・不安定な気持ち（lo lắng, bất an）', example: '手術前に不安を感じる' },
+        { word: '安心', reading: 'あんしん', meaning: '心配がなくなり穏やかになること（yên tâm）', example: 'ご家族が来て安心した' },
+        { word: '穏やか', reading: 'おだやか', meaning: '静かで落ち着いた様子（hiền hòa, bình thản）', example: '穏やかな表情で食事した' },
+        { word: '興奮', reading: 'こうふん', meaning: '感情が激しく高まる状態（kích động, hưng phấn）', example: '夕方から興奮気味になる' },
+        { word: '混乱', reading: 'こんらん', meaning: '何がどうなっているか分からない状態（bối rối, lẫn lộn）', example: '場所と時間で混乱している' },
+        { word: 'つらい', reading: 'つらい', meaning: '身体や心が苦しい・しんどい（đau khổ, khó chịu）', example: '痛みがつらいと話した' },
+      ],
+      examples: [
+        { japanese: '入居当初は不安が強かったが、今は穏やかに過ごしている。', reading: 'にゅうきょとうしょはふあんがつよかったが、いまはおだやかにすごしている。', translation: 'Lúc mới vào ở rất lo lắng, nhưng bây giờ đang sống bình thản.' },
+        { japanese: '夕方になると興奮し混乱する様子が見られる。', reading: 'ゆうがたになるとこうふんしこんらんするようすがみられる。', translation: 'Vào buổi chiều tối thường thấy trạng thái hưng phấn và bối rối.' },
+        { japanese: '「つらい」とおっしゃっていたので、すぐに看護師に報告した。', reading: '「つらい」とおっしゃっていたので、すぐにかんごしにほうこくした。', translation: 'Vì đã nói "khó chịu", đã báo cáo ngay cho điều dưỡng viên.' },
+      ],
+      grammarNote: `【N4文法：〜気味（ぎみ）】
+「興奮気味」「疲れ気味」= hơi kích động, hơi mệt
+〜気味 は「少し〜の傾向がある」という N4 の重要表現。
+
+【関連感情語】
+悲しむ（かなしむ）= buồn / 喜ぶ（よろこぶ）= vui mừng
+怒る（おこる）= tức giận / 恐れる（おそれる）= sợ hãi
+寂しい（さびしい）= cô đơn / 安らぐ（やすらぐ）= thư giãn`,
+      quiz: {
+        question: '「（　）気味です」に入る言葉として正しいものは？',
+        options: [
+          { id: 'a', text: '安心' },
+          { id: 'b', text: '興奮' },
+          { id: 'c', text: '穏やか' },
+          { id: 'd', text: '楽しい' },
+        ],
+        correctId: 'b',
+        explanation: '「〜気味」は名詞または動詞のます形につきます。「興奮気味」は「少し興奮している」の意味。「安心気味・穏やか気味・楽しい気味」は不自然です。\n「〜気味」đi với danh từ hoặc dạng ます của động từ. 「興奮気味」có nghĩa là "hơi kích động".',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-4': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 介護業務の専門名詞',
+      titleTranslation: 'Từ vựng N4: Danh từ chuyên ngành trong công việc điều dưỡng',
+      introduction: `介護施設で働くには、業務に特有の専門用語を正確に理解することが不可欠です。「ケアプラン・申し送り・アセスメント・サービス担当者会議・インシデント」など現場で毎日使う言葉をしっかり覚えましょう。
+
+Để làm việc tại cơ sở điều dưỡng, việc hiểu chính xác các thuật ngữ chuyên ngành là điều không thể thiếu. Hãy ghi nhớ kỹ những từ dùng hàng ngày tại hiện trường như kế hoạch chăm sóc, bàn giao ca, đánh giá, hội nghị người phụ trách dịch vụ, sự cố.`,
+      keyPoints: [
+        'ケアプラン: 利用者ごとの介護サービス計画書（kế hoạch chăm sóc）',
+        '申し送り（もうしおくり）: 交代時に業務内容を伝えること（bàn giao ca）',
+        'アセスメント: 利用者の状態・ニーズの評価（đánh giá nhu cầu）',
+        'サービス担当者会議（さーびすたんとうしゃかいぎ）: ケアプラン作成のための多職種会議',
+        'インシデント: ヒヤリハット・事故になりかねない出来事（sự cố）',
+        'モニタリング: サービス実施後の定期的な状況確認（theo dõi định kỳ）',
+      ],
+      vocabulary: [
+        { word: 'ケアプラン', reading: 'ケアプラン', meaning: '介護サービス計画（kế hoạch chăm sóc cá nhân）', example: 'ケアプランを見直す' },
+        { word: '申し送り', reading: 'もうしおくり', meaning: '交代時の業務引き継ぎ（bàn giao ca, báo cáo giao ca）', example: '申し送りで変化を伝える' },
+        { word: 'アセスメント', reading: 'アセスメント', meaning: '利用者の状態・ニーズの評価（đánh giá tình trạng và nhu cầu）', example: 'アセスメントを実施する' },
+        { word: 'インシデント', reading: 'インシデント', meaning: '事故につながりかねない出来事（sự cố có thể dẫn đến tai nạn）', example: 'インシデントを報告する' },
+        { word: 'モニタリング', reading: 'モニタリング', meaning: 'サービス後の定期確認（theo dõi, giám sát định kỳ）', example: 'モニタリングを月1回行う' },
+        { word: '多職種連携', reading: 'たしょくしゅれんけい', meaning: '異なる職種が協力して支援すること（phối hợp đa chuyên ngành）', example: '多職種連携でケアを行う' },
+      ],
+      examples: [
+        { japanese: '今日の申し送りでは、Aさんの食欲低下について報告します。', reading: 'きょうのもうしおくりでは、Aさんのしょくよくていかについてほうこくします。', translation: 'Trong bàn giao ca hôm nay, tôi sẽ báo cáo về tình trạng chán ăn của bác A.' },
+        { japanese: 'ケアプランに基づいて、今月のモニタリングを実施しました。', reading: 'ケアプランにもとづいて、こんげつのモニタリングをじっしました。', translation: 'Đã thực hiện giám sát tháng này dựa trên kế hoạch chăm sóc.' },
+        { japanese: 'インシデントが発生したため、すぐに記録して上司に報告した。', reading: 'インシデントがはっせいしたため、すぐにきろくしてじょうしにほうこくした。', translation: 'Vì xảy ra sự cố nên đã ghi chép ngay và báo cáo cấp trên.' },
+      ],
+      grammarNote: `【N4文法：〜に基づいて（もとづいて）】
+「ケアプランに基づいてサービスを提供する」
+= Cung cấp dịch vụ dựa trên kế hoạch chăm sóc
+「〜に基づく」は「〜を根拠として」の意味。書き言葉・報告でよく使う。
+
+【介護業務関連語】
+記録（きろく）= ghi chép / 観察（かんさつ）= quan sát
+カンファレンス = hội họp / ヒヤリハット = suýt xảy ra tai nạn
+担当者（たんとうしゃ）= người phụ trách`,
+      quiz: {
+        question: '交代時に業務の内容を次の担当者に伝えることを何といいますか？',
+        options: [
+          { id: 'a', text: 'アセスメント' },
+          { id: 'b', text: 'モニタリング' },
+          { id: 'c', text: '申し送り' },
+          { id: 'd', text: 'インシデント' },
+        ],
+        correctId: 'c',
+        explanation: '「申し送り（もうしおくり）」は業務の交代時に、前の担当者が次の担当者へ利用者の状態や注意事項を伝えることです。\n「Bàn giao ca (申し送り)」là việc nhân viên trước thông báo trạng thái và lưu ý cho người tiếp theo khi giao ca.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-5': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 時間・頻度の副詞',
+      titleTranslation: 'Từ vựng N4: Phó từ chỉ thời gian và tần suất',
+      introduction: `介護記録や申し送りでは、いつ・どのくらいの頻度で起きたかを正確に伝えることが重要です。「いつも・ときどき・たまに・なるべく・できるだけ・すぐに・しばらく」などの副詞を使いこなしましょう。
+
+Trong ghi chép điều dưỡng và bàn giao ca, việc truyền đạt chính xác khi nào và tần suất ra sao là rất quan trọng. Hãy thành thạo các phó từ như luôn luôn, đôi khi, thỉnh thoảng, cố gắng, nếu có thể, ngay lập tức, một lúc.`,
+      keyPoints: [
+        'いつも: 毎回・常に起こる（luôn luôn） — いつも食欲がある',
+        'ときどき: 不規則に何度か起こる（đôi khi, đôi lúc） — ときどき痛みを訴える',
+        'たまに: めったにないが時々ある（thỉnh thoảng） — たまに咳が出る',
+        'なるべく・できるだけ: 可能な限り（nếu có thể, càng nhiều càng tốt） — なるべく歩く',
+        'すぐに: 時間をおかず直ちに（ngay lập tức） — すぐに報告する',
+        'しばらく: ある程度の時間が続く（một lúc, một thời gian） — しばらく様子を見る',
+      ],
+      vocabulary: [
+        { word: 'いつも', reading: 'いつも', meaning: '常に・毎回（luôn luôn, mọi lúc）', example: 'いつも笑顔で挨拶する' },
+        { word: 'ときどき', reading: 'ときどき', meaning: '不定期に何度か（đôi khi, thỉnh thoảng）', example: 'ときどき夜中に目が覚める' },
+        { word: 'たまに', reading: 'たまに', meaning: 'めったにないが時々（thỉnh thoảng, ít khi）', example: 'たまに外出したがる' },
+        { word: 'なるべく', reading: 'なるべく', meaning: 'できる範囲で最大限（nếu có thể, cố gắng）', example: 'なるべく自力で歩く' },
+        { word: 'すぐに', reading: 'すぐに', meaning: '時間をおかず直ちに（ngay lập tức）', example: '異変があればすぐに報告する' },
+        { word: 'しばらく', reading: 'しばらく', meaning: 'ある程度の時間が経過するまで（một lúc, trong thời gian ngắn）', example: 'しばらく安静にする' },
+      ],
+      examples: [
+        { japanese: '食後にはいつも口腔ケアを行い、たまに嚥下体操もします。', reading: 'しょくごにはいつもこうくうケアをおこない、たまにえんげたいそうもします。', translation: 'Sau bữa ăn luôn thực hiện chăm sóc răng miệng, thỉnh thoảng cũng tập nuốt.' },
+        { japanese: '転倒のリスクがあるので、できるだけそばにいるようにしている。', reading: 'てんとうのリスクがあるので、できるだけそばにいるようにしている。', translation: 'Vì có nguy cơ ngã nên cố gắng ở gần càng nhiều càng tốt.' },
+        { japanese: 'ときどき混乱することがあるが、しばらくすると落ち着く。', reading: 'ときどきこんらんすることがあるが、しばらくするとおちつく。', translation: 'Đôi khi bị bối rối nhưng sau một lúc thì bình tĩnh lại.' },
+      ],
+      grammarNote: `【N4文法：〜ようにする（努力・習慣）】
+「なるべく声をかけるようにしている」
+= Cố gắng thường xuyên lên tiếng hỏi thăm
+「〜ようにする」は「そうなるよう意識して行動する」という継続的努力を示す。
+
+【頻度を表す副詞の順序（多い→少ない）】
+いつも ＞ よく ＞ ときどき ＞ たまに ＞ めったに〜ない ＞ 全く〜ない
+luôn luôn > thường > đôi khi > thỉnh thoảng > hiếm khi > không bao giờ`,
+      quiz: {
+        question: '「（　）様子を見てから対応します」— 「ある程度の時間が経つまで待つ」という意味の副詞は？',
+        options: [
+          { id: 'a', text: 'いつも' },
+          { id: 'b', text: 'すぐに' },
+          { id: 'c', text: 'たまに' },
+          { id: 'd', text: 'しばらく' },
+        ],
+        correctId: 'd',
+        explanation: '「しばらく」は「ある程度の時間が経つまで」という意味で、「しばらく様子を見る」は介護記録でよく使う表現です。\n「Một lúc (しばらく)」có nghĩa là chờ một khoảng thời gian nhất định. "しばらく様子を見る" là cách diễn đạt thường dùng trong ghi chép điều dưỡng.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-6': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 数量・程度の表現',
+      titleTranslation: 'Từ vựng N4: Cách diễn đạt số lượng và mức độ',
+      introduction: `介護記録では「どのくらい食べたか」「どの程度の症状か」を具体的に伝える必要があります。「ほとんど・かなり・少し・十分に・まったく〜ない・ほど・くらい」など程度を表す語を正確に使いましょう。
+
+Trong ghi chép điều dưỡng, cần truyền đạt cụ thể "ăn được bao nhiêu" hay "mức độ triệu chứng như thế nào". Hãy sử dụng chính xác các từ biểu đạt mức độ như hầu hết, khá, một chút, đầy đủ, hoàn toàn không, khoảng, đến mức.`,
+      keyPoints: [
+        'ほとんど: 大部分・ほぼ全て（hầu hết, gần như hoàn toàn） — ほとんど食べた',
+        'かなり: 程度が高い・かなり大きい（khá, khá nhiều） — かなり痛そう',
+        '少し（すこし）: 少量・わずか（một chút, ít） — 少し食欲がある',
+        '十分に（じゅうぶんに）: 必要なだけある（đầy đủ, đủ） — 水分を十分に摂る',
+        'まったく〜ない: 全然〜ない（hoàn toàn không） — まったく食べない',
+        'ほど・くらい: おおよその数量・程度（khoảng, chừng） — 半分くらい食べた',
+      ],
+      vocabulary: [
+        { word: 'ほとんど', reading: 'ほとんど', meaning: '大部分・ほぼ全て（hầu hết）', example: 'ほとんど食べられなかった' },
+        { word: 'かなり', reading: 'かなり', meaning: '相当・程度が高い（khá, tương đối nhiều）', example: 'かなり疲れている様子' },
+        { word: '十分に', reading: 'じゅうぶんに', meaning: '必要なだけ十分ある（đầy đủ, đủ mức cần thiết）', example: '水分を十分に補給する' },
+        { word: 'まったく', reading: 'まったく', meaning: '完全に（全否定と一緒に使う）（hoàn toàn）', example: 'まったく食欲がない' },
+        { word: 'くらい', reading: 'くらい', meaning: 'だいたいの程度・数量（khoảng, chừng）', example: '3割くらい食べた' },
+        { word: 'ほど', reading: 'ほど', meaning: '程度・比較の基準（đến mức, bằng khoảng）', example: '歩けないほど痛い' },
+      ],
+      examples: [
+        { japanese: '昼食はほとんど食べず、夕食も3割くらいしか食べなかった。', reading: 'ちゅうしょくはほとんどたべず、ゆうしょくも3わりくらいしかたべなかった。', translation: 'Bữa trưa hầu như không ăn, bữa tối cũng chỉ ăn được khoảng 3 phần.' },
+        { japanese: 'かなり倦怠感があるようで、まったく動こうとしない。', reading: 'かなりけんたいかんがあるようで、まったくうごこうとしない。', translation: 'Có vẻ mệt mỏi khá nhiều, hoàn toàn không muốn cử động.' },
+        { japanese: '水分は十分に摂れているが、食事量は少し足りない。', reading: 'すいぶんはじゅうぶんにとれているが、しょくじりょうはすこしたりない。', translation: 'Lượng nước uống đầy đủ nhưng lượng ăn còn hơi thiếu.' },
+      ],
+      grammarNote: `【N4文法：〜ほど〜ない（比較の否定）】
+「昨日ほど痛くない」= Không đau bằng hôm qua
+「〜ほど〜ない」は「〜と同じくらいには〜でない」という比較表現。
+
+【程度副詞の強さ（強→弱）】
+まったく〜ない（完全否定）> ほとんど〜ない > あまり〜ない > 少し〜ない
+hoàn toàn không > hầu như không > không mấy > hơi không`,
+      quiz: {
+        question: '「（　）食欲がない」—「全然・完全に食欲がない」という意味になるのは？',
+        options: [
+          { id: 'a', text: 'かなり' },
+          { id: 'b', text: 'ほとんど' },
+          { id: 'c', text: 'まったく' },
+          { id: 'd', text: '少し' },
+        ],
+        correctId: 'c',
+        explanation: '「まったく〜ない」は完全な否定で「全然・全く〜ない」と同じ意味。「ほとんど〜ない」は「ほぼない」、「かなり〜ない」は不自然。\n「まったく〜ない」là phủ định hoàn toàn, cùng nghĩa với "hoàn toàn không".',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-7': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 施設・設備の名詞',
+      titleTranslation: 'Từ vựng N4: Danh từ về cơ sở vật chất và trang thiết bị',
+      introduction: `介護施設で働くには、施設内の各場所と設備の名前を正しく知ることが必要です。「居室・廊下・浴室・食堂・ナースステーション・エレベーター・非常口」を覚えて、利用者の誘導や緊急時の対応に役立てましょう。
+
+Để làm việc tại cơ sở điều dưỡng, cần biết đúng tên các nơi và trang thiết bị trong cơ sở. Hãy ghi nhớ phòng ở, hành lang, phòng tắm, phòng ăn, trạm y tá, thang máy, lối thoát hiểm để hỗ trợ dẫn đường người dùng và ứng phó khi khẩn cấp.`,
+      keyPoints: [
+        '居室（きょしつ）: 利用者が生活する部屋（phòng ở của người dùng）',
+        '廊下（ろうか）: 部屋と部屋をつなぐ通路（hành lang）',
+        '浴室（よくしつ）: 入浴する場所（phòng tắm）',
+        '食堂（しょくどう）: 食事をとる共同スペース（phòng ăn tập thể）',
+        'ナースステーション: 看護・介護スタッフの業務拠点（trạm y tá）',
+        '非常口（ひじょうぐち）: 緊急時の避難出口（lối thoát hiểm）',
+      ],
+      vocabulary: [
+        { word: '居室', reading: 'きょしつ', meaning: '利用者の個人部屋（phòng ở cá nhân）', example: '居室で休んでいる' },
+        { word: '廊下', reading: 'ろうか', meaning: '建物内の通路（hành lang）', example: '廊下を歩行訓練する' },
+        { word: '浴室', reading: 'よくしつ', meaning: '入浴するための部屋（phòng tắm）', example: '浴室の床が濡れている' },
+        { word: '食堂', reading: 'しょくどう', meaning: '食事をする共同部屋（phòng ăn）', example: '食堂で昼食をとる' },
+        { word: '非常口', reading: 'ひじょうぐち', meaning: '緊急避難のための出口（lối thoát hiểm）', example: '非常口の場所を確認する' },
+        { word: 'エレベーター', reading: 'エレベーター', meaning: '階移動用の昇降機（thang máy）', example: 'エレベーターで2階へ移動する' },
+      ],
+      examples: [
+        { japanese: 'Bさんが廊下で転倒しかけたので、すぐに居室へ誘導した。', reading: 'Bさんがろうかでてんとうしかけたので、すぐにきょしつへゆうどうした。', translation: 'Vì bác B suýt ngã ở hành lang nên đã dẫn ngay vào phòng ở.' },
+        { japanese: '浴室の床が滑りやすいため、入浴前に必ず確認する。', reading: 'よくしつのゆかがすべりやすいため、にゅうよくまえにかならずかくにんする。', translation: 'Vì sàn phòng tắm dễ trơn nên nhất định phải kiểm tra trước khi tắm.' },
+        { japanese: '緊急時は非常口から速やかに避難してください。', reading: 'きんきゅうじはひじょうぐちからすみやかにひなんしてください。', translation: 'Khi khẩn cấp hãy nhanh chóng sơ tán qua lối thoát hiểm.' },
+      ],
+      grammarNote: `【N4文法：〜やすい・〜にくい（性質の表現）】
+「床が滑りやすい」= sàn dễ trơn
+「手すりがつかみにくい」= khó nắm tay vịn
+〜やすい＝ dễ〜 / 〜にくい＝ khó〜（動詞のます形につける）
+
+【施設関連語】
+機能訓練室（きのうくんれんしつ）= phòng phục hồi chức năng
+談話室（だんわしつ）= phòng trò chuyện
+処置室（しょちしつ）= phòng xử lý
+スタッフルーム = phòng nhân viên`,
+      quiz: {
+        question: '緊急時に避難するための出口を何といいますか？',
+        options: [
+          { id: 'a', text: '食堂（しょくどう）' },
+          { id: 'b', text: '居室（きょしつ）' },
+          { id: 'c', text: '非常口（ひじょうぐち）' },
+          { id: 'd', text: '廊下（ろうか）' },
+        ],
+        correctId: 'c',
+        explanation: '「非常口（ひじょうぐち）」は火災・地震などの緊急時に使う避難出口です。施設内の非常口の場所を日頃から確認しておくことが大切です。\n「Lối thoát hiểm (非常口)」là cửa thoát hiểm dùng khi khẩn cấp như cháy, động đất. Điều quan trọng là phải thường xuyên xác nhận vị trí lối thoát hiểm trong cơ sở.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-8': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 食事・栄養の語彙',
+      titleTranslation: 'Từ vựng N4: Từ vựng về bữa ăn và dinh dưỡng',
+      introduction: `介護現場では食事は健康管理の中心です。「栄養・嚥下困難・食欲・水分補給・軟食・刻み食・ミキサー食」など食事に関する語彙を習得し、利用者一人ひとりの状態に合ったケアができるようにしましょう。
+
+Trong điều dưỡng, bữa ăn là trung tâm của quản lý sức khỏe. Hãy học từ vựng về bữa ăn như dinh dưỡng, khó nuốt, chán ăn, bổ sung nước, thức ăn mềm, thức ăn băm nhỏ, thức ăn xay để có thể chăm sóc phù hợp với từng người dùng.`,
+      keyPoints: [
+        '栄養（えいよう）: 体に必要な成分（dinh dưỡng） — 栄養状態を確認する',
+        '嚥下困難（えんげこんなん）: 飲み込みにくい状態（khó nuốt） — 嚥下困難がある',
+        '食欲（しょくよく）: 食べたいという気持ち（sự thèm ăn） — 食欲不振',
+        '水分補給（すいぶんほきゅう）: 水などを体に取り入れること（bổ sung nước）',
+        '軟食（なんしょく）: 柔らかく調理した食事（thức ăn mềm）',
+        '刻み食（きざみしょく）: 細かく切った食事（thức ăn băm nhỏ） / ミキサー食（thức ăn xay）',
+      ],
+      vocabulary: [
+        { word: '栄養', reading: 'えいよう', meaning: '体に必要な養分（dinh dưỡng）', example: '栄養バランスを考える' },
+        { word: '食欲', reading: 'しょくよく', meaning: '食べたい気持ち（sự thèm ăn）', example: '食欲が低下している' },
+        { word: '水分補給', reading: 'すいぶんほきゅう', meaning: '水分を体に取り入れること（bổ sung nước）', example: '水分補給を促す' },
+        { word: '軟食', reading: 'なんしょく', meaning: '柔らかく調理した食事形態（thức ăn mềm）', example: '軟食に変更する' },
+        { word: '刻み食', reading: 'きざみしょく', meaning: '細かく切った食事形態（thức ăn băm nhỏ）', example: '刻み食でむせが減った' },
+        { word: 'ミキサー食', reading: 'ミキサーしょく', meaning: 'ミキサーでなめらかにした食事（thức ăn xay nhuyễn）', example: 'ミキサー食に変更した' },
+      ],
+      examples: [
+        { japanese: '食欲が低下しているため、好みの食材を取り入れた軟食にした。', reading: 'しょくよくがていかしているため、このみのしょくざいをとりいれたなんしょくにした。', translation: 'Do chán ăn, đã đổi sang thức ăn mềm có nguyên liệu yêu thích.' },
+        { japanese: 'むせが多いので、刻み食からミキサー食に変更しました。', reading: 'むせがおおいので、きざみしょくからミキサーしょくにへんこうしました。', translation: 'Vì hay bị sặc nên đã đổi từ thức ăn băm nhỏ sang thức ăn xay.' },
+        { japanese: '水分補給が不十分なため、こまめに声をかけるようにしている。', reading: 'すいぶんほきゅうがふじゅうぶんなため、こまめにこえをかけるようにしている。', translation: 'Vì bổ sung nước chưa đầy đủ nên thường xuyên nhắc nhở.' },
+      ],
+      grammarNote: `【N4文法：〜に変更する（へんこうする）】
+「普通食から軟食に変更する」= Đổi từ cơm thường sang thức ăn mềm
+「AからBに変更する」は状態・形態の変化を表す重要な業務表現。
+
+【食事形態の段階（食べやすさ順）】
+普通食 → 軟食 → 刻み食 → ミキサー食 → 流動食
+Cơm thường → Mềm → Băm nhỏ → Xay → Lỏng
+
+【関連語】
+食事介助（しょくじかいじょ）= hỗ trợ ăn uống
+とろみ = độ sánh / 嚥下体操（えんげたいそう）= tập nuốt`,
+      quiz: {
+        question: '嚥下困難がある利用者に最も食べやすい食事形態は？',
+        options: [
+          { id: 'a', text: '普通食（ふつうしょく）' },
+          { id: 'b', text: '刻み食（きざみしょく）' },
+          { id: 'c', text: '軟食（なんしょく）' },
+          { id: 'd', text: 'ミキサー食（ミキサーしょく）' },
+        ],
+        correctId: 'd',
+        explanation: '嚥下困難が強い場合は「ミキサー食」が最も飲み込みやすい形態です。食事形態は普通食→軟食→刻み食→ミキサー食→流動食の順に変化します。\nKhi khó nuốt nặng, "thức ăn xay (ミキサー食)" là dạng dễ nuốt nhất. Dạng bữa ăn thay đổi theo thứ tự: thường → mềm → băm nhỏ → xay → lỏng.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-9': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 移動・姿勢の語彙',
+      titleTranslation: 'Từ vựng N4: Từ vựng về di chuyển và tư thế',
+      introduction: `介護の基本は「移動・移乗・体位変換」です。「歩行・移乗・体位変換・座位・臥位・起立・車椅子・歩行器」を正確に理解し、安全なケアと記録・申し送りに活用しましょう。
+
+Nền tảng của điều dưỡng là "di chuyển, chuyển chỗ, thay đổi tư thế". Hãy hiểu chính xác đi bộ, chuyển chỗ, thay đổi tư thế, tư thế ngồi, tư thế nằm, đứng dậy, xe lăn, khung tập đi để ứng dụng trong chăm sóc an toàn và ghi chép, bàn giao ca.`,
+      keyPoints: [
+        '歩行（ほこう）: 歩くこと（đi bộ） — 歩行状態・歩行訓練',
+        '移乗（いじょう）: ベッドから車椅子など乗り移ること（chuyển chỗ） — 移乗介助',
+        '体位変換（たいいへんかん）: 体の向きを変えること（thay đổi tư thế） — 2時間ごとに実施',
+        '座位（ざい）: 座った姿勢（tư thế ngồi） — 端座位・車椅子座位',
+        '臥位（がい）: 横になった姿勢（tư thế nằm） — 仰臥位・側臥位',
+        '起立（きりつ）: 立ち上がること（đứng dậy） — 起立動作・起立介助',
+      ],
+      vocabulary: [
+        { word: '歩行', reading: 'ほこう', meaning: '自分の足で歩くこと（đi bộ）', example: '歩行訓練を毎日行う' },
+        { word: '移乗', reading: 'いじょう', meaning: 'ベッドや椅子の間を移動すること（chuyển chỗ ngồi/nằm）', example: '移乗の際は転倒に注意する' },
+        { word: '体位変換', reading: 'たいいへんかん', meaning: '寝ている体の向きを変えること（thay đổi tư thế）', example: '体位変換を2時間ごとに行う' },
+        { word: '座位', reading: 'ざい', meaning: '座った姿勢（tư thế ngồi）', example: '端座位を保てている' },
+        { word: '臥位', reading: 'がい', meaning: '横になった姿勢（tư thế nằm）', example: '側臥位（そくがい）で休んでいる' },
+        { word: '歩行器', reading: 'ほこうき', meaning: '歩行を助ける補助具（khung tập đi）', example: '歩行器を使って廊下を歩く' },
+      ],
+      examples: [
+        { japanese: '移乗の際は二人介助で行い、安全を確認してから動いた。', reading: 'いじょうのさいはふたりかいじょでおこない、あんぜんをかくにんしてからうごいた。', translation: 'Khi chuyển chỗ đã thực hiện với hai người hỗ trợ, di chuyển sau khi xác nhận an toàn.' },
+        { japanese: '褥瘡予防のため、2時間ごとに体位変換を実施した。', reading: 'じょくそうよぼうのため、2じかんごとにたいいへんかんをじっしした。', translation: 'Để phòng ngừa loét tì đè, đã thực hiện thay đổi tư thế mỗi 2 giờ.' },
+        { japanese: '端座位から起立動作の際に少しふらつきが見られた。', reading: 'たんざいからきりつどうさのさいにすこしふらつきがみられた。', translation: 'Khi đứng dậy từ tư thế ngồi thẳng có thấy hơi loạng choạng.' },
+      ],
+      grammarNote: `【N4文法：〜ごとに（定期的な間隔）】
+「2時間ごとに体位変換する」= Thay đổi tư thế mỗi 2 giờ
+「〜ごとに」は「一定の間隔で繰り返す」という意味。介護記録でよく使う。
+
+【姿勢・体位の種類】
+仰臥位（ぎょうがい）= nằm ngửa
+側臥位（そくがい）= nằm nghiêng
+腹臥位（ふくがい）= nằm sấp
+端座位（たんざい）= ngồi thẳng mép giường
+半座位（はんざい）= nửa nằm nửa ngồi`,
+      quiz: {
+        question: 'ベッドから車椅子へ乗り移ることを何といいますか？',
+        options: [
+          { id: 'a', text: '歩行（ほこう）' },
+          { id: 'b', text: '体位変換（たいいへんかん）' },
+          { id: 'c', text: '移乗（いじょう）' },
+          { id: 'd', text: '起立（きりつ）' },
+        ],
+        correctId: 'c',
+        explanation: '「移乗（いじょう）」はベッド・車椅子・トイレなどの間で体を移動させることです。「移乗介助」は介護の基本技術の一つです。\n「Chuyển chỗ (移乗)」là việc di chuyển cơ thể giữa giường, xe lăn, bồn vệ sinh. Hỗ trợ chuyển chỗ là một kỹ thuật cơ bản trong điều dưỡng.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-10': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙: 排泄・清潔の語彙',
+      titleTranslation: 'Từ vựng N4: Từ vựng về bài tiết và vệ sinh',
+      introduction: `排泄ケアと清潔ケアは利用者の尊厳と健康に直結する重要な業務です。「排尿・排便・失禁・オムツ・清拭・口腔ケア・褥瘡予防」など、プライバシーに配慮しながら正確に記録・伝達する語彙を学びましょう。
+
+Chăm sóc bài tiết và vệ sinh là công việc quan trọng liên quan trực tiếp đến phẩm giá và sức khỏe của người dùng. Hãy học từ vựng ghi chép và truyền đạt chính xác như đi tiểu, đại tiện, tiểu không tự chủ, tã, lau người, chăm sóc miệng, phòng ngừa loét tì đè, trong khi chú ý đến sự riêng tư.`,
+      keyPoints: [
+        '排尿（はいにょう）: 尿を出すこと（đi tiểu） — 排尿回数・残尿',
+        '排便（はいべん）: 便を出すこと（đại tiện） — 排便なし・便秘',
+        '失禁（しっきん）: 意図せず尿・便が出ること（tiểu/đại tiện không tự chủ）',
+        'オムツ: 失禁対応の吸収パッド（tã） — オムツ交換',
+        '清拭（せいしき）: 濡れタオルで体を拭くこと（lau người）',
+        '口腔ケア（こうくうケア）: 口の中の清潔を保つケア（chăm sóc răng miệng）',
+      ],
+      vocabulary: [
+        { word: '排尿', reading: 'はいにょう', meaning: '体から尿を排出すること（đi tiểu）', example: '排尿が少ない' },
+        { word: '排便', reading: 'はいべん', meaning: '体から便を排出すること（đại tiện）', example: '3日間排便なし' },
+        { word: '失禁', reading: 'しっきん', meaning: '意図せず排泄してしまうこと（tiểu/đại tiện không tự chủ）', example: '尿失禁がある' },
+        { word: '清拭', reading: 'せいしき', meaning: '濡れタオルなどで体を拭いて清潔にすること（lau người）', example: '全身清拭を実施した' },
+        { word: '口腔ケア', reading: 'こうくうケア', meaning: '口の中を清潔に保つケア（chăm sóc vệ sinh miệng）', example: '食後に口腔ケアを行う' },
+        { word: '褥瘡予防', reading: 'じょくそうよぼう', meaning: '長時間の圧迫による皮膚の傷（loét tì đè）を防ぐこと', example: '褥瘡予防のため体位変換する' },
+      ],
+      examples: [
+        { japanese: '昨日から排便がなく、腹部の張りを訴えているため、看護師に報告した。', reading: 'きのうからはいべんがなく、ふくぶのはりをうったえているため、かんごしにほうこくした。', translation: 'Từ hôm qua chưa đại tiện và than bụng trướng nên đã báo cáo điều dưỡng viên.' },
+        { japanese: '食後は必ず口腔ケアを行い、誤嚥性肺炎を予防する。', reading: 'しょくごはかならずこうくうケアをおこない、ごえんせいはいえんをよぼうする。', translation: 'Sau bữa ăn nhất định thực hiện chăm sóc miệng để phòng ngừa viêm phổi do sặc.' },
+        { japanese: '体位変換と清拭を行い、褥瘡の発生を予防している。', reading: 'たいいへんかんとせいしきをおこない、じょくそうのはっせいをよぼうしている。', translation: 'Thực hiện thay đổi tư thế và lau người để phòng ngừa loét tì đè.' },
+      ],
+      grammarNote: `【N4文法：〜ため（目的）】
+「褥瘡予防のために体位変換する」= Thay đổi tư thế để phòng ngừa loét tì đè
+「〜ために」は目的を表す。「ため」は原因（n4-01-2参照）とは異なる用法に注意。
+
+【排泄・清潔ケア関連語】
+便秘（べんぴ）= táo bón / 下痢（げり）= tiêu chảy
+導尿（どうにょう）= thông tiểu / 摘便（てきべん）= lấy phân
+陰部洗浄（いんぶせいじょう）= vệ sinh vùng kín
+入浴（にゅうよく）= tắm / シャワー浴（シャワーよく）= tắm vòi sen`,
+      quiz: {
+        question: '長時間同じ姿勢でいることで皮膚が傷つく状態を何といいますか？また、それを防ぐケアは？',
+        options: [
+          { id: 'a', text: '失禁（しっきん）— オムツ交換で予防' },
+          { id: 'b', text: '褥瘡（じょくそう）— 体位変換で予防' },
+          { id: 'c', text: '浮腫（ふしゅ）— 清拭で予防' },
+          { id: 'd', text: '誤嚥（ごえん）— 口腔ケアで予防' },
+        ],
+        correctId: 'b',
+        explanation: '「褥瘡（じょくそう）」は長時間の圧迫で皮膚が壊死する状態（床ずれ）で、定期的な体位変換・圧迫を分散させるマットレスなどで予防します。\n「Loét tì đè (褥瘡)」là tình trạng da bị hoại tử do áp lực lâu dài. Phòng ngừa bằng cách thay đổi tư thế định kỳ và dùng đệm phân tán áp lực.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-11': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第11回 〜薬・医療処置〜',
+      titleTranslation: 'Từ vựng N4 Bài 11 - Thuốc & Thủ thuật y tế',
+      introduction: `介護・医療現場では薬や処置に関する語彙が必須です。「投薬・処方・副作用・点滴・注射・検温・採血・内服」を正確に理解し、利用者への説明や申し送りに活用しましょう。
+
+Trong môi trường điều dưỡng và y tế, từ vựng liên quan đến thuốc và thủ thuật là bắt buộc. Hãy nắm vững "投薬・処方・副作用・点滴・注射・検温・採血・内服" để giải thích cho người dùng và bàn giao ca.`,
+      keyPoints: [
+        '投薬（とうやく）: 薬を与えること（cho dùng thuốc）— 例：投薬記録を確認する',
+        '処方箋（しょほうせん）: 医師が薬を指示する書類（đơn thuốc）— 例：処方箋を受け取る',
+        '副作用（ふくさよう）: 薬の望ましくない効果（tác dụng phụ）— 例：副作用が出た',
+        '点滴（てんてき）: 静脈内輸液（truyền dịch）— 例：点滴を交換する',
+        '採血（さいけつ）: 血液を採取すること（lấy máu）— 例：採血の結果が出た',
+        '内服薬（ないふくやく）: 口から飲む薬（thuốc uống）— 例：内服薬を確認する',
+      ],
+      vocabulary: [
+        { word: '投薬', reading: 'とうやく', meaning: '患者に薬を与えること（cho dùng thuốc）', example: '投薬記録を毎回確認してください。' },
+        { word: '処方箋', reading: 'しょほうせん', meaning: '医師が出す薬の指示書（đơn thuốc）', example: '処方箋を薬局に持っていく。' },
+        { word: '副作用', reading: 'ふくさよう', meaning: '薬の好ましくない反応（tác dụng phụ）', example: '副作用として眠気が出ることがあります。' },
+        { word: '点滴', reading: 'てんてき', meaning: '静脈から液体を入れる処置（truyền dịch tĩnh mạch）', example: '点滴が終わったら知らせてください。' },
+        { word: '採血', reading: 'さいけつ', meaning: '血液検査のため血を採ること（lấy máu xét nghiệm）', example: '朝食前に採血を行います。' },
+        { word: '内服薬', reading: 'ないふくやく', meaning: '飲み薬（thuốc uống）', example: '内服薬は食後30分以内に飲んでください。' },
+      ],
+      examples: [
+        { japanese: '今日の投薬記録を確認し、副作用がないか観察してください。', reading: 'きょうのとうやくきろくをかくにんし、ふくさようがないかかんさつしてください。', translation: 'Hãy xác nhận hồ sơ dùng thuốc hôm nay và quan sát xem có tác dụng phụ không.' },
+        { japanese: '点滴が終わったら、採血の結果と合わせて報告します。', reading: 'てんてきがおわったら、さいけつのけっかとあわせてほうこくします。', translation: 'Khi truyền dịch xong, sẽ báo cáo cùng kết quả xét nghiệm máu.' },
+        { japanese: '内服薬の処方箋と実際の薬が一致しているか確認してください。', reading: 'ないふくやくのしょほうせんとじっさいのくすりがいっちしているかかくにんしてください。', translation: 'Hãy xác nhận đơn thuốc uống và thuốc thực tế có khớp nhau không.' },
+      ],
+      grammarNote: `【〜かどうか確認する（確認whether）】
+副作用が出ているかどうか確認する = xác nhận xem có tác dụng phụ không
+投薬が終わったかどうか報告する = báo cáo xem đã dùng thuốc xong chưa
+
+【医療処置関連語彙まとめ】
+注射（ちゅうしゃ）= tiêm / 検温（けんおん）= đo nhiệt độ
+採尿（さいにょう）= lấy nước tiểu / 輸血（ゆけつ）= truyền máu
+処置（しょち）= thủ thuật / 投与（とうよ）= cho dùng (thuốc)`,
+      quiz: {
+        question: '「薬の望ましくない反応」を何と言いますか？',
+        options: [
+          { id: 'a', text: '処方箋' },
+          { id: 'b', text: '副作用' },
+          { id: 'c', text: '投薬' },
+          { id: 'd', text: '内服' },
+        ],
+        correctId: 'b',
+        explanation: '副作用（ふくさよう）は薬が体に与える好ましくない反応のことです。Tác dụng phụ（ふくさよう）là phản ứng không mong muốn của thuốc đối với cơ thể.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-12': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第12回 〜コミュニケーション系動詞〜',
+      titleTranslation: 'Từ vựng N4 Bài 12 - Động từ giao tiếp',
+      introduction: `介護現場では利用者・家族・同僚との円滑なコミュニケーションが不可欠です。「相談する・伝える・説明する・同意する・拒否する・承諾する」を使いこなして、信頼関係を築きましょう。
+
+Giao tiếp suôn sẻ với người dùng, gia đình và đồng nghiệp là thiết yếu trong điều dưỡng. Hãy sử dụng thành thạo "相談する・伝える・説明する・同意する・拒否する・承諾する" để xây dựng mối quan hệ tin tưởng.`,
+      keyPoints: [
+        '相談する（そうだんする）: 意見を求めること（hỏi ý kiến, thảo luận）— 例：上司に相談する',
+        '伝える（つたえる）: 情報を知らせること（truyền đạt）— 例：急変を伝える',
+        '説明する（せつめいする）: 詳しく話すこと（giải thích）— 例：手順を説明する',
+        '同意する（どういする）: 賛成すること（đồng ý）— 例：ケアプランに同意する',
+        '拒否する（きょひする）: 断ること（từ chối）— 例：入浴を拒否される',
+        '承諾する（しょうだくする）: 正式に受け入れること（chấp thuận）— 例：同意書に承諾する',
+      ],
+      vocabulary: [
+        { word: '相談', reading: 'そうだん', meaning: '意見や助言を求める（hỏi ý kiến, thảo luận）', example: '困ったことがあれば、すぐ相談してください。' },
+        { word: '伝える', reading: 'つたえる', meaning: '情報・気持ちを知らせる（truyền đạt, thông báo）', example: '家族に状況を伝えます。' },
+        { word: '説明する', reading: 'せつめいする', meaning: '詳しく話して理解させる（giải thích）', example: 'ケアの手順を説明してください。' },
+        { word: '同意する', reading: 'どういする', meaning: '同じ意見であること（đồng ý）', example: 'サービス内容に同意しました。' },
+        { word: '拒否する', reading: 'きょひする', meaning: '断ること（từ chối）', example: '入浴を拒否される場合があります。' },
+        { word: '承諾する', reading: 'しょうだくする', meaning: '正式に受け入れること（chấp thuận chính thức）', example: '同意書に署名して承諾してください。' },
+      ],
+      examples: [
+        { japanese: '利用者さんが入浴を拒否したので、理由を聞いて上司に相談しました。', reading: 'りようしゃさんがにゅうよくをきょひしたので、りゆうをきいてじょうしにそうだんしました。', translation: 'Vì người dùng từ chối tắm, đã hỏi lý do rồi thảo luận với cấp trên.' },
+        { japanese: 'ケアプランの変更について、ご家族に説明し同意をいただきました。', reading: 'ケアプランのへんこうについて、ごかぞくにせつめいしどういをいただきました。', translation: 'Đã giải thích về việc thay đổi kế hoạch chăm sóc cho gia đình và nhận được sự đồng ý.' },
+        { japanese: '手術の説明を受け、患者さんは承諾書にサインしました。', reading: 'しゅじゅつのせつめいをうけ、かんじゃさんはしょうだくしょにサインしました。', translation: 'Sau khi nhận được giải thích về phẫu thuật, bệnh nhân đã ký vào phiếu chấp thuận.' },
+      ],
+      grammarNote: `【〜ていただく（謙譲表現）】
+説明していただく = được giải thích (lịch sự)
+同意していただく = được đồng ý (lịch sự)
+承諾していただく = được chấp thuận (lịch sự)
+
+【コミュニケーション動詞活用まとめ】
+相談する→相談します→相談しました→相談してください
+伝える→伝えます→伝えました→伝えてください
+拒否する→拒否します→拒否しました（される=受け身で使うことも多い）`,
+      quiz: {
+        question: '「ケアプランに（　）していただきました」に入る語は？',
+        options: [
+          { id: 'a', text: '拒否' },
+          { id: 'b', text: '同意' },
+          { id: 'c', text: '相談' },
+          { id: 'd', text: '伝え' },
+        ],
+        correctId: 'b',
+        explanation: 'ケアプランに「同意（どうい）」する = đồng ý với kế hoạch chăm sóc。「〜していただく」は丁寧な受け身表現です。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-13': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第13回 〜社会保険・制度〜',
+      titleTranslation: 'Từ vựng N4 Bài 13 - Bảo hiểm xã hội & Chế độ',
+      introduction: `日本の介護保険制度を理解することは、介護スタッフとして非常に重要です。「介護保険・要介護度・認定調査・サービス利用・負担割合」などの語彙をマスターし、利用者や家族への説明に役立てましょう。
+
+Hiểu chế độ bảo hiểm chăm sóc của Nhật Bản rất quan trọng đối với nhân viên điều dưỡng. Hãy nắm vững từ vựng như "介護保険・要介護度・認定調査・サービス利用・負担割合" để giải thích cho người dùng và gia đình.`,
+      keyPoints: [
+        '介護保険（かいごほけん）: 40歳以上が加入する公的保険（bảo hiểm chăm sóc）',
+        '要介護度（ようかいごど）: 介護が必要な程度（mức độ cần chăm sóc）— 要支援1〜2、要介護1〜5',
+        '認定調査（にんていちょうさ）: 介護度を決める調査（khảo sát xác định mức độ）',
+        '負担割合（ふたんわりあい）: 利用者が支払う費用の割合（tỷ lệ tự chi trả）— 1割・2割・3割',
+        'ケアマネジャー: 介護支援専門員（chuyên viên lập kế hoạch chăm sóc）',
+        'サービス提供（さーびすていきょう）: 介護サービスを行うこと（cung cấp dịch vụ chăm sóc）',
+      ],
+      vocabulary: [
+        { word: '介護保険', reading: 'かいごほけん', meaning: '公的な介護支援のための保険制度（bảo hiểm chăm sóc công cộng）', example: '介護保険を申請します。' },
+        { word: '要介護度', reading: 'ようかいごど', meaning: '介護の必要度を示す段階（mức độ cần chăm sóc）', example: '要介護度3に認定されました。' },
+        { word: '認定調査', reading: 'にんていちょうさ', meaning: '要介護度を判定するための調査（khảo sát xác định mức độ）', example: '来月、認定調査があります。' },
+        { word: '負担割合', reading: 'ふたんわりあい', meaning: '利用者が払うサービス費の割合（tỷ lệ chi trả của người dùng）', example: '負担割合は1割です。' },
+        { word: '区分支給限度額', reading: 'くぶんしきゅうげんどがく', meaning: 'サービス利用の上限金額（hạn mức chi trả dịch vụ）', example: '区分支給限度額を超えないようにする。' },
+        { word: 'ケアマネジャー', reading: 'ケアマネジャー', meaning: '介護支援専門員（chuyên viên hỗ trợ chăm sóc）', example: 'ケアマネジャーにケアプランを作成してもらう。' },
+      ],
+      examples: [
+        { japanese: '要介護度が変わったため、ケアプランを見直しました。', reading: 'ようかいごどがかわったため、ケアプランをみなおしました。', translation: 'Vì mức độ cần chăm sóc thay đổi, đã xem xét lại kế hoạch chăm sóc.' },
+        { japanese: '認定調査の結果、要介護2から要介護3に変更になりました。', reading: 'にんていちょうさのけっか、ようかいご2からようかいご3にへんこうになりました。', translation: 'Kết quả khảo sát xác định cho thấy đã thay đổi từ mức 2 lên mức 3.' },
+        { japanese: '負担割合は1割ですが、サービスを増やすと費用も上がります。', reading: 'ふたんわりあいはいちわりですが、サービスをふやすとひようもあがります。', translation: 'Tỷ lệ tự chi trả là 10%, nhưng nếu tăng dịch vụ thì chi phí cũng tăng.' },
+      ],
+      grammarNote: `【〜に認定される（受け身）】
+要介護3に認定される = được xác định là mức độ 3
+支援が必要と判定される = được đánh giá là cần hỗ trợ
+
+【介護保険制度 重要語彙リスト】
+要支援（ようしえん）1〜2 = cần hỗ trợ
+要介護（ようかいご）1〜5 = cần chăm sóc
+給付（きゅうふ）= chi trả / 申請（しんせい）= đơn xin
+更新（こうしん）= gia hạn / 区分（くぶん）= phân loại`,
+      quiz: {
+        question: '要介護度を決めるための調査を何と言いますか？',
+        options: [
+          { id: 'a', text: '認定調査' },
+          { id: 'b', text: '採血調査' },
+          { id: 'c', text: '健康診断' },
+          { id: 'd', text: 'バイタル測定' },
+        ],
+        correctId: 'a',
+        explanation: '認定調査（にんていちょうさ）は介護保険の要介護度を決めるための公的調査です。Khảo sát xác định（にんていちょうさ）là cuộc khảo sát chính thức để quyết định mức độ chăm sóc bảo hiểm.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-14': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第14回 〜書類・記録の語彙〜',
+      titleTranslation: 'Từ vựng N4 Bài 14 - Từ vựng tài liệu & hồ sơ',
+      introduction: `介護現場では書類の作成・管理が欠かせません。「介護記録・ケアプラン・インシデントレポート・申請書・同意書」を正確に理解し、適切に記入・活用できるようになりましょう。
+
+Trong điều dưỡng, việc lập và quản lý tài liệu là không thể thiếu. Hãy hiểu chính xác "介護記録・ケアプラン・インシデントレポート・申請書・同意書" và có thể điền, sử dụng một cách thích hợp.`,
+      keyPoints: [
+        '介護記録（かいごきろく）: 日々のケアを記録する書類（hồ sơ chăm sóc hàng ngày）',
+        'ケアプラン: 個別の支援計画書（kế hoạch hỗ trợ cá nhân）',
+        'インシデントレポート: 事故・ヒヤリハットの記録（báo cáo sự cố）',
+        '申請書（しんせいしょ）: サービス利用を申し込む書類（đơn xin）',
+        '同意書（どういしょ）: サービス・処置への同意を示す書類（phiếu đồng ý）',
+        '引き継ぎ書（ひきつぎしょ）: 業務の申し送り記録（hồ sơ bàn giao）',
+      ],
+      vocabulary: [
+        { word: '介護記録', reading: 'かいごきろく', meaning: '介護の内容を記録した書類（hồ sơ chăm sóc）', example: '介護記録に食事量を記入する。' },
+        { word: 'ケアプラン', reading: 'ケアプラン', meaning: '個別の介護サービス計画（kế hoạch dịch vụ chăm sóc cá nhân）', example: 'ケアプランを更新しました。' },
+        { word: 'インシデントレポート', reading: 'インシデントレポート', meaning: '事故・ミスの詳細記録（báo cáo sự cố）', example: '転倒後、インシデントレポートを提出する。' },
+        { word: '申請書', reading: 'しんせいしょ', meaning: 'サービス利用などを申し込む書類（đơn xin）', example: '申請書に必要事項を記入する。' },
+        { word: '同意書', reading: 'どういしょ', meaning: 'ケア内容に同意を示す書類（phiếu đồng ý）', example: '同意書にご署名をお願いします。' },
+        { word: '引き継ぎ', reading: 'ひきつぎ', meaning: '業務の申し送り（bàn giao công việc）', example: '引き継ぎ事項をノートに書く。' },
+      ],
+      examples: [
+        { japanese: 'シフト終了前に、介護記録と引き継ぎ書を確認してください。', reading: 'シフトしゅうりょうまえに、かいごきろくとひきつぎしょをかくにんしてください。', translation: 'Trước khi kết thúc ca, hãy xác nhận hồ sơ chăm sóc và tài liệu bàn giao.' },
+        { japanese: 'インシデントレポートは事故発生後24時間以内に提出します。', reading: 'インシデントレポートはじこはっせいごにじゅうよじかんいないにていしゅつします。', translation: 'Báo cáo sự cố phải nộp trong vòng 24 giờ sau khi xảy ra sự cố.' },
+        { japanese: '新しいサービスを開始する前に、同意書にサインをいただきます。', reading: 'あたらしいサービスをかいしするまえに、どういしょにサインをいただきます。', translation: 'Trước khi bắt đầu dịch vụ mới, sẽ xin chữ ký vào phiếu đồng ý.' },
+      ],
+      grammarNote: `【〜に記入する・〜を提出する（書類動詞）】
+申請書に記入する = điền vào đơn xin
+報告書を提出する = nộp báo cáo
+同意書にサインする = ký vào phiếu đồng ý
+
+【介護書類まとめ】
+サービス担当者会議録（さーびすたんとうしゃかいぎろく）= biên bản họp
+個別支援計画（こべつしえんけいかく）= kế hoạch hỗ trợ cá nhân
+ヒヤリハット報告書 = báo cáo tình huống nguy hiểm suýt xảy ra`,
+      quiz: {
+        question: '転倒などの事故・ミスを記録する書類は何ですか？',
+        options: [
+          { id: 'a', text: 'ケアプラン' },
+          { id: 'b', text: '申請書' },
+          { id: 'c', text: 'インシデントレポート' },
+          { id: 'd', text: '同意書' },
+        ],
+        correctId: 'c',
+        explanation: 'インシデントレポートは事故・ヒヤリハットを詳しく記録する書類です。Báo cáo sự cố（インシデントレポート）là tài liệu ghi chép chi tiết các sự cố và tình huống nguy hiểm.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-15': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第15回 〜緊急・安全の語彙〜',
+      titleTranslation: 'Từ vựng N4 Bài 15 - Từ vựng khẩn cấp & an toàn',
+      introduction: `介護現場での安全管理は最優先事項です。「転倒・急変・感染・誤嚥・拘縮・褥瘡・アレルギー反応」などのリスク用語を理解し、予防・対応・報告ができるようになりましょう。
+
+Quản lý an toàn trong điều dưỡng là ưu tiên hàng đầu. Hãy hiểu các từ ngữ rủi ro như "転倒・急変・感染・誤嚥・拘縮・褥瘡・アレルギー反応" để có thể phòng ngừa, ứng phó và báo cáo.`,
+      keyPoints: [
+        '転倒（てんとう）: 転んで倒れること（ngã）— リスクアセスメントで最重要',
+        '急変（きゅうへん）: 体調が急に悪くなること（đột biến sức khỏe）— 即報告が必要',
+        '誤嚥（ごえん）: 食べ物・飲み物が気管に入ること（sặc, hít phải thức ăn）',
+        '褥瘡（じょくそう）: 寝たきりで皮膚が傷つくこと（loét do nằm lâu）',
+        '拘縮（こうしゅく）: 関節が固まって動かなくなること（co cứng khớp）',
+        'アレルギー反応（あれるぎーはんのう）: 特定物質への異常反応（phản ứng dị ứng）',
+      ],
+      vocabulary: [
+        { word: '転倒', reading: 'てんとう', meaning: '倒れること（ngã, té ngã）', example: '転倒防止のためマットを敷く。' },
+        { word: '急変', reading: 'きゅうへん', meaning: '体調が突然悪化すること（đột biến sức khỏe）', example: '急変した場合はすぐに報告してください。' },
+        { word: '誤嚥', reading: 'ごえん', meaning: '食物が誤って気管に入ること（sặc, hít nhầm vào khí quản）', example: '誤嚥を防ぐため、食事姿勢を整える。' },
+        { word: '褥瘡', reading: 'じょくそう', meaning: '長時間同じ姿勢でできる皮膚の傷（loét do tỳ đè）', example: '褥瘡予防のため2時間ごとに体位交換する。' },
+        { word: '拘縮', reading: 'こうしゅく', meaning: '関節や筋肉が固まる状態（co cứng khớp）', example: '拘縮予防のためリハビリを行う。' },
+        { word: 'アレルギー反応', reading: 'アレルギーはんのう', meaning: '特定の物質への過敏な免疫反応（phản ứng dị ứng）', example: 'アレルギー反応が出たら投薬を中止する。' },
+      ],
+      examples: [
+        { japanese: '入浴中に転倒リスクがあるため、見守りを強化してください。', reading: 'にゅうよくちゅうにてんとうリスクがあるため、みまもりをきょうかしてください。', translation: 'Vì có nguy cơ ngã trong khi tắm, hãy tăng cường giám sát.' },
+        { japanese: '誤嚥を防ぐため、とろみ食でゆっくり食べていただきます。', reading: 'ごえんをふせぐため、とろみしょくでゆっくりたべていただきます。', translation: 'Để tránh sặc, hãy cho ăn chậm với thức ăn đặc sệt.' },
+        { japanese: '褥瘡を発見したため、ただちに看護師に報告しました。', reading: 'じょくそうをはっけんしたため、ただちにかんごしにほうこくしました。', translation: 'Sau khi phát hiện loét do tỳ đè, đã báo cáo ngay cho y tá.' },
+      ],
+      grammarNote: `【〜を防ぐ・〜を予防する（予防表現）】
+転倒を防ぐ = ngăn ngừa ngã
+感染を予防する = phòng ngừa lây nhiễm
+誤嚥が起きないように注意する = chú ý để không bị sặc
+
+【緊急時の報告表現】
+〜が急変しました = ... đã đột biến
+〜が転倒しました = ... đã ngã
+すぐに対応してください = hãy xử lý ngay
+救急車を呼んでください = hãy gọi xe cứu thương`,
+      quiz: {
+        question: '食べ物が気管に入ることを何と言いますか？',
+        options: [
+          { id: 'a', text: '転倒' },
+          { id: 'b', text: '急変' },
+          { id: 'c', text: '誤嚥' },
+          { id: 'd', text: '拘縮' },
+        ],
+        correctId: 'c',
+        explanation: '誤嚥（ごえん）は食べ物や飲み物が誤って気管に入ることです。高齢者に多い危険なリスクです。Sặc（ごえん）là khi thức ăn hoặc đồ uống nhầm vào khí quản, rủi ro nguy hiểm thường gặp ở người cao tuổi.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-16': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第16回 〜気持ち・心理の語彙〜',
+      titleTranslation: 'Từ vựng N4 Bài 16 - Từ vựng cảm xúc & tâm lý',
+      introduction: `利用者の心理的なケアは身体的なケアと同様に大切です。「不安・安心・焦る・落ち着く・悲しむ・喜ぶ・信頼・孤独」などの感情語彙を理解し、利用者の気持ちに寄り添いましょう。
+
+Chăm sóc tâm lý cho người dùng quan trọng không kém chăm sóc thể chất. Hãy hiểu từ vựng cảm xúc như "不安・安心・焦る・落ち着く・悲しむ・喜ぶ・信頼・孤独" để đồng cảm với người dùng.`,
+      keyPoints: [
+        '不安（ふあん）: 心配で落ち着かない気持ち（lo lắng, bất an）— 例：手術前の不安',
+        '安心（あんしん）: 心配がなくなった状態（yên tâm）— 例：安心してください',
+        '焦る（あせる）: 急いで慌てる（nôn nóng, hối hả）— 例：時間に焦る',
+        '落ち着く（おちつく）: 気持ちが安定する（bình tĩnh）— 例：深呼吸して落ち着く',
+        '信頼（しんらい）: 相手を信じること（tin tưởng）— 例：スタッフへの信頼',
+        '孤独（こどく）: 一人で寂しい気持ち（cô đơn）— 例：孤独を感じる',
+      ],
+      vocabulary: [
+        { word: '不安', reading: 'ふあん', meaning: '心配で安定しない気持ち（lo lắng, bất an）', example: '手術前は不安を感じる方が多いです。' },
+        { word: '安心', reading: 'あんしん', meaning: '心配がない、穏やかな状態（yên tâm）', example: 'ご家族がいると安心されます。' },
+        { word: '焦る', reading: 'あせる', meaning: '急いで慌てること（nôn nóng）', example: '焦らず、ゆっくり食べてください。' },
+        { word: '落ち着く', reading: 'おちつく', meaning: '気持ちが穏やかになること（bình tĩnh）', example: '深呼吸すると落ち着きますよ。' },
+        { word: '信頼', reading: 'しんらい', meaning: '相手を信じて頼ること（tin tưởng）', example: '利用者との信頼関係を築く。' },
+        { word: '孤独', reading: 'こどく', meaning: '一人で寂しい状態（cô đơn, cô lập）', example: '孤独を感じている方には声かけが大切。' },
+      ],
+      examples: [
+        { japanese: '「大丈夫ですよ、安心してください」と声をかけました。', reading: '「だいじょうぶですよ、あんしんしてください」とこえをかけました。', translation: 'Đã nói chuyện rằng "Ổn thôi, hãy yên tâm nhé".' },
+        { japanese: '一人で食事をされる利用者さんが孤独を感じないよう、できるだけ一緒にいます。', reading: 'ひとりでしょくじをされるりようしゃさんがこどくをかんじないよう、できるだけいっしょにいます。', translation: 'Để người dùng ăn một mình không cảm thấy cô đơn, cố gắng ở cạnh càng nhiều càng tốt.' },
+        { japanese: '利用者さんが不安そうだったので、ゆっくり話を聞いて落ち着いてもらいました。', reading: 'りようしゃさんがふあんそうだったので、ゆっくりはなしをきいておちついてもらいました。', translation: 'Vì người dùng có vẻ lo lắng, đã lắng nghe từ từ để họ bình tĩnh lại.' },
+      ],
+      grammarNote: `【気持ちを表す表現パターン】
+〜を感じる = cảm thấy ~（不安を感じる・孤独を感じる）
+〜そうだ = có vẻ ~（不安そうだ・悲しそうだ）
+〜になる = trở nên ~（安心になる・落ち着くようになる）
+
+【感情形容詞一覧】
+嬉しい（うれしい）= vui mừng
+悲しい（かなしい）= buồn
+寂しい（さびしい）= cô đơn, nhớ nhà
+怖い（こわい）= sợ hãi
+辛い（つらい）= đau khổ, khó chịu`,
+      quiz: {
+        question: '「深呼吸して（　　）しましょう」に入る言葉は？',
+        options: [
+          { id: 'a', text: '孤独' },
+          { id: 'b', text: '焦る' },
+          { id: 'c', text: '落ち着く' },
+          { id: 'd', text: '不安' },
+        ],
+        correctId: 'c',
+        explanation: '深呼吸は気持ちを「落ち着く（おちつく）」させる方法です。bình tĩnh（おちつく）là trạng thái tâm lý ổn định sau khi thở sâu.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-17': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第17回 〜家族・人間関係の語彙〜',
+      titleTranslation: 'Từ vựng N4 Bài 17 - Từ vựng gia đình & quan hệ người',
+      introduction: `介護現場では多様な人間関係の中で働きます。「主任・同僚・担当者・家族・後見人・サービス提供者」などの関係者を正確に理解し、適切な言葉遣いで対応できるようにしましょう。
+
+Trong điều dưỡng, bạn làm việc trong mối quan hệ đa dạng. Hãy hiểu chính xác các bên liên quan như "主任・同僚・担当者・家族・後見人・サービス提供者" và giao tiếp với từ ngữ phù hợp.`,
+      keyPoints: [
+        '主任（しゅにん）: チームのリーダー（trưởng nhóm）— 例：主任に報告する',
+        '同僚（どうりょう）: 同じ職場の仲間（đồng nghiệp）— 例：同僚と協力する',
+        '担当者（たんとうしゃ）: 特定業務を担当する人（người phụ trách）',
+        '後見人（こうけんにん）: 判断能力が低下した人の代理人（người giám hộ）',
+        'サービス提供者（さーびすていきょうしゃ）: 介護サービスを行う会社（nhà cung cấp dịch vụ）',
+        'キーパーソン: 主な意思決定者（người ra quyết định chính）',
+      ],
+      vocabulary: [
+        { word: '主任', reading: 'しゅにん', meaning: 'チームや部署のリーダー（trưởng nhóm）', example: '主任に急変を報告する。' },
+        { word: '同僚', reading: 'どうりょう', meaning: '同じ職場・職種の仲間（đồng nghiệp）', example: '同僚にシフトを代わってもらう。' },
+        { word: '担当者', reading: 'たんとうしゃ', meaning: '特定の業務や利用者を担当する人（người phụ trách）', example: 'ケアプランの担当者はAさんです。' },
+        { word: '後見人', reading: 'こうけんにん', meaning: '判断能力の低下した人の代理人（người giám hộ pháp lý）', example: '後見人の同意が必要です。' },
+        { word: 'キーパーソン', reading: 'キーパーソン', meaning: '意思決定の中心となる家族や代理人（người quyết định chính）', example: 'キーパーソンはご長男です。' },
+        { word: '利用者家族', reading: 'りようしゃかぞく', meaning: '利用者の家族（gia đình người dùng）', example: '利用者家族に状況を説明する。' },
+      ],
+      examples: [
+        { japanese: '急変の際は、担当者と主任に同時に報告してください。', reading: 'きゅうへんのさいは、たんとうしゃとしゅにんにどうじにほうこくしてください。', translation: 'Khi có đột biến, hãy báo cáo đồng thời cho người phụ trách và trưởng nhóm.' },
+        { japanese: 'キーパーソンはご長男ですので、ご家族への連絡はご長男にお伝えください。', reading: 'キーパーソンはごちょうなんですので、ごかぞくへのれんらくはごちょうなんにおつたえください。', translation: 'Vì người quyết định chính là con trai cả, hãy thông báo cho con trai cả khi liên lạc với gia đình.' },
+        { japanese: '後見人の方が同意書にサインしてくださいました。', reading: 'こうけんにんのかたがどういしょにサインしてくださいました。', translation: 'Người giám hộ đã ký vào phiếu đồng ý.' },
+      ],
+      grammarNote: `【〜に〜を報告する（報告の構文）】
+主任に急変を報告する = báo cáo đột biến cho trưởng nhóm
+担当者に変更を伝える = thông báo thay đổi cho người phụ trách
+家族にケアプランを説明する = giải thích kế hoạch cho gia đình
+
+【職場の人間関係語彙まとめ】
+施設長（しせつちょう）= giám đốc cơ sở
+ケアマネ（ケアマネジャー）= chuyên viên lập kế hoạch
+看護師（かんごし）= y tá / 介護士（かいごし）= nhân viên điều dưỡng
+相談員（そうだんいん）= nhân viên tư vấn`,
+      quiz: {
+        question: '判断能力が低下した人の代理人を何と言いますか？',
+        options: [
+          { id: 'a', text: '主任' },
+          { id: 'b', text: '後見人' },
+          { id: 'c', text: '担当者' },
+          { id: 'd', text: '同僚' },
+        ],
+        correctId: 'b',
+        explanation: '後見人（こうけんにん）は認知症などで判断能力が低下した人の法的代理人です。Người giám hộ（こうけんにん）là đại diện pháp lý của người giảm năng lực phán đoán do mất trí nhớ, v.v.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-18': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第18回 〜職場マナー・敬語〜',
+      titleTranslation: 'Từ vựng N4 Bài 18 - Phép lịch sự nơi làm việc & kính ngữ',
+      introduction: `日本の職場では敬語と礼儀が非常に重要です。「謙譲語・尊敬語・丁寧語・クッション言葉・報連相」を理解し、上司・同僚・利用者に適切な敬語で話せるようになりましょう。
+
+Trong môi trường làm việc Nhật Bản, kính ngữ và lễ nghi rất quan trọng. Hãy hiểu "謙譲語・尊敬語・丁寧語・クッション言葉・報連相" và có thể nói kính ngữ phù hợp với cấp trên, đồng nghiệp và người dùng.`,
+      keyPoints: [
+        '尊敬語（そんけいご）: 相手を高める表現（kính ngữ tôn trọng đối phương）— いらっしゃる・おっしゃる',
+        '謙譲語（けんじょうご）: 自分をへりくだらせる表現（kính ngữ hạ thấp bản thân）— いたす・申す・伺う',
+        '丁寧語（ていねいご）: 礼儀正しい表現（kính ngữ lịch sự）— です・ます・ございます',
+        'クッション言葉: 依頼・断りを柔らかくする表現（từ đệm）— 恐れ入りますが・よろしければ',
+        '報連相（ほうれんそう）: 報告・連絡・相談の略（báo cáo-liên lạc-thảo luận）',
+        '言葉遣い（ことばづかい）: 適切な言葉の選び方（cách dùng từ ngữ）',
+      ],
+      vocabulary: [
+        { word: '尊敬語', reading: 'そんけいご', meaning: '相手の行動を高める敬語（kính ngữ tôn trọng đối phương）', example: '先生がいらっしゃいます。' },
+        { word: '謙譲語', reading: 'けんじょうご', meaning: '自分の行動をへりくだらせる敬語（kính ngữ khiêm tốn）', example: '私がご説明いたします。' },
+        { word: '丁寧語', reading: 'ていねいご', meaning: '礼儀正しい話し方（kính ngữ lịch sự chung）', example: '薬を飲んでいただきます。' },
+        { word: 'クッション言葉', reading: 'クッションことば', meaning: '依頼や断りを柔らかくする言葉（từ đệm mềm hóa yêu cầu）', example: '恐れ入りますが、少々お待ちください。' },
+        { word: '報連相', reading: 'ほうれんそう', meaning: '報告・連絡・相談（báo cáo-liên lạc-thảo luận）', example: '職場では報連相を徹底する。' },
+        { word: '言葉遣い', reading: 'ことばづかい', meaning: '言葉の選び方・使い方（cách dùng từ ngữ）', example: '利用者への言葉遣いに気をつける。' },
+      ],
+      examples: [
+        { japanese: '「恐れ入りますが、もう少しお待ちいただけますでしょうか。」', reading: '「おそれいりますが、もうすこしおまちいただけますでしょうか。」', translation: '"Xin lỗi đã làm phiền, nhưng liệu bạn có thể chờ thêm một chút không?"' },
+        { japanese: '「ただ今、主任にご確認いたします。少々お待ちください。」', reading: '「ただいま、しゅにんにごかくにんいたします。しょうしょうおまちください。」', translation: '"Bây giờ tôi sẽ xác nhận với trưởng nhóm. Vui lòng đợi một chút."' },
+        { japanese: '報連相は介護現場の基本です。気になることはすぐ上司に相談しましょう。', reading: 'ほうれんそうはかいごげんばのきほんです。きになることはすぐじょうしにそうだんしましょう。', translation: 'Báo cáo-liên lạc-thảo luận là nền tảng của điều dưỡng. Hãy thảo luận ngay với cấp trên về điều bạn lo ngại.' },
+      ],
+      grammarNote: `【謙譲語の主な動詞】
+言う → 申す（もうす）
+する → いたす
+もらう → いただく
+行く → 伺う（うかがう）
+知る → 存じる（ぞんじる）
+
+【尊敬語の主な動詞】
+言う → おっしゃる
+いる → いらっしゃる
+する → なさる
+食べる → 召し上がる（めしあがる）
+来る → いらっしゃる・おいでになる`,
+      quiz: {
+        question: '「私がご説明（　　）」に入る謙譲語は？',
+        options: [
+          { id: 'a', text: 'します' },
+          { id: 'b', text: 'なさいます' },
+          { id: 'c', text: 'いたします' },
+          { id: 'd', text: 'おっしゃいます' },
+        ],
+        correctId: 'c',
+        explanation: '謙譲語「いたします」は「する」の謙譲語で、自分の行動をへりくだらせる表現です。「します」は丁寧語、「なさいます」「おっしゃいます」は尊敬語です。Kính ngữ khiêm tốn「いたします」là dạng khiêm tốn của「する」, dùng khi nói về hành động của bản thân.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-19': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第19回 〜N4重要語200語特訓〜',
+      titleTranslation: 'Từ vựng N4 Bài 19 - Luyện tập 200 từ quan trọng N4',
+      introduction: `N4レベルの最重要語彙として複合動詞・派生語・接頭辞を集中的に学びます。「〜直す・〜続ける・〜過ぎる」などの複合動詞パターンを習得し、語彙を効率的に拡張しましょう。
+
+Tập trung học động từ phức hợp, từ phái sinh và tiền tố quan trọng nhất ở cấp N4. Hãy nắm vững các mẫu động từ phức hợp như "〜直す・〜続ける・〜過ぎる" để mở rộng từ vựng hiệu quả.`,
+      keyPoints: [
+        '〜直す（なおす）: 再び〜する（làm lại）— 書き直す・確認し直す・やり直す',
+        '〜続ける（つづける）: 〜を継続する（tiếp tục）— 飲み続ける・働き続ける・観察し続ける',
+        '〜過ぎる（すぎる）: 程度が超える（quá mức）— 食べ過ぎる・働き過ぎる・飲み過ぎる',
+        '〜始める（はじめる）: 〜を開始する（bắt đầu）— 歩き始める・話し始める',
+        '〜終わる（おわる）: 〜が完了する（kết thúc）— 食べ終わる・書き終わる',
+        '接尾辞：〜的（てき）・〜性（せい）・〜化（か）・〜感（かん）',
+      ],
+      vocabulary: [
+        { word: '書き直す', reading: 'かきなおす', meaning: 'もう一度書く（viết lại）', example: '記録を書き直してください。' },
+        { word: '飲み続ける', reading: 'のみつづける', meaning: '薬を継続して服用する（tiếp tục uống）', example: '退院後も薬を飲み続けます。' },
+        { word: '食べ過ぎる', reading: 'たべすぎる', meaning: '食べる量が多すぎる（ăn quá nhiều）', example: '食べ過ぎると血糖値が上がります。' },
+        { word: '歩き始める', reading: 'あるきはじめる', meaning: '歩行を開始する（bắt đầu đi bộ）', example: 'リハビリで歩き始めました。' },
+        { word: '確認し直す', reading: 'かくにんしなおす', meaning: 'もう一度確認する（xác nhận lại）', example: '薬の量を確認し直してください。' },
+        { word: '働き過ぎる', reading: 'はたらきすぎる', meaning: '過度に働く（làm việc quá sức）', example: '働き過ぎに注意してください。' },
+      ],
+      examples: [
+        { japanese: '記録の書き方を間違えたため、書き直しました。', reading: 'きろくのかきかたをまちがえたため、かきなおしました。', translation: 'Vì viết hồ sơ sai, đã viết lại.' },
+        { japanese: '退院後も薬を飲み続けることが大切です。', reading: 'たいいんごもくすりをのみつづけることがたいせつです。', translation: 'Việc tiếp tục uống thuốc sau khi xuất viện rất quan trọng.' },
+        { japanese: '食べ過ぎに注意して、適度な食事量を守ってください。', reading: 'たべすぎにちゅういして、てきどなしょくじりょうをまもってください。', translation: 'Hãy chú ý không ăn quá nhiều và duy trì lượng ăn hợp lý.' },
+      ],
+      grammarNote: `【複合動詞の作り方】
+動詞の連用形 + 別の動詞
+書く（かく）→ 書き + 直す = 書き直す
+飲む（のむ）→ 飲み + 続ける = 飲み続ける
+食べる（たべる）→ 食べ + 過ぎる = 食べ過ぎる
+
+【接尾辞パターン（N4頻出）】
+〜的（てき）: 個人的（こじんてき）・積極的（せっきょくてき）
+〜性（せい）: 可能性（かのうせい）・安全性（あんぜんせい）
+〜化（か）: 高齢化（こうれいか）・悪化（あっか）
+〜感（かん）: 安心感（あんしんかん）・不安感（ふあんかん）`,
+      quiz: {
+        question: '「薬を毎日（　　）ことが大切です」に入る複合動詞は？',
+        options: [
+          { id: 'a', text: '飲み過ぎる' },
+          { id: 'b', text: '飲み続ける' },
+          { id: 'c', text: '飲み直す' },
+          { id: 'd', text: '飲み始める' },
+        ],
+        correctId: 'b',
+        explanation: '「飲み続ける（のみつづける）」は継続して飲むことを意味します。毎日薬を継続服用することが回復に大切です。Tiếp tục uống（のみつづける）có nghĩa là uống liên tục. Tiếp tục uống thuốc hàng ngày rất quan trọng cho sự hồi phục.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-01-20': {
+    courseTitle: { ja: 'N4 語彙マスター 〜1,000語〜', vi: 'Từ vựng N4 Master - 1000 từ' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4語彙 第20回 〜総復習テスト〜',
+      titleTranslation: 'Từ vựng N4 Bài 20 - Kiểm tra tổng ôn tập',
+      introduction: `N4語彙マスターコースの総まとめテストです。第11〜19回で学んだ「薬・医療処置・コミュニケーション・社会保険・書類・緊急・心理・人間関係・敬語・複合動詞」から総合的に出題します。しっかり復習してから挑戦しましょう！
+
+Đây là bài kiểm tra tổng kết của khóa học từ vựng N4. Các câu hỏi được lấy tổng hợp từ bài 11~19: "thuốc & y tế, giao tiếp, bảo hiểm xã hội, tài liệu, khẩn cấp, tâm lý, quan hệ người, kính ngữ, động từ phức hợp". Hãy ôn tập kỹ trước khi thử thách!`,
+      keyPoints: [
+        '【薬・医療】投薬・副作用・点滴・採血・内服・処方箋',
+        '【コミュニケーション】相談する・説明する・同意する・拒否する・承諾する',
+        '【制度・書類】介護保険・要介護度・ケアプラン・インシデントレポート・同意書',
+        '【緊急・安全】転倒・急変・誤嚥・褥瘡・拘縮・アレルギー反応',
+        '【敬語・職場】謙譲語・尊敬語・報連相・クッション言葉',
+        '【複合動詞】〜直す・〜続ける・〜過ぎる・〜始める・〜終わる',
+      ],
+      vocabulary: [
+        { word: '総復習', reading: 'そうふくしゅう', meaning: '全体を復習すること（ôn tập toàn bộ）', example: '総復習テストで実力を確認する。' },
+        { word: '実力', reading: 'じつりょく', meaning: '本当の能力（năng lực thực sự）', example: 'テストで実力を発揮する。' },
+        { word: '合格', reading: 'ごうかく', meaning: '試験に受かること（đậu, vượt qua）', example: 'N4に合格することが目標です。' },
+        { word: '語彙力', reading: 'ごいりょく', meaning: '語彙の知識と運用能力（năng lực từ vựng）', example: '語彙力を高める練習をする。' },
+        { word: '応用', reading: 'おうよう', meaning: '学んだことを実際に使うこと（ứng dụng）', example: '語彙を介護現場で応用する。' },
+        { word: '達成', reading: 'たっせい', meaning: '目標を成し遂げること（đạt được mục tiêu）', example: '10レッスン達成おめでとう！' },
+      ],
+      examples: [
+        { japanese: '今まで学んだ語彙を介護現場で積極的に使いましょう。', reading: 'いままでまなんだごいをかいごげんばでせっきょくてきにつかいましょう。', translation: 'Hãy tích cực sử dụng từ vựng đã học vào môi trường điều dưỡng.' },
+        { japanese: '総復習テストに合格して、N4語彙マスターを達成しましょう！', reading: 'そうふくしゅうテストにごうかくして、N4ごいマスターをたっせいしましょう！', translation: 'Hãy vượt qua bài kiểm tra tổng ôn tập và đạt được danh hiệu N4 Từ vựng Master!' },
+        { japanese: '学んだ敬語を使って、利用者様に丁寧に対応しましょう。', reading: 'まなんだけいごをつかって、りようしゃさまにていねいにたいおうしましょう。', translation: 'Hãy sử dụng kính ngữ đã học để đối xử lịch sự với người dùng.' },
+      ],
+      grammarNote: `【N4語彙マスター 総まとめ】
+このコースで学んだ主要カテゴリー：
+1. 薬・医療処置語彙（投薬・副作用・点滴）
+2. コミュニケーション動詞（説明・同意・拒否）
+3. 社会保険制度（介護保険・要介護度）
+4. 書類・記録（ケアプラン・インシデントレポート）
+5. 緊急・安全語彙（転倒・誤嚥・褥瘡）
+6. 感情・心理語彙（不安・安心・信頼）
+7. 人間関係（主任・後見人・キーパーソン）
+8. 敬語（謙譲語・尊敬語・クッション言葉）
+9. 複合動詞（〜直す・〜続ける・〜過ぎる）`,
+      quizzes: [
+        {
+          question: '「薬の望ましくない反応」を表す語は？ / Từ nào biểu thị "phản ứng không mong muốn của thuốc"?',
+          options: [
+            { id: 'a', text: '処方箋（しょほうせん）' },
+            { id: 'b', text: '副作用（ふくさよう）' },
+            { id: 'c', text: '投薬（とうやく）' },
+            { id: 'd', text: '内服（ないふく）' },
+          ],
+          correctId: 'b',
+          explanation: '副作用（ふくさよう）= phản ứng phụ của thuốc。処方箋=đơn thuốc、投薬=cho dùng thuốc、内服=uống thuốc（các nghĩa khác nhau）。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「ケアプランに（　　）する」に入る最も適切な動詞は？ / Động từ phù hợp nhất điền vào chỗ trống?',
+          options: [
+            { id: 'a', text: '拒否' },
+            { id: 'b', text: '急変' },
+            { id: 'c', text: '同意' },
+            { id: 'd', text: '採血' },
+          ],
+          correctId: 'c',
+          explanation: 'ケアプランに「同意（どうい）する」= đồng ý với kế hoạch chăm sóc。拒否=từ chối、急変=đột biến（この文脈では不自然）、採血=lấy máu（意味が異なる）。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '食べ物が気管に入る危険な状態を何と言いますか？ / Tình trạng nguy hiểm khi thức ăn vào khí quản gọi là gì?',
+          options: [
+            { id: 'a', text: '転倒（てんとう）' },
+            { id: 'b', text: '褥瘡（じょくそう）' },
+            { id: 'c', text: '誤嚥（ごえん）' },
+            { id: 'd', text: '拘縮（こうしゅく）' },
+          ],
+          correctId: 'c',
+          explanation: '誤嚥（ごえん）= sặc/hít nhầm vào khí quản。転倒=ngã、褥瘡=loét do tỳ đè、拘縮=co cứng khớp。すべて介護リスク語彙の重要語です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「私がご説明（　　）」の正しい謙譲語を選んでください。 / Chọn kính ngữ khiêm tốn đúng.',
+          options: [
+            { id: 'a', text: 'します' },
+            { id: 'b', text: 'なさいます' },
+            { id: 'c', text: 'いたします' },
+            { id: 'd', text: 'おっしゃいます' },
+          ],
+          correctId: 'c',
+          explanation: '「いたします」はする の謙譲語。「します」=丁寧語、「なさいます」「おっしゃいます」=尊敬語。自分の行動には謙譲語を使います。',
+          difficulty: 'hard' as const,
+        },
+        {
+          question: '「退院後も薬を（　　）ことが大切です」に入る複合動詞は？ / Động từ phức hợp nào phù hợp?',
+          options: [
+            { id: 'a', text: '飲み過ぎる' },
+            { id: 'b', text: '飲み直す' },
+            { id: 'c', text: '飲み始める' },
+            { id: 'd', text: '飲み続ける' },
+          ],
+          correctId: 'd',
+          explanation: '「飲み続ける（のみつづける）」= tiếp tục uống（継続）。飲み過ぎる=uống quá nhiều、飲み直す=uống lại、飲み始める=bắt đầu uống。文脈から「継続」が正解。',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
   // ===== N4 読解 =====
   'n4-03': {
     courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
@@ -5968,6 +7075,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n5-03': ['n5-03', 'n5-03-2', 'n5-03-3', 'n5-03-4', 'n5-03-5', 'n5-03-6', 'n5-03-7', 'n5-03-8', 'n5-03-9', 'n5-03-10', 'n5-03-11', 'n5-03-12', 'n5-03-13', 'n5-03-14', 'n5-03-15'],
   'n5-04': ['n5-04', 'n5-04-2', 'n5-04-3', 'n5-04-4', 'n5-04-5', 'n5-04-6', 'n5-04-7', 'n5-04-8', 'n5-04-9', 'n5-04-10', 'n5-04-11', 'n5-04-12'],
   'n5-05': ['n5-05', 'n5-05-2', 'n5-05-3', 'n5-05-4', 'n5-05-5', 'n5-05-6', 'n5-05-7', 'n5-05-8'],
+  'n4-01': ['n4-01', 'n4-01-2', 'n4-01-3', 'n4-01-4', 'n4-01-5', 'n4-01-6', 'n4-01-7', 'n4-01-8', 'n4-01-9', 'n4-01-10', 'n4-01-11', 'n4-01-12', 'n4-01-13', 'n4-01-14', 'n4-01-15', 'n4-01-16', 'n4-01-17', 'n4-01-18', 'n4-01-19', 'n4-01-20'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -6026,6 +7134,26 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n5-05-6':  { ja: '金・円・百・千・万・白・赤', vi: 'Tiền tệ & Màu sắc' },
   'n5-05-7':  { ja: '医・病・薬・手・目・耳・口', vi: 'Y tế & Bộ phận cơ thể' },
   'n5-05-8':  { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp 80 chữ' },
+  'n4-01':    { ja: '介護・医療の動詞', vi: 'Động từ điều dưỡng & y tế' },
+  'n4-01-2':  { ja: '身体症状・医療名詞', vi: 'Triệu chứng & Y tế' },
+  'n4-01-3':  { ja: '感情・状態の形容詞', vi: 'Cảm xúc & Trạng thái' },
+  'n4-01-4':  { ja: '介護業務の専門名詞', vi: 'Thuật ngữ điều dưỡng' },
+  'n4-01-5':  { ja: '時間・頻度の副詞', vi: 'Phó từ thời gian & tần suất' },
+  'n4-01-6':  { ja: '数量・程度の表現', vi: 'Số lượng & Mức độ' },
+  'n4-01-7':  { ja: '施設・設備の名詞', vi: 'Cơ sở & Thiết bị' },
+  'n4-01-8':  { ja: '食事・栄養の語彙', vi: 'Ăn uống & Dinh dưỡng' },
+  'n4-01-9':  { ja: '移動・姿勢の語彙', vi: 'Di chuyển & Tư thế' },
+  'n4-01-10': { ja: '排泄・清潔の語彙', vi: 'Vệ sinh & Sạch sẽ' },
+  'n4-01-11': { ja: '薬・医療処置の語彙', vi: 'Thuốc & Điều trị y tế' },
+  'n4-01-12': { ja: 'コミュニケーション動詞', vi: 'Động từ giao tiếp' },
+  'n4-01-13': { ja: '社会保険・制度の語彙', vi: 'Bảo hiểm & Chế độ xã hội' },
+  'n4-01-14': { ja: '書類・記録の語彙', vi: 'Tài liệu & Hồ sơ' },
+  'n4-01-15': { ja: '緊急・安全の語彙', vi: 'Khẩn cấp & An toàn' },
+  'n4-01-16': { ja: '気持ち・心理の語彙', vi: 'Tâm lý & Cảm xúc' },
+  'n4-01-17': { ja: '家族・人間関係の語彙', vi: 'Gia đình & Quan hệ' },
+  'n4-01-18': { ja: '職場マナー・敬語', vi: 'Nghi thức & Kính ngữ' },
+  'n4-01-19': { ja: 'N4重要語200語特訓', vi: 'Luyện 200 từ quan trọng N4' },
+  'n4-01-20': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
 };
 
 // Find course ID for a given lesson ID
