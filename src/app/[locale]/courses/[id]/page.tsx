@@ -1427,6 +1427,778 @@ Lời chào và tự giới thiệu trong tiếng Nhật là nền tảng của 
     },
   },
 
+  'n5-04-2': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L2: 日常の声かけ',
+      titleTranslation: 'Hội thoại N5 Bài 2: Những câu chào hỏi hàng ngày',
+      introduction: `日常生活の中で自然に使う声かけ表現を学びましょう。介護の現場では、利用者さんへの声かけが大切なコミュニケーションです。食事・就寝・起床など場面に合わせた挨拶を覚えましょう。
+
+Hãy học các câu chào hỏi tự nhiên trong cuộc sống hàng ngày. Trong môi trường điều dưỡng, việc lên tiếng với người được chăm sóc là giao tiếp rất quan trọng. Hãy ghi nhớ những lời chào phù hợp với từng tình huống như bữa ăn, đi ngủ, thức dậy.`,
+      keyPoints: [
+        '起床時：おはようございます。よく眠れましたか？',
+        '食事前：お食事の時間ですよ。いただきます。',
+        '食事後：ごちそうさまでした。おいしかったですか？',
+        '就寝時：おやすみなさい。ゆっくり休んでください。',
+        '移動時：〇〇さん、一緒に行きましょうか。',
+        '確認・返答：はい / そうですね / わかりました',
+      ],
+      vocabulary: [
+        { word: 'いただきます', reading: 'いただきます', meaning: '食事前の挨拶（trước bữa ăn）', example: 'では、いただきます' },
+        { word: 'ごちそうさまでした', reading: 'ごちそうさまでした', meaning: '食事後の挨拶（sau bữa ăn）', example: 'ごちそうさまでした、おいしかったです' },
+        { word: 'おやすみなさい', reading: 'おやすみなさい', meaning: '就寝前の挨拶（trước khi ngủ）', example: 'おやすみなさい、ゆっくり休んでください' },
+        { word: '眠れましたか', reading: 'ねむれましたか', meaning: '眠れた？（ngủ ngon không?）', example: 'よく眠れましたか' },
+        { word: '声かけ', reading: 'こえかけ', meaning: '声をかけること（lên tiếng gọi）', example: '食事前の声かけ' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: 'おはようございます、田中さん。よく眠れましたか？', reading: 'おはようございます、たなかさん。よくねむれましたか？', translation: 'Chào buổi sáng, bác Tanaka. Bác ngủ ngon không?' },
+        { speaker: '利用者', japanese: 'ええ、おかげさまで。', reading: 'ええ、おかげさまで。', translation: 'Vâng, nhờ ơn trời.' },
+        { speaker: 'スタッフ', japanese: 'もうすぐ朝食の時間です。準備できましたか？', reading: 'もうすぐちょうしょくのじかんです。じゅんびできましたか？', translation: 'Sắp đến giờ ăn sáng rồi. Bác đã sẵn sàng chưa?' },
+        { speaker: '利用者', japanese: 'はい、大丈夫です。', reading: 'はい、だいじょうぶです。', translation: 'Vâng, được rồi.' },
+        { speaker: 'スタッフ', japanese: 'では一緒に行きましょう。どうぞ。', reading: 'ではいっしょにいきましょう。どうぞ。', translation: 'Vậy chúng ta cùng đi nhé. Mời bác.' },
+      ],
+      examples: [
+        { japanese: 'お食事の時間ですよ。いただきましょう。', reading: 'おしょくじのじかんですよ。いただきましょう。', translation: 'Đến giờ ăn rồi đó. Chúng ta ăn thôi.' },
+        { japanese: 'ごちそうさまでした。おいしかったですか？', reading: 'ごちそうさまでした。おいしかったですか？', translation: 'Xin cảm ơn bữa ăn. Bác thấy ngon không?' },
+        { japanese: 'おやすみなさい。ゆっくり休んでください。', reading: 'おやすみなさい。ゆっくりやすんでください。', translation: 'Chúc ngủ ngon. Hãy nghỉ ngơi thật thoải mái.' },
+      ],
+      grammarNote: `【場面別声かけ一覧】
+起床：おはようございます。よく眠れましたか？
+食前：お食事の時間ですよ。いただきましょう。
+食後：ごちそうさまでした。お口を拭きましょうか。
+移動：〇〇さん、一緒に行きますよ。
+就寝：おやすみなさい。ゆっくり休んでください。
+
+【ポイント】
+・名前を呼ぶ（田中さん、山田さん）→親しみが伝わる
+・「〜ましょうか？」= 提案の表現
+・ゆっくり、はっきり話す → 聞き取りやすい`,
+      quiz: {
+        question: '食事が終わった後に言う挨拶は？',
+        options: [
+          { id: 'a', text: 'いただきます' },
+          { id: 'b', text: 'おはようございます' },
+          { id: 'c', text: 'ごちそうさまでした' },
+          { id: 'd', text: 'おやすみなさい' },
+        ],
+        correctId: 'c',
+        explanation: '「ごちそうさまでした」は食事の後に言う挨拶です。「いただきます」は食事前。\n"ごちそうさまでした" là lời chào sau bữa ăn. "Itadakimasu" là trước bữa ăn.',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-3': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L3: 職場の報告・連絡',
+      titleTranslation: 'Hội thoại N5 Bài 3: Báo cáo và liên lạc tại nơi làm việc',
+      introduction: `職場での「報告・連絡・相談（ほうれんそう）」は日本の職場文化の基本です。介護スタッフとして、利用者の状態変化を正確に上司や同僚に伝えるスキルが求められます。
+
+"Báo cáo - Liên lạc - Tham khảo ý kiến (Hōrenso)" là nền tảng văn hóa làm việc của Nhật Bản. Là nhân viên điều dưỡng, bạn cần có kỹ năng truyền đạt chính xác sự thay đổi tình trạng của người được chăm sóc cho cấp trên và đồng nghiệp.`,
+      keyPoints: [
+        '報告の基本：〜を確認しました / 〜が終わりました',
+        '変化の報告：〇〇さんが〜と言っています / 〜のようです',
+        '問題の報告：〜が気になります / すぐに来ていただけますか',
+        '申し送り：〜については引き続き注意が必要です',
+        '確認依頼：〜でよろしいでしょうか？',
+        '了解の返事：わかりました / 承知しました / はい、確認します',
+      ],
+      vocabulary: [
+        { word: '報告', reading: 'ほうこく', meaning: '上司に知らせること（báo cáo）', example: '状況を報告します' },
+        { word: '連絡', reading: 'れんらく', meaning: '知らせること（liên lạc）', example: 'すぐに連絡します' },
+        { word: '相談', reading: 'そうだん', meaning: '意見を聞くこと（tham khảo）', example: '先輩に相談します' },
+        { word: '申し送り', reading: 'もうしおくり', meaning: '次の人への引き継ぎ（bàn giao ca）', example: '申し送りをします' },
+        { word: '承知しました', reading: 'しょうちしました', meaning: 'わかった（đã hiểu/chấp nhận）', example: '承知しました、すぐ参ります' },
+        { word: '状態', reading: 'じょうたい', meaning: '状況（tình trạng）', example: '体の状態を確認する' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: '山田主任、田中さんの体温が37.8度あります。ご報告します。', reading: 'やまだしゅにん、たなかさんのたいおんが37.8どあります。ごほうこくします。', translation: 'Trưởng nhóm Yamada, bác Tanaka có nhiệt độ 37.8 độ. Tôi xin báo cáo.' },
+        { speaker: '主任', japanese: 'そうですか。今すぐ様子を見てきます。', reading: 'そうですか。いますぐようすをみてきます。', translation: 'Vậy à. Tôi sẽ đến xem ngay bây giờ.' },
+        { speaker: 'スタッフ', japanese: 'はい。また、少し食欲がないようです。', reading: 'はい。また、すこしちょくよくがないようです。', translation: 'Vâng. Ngoài ra, có vẻ bác ấy hơi mất cảm giác ngon miệng.' },
+        { speaker: '主任', japanese: 'わかりました。申し送りに記録しておいてください。', reading: 'わかりました。もうしおくりにきろくしておいてください。', translation: 'Hiểu rồi. Hãy ghi vào sổ bàn giao ca nhé.' },
+        { speaker: 'スタッフ', japanese: '承知しました。すぐ記録します。', reading: 'しょうちしました。すぐきろくします。', translation: 'Vâng, tôi sẽ ghi ngay.' },
+      ],
+      examples: [
+        { japanese: '田中さんの食事が半分しか食べられませんでした。ご報告します。', reading: 'たなかさんのしょくじがはんぶんしかたべられませんでした。ごほうこくします。', translation: 'Bác Tanaka chỉ ăn được một nửa suất ăn. Tôi xin báo cáo.' },
+        { japanese: '午後の入浴が終わりました。異常はありませんでした。', reading: 'ごごのにゅうよくがおわりました。いじょうはありませんでした。', translation: 'Tắm buổi chiều đã xong. Không có gì bất thường.' },
+        { japanese: '少し心配なので、相談させてください。', reading: 'すこしこころがいなので、そうだんさせてください。', translation: 'Tôi hơi lo nên cho phép tôi được tham khảo ý kiến.' },
+      ],
+      grammarNote: `【ほうれんそうの順序】
+①何が起きたか（事実）: 〜しました / 〜がありました
+②どんな状態か（状況）: 〜のようです / 〜と言っています
+③どうすべきか（提案）: 〜していただけますか / 確認お願いします
+
+【敬語の使い分け】
+同僚：〜しました、わかりました
+上司：〜させていただきました、承知しました
+緊急時：すぐに来ていただけますか！`,
+      quiz: {
+        question: '上司への返答として最も丁寧な表現は？',
+        options: [
+          { id: 'a', text: 'わかった' },
+          { id: 'b', text: 'はい、わかりました' },
+          { id: 'c', text: 'うん' },
+          { id: 'd', text: '承知しました' },
+        ],
+        correctId: 'd',
+        explanation: '「承知しました」が最も丁寧な返答です。「わかりました」は標準的。「わかった」「うん」は職場では不適切。\n"承知しました" là cách trả lời lịch sự nhất.',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-4': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L4: 道案内・場所を聞く',
+      titleTranslation: 'Hội thoại N5 Bài 4: Hỏi đường và chỉ đường',
+      introduction: `「〜はどこですか？」という場所を聞く表現と、簡単な道案内の方法を学びましょう。介護施設内での案内や、地域での生活支援でも使える表現です。
+
+Hãy học cách hỏi "〜はどこですか？" và cách chỉ đường đơn giản. Đây là những cách diễn đạt có thể dùng trong việc hướng dẫn trong cơ sở điều dưỡng và hỗ trợ cuộc sống trong cộng đồng.`,
+      keyPoints: [
+        '場所を聞く：〜はどこですか？ / 〜に行きたいのですが…',
+        '方向：まっすぐ / 右 / 左 / 角を曲がる / 〜の前・後ろ',
+        '距離：近い / 遠い / 歩いて〜分くらい',
+        '施設案内：エレベーターは〜にあります / 〜階です',
+        '確認：〜でよろしいですか？ / わかりましたか？',
+        '道に迷った：すみません、道に迷ってしまいました',
+      ],
+      vocabulary: [
+        { word: 'まっすぐ', reading: 'まっすぐ', meaning: '直進（đi thẳng）', example: 'まっすぐ進んでください' },
+        { word: '右・左', reading: 'みぎ・ひだり', meaning: '右と左（phải và trái）', example: '右に曲がります' },
+        { word: '角', reading: 'かど', meaning: '曲がり角（góc đường）', example: '角を左に曲がります' },
+        { word: 'エレベーター', reading: 'えれべーたー', meaning: '昇降機（thang máy）', example: 'エレベーターはあちらです' },
+        { word: '〜番出口', reading: '〜ばんでぐち', meaning: '出口の番号（cửa ra số〜）', example: '3番出口を出てください' },
+        { word: '迷う', reading: 'まよう', meaning: '道がわからない（lạc đường）', example: '道に迷いました' },
+      ],
+      dialogue: [
+        { speaker: '訪問者', japanese: 'すみません、トイレはどこですか？', reading: 'すみません、といれはどこですか？', translation: 'Xin lỗi, nhà vệ sinh ở đâu ạ?' },
+        { speaker: 'スタッフ', japanese: 'こちらの廊下をまっすぐ進んで、突き当たりを右に曲がったところです。', reading: 'こちらのろうかをまっすぐすすんで、つきあたりをみぎにまがったところです。', translation: 'Đi thẳng theo hành lang này, rồi ở cuối hành lang rẽ phải là tới nơi.' },
+        { speaker: '訪問者', japanese: 'わかりました。ありがとうございます。', reading: 'わかりました。ありがとうございます。', translation: 'Hiểu rồi. Cảm ơn.' },
+        { speaker: 'スタッフ', japanese: 'わからなければ、またお声がけください。', reading: 'わからなければ、またおこえがけください。', translation: 'Nếu không tìm được, hãy gọi tôi nhé.' },
+      ],
+      examples: [
+        { japanese: '食堂はどこですか？２階にあります。エレベーターで上がってください。', reading: 'しょくどうはどこですか？２かいにあります。えれべーたーであがってください。', translation: 'Nhà ăn ở đâu? Ở tầng 2. Hãy đi thang máy lên.' },
+        { japanese: 'このまま廊下をまっすぐ進んで、左に曲がるとナースステーションがあります。', reading: 'このままろうかをまっすぐすすんで、ひだりにまがるとなーすすてーしょんがあります。', translation: 'Đi thẳng theo hành lang này, rẽ trái là sẽ thấy trạm y tá.' },
+        { japanese: 'すみません、駅に行くにはどうやって行けばいいですか？', reading: 'すみません、えきにいくにはどうやっていけばいいですか？', translation: 'Xin lỗi, để đến ga tàu thì đi thế nào ạ?' },
+      ],
+      grammarNote: `【道案内の基本フレーズ】
+・まっすぐ進んでください（đi thẳng）
+・〜を右/左に曲がってください（rẽ phải/trái）
+・〜の前/後ろ/隣（trước/sau/bên cạnh）
+・〜番出口を出てください（ra cửa số〜）
+・歩いて約〜分です（khoảng〜 phút đi bộ）
+
+【場所の表現】
+〜の前（phía trước）/ 後ろ（phía sau）
+〜の右（bên phải）/ 左（bên trái）
+〜の隣（bên cạnh）/ 近く（gần đây）`,
+      quiz: {
+        question: '「突き当たりを右に曲がる」の意味は？',
+        options: [
+          { id: 'a', text: '廊下の途中で右に曲がる' },
+          { id: 'b', text: '廊下の一番端まで行って右に曲がる' },
+          { id: 'c', text: '右のドアを開ける' },
+          { id: 'd', text: '右の階段を下りる' },
+        ],
+        correctId: 'b',
+        explanation: '「突き当たり（つきあたり）」は廊下や道の一番奥・端のこと。「突き当たりを右に」= 端まで行って右折。\n"Tsukiatari" là cuối hành lang / đường cụt. Đi đến cuối rồi rẽ phải.',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-5': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L5: 体調・症状を伝える',
+      titleTranslation: 'Hội thoại N5 Bài 5: Diễn đạt tình trạng sức khỏe và triệu chứng',
+      introduction: `介護の現場では、利用者さんの体調変化を正確に言葉にして伝えることが最も重要なスキルのひとつです。「どこが痛いですか？」「どんな感じがしますか？」という質問と、答え方を練習しましょう。
+
+Trong môi trường điều dưỡng, một trong những kỹ năng quan trọng nhất là diễn đạt chính xác bằng lời sự thay đổi tình trạng sức khỏe của người được chăm sóc. Hãy luyện tập hỏi "Bác đau ở đâu?" và cách trả lời.`,
+      keyPoints: [
+        '痛みを聞く：どこが痛いですか？ / 痛みはありますか？',
+        '部位：頭・おなか・腰・足・胸・腕・背中',
+        '症状の表現：〜が痛い / 気持ち悪い / めまいがする / 熱っぽい',
+        '程度：少し / とても / すごく / 〜くらい（10点満点で）',
+        '時間：いつから？ / ずっと？ / 時々？',
+        '緊急時：すぐ看護師を呼びます / 動かないでください',
+      ],
+      vocabulary: [
+        { word: '痛い', reading: 'いたい', meaning: '痛み（đau）', example: '頭が痛いです' },
+        { word: '気持ち悪い', reading: 'きもちわるい', meaning: '吐き気（buồn nôn）', example: '少し気持ち悪いです' },
+        { word: 'めまい', reading: 'めまい', meaning: 'くらくら（chóng mặt）', example: 'めまいがします' },
+        { word: '熱', reading: 'ねつ', meaning: '体温上昇（sốt）', example: '熱が出ました' },
+        { word: '腰', reading: 'こし', meaning: '腰部（thắt lưng）', example: '腰が痛いです' },
+        { word: '胸', reading: 'むね', meaning: '胸部（ngực）', example: '胸が苦しいです' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: '山本さん、顔色が悪いですが、大丈夫ですか？', reading: 'やまもとさん、かおいろがわるいですが、だいじょうぶですか？', translation: 'Bác Yamamoto, sắc mặt bác trông không tốt, bác có sao không?' },
+        { speaker: '利用者', japanese: 'ちょっと頭が痛いんです。', reading: 'ちょっとあたまがいたいんです。', translation: 'Tôi hơi đau đầu một chút.' },
+        { speaker: 'スタッフ', japanese: 'いつからですか？熱はありますか？', reading: 'いつからですか？ねつはありますか？', translation: 'Từ lúc nào vậy? Bác có sốt không?' },
+        { speaker: '利用者', japanese: '朝からです。少し熱っぽい感じもします。', reading: 'あさからです。すこしねつっぽいかんじもします。', translation: 'Từ sáng. Tôi cũng có cảm giác hơi sốt.' },
+        { speaker: 'スタッフ', japanese: '体温を測りますね。少し待ってください。', reading: 'たいおんをはかりますね。すこしまってください。', translation: 'Để tôi đo nhiệt độ nhé. Xin bác chờ một chút.' },
+      ],
+      examples: [
+        { japanese: '腰が痛いです。昨日から続いています。', reading: 'こしがいたいです。きのうからつづいています。', translation: 'Tôi đau lưng. Đau liên tục từ hôm qua.' },
+        { japanese: '気持ち悪くて、食欲がありません。', reading: 'きもちわるくて、しょくよくがありません。', translation: 'Tôi buồn nôn và không có cảm giác ngon miệng.' },
+        { japanese: '胸が苦しいです。すぐ看護師を呼びます。', reading: 'むねがくるしいです。すぐかんごしをよびます。', translation: 'Tôi tức ngực. Tôi sẽ gọi y tá ngay.' },
+      ],
+      grammarNote: `【症状を説明するパターン】
+①部位 + が + 痛い/つらい/重い
+  頭が痛い / おなかが重い / 足がつらい
+②時間：いつから？
+  朝から / 昨日から / ずっと / 時々
+③程度：どのくらい？
+  少し / かなり / とても / ひどい
+
+【緊急時のフレーズ】
+・胸が苦しい → 即・看護師に報告！
+・意識がない → 「〇〇さん！わかりますか？」
+・転倒 → 「動かないでください。呼びますから」`,
+      quiz: {
+        question: '利用者が「胸が苦しい」と言ったら、まず何をすべきですか？',
+        options: [
+          { id: 'a', text: '水を飲んでもらう' },
+          { id: 'b', text: 'すぐに看護師・医師に知らせる' },
+          { id: 'c', text: '少し様子を見る' },
+          { id: 'd', text: '横になってもらう' },
+        ],
+        correctId: 'b',
+        explanation: '胸の苦しさは心臓発作などの緊急疾患の可能性があります。すぐに看護師・医師に知らせることが最優先です。\nTức ngực có thể là dấu hiệu cấp cứu. Báo ngay cho y tá/bác sĩ là ưu tiên hàng đầu.',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-6': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L6: 依頼・お断り',
+      titleTranslation: 'Hội thoại N5 Bài 6: Nhờ vả và từ chối',
+      introduction: `「〜していただけますか？」「〜をお願いできますか？」という丁寧な依頼表現と、丁寧に断る方法を学びましょう。介護現場では、利用者への声かけ・スタッフへの協力依頼など、毎日使う表現です。
+
+Hãy học cách nhờ vả lịch sự "〜していただけますか？" và cách từ chối lịch sự. Trong môi trường điều dưỡng, đây là những cách diễn đạt dùng hàng ngày, từ lên tiếng với người được chăm sóc đến nhờ đồng nghiệp hỗ trợ.`,
+      keyPoints: [
+        '依頼（丁寧）：〜していただけますか？ / 〜をお願いできますか？',
+        '依頼（普通）：〜してもらえますか？ / 〜してください',
+        '承諾：はい、わかりました / もちろんです / すぐに参ります',
+        'お断り：申し訳ありませんが、〜 / 少々お待ちいただけますか',
+        '代替案：〜でよろしければ / 代わりに〜はいかがでしょうか',
+        '確認：よろしいですか？ / ご無理ではないですか？',
+      ],
+      vocabulary: [
+        { word: '依頼', reading: 'いらい', meaning: 'お願い（nhờ vả）', example: '仕事を依頼する' },
+        { word: '申し訳ありません', reading: 'もうしわけありません', meaning: '大変ごめんなさい（xin lỗi rất nhiều）', example: '申し訳ありませんが、少しお待ちください' },
+        { word: 'もちろん', reading: 'もちろん', meaning: 'もちろん（tất nhiên）', example: 'もちろんです、喜んで' },
+        { word: '少々', reading: 'しょうしょう', meaning: '少し（một chút）', example: '少々お待ちください' },
+        { word: '承ります', reading: 'うけたまわります', meaning: '引き受ける（tiếp nhận/chấp nhận）', example: 'はい、承ります' },
+        { word: 'ご無理', reading: 'ごむり', meaning: '負担が大きい（quá sức）', example: 'ご無理ではないですか？' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: '田中さん、少し位置を変えてもよろしいですか？', reading: 'たなかさん、すこしいちをかえてもよろしいですか？', translation: 'Bác Tanaka, tôi có thể đổi tư thế cho bác một chút không?' },
+        { speaker: '利用者', japanese: 'はい、お願いします。', reading: 'はい、おねがいします。', translation: 'Vâng, nhờ bạn nhé.' },
+        { speaker: 'スタッフ', japanese: '少し体を右に向けていただけますか？', reading: 'すこしからだをみぎにむけていただけますか？', translation: 'Bác có thể nghiêng người sang phải một chút không?' },
+        { speaker: '利用者', japanese: 'すみません、腰が痛くて…', reading: 'すみません、こしがいたくて…', translation: 'Xin lỗi, thắt lưng của tôi đau...' },
+        { speaker: 'スタッフ', japanese: 'そうですか。では左はいかがですか？ゆっくりやりましょう。', reading: 'そうですか。ではひだりはいかがですか？ゆっくりやりましょう。', translation: 'Vậy à. Vậy sang trái thì sao? Chúng ta làm từ từ nhé.' },
+      ],
+      examples: [
+        { japanese: '申し訳ありませんが、今少し手が離せません。5分後によろしいですか？', reading: 'もうしわけありませんが、いますこしてがはなせません。5ふんごによろしいですか？', translation: 'Xin lỗi, bây giờ tôi đang bận tay một chút. 5 phút nữa được không?' },
+        { japanese: 'お水を持ってきていただけますか？', reading: 'おみずをもってきていただけますか？', translation: 'Bạn có thể lấy nước cho tôi không?' },
+        { japanese: '今日は体調が悪いので、入浴を明日にしていただけますか？', reading: 'きょうはたいちょうがわるいので、にゅうよくをあしたにしていただけますか？', translation: 'Hôm nay sức khỏe không tốt, nên tắm vào ngày mai được không?' },
+      ],
+      grammarNote: `【依頼の丁寧度】
+①〜してください（普通・指示的）
+②〜してもらえますか（やや丁寧）
+③〜していただけますか（丁寧・推奨）
+④〜していただけないでしょうか（最も丁寧）
+
+【断り方のパターン】
+・申し訳ありませんが＋理由＋代替案
+例：「申し訳ありませんが、今は手が離せません。
+   〇分後に伺いますので、少しお待ちください。」
+
+【介護での使い分け】
+利用者へ → 〜していただけますか？（丁寧）
+同僚へ → 〜してもらえる？（カジュアル）
+上司へ → 〜していただけますか？（丁寧）`,
+      quiz: {
+        question: '最も丁寧な依頼の表現はどれですか？',
+        options: [
+          { id: 'a', text: 'やってください' },
+          { id: 'b', text: 'やってもらえますか' },
+          { id: 'c', text: 'やっていただけませんか' },
+          { id: 'd', text: 'やって' },
+        ],
+        correctId: 'c',
+        explanation: '「〜ていただけませんか」が最も丁寧です。否定形（〜ませんか）を使うことで、さらに控えめで丁寧な依頼になります。\n"〜ていただけませんか" là lịch sự nhất vì dùng thể phủ định thể hiện sự khiêm tốn.',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-7': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L7: 食事・好みを伝える',
+      titleTranslation: 'Hội thoại N5 Bài 7: Truyền đạt sở thích và bữa ăn',
+      introduction: `食事は介護の仕事で中心的なケアのひとつです。利用者の好みや制限を確認し、食事を楽しんでもらうための会話表現を学びましょう。「何が食べたいですか？」「アレルギーはありますか？」など実践的な表現を練習します。
+
+Bữa ăn là một trong những hoạt động chăm sóc trung tâm trong công việc điều dưỡng. Hãy học các cách diễn đạt để xác nhận sở thích và hạn chế của người được chăm sóc và giúp họ thưởng thức bữa ăn. Luyện tập những cách nói thực tế như "Bác muốn ăn gì?" và "Bác có bị dị ứng không?".`,
+      keyPoints: [
+        '好みを聞く：何が食べたいですか？ / どんな食べ物が好きですか？',
+        '好みを伝える：〜が好きです / 〜は苦手です / 〜は食べられません',
+        '制限の確認：アレルギーはありますか？ / 食事制限はありますか？',
+        '量・食感：少なめに / やわらかくしてください / 刻んでください',
+        '食事の促し：いかがですか？ / 温かいうちに召し上がってください',
+        '感想：おいしいですか？ / お口に合いますか？',
+      ],
+      vocabulary: [
+        { word: 'アレルギー', reading: 'あれるぎー', meaning: '食物アレルギー（dị ứng thức ăn）', example: 'アレルギーはありますか' },
+        { word: '食事制限', reading: 'しょくじせいげん', meaning: '食べてはいけないもの（hạn chế ăn uống）', example: '食事制限があります' },
+        { word: 'やわらかい', reading: 'やわらかい', meaning: '柔らかい（mềm）', example: 'やわらかい食事をお願いします' },
+        { word: '刻む', reading: 'きざむ', meaning: '細かく切る（cắt nhỏ）', example: '刻んでください' },
+        { word: '召し上がる', reading: 'めしあがる', meaning: '食べるの敬語（ăn - kính ngữ）', example: '召し上がってください' },
+        { word: 'お口に合う', reading: 'おくちにあう', meaning: '好みに合う（hợp khẩu vị）', example: 'お口に合いますか？' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: '田中さん、今日のランチはどうでしたか？', reading: 'たなかさん、きょうのらんちはどうでしたか？', translation: 'Bác Tanaka, hôm nay bữa trưa thế nào?' },
+        { speaker: '利用者', japanese: '魚料理はおいしかったけど、ご飯が少し硬かったです。', reading: 'さかなりょうりはおいしかったけど、ごはんがすこしかたかったです。', translation: 'Món cá ngon nhưng cơm hơi cứng một chút.' },
+        { speaker: 'スタッフ', japanese: 'そうですか。明日からやわらかめにしましょうか？', reading: 'そうですか。あしたからやわらかめにしましょうか？', translation: 'Vậy à. Từ ngày mai tôi sẽ cho làm mềm hơn nhé?' },
+        { speaker: '利用者', japanese: 'ありがとうございます。お願いします。', reading: 'ありがとうございます。おねがいします。', translation: 'Cảm ơn. Nhờ bạn nhé.' },
+        { speaker: 'スタッフ', japanese: '他に何かご希望はありますか？', reading: 'ほかになにかごきぼうはありますか？', translation: 'Bác còn có mong muốn gì khác không?' },
+      ],
+      examples: [
+        { japanese: 'お魚は好きですが、貝類は苦手です。', reading: 'おさかなはすきですが、かいるいはにがてです。', translation: 'Tôi thích cá nhưng không thích đồ có vỏ.' },
+        { japanese: '飲み込みにくいので、やわらかく刻んでいただけますか？', reading: 'のみこみにくいので、やわらかくきざんでいただけますか？', translation: 'Tôi khó nuốt nên bạn có thể cắt nhỏ mềm không?' },
+        { japanese: 'お口に合いますか？おいしければよかったです。', reading: 'おくちにあいますか？おいしければよかったです。', translation: 'Có hợp khẩu vị không? Tốt quá nếu thấy ngon.' },
+      ],
+      grammarNote: `【食事に関する重要表現】
+・好き / 嫌い（すき/きらい）= thích/ghét
+・苦手（にがて）= không giỏi/không hợp
+・食べられない = không ăn được（アレルギー等）
+
+【食感の表現】
+・やわらかい（mềm）← → かたい（cứng）
+・なめらか（mịn）/ とろとろ（dẻo）
+・刻み食（cắt nhỏ）/ ミキサー食（xay nhuyễn）
+・普通食（thông thường）/ 嚥下食（dễ nuốt）
+
+【敬語での食事表現】
+食べる → 召し上がる（kính ngữ）
+「召し上がってください」= Mời bác dùng`,
+      quiz: {
+        question: '「召し上がってください」はどんな意味ですか？',
+        options: [
+          { id: 'a', text: '料理を作ってください' },
+          { id: 'b', text: '食べてください（丁寧）' },
+          { id: 'c', text: '買い物してください' },
+          { id: 'd', text: '片付けてください' },
+        ],
+        correctId: 'b',
+        explanation: '「召し上がる（めしあがる）」は「食べる」「飲む」の尊敬語。「召し上がってください」= 丁寧に「食べてください」。\n"Meshiagaru" là kính ngữ của "ăn/uống". "召し上がってください" = Mời (bác) dùng.',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-8': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L8: 電話・連絡の基本会話',
+      titleTranslation: 'Hội thoại N5 Bài 8: Hội thoại cơ bản qua điện thoại và liên lạc',
+      introduction: `電話での対応は介護職に欠かせないスキルです。「〜でございます」「少々お待ちください」「伝言をお願いできますか？」など、電話特有の表現を学びましょう。緊急連絡も含めて練習します。
+
+Xử lý điện thoại là kỹ năng không thể thiếu trong nghề điều dưỡng. Hãy học các cách diễn đạt đặc trưng của điện thoại như "〜でございます", "少々お待ちください", "伝言をお願いできますか？". Luyện tập cả liên lạc khẩn cấp.`,
+      keyPoints: [
+        '受話器を取る：はい、〇〇施設でございます',
+        '担当者不在：ただいま席を外しております / 折り返しご連絡します',
+        '伝言：伝言をお願いできますか？ / 〜とお伝えください',
+        '確認：失礼ですが、お名前をお聞きしてもよろしいですか？',
+        '緊急連絡：至急ご連絡ください / 救急車を呼んでいただけますか',
+        '終話：よろしくお願いいたします / 失礼いたします',
+      ],
+      vocabulary: [
+        { word: 'でございます', reading: 'でございます', meaning: '〜です（丁寧）（là... - lịch sự）', example: 'はい、桜荘でございます' },
+        { word: '伝言', reading: 'でんごん', meaning: 'メッセージを伝える（nhắn tin）', example: '伝言をお願いします' },
+        { word: '折り返す', reading: 'おりかえす', meaning: 'かけ直す（gọi lại）', example: '折り返しご連絡します' },
+        { word: '至急', reading: 'しきゅう', meaning: '急いで（khẩn cấp）', example: '至急ご連絡ください' },
+        { word: '失礼いたします', reading: 'しつれいいたします', meaning: '失礼します（丁寧）（xin phép/chào tạm biệt）', example: '失礼いたします（電話終了）' },
+        { word: '担当者', reading: 'たんとうしゃ', meaning: '担当する人（người phụ trách）', example: '担当者に代わります' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: 'はい、桜介護センターでございます。', reading: 'はい、さくらかいごせんたーでございます。', translation: 'Vâng, đây là Trung tâm điều dưỡng Sakura.' },
+        { speaker: '家族', japanese: '田中の家族ですが、担当の山田さんはいらっしゃいますか？', reading: 'たなかのかぞくですが、たんとうのやまださんはいらっしゃいますか？', translation: 'Tôi là gia đình bác Tanaka, xin hỏi nhân viên phụ trách Yamada có ở đó không?' },
+        { speaker: 'スタッフ', japanese: 'ただいま山田は席を外しております。折り返しご連絡させてもよろしいでしょうか？', reading: 'ただいまやまだはせきをはずしております。おりかえしごれんらくさせてもよろしいでしょうか？', translation: 'Hiện tại Yamada đang vắng mặt. Cho phép chúng tôi gọi lại được không?' },
+        { speaker: '家族', japanese: 'はい、お願いします。090-1234-5678です。', reading: 'はい、おねがいします。090-1234-5678です。', translation: 'Vâng, nhờ bạn nhé. Số điện thoại là 090-1234-5678.' },
+        { speaker: 'スタッフ', japanese: '090-1234-5678ですね。必ず申し伝えます。よろしくお願いいたします。', reading: '090-1234-5678ですね。かならずもうしつたえます。よろしくおねがいいたします。', translation: '090-1234-5678 đúng không? Tôi chắc chắn sẽ truyền đạt lại. Cảm ơn.' },
+      ],
+      examples: [
+        { japanese: 'ただいま担当者が席を外しております。折り返しご連絡してよろしいでしょうか？', reading: 'ただいまたんとうしゃがせきをはずしております。おりかえしごれんらくしてよろしいでしょうか？', translation: 'Hiện tại người phụ trách đang vắng. Chúng tôi có thể gọi lại không?' },
+        { japanese: '失礼ですが、お名前とご用件をお聞きしてもよろしいですか？', reading: 'しつれいですが、おなまえとごようけんをおききしてもよろしいですか？', translation: 'Xin phép hỏi tên và việc cần của quý vị được không?' },
+        { japanese: '至急、〇〇施設の△△までご連絡ください。', reading: 'しきゅう、〇〇しせつの△△までごれんらくください。', translation: 'Xin khẩn cấp liên lạc với △△ tại cơ sở 〇〇.' },
+      ],
+      grammarNote: `【電話の基本フロー】
+①受ける：はい、〇〇でございます
+②確認：失礼ですが、どちら様でしょうか？
+③対応：〜さんはただいま席を外しております
+④取り次ぎ：少々お待ちください（転送）
+⑤不在：折り返しご連絡します
+⑥終了：よろしくお願いいたします。失礼いたします
+
+【丁寧語の電話版】
+〜です → 〜でございます
+わかりました → 承知いたしました
+〜します → 〜いたします`,
+      quiz: {
+        question: '電話を切るときの丁寧な表現は？',
+        options: [
+          { id: 'a', text: 'じゃあ、バイバイ' },
+          { id: 'b', text: '失礼いたします' },
+          { id: 'c', text: 'またね' },
+          { id: 'd', text: 'ありがとう' },
+        ],
+        correctId: 'b',
+        explanation: '電話の終わりには「失礼いたします」が正式。「失礼します」より「いたします」でさらに丁寧になります。\n"失礼いたします" là cách kết thúc điện thoại lịch sự. "いたします" lịch sự hơn "します".',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-9': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L9: お礼・お詫び（丁寧表現）',
+      titleTranslation: 'Hội thoại N5 Bài 9: Cảm ơn và xin lỗi (Cách diễn đạt lịch sự)',
+      introduction: `「ありがとうございます」と「すみません」は日本語で最も大切な表現のひとつです。しかし、状況によって使い分けが必要です。謝罪の深さ、感謝の気持ちの大きさに合わせた表現を学びましょう。
+
+"Arigatou gozaimasu" và "Sumimasen" là một trong những cách diễn đạt quan trọng nhất trong tiếng Nhật. Tuy nhiên, cần phân biệt cách dùng tùy tình huống. Hãy học những cách diễn đạt phù hợp với mức độ xin lỗi và mức độ biết ơn.`,
+      keyPoints: [
+        '感謝の度合い：ありがとう < ありがとうございます < 大変ありがとうございます',
+        '謝罪の度合い：ごめんなさい < すみません < 申し訳ありません < 大変申し訳ございません',
+        '感謝の追加表現：おかげさまで / 助かりました / 恐れ入ります',
+        '謝罪のポイント：事実→原因→対応→再発防止',
+        '職場での謝罪：ご迷惑をおかけしました / 今後は気をつけます',
+        '受け答え：いいえ、とんでもないです / お気になさらず',
+      ],
+      vocabulary: [
+        { word: '恐れ入ります', reading: 'おそれいります', meaning: '恐縮する（ngại quá/cảm ơn）', example: '恐れ入ります、ありがとうございます' },
+        { word: '申し訳ございません', reading: 'もうしわけございません', meaning: '大変申し訳ない（rất xin lỗi）', example: '大変申し訳ございません' },
+        { word: 'おかげさまで', reading: 'おかげさまで', meaning: 'お陰で（nhờ ơn）', example: 'おかげさまで回復しました' },
+        { word: '助かりました', reading: 'たすかりました', meaning: '助けてもらった（đã được giúp đỡ）', example: '本当に助かりました' },
+        { word: 'とんでもない', reading: 'とんでもない', meaning: '気にしないで（không có gì）', example: 'とんでもないです、当然のことです' },
+        { word: 'ご迷惑', reading: 'ごめいわく', meaning: '迷惑（phiền toái）', example: 'ご迷惑をおかけしました' },
+      ],
+      dialogue: [
+        { speaker: '利用者', japanese: 'いつもお世話になっています。本当にありがとうございます。', reading: 'いつもおせわになっています。ほんとうにありがとうございます。', translation: 'Luôn được chăm sóc. Thực sự cảm ơn rất nhiều.' },
+        { speaker: 'スタッフ', japanese: 'いいえ、とんでもないです。お役に立てて嬉しいです。', reading: 'いいえ、とんでもないです。おやくにたてて、うれしいです。', translation: 'Không có gì đâu. Tôi vui vì có thể giúp ích được.' },
+        { speaker: 'スタッフ', japanese: '先日の対応が遅れてしまい、大変申し訳ありませんでした。', reading: 'せんじつのたいおうがおくれてしまい、たいへんもうしわけありませんでした。', translation: 'Hôm trước tôi xử lý chậm, tôi thực sự rất xin lỗi.' },
+        { speaker: '利用者', japanese: 'いいえ、お気になさらず。いつも頑張ってくれているのがわかります。', reading: 'いいえ、おきになさらず。いつもがんばってくれているのがわかります。', translation: 'Không sao. Tôi biết bạn luôn cố gắng mà.' },
+      ],
+      examples: [
+        { japanese: 'おかげさまで、田中さんの体調が回復しました。本当にありがとうございます。', reading: 'おかげさまで、たなかさんのたいちょうがかいふくしました。ほんとうにありがとうございます。', translation: 'Nhờ ơn mọi người, tình trạng sức khỏe của bác Tanaka đã hồi phục. Thực sự cảm ơn rất nhiều.' },
+        { japanese: 'ご迷惑をおかけして、大変申し訳ございませんでした。', reading: 'ごめいわくをおかけして、たいへんもうしわけございませんでした。', translation: 'Tôi đã gây phiền phức, thực sự rất xin lỗi.' },
+        { japanese: '助かりました。恐れ入ります。', reading: 'たすかりました。おそれいります。', translation: 'Cảm ơn đã giúp. Thật ngại quá.' },
+      ],
+      grammarNote: `【謝罪の段階】
+軽い：ごめんなさい（nội bộ・子供が使う）
+普通：すみませんでした（一般的）
+丁寧：申し訳ありません（職場・正式）
+最丁寧：大変申し訳ございません（深刻な謝罪）
+
+【感謝の段階】
+普通：ありがとうございます
+深謝：大変ありがとうございます / 心より感謝いたします
+恐縮：恐れ入ります（申し訳なく思う感謝）
+
+【謝罪のポイント】
+①事実：〜してしまいました
+②原因：〜のため
+③対応：〜します / しました
+④再発防止：今後は〜に気をつけます`,
+      quiz: {
+        question: '職場で上司に深く謝るときの最も適切な表現は？',
+        options: [
+          { id: 'a', text: 'ごめんなさい' },
+          { id: 'b', text: 'すまなかった' },
+          { id: 'c', text: '大変申し訳ございませんでした' },
+          { id: 'd', text: 'ごめんね' },
+        ],
+        correctId: 'c',
+        explanation: '「大変申し訳ございませんでした」が職場での最も丁寧な謝罪表現です。「ございません」は「ありません」の丁寧語。\n"大変申し訳ございませんでした" là cách xin lỗi lịch sự nhất trong môi trường làm việc.',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-10': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L10: 介護現場の基本ダイアログ',
+      titleTranslation: 'Hội thoại N5 Bài 10: Hội thoại cơ bản tại hiện trường điều dưỡng',
+      introduction: `介護の現場で実際に使われるリアルなダイアログ（対話）を練習しましょう。入浴介助・排泄介助・移動介助など、日常業務の場面に合わせた実践的な会話です。
+
+Hãy luyện tập những hội thoại thực tế được sử dụng tại hiện trường điều dưỡng. Đây là những cuộc trò chuyện thực tế phù hợp với các tình huống công việc hàng ngày như hỗ trợ tắm rửa, hỗ trợ vệ sinh, hỗ trợ di chuyển.`,
+      keyPoints: [
+        '移乗・移動介助：では、立ち上がりますよ。せーの、どうぞ。',
+        '入浴介助：お風呂の準備ができました。温度はいかがですか？',
+        '排泄介助：トイレに行きますか？お手伝いしますよ。',
+        '着替え介助：袖に腕を通しますね。こちらが右手ですよ。',
+        '確認と同意：〜でよろしいですか？ / 準備ができましたら教えてください',
+        '安全確認：ゆっくりでいいですよ / 急がなくて大丈夫です',
+      ],
+      vocabulary: [
+        { word: '移乗', reading: 'いじょう', meaning: 'ベッドから車椅子へ（chuyển từ giường sang xe lăn）', example: '移乗介助をします' },
+        { word: '介助', reading: 'かいじょ', meaning: '手伝い（hỗ trợ）', example: '入浴介助' },
+        { word: 'せーの', reading: 'せーの', meaning: 'タイミングを合わせる掛け声（đếm nhịp）', example: 'せーの、立ちましょう' },
+        { word: '袖', reading: 'そで', meaning: '洋服の腕の部分（ống tay áo）', example: '袖に腕を通します' },
+        { word: '体位', reading: 'たいい', meaning: '体の向き・姿勢（tư thế）', example: '体位変換をします' },
+        { word: '安全', reading: 'あんぜん', meaning: 'けがのないこと（an toàn）', example: '安全に配慮します' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: '山田さん、お風呂の準備ができましたよ。一緒に行きましょうか？', reading: 'やまださん、おふろのじゅんびができましたよ。いっしょにいきましょうか？', translation: 'Bác Yamada, đã chuẩn bị xong phòng tắm rồi. Chúng ta cùng đi nhé?' },
+        { speaker: '利用者', japanese: 'はい、お願いします。', reading: 'はい、おねがいします。', translation: 'Vâng, nhờ bạn.' },
+        { speaker: 'スタッフ', japanese: 'では、車椅子からゆっくり立ち上がりましょう。手をこちらに。せーの、どうぞ。', reading: 'では、くるまいすからゆっくりたちあがりましょう。てをこちらに。せーの、どうぞ。', translation: 'Vậy từ từ đứng dậy từ xe lăn nhé. Đặt tay vào đây. Một hai ba, nào.' },
+        { speaker: '利用者', japanese: 'ありがとう。お湯はぬるめにしてください。', reading: 'ありがとう。おゆはぬるめにしてください。', translation: 'Cảm ơn. Hãy làm nước hơi ấm thôi nhé.' },
+        { speaker: 'スタッフ', japanese: 'わかりました。温度を確認しますね。40度くらいでよろしいですか？', reading: 'わかりました。おんどをかくにんしますね。40どくらいでよろしいですか？', translation: 'Hiểu rồi. Để tôi kiểm tra nhiệt độ nhé. Khoảng 40 độ được không?' },
+      ],
+      examples: [
+        { japanese: 'ゆっくりでいいですよ。急がなくて大丈夫ですから。', reading: 'ゆっくりでいいですよ。いそがなくてだいじょうぶですから。', translation: 'Cứ từ từ thôi. Không cần vội đâu.' },
+        { japanese: 'では着替えましょう。右手から袖に通しますね。', reading: 'ではきがえましょう。みぎてからそでにとおしますね。', translation: 'Vậy thay quần áo nhé. Đưa tay phải vào ống tay áo trước nhé.' },
+        { japanese: 'トイレに行きたいときは、いつでも呼んでください。', reading: 'といれにいきたいときは、いつでもよんでください。', translation: 'Khi muốn đi vệ sinh, hãy gọi tôi bất cứ lúc nào.' },
+      ],
+      grammarNote: `【介護現場の声かけポイント】
+①声かけ前：名前を呼ぶ「〇〇さん」
+②説明：何をするか「〜をします」
+③同意確認：「よろしいですか？」
+④実施中：「ゆっくりでいいですよ」「せーの、どうぞ」
+⑤終了後：「終わりましたよ」「お疲れ様でした」
+
+【安全のための言葉】
+・「ゆっくり」= từ từ（急がせない）
+・「一緒に」= cùng nhau（孤独感を与えない）
+・「大丈夫ですよ」= không sao（安心させる）`,
+      quiz: {
+        question: '介護の声かけで最も重要なことは何ですか？',
+        options: [
+          { id: 'a', text: '大きな声で話すこと' },
+          { id: 'b', text: '名前を呼んでから行動する前に説明すること' },
+          { id: 'c', text: '英語で話すこと' },
+          { id: 'd', text: '急いで作業を終わらせること' },
+        ],
+        correctId: 'b',
+        explanation: '介護では「名前を呼ぶ」＋「何をするか説明する」＋「同意を確認する」が基本です。突然触れたり動かしたりしてはいけません。\nTrong điều dưỡng, cơ bản là "gọi tên" + "giải thích sẽ làm gì" + "xác nhận đồng ý".',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-11': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L11: 家族・個人情報の会話',
+      titleTranslation: 'Hội thoại N5 Bài 11: Hội thoại về gia đình và thông tin cá nhân',
+      introduction: `入居者や利用者の家族対応、緊急連絡先の確認など、個人情報にまつわる会話は介護職で頻繁に発生します。丁寧かつ正確に情報を聞き取り、伝えるスキルを身につけましょう。
+
+Hội thoại liên quan đến thông tin cá nhân như tiếp đón gia đình người lưu trú và xác nhận liên lạc khẩn cấp thường xuyên xảy ra trong nghề điều dưỡng. Hãy trau dồi kỹ năng lắng nghe và truyền đạt thông tin một cách lịch sự và chính xác.`,
+      keyPoints: [
+        '家族の確認：ご家族はいらっしゃいますか？ / おお名前を教えていただけますか？',
+        '連絡先：緊急連絡先のお電話番号は何番でしょうか？',
+        '続柄：息子さん・娘さん・ご主人・奥様・お子さん',
+        '面会：面会時間は〜時から〜時までです',
+        '個人情報の扱い：個人情報は厳重に管理します',
+        'プライバシー配慮：〜については、ご家族にのみお伝えします',
+      ],
+      vocabulary: [
+        { word: '緊急連絡先', reading: 'きんきゅうれんらくさき', meaning: '急なときの連絡先（liên lạc khẩn cấp）', example: '緊急連絡先を教えてください' },
+        { word: '続柄', reading: 'つづきがら', meaning: '家族関係（quan hệ gia đình）', example: '続柄をお聞かせください' },
+        { word: '面会', reading: 'めんかい', meaning: '訪問・会うこと（thăm）', example: '面会時間は14時からです' },
+        { word: '個人情報', reading: 'こじんじょうほう', meaning: 'プライベートな情報（thông tin cá nhân）', example: '個人情報の取り扱いに注意します' },
+        { word: 'ご主人', reading: 'ごしゅじん', meaning: '夫（kính）（chồng - kính ngữ）', example: 'ご主人は何時に来られますか' },
+        { word: '奥様', reading: 'おくさま', meaning: '妻（kính）（vợ - kính ngữ）', example: '奥様はご存知ですか' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: '田中太郎様のご家族でいらっしゃいますか？', reading: 'たなかたろうさまのごかぞくでいらっしゃいますか？', translation: 'Quý vị có phải là gia đình của bác Taro Tanaka không?' },
+        { speaker: '家族', japanese: 'はい、息子の田中一郎です。', reading: 'はい、むすこのたなかいちろうです。', translation: 'Vâng, tôi là con trai Ichiro Tanaka.' },
+        { speaker: 'スタッフ', japanese: 'ご連絡ありがとうございます。少しよろしいでしょうか？', reading: 'ごれんらくありがとうございます。すこしよろしいでしょうか？', translation: 'Cảm ơn đã liên lạc. Xin phép hỏi đôi điều được không?' },
+        { speaker: '家族', japanese: 'はい、何でしょうか。', reading: 'はい、なんでしょうか。', translation: 'Vâng, có chuyện gì ạ?' },
+        { speaker: 'スタッフ', japanese: '緊急連絡先のお電話番号をお聞かせいただけますか？今後のため確認させてください。', reading: 'きんきゅうれんらくさきのおでんわばんごうをおきかせいただけますか？こんごのためかくにんさせてください。', translation: 'Cho tôi hỏi số điện thoại liên lạc khẩn cấp được không? Để xác nhận cho sau này.' },
+      ],
+      examples: [
+        { japanese: 'ご家族はお何人いらっしゃいますか？緊急連絡先を教えていただけますか？', reading: 'ごかぞくはおなんにんいらっしゃいますか？きんきゅうれんらくさきをおしえていただけますか？', translation: 'Gia đình có bao nhiêu người? Bạn có thể cho tôi số liên lạc khẩn cấp không?' },
+        { japanese: '面会時間は午後２時から４時まででございます。', reading: 'めんかいじかんはごごにじからよじまででございます。', translation: 'Giờ thăm là từ 14 giờ đến 16 giờ chiều.' },
+        { japanese: 'ご本人の個人情報は、ご家族にのみお伝えします。', reading: 'ごほんにんのこじんじょうほうは、ごかぞくにのみおつたえします。', translation: 'Thông tin cá nhân của bác ấy chỉ được thông báo cho gia đình.' },
+      ],
+      grammarNote: `【家族の呼び方（敬語）】
+自分の家族 → 謙遜表現
+  父（ちち）・母（はは）・兄（あに）・姉（あね）
+
+相手の家族 → 尊敬表現
+  お父様・お母様・お兄様・お姉様
+  ご主人（旦那さん）/ 奥様（奥さん）
+  息子さん / 娘さん / お子さん
+
+【個人情報取り扱いの注意】
+・廊下・公共の場で個人情報を話さない
+・第三者に利用者情報を漏らさない
+・「〜についてはお答えできません」= không thể trả lời về...`,
+      quiz: {
+        question: '他人の夫（旦那さん）への丁寧な呼び方は？',
+        options: [
+          { id: 'a', text: '旦那' },
+          { id: 'b', text: 'ご主人' },
+          { id: 'c', text: 'ハズバンド' },
+          { id: 'd', text: 'おっと' },
+        ],
+        correctId: 'b',
+        explanation: '他人の夫への丁寧な表現は「ご主人（ごしゅじん）」または「ご主人様」です。「旦那」は親しい関係、「おっと（夫）」は自分の夫の謙称。\n"ご主人" là cách gọi lịch sự chồng của người khác.',
+      },
+      xpReward: 20,
+    },
+  },
+
+  'n5-04-12': {
+    courseTitle: { ja: 'N5 日常会話 はじめの一歩', vi: 'Hội thoại hàng ngày N5 - Bước đầu tiên' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N5会話L12: 総復習ロールプレイテスト',
+      titleTranslation: 'Hội thoại N5 Bài 12: Bài kiểm tra nhập vai tổng hợp',
+      introduction: `N5会話コースの総まとめです。学習した全ての会話表現を使って、介護現場を想定したロールプレイ形式で復習しましょう。挨拶・報告・体調確認・依頼・お礼・謝罪など、実践力を試します。
+
+Đây là phần tổng kết của khóa học Hội thoại N5. Hãy ôn tập dưới hình thức nhập vai giả định môi trường điều dưỡng, sử dụng tất cả các cách diễn đạt đã học. Kiểm tra thực lực về chào hỏi, báo cáo, kiểm tra sức khỏe, nhờ vả, cảm ơn, xin lỗi, v.v.`,
+      keyPoints: [
+        '【L1-2】挨拶・声かけ：おはようございます / ごちそうさまでした / おやすみなさい',
+        '【L3】報告・連絡：〜を確認しました / 申し送りに記録します',
+        '【L4】道案内：まっすぐ進んで右に曲がります',
+        '【L5】体調確認：どこが痛いですか？ / 胸が苦しい→即報告',
+        '【L6】依頼・断り：〜していただけますか？ / 申し訳ありませんが…',
+        '【L7-11】食事・電話・礼儀・ケアダイアログ・家族対応の総合演習',
+      ],
+      vocabulary: [
+        { word: '総復習', reading: 'そうふくしゅう', meaning: '全部の復習（ôn tập tổng hợp）', example: '総復習テストです' },
+        { word: 'ロールプレイ', reading: 'ろーるぷれい', meaning: '役割演技（nhập vai）', example: 'ロールプレイで練習する' },
+        { word: '実践', reading: 'じっせん', meaning: '実際にやること（thực hành）', example: '実践的な会話' },
+        { word: '臨機応変', reading: 'りんきおうへん', meaning: '状況に合わせて対応（linh hoạt）', example: '臨機応変に対応する' },
+        { word: '応用', reading: 'おうよう', meaning: '使いこなすこと（ứng dụng）', example: '学んだ表現を応用する' },
+        { word: '自信', reading: 'じしん', meaning: '自己信頼（tự tin）', example: '会話に自信がつく' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: 'おはようございます、田中さん。昨夜はよく眠れましたか？', reading: 'おはようございます、たなかさん。ゆうべはよくねむれましたか？', translation: 'Chào buổi sáng bác Tanaka. Tối qua bác ngủ ngon không?' },
+        { speaker: '利用者', japanese: 'おはようございます。少し腰が痛くて…', reading: 'おはようございます。すこしこしがいたくて…', translation: 'Chào buổi sáng. Tôi hơi đau lưng một chút...' },
+        { speaker: 'スタッフ', japanese: 'そうですか。いつからですか？昨日から続いていますか？', reading: 'そうですか。いつからですか？きのうからつづいていますか？', translation: 'Vậy ạ. Từ lúc nào vậy? Từ hôm qua liên tục không?' },
+        { speaker: '利用者', japanese: '昨夜からです。朝食後に薬を飲んでもいいですか？', reading: 'ゆうべからです。ちょうしょくごにくすりをのんでもいいですか？', translation: 'Từ tối qua. Sau bữa sáng tôi có thể uống thuốc không?' },
+        { speaker: 'スタッフ', japanese: 'はい、食後に飲んでください。念のため主任に報告しておきますね。', reading: 'はい、しょくごにのんでください。ねんのためしゅにんにほうこくしておきますね。', translation: 'Vâng, hãy uống sau bữa ăn. Để phòng khi, tôi sẽ báo cáo với trưởng nhóm nhé.' },
+      ],
+      examples: [
+        { japanese: 'ご報告します。山本さんが「気持ち悪い」と言っていました。すぐに確認していただけますか？', reading: 'ごほうこくします。やまもとさんが「きもちわるい」といっていました。すぐにかくにんしていただけますか？', translation: 'Tôi xin báo cáo. Bác Yamamoto nói cảm thấy buồn nôn. Bạn có thể kiểm tra ngay không?' },
+        { japanese: 'お食事の準備ができました。召し上がってください。ご飯はやわらかめになっております。', reading: 'おしょくじのじゅんびができました。めしあがってください。ごはんはやわらかめになっております。', translation: 'Đã chuẩn bị xong bữa ăn. Mời bác dùng. Cơm đã được làm mềm hơn.' },
+        { japanese: '先ほどの対応が遅くなり、大変申し訳ありませんでした。今後は迅速に対応いたします。', reading: 'さきほどのたいおうがおそくなり、たいへんもうしわけありませんでした。こんごはじんそくにたいおういたします。', translation: 'Xử lý chậm lúc nãy, tôi thực sự rất xin lỗi. Từ nay về sau tôi sẽ xử lý nhanh chóng hơn.' },
+      ],
+      grammarNote: `【N5会話コース 総まとめ】
+
+L1：挨拶・自己紹介の基本
+L2：起床・食事・就寝の声かけ
+L3：報告・連絡・相談（ほうれんそう）
+L4：道案内（まっすぐ・右・左・突き当たり）
+L5：体調報告（部位＋症状＋緊急対応）
+L6：依頼と断り（〜していただけますか？）
+L7：食事・好み・食事制限
+L8：電話対応（受ける・伝言・切る）
+L9：お礼・謝罪の段階表現
+L10：介護ケアの実践ダイアログ
+L11：家族・個人情報の会話
+
+【実践のために】
+日本語は「状況に合わせた使い分け」が大切です。
+自信を持って、実際の現場でも使いましょう！`,
+      quizzes: [
+        {
+          question: '利用者が「胸が苦しい」と言った。まず何をすべきか？',
+          options: [
+            { id: 'a', text: '水を飲ませる' },
+            { id: 'b', text: '様子を見る' },
+            { id: 'c', text: '即座に看護師・医師に報告する' },
+            { id: 'd', text: '薬を飲ませる' },
+          ],
+          correctId: 'c',
+          explanation: '胸の苦しさは心筋梗塞など緊急疾患の可能性。即座に報告が最優先。\nTức ngực có thể là khẩn cấp - báo ngay là ưu tiên.',
+          difficulty: 'hard' as const,
+        },
+        {
+          question: '「承知しました」の意味は？',
+          options: [
+            { id: 'a', text: 'わかりません' },
+            { id: 'b', text: '（丁寧に）わかりました・了解しました' },
+            { id: 'c', text: 'おはようございます' },
+            { id: 'd', text: 'ありがとうございます' },
+          ],
+          correctId: 'b',
+          explanation: '「承知しました」は「わかりました」の丁寧語。職場の上司に使う。\n"Shōchi shimashita" = hiểu rồi (lịch sự), dùng với cấp trên.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '電話で担当者が不在のとき何と言う？',
+          options: [
+            { id: 'a', text: 'いません' },
+            { id: 'b', text: 'ただいま席を外しております' },
+            { id: 'c', text: 'わかりません' },
+            { id: 'd', text: '出かけています' },
+          ],
+          correctId: 'b',
+          explanation: '「ただいま席を外しております」が電話での正式な不在表現。\n"Tadaima seki wo hazushite orimasu" = hiện đang vắng mặt (cách nói điện thoại).',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '食事の終わりに言う挨拶は？',
+          options: [
+            { id: 'a', text: 'おはようございます' },
+            { id: 'b', text: 'いただきます' },
+            { id: 'c', text: 'ごちそうさまでした' },
+            { id: 'd', text: 'おやすみなさい' },
+          ],
+          correctId: 'c',
+          explanation: '食後は「ごちそうさまでした」。食前は「いただきます」。\n"Gochisousama deshita" nói sau bữa ăn.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '最も丁寧な謝罪表現は？',
+          options: [
+            { id: 'a', text: 'ごめんなさい' },
+            { id: 'b', text: 'すみません' },
+            { id: 'c', text: '大変申し訳ございませんでした' },
+            { id: 'd', text: 'ごめんね' },
+          ],
+          correctId: 'c',
+          explanation: '「大変申し訳ございませんでした」が職場での最も丁寧な謝罪。\n"Taihen mōshiwake gozaimasen deshita" là cách xin lỗi lịch sự nhất.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
   // ===== N5 漢字 =====
   'n5-05': {
     courseTitle: { ja: 'N5 漢字入門 〜80字〜', vi: 'Nhập môn Kanji N5 - 80 chữ' },
@@ -4707,6 +5479,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n5-01': ['n5-01', 'n5-01-2', 'n5-01-3', 'n5-01-4', 'n5-01-5', 'n5-01-6', 'n5-01-7', 'n5-01-8', 'n5-01-9', 'n5-01-10'],
   'n5-02': ['n5-02', 'n5-02-2', 'n5-02-3', 'n5-02-4', 'n5-02-5', 'n5-02-6', 'n5-02-7', 'n5-02-8', 'n5-02-9', 'n5-02-10'],
   'n5-03': ['n5-03', 'n5-03-2', 'n5-03-3', 'n5-03-4', 'n5-03-5', 'n5-03-6', 'n5-03-7', 'n5-03-8', 'n5-03-9', 'n5-03-10', 'n5-03-11', 'n5-03-12', 'n5-03-13', 'n5-03-14', 'n5-03-15'],
+  'n5-04': ['n5-04', 'n5-04-2', 'n5-04-3', 'n5-04-4', 'n5-04-5', 'n5-04-6', 'n5-04-7', 'n5-04-8', 'n5-04-9', 'n5-04-10', 'n5-04-11', 'n5-04-12'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -4745,6 +5518,18 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n5-03-13': { ja: '比較 〜より・〜のほうが', vi: 'So sánh 〜より' },
   'n5-03-14': { ja: '接続詞 から・ので・が', vi: 'Liên từ から・ので' },
   'n5-03-15': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
+  'n5-04':    { ja: '自己紹介と挨拶', vi: 'Tự giới thiệu & Chào hỏi' },
+  'n5-04-2':  { ja: '日常の声かけ', vi: 'Chào hỏi hàng ngày' },
+  'n5-04-3':  { ja: '職場の報告・連絡', vi: 'Báo cáo tại nơi làm việc' },
+  'n5-04-4':  { ja: '道案内・場所を聞く', vi: 'Hỏi đường & Chỉ đường' },
+  'n5-04-5':  { ja: '体調・症状を伝える', vi: 'Tình trạng sức khỏe' },
+  'n5-04-6':  { ja: '依頼・お断り', vi: 'Nhờ vả & Từ chối' },
+  'n5-04-7':  { ja: '食事・好みを伝える', vi: 'Bữa ăn & Sở thích' },
+  'n5-04-8':  { ja: '電話・連絡の基本', vi: 'Điện thoại & Liên lạc' },
+  'n5-04-9':  { ja: 'お礼・お詫び', vi: 'Cảm ơn & Xin lỗi' },
+  'n5-04-10': { ja: '介護現場のダイアログ', vi: 'Hội thoại điều dưỡng' },
+  'n5-04-11': { ja: '家族・個人情報の会話', vi: 'Gia đình & Thông tin cá nhân' },
+  'n5-04-12': { ja: '総復習ロールプレイ', vi: 'Kiểm tra nhập vai tổng hợp' },
 };
 
 // Find course ID for a given lesson ID
