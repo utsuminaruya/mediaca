@@ -6016,6 +6016,1119 @@ Tập trung học động từ phức hợp, từ phái sinh và tiền tố qua
     },
   },
 
+  'n4-03-2': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L2: メモ・伝言を読む',
+      titleTranslation: 'Đọc hiểu N4 Bài 2: Đọc ghi chú và tin nhắn',
+      introduction: `介護現場では、申し送りメモや伝言メモを正確に読むことが毎日求められます。短いメモから「誰が・何を・いつ・どうした」を素早く読み取るトレーニングをしましょう。
+
+Trong môi trường điều dưỡng, việc đọc chính xác ghi chú bàn giao và tin nhắn được yêu cầu hàng ngày. Hãy luyện tập đọc nhanh từ ghi chú ngắn để nắm "ai - cái gì - khi nào - đã làm gì".`,
+      keyPoints: [
+        '5W1H：誰が（だれが）・何を（なにを）・いつ・どこで・なぜ・どうした',
+        '省略に注意：メモは主語・助詞が省かれることが多い',
+        '申し送りメモ：時刻・利用者名・状態変化・対応内容を確認',
+        '伝言メモ：用件・折り返し先・緊急度を素早く把握',
+        '記号・略語：「要確認」「至急」「済」「→」の意味',
+        '読み取り手順：①誰について ②いつ ③何があった ④次のアクション',
+      ],
+      vocabulary: [
+        { word: '申し送り', reading: 'もうしおくり', meaning: '次担当者への引き継ぎ（bàn giao ca）', example: '申し送りメモを読む' },
+        { word: '伝言', reading: 'でんごん', meaning: 'メッセージ（nhắn tin）', example: '田中さんへの伝言' },
+        { word: '至急', reading: 'しきゅう', meaning: '急いで（khẩn cấp）', example: '至急確認してください' },
+        { word: '要確認', reading: 'ようかくにん', meaning: '確認が必要（cần xác nhận）', example: '要確認：服薬状況' },
+        { word: '済', reading: 'すみ', meaning: '完了（xong/hoàn thành）', example: 'バイタル測定済' },
+      ],
+      examples: [
+        { japanese: '【申し送り】田中様　14時 発熱37.8℃。水分摂取少なめ。夜勤者→要観察。', reading: '【もうしおくり】たなかさま　14じ はつねつ37.8℃。すいぶんせっしゅすくなめ。やきんしゃ→ようかんさつ。', translation: '【Bàn giao】Bác Tanaka: 14h sốt 37.8℃. Uống nước ít. Nhân viên trực đêm→cần theo dõi.' },
+        { japanese: '【伝言】山田さんへ　田中様ご家族より電話あり。折り返し連絡希望。番号：090-XXXX。至急。', reading: '【でんごん】やまださんへ　たなかさまごかぞくよりでんわあり。おりかえしれんらくきぼう。ばんごう：090-XXXX。しきゅう。', translation: '【Nhắn tin】Gửi chị Yamada: Gia đình bác Tanaka đã gọi điện. Muốn được gọi lại. Số: 090-XXXX. Khẩn.' },
+        { japanese: '10:00 山本様　入浴介助済。右膝に軽い発赤あり→要経過観察。担当：グエン', reading: '10:00 やまもとさま　にゅうよくかいじょすみ。みぎひざにかるいほっせきあり→ようけいかかんさつ。たんとう：ぐえん', translation: '10:00 Bác Yamamoto: Đã hỗ trợ tắm xong. Đầu gối phải có ban đỏ nhẹ→cần theo dõi. Phụ trách: Nguyễn' },
+      ],
+      grammarNote: `【メモの省略パターン】
+通常文：田中さんが14時に熱を出した
+メモ：田中様　14時　発熱 ← 助詞・動詞省略
+
+【よく使う記号・略語】
+→　= その後/次のアクション
+済（すみ）= 完了
+要（よう）〜 = 〜が必要
+至急（しきゅう）= urgent
+※ = 注意事項
+( ) = 補足情報
+
+【読み取りの順序】
+①利用者名・時刻を確認
+②状態・変化を把握
+③次のアクション（→以降）を確認`,
+      quiz: {
+        question: '「バイタル測定済」の「済」の意味は？',
+        options: [
+          { id: 'a', text: 'これから測る' },
+          { id: 'b', text: '測定が完了した' },
+          { id: 'c', text: '測定できなかった' },
+          { id: 'd', text: '測定が必要' },
+        ],
+        correctId: 'b',
+        explanation: '「済（すみ）」は「完了・終わった」の意味。「〜済」= đã xong/hoàn thành。「未（み）」= まだ（chưa xong）と対。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-3': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L3: スケジュール表・シフト表を読む',
+      titleTranslation: 'Đọc hiểu N4 Bài 3: Đọc bảng lịch và bảng phân ca',
+      introduction: `シフト表・予定表・タイムスケジュールは介護施設で毎日使う文書です。「自分の勤務時間は何時から何時か」「誰と一緒のシフトか」「休みはいつか」を正確に読み取る練習をしましょう。
+
+Bảng phân ca, lịch làm việc, lịch thời gian là những tài liệu dùng hàng ngày tại cơ sở điều dưỡng. Hãy luyện đọc chính xác "Ca của mình từ mấy giờ đến mấy giờ", "Làm ca cùng ai", "Nghỉ hôm nào".`,
+      keyPoints: [
+        '勤務区分：日勤（にっきん）・遅番（おそばん）・夜勤（やきん）・早番（はやばん）',
+        '休暇：公休（こうきゅう）・有休（ゆうきゅう）・休（やす）',
+        '読み取り方：横＝日付、縦＝スタッフ名　または　縦＝時間帯',
+        '注意マーク：※・★・○・△ の意味を確認する',
+        '引き継ぎ：申し送り時間・重複時間（オーバーラップ）を確認',
+        '変更・代替：「〜さんと交代」「〜日変更」の読み取り',
+      ],
+      vocabulary: [
+        { word: '日勤', reading: 'にっきん', meaning: '日中の勤務（ca ngày）', example: '日勤は8:30〜17:30' },
+        { word: '夜勤', reading: 'やきん', meaning: '夜間の勤務（ca đêm）', example: '夜勤は16:30〜翌9:00' },
+        { word: '公休', reading: 'こうきゅう', meaning: '決められた休み（ngày nghỉ theo lịch）', example: '今月の公休は4日間' },
+        { word: '早番', reading: 'はやばん', meaning: '早い時間の勤務（ca sáng sớm）', example: '早番は7:00〜16:00' },
+        { word: 'オーバーラップ', reading: 'おーばーらっぷ', meaning: '申し送りのための重複時間（thời gian bàn giao）', example: '15分のオーバーラップ' },
+      ],
+      examples: [
+        { japanese: '月曜日：グエン　日勤（8:30〜17:30）　田中　夜勤（16:30〜）　山田　公休', reading: 'げつようび：ぐえん　にっきん（8:30〜17:30）　たなか　やきん（16:30〜）　やまだ　こうきゅう', translation: 'Thứ Hai: Nguyễn ca ngày (8:30〜17:30), Tanaka ca đêm (16:30〜), Yamada nghỉ' },
+        { japanese: '※15日（木）グエンさんと山田さんはシフト交代。詳細は主任まで。', reading: '※15にち（もく）ぐえんさんとやまださんはしふとこうたい。しょうさいはしゅにんまで。', translation: '※Ngày 15 (thứ Năm) Nguyễn và Yamada đổi ca. Chi tiết hỏi trưởng nhóm.' },
+        { japanese: '早番7:00〜、日勤8:30〜、遅番12:00〜、夜勤16:30〜のシフトがあります。', reading: 'はやばん7:00〜、にっきん8:30〜、おそばん12:00〜、やきん16:30〜のしふとがあります。', translation: 'Có các ca: ca sáng sớm 7:00〜, ca ngày 8:30〜, ca chiều 12:00〜, ca đêm 16:30〜.' },
+      ],
+      grammarNote: `【シフト表の基本構成】
+縦軸 = スタッフ名
+横軸 = 日付（1日〜末日）
+セルの内容 = 勤務区分または公休
+
+【勤務区分の略記】
+日 = 日勤　夜 = 夜勤
+早 = 早番　遅 = 遅番
+公 = 公休　有 = 有給休暇
+― または 空欄 = 休日
+
+【設問でよく問われること】
+①〇〇さんは何日に休みですか？
+②〇〇日は何人出勤していますか？
+③〇〇さんの今月の夜勤は何回ですか？`,
+      quiz: {
+        question: 'シフト表の「公休」とは何ですか？',
+        options: [
+          { id: 'a', text: '有給休暇' },
+          { id: 'b', text: '勤務のある日' },
+          { id: 'c', text: '会社が決めた休日' },
+          { id: 'd', text: '夜勤の日' },
+        ],
+        correctId: 'c',
+        explanation: '「公休（こうきゅう）」は会社・施設が定めた休日。「有休（有給休暇）」は自分が申請する休みとは別。\n"Công hưu" = ngày nghỉ theo lịch do cơ sở quy định, khác với nghỉ phép cá nhân.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-4': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L4: 指示書・マニュアルを読む',
+      titleTranslation: 'Đọc hiểu N4 Bài 4: Đọc hướng dẫn và sổ tay',
+      introduction: `介護現場では「手順書」「作業マニュアル」「注意事項」などを正確に読み、手順通りに業務を行う必要があります。番号付き手順・条件分岐・注意書きの読み取りを練習しましょう。
+
+Tại môi trường điều dưỡng, cần đọc chính xác "sổ tay quy trình", "hướng dẫn công việc", "lưu ý" và thực hiện công việc đúng quy trình. Hãy luyện đọc quy trình đánh số, phân nhánh điều kiện và ghi chú cảnh báo.`,
+      keyPoints: [
+        '番号付き手順：①②③の順番を守る・飛ばさない',
+        '条件分岐：「〜の場合は〜」「〜なら〜」「〜でなければ〜」',
+        '注意書き：「必ず〜」「〜してはいけない」「〜に注意」',
+        '禁止事項：「禁止・不可・しないこと」のマーク',
+        '例外処理：「ただし〜」「〜を除く」「〜の場合は除外」',
+        '確認事項：「〜を確認してから」「〜の後で」の順序',
+      ],
+      vocabulary: [
+        { word: '手順', reading: 'てじゅん', meaning: '順番・プロセス（quy trình）', example: '手順に従って行う' },
+        { word: '禁忌', reading: 'きんき', meaning: 'してはいけないこと（chống chỉ định）', example: '禁忌事項を確認する' },
+        { word: '必ず', reading: 'かならず', meaning: '絶対に（nhất định）', example: '必ず手洗いをすること' },
+        { word: '〜に従う', reading: 'にしたがう', meaning: '〜の通りにする（tuân theo）', example: '手順書に従う' },
+        { word: '例外', reading: 'れいがい', meaning: 'ルールに当てはまらない場合（ngoại lệ）', example: '例外として〜' },
+      ],
+      examples: [
+        { japanese: '【入浴介助手順】①体温・血圧確認 ②入浴可否判断 ③脱衣介助 ④入浴 ⑤着衣介助 ⑥水分補給', reading: '【にゅうよくかいじょてじゅん】①たいおん・けつあつかくにん ②にゅうよくかひはんだん ③だついかいじょ ④にゅうよく ⑤ちゃくいかいじょ ⑥すいぶんほきゅう', translation: '【Quy trình hỗ trợ tắm】①Kiểm tra nhiệt độ/huyết áp ②Đánh giá khả năng tắm ③Hỗ trợ cởi đồ ④Tắm ⑤Hỗ trợ mặc đồ ⑥Bổ sung nước' },
+        { japanese: '※体温37.5℃以上の場合は入浴中止。必ず看護師に報告すること。', reading: '※たいおん37.5℃いじょうのばあいはにゅうよくちゅうし。かならずかんごしにほうこくすること。', translation: '※Trường hợp nhiệt độ từ 37.5℃ trở lên, ngừng tắm. Nhất định phải báo y tá.' },
+        { japanese: '薬の投与前に必ず①名前 ②薬の種類 ③量 ④時間 の4点を確認すること。', reading: 'くすりのとうよまえにかならず①なまえ ②くすりのしゅるい ③りょう ④じかん の4てんをかくにんすること。', translation: 'Trước khi dùng thuốc, nhất định xác nhận 4 điểm: ①Tên ②Loại thuốc ③Liều lượng ④Thời gian.' },
+      ],
+      grammarNote: `【指示書の文体的特徴】
+・命令形・義務表現が多い
+  「〜すること」「〜してください」「〜しなければならない」
+・条件表現
+  「〜の場合は〜」「〜なら〜」「〜でなければ〜」
+・禁止表現
+  「〜してはいけない」「〜禁止」「〜不可」
+
+【読解のポイント】
+①番号順を確認する
+②※や注意書きを見逃さない
+③条件（if）と対応アクション（then）を対で読む
+④「必ず・絶対に」は最重要事項`,
+      quiz: {
+        question: '手順書に「必ず看護師に報告すること」とある。これはどういう意味か？',
+        options: [
+          { id: 'a', text: '時間があれば報告してよい' },
+          { id: 'b', text: '報告は任意（しなくてもよい）' },
+          { id: 'c', text: '例外なく必ず報告しなければならない' },
+          { id: 'd', text: '看護師がいれば報告する' },
+        ],
+        correctId: 'c',
+        explanation: '「必ず（かならず）」= nhất định / không có ngoại lệ。指示書での「必ず〜すること」は義務・強制の意味。例外は認められない。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-5': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L5: 接続詞を使いこなす',
+      titleTranslation: 'Đọc hiểu N4 Bài 5: Sử dụng thành thạo liên từ',
+      introduction: `文章の流れを決める「接続詞」を正しく理解することで、読解力が大幅に向上します。「しかし・そのため・ただし・また・なお・したがって」などは、N4読解の設問に直結する重要表現です。
+
+Hiểu đúng "liên từ" quyết định luồng văn bản sẽ cải thiện đáng kể kỹ năng đọc hiểu. Các từ như "しかし・そのため・ただし・また・なお・したがって" là những cách diễn đạt quan trọng liên trực tiếp đến câu hỏi đọc hiểu N4.`,
+      keyPoints: [
+        '逆接：しかし・でも・ところが・けれども → 前の内容と反対',
+        '順接：そのため・だから・したがって・ゆえに → 前の結果・結論',
+        '添加：また・さらに・そのうえ・加えて → 情報を追加',
+        '対比：一方・それに対して・反対に → 二つを比べる',
+        '補足：ただし・なお・ちなみに → 例外・補足情報',
+        '言い換え：つまり・すなわち・要するに → 前の内容を言い直す',
+      ],
+      vocabulary: [
+        { word: 'したがって', reading: 'したがって', meaning: 'だから・そのため（do đó/vì vậy）', example: '熱があった。したがって、入浴は中止した。' },
+        { word: 'ただし', reading: 'ただし', meaning: '例外・補足（tuy nhiên/nhưng）', example: '全員参加。ただし夜勤者は除く。' },
+        { word: '一方', reading: 'いっぽう', meaning: '他方・それに対して（mặt khác）', example: 'A棟は人手不足。一方、B棟は問題なし。' },
+        { word: 'なお', reading: 'なお', meaning: '補足情報（ngoài ra/thêm vào đó）', example: 'なお、詳細は後日連絡します。' },
+        { word: 'つまり', reading: 'つまり', meaning: '言い換え（tức là/nói cách khác）', example: 'つまり、明日は全員出勤ということです。' },
+      ],
+      examples: [
+        { japanese: '田中様は食欲が回復した。しかし、体重はまだ戻っていない。', reading: 'たなかさまはしょくよくがかいふくした。しかし、たいじゅうはまだもどっていない。', translation: 'Bác Tanaka đã hồi phục cảm giác ngon miệng. Tuy nhiên, cân nặng vẫn chưa về mức cũ.' },
+        { japanese: '昨日は転倒リスクが高かった。そのため、一人での歩行を禁止した。', reading: 'きのうはてんとうりすくがたかかった。そのため、ひとりでのほこうをきんしした。', translation: 'Hôm qua nguy cơ té ngã cao. Do đó, đã cấm đi bộ một mình.' },
+        { japanese: '研修は全員参加です。ただし、体調不良の場合は欠席可。なお、資料は後日配布します。', reading: 'けんしゅうはぜんいんさんかです。ただし、たいちょうふりょうのばあいはけっせきか。なお、しりょうはごじつはいふします。', translation: 'Đào tạo tất cả phải tham gia. Nhưng nếu không khỏe có thể vắng. Ngoài ra, tài liệu sẽ phát sau.' },
+      ],
+      grammarNote: `【接続詞の分類と機能】
+
+①逆接（ぎゃくせつ）= Nghịch chiều
+  しかし・でも・ところが・けれども
+  → 前の内容と反対・予想外の展開
+
+②順接（じゅんせつ）= Thuận chiều
+  そのため・だから・したがって・ゆえに
+  → 前の原因→結果・理由→結論
+
+③添加（てんか）= Bổ sung thêm
+  また・さらに・そのうえ・加えて
+  → 情報を重ねて追加する
+
+④補足（ほそく）= Chú thích/Bổ sung
+  ただし・なお・ちなみに
+  → 例外・条件・関連情報`,
+      quiz: {
+        question: '「体温は正常だった。（　）、食欲がなかった。」に入る接続詞は？',
+        options: [
+          { id: 'a', text: 'したがって' },
+          { id: 'b', text: 'しかし' },
+          { id: 'c', text: 'なお' },
+          { id: 'd', text: 'つまり' },
+        ],
+        correctId: 'b',
+        explanation: '体温正常（良い情報）→ 食欲なし（悪い情報）は逆の内容。逆接の「しかし」が正解。\n「しかし」= however = nối hai ý trái chiều nhau.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-6': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L6: 否定・条件表現を読む',
+      titleTranslation: 'Đọc hiểu N4 Bài 6: Đọc hiểu phủ định và điều kiện',
+      introduction: `「〜ない場合」「〜を除いて」「〜に限り」「〜でなければ」などの否定・条件表現は、読み間違えると業務ミスにつながります。介護記録や指示書で頻出のパターンを正確に理解しましょう。
+
+Các cách diễn đạt phủ định và điều kiện như "〜ない場合", "〜を除いて", "〜に限り" nếu đọc sai sẽ dẫn đến sai sót công việc. Hãy hiểu chính xác các mẫu thường xuất hiện trong hồ sơ điều dưỡng và phiếu chỉ định.`,
+      keyPoints: [
+        '否定条件：〜ない場合（trường hợp không〜）/ 〜でなければ（nếu không〜）',
+        '除外：〜を除いて（ngoại trừ〜）/ 〜以外（ngoài〜 ra）',
+        '限定：〜に限り（chỉ trong trường hợp〜）/ 〜のみ（chỉ〜）',
+        '二重否定：〜ないわけではない（không phải là không〜）→ 実際は肯定',
+        '注意：「〜してはいけない」vs「〜しなくてもいい」の違い',
+        '確認法：否定・条件を外して意味を確認してから全体を読む',
+      ],
+      vocabulary: [
+        { word: '〜に限り', reading: 'にかぎり', meaning: '〜の場合だけ（chỉ trong〜）', example: '緊急時に限り連絡可' },
+        { word: '〜を除く', reading: 'をのぞく', meaning: '〜は含まない（ngoại trừ〜）', example: '夜勤者を除く全員' },
+        { word: '〜以外', reading: 'いがい', meaning: '〜を除いたもの（ngoài〜 ra）', example: '担当者以外は入室禁止' },
+        { word: '〜でなければ', reading: 'でなければ', meaning: '〜でない場合は（nếu không phải〜）', example: '許可でなければ使用不可' },
+        { word: '二重否定', reading: 'にじゅうひてい', meaning: '否定の否定→肯定（phủ định kép）', example: '不可能ではない＝可能' },
+      ],
+      examples: [
+        { japanese: '担当者以外の職員は、利用者の個人情報を閲覧してはいけない。', reading: 'たんとうしゃいがいのしょくいんは、りようしゃのこじんじょうほうをえつらんしてはいけない。', translation: 'Nhân viên ngoài người phụ trách không được xem thông tin cá nhân của người dùng.' },
+        { japanese: '医師の指示がある場合を除き、勝手に薬の量を変えてはいけない。', reading: 'いしのしじがあるばあいをのぞき、かってにくすりのりょうをかえてはいけない。', translation: 'Trừ trường hợp có chỉ thị của bác sĩ, không được tự ý thay đổi liều lượng thuốc.' },
+        { japanese: '夜間緊急時に限り、主任への連絡なしに対応してよい。', reading: 'やかんきんきゅうじにかぎり、しゅにんへのれんらくなしにたいおうしてよい。', translation: 'Chỉ trong trường hợp khẩn cấp ban đêm, được phép xử lý mà không cần báo trưởng nhóm.' },
+      ],
+      grammarNote: `【否定・条件表現まとめ】
+
+除外：〜を除いて / 〜以外（は）
+  例：夜勤者を除いて全員参加
+  →夜勤者は参加しなくていい、それ以外は参加
+
+限定：〜に限り / 〜のみ
+  例：緊急時に限り許可
+  →緊急時だけOK、普段はNG
+
+禁止：〜してはいけない / 〜禁止
+  例：許可なく入室してはいけない
+
+不要：〜しなくてもいい / 〜する必要はない
+  例：休日は報告しなくてもいい
+
+【混同注意】
+「〜してはいけない」= 禁止（cấm）
+「〜しなくてもいい」= 不要（không cần）
+→ 全く意味が違う！`,
+      quiz: {
+        question: '「担当者以外は使用禁止」とあります。担当者はどうですか？',
+        options: [
+          { id: 'a', text: '担当者も使用禁止' },
+          { id: 'b', text: '担当者は使用できる' },
+          { id: 'c', text: '担当者は申請が必要' },
+          { id: 'd', text: 'わからない' },
+        ],
+        correctId: 'b',
+        explanation: '「〜以外は禁止」= 〜以外の人が禁止 → つまり「〜（担当者）は使用できる」。\n"〜以外は禁止" = cấm đối với người không phải 〜 → người phụ trách được phép dùng.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-7': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L7: 因果関係を読む',
+      titleTranslation: 'Đọc hiểu N4 Bài 7: Đọc hiểu quan hệ nhân quả',
+      introduction: `「なぜそうなったのか（原因）」と「その結果どうなったか（結果）」を読み取る因果関係の把握は、介護記録の読み書きに直結します。「〜ので・〜から・〜ため・〜結果」などの表現を正確に理解しましょう。
+
+Nắm bắt quan hệ nhân quả - đọc "tại sao lại như vậy (nguyên nhân)" và "kết quả là gì (kết quả)" liên quan trực tiếp đến đọc và viết hồ sơ điều dưỡng. Hãy hiểu chính xác các cách diễn đạt như "〜ので・〜から・〜ため・〜結果".`,
+      keyPoints: [
+        '原因・理由：〜ので（vì〜 / do〜）・〜から・〜ため・〜によって',
+        '結果：〜結果（kết quả là〜）・〜ことになった・〜ようになった',
+        '目的：〜ために（để〜）← 原因の「ため」と区別する',
+        '経緯説明：まず〜、次に〜、その結果〜',
+        '介護記録での使い方：「〜のため、〜した」形式が標準',
+        '設問パターン：「なぜ〜しましたか」→ 理由を探す',
+      ],
+      vocabulary: [
+        { word: '〜ため', reading: 'ため', meaning: '理由・目的（vì〜/để〜）', example: '転倒のため、入院した' },
+        { word: '〜によって', reading: 'によって', meaning: '〜が原因で（do〜/bởi〜）', example: '感染症によって体力低下' },
+        { word: '結果', reading: 'けっか', meaning: '〜の後の状態（kết quả）', example: '治療の結果、回復した' },
+        { word: '経緯', reading: 'けいい', meaning: '事の流れ・いきさつ（diễn biến）', example: '転倒の経緯を報告する' },
+        { word: '原因', reading: 'げんいん', meaning: '何かが起きた理由（nguyên nhân）', example: '発熱の原因を調べる' },
+      ],
+      examples: [
+        { japanese: '田中様は昨夜よく眠れなかったため、今朝は食欲がなかった。', reading: 'たなかさまはゆうべよくねむれなかったため、けさはしょくよくがなかった。', translation: 'Do đêm qua bác Tanaka ngủ không được, sáng nay không có cảm giác ngon miệng.' },
+        { japanese: '廊下が濡れていたことによって、転倒事故が発生した。今後は濡れた場合すぐに拭くこと。', reading: 'ろうかがぬれていたことによって、てんとうじこがはっせいした。こんごはぬれたばあいすぐにふくこと。', translation: 'Do hành lang bị ướt, đã xảy ra tai nạn té ngã. Từ nay nếu ướt phải lau ngay.' },
+        { japanese: '服薬確認を行った結果、2錠飲み残しがあることが判明した。担当看護師に報告済。', reading: 'ふくやくかくにんをおこなったけっか、2じょうのみのこしがあることがはんめいした。たんとうかんごしにほうこくすみ。', translation: 'Kết quả kiểm tra việc uống thuốc, phát hiện còn sót 2 viên. Đã báo cáo y tá phụ trách.' },
+      ],
+      grammarNote: `【因果関係の表現パターン】
+
+原因→結果（nguyên nhân → kết quả）
+  〜ので / 〜から / 〜ため（に）
+  例：熱があったので入浴を中止した
+
+結果→原因（kết quả → nguyên nhân）
+  〜のは〜からだ / 〜のは〜ためだ
+  例：入浴を中止したのは熱があったからだ
+
+経緯の説明（diễn biến）
+  まず〜。次に〜。その結果〜。
+  例：まず体温を測った。37.8℃だった。
+     そのため入浴を中止し、看護師に報告した。
+
+【介護記録の標準フォーマット】
+「〜のため、〜した。その結果、〜。」`,
+      quiz: {
+        question: '「水分摂取が少なかったため、血圧が低下した」の原因は何ですか？',
+        options: [
+          { id: 'a', text: '血圧が低下したこと' },
+          { id: 'b', text: '水分摂取が少なかったこと' },
+          { id: 'c', text: '食事が少なかったこと' },
+          { id: 'd', text: '運動したこと' },
+        ],
+        correctId: 'b',
+        explanation: '「〜ため」の前が原因。「水分摂取が少なかった」→（原因）→「血圧が低下した」（結果）。\n"〜ため" の前 = nguyên nhân. Uống ít nước → huyết áp giảm.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-8': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L8: 主題・要点を見つける',
+      titleTranslation: 'Đọc hiểu N4 Bài 8: Tìm chủ đề và điểm chính',
+      introduction: `段落の「主題（何について書いているか）」と「要点（一番言いたいこと）」を素早く見つけるスキルは、N4読解の核心です。最初の文・最後の文・「〜が大切だ」「〜が重要だ」のパターンに注目しましょう。
+
+Kỹ năng nhanh chóng tìm ra "chủ đề (viết về điều gì)" và "điểm chính (muốn nói nhất điều gì)" của đoạn văn là cốt lõi của đọc hiểu N4. Hãy chú ý đến câu đầu, câu cuối và các mẫu "〜が大切だ", "〜が重要だ".`,
+      keyPoints: [
+        '主題の場所：最初の文（導入）または最後の文（結論）',
+        '要点の合図：「〜が大切だ・〜が重要だ・〜が必要だ」',
+        '言い換え合図：「つまり・要するに・すなわち」の後',
+        '具体例の合図：「例えば・たとえば・〜などが挙げられる」',
+        '強調：「特に・とくに・何より・最も」の後の内容',
+        '設問で問われやすい：「この文章で筆者が最も言いたいことは？」',
+      ],
+      vocabulary: [
+        { word: '主題', reading: 'しゅだい', meaning: '一番のテーマ（chủ đề）', example: 'この文章の主題は？' },
+        { word: '要点', reading: 'ようてん', meaning: '大切な点（điểm chính）', example: '要点をまとめる' },
+        { word: '特に', reading: 'とくに', meaning: '特別に（đặc biệt）', example: '特に感染予防が大切' },
+        { word: '要するに', reading: 'ようするに', meaning: 'まとめると（tóm lại）', example: '要するに報告が必要だ' },
+        { word: '挙げられる', reading: 'あげられる', meaning: '例として示せる（có thể nêu ra）', example: '例として感染症が挙げられる' },
+      ],
+      examples: [
+        { japanese: '介護の現場では、利用者の小さな変化に気づくことが重要です。例えば、食欲の変化・表情の変化・会話の減少などが挙げられます。要するに、毎日の細かい観察が大切なのです。', reading: 'かいごのげんばでは、りようしゃのちいさなへんかにきづくことがじゅうようです。たとえば、しょくよくのへんか・ひょうじょうのへんか・かいわのげんしょうなどがあげられます。ようするに、まいにちのこまかいかんさつがたいせつなのです。', translation: 'Tại hiện trường điều dưỡng, việc nhận ra những thay đổi nhỏ của người dùng là quan trọng. Ví dụ như thay đổi cảm giác ăn, thay đổi biểu cảm, giảm trò chuyện. Tóm lại, quan sát tỉ mỉ hàng ngày là điều cần thiết.' },
+        { japanese: '感染予防の基本は手洗いです。特に、食事介助前・排泄介助後は必ず実施してください。', reading: 'かんせんよぼうのきほんはてあらいです。とくに、しょくじかいじょまえ・はいせつかいじょごはかならずじっしてください。', translation: 'Cơ bản phòng chống nhiễm khuẩn là rửa tay. Đặc biệt, trước khi hỗ trợ ăn uống và sau khi hỗ trợ vệ sinh nhất định phải thực hiện.' },
+      ],
+      grammarNote: `【段落構造のパターン】
+
+①首尾一貫型（chủ đề ở đầu）
+  主題文 → 説明・例 → まとめ
+
+②クライマックス型（chủ đề ở cuối）
+  説明・例 → 説明・例 → 結論（主題）
+
+③対比型（so sánh hai ý）
+  〜は〜だ。一方、〜は〜だ。
+
+【主題を見つけるヒント】
+・「大切・重要・必要・必須」の前の名詞
+・「つまり・要するに・すなわち」の後の文
+・「特に・何より・最も」の後の内容
+・繰り返し出てくるキーワード`,
+      quiz: {
+        question: '「要するに、毎日の観察が大切なのです」のような文は文章のどこに来ることが多い？',
+        options: [
+          { id: 'a', text: '文章の最初' },
+          { id: 'b', text: '文章の途中・例示の後' },
+          { id: 'c', text: '文章の最後（結論）' },
+          { id: 'd', text: '関係ない' },
+        ],
+        correctId: 'c',
+        explanation: '「要するに（tóm lại）」は前の内容をまとめる言葉で、文章の最後・結論部分によく使われる。\n"要するに" = tóm lại, thường xuất hiện ở cuối đoạn văn như phần kết luận.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-9': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L9: グラフ・図表の読み取り',
+      titleTranslation: 'Đọc hiểu N4 Bài 9: Đọc biểu đồ và bảng số liệu',
+      introduction: `介護現場ではバイタル記録表・体重グラフ・服薬記録など数値や表を読む機会が多くあります。N4ではグラフ・表の読み取り問題も出題されます。増減・比較・最大値・最小値を表す語彙をマスターしましょう。
+
+Trong môi trường điều dưỡng có nhiều cơ hội đọc số liệu và bảng biểu như bảng ghi dấu hiệu sinh tồn, biểu đồ cân nặng, hồ sơ dùng thuốc. N4 cũng có câu hỏi đọc biểu đồ và bảng. Hãy thành thạo từ vựng biểu thị tăng giảm, so sánh, giá trị lớn nhất, nhỏ nhất.`,
+      keyPoints: [
+        '増加：増える・上昇する・高くなる・〜以上になる',
+        '減少：減る・低下する・低くなる・〜以下になる',
+        '最大・最小：最も高い・最も低い・ピーク・最大値',
+        '比較：〜より・〜のほうが・〜倍・〜割増/減',
+        '変化なし：変わらない・安定している・横ばい',
+        '設問パターン：「いつが最も高い？」「何月に減った？」「AとBどちらが多い？」',
+      ],
+      vocabulary: [
+        { word: '上昇', reading: 'じょうしょう', meaning: '高くなること（tăng lên）', example: '体温が上昇した' },
+        { word: '低下', reading: 'ていか', meaning: '低くなること（giảm xuống）', example: '血圧が低下した' },
+        { word: '横ばい', reading: 'よこばい', meaning: '変化がない（ổn định/ngang bằng）', example: '体重は横ばいです' },
+        { word: '最大値', reading: 'さいだいち', meaning: '一番大きい数値（giá trị lớn nhất）', example: '今月の最大値は38.2℃' },
+        { word: '推移', reading: 'すいい', meaning: '時間の流れによる変化（xu hướng thay đổi）', example: '体重の推移を確認する' },
+      ],
+      examples: [
+        { japanese: '田中様の体重推移：4月62kg → 5月61kg → 6月59kg。2か月で3kg減少。要注意。', reading: 'たなかさまのたいじゅうすいい：4がつ62kg → 5がつ61kg → 6がつ59kg。2かげつで3kgげんしょう。ようちゅうい。', translation: 'Xu hướng cân nặng bác Tanaka: T4 62kg → T5 61kg → T6 59kg. Giảm 3kg trong 2 tháng. Cần chú ý.' },
+        { japanese: '今月の体温記録：最高38.1℃（3日）、最低36.1℃（15日）、平均36.5℃。', reading: 'こんげつのたいおんきろく：さいこう38.1℃（3にち）、さいてい36.1℃（15にち）、へいきん36.5℃。', translation: 'Ghi chép nhiệt độ tháng này: cao nhất 38.1℃ (ngày 3), thấp nhất 36.1℃ (ngày 15), trung bình 36.5℃.' },
+        { japanese: '先月と比べ、食事摂取量が約2割減少している。栄養士への相談を検討する。', reading: 'せんげつとくらべ、しょくじせっしゅりょうがやく2わりげんしょうしている。えいようしへのそうだんをけんとうする。', translation: 'So với tháng trước, lượng ăn đã giảm khoảng 20%. Xem xét tham khảo chuyên gia dinh dưỡng.' },
+      ],
+      grammarNote: `【増減を表す語彙】
+増加：増える・上昇・上がる・高くなる
+   約〜増・〜倍になる・〜割増
+減少：減る・低下・下がる・低くなる
+   約〜減・〜割減・半分になる
+
+【安定を表す語彙】
+変化なし：横ばい・安定・維持・変わらない
+
+【比較表現】
+〜より〜のほうが〜
+〜と比べて〜
+〜に対して〜
+
+【表・グラフ設問の解き方】
+①縦軸・横軸の単位を確認
+②最大・最小を見つける
+③変化の傾向（増減・安定）を読む
+④設問の条件（期間・対象）を絞る`,
+      quiz: {
+        question: '「体重が横ばいです」の意味は？',
+        options: [
+          { id: 'a', text: '体重が増えている' },
+          { id: 'b', text: '体重が減っている' },
+          { id: 'c', text: '体重がほとんど変化していない' },
+          { id: 'd', text: '体重が大きく変動している' },
+        ],
+        correctId: 'c',
+        explanation: '「横ばい（よこばい）」= グラフが横（水平）になっている状態 = 変化がない・安定。\n"Yoko-bai" = đường biểu đồ nằm ngang = không thay đổi, ổn định.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-10': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L10: 筆者の意図・推測を読む',
+      titleTranslation: 'Đọc hiểu N4 Bài 10: Đọc ý định tác giả và suy luận',
+      introduction: `N4読解では「筆者は何が言いたいのか」「この行動の意図は何か」を推測する問題が出ます。直接書かれていない内容を文脈から読み取るスキルを練習しましょう。
+
+N4 đọc hiểu có các câu hỏi suy luận "tác giả muốn nói gì", "ý định của hành động này là gì". Hãy luyện kỹ năng đọc hiểu nội dung không được viết trực tiếp từ văn cảnh.`,
+      keyPoints: [
+        '推測表現：〜と思われる・〜でしょう・〜かもしれない・〜と考えられる',
+        '婉曲表現：直接言わずにほのめかす（〜ではないでしょうか）',
+        '文脈から推測：前後の文から意味を判断する',
+        '設問パターン：「筆者はなぜ〜と言っているのか」「〜とはどういう意味か」',
+        '誤答のパターン：書いていないことを正解にしない',
+        '根拠探し：必ず本文に根拠がある',
+      ],
+      vocabulary: [
+        { word: '〜と思われる', reading: 'とおもわれる', meaning: '〜だと推測される（được cho là〜）', example: '感染と思われる症状がある' },
+        { word: '意図', reading: 'いと', meaning: 'やろうとしている目的（ý định）', example: '行動の意図を理解する' },
+        { word: '示唆する', reading: 'しさする', meaning: 'ほのめかす（ngầm chỉ）', example: '問題があることを示唆している' },
+        { word: '文脈', reading: 'ぶんみゃく', meaning: '前後のつながり（văn cảnh）', example: '文脈から意味を読む' },
+        { word: '根拠', reading: 'こんきょ', meaning: '理由・証拠（căn cứ）', example: '本文に根拠を見つける' },
+      ],
+      examples: [
+        { japanese: '「介護者自身の健康管理も大切です」と繰り返し述べているのは、スタッフが無理をしがちであることを示唆していると思われる。', reading: '「かいごしゃじしんのけんこうかんりもたいせつです」とくりかえしのべているのは、すたっふがむりをしがちであることをしさしていとおもわれる。', translation: 'Việc lặp đi lặp lại "sức khỏe bản thân người chăm sóc cũng quan trọng" có vẻ ngầm chỉ rằng nhân viên có xu hướng cố quá sức.' },
+        { japanese: '筆者が「ほうれんそう」を強調しているのは、報告不足による事故が多いためと考えられる。', reading: 'ひっしゃが「ほうれんそう」をきょうちょうしているのは、ほうこくぶそくによるじこがおおいためとかんがえられる。', translation: 'Việc tác giả nhấn mạnh "hōrenso" được cho là do nhiều tai nạn xảy ra vì thiếu báo cáo.' },
+      ],
+      grammarNote: `【推測・意図の表現】
+可能性（khả năng）：
+  〜かもしれない / 〜だろう / 〜でしょう
+
+推定（suy đoán có căn cứ）：
+  〜と思われる / 〜と考えられる / 〜らしい
+
+婉曲（nói vòng）：
+  〜ではないでしょうか
+  〜のではないかと思う
+
+【設問の解き方】
+①「筆者が最も言いたいこと」→ 結論部分・強調表現を探す
+②「〜とはどういう意味か」→ 前後の文から言い換えを探す
+③「なぜ〜か」→ 理由を表す表現（ので・から・ため）を探す
+④選択肢のうち、本文に根拠がないものは×`,
+      quiz: {
+        question: '「〜と考えられる」はどんな意味ですか？',
+        options: [
+          { id: 'a', text: '確実にそうだ' },
+          { id: 'b', text: '絶対ちがう' },
+          { id: 'c', text: '証拠や文脈からそう推測される' },
+          { id: 'd', text: '自分の希望' },
+        ],
+        correctId: 'c',
+        explanation: '「〜と考えられる」= người ta cho rằng〜（từ bằng chứng/văn cảnh mà suy đoán）。確実ではないが、根拠のある推測。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-11': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L11: 長文読解①〜業務連絡・申し送り書〜',
+      titleTranslation: 'Đọc hiểu N4 Bài 11: Đọc văn dài ①〜Thông báo nghiệp vụ & Phiếu bàn giao〜',
+      introduction: `実際の介護現場で使われる申し送り書・業務連絡文を素材に、長文読解の練習をします。複数の情報が含まれる文章から、設問に必要な情報だけを素早く見つけるスキルを磨きましょう。
+
+Luyện đọc văn dài với chất liệu là phiếu bàn giao và thông báo nghiệp vụ thực tế tại môi trường điều dưỡng. Hãy rèn kỹ năng nhanh chóng tìm thông tin cần thiết từ văn bản chứa nhiều thông tin.`,
+      keyPoints: [
+        '申し送り書の構成：日付・利用者名・状態・対応・次のアクション',
+        '優先順位：緊急・至急マークのついた項目を先に読む',
+        '複数情報の整理：誰が・何を・いつ・どうする',
+        'スキャニング：設問のキーワードを本文で探す技術',
+        '長文の読み方：全部読まず、設問→本文の順で',
+        '確認事項：「要確認」「次回」「担当者へ」などのアクション項目',
+      ],
+      vocabulary: [
+        { word: '申し送り書', reading: 'もうしおくりしょ', meaning: '引き継ぎ書類（phiếu bàn giao）', example: '申し送り書に記録する' },
+        { word: 'スキャニング', reading: 'すきゃにんぐ', meaning: '必要情報を素早く探す読み方（quét tìm thông tin）', example: 'キーワードでスキャニング' },
+        { word: '優先順位', reading: 'ゆうせんじゅんい', meaning: '重要度の順番（thứ tự ưu tiên）', example: '優先順位をつける' },
+        { word: '経過観察', reading: 'けいかかんさつ', meaning: '状態を継続して見ること（theo dõi diễn biến）', example: '引き続き経過観察' },
+        { word: '急変', reading: 'きゅうへん', meaning: '突然の体調悪化（thay đổi đột ngột）', example: '急変時は即報告' },
+      ],
+      examples: [
+        { japanese: `【申し送り書 5月15日　日勤→夜勤】
+①田中様（301号室）体温37.8℃。14:30看護師報告済。水分摂取少なめ。→夜勤：経過観察・水分促し。
+②山本様（305号室）転倒なし、通常通り。服薬確認済。
+③※至急：木村様（308号室）家族より面会希望。明日13:00。担当：夜勤リーダー確認要。`, reading: `【もうしおくりしょ 5がつ15にち　にっきん→やきん】
+①たなかさま（301ごうしつ）たいおん37.8℃。14:30かんごしほうこくすみ。すいぶんせっしゅすくなめ。→やきん：けいかかんさつ・すいぶんうながし。
+②やまもとさま（305ごうしつ）てんとうなし、つうじょうどおり。ふくやくかくにんすみ。
+③※しきゅう：きむらさま（308ごうしつ）かぞくよりめんかいきぼう。あした13:00。たんとう：やきんりーだーかくにんよう。`, translation: `【Phiếu bàn giao 15/5 Ca ngày→Ca đêm】
+①Bác Tanaka (phòng 301): Nhiệt độ 37.8℃. Đã báo y tá 14:30. Uống nước ít. →Ca đêm: Theo dõi, nhắc uống nước.
+②Bác Yamamoto (phòng 305): Không té ngã, bình thường. Đã xác nhận uống thuốc.
+③※Khẩn: Bác Kimura (phòng 308): Gia đình muốn thăm. Ngày mai 13:00. Trưởng ca đêm cần xác nhận.` },
+      ],
+      grammarNote: `【申し送り書の読み方手順】
+①まず※印・至急の項目を確認（最優先）
+②次に各利用者の状態を確認
+③「→」以降のアクション項目を確認
+④担当者名・時刻を確認
+
+【設問の解き方】
+「誰が〜？」→ 利用者名を探す
+「何時に〜？」→ 時刻を探す
+「何をする？」→ 「→」以降を探す
+「誰が対応？」→ 「担当：」を探す`,
+      quiz: {
+        question: '申し送り書に「※至急」と書いてある項目は？',
+        options: [
+          { id: 'a', text: '最後に読めばよい' },
+          { id: 'b', text: '読まなくてよい' },
+          { id: 'c', text: '最初に確認すべき最優先事項' },
+          { id: 'd', text: 'ついでに確認する' },
+        ],
+        correctId: 'c',
+        explanation: '「至急（しきゅう）」= khẩn cấp。申し送り書では最優先で確認・対応が必要な項目。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-12': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L12: 長文読解②〜ケアプランを読む〜',
+      titleTranslation: 'Đọc hiểu N4 Bài 12: Đọc văn dài ②〜Đọc kế hoạch chăm sóc〜',
+      introduction: `ケアプランは利用者一人ひとりの支援計画書です。目標・サービス内容・担当者・期間が記されており、介護職員はこれを理解した上で業務を行います。実際のケアプランを素材に読解練習をしましょう。
+
+Kế hoạch chăm sóc là tài liệu kế hoạch hỗ trợ cho từng người dùng. Ghi rõ mục tiêu, nội dung dịch vụ, người phụ trách, thời hạn và nhân viên điều dưỡng thực hiện công việc dựa trên sự hiểu biết về tài liệu này.`,
+      keyPoints: [
+        'ケアプランの構成：①利用者情報 ②目標 ③サービス内容 ④担当者 ⑤期間',
+        '長期目標・短期目標：長期=3〜6ヶ月、短期=1〜3ヶ月',
+        '読み取りポイント：誰の・何の目標か・いつまでに',
+        'サービス種別：訪問介護・通所介護・福祉用具・居宅介護支援',
+        '担当者：ケアマネ・担当ヘルパー・各事業所名',
+        '更新・見直し：定期的な評価と目標の修正',
+      ],
+      vocabulary: [
+        { word: 'ケアプラン', reading: 'けあぷらん', meaning: '介護サービス計画書（kế hoạch chăm sóc）', example: 'ケアプランに基づき支援する' },
+        { word: '長期目標', reading: 'ちょうきもくひょう', meaning: '数ヶ月後の目標（mục tiêu dài hạn）', example: '長期目標：自立歩行' },
+        { word: '短期目標', reading: 'たんきもくひょう', meaning: '1〜3ヶ月の目標（mục tiêu ngắn hạn）', example: '短期目標：手すりで歩く' },
+        { word: 'ケアマネ', reading: 'けあまね', meaning: 'ケアマネージャー（quản lý chăm sóc）', example: 'ケアマネに相談する' },
+        { word: '見直し', reading: 'みなおし', meaning: '再確認・改定（xem xét lại）', example: '3ヶ月ごとに見直す' },
+      ],
+      examples: [
+        { japanese: `【ケアプラン抜粋】
+利用者名：田中太郎　担当CM：山田花子
+長期目標（6ヶ月）：家族と自宅で安心して生活できる
+短期目標（3ヶ月）：手すりを使って廊下を一人で歩ける
+サービス：訪問介護（週3回・入浴・食事）、福祉用具（手すりレンタル）
+次回見直し：8月15日`, reading: `【けあぷらんばっすい】
+りようしゃめい：たなかたろう　たんとうCM：やまだはなこ
+ちょうきもくひょう（6かげつ）：かぞくとじたくであんしんしてせいかつできる
+たんきもくひょう（3かげつ）：てすりをつかってろうかをひとりであるける
+さーびす：ほうもんかいご（しゅう3かい・にゅうよく・しょくじ）、ふくしようぐ（てすりれんたる）
+じかいみなおし：8がつ15にち`, translation: `【Trích kế hoạch chăm sóc】
+Tên người dùng: Taro Tanaka　CM phụ trách: Hanako Yamada
+Mục tiêu dài hạn (6 tháng): Sống an tâm tại nhà với gia đình
+Mục tiêu ngắn hạn (3 tháng): Đi một mình dọc hành lang bằng tay vịn
+Dịch vụ: Điều dưỡng tại nhà (3 lần/tuần・tắm・ăn), Dụng cụ phúc lợi (thuê tay vịn)
+Xem xét lại lần tiếp: 15/8` },
+      ],
+      grammarNote: `【ケアプランの読解設問パターン】
+「〜さんの担当CMは誰ですか？」→ 担当CM欄
+「長期目標は何ですか？」→ 長期目標欄
+「いつまでの目標ですか？」→ 期間を確認
+「どんなサービスを利用していますか？」→ サービス欄
+「次回見直しはいつですか？」→ 見直し日
+
+【介護用語】
+CM = ケアマネージャー（care manager）
+訪問介護（ほうもんかいご）= điều dưỡng tại nhà
+通所介護（つうしょかいご）= điều dưỡng ban ngày（trung tâm）
+福祉用具（ふくしようぐ）= dụng cụ phúc lợi`,
+      quiz: {
+        question: 'ケアプランの「短期目標（3ヶ月）」とは何ですか？',
+        options: [
+          { id: 'a', text: '10年後の目標' },
+          { id: 'b', text: '1〜3ヶ月程度で達成を目指す目標' },
+          { id: 'c', text: '毎日の目標' },
+          { id: 'd', text: '変えてはいけない目標' },
+        ],
+        correctId: 'b',
+        explanation: '「短期目標」= mục tiêu ngắn hạn（1〜3ヶ月）。「長期目標」= mục tiêu dài hạn（3〜6ヶ月）。定期的に見直す。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-13': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L13: 長文読解③〜研修案内・会議議事録〜',
+      titleTranslation: 'Đọc hiểu N4 Bài 13: Đọc văn dài ③〜Thông báo đào tạo & Biên bản họp〜',
+      introduction: `研修案内や会議の議事録は職場でよく読む書類です。「いつ・どこで・誰が・何を・何のために」という情報を正確に読み取り、自分が何をすべきかを理解するための読解練習をします。
+
+Thông báo đào tạo và biên bản họp là tài liệu thường đọc tại nơi làm việc. Luyện đọc hiểu để đọc chính xác thông tin "khi nào - ở đâu - ai - cái gì - để làm gì" và hiểu mình cần phải làm gì.`,
+      keyPoints: [
+        '研修案内の構成：日時・場所・対象者・内容・持ち物・申し込み期限',
+        '議事録の構成：日時・出席者・議題・決定事項・次回予定',
+        '「決定事項」と「検討事項」の違い：決定＝実施確定、検討＝まだ議論中',
+        '対象者の確認：「全員」vs「〜のみ」vs「〜を除く」',
+        '行動が必要な項目：「〜すること」「〜までに提出」を探す',
+        '設問パターン：「この研修の対象は？」「何を持っていく？」',
+      ],
+      vocabulary: [
+        { word: '議事録', reading: 'ぎじろく', meaning: '会議の記録（biên bản họp）', example: '議事録を作成する' },
+        { word: '決定事項', reading: 'けっていじこう', meaning: '決まったこと（điều đã quyết định）', example: '本日の決定事項' },
+        { word: '検討事項', reading: 'けんとうじこう', meaning: 'まだ議論中のこと（điều đang xem xét）', example: '次回も検討事項に' },
+        { word: '対象者', reading: 'たいしょうしゃ', meaning: '参加・対象となる人（đối tượng）', example: '対象者：全スタッフ' },
+        { word: '持ち物', reading: 'もちもの', meaning: '持っていくもの（đồ cần mang）', example: '持ち物：筆記用具・テキスト' },
+      ],
+      examples: [
+        { japanese: `【感染予防研修のご案内】
+日時：6月20日（金）14:00〜16:00
+場所：3階研修室
+対象：全介護スタッフ（夜勤者は翌日参加可）
+内容：手洗い実習・標準予防策の確認
+持ち物：エプロン・手袋
+申し込み：6月15日（日）までに主任へ`, reading: `【かんせんよぼうけんしゅうのごあんない】
+にちじ：6がつ20にち（きん）14:00〜16:00
+ばしょ：3かいけんしゅうしつ
+たいしょう：ぜんかいごすたっふ（やきんしゃはよくじつさんかか）
+ないよう：てあらいじっしゅう・ひょうじゅんよぼうさくのかくにん
+もちもの：えぷろん・てぶくろ
+もうしこみ：6がつ15にち（にち）までにしゅにんへ`, translation: `【Thông báo đào tạo phòng chống nhiễm khuẩn】
+Ngày giờ: 20/6 (Thứ Sáu) 14:00〜16:00
+Địa điểm: Phòng đào tạo tầng 3
+Đối tượng: Toàn bộ nhân viên điều dưỡng (nhân viên trực đêm tham gia hôm sau)
+Nội dung: Thực hành rửa tay, xác nhận biện pháp phòng ngừa chuẩn
+Đồ mang theo: Tạp dề, găng tay
+Đăng ký: Đến ngày 15/6 (Chủ Nhật) báo trưởng nhóm` },
+      ],
+      grammarNote: `【研修案内の読み取りポイント】
+必ず確認すること：
+①日時（いつ・何時〜何時）
+②場所（どこ）
+③対象者（誰が参加）
+④持ち物（何を持っていく）
+⑤申し込み期限・方法（いつまでに・誰に）
+
+【議事録の読み方】
+「決定事項」= 実施確定 → すぐアクション
+「検討事項」= 議論中 → 次回に持ち越し
+「次回予定」= 次の会議の日時`,
+      quiz: {
+        question: '研修案内に「夜勤者は翌日参加可」とあります。夜勤者はどうすればいいですか？',
+        options: [
+          { id: 'a', text: '参加しなくてよい' },
+          { id: 'b', text: '指定日に必ず参加する' },
+          { id: 'c', text: '翌日の同じ研修に参加できる' },
+          { id: 'd', text: '主任に確認が必要' },
+        ],
+        correctId: 'c',
+        explanation: '「翌日参加可（よくじつさんかか）」= 翌日に参加してもよい。「可（か）」= được phép。つまり選択肢がある。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-14': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L14: 長文読解④〜同意書・説明文を読む〜',
+      titleTranslation: 'Đọc hiểu N4 Bài 14: Đọc văn dài ④〜Đọc đơn đồng ý và văn giải thích〜',
+      introduction: `入居時や手術前の「同意書」「説明書」は法的効力を持つ重要書類です。「何に同意しているか」「どんなリスクが説明されているか」を正確に読む力が求められます。
+
+"Đơn đồng ý" và "tài liệu giải thích" khi nhập viện hoặc trước phẫu thuật là tài liệu quan trọng có hiệu lực pháp lý. Cần có năng lực đọc chính xác "đồng ý với điều gì" và "rủi ro nào được giải thích".`,
+      keyPoints: [
+        '同意書の構成：説明内容・リスク・同意事項・署名欄',
+        '「同意します」の意味：すべての説明を理解した上で同意する',
+        'リスク表現：「〜の可能性がある」「〜が生じることがある」',
+        '同意の撤回：「いつでも同意を取り消すことができる」',
+        '署名の重要性：本人・家族の署名で法的効力が発生',
+        '読解設問：「この同意書は何について？」「どんなリスクが書かれている？」',
+      ],
+      vocabulary: [
+        { word: '同意書', reading: 'どういしょ', meaning: '同意を示す書類（đơn đồng ý）', example: '手術の同意書にサインする' },
+        { word: '説明書', reading: 'せつめいしょ', meaning: '内容を説明する書類（tài liệu giải thích）', example: '薬の説明書を読む' },
+        { word: 'リスク', reading: 'りすく', meaning: '危険性（rủi ro）', example: 'リスクを説明する' },
+        { word: '撤回', reading: 'てっかい', meaning: '取り消すこと（rút lại）', example: '同意を撤回できる' },
+        { word: '署名', reading: 'しょめい', meaning: '本人が名前を書くこと（ký tên）', example: '本人が署名する' },
+      ],
+      examples: [
+        { japanese: `【入浴サービス同意書】
+私は以下の説明を受け、十分に理解した上で入浴サービスの提供に同意します。
+・体調によりサービスを中止する場合があります
+・入浴中の転倒・体調変化のリスクについて説明を受けました
+・同意はいつでも撤回できることを確認しました
+利用者氏名：＿＿＿＿　署名：＿＿＿＿`, reading: `【にゅうよくさーびすどういしょ】
+わたしはいかのせつめいをうけ、じゅうぶんにりかいしたうえでにゅうよくさーびすのていきょうにどういします。
+・たいちょうによりさーびすをちゅうしするばあいがあります
+・にゅうよくちゅうのてんとう・たいちょうへんかのりすくについてせつめいをうけました
+・どういはいつでもてっかいできることをかくにんしました
+りようしゃしめい：＿＿＿＿　しょめい：＿＿＿＿`, translation: `【Đơn đồng ý dịch vụ tắm】
+Tôi đã nhận được giải thích dưới đây, hiểu đầy đủ và đồng ý với việc cung cấp dịch vụ tắm.
+・Có thể ngừng dịch vụ tùy theo tình trạng sức khỏe
+・Đã nhận giải thích về rủi ro té ngã và thay đổi sức khỏe trong khi tắm
+・Đã xác nhận có thể rút lại đồng ý bất cứ lúc nào
+Tên người dùng:___　Chữ ký:___` },
+      ],
+      grammarNote: `【同意書の重要表現】
+「〜の可能性がある」= có khả năng〜
+「〜が生じることがある」= có thể xảy ra〜
+「十分に理解した上で」= sau khi hiểu đầy đủ
+「いつでも撤回できる」= có thể rút lại bất cứ lúc nào
+
+【読解のポイント】
+①「何のサービス」への同意か
+②「どんなリスク」が記載されているか
+③「撤回できるか」どうか
+④「誰が署名する」か（本人・家族など）`,
+      quiz: {
+        question: '同意書の「同意はいつでも撤回できます」とはどういう意味ですか？',
+        options: [
+          { id: 'a', text: '一度サインしたら変更できない' },
+          { id: 'b', text: 'サービス開始後でも同意を取り消せる' },
+          { id: 'c', text: '毎回サインが必要' },
+          { id: 'd', text: '家族のみ撤回できる' },
+        ],
+        correctId: 'b',
+        explanation: '「撤回（てっかい）」= rút lại。「いつでも撤回できる」= có thể rút lại đồng ý bất cứ lúc nào, kể cả sau khi đã ký.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-15': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L15: 長文読解⑤〜新聞・記事の短文〜',
+      titleTranslation: 'Đọc hiểu N4 Bài 15: Đọc văn dài ⑤〜Bài báo ngắn〜',
+      introduction: `N4では新聞記事・インターネット記事などの短い記事を読む問題も出題されます。客観的事実と筆者の意見を区別しながら読む練習をしましょう。介護・福祉・社会問題に関する記事を題材にします。
+
+N4 cũng có câu hỏi đọc bài báo ngắn như bài báo giấy, bài báo mạng. Hãy luyện đọc với khả năng phân biệt sự thật khách quan và ý kiến tác giả. Dùng các bài báo liên quan đến điều dưỡng, phúc lợi xã hội làm chất liệu.`,
+      keyPoints: [
+        '事実と意見の区別：「〜だ・〜である」（事実）vs「〜と思う・〜だろう」（意見）',
+        '見出し（タイトル）を先に読む：内容を予測して読む',
+        '数字・データの読み取り：パーセント・人数・金額',
+        'N4頻出テーマ：高齢化・介護不足・多文化共生・外国人労働者',
+        'スキミング：記事全体の大意を素早く掴む',
+        '設問パターン：「この記事の内容と合うものは？」',
+      ],
+      vocabulary: [
+        { word: '高齢化', reading: 'こうれいか', meaning: '高齢者が増えること（già hóa dân số）', example: '日本の高齢化が進む' },
+        { word: '介護不足', reading: 'かいごぶそく', meaning: '介護職員が足りない（thiếu nhân lực điều dưỡng）', example: '深刻な介護不足' },
+        { word: '外国人労働者', reading: 'がいこくじんろうどうしゃ', meaning: '外国から来た労働者（lao động nước ngoài）', example: '外国人労働者が増加中' },
+        { word: '人手不足', reading: 'ひとでぶそく', meaning: '労働力が足りない（thiếu nhân lực）', example: '介護業界の人手不足' },
+        { word: '割合', reading: 'わりあい', meaning: 'パーセンテージ・比率（tỷ lệ）', example: '65歳以上の割合が30%' },
+      ],
+      examples: [
+        { japanese: '日本の65歳以上の人口は約3,600万人（2023年）で、全体の約29%を占める。介護職員の不足は深刻で、2025年までに約38万人が不足すると言われている。', reading: 'にほんの65さいいじょうのじんこうはやく3600まんにん（2023ねん）で、ぜんたいのやく29%をしめる。かいごしょくいんのふそくはしんこくで、2025ねんまでにやく38まんにんがふそくするといわれている。', translation: 'Dân số từ 65 tuổi trở lên của Nhật Bản khoảng 36 triệu người (2023), chiếm khoảng 29% tổng dân số. Tình trạng thiếu nhân viên điều dưỡng rất nghiêm trọng, được cho là đến năm 2025 sẽ thiếu khoảng 380.000 người.' },
+        { japanese: 'ベトナムをはじめとする外国人介護士の受け入れが拡大しており、現場での多文化共生が新たな課題となっている。', reading: 'べとなむをはじめとするがいこくじんかいごしのうけいれがかくだいしており、げんばでのたぶんかきょうせいがあらたなかだいとなっている。', translation: 'Việc tiếp nhận nhân viên điều dưỡng nước ngoài, dẫn đầu là Việt Nam, đang mở rộng, và cùng chung sống đa văn hóa tại hiện trường đang trở thành thách thức mới.' },
+      ],
+      grammarNote: `【記事・論説文の読み方】
+事実（客観）：「〜だ」「〜である」「〜によると」
+意見（主観）：「〜と思う」「〜だろう」「〜すべきだ」
+
+【数字の読み取り】
+約（やく）= khoảng / 〜を超える = vượt〜
+〜割（わり）= 〜/10 = 10%刻み
+〜パーセント = 〜%
+〜倍（ばい）= gấp〜 lần
+
+【スキミングのコツ】
+①見出し（タイトル）を読む
+②各段落の最初の文を読む
+③数字・固有名詞に注目
+④設問を先に見てから本文を読む`,
+      quiz: {
+        question: '「約29%を占める」の「約」の意味は？',
+        options: [
+          { id: 'a', text: 'ちょうど・正確に' },
+          { id: 'b', text: 'おおよそ・だいたい' },
+          { id: 'c', text: '最大で' },
+          { id: 'd', text: '最低でも' },
+        ],
+        correctId: 'b',
+        explanation: '「約（やく）」= khoảng / xấp xỉ = おおよそ・だいたい。「約29%」= khoảng 29%（正確ではなく概数）。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-16': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L16: 対比・比較の文章を読む',
+      titleTranslation: 'Đọc hiểu N4 Bài 16: Đọc văn đối chiếu và so sánh',
+      introduction: `「AとBを比べると」「AはBより〜」「一方Bは〜」という対比・比較の文章は、介護方針の説明・サービスの違い・国ごとの制度比較など、多くの文書で使われます。比較の軸と結論を正確に読み取る練習をしましょう。
+
+Văn bản so sánh đối chiếu như "Khi so sánh A và B", "A hơn B〜", "Mặt khác B〜" được dùng trong nhiều tài liệu như giải thích phương hướng điều dưỡng, sự khác biệt về dịch vụ, so sánh chế độ giữa các quốc gia.`,
+      keyPoints: [
+        '比較の軸：何と何を・何の点で比べているか',
+        '優劣：〜より〜のほうが〜・〜に比べて〜・〜は〜ほど〜ない',
+        '対比：一方・それに対して・反対に・〜は〜だが、〜は〜だ',
+        '共通点：両方〜・どちらも〜・同じく〜',
+        '設問パターン：「AとBの違いは？」「どちらのほうが〜？」',
+        '注意：比較の対象・基準を明確にする',
+      ],
+      vocabulary: [
+        { word: '一方', reading: 'いっぽう', meaning: '片方・他方（mặt khác）', example: 'A施設は〜。一方、B施設は〜。' },
+        { word: '比較', reading: 'ひかく', meaning: '二つを比べること（so sánh）', example: '二つのサービスを比較する' },
+        { word: '共通点', reading: 'きょうつうてん', meaning: '同じところ（điểm chung）', example: '両者の共通点は〜' },
+        { word: '相違点', reading: 'そういてん', meaning: '違うところ（điểm khác biệt）', example: '制度の相違点を確認する' },
+        { word: '優れる', reading: 'すぐれる', meaning: '他より良い（vượt trội）', example: '〜の点で優れている' },
+      ],
+      examples: [
+        { japanese: '訪問介護と通所介護を比較すると、訪問介護は自宅でサービスを受けるため、利用者の生活リズムを崩しにくい。一方、通所介護は他の利用者との交流が生まれるという利点がある。', reading: 'ほうもんかいごとつうしょかいごをひかくすると、ほうもんかいごはじたくでさーびすをうけるため、りようしゃのせいかつりずむをくずしにくい。いっぽう、つうしょかいごはほかのりようしゃとのこうりゅうがうまれるというりてんがある。', translation: 'Khi so sánh điều dưỡng tại nhà và điều dưỡng ban ngày, điều dưỡng tại nhà vì nhận dịch vụ tại nhà nên ít làm xáo trộn nhịp sinh hoạt của người dùng. Mặt khác, điều dưỡng ban ngày có ưu điểm là tạo ra sự giao lưu với người dùng khác.' },
+        { japanese: '日本とベトナムでは高齢化のスピードが異なる。日本はすでに超高齢社会だが、ベトナムは今後急速に高齢化が進むと予測されている。', reading: 'にほんとべとなむではこうれいかのすぴーどがことなる。にほんはすでにちょうこうれいしゃかいだが、べとなむはこんごきゅうそくにこうれいかがすすむとよそくされている。', translation: 'Nhật Bản và Việt Nam có tốc độ già hóa khác nhau. Nhật Bản đã là xã hội siêu già hóa, nhưng Việt Nam được dự đoán sẽ già hóa nhanh chóng trong tương lai.' },
+      ],
+      grammarNote: `【比較・対比の表現まとめ】
+
+比較（so sánh）：
+  AはBより〜（A hơn B〜）
+  Aのほうが〜（A ... hơn）
+  AはBほど〜ない（A không〜 bằng B）
+
+対比（đối chiếu）：
+  一方（mặt khác）
+  それに対して（đối lại điều đó）
+  〜は〜だが、〜は〜だ
+
+共通（điểm chung）：
+  AもBも〜（cả A lẫn B〜）
+  両方〜（cả hai〜）
+  同じく〜（tương tự〜）`,
+      quiz: {
+        question: '「訪問介護より通所介護のほうが交流の機会が多い」とあります。交流が多いのはどちらですか？',
+        options: [
+          { id: 'a', text: '訪問介護' },
+          { id: 'b', text: '通所介護' },
+          { id: 'c', text: '両方同じ' },
+          { id: 'd', text: 'どちらも少ない' },
+        ],
+        correctId: 'b',
+        explanation: '「AよりBのほうが〜」= B ... hơn A〜。「通所介護のほうが交流が多い」→ 通所介護のほうが多い。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-17': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L17: 速読トレーニング〜時間内に要点を掴む〜',
+      titleTranslation: 'Đọc hiểu N4 Bài 17: Luyện đọc nhanh〜Nắm điểm chính trong thời gian giới hạn〜',
+      introduction: `N4の読解試験は時間との戦いです。全部の文字を読まず、必要な情報だけを素早く見つける「スキャニング」と「スキミング」のテクニックを習得しましょう。実際の試験形式で練習します。
+
+Bài thi đọc hiểu N4 là cuộc chiến với thời gian. Hãy học kỹ thuật "quét tìm" và "lướt đọc" để nhanh chóng tìm thông tin cần thiết mà không cần đọc hết tất cả chữ. Luyện tập theo hình thức thi thực tế.`,
+      keyPoints: [
+        'スキャニング：設問のキーワードを本文で探す（特定情報を探す）',
+        'スキミング：各段落の最初の文だけ読んで大意を掴む',
+        '時間配分：1問あたり約3分を目安に',
+        '読む順序：①設問を読む →②本文を読む → ③答えを選ぶ',
+        '消去法：明らかに違う選択肢を消して残りから選ぶ',
+        '本文に戻る：記憶だけで答えず、必ず本文を確認する',
+      ],
+      vocabulary: [
+        { word: '速読', reading: 'そくどく', meaning: '速く読むこと（đọc nhanh）', example: '速読のコツを学ぶ' },
+        { word: 'スキャニング', reading: 'すきゃにんぐ', meaning: '特定情報を素早く探す読み方（quét tìm）', example: 'スキャニングで名前を探す' },
+        { word: 'スキミング', reading: 'すきみんぐ', meaning: '大意を素早く掴む読み方（lướt đọc）', example: 'スキミングで大意を掴む' },
+        { word: '消去法', reading: 'しょうきょほう', meaning: '間違いを消していく方法（phương pháp loại trừ）', example: '消去法で答える' },
+        { word: '根拠', reading: 'こんきょ', meaning: '答えの証拠（căn cứ）', example: '本文に根拠を探す' },
+      ],
+      examples: [
+        { japanese: '【速読のステップ】①設問を先に読む（何を探すか把握）②タイトル・見出しを読む ③各段落の1文目を読む ④設問のキーワードを本文でスキャン ⑤答えの根拠を確認', reading: '【そくどくのすてっぷ】①せつもんをさきによむ（なにをさがすかはあく）②たいとる・みだしをよむ ③かくだんらくの1もんめをよむ ④せつもんのきーわーどをほんぶんでするっとさがす ⑤こたえのこんきょをかくにん', translation: '【Các bước đọc nhanh】①Đọc câu hỏi trước (nắm cần tìm gì) ②Đọc tiêu đề ③Đọc câu đầu mỗi đoạn ④Quét tìm từ khóa câu hỏi trong bài ⑤Xác nhận căn cứ câu trả lời' },
+        { japanese: '設問に「田中さんはいつ退院しましたか？」とある場合、本文で「田中」「退院」「〜日」のキーワードをスキャニングで探す。', reading: 'せつもんに「たなかさんはいつたいいんしましたか？」とあるばあい、ほんぶんで「たなか」「たいいん」「〜にち」のきーわーどをすきゃにんぐでさがす。', translation: 'Khi câu hỏi là "Bác Tanaka xuất viện khi nào?", hãy dùng kỹ thuật quét tìm từ khóa "Tanaka", "xuất viện", "ngày〜" trong bài.' },
+      ],
+      grammarNote: `【試験での時間配分（目安）】
+短文問題（1問）：約2分
+中文問題（1問）：約4分
+長文問題（1問）：約6分
+
+【よくある間違いパターン】
+×本文を全部読んでから設問を読む
+×本文を読まず記憶で答える
+×最初の選択肢を確認せずに選ぶ
+×「書いていないこと」を答えにする
+
+【正しいアプローチ】
+①設問→②本文→③根拠確認→④答え選択`,
+      quiz: {
+        question: 'N4読解の設問に答えるとき、最初にすべきことは何ですか？',
+        options: [
+          { id: 'a', text: 'まず本文を全部読む' },
+          { id: 'b', text: 'まず設問（問題）を読む' },
+          { id: 'c', text: '選択肢だけ読む' },
+          { id: 'd', text: 'タイトルだけ読む' },
+        ],
+        correctId: 'b',
+        explanation: '設問を先に読むことで「何を探すか」が明確になり、スキャニングの効率が上がる。これが速読の基本。\nĐọc câu hỏi trước để biết cần tìm gì, tăng hiệu quả quét tìm thông tin.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-03-18': {
+    courseTitle: { ja: 'N4 読解入門 〜短文から段落へ〜', vi: 'Đọc hiểu nhập môn N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4読解L18: 総復習テスト',
+      titleTranslation: 'Đọc hiểu N4 Bài 18: Kiểm tra tổng hợp',
+      introduction: `N4読解コースの総まとめです。お知らせ・メモ・スケジュール・指示書・接続詞・因果関係・グラフ・長文まで、全17レッスンの内容を総復習します。実際のN4試験に近い形式で5問に挑戦しましょう！
+
+Đây là tổng kết của khóa học đọc hiểu N4. Ôn tập tổng hợp nội dung 17 bài học từ thông báo, ghi chú, lịch làm việc, hướng dẫn, liên từ, quan hệ nhân quả, biểu đồ đến văn dài. Hãy thử sức với 5 câu hỏi theo hình thức gần với kỳ thi N4 thực tế!`,
+      keyPoints: [
+        '【L2-3】メモ・シフト表：5W1H・記号・勤務区分を素早く読む',
+        '【L4-5】指示書・接続詞：番号手順・逆接/順接の判断',
+        '【L6-7】否定/条件・因果関係：「〜以外」「〜ため」の正確な読み',
+        '【L8-9】主題・グラフ：「要するに・つまり」・増減語彙',
+        '【L10-14】長文読解：申し送り・ケアプラン・研修・同意書',
+        '【L15-17】記事・比較・速読：設問先読み・スキャニング活用',
+      ],
+      vocabulary: [
+        { word: '総復習', reading: 'そうふくしゅう', meaning: '全部まとめて復習（ôn tập tổng hợp）', example: '全レッスンの総復習' },
+        { word: 'スキャニング', reading: 'すきゃにんぐ', meaning: 'キーワードを探す速読法（quét tìm）', example: '設問のキーワードをスキャニング' },
+        { word: '根拠', reading: 'こんきょ', meaning: '答えの証拠（căn cứ）', example: '本文に根拠を探す' },
+        { word: '消去法', reading: 'しょうきょほう', meaning: 'ちがう選択肢を消す方法（loại trừ）', example: '消去法で正解を選ぶ' },
+        { word: '確認事項', reading: 'かくにんじこう', meaning: '確認が必要な項目（điều cần xác nhận）', example: '申し送りの確認事項' },
+      ],
+      examples: [
+        { japanese: '速読のポイント：①設問を先に読む ②キーワードをスキャニング ③本文に根拠を確認 ④消去法で絞る', reading: 'そくどくのぽいんと：①せつもんをさきによむ ②きーわーどをすきゃにんぐ ③ほんぶんにこんきょをかくにん ④しょうきょほうでしぼる', translation: 'Điểm chính đọc nhanh: ①Đọc câu hỏi trước ②Quét tìm từ khóa ③Xác nhận căn cứ trong bài ④Thu hẹp bằng loại trừ' },
+        { japanese: '接続詞まとめ：しかし（逆接）・そのため（順接）・また（添加）・ただし（補足）・つまり（言い換え）', reading: 'せつぞくしまとめ：しかし（ぎゃくせつ）・そのため（じゅんせつ）・また（てんか）・ただし（ほそく）・つまり（いいかえ）', translation: 'Tổng hợp liên từ: しかし (nghịch)・そのため (thuận)・また (thêm)・ただし (chú thích)・つまり (nói lại)' },
+      ],
+      grammarNote: `【N4読解 全レッスンまとめ】
+L1：お知らせ・案内文（thông báo）
+L2：メモ・伝言（ghi chú）
+L3：シフト表（bảng ca）
+L4：指示書・マニュアル（hướng dẫn）
+L5：接続詞（liên từ）
+L6：否定・条件表現（phủ định/điều kiện）
+L7：因果関係（nhân quả）
+L8：主題・要点（chủ đề）
+L9：グラフ・図表（biểu đồ）
+L10：筆者の意図（ý định tác giả）
+L11-14：長文読解（văn dài）
+L15：新聞記事（báo）
+L16：対比・比較（so sánh）
+L17：速読テクニック（đọc nhanh）`,
+      quizzes: [
+        {
+          question: '「体重が横ばいです」の意味は？',
+          options: [
+            { id: 'a', text: '体重が増えている' },
+            { id: 'b', text: '体重がほとんど変化していない' },
+            { id: 'c', text: '体重が減っている' },
+            { id: 'd', text: '体重が大きく変動している' },
+          ],
+          correctId: 'b',
+          explanation: '横ばい = đường nằm ngang = ổn định、ほとんど変化なし。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '申し送りに「至急」とある場合、どうすべきか？',
+          options: [
+            { id: 'a', text: '後で確認する' },
+            { id: 'b', text: '無視する' },
+            { id: 'c', text: '最優先で確認・対応する' },
+            { id: 'd', text: '家族に連絡する' },
+          ],
+          correctId: 'c',
+          explanation: '「至急（しきゅう）」= khẩn cấp。最優先で確認・対応が必要。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「体温が上昇したため、入浴を中止した」の原因は何ですか？',
+          options: [
+            { id: 'a', text: '入浴を中止したこと' },
+            { id: 'b', text: '体温が上昇したこと' },
+            { id: 'c', text: '水分補給が少なかったこと' },
+            { id: 'd', text: '転倒したこと' },
+          ],
+          correctId: 'b',
+          explanation: '「〜ため」の前が原因。体温上昇→原因→入浴中止→結果。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「担当者以外は入室禁止」とあります。担当者はどうですか？',
+          options: [
+            { id: 'a', text: '担当者も禁止' },
+            { id: 'b', text: '担当者は入室できる' },
+            { id: 'c', text: '申請が必要' },
+            { id: 'd', text: '主任の許可が必要' },
+          ],
+          correctId: 'b',
+          explanation: '「〜以外は禁止」= 〜以外の人が禁止 → 担当者は入室できる。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: 'N4読解で設問に答えるとき、最初にすべきことは？',
+          options: [
+            { id: 'a', text: '本文を全部読む' },
+            { id: 'b', text: '選択肢から選ぶ' },
+            { id: 'c', text: '設問（問題）を先に読む' },
+            { id: 'd', text: 'タイトルを読む' },
+          ],
+          correctId: 'c',
+          explanation: '設問を先に読む→何を探すか明確になる→スキャニング効率UP。これが速読の基本。',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
   // ===== N4 聴解 =====
   'n4-04': {
     courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
@@ -9138,6 +10251,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n5-04': ['n5-04', 'n5-04-2', 'n5-04-3', 'n5-04-4', 'n5-04-5', 'n5-04-6', 'n5-04-7', 'n5-04-8', 'n5-04-9', 'n5-04-10', 'n5-04-11', 'n5-04-12'],
   'n5-05': ['n5-05', 'n5-05-2', 'n5-05-3', 'n5-05-4', 'n5-05-5', 'n5-05-6', 'n5-05-7', 'n5-05-8'],
   'n4-01': ['n4-01', 'n4-01-2', 'n4-01-3', 'n4-01-4', 'n4-01-5', 'n4-01-6', 'n4-01-7', 'n4-01-8', 'n4-01-9', 'n4-01-10', 'n4-01-11', 'n4-01-12', 'n4-01-13', 'n4-01-14', 'n4-01-15', 'n4-01-16', 'n4-01-17', 'n4-01-18', 'n4-01-19', 'n4-01-20'],
+  'n4-03': ['n4-03', 'n4-03-2', 'n4-03-3', 'n4-03-4', 'n4-03-5', 'n4-03-6', 'n4-03-7', 'n4-03-8', 'n4-03-9', 'n4-03-10', 'n4-03-11', 'n4-03-12', 'n4-03-13', 'n4-03-14', 'n4-03-15', 'n4-03-16', 'n4-03-17', 'n4-03-18'],
   'n4-02': ['n4-02', 'n4-02-2', 'n4-02-3', 'n4-02-4', 'n4-02-5', 'n4-02-6', 'n4-02-7', 'n4-02-8', 'n4-02-9', 'n4-02-10', 'n4-02-11', 'n4-02-12', 'n4-02-13', 'n4-02-14', 'n4-02-15', 'n4-02-16', 'n4-02-17', 'n4-02-18', 'n4-02-19', 'n4-02-20', 'n4-02-21', 'n4-02-22', 'n4-02-23', 'n4-02-24', 'n4-02-25'],
 };
 
@@ -9217,6 +10331,24 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n4-01-18': { ja: '職場マナー・敬語', vi: 'Nghi thức & Kính ngữ' },
   'n4-01-19': { ja: 'N4重要語200語特訓', vi: 'Luyện 200 từ quan trọng N4' },
   'n4-01-20': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
+  'n4-03':    { ja: '案内文・お知らせ', vi: 'Thông báo & Hướng dẫn' },
+  'n4-03-2':  { ja: 'メモ・伝言を読む', vi: 'Đọc ghi chú & Tin nhắn' },
+  'n4-03-3':  { ja: 'シフト表を読む', vi: 'Đọc bảng phân ca' },
+  'n4-03-4':  { ja: '指示書・マニュアル', vi: 'Hướng dẫn & Sổ tay' },
+  'n4-03-5':  { ja: '接続詞を使いこなす', vi: 'Liên từ' },
+  'n4-03-6':  { ja: '否定・条件表現', vi: 'Phủ định & Điều kiện' },
+  'n4-03-7':  { ja: '因果関係を読む', vi: 'Quan hệ nhân quả' },
+  'n4-03-8':  { ja: '主題・要点を見つける', vi: 'Chủ đề & Điểm chính' },
+  'n4-03-9':  { ja: 'グラフ・図表の読み取り', vi: 'Biểu đồ & Bảng số liệu' },
+  'n4-03-10': { ja: '筆者の意図・推測', vi: 'Ý định tác giả & Suy luận' },
+  'n4-03-11': { ja: '長文①業務連絡・申し送り', vi: 'Văn dài① Bàn giao ca' },
+  'n4-03-12': { ja: '長文②ケアプランを読む', vi: 'Văn dài② Kế hoạch chăm sóc' },
+  'n4-03-13': { ja: '長文③研修案内・議事録', vi: 'Văn dài③ Đào tạo & Họp' },
+  'n4-03-14': { ja: '長文④同意書・説明文', vi: 'Văn dài④ Đơn đồng ý' },
+  'n4-03-15': { ja: '長文⑤新聞・記事', vi: 'Văn dài⑤ Bài báo' },
+  'n4-03-16': { ja: '対比・比較の文章', vi: 'Đối chiếu & So sánh' },
+  'n4-03-17': { ja: '速読トレーニング', vi: 'Luyện đọc nhanh' },
+  'n4-03-18': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
   'n4-02':    { ja: '〜てしまう / 〜ちゃう', vi: '〜てしまう / 〜ちゃう' },
   'n4-02-2':  { ja: '〜ておく（事前準備）', vi: '〜ておく (chuẩn bị trước)' },
   'n4-02-3':  { ja: '〜てある（結果状態）', vi: '〜てある (trạng thái kết quả)' },
