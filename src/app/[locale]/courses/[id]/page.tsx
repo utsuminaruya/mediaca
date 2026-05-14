@@ -7178,6 +7178,989 @@ Nghe hiểu N4 có hội thoại hàng ngày, hội thoại nơi làm việc, th
     },
   },
 
+  'n4-04-2': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L2: 数字・時間・日付の聞き取り',
+      titleTranslation: 'Luyện nghe N4 Bài 2: Nghe số, giờ và ngày tháng',
+      introduction: `「4（し/よん）」「7（しち/なな）」の聞き分けミス、「1時（いちじ）」と「7時（しちじ）」の混同は介護現場で重大なミスにつながります。数字・時刻・日付の正確な聞き取りを徹底練習しましょう。
+
+Nhầm lẫn "4 (shi/yon)" và "7 (shichi/nana)", nhầm "1 giờ" và "7 giờ" có thể dẫn đến sai sót nghiêm trọng tại hiện trường điều dưỡng. Hãy luyện tập nghe chính xác số, giờ và ngày tháng một cách kỹ lưỡng.`,
+      keyPoints: [
+        '危険な聞き間違い：1時（いちじ）vs 7時（しちじ）→ 必ず復唱確認',
+        '4の読み方：し（数え方）/ よん（量・時間）→ 介護では「よん」を推奨',
+        '7の読み方：しち / なな → 介護では「なな」を推奨（混同防止）',
+        '日付の言い方：〜日（ついたち・ふつか・みっか…）→ 1日・2日・3日',
+        '時刻の確認：「〜時〜分でよろしいですか？」と復唱する',
+        '体温・血圧の数字：「36度5分（さぶろく・ご）」「120の80」',
+      ],
+      vocabulary: [
+        { word: '復唱', reading: 'ふくしょう', meaning: '聞いた内容を繰り返して確認（nhắc lại để xác nhận）', example: '「14時ですね」と復唱する' },
+        { word: '聞き間違い', reading: 'ききまちがい', meaning: '聞いて間違えること（nghe nhầm）', example: '聞き間違いに注意する' },
+        { word: '確認する', reading: 'かくにんする', meaning: '正しいか確かめる（xác nhận）', example: '数字を確認する' },
+        { word: '度（体温）', reading: 'ど', meaning: '温度の単位（độ）', example: '37度5分' },
+        { word: 'mmHg（血圧）', reading: 'まりー', meaning: '血圧の単位（mmHg）', example: '120の80' },
+      ],
+      examples: [
+        { japanese: '【スクリプト】A「田中さん、入浴は何時からですか？」B「14時から予約しています。」A「14時ですね、了解しました。」', reading: '【すくりぷと】A「たなかさん、にゅうよくはなんじからですか？」B「14じからよやくしています。」A「14じですね、りょうかいしました。」', translation: '【Kịch bản】A"Bác Tanaka, tắm từ mấy giờ?" B"Đặt lịch từ 14 giờ." A"14 giờ nhỉ, hiểu rồi."' },
+        { japanese: '【スクリプト】「体温は37度2分、血圧は128の74です。」「37度2分、128の74ですね。記録します。」', reading: '【すくりぷと】「たいおんは37どにぶ、けつあつは128の74です。」「37どにぶ、128の74ですね。きろくします。」', translation: '【Kịch bản】"Nhiệt độ 37.2 độ, huyết áp 128/74." "37.2 độ, 128/74 nhỉ. Tôi ghi chép."' },
+        { japanese: '【スクリプト】「次の服薬は7時です。」「7時（なな時）ですね、確認します。」※「しち」と「いち」の混同を防ぐため「なな」を使う。', reading: '【すくりぷと】「つぎのふくやくはなな時です。」「なな時ですね、かくにんします。」※「しち」と「いち」のこんどうをふせぐため「なな」をつかう。', translation: '【Kịch bản】"Lần uống thuốc tiếp theo là 7 giờ." "7 giờ nhỉ, xác nhận." ※Dùng "nana" để tránh nhầm với "ichi".' },
+      ],
+      grammarNote: `【数字の読み方リスト】
+1：いち　2：に　3：さん　4：し/よん　5：ご
+6：ろく　7：しち/なな　8：はち　9：く/きゅう　10：じゅう
+
+【時刻の読み方】
+1時：いちじ　4時：よじ　7時：しちじ→ 「ななじ」推奨
+9時：くじ
+
+【日付の特殊読み】
+1日：ついたち　2日：ふつか　3日：みっか
+4日：よっか　5日：いつか　6日：むいか
+7日：なのか　8日：ようか　9日：ここのか
+10日：とおか　14日：じゅうよっか　20日：はつか
+24日：にじゅうよっか
+
+【安全な復唱の習慣】
+受けた数字・時刻は必ず復唱確認！`,
+      quiz: {
+        question: '介護現場で「7」を言うとき、なぜ「なな」が推奨されますか？',
+        options: [
+          { id: 'a', text: '「なな」のほうが言いやすいから' },
+          { id: 'b', text: '「しち」が「いち（1）」と聞き間違えられやすいから' },
+          { id: 'c', text: '「なな」がより丁寧だから' },
+          { id: 'd', text: '「しち」は古い言い方だから' },
+        ],
+        correctId: 'b',
+        explanation: '「しち（7）」と「いち（1）」は電話や騒がしい環境で聞き間違えやすい。介護では命に関わるので「なな」を使うことを推奨。\n"Shichi(7)" và "ichi(1)" dễ nghe nhầm trong môi trường ồn ào. Trong điều dưỡng nên dùng "nana" vì liên quan đến tính mạng.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-3': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L3: 指示・依頼を聞き取る',
+      titleTranslation: 'Luyện nghe N4 Bài 3: Nghe hiểu chỉ thị và yêu cầu',
+      introduction: `上司や先輩からの指示・依頼は正確に聞き取り、即座に理解することが介護現場では必須です。「〜してください」「〜お願いします」「〜してもらえますか」など、依頼の丁寧度と内容を正しく聞き取る練習をします。
+
+Tại hiện trường điều dưỡng, việc nghe chính xác và hiểu ngay lập tức chỉ thị và yêu cầu từ cấp trên và tiền bối là bắt buộc. Luyện tập nghe đúng mức độ lịch sự và nội dung của các yêu cầu như "〜してください", "〜お願いします", "〜してもらえますか".`,
+      keyPoints: [
+        '指示の種類：「〜して」（直接）/「〜してください」（普通）/「〜していただけますか」（丁寧）',
+        '優先順位：「まず〜、次に〜、最後に〜」の順番を正確に把握',
+        '複数指示：「〜と〜と〜をお願いします」→ メモを取る習慣',
+        '確認の返答：「はい、承知しました」「わかりました、すぐに参ります」',
+        '不明な時：「もう一度おっしゃっていただけますか？」と聞き直す',
+        '期限の確認：「いつまでに」「今すぐ」「〜時までに」を必ず確認',
+      ],
+      vocabulary: [
+        { word: '承知しました', reading: 'しょうちしました', meaning: 'わかりました（丁寧）（đã hiểu - lịch sự）', example: '承知しました、すぐ参ります' },
+        { word: '確認します', reading: 'かくにんします', meaning: 'チェックします（xác nhận）', example: 'もう一度確認します' },
+        { word: 'メモを取る', reading: 'めもをとる', meaning: '書いておく（ghi chép）', example: '指示をメモを取る' },
+        { word: 'すぐに', reading: 'すぐに', meaning: '今すぐ（ngay lập tức）', example: 'すぐに参ります' },
+        { word: '〜までに', reading: 'までに', meaning: 'その時刻より前に（trước〜）', example: '15時までに提出' },
+      ],
+      examples: [
+        { japanese: '【スクリプト】主任「グエンさん、今日の午後、まず301号室の田中さんのバイタルを測って、次に305号室の入浴介助をお願いします。14時までに記録も頼みます。」グエン「承知しました。301号室のバイタル、305号室の入浴、記録を14時までですね。」', reading: '【すくりぷと】しゅにん「ぐえんさん、きょうのごご、まず301ごうしつのたなかさんのばいたるをはかって、つぎに305ごうしつのにゅうよくかいじょをおねがいします。14じまでにきろくもたのみます。」ぐえん「しょうちしました。301ごうしつのばいたる、305ごうしつのにゅうよく、きろくを14じまでですね。」', translation: '【Kịch bản】Trưởng nhóm: "Nguyễn, chiều nay trước tiên đo dấu hiệu sinh tồn bác Tanaka phòng 301, tiếp theo hỗ trợ tắm phòng 305. Nhờ ghi chép trước 14 giờ." Nguyễn: "Vâng. Dấu hiệu sinh tồn phòng 301, tắm phòng 305, ghi chép trước 14 giờ đúng không ạ."' },
+        { japanese: '【スクリプト】「山田さん、急いでいるので今すぐ302の鈴木さんのところへ行ってもらえますか。」「はい、すぐ参ります。302号室の鈴木様ですね。」', reading: '【すくりぷと】「やまださん、いそいでいるのでいますぐ302のすずきさんのところへいってもらえますか。」「はい、すぐまいります。302ごうしつのすずきさまですね。」', translation: '【Kịch bản】"Yamada, tôi đang gấp, bạn có thể đến phòng 302 gặp bác Suzuki ngay bây giờ không?" "Vâng, tôi đến ngay. Bác Suzuki phòng 302 đúng không?"' },
+      ],
+      grammarNote: `【指示を聞き取るコツ】
+
+①「まず・次に・最後に」で順番を整理
+  まず＝ đầu tiên　次に＝ tiếp theo　最後に＝ cuối cùng
+
+②数字・固有名詞に集中
+  部屋番号・名前・時刻・数量
+
+③必ず復唱確認
+  「〜と〜をすればいいですね」と確認
+
+④不明は遠慮なく聞き直す
+  「すみません、もう一度お願いできますか？」
+  「〜の部分が聞き取れませんでした」
+
+⑤メモを取る習慣
+  指示が2つ以上のときは必ずメモ`,
+      quiz: {
+        question: '上司から複数の指示を受けたとき、最初にすべきことは？',
+        options: [
+          { id: 'a', text: 'すぐに仕事を始める' },
+          { id: 'b', text: 'メモを取りながら聞き、最後に復唱確認する' },
+          { id: 'c', text: '全部覚えてから確認する' },
+          { id: 'd', text: '他の人に聞く' },
+        ],
+        correctId: 'b',
+        explanation: '複数指示はメモを取りながら聞き、最後に「〜と〜でよろしいですか？」と復唱確認するのがベスト。\nNghe nhiều chỉ thị nên vừa ghi chép vừa nghe, cuối cùng nhắc lại để xác nhận.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-4': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L4: バイタル・状態変化の報告を聞く',
+      titleTranslation: 'Luyện nghe N4 Bài 4: Nghe báo cáo dấu hiệu sinh tồn và thay đổi tình trạng',
+      introduction: `介護現場で最も多い聴解場面のひとつが「バイタル報告」です。体温・血圧・脈拍・SpO2・体重などの数値と、状態変化の説明を正確に聞き取るための集中練習をします。
+
+Một trong những tình huống nghe phổ biến nhất tại hiện trường điều dưỡng là "báo cáo dấu hiệu sinh tồn". Luyện tập tập trung nghe chính xác các con số như nhiệt độ, huyết áp, nhịp tim, SpO2, cân nặng và giải thích về thay đổi tình trạng.`,
+      keyPoints: [
+        '体温の言い方：「36度5分（ぶ）」「37度（ど）2分（ぶ）」',
+        '血圧の言い方：「120の80（ひゃくにじゅうのはちじゅう）」',
+        '脈拍：「1分間に72回（かい）」→「みゃくはく72です」',
+        'SpO2：「サチュレーション95（パーセント）」',
+        '状態変化：「いつもより〜」「昨日と比べて〜」「少し〜」',
+        '緊急フラグ：「急に〜」「突然〜」「かなり〜」は即報告サイン',
+      ],
+      vocabulary: [
+        { word: 'バイタル', reading: 'ばいたる', meaning: '生命兆候（dấu hiệu sinh tồn）', example: 'バイタルを測りました' },
+        { word: '脈拍', reading: 'みゃくはく', meaning: '心臓の拍動数（nhịp tim）', example: '脈拍は78です' },
+        { word: 'SpO2', reading: 'さちゅれーしょん', meaning: '血中酸素濃度（độ bão hòa oxy）', example: 'SpO2が93に下がりました' },
+        { word: '急変', reading: 'きゅうへん', meaning: '状態が突然悪化（thay đổi đột ngột）', example: '急変の可能性があります' },
+        { word: '平常時', reading: 'へいじょうじ', meaning: '普段の状態（bình thường）', example: '平常時と比べて高いです' },
+      ],
+      examples: [
+        { japanese: '【スクリプト】「山田主任、田中様のバイタルをご報告します。体温37.8度、血圧145の92、脈拍88、SpO2は96です。体温が平常時より高めで、少し顔色も悪いです。」', reading: '【すくりぷと】「やまだしゅにん、たなかさまのばいたるをごほうこくします。たいおん37.8ど、けつあつ145の92、みゃくはく88、SpO2は96です。たいおんがへいじょうじよりたかめで、すこしかおいろもわるいです。」', translation: '【Kịch bản】"Trưởng nhóm Yamada, tôi báo cáo dấu hiệu sinh tồn của bác Tanaka. Nhiệt độ 37.8, huyết áp 145/92, nhịp tim 88, SpO2 96. Nhiệt độ cao hơn bình thường và sắc mặt hơi xấu."' },
+        { japanese: '【スクリプト】「主任、山本さんが急に胸が苦しいと言っています。血圧も180の110です。至急来ていただけますか。」「わかった、すぐ行く。」', reading: '【すくりぷと】「しゅにん、やまもとさんがきゅうにむねがくるしいといっています。けつあつも180の110です。しきゅうきていただけますか。」「わかった、すぐいく。」', translation: '【Kịch bản】"Trưởng nhóm, bác Yamamoto đột nhiên nói tức ngực. Huyết áp cũng 180/110. Bạn có thể đến ngay không?" "Hiểu rồi, đến ngay."' },
+      ],
+      grammarNote: `【バイタル数値の読み方】
+体温：36度5分（さぶろくどごぶ）/ 37.2℃（さんじゅうしちどにぶ）
+血圧：120/80（ひゃくにじゅうのはちじゅう）
+脈拍：72回/分（ならびじゅうにかい）
+SpO2：95%（さちゅれーしょんきゅうじゅうご）
+体重：58.5kg（ごじゅうはちてんごきろ）
+
+【聴解のポイント】
+変化を表す表現に注意：
+・「いつもより〜」= hơn bình thường
+・「急に〜」= đột nhiên → 緊急サイン
+・「少し〜」= một chút → 経過観察
+・「かなり〜」= khá/rất → 注意が必要`,
+      quiz: {
+        question: '「急に胸が苦しいと言っています」を聞いたとき、最初にすべきことは？',
+        options: [
+          { id: 'a', text: '少し様子を見る' },
+          { id: 'b', text: '水を飲ませる' },
+          { id: 'c', text: '即座に看護師・主任に報告する' },
+          { id: 'd', text: 'バイタルを全部測ってから報告する' },
+        ],
+        correctId: 'c',
+        explanation: '「急に（きゅうに）」= đột nhiên は緊急サイン。胸の苦しさは心疾患の可能性があり、即座に報告が最優先。\n"急に" = đột nhiên là dấu hiệu khẩn. Tức ngực có thể là bệnh tim, ưu tiên báo ngay.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-5': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L5: 申し送りを聞き取る',
+      titleTranslation: 'Luyện nghe N4 Bài 5: Nghe hiểu bàn giao ca',
+      introduction: `申し送りは勤務交代時に行われる重要な口頭・文書引き継ぎです。「誰の・何の情報か」「今日注意すべきことは何か」「自分が何をすべきか」を素早く把握する聴解練習をします。
+
+Bàn giao ca là việc bàn giao miệng và văn bản quan trọng được thực hiện khi thay ca. Luyện nghe để nhanh chóng nắm "thông tin của ai - về điều gì", "hôm nay cần chú ý gì", "mình phải làm gì".`,
+      keyPoints: [
+        '申し送りの構成：利用者名→状態→変化→対応→次のアクション',
+        '「要観察」「要確認」「要対応」を聞き逃さない',
+        '優先順位：「至急」「緊急」のある項目を先にメモ',
+        '引き継ぎ事項：「〜さんへ伝えてください」「〜を確認してください」',
+        '担当の確認：「誰が担当か」「次のアクションは誰がするか」',
+        '不明な点：申し送り後すぐに確認する習慣をつける',
+      ],
+      vocabulary: [
+        { word: '申し送り', reading: 'もうしおくり', meaning: '交代時の引き継ぎ（bàn giao ca）', example: '申し送りを聞く' },
+        { word: '要観察', reading: 'ようかんさつ', meaning: '注意して観察が必要（cần theo dõi）', example: '田中さんは要観察です' },
+        { word: '経過', reading: 'けいか', meaning: '時間の流れによる変化（diễn biến）', example: '経過を観察する' },
+        { word: '引き継ぐ', reading: 'ひきつぐ', meaning: '次の人に渡す（bàn giao）', example: '夜勤者に引き継ぐ' },
+        { word: '特記事項', reading: 'とっきじこう', meaning: '特に注意する事項（mục cần chú ý đặc biệt）', example: '特記事項を確認する' },
+      ],
+      examples: [
+        { japanese: '【申し送りスクリプト】「では、申し送りを始めます。301号室の田中様ですが、今朝から発熱37.8℃で食欲が低下しています。水分補給を促しましたが、摂取量は少なめです。夜勤の方、引き続き経過観察と水分補給のサポートをお願いします。305号室の山本様、特記事項はありません。通常通りです。以上です。」', reading: '【もうしおくりすくりぷと】「では、もうしおくりをはじめます。301ごうしつのたなかさまですが、けさからはつねつ37.8℃でしょくよくがていかしています。すいぶんほきゅうをうながしましたが、せっしゅりょうはすくなめです。やきんのかた、ひきつづきけいかかんさつとすいぶんほきゅうのさぽーとをおねがいします。305ごうしつのやまもとさま、とっきじこうはありません。つうじょうどおりです。いじょうです。」', translation: '【Kịch bản bàn giao】"Vậy bắt đầu bàn giao. Về bác Tanaka phòng 301, từ sáng nay sốt 37.8℃ và giảm cảm giác ngon miệng. Đã nhắc uống nước nhưng lượng hấp thu ít. Nhờ ca đêm tiếp tục theo dõi và hỗ trợ uống nước. Bác Yamamoto phòng 305, không có mục chú ý đặc biệt. Bình thường. Hết."' },
+      ],
+      grammarNote: `【申し送りの聴解ポイント】
+
+①利用者名と部屋番号を同時にメモ
+  「301号室の田中様」= phòng 301 - Tanaka
+
+②状態変化の表現を聞き取る
+  「今朝から〜」「昨日と比べて〜」「急に〜」
+
+③アクション（次にすること）を把握
+  「〜をお願いします」「〜を確認してください」
+  「引き続き〜」「要観察」
+
+④優先順位を判断
+  「至急」「緊急」「要対応」= 最優先
+  「通常通り」「特記事項なし」= 通常対応
+
+【メモの書き方例】
+301：田中 熱37.8 食欲↓ 水分少 → 経観・水分促し
+305：山本 特記なし 通常`,
+      quiz: {
+        question: '申し送りで「要観察」とあった場合、次のシフトでは何をすべきですか？',
+        options: [
+          { id: 'a', text: '何もしなくてよい' },
+          { id: 'b', text: '通常より注意して状態を観察・記録する' },
+          { id: 'c', text: '家族に連絡する' },
+          { id: 'd', text: '医師に報告する' },
+        ],
+        correctId: 'b',
+        explanation: '「要観察（ようかんさつ）」= cần theo dõi。通常より注意して状態を観察し、変化があれば報告・記録する。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-6': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L6: 電話の会話を聞き取る',
+      titleTranslation: 'Luyện nghe N4 Bài 6: Nghe hội thoại điện thoại',
+      introduction: `電話での聴解は対面と違い、表情や口の動きが見えないため難しさが増します。「用件は何か」「誰から誰への電話か」「何をすべきか」を聞き取る特訓をしましょう。介護施設への家族からの問い合わせ電話が主な題材です。
+
+Nghe điện thoại khó hơn gặp mặt vì không thấy biểu cảm và cử động miệng. Hãy luyện tập chuyên sâu nghe "mục đích là gì", "điện thoại từ ai đến ai", "cần làm gì". Chủ yếu lấy điện thoại hỏi từ gia đình đến cơ sở điều dưỡng làm chất liệu.`,
+      keyPoints: [
+        '電話の構成：①挨拶 ②用件 ③確認・伝言 ④終話',
+        '用件の聞き取り：「〜についてお聞きしたいのですが」「〜の件で」',
+        '伝言の聞き取り：誰から誰への・内容・連絡先・折り返し希望',
+        '不明な時：「もう一度おっしゃっていただけますか？」',
+        '電話番号：ゆっくり繰り返してもらう「もう一度確認させてください」',
+        '終話確認：「〜の件で、折り返し連絡ですね。確認させていただきます。」',
+      ],
+      vocabulary: [
+        { word: '折り返す', reading: 'おりかえす', meaning: 'かけ直す（gọi lại）', example: '折り返しご連絡します' },
+        { word: '用件', reading: 'ようけん', meaning: '電話の目的（mục đích gọi）', example: '用件をお聞かせください' },
+        { word: '伝言', reading: 'でんごん', meaning: 'メッセージ（nhắn tin）', example: '伝言をお願いできますか' },
+        { word: 'お名前', reading: 'おなまえ', meaning: '名前（kính）（tên - kính ngữ）', example: 'お名前をいただけますか' },
+        { word: '承りました', reading: 'うけたまわりました', meaning: 'わかりました（丁寧）（đã tiếp nhận）', example: '承りました、申し伝えます' },
+      ],
+      examples: [
+        { japanese: '【スクリプト】スタッフ「はい、さくら介護センターでございます。」家族「田中の娘の田中恵子と申します。父の体調についてお聞きしたいのですが、担当の山田さんはいらっしゃいますか？」スタッフ「ただいま山田は席を外しております。よろしければご伝言を承りますが、いかがでしょうか。」家族「では、折り返しのお電話をお願いできますか。080-1234-5678です。」スタッフ「080-1234-5678でございますね。必ず山田よりご連絡させていただきます。」', reading: '【すくりぷと】すたっふ「はい、さくらかいごせんたーでございます。」かぞく「たなかのむすめのたなかけいこともうします。ちちのたいちょうについておききしたいのですが、たんとうのやまださんはいらっしゃいますか？」すたっふ「ただいまやまだはせきをはずしております。よろしければごでんごんをうけたまわりますが、いかがでしょうか。」かぞく「では、おりかえしのおでんわをおねがいできますか。080-1234-5678です。」すたっふ「080-1234-5678でございますね。かならずやまだよりごれんらくさせていただきます。」', translation: '【Kịch bản】NV: "Vâng, Trung tâm điều dưỡng Sakura xin nghe." GĐ: "Tôi là Keiko Tanaka, con gái của bác Tanaka. Tôi muốn hỏi về tình trạng sức khỏe của cha tôi, chị Yamada phụ trách có ở đó không?" NV: "Hiện tại Yamada đang vắng. Nếu bạn muốn để lại tin nhắn thì được không?" GĐ: "Vậy nhờ gọi lại cho tôi được không? Số 080-1234-5678." NV: "080-1234-5678 đúng không ạ. Chắc chắn Yamada sẽ liên lạc lại."' },
+      ],
+      grammarNote: `【電話聴解のポイント】
+
+①発信者の情報を素早くメモ
+  誰が（名前・関係）・何の件で
+
+②用件のキーワードを聞き取る
+  「〜についてお聞きしたい」
+  「〜の件でお電話しました」
+
+③折り返し情報を正確にメモ
+  名前・電話番号・希望時間帯
+
+④復唱確認を必ず行う
+  「〇〇の〇〇様、〇〇のご件で、折り返し先は〇〇ですね」
+
+⑤不明な電話番号は3桁ずつ確認
+  「すみません、番号をもう一度ゆっくりお願いできますか」`,
+      quiz: {
+        question: '電話で相手の番号を聞き取れなかったとき、何と言いますか？',
+        options: [
+          { id: 'a', text: '「分かりました」とそのまま終わる' },
+          { id: 'b', text: '「もう一度ゆっくりお願いできますか」と聞き直す' },
+          { id: 'c', text: '「番号は不要です」と言う' },
+          { id: 'd', text: '電話を切る' },
+        ],
+        correctId: 'b',
+        explanation: '聞き取れなかった場合は「もう一度ゆっくりおっしゃっていただけますか」と遠慮なく聞き直す。これは必須マナー。\nKhi không nghe được, lịch sự hỏi lại "もう一度ゆっくりお願いできますか" là礼儀bắt buộc.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-7': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L7: 体調・症状の会話を聞く',
+      titleTranslation: 'Luyện nghe N4 Bài 7: Nghe hội thoại về tình trạng sức khỏe và triệu chứng',
+      introduction: `利用者が訴える症状を正確に聞き取ることは、介護職員として最も重要なスキルのひとつです。「どこが・どのくらい・いつから・どんな感じで痛いか」を聞き取り、適切に報告するための練習をします。
+
+Nghe chính xác triệu chứng người dùng phàn nàn là một trong những kỹ năng quan trọng nhất của nhân viên điều dưỡng. Luyện tập nghe "đau ở đâu - bao nhiêu - từ khi nào - đau như thế nào" và báo cáo phù hợp.`,
+      keyPoints: [
+        '部位：頭・おなか・胸・腰・足・背中・肩・手・のど',
+        '程度：少し / かなり / すごく / ひどい / 我慢できない',
+        '種類：ズキズキ（nhói）/ じんじん（tê）/ チクチク（châm chích）/ 重い（nặng）',
+        '時間：いつから？ずっと？時々？食後に？',
+        '緊急サイン：「急に・突然・ひどく・我慢できない」→ 即報告',
+        '聴解のコツ：感情的な訴えの中から事実情報を拾う',
+      ],
+      vocabulary: [
+        { word: 'ズキズキ', reading: 'ずきずき', meaning: '拍動するような痛み（đau nhói）', example: '頭がズキズキします' },
+        { word: 'じんじん', reading: 'じんじん', meaning: 'しびれるような感覚（tê tê）', example: '足がじんじんします' },
+        { word: '我慢できない', reading: 'がまんできない', meaning: '耐えられない（không chịu nổi）', example: '痛くて我慢できません' },
+        { word: '息苦しい', reading: 'いきぐるしい', meaning: '呼吸が苦しい（khó thở）', example: '少し息苦しいです' },
+        { word: 'めまい', reading: 'めまい', meaning: 'くらくらする（chóng mặt）', example: 'めまいがして立てません' },
+      ],
+      examples: [
+        { japanese: '【スクリプト】利用者「ねえ、ちょっと…頭が痛くて…」スタッフ「田中さん、頭が痛いんですね。いつからですか？」利用者「昨日の夜から…ズキズキする感じで…」スタッフ「昨夜からズキズキした頭痛ですね。他に気になることはありますか？」利用者「少し気持ち悪い感じも…」スタッフ「わかりました。すぐに看護師を呼びますね。動かないでください。」', reading: '【すくりぷと】りようしゃ「ねえ、ちょっと…あたまがいたくて…」すたっふ「たなかさん、あたまがいたいんですね。いつからですか？」りようしゃ「きのうのよるから…ずきずきするかんじで…」すたっふ「ゆうべからずきずきしたずつうですね。ほかにきになることはありますか？」りようしゃ「すこしきもちわるいかんじも…」すたっふ「わかりました。すぐにかんごしをよびますね。うごかないでください。」', translation: '【Kịch bản】Người dùng: "Ơi, hơi... đau đầu..." NV: "Bác Tanaka, bác đau đầu à. Từ lúc nào ạ?" Người dùng: "Từ tối qua... cảm giác đau nhói..." NV: "Từ tối qua đau đầu nhói đúng không? Còn thấy gì khác không ạ?" Người dùng: "Cũng hơi buồn nôn..." NV: "Hiểu rồi. Tôi gọi y tá ngay. Xin bác đừng di chuyển."' },
+      ],
+      grammarNote: `【症状の聞き取りパターン】
+
+①部位（どこ）
+  頭・胸・おなか・腰・足・のど
+
+②程度（どのくらい）
+  少し < かなり < すごく < ひどい < 我慢できない
+
+③種類（どんな感じ）
+  ズキズキ（nhói）/ じんじん（tê）
+  チクチク（châm）/ 重い（nặng）/ 締め付ける（thắt）
+
+④時間（いつから）
+  さっきから / 昨日から / ずっと / 時々
+
+【緊急判断の言葉】
+急に・突然・ひどく・我慢できない
+→ 即・看護師/上司へ報告！`,
+      quiz: {
+        question: '利用者が「突然、胸が痛くて我慢できない」と言った。最初にすべきことは？',
+        options: [
+          { id: 'a', text: 'いつから痛いか詳しく聞く' },
+          { id: 'b', text: '水を飲ませる' },
+          { id: 'c', text: '即座に看護師・医師を呼ぶ' },
+          { id: 'd', text: '横になってもらって様子を見る' },
+        ],
+        correctId: 'c',
+        explanation: '「突然・胸の痛み・我慢できない」は心筋梗塞の緊急サイン。即座に看護師/医師を呼ぶことが最優先。\n"Đột nhiên, đau ngực, không chịu nổi" là dấu hiệu khẩn cấp. Gọi y tá/bác sĩ ngay là ưu tiên số 1.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-8': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L8: 施設内アナウンスを聞く',
+      titleTranslation: 'Luyện nghe N4 Bài 8: Nghe thông báo trong cơ sở',
+      introduction: `介護施設では「食事の時間のお知らせ」「研修のご案内」「避難訓練の放送」など、施設内アナウンスが頻繁に流れます。N4の聴解でもアナウンス形式の問題が出題されます。要点を素早く聞き取る練習をしましょう。
+
+Tại cơ sở điều dưỡng, thường xuyên có thông báo trong cơ sở như "thông báo giờ ăn", "thông báo đào tạo", "phát thanh diễn tập sơ tán". N4 cũng có câu hỏi dạng thông báo. Hãy luyện nghe nhanh điểm chính.`,
+      keyPoints: [
+        'アナウンスの構成：①何の案内 ②いつ ③どこで ④誰が対象 ⑤注意事項',
+        '聞き取りの焦点：自分に関係ある情報だけを絞って聞く',
+        '時間・場所：数字と固有名詞に集中する',
+        '変更・中止のアナウンス：「〜が変更になりました」「〜は中止です」',
+        '緊急アナウンス：「〜が発生しました」→ すぐに行動',
+        '繰り返し：重要情報は2回繰り返されることが多い',
+      ],
+      vocabulary: [
+        { word: 'ご案内', reading: 'ごあんない', meaning: '知らせ・案内（thông báo）', example: '食事のご案内です' },
+        { word: '変更', reading: 'へんこう', meaning: '変わること（thay đổi）', example: '時間の変更があります' },
+        { word: '中止', reading: 'ちゅうし', meaning: '予定をやめること（hủy/dừng）', example: '本日の入浴は中止です' },
+        { word: '避難', reading: 'ひなん', meaning: '危険から逃げること（sơ tán）', example: '避難訓練のご案内' },
+        { word: 'お集まりください', reading: 'おあつまりください', meaning: '集まってください（kính）（xin tập hợp）', example: '食堂にお集まりください' },
+      ],
+      examples: [
+        { japanese: '【アナウンス①：食事】「入居者のみなさまにご案内します。本日の昼食は12時より食堂にてご用意しております。食堂にお集まりください。なお、本日のメニューは肉じゃがです。」', reading: '【あなうんす①：しょくじ】「にゅうきょしゃのみなさまにごあんないします。ほんじつのちゅうしょくは12じよりしょくどうにてごよういしております。しょくどうにおあつまりください。なお、ほんじつのめにゅーはにくじゃがです。」', translation: '【Thông báo①: Bữa ăn】"Xin thông báo đến tất cả người lưu trú. Bữa trưa hôm nay được chuẩn bị từ 12 giờ tại nhà ăn. Xin mời đến nhà ăn. Ngoài ra, menu hôm nay là nikujaga."' },
+        { japanese: '【アナウンス②：変更】「スタッフのみなさまにお知らせします。本日14時から予定していた研修は、急遽17時に変更になりました。なお、場所は変わらず3階研修室です。ご確認よろしくお願いします。」', reading: '【あなうんす②：へんこう】「すたっふのみなさまにおしらせします。ほんじつ14じからよていしていたけんしゅうは、きゅうきょ17じにへんこうになりました。なお、ばしょはかわらず3かいけんしゅうしつです。ごかくにんよろしくおねがいします。」', translation: '【Thông báo②: Thay đổi】"Xin thông báo đến toàn thể nhân viên. Buổi đào tạo dự kiến lúc 14 giờ hôm nay đã được thay đổi đột xuất thành 17 giờ. Ngoài ra, địa điểm vẫn là phòng đào tạo tầng 3. Nhờ mọi người xác nhận."' },
+      ],
+      grammarNote: `【アナウンス聴解の手順】
+
+①最初の一文で「何のアナウンスか」を判断
+  「〜のご案内」「〜のお知らせ」
+
+②5W1Hをメモ
+  いつ（時刻・日付）・どこで・誰が・何を
+
+③変更・中止の有無を確認
+  「〜に変更」「〜は中止」
+
+④「なお」の後の補足情報を聞く
+
+【緊急アナウンスのパターン】
+「火災が発生しました」→ 避難誘導
+「〇〇号室で急変がありました」→ 即対応
+「避難訓練を開始します」→ 手順通りに動く`,
+      quiz: {
+        question: 'アナウンスで「本日14時の研修は17時に変更になりました」と言っていました。研修は何時ですか？',
+        options: [
+          { id: 'a', text: '14時' },
+          { id: 'b', text: '17時' },
+          { id: 'c', text: '中止' },
+          { id: 'd', text: '翌日' },
+        ],
+        correctId: 'b',
+        explanation: '「〜に変更になりました」= đã thay đổi thành〜。14時から17時に変更 → 正解は17時。「変更」の後の新しい時刻・情報が答え。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-9': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L9: 質問・確認の会話',
+      titleTranslation: 'Luyện nghe N4 Bài 9: Hội thoại hỏi và xác nhận',
+      introduction: `N4の聴解では「AさんはBさんに何を頼まれましたか？」「〇〇をするのは誰ですか？」という質問・確認系の問題が多く出ます。会話の内容から「誰が・何をするか」を正確に判断する練習をします。
+
+N4 nghe hiểu có nhiều câu hỏi dạng "A nhờ B làm gì?", "Ai sẽ làm〇〇?" Luyện tập phán đoán chính xác "ai làm gì" từ nội dung hội thoại.`,
+      keyPoints: [
+        '「誰が何をするか」を会話から判断する',
+        '依頼の受け渡し：「〜さんに〜してもらえますか」→ 誰が誰に頼むか',
+        '条件付き行動：「もし〜なら〜してください」',
+        '否定的依頼：「〜しないでください」「〜する必要はありません」',
+        '順番の判断：「まず〜、それから〜」の作業順序',
+        'N4頻出設問：「この後、男の人は何をしますか？」',
+      ],
+      vocabulary: [
+        { word: '〜に頼む', reading: 'にたのむ', meaning: '〜に依頼する（nhờ〜）', example: '山田さんに頼みます' },
+        { word: '担当する', reading: 'たんとうする', meaning: '責任を持ってやる（phụ trách）', example: '私が担当します' },
+        { word: '〜の代わりに', reading: 'のかわりに', meaning: '〜の代理で（thay cho〜）', example: '山田さんの代わりに行く' },
+        { word: 'それから', reading: 'それから', meaning: 'その後（sau đó）', example: 'まず〜、それから〜' },
+        { word: 'なるべく', reading: 'なるべく', meaning: 'できる限り（càng〜 càng tốt）', example: 'なるべく早く来てください' },
+      ],
+      examples: [
+        { japanese: '【スクリプト】A「すみません、今日の午後のレクリエーションなんですが、山田さんにお願いしようと思っているんですが、山田さんは今日休みで…」B「そうですか。じゃあ、私がやりましょうか。」A「ありがとうございます。では、14時に食堂でお願いします。材料は倉庫にあります。」B「わかりました。14時に食堂ですね。材料は倉庫を確認します。」【質問】この後、Bさんは何をしますか？', reading: '【すくりぷと】A「すみません、きょうのごごのれくりえーしょんなんですが、やまださんにおねがいしようとおもっているんですが、やまださんはきょうやすみで…」B「そうですか。じゃあ、わたしがやりましょうか。」A「ありがとうございます。では、14じにしょくどうでおねがいします。ざいりょうはそうこにあります。」B「わかりました。14じにしょくどうですね。ざいりょうはそうこをかくにんします。」【しつもん】このあと、Bさんはなにをしますか？', translation: '【Kịch bản】A: "Xin lỗi, về buổi giải trí chiều nay, tôi định nhờ Yamada nhưng hôm nay Yamada nghỉ..." B: "Vậy à. Vậy để tôi làm nhé?" A: "Cảm ơn. Vậy nhờ bạn lúc 14 giờ ở nhà ăn. Nguyên liệu trong kho." B: "Hiểu rồi. 14 giờ ở nhà ăn nhỉ. Tôi sẽ kiểm tra nguyên liệu trong kho."' },
+      ],
+      grammarNote: `【「誰が何をするか」判断のコツ】
+
+①依頼表現を聞き取る
+  「〜をお願いします」→ 頼まれた人がする
+  「〜してもらえますか」→ 頼まれた人がする
+
+②承諾・断りを聞き取る
+  「わかりました・はい」→ 承諾 = 実施する
+  「すみません、ちょっと…」→ 断り = 実施しない
+
+③「〜の代わりに」
+  A「今日は休みで」B「じゃあ私が」→ BがAの代わりにする
+
+【N4頻出設問パターン】
+「この後、男の人は何をしますか？」
+「女の人は何と言っていますか？」
+「二人は何について話していますか？」
+→ 最後の発言・決定事項に注目！`,
+      quiz: {
+        question: '会話で「わかりました、私がやります」と言った人はこの後どうしますか？',
+        options: [
+          { id: 'a', text: '何もしない' },
+          { id: 'b', text: '他の人に頼む' },
+          { id: 'c', text: '自分でその仕事をする' },
+          { id: 'd', text: '上司に相談する' },
+        ],
+        correctId: 'c',
+        explanation: '「わかりました、私がやります」= 承諾の表現。この人が自分でその仕事をすることを意味する。\n"Hiểu rồi, tôi sẽ làm" = chấp nhận = tự mình làm.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-10': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L10: 自然な話し方・省略形に慣れる',
+      titleTranslation: 'Luyện nghe N4 Bài 10: Làm quen với cách nói tự nhiên và dạng rút gọn',
+      introduction: `実際の日本語会話では、教科書通りの丁寧な表現ではなく、省略・短縮・口語表現が多く使われます。介護現場の同僚間の会話は特に自然な話し方で進みます。省略形を聞き取る耳を作りましょう。
+
+Trong hội thoại tiếng Nhật thực tế, nhiều cách diễn đạt rút gọn, ngắn gọn và khẩu ngữ được dùng thay vì cách nói lịch sự như trong sách giáo khoa. Hội thoại giữa đồng nghiệp tại hiện trường điều dưỡng đặc biệt diễn ra theo cách nói tự nhiên. Hãy luyện tai nghe dạng rút gọn.`,
+      keyPoints: [
+        '〜ている → 〜てる（例：見ている→見てる）',
+        '〜ておく → 〜とく（例：準備しておく→準備しとく）',
+        '〜てしまう → 〜ちゃう（例：忘れてしまう→忘れちゃう）',
+        '〜なければならない → 〜なきゃ（例：報告しなきゃ）',
+        '〜ではない → 〜じゃない（例：田中さんじゃないよ）',
+        '〜という → 〜って（例：山田さんって知ってる？）',
+      ],
+      vocabulary: [
+        { word: 'なきゃ', reading: 'なきゃ', meaning: '〜なければならない（phải〜）', example: '報告しなきゃ' },
+        { word: 'じゃん', reading: 'じゃん', meaning: '〜じゃないか（đúng không？）', example: 'それ間違いじゃん' },
+        { word: 'てか', reading: 'てか', meaning: 'それよりも・というか（mà thật ra）', example: 'てか、もう時間じゃない？' },
+        { word: 'ってか', reading: 'ってか', meaning: 'というか（hay là）', example: 'ってか、聞いた？' },
+        { word: 'めっちゃ', reading: 'めっちゃ', meaning: 'とても（rất）', example: 'めっちゃ忙しい' },
+      ],
+      examples: [
+        { japanese: '【スクリプト（自然な会話）】A「ねえ、バイタルもう記録しといた？」B「あ、まだ。今やろうとしてたとこ。」A「そっか。田中さん、さっきから熱っぽいみたいで、ちょっと気になってんだけど。」B「そうなの？じゃあ、測り直したほうがいいじゃん。」A「だよね。今すぐやっとく。主任にも言わなきゃかな。」', reading: '【すくりぷと（しぜんなかいわ）】A「ねえ、ばいたるもうきろくしといた？」B「あ、まだ。いまやろうとしてたとこ。」A「そっか。たなかさん、さっきからねつっぽいみたいで、ちょっときになってんだけど。」B「そうなの？じゃあ、はかりなおしたほうがいいじゃん。」A「だよね。いますぐやっとく。しゅにんにもいわなきゃかな。」', translation: '【Kịch bản (hội thoại tự nhiên)】A: "Này, ghi dấu hiệu sinh tồn chưa?" B: "À, chưa. Đang chuẩn bị làm đây." A: "Vậy à. Bác Tanaka từ nãy có vẻ hơi sốt, tôi hơi lo." B: "Vậy à? Thì đo lại đi." A: "Đúng rồi. Tôi làm ngay. Có lẽ phải báo trưởng nhóm nữa."' },
+      ],
+      grammarNote: `【省略形・口語表現 完全リスト】
+
+動詞省略：
+〜ている → 〜てる
+〜ておく → 〜とく
+〜てしまう → 〜ちゃう（て形）/ 〜じゃう（で形）
+〜てしまった → 〜ちゃった / 〜じゃった
+
+助動詞省略：
+〜なければならない → 〜なきゃ
+〜なければならない → 〜ないといけない
+
+接続・感嘆：
+〜という → 〜って
+〜ではないか → 〜じゃん
+〜のだけど → 〜んだけど
+〜のに → 〜のに（同じ）
+
+程度副詞（若者言葉）：
+とても → めっちゃ / すごく / マジで`,
+      quiz: {
+        question: '「今から記録しとくね」の正式な表現は？',
+        options: [
+          { id: 'a', text: '今から記録してしまうね' },
+          { id: 'b', text: '今から記録していくね' },
+          { id: 'c', text: '今から記録しておくね' },
+          { id: 'd', text: '今から記録してきたね' },
+        ],
+        correctId: 'c',
+        explanation: '「〜しとく」= 「〜しておく」の口語省略形。事前にやっておく・準備しておくの意味。\n"〜shitoku" là dạng rút gọn khẩu ngữ của "〜shite oku" = làm sẵn/chuẩn bị trước.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-11': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L11: 感情・態度の聞き取り',
+      titleTranslation: 'Luyện nghe N4 Bài 11: Nghe cảm xúc và thái độ',
+      introduction: `日本語では言葉の意味だけでなく、声のトーン・間（ま）・語尾の変化で話し手の感情や態度が伝わります。「困っている」「怒っている」「遠慮している」などを聞き取る練習をします。利用者の不満や要望を察する力もここで養います。
+
+Trong tiếng Nhật, không chỉ ý nghĩa từ ngữ mà còn thể hiện cảm xúc và thái độ của người nói qua âm điệu, khoảng lặng, biến đổi cuối câu. Luyện nghe "đang lo lắng", "đang tức giận", "đang e ngại". Cũng trau dồi khả năng nhận ra sự không hài lòng và mong muốn của người dùng.`,
+      keyPoints: [
+        'ためらいの表現：「あの…」「ちょっと…」「〜なんですけど…」',
+        '不満・要望：「〜なんですよね…」「できれば〜」「もう少し〜」',
+        '遠慮の依頼：「もしよければ…」「おさしつかえなければ…」',
+        '肯定的な感情：「ありがとう・嬉しい・助かりました」',
+        '否定的な感情：「困った・不安・痛い・つらい」',
+        'N4設問：「女の人はどんな気持ちですか？」',
+      ],
+      vocabulary: [
+        { word: 'ためらう', reading: 'ためらう', meaning: '迷って言えない（do dự）', example: 'ためらいながら話す' },
+        { word: 'おさしつかえなければ', reading: 'おさしつかえなければ', meaning: 'もし問題なければ（nếu không phiền）', example: 'おさしつかえなければ教えてください' },
+        { word: 'できれば', reading: 'できれば', meaning: '可能であれば（nếu có thể）', example: 'できれば変えてほしい' },
+        { word: '遠慮', reading: 'えんりょ', meaning: '気を使って控えめにすること（khách sáo/kiêng dè）', example: '遠慮しないでください' },
+        { word: '察する', reading: 'さっする', meaning: '相手の気持ちを読む（đoán/nhận ra）', example: '気持ちを察して対応する' },
+      ],
+      examples: [
+        { japanese: '【スクリプト】利用者「あの…夜中に何度もトイレに行くんで…その…ちょっと、ナースコール押すのが申し訳なくて…」スタッフ「田中さん、遠慮しないでください。夜中でも何でも呼んでいいんですよ。むしろ呼んでもらわないと心配ですから。」利用者「そうですか…ありがとうございます…ちょっと安心しました。」', reading: '【すくりぷと】りようしゃ「あの…よなかになんどもといれにいくんで…その…ちょっと、なーすこーるおすのがもうしわけなくて…」すたっふ「たなかさん、えんりょしないでください。よなかでもなんでもよんでいいんですよ。むしろよんでもらわないとしんぱいですから。」りようしゃ「そうですか…ありがとうございます…ちょっとあんしんしました。」', translation: '【Kịch bản】Người dùng: "Ơi... vì đêm khuya đi vệ sinh nhiều lần... nên... hơi ngại bấm chuông..." NV: "Bác Tanaka, đừng ngại nhé. Dù đêm khuya cũng cứ gọi được đấy. Ngược lại nếu không gọi tôi mới lo..." Người dùng: "Vậy à... cảm ơn... tôi yên tâm một chút rồi."' },
+      ],
+      grammarNote: `【感情・態度を表す表現まとめ】
+
+遠慮・ためらい（e ngại/do dự）：
+  「あの…」「その…」「ちょっと…」
+  「〜なんですが…」（語尾が下がる）
+
+不安・心配（lo lắng）：
+  「〜かな…」「〜でしょうか」「大丈夫でしょうか」
+
+喜び・感謝（vui mừng/biết ơn）：
+  「ありがとうございます！」「助かりました！」
+  「うれしいです」（声が明るくなる）
+
+不満・要望（không hài lòng/mong muốn）：
+  「できれば〜」「もう少し〜」
+  「〜なんですよね…」（語尾を伸ばす）
+
+怒り（tức giận）：
+  語気が強くなる・言葉が短くなる
+  「〜でしょ！」「なんで〜」`,
+      quiz: {
+        question: '利用者が「あの…ちょっと…夜中に何度も呼ぶのが申し訳なくて…」と言っています。この人はどんな気持ちですか？',
+        options: [
+          { id: 'a', text: '怒っている' },
+          { id: 'b', text: 'スタッフに迷惑をかけることを気にして遠慮している' },
+          { id: 'c', text: '全く問題を感じていない' },
+          { id: 'd', text: '眠れて満足している' },
+        ],
+        correctId: 'b',
+        explanation: '「申し訳なくて（もうしわけなくて）」= cảm thấy xin lỗi/ngại。「ちょっと…」のためらいの表現から、遠慮・気遣いの気持ちが読み取れる。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-12': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L12: 長い会話から要点を聞く',
+      titleTranslation: 'Luyện nghe N4 Bài 12: Nghe điểm chính từ hội thoại dài',
+      introduction: `N4の聴解では2〜3分の比較的長い会話から、「最終的に何が決まったか」「二人は何について話しているか」「問題は何か・解決策は何か」を聞き取る問題が出ます。長い会話を効率よく処理する戦略を学びましょう。
+
+N4 nghe hiểu có câu hỏi nghe hội thoại tương đối dài 2-3 phút để trả lời "cuối cùng quyết định gì", "hai người đang nói về gì", "vấn đề là gì/giải pháp là gì". Hãy học chiến lược xử lý hội thoại dài hiệu quả.`,
+      keyPoints: [
+        '全体の構成：問題提起→議論→解決策→結論',
+        '最終決定を聞く：「では〜にしましょう」「〜ということにします」',
+        '問題の把握：「〜が困っている」「〜が問題だ」',
+        '提案を聞き分ける：「〜はどうですか」「〜しましょうか」',
+        '承諾・却下：「いいですね」vs「それはちょっと…」',
+        'N4頻出設問：「二人は何を決めましたか？」「問題は何ですか？」',
+      ],
+      vocabulary: [
+        { word: '提案', reading: 'ていあん', meaning: 'アイデアを出すこと（đề xuất）', example: '新しい提案があります' },
+        { word: '結論', reading: 'けつろん', meaning: '最終的な決定（kết luận）', example: '結論として〜にします' },
+        { word: '〜ということになりました', reading: 'ということになりました', meaning: '〜に決まった（đã được quyết định là〜）', example: '明日に延期ということになりました' },
+        { word: '折り合い', reading: 'おりあい', meaning: '妥協点（điểm thỏa hiệp）', example: '折り合いをつける' },
+        { word: 'それはちょっと', reading: 'それはちょっと', meaning: '断りの婉曲表現（từ chối nhẹ nhàng）', example: 'それはちょっと難しいです' },
+      ],
+      examples: [
+        { japanese: '【スクリプト（3分間の会話）】主任「今月の研修なんですが、参加者が少ないですね。グエンさん、何か理由わかりますか？」グエン「夜勤の翌日の研修だったので、参加しにくかったと思います。」主任「なるほど。じゃあ、時間帯を変えるのはどうでしょう。日勤の人が参加しやすい午後はどうですか。」グエン「午後2時なら参加しやすいと思います。」主任「では、来月は午後2時に変更ということにしましょう。夜勤の方は翌日参加可にします。」グエン「わかりました、スタッフに伝えます。」【質問】二人は何を決めましたか？', reading: '【すくりぷと（3ぷんかんのかいわ）】しゅにん「こんげつのけんしゅうなんですが、さんかしゃがすくないですね。ぐえんさん、なにかりゆうわかりますか？」ぐえん「やきんのよくじつのけんしゅうだったので、さんかしにくかったとおもいます。」しゅにん「なるほど。じゃあ、じかんたいをかえるのはどうでしょう。にっきんのひとがさんかしやすいごごはどうですか。」ぐえん「ごご2じならさんかしやすいとおもいます。」しゅにん「では、らいげつはごご2じにへんこうということにしましょう。やきんのかたはよくじつさんかかにします。」ぐえん「わかりました、すたっふにつたえます。」【しつもん】ふたりはなにをきめましたか？', translation: '【Kịch bản (3 phút)】...Kết luận: đổi đào tạo sang 14 giờ, ca đêm được tham gia hôm sau.' },
+      ],
+      grammarNote: `【長い会話の聞き取り戦略】
+
+①会話の構造を把握する
+  問題提起 → 原因 → 提案 → 決定
+
+②最後の発言に注目
+  「では〜にしましょう」
+  「〜ということになりました」
+  = 最終決定
+
+③「それはちょっと」= 却下サイン
+  「いいですね・そうしましょう」= 承諾サイン
+
+④設問のキーワードを先に確認
+  「何を決めたか」→ 決定の表現を探す
+  「問題は何か」→ 問題提起の表現を探す
+
+【N4頻出設問】
+「二人は何を決めましたか？」
+「男の人の提案は何ですか？」
+「最終的にどうなりましたか？」`,
+      quiz: {
+        question: '長い会話を聞くとき、最も重要な部分はどこですか？',
+        options: [
+          { id: 'a', text: '最初の挨拶部分' },
+          { id: 'b', text: '会話の途中の例' },
+          { id: 'c', text: '最後の決定・結論部分' },
+          { id: 'd', text: '全部同じくらい重要' },
+        ],
+        correctId: 'c',
+        explanation: 'N4の聴解設問は「何が決まったか」を問うことが多い。「では〜にしましょう」「〜ということになりました」の最後の結論部分が最重要。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-13': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L13: 会議・ミーティングの聴解',
+      titleTranslation: 'Luyện nghe N4 Bài 13: Nghe họp và meeting',
+      introduction: `介護施設では毎週カンファレンス（ケア会議）や朝礼・夕礼などのミーティングが行われます。「今日の議題は何か」「誰が何を担当するか」「いつまでに何をするか」を正確に聞き取る練習をします。
+
+Tại cơ sở điều dưỡng, hàng tuần có conference (họp chăm sóc) và buổi chào buổi sáng/chiều. Luyện tập nghe chính xác "chủ đề hôm nay là gì", "ai phụ trách gì", "làm gì trước khi nào".`,
+      keyPoints: [
+        '会議の構成：議題→発言→決定→アクションアイテム',
+        '議題の聞き取り：「本日の議題は〜です」「〜について話し合います」',
+        'アクションアイテム：「〜さんが〜を〜までに担当します」',
+        '決定事項：「〜ということになりました」「〜に決まりました」',
+        '次回確認：「次回は〜に確認します」「来週報告してください」',
+        'N4設問：「この会議で決まったことは？」',
+      ],
+      vocabulary: [
+        { word: 'カンファレンス', reading: 'かんふぁれんす', meaning: 'ケア会議（hội nghị chăm sóc）', example: '週1回のカンファレンス' },
+        { word: '議題', reading: 'ぎだい', meaning: '話し合うテーマ（nghị trình）', example: '本日の議題は2件です' },
+        { word: 'アクションアイテム', reading: 'あくしょんあいてむ', meaning: '各自の実行すべきこと（hạng mục hành động）', example: 'アクションアイテムを確認する' },
+        { word: '担当する', reading: 'たんとうする', meaning: '責任を持ってやる（phụ trách）', example: '田中さんが担当します' },
+        { word: '〜までに', reading: 'までに', meaning: '〜の時間より前に（trước〜）', example: '来週の月曜までに' },
+      ],
+      examples: [
+        { japanese: '【朝礼スクリプト】主任「では朝礼を始めます。本日の連絡事項は2点です。1点目、明日の14時から感染予防の研修があります。全員参加です。2点目、田中様のケアプランの見直しをカンファレンスで行います。来週木曜14時、担当の方は資料を準備してきてください。以上です。何かありますか？」グエン「確認ですが、研修の場所はどこですか？」主任「3階の研修室です。では、今日もよろしくお願いします。」', reading: '【ちょうれいすくりぷと】しゅにん「ではちょうれいをはじめます。ほんじつのれんらくじこうは2てんです。1てんめ、あしたの14じからかんせんよぼうのけんしゅうがあります。ぜんいんさんかです。2てんめ、たなかさまのけあぷらんのみなおしをかんふぁれんすでおこないます。らいしゅうもくようび14じ、たんとうのかたはしりょうをじゅんびしてきてください。いじょうです。なにかありますか？」ぐえん「かくにんですが、けんしゅうのばしょはどこですか？」しゅにん「3かいのけんしゅうしつです。では、きょうもよろしくおねがいします。」', translation: '【Kịch bản buổi sáng】Trưởng nhóm thông báo 2 điểm: 1) Đào tạo phòng nhiễm khuẩn 14h ngày mai, tất cả tham gia. 2) Xem xét kế hoạch chăm sóc bác Tanaka tại conference thứ Năm tuần sau 14h, người phụ trách chuẩn bị tài liệu.' },
+      ],
+      grammarNote: `【朝礼・会議の聴解ポイント】
+
+①連絡事項の数を確認
+  「〜点あります」→ 何個あるか把握
+  「1点目・2点目」で各情報を分類
+
+②アクションアイテムをメモ
+  誰が：担当者名
+  何を：内容
+  いつまでに：期限
+  どこで：場所
+
+③「以上です」の後の質問タイムを活用
+  不明点はこのタイミングで確認
+
+【設問の答え方】
+「決まったことは？」→ 「〜になりました」を探す
+「誰の担当？」→ 「〜さんが担当」を探す
+「いつまでに？」→ 「〜までに」を探す`,
+      quiz: {
+        question: '朝礼で「全員参加の研修があります」と言いました。夜勤明けのスタッフはどうすべきですか？',
+        options: [
+          { id: 'a', text: '「全員」とあるので参加しなければならない' },
+          { id: 'b', text: '夜勤明けなので参加しなくていい' },
+          { id: 'c', text: '確認してから判断する' },
+          { id: 'd', text: '誰かに代わってもらう' },
+        ],
+        correctId: 'a',
+        explanation: '「全員参加（ぜんいんさんか）」= tất cả phải tham gia。例外の記載がなければ夜勤明けも含む全員が対象。ただし実際は例外がある場合は確認する。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-14': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L14: N4模擬試験①〜短文問題〜',
+      titleTranslation: 'Luyện nghe N4 Bài 14: Thi thử N4①〜Câu hỏi đoạn ngắn〜',
+      introduction: `実際のN4聴解試験に近い形式で練習します。短いスクリプトを読んで設問に答える練習です。本番では音声を聞きますが、ここでは文字スクリプトで問題形式・設問パターンに慣れましょう。時間を意識しながら取り組んでください。
+
+Luyện tập theo hình thức gần với bài thi nghe N4 thực tế. Đây là bài luyện đọc kịch bản ngắn và trả lời câu hỏi. Trong thi thật nghe bằng âm thanh nhưng ở đây làm quen với dạng câu hỏi bằng kịch bản văn bản. Hãy lưu ý thời gian.`,
+      keyPoints: [
+        '短文問題の特徴：15〜30秒のスクリプト・1問の設問',
+        '状況理解：「どんな場面か」を最初に判断',
+        '設問を先に読む：何を聞かれているか確認してからスクリプトを聞く',
+        '選択肢の落とし穴：本文にある言葉を使った「正解に見える誤答」に注意',
+        '時間管理：1問約1分半を目安に',
+        '消去法：明らかに違うものを消してから選ぶ',
+      ],
+      vocabulary: [
+        { word: '模擬試験', reading: 'もぎしけん', meaning: '練習のための試験（thi thử）', example: '模擬試験で練習する' },
+        { word: '設問', reading: 'せつもん', meaning: '問題・質問（câu hỏi）', example: '設問を先に読む' },
+        { word: '選択肢', reading: 'せんたくし', meaning: 'a・b・c・dの選択（đáp án lựa chọn）', example: '選択肢を消去法で絞る' },
+        { word: '消去法', reading: 'しょうきょほう', meaning: '違うものを消す方法（loại trừ）', example: '消去法で答える' },
+        { word: 'ひっかけ', reading: 'ひっかけ', meaning: 'わざと間違えさせる問題（bẫy）', example: 'ひっかけに注意' },
+      ],
+      examples: [
+        { japanese: '【問題1】スクリプト：「田中さん、今日の午後の入浴なんですが、体温が37.5℃あるので中止にしました。夜になっても熱が下がらなければ、主任に連絡してください。」設問：スタッフは次に何をすべきですか？A.今すぐ主任に連絡する　B.夜まで様子を見て、熱が続けば主任に連絡する　C.入浴を再開する　D.医師を呼ぶ', reading: '【もんだい1】すくりぷと：「たなかさん、きょうのごごのにゅうよくなんですが、たいおんが37.5℃あるのでちゅうしにしました。よるになっても、ねつがさがらなければ、しゅにんにれんらくしてください。」せつもん：すたっふはつぎになにをすべきですか？A.いますぐしゅにんにれんらくする　B.よるまでようすをみて、ねつがつづけばしゅにんにれんらくする　C.にゅうよくをさいかいする　D.いしをよぶ', translation: '【Câu 1】Kịch bản: "Bác Tanaka, về tắm chiều nay, vì nhiệt độ 37.5℃ nên đã hủy. Nếu đến tối mà nhiệt độ vẫn không giảm, hãy liên lạc trưởng nhóm." Câu hỏi: Nhân viên tiếp theo nên làm gì? → Đáp án B' },
+        { japanese: '【問題2】スクリプト：「明日の朝9時から避難訓練があります。全員参加ですが、入居者の対応で離れられない場合は、事前に主任まで報告してください。」設問：避難訓練に参加できない人はどうすればいいですか？A.参加しなくていい　B.黙って欠席する　C.事前に主任に報告する　D.別の日に参加する', reading: '【もんだい2】すくりぷと：「あしたのあさくじからひなんくんれんがあります。ぜんいんさんかですが、にゅうきょしゃのたいおうでなんばなれられないばあいは、じぜんにしゅにんまでほうこくしてください。」せつもん：ひなんくんれんにさんかできないひとはどうすればいいですか？A.さんかしなくていい　B.だまってけっせきする　C.じぜんにしゅにんにほうこくする　D.べつのひにさんかする', translation: '【Câu 2】→ Đáp án C: Báo cáo trưởng nhóm trước' },
+      ],
+      grammarNote: `【N4聴解 短文問題の解き方】
+
+STEP 1：設問と選択肢を先に読む（10秒）
+STEP 2：スクリプトを読む・聞く（30秒）
+STEP 3：明らかに違う選択肢を消す（消去法）
+STEP 4：残った選択肢で本文に根拠を確認
+STEP 5：答えを選ぶ（1問約1分半）
+
+【よくある間違い】
+×スクリプトにある言葉を使った「ひっかけ」を選ぶ
+×スクリプトを全部聞く前に答えを決める
+×記憶だけで答える（本文に戻らない）
+×「そうかもしれない」という推測で答える`,
+      quiz: {
+        question: '「夜になっても熱が下がらなければ主任に連絡してください」とあります。今（夕方）すべきことは？',
+        options: [
+          { id: 'a', text: '今すぐ主任に連絡する' },
+          { id: 'b', text: '夜まで様子を見て、熱が続けば主任に連絡する' },
+          { id: 'c', text: '入浴を再開する' },
+          { id: 'd', text: '医師を呼ぶ' },
+        ],
+        correctId: 'b',
+        explanation: '「〜なければ〜してください」= "nếu〜 thì〜"。今すぐではなく、夜になっても熱が続く場合に連絡する条件付き指示。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-15': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L15: N4模擬試験②〜長文問題〜',
+      titleTranslation: 'Luyện nghe N4 Bài 15: Thi thử N4②〜Câu hỏi đoạn dài〜',
+      introduction: `N4聴解の長文問題（2〜3分）を模擬試験形式で練習します。「問題を複数含む長い会話」から複数の設問に答えるトレーニングです。話の流れ全体を追いながら、各設問のポイントを押さえる力を養います。
+
+Luyện tập câu hỏi đoạn dài (2-3 phút) của N4 theo hình thức thi thử. Đây là bài tập trả lời nhiều câu hỏi từ "hội thoại dài chứa nhiều vấn đề". Trau dồi khả năng theo dõi toàn bộ diễn biến câu chuyện trong khi nắm bắt điểm chính của từng câu hỏi.`,
+      keyPoints: [
+        '長文問題は複数の設問（2〜3問）がセット',
+        '最初に全ての設問を読んで何を聞かれているか把握',
+        '話の流れ：問題→提案→議論→結論の流れを追う',
+        '「最終的にどうなったか」が設問の核心になることが多い',
+        '途中で迷わない：わからなくても次に進む',
+        '数字・固有名詞・時刻は必ずメモ',
+      ],
+      vocabulary: [
+        { word: '長文問題', reading: 'ちょうぶんもんだい', meaning: '長いテキストの問題（câu hỏi đoạn dài）', example: '長文問題に挑戦する' },
+        { word: '複数', reading: 'ふくすう', meaning: '2つ以上（nhiều）', example: '複数の設問' },
+        { word: '核心', reading: 'かくしん', meaning: '一番大切な部分（cốt lõi）', example: '問題の核心を把握する' },
+        { word: '流れ', reading: 'ながれ', meaning: '順番・プロセス（diễn biến）', example: '話の流れを追う' },
+        { word: '把握', reading: 'はあく', meaning: '理解・つかむこと（nắm bắt）', example: '状況を把握する' },
+      ],
+      examples: [
+        { japanese: `【長文模擬スクリプト（3分）】
+主任「来月のシフトなんですが、グエンさんとリンさんに相談があります。今月は夜勤が多くて大変だったと思いますが、来月はどうしたいですか？」
+グエン「できれば夜勤は月4回くらいにしていただけると助かります。」
+リン「私も同じです。今月は6回だったので、少し体がきつかったです。」
+主任「わかりました。ではお二人とも来月は4回にします。ただし、急に欠勤が出た場合は協力をお願いすることがあるかもしれません。それはよろしいですか？」
+グエン「はい、緊急の場合は協力します。」
+リン「私も大丈夫です。」
+主任「ありがとうございます。では来月のシフトはそのように作成します。」
+
+【設問1】グエンさんとリンさんの来月の夜勤は何回ですか？
+【設問2】主任が条件として言ったことは何ですか？`, reading: `【ちょうぶんもぎすくりぷと（3ぷん）】
+しゅにん「らいげつのしふとなんですが、ぐえんさんとりんさんにそうだんがあります。こんげつはやきんがおおくてたいへんだったとおもいますが、らいげつはどうしたいですか？」
+ぐえん「できればやきんはつきよんかいくらいにしていただけるとたすかります。」
+りん「わたしもおなじです。こんげつはろくかいだったので、すこしからだがきつかったです。」
+しゅにん「わかりました。ではおふたりともらいげつはよんかいにします。ただし、きゅうにけっきんがでたばあいはきょうりょくをおねがいすることがあるかもしれません。それはよろしいですか？」
+ぐえん「はい、きんきゅうのばあいはきょうりょくします。」
+りん「わたしもだいじょうぶです。」
+しゅにん「ありがとうございます。ではらいげつのしふとはそのようにさくせいします。」`, translation: `【Kịch bản dài 3 phút】
+Trưởng nhóm hỏi Nguyễn và Linh về ca đêm tháng sau. Cả hai xin giảm xuống 4 ca. Trưởng nhóm đồng ý với điều kiện hỗ trợ khi có người vắng đột xuất.
+Đáp án 1: 4 lần　Đáp án 2: Hỗ trợ khi có người vắng đột xuất` },
+      ],
+      grammarNote: `【長文聴解の戦略まとめ】
+
+事前準備（スクリプトを聞く前）：
+①全ての設問を読む
+②「何を聞かれているか」の核心を把握
+③キーワードを確認
+
+聴取中：
+①会話の構造（問題→議論→結論）を追う
+②数字・名前・時刻をメモ
+③「では〜にしましょう」「ただし〜」に注意
+
+解答時：
+①設問に戻って本文に根拠を確認
+②「正解に見えるひっかけ」を排除
+③迷ったら消去法で絞る`,
+      quiz: {
+        question: 'N4長文聴解問題を聞く前に最初にすべきことは何ですか？',
+        options: [
+          { id: 'a', text: 'すぐに音声を聞き始める' },
+          { id: 'b', text: '全ての設問と選択肢を先に読んでおく' },
+          { id: 'c', text: 'メモ用紙を準備する' },
+          { id: 'd', text: '難しい単語を調べる' },
+        ],
+        correctId: 'b',
+        explanation: '設問を先に読むことで「何を聞き取るべきか」が明確になり、集中して情報を拾える。長文問題では特に重要な戦略。',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-04-16': {
+    courseTitle: { ja: 'N4 聴解トレーニング', vi: 'Luyện nghe N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4聴解L16: 総復習テスト',
+      titleTranslation: 'Luyện nghe N4 Bài 16: Kiểm tra tổng hợp',
+      introduction: `N4聴解コース全16レッスンの総まとめです。数字・指示・報告・申し送り・電話・体調・アナウンス・省略形・感情・長文まで、全範囲から5問の総復習テストに挑戦しましょう！
+
+Tổng kết toàn bộ 16 bài của khóa học Luyện nghe N4. Hãy thử sức với bài kiểm tra tổng hợp 5 câu hỏi từ toàn bộ phạm vi: số liệu, chỉ thị, báo cáo, bàn giao ca, điện thoại, sức khỏe, thông báo, rút gọn, cảm xúc, đoạn dài!`,
+      keyPoints: [
+        '【L2】数字の聞き取り：復唱確認・なな（7）とよん（4）',
+        '【L3-5】指示・申し送り：メモ・復唱・優先順位',
+        '【L6-7】電話・体調：用件確認・緊急サイン',
+        '【L8-9】アナウンス・質問：変更の把握・誰が何をするか',
+        '【L10-11】省略形・感情：口語表現・遠慮・不満',
+        '【L12-15】長文・模擬：最終決定・設問先読み戦略',
+      ],
+      vocabulary: [
+        { word: '総復習', reading: 'そうふくしゅう', meaning: '全範囲の復習（ôn tập tổng hợp）', example: '全レッスンの総復習' },
+        { word: '聴解', reading: 'ちょうかい', meaning: '聞いて理解すること（nghe hiểu）', example: 'N4の聴解力を鍛える' },
+        { word: '復唱', reading: 'ふくしょう', meaning: '聞いた内容を繰り返す（nhắc lại）', example: '必ず復唱確認する' },
+        { word: '消去法', reading: 'しょうきょほう', meaning: '違うものを消す方法（loại trừ）', example: '消去法で正解を絞る' },
+        { word: '緊急サイン', reading: 'きんきゅうさいん', meaning: '急いで対応が必要なキーワード（dấu hiệu khẩn）', example: '「急に・突然」は緊急サイン' },
+      ],
+      examples: [
+        { japanese: '【総まとめ：聴解の鉄則】①設問を先に読む ②数字・名前・時刻はメモ ③「急に・突然」は緊急サイン ④「では〜にしましょう」は最終決定 ⑤省略形・口語表現に慣れる ⑥不明は遠慮なく聞き直す', reading: '【そうまとめ：ちょうかいのてっそく】①せつもんをさきによむ ②すうじ・なまえ・じこくはめも ③「きゅうに・とつぜん」はきんきゅうさいん ④「では〜にしましょう」はさいしゅうけってい ⑤しょうりゃくけい・こうごひょうげんになれる ⑥ふめいはえんりょなくききなおす', translation: '【Tổng kết: Nguyên tắc vàng nghe hiểu】①Đọc câu hỏi trước ②Ghi số/tên/giờ ③"急に・突然" là dấu hiệu khẩn ④"では〜にしましょう" là quyết định cuối ⑤Làm quen rút gọn ⑥Không hiểu hỏi lại ngay' },
+      ],
+      grammarNote: `【N4聴解 全レッスンまとめ】
+L1：職場の会話・省略形基礎
+L2：数字・時間・日付の聞き取り
+L3：指示・依頼を聞き取る
+L4：バイタル・状態変化の報告
+L5：申し送りを聞き取る
+L6：電話の会話
+L7：体調・症状の会話
+L8：施設内アナウンス
+L9：質問・確認の会話
+L10：自然な話し方・省略形
+L11：感情・態度の聞き取り
+L12：長い会話から要点を聞く
+L13：会議・ミーティング
+L14：模擬試験①短文
+L15：模擬試験②長文
+L16：総復習テスト`,
+      quizzes: [
+        {
+          question: '「体温が37.8、血圧が145の92です」を記録するとき、まずすべきことは？',
+          options: [
+            { id: 'a', text: 'すぐに記録する' },
+            { id: 'b', text: '数値を復唱確認してから記録する' },
+            { id: 'c', text: '上司に報告する' },
+            { id: 'd', text: '何もしない' },
+          ],
+          correctId: 'b',
+          explanation: '数値は必ず復唱確認してから記録する。「37.8、145の92ですね」と確認後に記録。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「準備しとくね」の正式な表現は？',
+          options: [
+            { id: 'a', text: '準備してしまうね' },
+            { id: 'b', text: '準備しておくね' },
+            { id: 'c', text: '準備してみるね' },
+            { id: 'd', text: '準備してくるね' },
+          ],
+          correctId: 'b',
+          explanation: '「しとく」=「しておく」の口語省略形。事前にやっておくの意味。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '申し送りで「至急」と書かれている項目は、いつ確認しますか？',
+          options: [
+            { id: 'a', text: '最後に確認する' },
+            { id: 'b', text: '時間があれば確認する' },
+            { id: 'c', text: '最初に最優先で確認する' },
+            { id: 'd', text: '翌日確認する' },
+          ],
+          correctId: 'c',
+          explanation: '「至急（しきゅう）」= khẩn cấp。申し送りの「至急」項目は最優先で確認・対応する。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '利用者が「ちょっと…ナースコール押すの申し訳なくて…」と言っています。この人の気持ちは？',
+          options: [
+            { id: 'a', text: '怒っている' },
+            { id: 'b', text: '全く問題ない' },
+            { id: 'c', text: 'スタッフに遠慮して困っている' },
+            { id: 'd', text: '早く帰りたい' },
+          ],
+          correctId: 'c',
+          explanation: '「申し訳なくて（もうしわけなくて）」「ちょっと…」のためらい表現から、遠慮している気持ちが読み取れる。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「では来月の夜勤は4回にしましょう。ただし急な欠勤の際はご協力を」とありました。決まったことは？',
+          options: [
+            { id: 'a', text: '夜勤は今月と変わらない' },
+            { id: 'b', text: '夜勤は4回、緊急時は協力する' },
+            { id: 'c', text: '夜勤は0回' },
+            { id: 'd', text: '欠勤は禁止' },
+          ],
+          correctId: 'b',
+          explanation: '「では〜にしましょう」= quyết định。夜勤4回に決定。「ただし〜」= điều kiện。緊急時の協力が条件。',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
   // ===== N4 漢字 =====
   'n4-05': {
     courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
@@ -10253,6 +11236,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n4-01': ['n4-01', 'n4-01-2', 'n4-01-3', 'n4-01-4', 'n4-01-5', 'n4-01-6', 'n4-01-7', 'n4-01-8', 'n4-01-9', 'n4-01-10', 'n4-01-11', 'n4-01-12', 'n4-01-13', 'n4-01-14', 'n4-01-15', 'n4-01-16', 'n4-01-17', 'n4-01-18', 'n4-01-19', 'n4-01-20'],
   'n4-03': ['n4-03', 'n4-03-2', 'n4-03-3', 'n4-03-4', 'n4-03-5', 'n4-03-6', 'n4-03-7', 'n4-03-8', 'n4-03-9', 'n4-03-10', 'n4-03-11', 'n4-03-12', 'n4-03-13', 'n4-03-14', 'n4-03-15', 'n4-03-16', 'n4-03-17', 'n4-03-18'],
   'n4-02': ['n4-02', 'n4-02-2', 'n4-02-3', 'n4-02-4', 'n4-02-5', 'n4-02-6', 'n4-02-7', 'n4-02-8', 'n4-02-9', 'n4-02-10', 'n4-02-11', 'n4-02-12', 'n4-02-13', 'n4-02-14', 'n4-02-15', 'n4-02-16', 'n4-02-17', 'n4-02-18', 'n4-02-19', 'n4-02-20', 'n4-02-21', 'n4-02-22', 'n4-02-23', 'n4-02-24', 'n4-02-25'],
+  'n4-04': ['n4-04', 'n4-04-2', 'n4-04-3', 'n4-04-4', 'n4-04-5', 'n4-04-6', 'n4-04-7', 'n4-04-8', 'n4-04-9', 'n4-04-10', 'n4-04-11', 'n4-04-12', 'n4-04-13', 'n4-04-14', 'n4-04-15', 'n4-04-16'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -10349,6 +11333,22 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n4-03-16': { ja: '対比・比較の文章', vi: 'Đối chiếu & So sánh' },
   'n4-03-17': { ja: '速読トレーニング', vi: 'Luyện đọc nhanh' },
   'n4-03-18': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
+  'n4-04':    { ja: '職場の会話・省略形', vi: 'Hội thoại nơi làm việc' },
+  'n4-04-2':  { ja: '数字・時間の聞き取り', vi: 'Nghe số và giờ' },
+  'n4-04-3':  { ja: '指示・依頼を聞く', vi: 'Nghe chỉ thị & Yêu cầu' },
+  'n4-04-4':  { ja: 'バイタル報告を聞く', vi: 'Nghe báo cáo sinh tồn' },
+  'n4-04-5':  { ja: '申し送りを聞く', vi: 'Nghe bàn giao ca' },
+  'n4-04-6':  { ja: '電話の会話', vi: 'Hội thoại điện thoại' },
+  'n4-04-7':  { ja: '体調・症状の会話', vi: 'Hội thoại sức khỏe' },
+  'n4-04-8':  { ja: '施設内アナウンス', vi: 'Thông báo trong cơ sở' },
+  'n4-04-9':  { ja: '質問・確認の会話', vi: 'Hỏi và xác nhận' },
+  'n4-04-10': { ja: '自然な話し方・省略形', vi: 'Nói tự nhiên & Rút gọn' },
+  'n4-04-11': { ja: '感情・態度の聞き取り', vi: 'Cảm xúc & Thái độ' },
+  'n4-04-12': { ja: '長い会話から要点を聞く', vi: 'Nghe điểm chính văn dài' },
+  'n4-04-13': { ja: '会議・ミーティング', vi: 'Họp & Meeting' },
+  'n4-04-14': { ja: '模擬試験①短文問題', vi: 'Thi thử① Đoạn ngắn' },
+  'n4-04-15': { ja: '模擬試験②長文問題', vi: 'Thi thử② Đoạn dài' },
+  'n4-04-16': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
   'n4-02':    { ja: '〜てしまう / 〜ちゃう', vi: '〜てしまう / 〜ちゃう' },
   'n4-02-2':  { ja: '〜ておく（事前準備）', vi: '〜ておく (chuẩn bị trước)' },
   'n4-02-3':  { ja: '〜てある（結果状態）', vi: '〜てある (trạng thái kết quả)' },
