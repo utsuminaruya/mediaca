@@ -24,7 +24,11 @@
   --line: rgba(10,27,61,0.10);
   --line-strong: rgba(10,27,61,0.18);
 
-  --font-jp: 'Zen Kaku Gothic New', 'Noto Sans JP', system-ui, sans-serif;
+  /* Be Vietnam Pro を最終フォールバックに追加:
+     /ja/ ロケールでもベトナム語ダイアクリティカルマーク文字を
+     正しく描画できるようにする（システムフォントへの不本意な
+     フォールバックを防ぐ）*/
+  --font-jp: 'Zen Kaku Gothic New', 'Noto Sans JP', 'Be Vietnam Pro', system-ui, sans-serif;
   --font-jp-serif: 'Noto Serif JP', serif;
   --font-vn: 'Be Vietnam Pro', sans-serif;
   --font-en-serif: 'Instrument Serif', serif;
@@ -56,21 +60,46 @@ body {
 }
 
 /* ── ベトナム語フォント統一 ─────────────────────────────────────
-   Be Vietnam Pro の font-weight は必ず明示指定する。
-   指定なしだと各ブラウザが異なるウェイトをフォールバックするため
-   太太になったり細細になったりする問題が起きる。
-   data-locale="vi" 配下の全テキストに一括適用する。            */
+   【修正内容】
+   1. /ja/ ロケールでのベトナム語テキスト（訳・サブタイトル等）:
+      --font-jp に 'Be Vietnam Pro' を追加したことで、
+      日本語フォントがカバーしない Vietnamese diacritics も
+      Be Vietnam Pro で描画される（システムフォールバック解消）
+   2. /vi/ ロケール全体:
+      - font-family / font-synthesis は @layer 外（最高優先度）で設定
+      - font-weight の基準値は @layer base で設定することで
+        Tailwind の font-bold / font-semibold 等のユーティリティに
+        上書きを許可しつつ、プレーンテキストは 500 で統一
+        （400 が細すぎて読みづらい問題を解消）           */
+
+/* ユーティリティクラス: .vn または [data-font="vn"] 属性で
+   任意の要素に Be Vietnam Pro を適用できる（ロケール問わず）*/
 .vn, [data-font="vn"] {
   font-family: 'Be Vietnam Pro', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-synthesis: none;
+  font-optical-sizing: auto;
 }
 
-/* vi ロケール全体に Be Vietnam Pro を適用 */
+/* font-family と font-synthesis: @layer 外で最高優先度を確保
+   → Tailwind が誤って別フォントを上書きするのを防ぐ */
 [data-locale="vi"],
 [data-locale="vi"] * {
   font-family: 'Be Vietnam Pro', sans-serif;
   font-synthesis: none;
+  font-optical-sizing: auto;
+}
+
+/* font-weight 基準値: @layer base に置くことで
+   Tailwind @layer utilities（font-bold 等）に上書きを許可する。
+   [data-locale="vi"] コンテナに 500 を設定 → 子要素は継承で 500。
+   font-bold / font-semibold クラスのある要素は Tailwind が
+   ユーティリティ層で上書き → 意図した太さで表示される。 */
+@layer base {
+  [data-locale="vi"] {
+    font-weight: 500;
+    line-height: 1.75;
+  }
 }
 
 @theme {
