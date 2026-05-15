@@ -8211,6 +8211,792 @@ Học nhóm Kanji N4 dùng nhiều nhất trong y tế và điều dưỡng. 薬
     },
   },
 
+  'n4-05-2': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字②: 体・頭・手・足・口',
+      titleTranslation: 'Kanji N4②: Nhóm chữ Hán bộ phận cơ thể',
+      introduction: `身体の部位を表す漢字グループです。介護現場では毎日使う必須の漢字です。「頭が痛い・手を洗う・足のむくみ・口腔ケア」など、報告や日常会話で頻繁に登場します。
+
+Nhóm Kanji chỉ bộ phận cơ thể. Trong điều dưỡng, đây là những chữ dùng hàng ngày. 頭が痛い, 手を洗う, 足のむくみ, 口腔ケア... xuất hiện thường xuyên trong báo cáo và hội thoại.`,
+      keyPoints: [
+        '体（からだ・たい）: 体温・体重・身体・全体',
+        '頭（あたま・とう/ず）: 頭痛・頭部・洗頭',
+        '手（て・しゅ）: 手洗い・手術・助手・握手',
+        '足（あし・そく）: 足元・足浴・歩行・不足',
+        '口（くち・こう）: 口腔・口臭・開口・入口',
+      ],
+      vocabulary: [
+        { word: '体温', reading: 'たいおん', meaning: '体の温度（thân nhiệt）', example: '体温を測る' },
+        { word: '頭痛', reading: 'ずつう', meaning: '頭が痛い（đau đầu）', example: '頭痛を訴えている' },
+        { word: '手洗い', reading: 'てあらい', meaning: '手を洗うこと（rửa tay）', example: '食事前に手洗いをする' },
+        { word: '足浴', reading: 'そくよく', meaning: '足を湯につける（ngâm chân）', example: '足浴でリラックスする' },
+        { word: '口腔ケア', reading: 'こうくうケア', meaning: '口の中の清潔（chăm sóc khoang miệng）', example: '食後に口腔ケアを行う' },
+        { word: '体重', reading: 'たいじゅう', meaning: '体の重さ（cân nặng）', example: '体重が減少している' },
+      ],
+      examples: [
+        { japanese: '体温は36.5度で、頭痛の訴えがありました。', reading: 'たいおんは36.5どで、ずつうのうったえがありました。', translation: 'Thân nhiệt 36.5 độ, có phàn nàn về đau đầu.' },
+        { japanese: '食事前に手洗いと口腔ケアを忘れずに行います。', reading: 'しょくじまえにてあらいとこうくうケアをわすれずにおこないます。', translation: 'Trước bữa ăn, không quên rửa tay và chăm sóc khoang miệng.' },
+        { japanese: '足のむくみが見られるので、足浴を提案しました。', reading: 'あしのむくみがみられるので、そくよくをていあんしました。', translation: 'Thấy chân bị phù nên đề xuất ngâm chân.' },
+      ],
+      grammarNote: `【体の部位 + する = 動作を表す】
+体温を「測る」、手を「洗う」、足を「浴びる」、口を「ゆすぐ」
+
+動詞とセットで覚えると現場で使いやすい！
+Học kèm động từ sẽ dễ dùng hơn trong thực tế!`,
+      quiz: {
+        question: '「口腔ケア」の読み方は？',
+        options: [
+          { id: 'a', text: 'くちこうケア' },
+          { id: 'b', text: 'こうくうケア' },
+          { id: 'c', text: 'くちくうケア' },
+          { id: 'd', text: 'こうこうケア' },
+        ],
+        correctId: 'b',
+        explanation: '口腔（こうくう）は「口の中」の意味。口腔ケアは口の中の清潔を保つこと。\n口腔（こうくう）có nghĩa là "trong miệng". Phát âm: こうくう.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-3': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字③: 心・気・力・動・静',
+      titleTranslation: 'Kanji N4③: Nhóm chữ Hán trạng thái và cảm xúc',
+      introduction: `状態・感情・動作を表す重要な漢字グループです。利用者の精神状態や身体状態を記録・報告する際に必須です。「気分・活動・安静・心拍」など、ケア記録でよく使います。
+
+Nhóm Kanji quan trọng chỉ trạng thái, cảm xúc và hành động. Cần thiết khi ghi chép, báo cáo tình trạng tinh thần và thể chất của người được chăm sóc. 気分・活動・安静・心拍 thường xuất hiện trong hồ sơ chăm sóc.`,
+      keyPoints: [
+        '心（こころ・しん）: 心拍・安心・心配・心身',
+        '気（き・げ）: 気分・元気・気持ち・気力',
+        '力（ちから・りょく）: 筋力・体力・活力・努力',
+        '動（うごく・どう）: 活動・運動・動作・移動',
+        '静（しずか・せい）: 安静・静脈・沈静・静養',
+      ],
+      vocabulary: [
+        { word: '心拍', reading: 'しんぱく', meaning: '心臓の拍動（nhịp tim）', example: '心拍数を測定する' },
+        { word: '気分', reading: 'きぶん', meaning: '体や心の状態（tâm trạng）', example: '気分が悪いと訴える' },
+        { word: '筋力', reading: 'きんりょく', meaning: '筋肉の力（sức mạnh cơ bắp）', example: '筋力が低下している' },
+        { word: '活動', reading: 'かつどう', meaning: '体を動かすこと（hoạt động）', example: '日中の活動量を増やす' },
+        { word: '安静', reading: 'あんせい', meaning: '動かずに休む（nghỉ ngơi tĩnh dưỡng）', example: '安静にするよう伝える' },
+        { word: '移動', reading: 'いどう', meaning: '場所を移ること（di chuyển）', example: '車椅子で移動する' },
+      ],
+      examples: [
+        { japanese: '朝から気分が悪く、活動をお断りになりました。', reading: 'あさからきぶんがわるく、かつどうをおことわりになりました。', translation: 'Từ sáng sức khỏe không tốt, từ chối tham gia hoạt động.' },
+        { japanese: '心拍数は82で安定しており、安静を保っています。', reading: 'しんぱくすうは82であんていしており、あんせいをたもっています。', translation: 'Nhịp tim 82 ổn định, đang nghỉ ngơi tĩnh dưỡng.' },
+        { japanese: '筋力低下を防ぐため、毎日軽い運動を行います。', reading: 'きんりょくていかをふせぐため、まいにちかるいうんどうをおこないます。', translation: 'Để phòng suy giảm cơ, thực hiện vận động nhẹ hàng ngày.' },
+      ],
+      grammarNote: `【状態変化を表す表現】
+〜が低下する（giảm）/ 〜が上昇する（tăng）/ 〜が改善する（cải thiện）
+
+例: 筋力が低下する・血圧が上昇する・気分が改善する
+記録文に欠かせない表現です！`,
+      quiz: {
+        question: '「安静」の意味は？',
+        options: [
+          { id: 'a', text: '活発に動くこと' },
+          { id: 'b', text: '静かに休んで動かないこと' },
+          { id: 'c', text: '気持ちが安定すること' },
+          { id: 'd', text: '静かな環境にいること' },
+        ],
+        correctId: 'b',
+        explanation: '安静（あんせい）は「動かずに静かに休む」こと。医師から「安静にしてください」と指示される。\n安静 nghĩa là "nghỉ yên, không vận động".',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-4': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字④: 食・飲・水・栄・養',
+      titleTranslation: 'Kanji N4④: Nhóm chữ Hán ăn uống và dinh dưỡng',
+      introduction: `食事・栄養・水分に関する漢字グループです。介護現場では、利用者の食事介助・水分補給・栄養管理が重要な業務です。「食欲・飲水量・栄養状態」などの記録表現を覚えましょう。
+
+Nhóm Kanji liên quan đến ăn uống, dinh dưỡng và nước. Trong điều dưỡng, hỗ trợ ăn uống, bổ sung nước và quản lý dinh dưỡng là công việc quan trọng. Hãy học các cách ghi chép 食欲・飲水量・栄養状態.`,
+      keyPoints: [
+        '食（たべる・しょく）: 食事・食欲・食後・絶食',
+        '飲（のむ・いん）: 飲食・飲水・飲薬・服飲',
+        '水（みず・すい）: 水分・飲水・水分補給',
+        '栄（さかえる・えい）: 栄養・栄養士・栄養状態',
+        '養（やしなう・よう）: 栄養・療養・養護・保養',
+      ],
+      vocabulary: [
+        { word: '食欲', reading: 'しょくよく', meaning: '食べたい気持ち（cảm giác muốn ăn）', example: '食欲がない様子です' },
+        { word: '飲水量', reading: 'いんすいりょう', meaning: '飲んだ水の量（lượng nước uống）', example: '飲水量が少ない' },
+        { word: '栄養状態', reading: 'えいようじょうたい', meaning: '栄養の具合（tình trạng dinh dưỡng）', example: '栄養状態を改善する' },
+        { word: '絶食', reading: 'ぜっしょく', meaning: '食事をしないこと（nhịn ăn）', example: '手術前は絶食です' },
+        { word: '水分補給', reading: 'すいぶんほきゅう', meaning: '水分を補う（bổ sung nước）', example: 'こまめに水分補給をする' },
+        { word: '食後', reading: 'しょくご', meaning: '食事の後（sau bữa ăn）', example: '食後に薬を飲む' },
+      ],
+      examples: [
+        { japanese: '昼食は全量摂取できました。食欲は良好です。', reading: 'ちゅうしょくはぜんりょうせっしゅできました。しょくよくはりょうこうです。', translation: 'Bữa trưa ăn hết toàn bộ. Cảm giác ăn uống tốt.' },
+        { japanese: '飲水量が少ないため、水分補給を促しました。', reading: 'いんすいりょうがすくないため、すいぶんほきゅうをうながしました。', translation: 'Do lượng nước uống ít nên đã nhắc nhở bổ sung nước.' },
+        { japanese: '手術のため、今夜0時から絶食です。', reading: 'しゅじゅつのため、こんやぜろじからぜっしょくです。', translation: 'Do phẫu thuật, nhịn ăn từ 0 giờ tối nay.' },
+      ],
+      grammarNote: `【食事関連の数量表現】
+全量（ぜんりょう）= 全部（toàn bộ）
+半量（はんりょう）= 半分（một nửa）
+少量（しょうりょう）= 少し（ít）
+
+例: 「昼食は半量しか食べられませんでした」
+記録でよく使うパターンです。`,
+      quiz: {
+        question: '「絶食」とはどういう意味ですか？',
+        options: [
+          { id: 'a', text: '少しだけ食べること' },
+          { id: 'b', text: '好きなものを食べること' },
+          { id: 'c', text: '食事をとらないこと' },
+          { id: 'd', text: '流動食を食べること' },
+        ],
+        correctId: 'c',
+        explanation: '絶食（ぜっしょく）は「食事をとらないこと」。手術前や検査前に指示されることが多い。\n絶食 nghĩa là "không ăn gì". Thường được chỉ định trước phẫu thuật hoặc xét nghiệm.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-5': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑤: 時・分・週・月・年',
+      titleTranslation: 'Kanji N4⑤: Nhóm chữ Hán thời gian và lịch trình',
+      introduction: `時間・日程に関する漢字グループです。介護記録では「何時に・何曜日に・何月何日」という日時の記録が基本です。シフトや予定の管理にも必要な漢字です。
+
+Nhóm Kanji về thời gian và lịch trình. Trong hồ sơ điều dưỡng, ghi chép "lúc mấy giờ, ngày mấy tháng mấy" là cơ bản. Cũng cần thiết để quản lý ca làm việc và lịch trình.`,
+      keyPoints: [
+        '時（とき・じ）: 時間・時刻・何時・当時',
+        '分（ふん・ぶん）: 何分・分単位・区分・十分',
+        '週（しゅう）: 今週・来週・週間・毎週',
+        '月（つき・げつ）: 今月・来月・月曜・毎月',
+        '年（とし・ねん）: 今年・来年・年間・昨年',
+      ],
+      vocabulary: [
+        { word: '時刻', reading: 'じこく', meaning: '何時何分という時間（thời điểm cụ thể）', example: '発生時刻を記録する' },
+        { word: '週間', reading: 'しゅうかん', meaning: '1週間の期間（khoảng thời gian một tuần）', example: '2週間後に再評価する' },
+        { word: '来月', reading: 'らいげつ', meaning: '次の月（tháng sau）', example: '来月退院の予定です' },
+        { word: '毎日', reading: 'まいにち', meaning: '日々（mỗi ngày）', example: '毎日体温を測定する' },
+        { word: '定期的', reading: 'ていきてき', meaning: '決まった間隔で（định kỳ）', example: '定期的に状態を確認する' },
+        { word: '年間', reading: 'ねんかん', meaning: '1年の期間（trong một năm）', example: '年間計画を立てる' },
+      ],
+      examples: [
+        { japanese: '発症時刻は午後2時30分ごろでした。', reading: 'はっしょうじこくはごご2じ30ぷんごろでした。', translation: 'Thời điểm phát bệnh là khoảng 14:30.' },
+        { japanese: '毎週月曜日にカンファレンスがあります。', reading: 'まいしゅうげつようびにカンファレンスがあります。', translation: 'Mỗi tuần thứ Hai có hội thảo ca làm việc.' },
+        { japanese: '来月から新しいシフトに変更になります。', reading: 'らいげつからあたらしいシフトにへんこうになります。', translation: 'Từ tháng sau sẽ thay đổi ca làm việc mới.' },
+      ],
+      grammarNote: `【時間の記録パターン】
+〜時〜分に + 動詞 = 「10時30分に服薬しました」
+〜から〜まで = 期間「9時から17時まで勤務」
+〜ごろ = だいたいの時刻「14時ごろ転倒」
+
+正確な時間記録は介護の基本！`,
+      quiz: {
+        question: '「定期的」の意味は？',
+        options: [
+          { id: 'a', text: '毎日同じ時間に' },
+          { id: 'b', text: '一定の間隔を置いて繰り返す' },
+          { id: 'c', text: '週に1回' },
+          { id: 'd', text: '月に1回' },
+        ],
+        correctId: 'b',
+        explanation: '定期的（ていきてき）は「一定の間隔で繰り返す」こと。毎日・毎週・毎月など、間隔は状況による。\n定期的 nghĩa là "lặp đi lặp lại theo chu kỳ nhất định".',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-6': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑥: 人・者・員・師・士',
+      titleTranslation: 'Kanji N4⑥: Nhóm chữ Hán chỉ người và chức danh',
+      introduction: `職場の人々・職種を表す漢字グループです。介護施設では多職種が連携して働きます。「介護福祉士・看護師・医師・管理者・利用者」など、職種や役職を正確に書けることが重要です。
+
+Nhóm Kanji chỉ người và chức danh trong công việc. Tại cơ sở điều dưỡng, nhiều chuyên ngành phối hợp làm việc. Quan trọng là viết đúng tên chức danh như 介護福祉士・看護師・医師・管理者・利用者.`,
+      keyPoints: [
+        '人（ひと・じん・にん）: 人員・老人・個人・本人',
+        '者（もの・しゃ）: 利用者・患者・高齢者・介護者',
+        '員（いん）: 職員・看護員・施設員・全員',
+        '師（し）: 看護師・医師・薬剤師・栄養士',
+        '士（し）: 介護福祉士・理学療法士・栄養士',
+      ],
+      vocabulary: [
+        { word: '利用者', reading: 'りようしゃ', meaning: 'サービスを受ける人（người sử dụng dịch vụ）', example: '利用者さんのご家族に連絡する' },
+        { word: '職員', reading: 'しょくいん', meaning: '施設で働く人（nhân viên）', example: '職員全員が参加する' },
+        { word: '看護師', reading: 'かんごし', meaning: '医療ケアを行う専門職（y tá）', example: '看護師に相談する' },
+        { word: '介護福祉士', reading: 'かいごふくしし', meaning: '介護の国家資格（hộ lý có bằng cấp quốc gia）', example: '介護福祉士の資格を取得した' },
+        { word: '高齢者', reading: 'こうれいしゃ', meaning: '年齢の高い人（người cao tuổi）', example: '高齢者施設で働く' },
+        { word: '担当者', reading: 'たんとうしゃ', meaning: '担当する人（người phụ trách）', example: '担当者に引き継ぐ' },
+      ],
+      examples: [
+        { japanese: '利用者さんの状態変化を看護師に報告しました。', reading: 'りようしゃさんのじょうたいへんかをかんごしにほうこくしました。', translation: 'Đã báo cáo sự thay đổi tình trạng của người dùng cho y tá.' },
+        { japanese: '職員全員で申し送りを確認します。', reading: 'しょくいんぜんいんでもうしおくりをかくにんします。', translation: 'Toàn bộ nhân viên xác nhận bàn giao ca.' },
+        { japanese: '介護福祉士の先輩に相談しました。', reading: 'かいごふくしし のせんぱいにそうだんしました。', translation: 'Đã tham khảo ý kiến của đàn anh/chị hộ lý phúc lợi xã hội.' },
+      ],
+      grammarNote: `【人を表す接尾語まとめ】
+〜者（しゃ）: 利用者・患者・高齢者・担当者
+〜師（し）: 看護師・医師・薬剤師（専門資格）
+〜士（し）: 介護福祉士・理学療法士（国家資格）
+〜員（いん）: 職員・委員・係員（所属・役割）
+
+施設内の人を正確に表現できるようにしよう！`,
+      quiz: {
+        question: '「利用者」の読み方は？',
+        options: [
+          { id: 'a', text: 'りゆうしゃ' },
+          { id: 'b', text: 'りようしゃ' },
+          { id: 'c', text: 'りようじゃ' },
+          { id: 'd', text: 'りゅうしゃ' },
+        ],
+        correctId: 'b',
+        explanation: '利用者（りようしゃ）。「利用」は「使うこと」、「者」は「人」。サービスを使う人のこと。\n利用者 = người sử dụng dịch vụ. Đọc là りようしゃ.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-7': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑦: 書・読・記・録・報',
+      titleTranslation: 'Kanji N4⑦: Nhóm chữ Hán ghi chép và báo cáo',
+      introduction: `介護記録・報告に関わる最重要漢字グループです。毎日の業務で「記録を書く・報告する・申し送りを読む」などに使います。この5字をマスターすれば記録業務が格段に楽になります。
+
+Nhóm Kanji quan trọng nhất liên quan đến ghi chép và báo cáo điều dưỡng. Hàng ngày dùng trong "viết hồ sơ, báo cáo, đọc bàn giao ca". Thành thạo 5 chữ này, công việc ghi chép sẽ dễ hơn rất nhiều.`,
+      keyPoints: [
+        '書（かく・しょ）: 記録を書く・書類・文書',
+        '読（よむ・どく）: 申し送りを読む・読解・黙読',
+        '記（きろく・き）: 記録・記入・日記・記念',
+        '録（ろく）: 記録・録音・目録・記録簿',
+        '報（ほう）: 報告・情報・報道・急報',
+      ],
+      vocabulary: [
+        { word: '記録', reading: 'きろく', meaning: '書き留めること（ghi chép）', example: 'ケア記録を記入する' },
+        { word: '報告', reading: 'ほうこく', meaning: '知らせること（báo cáo）', example: '上司に報告する' },
+        { word: '書類', reading: 'しょるい', meaning: '文書（tài liệu, giấy tờ）', example: '書類に署名する' },
+        { word: '記入', reading: 'きにゅう', meaning: '書き入れること（điền vào）', example: '記録用紙に記入する' },
+        { word: '情報', reading: 'じょうほう', meaning: '知らせ・データ（thông tin）', example: '利用者情報を共有する' },
+        { word: '文書', reading: 'ぶんしょ', meaning: '公式な書類（văn bản chính thức）', example: '文書で保存する' },
+      ],
+      examples: [
+        { japanese: '記録を正確に記入し、上司に報告しました。', reading: 'きろくをせいかくにきにゅうし、じょうしにほうこくしました。', translation: 'Điền hồ sơ chính xác và báo cáo cho cấp trên.' },
+        { japanese: '申し送りを読んで、利用者さんの情報を確認します。', reading: 'もうしおくりをよんで、りようしゃさんのじょうほうをかくにんします。', translation: 'Đọc bàn giao ca và xác nhận thông tin về người được chăm sóc.' },
+        { japanese: '書類はすべてファイルに保管します。', reading: 'しょるいはすべてファイルにほかんします。', translation: 'Tất cả tài liệu được lưu trữ trong hồ sơ.' },
+      ],
+      grammarNote: `【記録に使う動詞パターン】
+記録する / 記入する（điền, ghi）
+報告する（báo cáo）
+確認する（xác nhận）
+共有する（chia sẻ）
+
+例: 「状態変化を記録し、看護師に報告しました。」
+この流れを覚えよう！`,
+      quiz: {
+        question: '「記入」の意味は？',
+        options: [
+          { id: 'a', text: '書いた内容を消すこと' },
+          { id: 'b', text: '所定の欄に書き込むこと' },
+          { id: 'c', text: '記録を読むこと' },
+          { id: 'd', text: '情報を共有すること' },
+        ],
+        correctId: 'b',
+        explanation: '記入（きにゅう）は「決められた欄・フォームに書き込むこと」。記録用紙の空欄を埋めるイメージ。\n記入 = điền vào chỗ trống, ô nhất định.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-8': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑧: 安・全・危・急・緊',
+      titleTranslation: 'Kanji N4⑧: Nhóm chữ Hán an toàn và khẩn cấp',
+      introduction: `安全・危険・緊急に関わる漢字グループです。介護現場での事故防止・緊急対応に不可欠な語彙です。「安全確認・危険防止・緊急連絡・急変対応」など、命に関わる重要な表現を覚えましょう。
+
+Nhóm Kanji liên quan đến an toàn, nguy hiểm và khẩn cấp. Không thể thiếu trong phòng ngừa tai nạn và ứng phó khẩn cấp tại cơ sở điều dưỡng. Học các biểu đạt quan trọng liên quan đến tính mạng như 安全確認・危険防止・緊急連絡・急変対応.`,
+      keyPoints: [
+        '安（やすい・あん）: 安全・安静・安心・安定',
+        '全（ぜん・まったく）: 安全・全体・全員・完全',
+        '危（あぶない・き）: 危険・危機・危篤・危害',
+        '急（いそぐ・きゅう）: 急変・緊急・急性・急病',
+        '緊（きん）: 緊急・緊張・緊迫・緊密',
+      ],
+      vocabulary: [
+        { word: '安全確認', reading: 'あんぜんかくにん', meaning: '安全かどうか確かめること（kiểm tra an toàn）', example: '移動前に安全確認をする' },
+        { word: '危険', reading: 'きけん', meaning: 'あぶないこと（nguy hiểm）', example: '転倒の危険がある' },
+        { word: '急変', reading: 'きゅうへん', meaning: '状態が急に変わること（thay đổi đột ngột）', example: '急変したので救急車を呼んだ' },
+        { word: '緊急連絡', reading: 'きんきゅうれんらく', meaning: '急いで知らせること（liên lạc khẩn cấp）', example: '緊急連絡先に電話した' },
+        { word: '危篤', reading: 'きとく', meaning: '命が危ない状態（tình trạng nguy kịch）', example: '危篤状態になりご家族に連絡した' },
+        { word: '安定', reading: 'あんてい', meaning: '変化なく落ち着いている（ổn định）', example: 'バイタルは安定しています' },
+      ],
+      examples: [
+        { japanese: '移乗の前には必ず安全確認を行います。', reading: 'いじょうのまえにはかならずあんぜんかくにんをおこないます。', translation: 'Trước khi chuyển giường nhất thiết phải kiểm tra an toàn.' },
+        { japanese: '急変したため、すぐに看護師に連絡しました。', reading: 'きゅうへんしたため、すぐにかんごしにれんらくしました。', translation: 'Do thay đổi đột ngột nên lập tức liên lạc y tá.' },
+        { japanese: '転倒の危険があるので、一人にしないでください。', reading: 'てんとうのきけんがあるので、ひとりにしないでください。', translation: 'Vì có nguy cơ ngã nên không để một mình.' },
+      ],
+      grammarNote: `【緊急時の報告フレーズ】
+「〜さんが急変しました。すぐに来てください。」
+「〜さんが転倒しました。意識はあります。」
+「救急車を呼びます。119番します。」
+
+緊急時はシンプルに・大きな声で！
+Khi khẩn cấp: nói đơn giản, to và rõ ràng!`,
+      quiz: {
+        question: '「急変」とはどういう意味ですか？',
+        options: [
+          { id: 'a', text: '少しずつ変わること' },
+          { id: 'b', text: '予定が変わること' },
+          { id: 'c', text: '状態が突然・急に変化すること' },
+          { id: 'd', text: '気分が変わること' },
+        ],
+        correctId: 'c',
+        explanation: '急変（きゅうへん）は「状態が急に・突然変わること」。特に容体が急に悪化する場合に使う。\n急変 = thay đổi đột ngột trạng thái (thường là xấu đi).',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-9': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑨: 家・室・所・場・区',
+      titleTranslation: 'Kanji N4⑨: Nhóm chữ Hán địa điểm và không gian',
+      introduction: `施設内の場所・空間を表す漢字グループです。「居室・食堂・浴室・処置室・詰所」など、介護施設内の場所を正確に書けることは日常業務に欠かせません。
+
+Nhóm Kanji chỉ địa điểm và không gian trong cơ sở. Viết đúng tên các nơi trong cơ sở điều dưỡng như 居室・食堂・浴室・処置室・詰所 là không thể thiếu trong công việc hàng ngày.`,
+      keyPoints: [
+        '家（いえ・か）: 家族・家庭・退家・帰家',
+        '室（しつ）: 居室・浴室・処置室・相談室',
+        '所（ところ・しょ）: 詰所・事業所・台所・近所',
+        '場（ば・じょう）: 食堂・現場・立場・入浴場',
+        '区（く）: 区別・地区・区域・担当区',
+      ],
+      vocabulary: [
+        { word: '居室', reading: 'きょしつ', meaning: '利用者が生活する部屋（phòng ở của người được chăm sóc）', example: '居室に戻っていただく' },
+        { word: '浴室', reading: 'よくしつ', meaning: 'お風呂の部屋（phòng tắm）', example: '浴室の安全を確認する' },
+        { word: '詰所', reading: 'つめしょ', meaning: 'スタッフが待機する場所（nơi nhân viên trực）', example: '詰所に戻って報告する' },
+        { word: '処置室', reading: 'しょちしつ', meaning: '医療処置を行う部屋（phòng xử lý y tế）', example: '処置室で手当てをする' },
+        { word: '食堂', reading: 'しょくどう', meaning: '食事をする場所（phòng ăn）', example: '食堂に案内する' },
+        { word: '事業所', reading: 'じぎょうしょ', meaning: 'サービスを提供する施設（cơ sở cung cấp dịch vụ）', example: '事業所に電話する' },
+      ],
+      examples: [
+        { japanese: '入浴後、利用者さんを居室にお送りしました。', reading: 'にゅうよくご、りようしゃさんをきょしつにおおくりしました。', translation: 'Sau khi tắm, đưa người được chăm sóc về phòng ở.' },
+        { japanese: '何か変化があれば詰所に連絡してください。', reading: 'なにかへんかがあればつめしょにれんらくしてください。', translation: 'Nếu có gì thay đổi, hãy liên lạc về phòng trực.' },
+        { japanese: '食堂で昼食を召し上がっていただきました。', reading: 'しょくどうでちゅうしょくをめしあがっていただきました。', translation: 'Đã dùng bữa trưa tại phòng ăn.' },
+      ],
+      grammarNote: `【施設内の主要な場所】
+居室（きょしつ）= 利用者の部屋
+食堂（しょくどう）= 食事の場所
+浴室（よくしつ）= お風呂
+詰所（つめしょ）= スタッフルーム
+処置室（しょちしつ）= 医療ケアの部屋
+
+まず施設内の地図を頭に描こう！
+Hãy hình dung bản đồ trong cơ sở!`,
+      quiz: {
+        question: '「詰所」とはどこですか？',
+        options: [
+          { id: 'a', text: '利用者の部屋' },
+          { id: 'b', text: 'スタッフが待機・作業する場所' },
+          { id: 'c', text: '浴室' },
+          { id: 'd', text: '食事をする場所' },
+        ],
+        correctId: 'b',
+        explanation: '詰所（つめしょ）は「スタッフが待機・記録作業などを行う場所」。ナースステーションに相当することが多い。\n詰所 = nơi nhân viên trực và làm việc.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-10': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑩: 仕・事・作・業・働',
+      titleTranslation: 'Kanji N4⑩: Nhóm chữ Hán công việc và nghề nghiệp',
+      introduction: `仕事・業務・作業に関する漢字グループです。介護の現場では「業務日誌・作業手順・仕事内容」などを理解・記述する機会が多くあります。職場での会話でも頻出の漢字です。
+
+Nhóm Kanji liên quan đến công việc, nghiệp vụ và thao tác. Tại cơ sở điều dưỡng, có nhiều cơ hội hiểu và ghi chép 業務日誌・作業手順・仕事内容. Cũng là Kanji xuất hiện nhiều trong hội thoại tại nơi làm việc.`,
+      keyPoints: [
+        '仕（し）: 仕事・仕方・奉仕・給仕',
+        '事（こと・じ）: 仕事・業務・大事・事故',
+        '作（つくる・さく）: 作業・作成・作る・作法',
+        '業（ぎょう）: 業務・作業・事業・職業',
+        '働（はたらく）: 労働・働く・実働・勤働',
+      ],
+      vocabulary: [
+        { word: '業務', reading: 'ぎょうむ', meaning: '仕事・職務（công việc, nhiệm vụ）', example: '業務内容を確認する' },
+        { word: '作業', reading: 'さぎょう', meaning: '具体的な仕事の動作（thao tác cụ thể）', example: '清掃作業を行う' },
+        { word: '仕事内容', reading: 'しごとないよう', meaning: '業務の詳細（nội dung công việc）', example: '仕事内容を引き継ぐ' },
+        { word: '作成', reading: 'さくせい', meaning: '書類などを作ること（lập, soạn thảo）', example: '記録を作成する' },
+        { word: '業務日誌', reading: 'ぎょうむにっし', meaning: '仕事の記録（nhật ký công việc）', example: '業務日誌に記録する' },
+        { word: '労働', reading: 'ろうどう', meaning: '働くこと（lao động）', example: '労働時間を守る' },
+      ],
+      examples: [
+        { japanese: '今日の業務内容を業務日誌に記録しました。', reading: 'きょうのぎょうむないようをぎょうむにっしにきろくしました。', translation: 'Đã ghi lại nội dung công việc hôm nay vào nhật ký công việc.' },
+        { japanese: '清掃作業の手順を新入職員に説明しました。', reading: 'せいそうさぎょうのてじゅんをしんにゅうしょくいんにせつめいしました。', translation: 'Đã giải thích quy trình vệ sinh cho nhân viên mới.' },
+        { japanese: '書類の作成に時間がかかりました。', reading: 'しょるいのさくせいにじかんがかかりました。', translation: 'Việc soạn thảo tài liệu mất nhiều thời gian.' },
+      ],
+      grammarNote: `【業務に関する複合語】
+業務 + 日誌・連絡・内容・改善・管理
+作業 + 手順・効率・分担・確認
+
+パターンで覚えると応用が効く！
+Học theo mẫu sẽ dễ ứng dụng!`,
+      quiz: {
+        question: '「作業」と「業務」の違いは？',
+        options: [
+          { id: 'a', text: '意味はほぼ同じで違いはない' },
+          { id: 'b', text: '作業は具体的な動作、業務は職務全般' },
+          { id: 'c', text: '作業は室内、業務は屋外の仕事' },
+          { id: 'd', text: '作業は上司、業務は部下が使う言葉' },
+        ],
+        correctId: 'b',
+        explanation: '作業（さぎょう）は「具体的な動作・手作業」、業務（ぎょうむ）は「職務全般・仕事全体」を指す傾向がある。\n作業 = thao tác cụ thể; 業務 = toàn bộ công việc/nhiệm vụ.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-11': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑪: 高・低・増・減・変',
+      titleTranslation: 'Kanji N4⑪: Nhóm chữ Hán chỉ thay đổi và mức độ',
+      introduction: `数値の変化・状態の増減を表す漢字グループです。バイタルサインの記録や状態観察で毎日使います。「血圧が高い・体重が減少・状態が変化」など、ケア記録の核心となる表現です。
+
+Nhóm Kanji chỉ sự thay đổi và tăng giảm. Dùng hàng ngày trong ghi chép sinh hiệu và quan sát trạng thái. 血圧が高い・体重が減少・状態が変化 là những biểu đạt cốt lõi trong hồ sơ chăm sóc.`,
+      keyPoints: [
+        '高（たかい・こう）: 高血圧・高齢・高温・最高',
+        '低（ひくい・てい）: 低血圧・低下・低体温・最低',
+        '増（ふえる・ぞう）: 増加・増減・増量・急増',
+        '減（へる・げん）: 減少・削減・減量・漸減',
+        '変（かわる・へん）: 変化・変更・変動・急変',
+      ],
+      vocabulary: [
+        { word: '高血圧', reading: 'こうけつあつ', meaning: '血圧が高い状態（cao huyết áp）', example: '高血圧の管理をする' },
+        { word: '低下', reading: 'ていか', meaning: '下がること（giảm xuống）', example: '筋力が低下している' },
+        { word: '増加', reading: 'ぞうか', meaning: '増えること（tăng lên）', example: '体重が増加した' },
+        { word: '減少', reading: 'げんしょう', meaning: '減ること（giảm đi）', example: '食事量が減少した' },
+        { word: '変化', reading: 'へんか', meaning: '変わること（thay đổi）', example: '状態に変化があった' },
+        { word: '変更', reading: 'へんこう', meaning: '変えること（thay đổi kế hoạch）', example: '予定を変更する' },
+      ],
+      examples: [
+        { japanese: '今朝から血圧が高く、168/95でした。', reading: 'けさからけつあつがたかく、168/95でした。', translation: 'Từ sáng huyết áp cao, ở mức 168/95.' },
+        { japanese: '先週から食事量が減少し、体重も低下しています。', reading: 'せんしゅうからしょくじりょうがげんしょうし、たいじゅうもていかしています。', translation: 'Từ tuần trước lượng ăn giảm, cân nặng cũng giảm xuống.' },
+        { japanese: '状態に変化があったため、ケアプランを変更します。', reading: 'じょうたいにへんかがあったため、ケアプランをへんこうします。', translation: 'Do có thay đổi tình trạng nên sẽ thay đổi kế hoạch chăm sóc.' },
+      ],
+      grammarNote: `【変化を表す表現パターン】
+〜が高い／低い（mức độ）
+〜が増加する／減少する（xu hướng）
+〜が変化する（thay đổi）
+〜が急変する（thay đổi đột ngột）
+
+数値と組み合わせて記録に使おう！`,
+      quiz: {
+        question: '「低下」の反対の意味は？',
+        options: [
+          { id: 'a', text: '変化' },
+          { id: 'b', text: '増加' },
+          { id: 'c', text: '上昇' },
+          { id: 'd', text: '安定' },
+        ],
+        correctId: 'c',
+        explanation: '低下（ていか）は「下がること」なので、反対は上昇（じょうしょう）「上がること」。増加（ぞうか）は量が増えること。\n低下（giảm xuống）↔ 上昇（tăng lên）.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-12': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑫: 送・受・伝・連・知',
+      titleTranslation: 'Kanji N4⑫: Nhóm chữ Hán truyền đạt và liên lạc',
+      introduction: `伝達・連絡・情報共有に関する漢字グループです。申し送り・連絡帳・緊急連絡など、チームワークに欠かせないコミュニケーションの漢字です。正確に情報を伝えることが安全なケアにつながります。
+
+Nhóm Kanji liên quan đến truyền đạt, liên lạc và chia sẻ thông tin. Đây là Kanji giao tiếp không thể thiếu trong bàn giao ca, sổ liên lạc, liên lạc khẩn cấp. Truyền đạt thông tin chính xác dẫn đến chăm sóc an toàn.`,
+      keyPoints: [
+        '送（おくる・そう）: 申し送り・送迎・送信・見送り',
+        '受（うける・じゅ）: 受付・受診・受け取り・引き受け',
+        '伝（つたえる・でん）: 伝達・口伝・伝言・伝える',
+        '連（れん）: 連絡・連携・連続・関連',
+        '知（しる・ち）: 知識・通知・認知・知らせ',
+      ],
+      vocabulary: [
+        { word: '申し送り', reading: 'もうしおくり', meaning: '前の担当者から情報を伝えること（bàn giao ca）', example: '申し送りをしっかり聞く' },
+        { word: '連絡', reading: 'れんらく', meaning: '知らせること（liên lạc）', example: 'ご家族に連絡する' },
+        { word: '伝達', reading: 'でんたつ', meaning: '情報を伝えること（truyền đạt）', example: '会議内容を伝達する' },
+        { word: '受診', reading: 'じゅしん', meaning: '医師の診察を受けること（đi khám）', example: '病院を受診する' },
+        { word: '通知', reading: 'つうち', meaning: '知らせること（thông báo）', example: '変更を通知する' },
+        { word: '連携', reading: 'れんけい', meaning: '協力して行動すること（phối hợp）', example: '多職種と連携する' },
+      ],
+      examples: [
+        { japanese: '申し送りで夜間の状態変化を伝達しました。', reading: 'もうしおくりでやかんのじょうたいへんかをでんたつしました。', translation: 'Đã truyền đạt sự thay đổi trạng thái ban đêm trong bàn giao ca.' },
+        { japanese: '急変のため、ご家族に緊急連絡をしました。', reading: 'きゅうへんのため、ごかぞくにきんきゅうれんらくをしました。', translation: 'Do thay đổi đột ngột, đã liên lạc khẩn cấp với gia đình.' },
+        { japanese: '多職種と連携して、ケアプランを作成します。', reading: 'たしょくしゅとれんけいして、ケアプランをさくせいします。', translation: 'Phối hợp đa ngành để lập kế hoạch chăm sóc.' },
+      ],
+      grammarNote: `【連絡・伝達の基本表現】
+〜に連絡する（liên lạc với〜）
+〜を伝達する（truyền đạt〜）
+〜を引き継ぐ（bàn giao〜）
+〜と連携する（phối hợp với〜）
+
+チームケアの基本！
+Cơ bản của chăm sóc nhóm!`,
+      quiz: {
+        question: '「申し送り」の目的は？',
+        options: [
+          { id: 'a', text: '利用者さんへの挨拶' },
+          { id: 'b', text: '職員間で情報を引き継ぐこと' },
+          { id: 'c', text: '医師への報告' },
+          { id: 'd', text: '家族への連絡' },
+        ],
+        correctId: 'b',
+        explanation: '申し送り（もうしおくり）は「前の勤務者から次の勤務者へ情報を引き継ぐこと」。シフト交代時に行う。\n申し送り = bàn giao thông tin giữa các ca làm việc.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-13': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑬: 治・療・回・復・改',
+      titleTranslation: 'Kanji N4⑬: Nhóm chữ Hán điều trị và hồi phục',
+      introduction: `治療・回復・改善に関する漢字グループです。リハビリ・医療ケア・状態改善の文脈で頻繁に使います。「治療方針・回復期・改善計画」など、利用者のケア目標を表すのに重要な漢字です。
+
+Nhóm Kanji liên quan đến điều trị, hồi phục và cải thiện. Dùng thường xuyên trong bối cảnh phục hồi chức năng, chăm sóc y tế, cải thiện tình trạng. 治療方針・回復期・改善計画 là Kanji quan trọng để diễn đạt mục tiêu chăm sóc.`,
+      keyPoints: [
+        '治（なおす・ち）: 治療・治癒・完治・自治',
+        '療（りょう）: 治療・療養・療法・理学療法',
+        '回（まわる・かい）: 回復・回数・今回・次回',
+        '復（ふく）: 回復・復帰・復活・反復',
+        '改（かえる・かい）: 改善・改正・改良・変改',
+      ],
+      vocabulary: [
+        { word: '治療', reading: 'ちりょう', meaning: '病気を治すこと（điều trị）', example: '治療を続ける' },
+        { word: '回復', reading: 'かいふく', meaning: '元の状態に戻ること（hồi phục）', example: '術後の回復が早い' },
+        { word: '改善', reading: 'かいぜん', meaning: '状態が良くなること（cải thiện）', example: '症状が改善された' },
+        { word: '療養', reading: 'りょうよう', meaning: '病気を治すための静養（dưỡng bệnh）', example: '自宅で療養する' },
+        { word: '復帰', reading: 'ふっき', meaning: '元の状態・場所に戻ること（trở lại）', example: '職場に復帰する' },
+        { word: '理学療法', reading: 'りがくりょうほう', meaning: '身体機能回復の治療（vật lý trị liệu）', example: '理学療法士によるリハビリ' },
+      ],
+      examples: [
+        { japanese: '入院後、リハビリで順調に回復しています。', reading: 'にゅういんご、リハビリでじゅんちょうにかいふくしています。', translation: 'Sau khi nhập viện, đang phục hồi thuận lợi qua phục hồi chức năng.' },
+        { japanese: '治療方針について、医師から説明がありました。', reading: 'ちりょうほうしんについて、いしからせつめいがありました。', translation: 'Bác sĩ đã giải thích về phương hướng điều trị.' },
+        { japanese: '継続的なリハビリにより症状が改善されました。', reading: 'けいぞくてきなリハビリによりしょうじょうがかいぜんされました。', translation: 'Nhờ phục hồi chức năng liên tục, triệu chứng đã được cải thiện.' },
+      ],
+      grammarNote: `【リハビリ・回復に関する表現】
+回復する（hồi phục）→ 回復が見られる・回復が遅い
+改善する（cải thiện）→ 症状が改善する
+維持する（duy trì）→ 現状を維持する
+悪化する（xấu đi）→ 状態が悪化する
+
+ケアの変化を正確に記録しよう！`,
+      quiz: {
+        question: '「理学療法」を行う専門職は？',
+        options: [
+          { id: 'a', text: '薬剤師（やくざいし）' },
+          { id: 'b', text: '介護福祉士（かいごふくしし）' },
+          { id: 'c', text: '理学療法士（りがくりょうほうし）' },
+          { id: 'd', text: '栄養士（えいようし）' },
+        ],
+        correctId: 'c',
+        explanation: '理学療法（りがくりょうほう）を行うのは理学療法士（PT）。身体機能の回復・維持が専門。\nNgười thực hiện 理学療法 là 理学療法士（PT - Physical Therapist）.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-14': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N4漢字⑭: 確・認・注・意・確',
+      titleTranslation: 'Kanji N4⑭: Nhóm chữ Hán xác nhận và chú ý',
+      introduction: `確認・注意・意識に関する漢字グループです。安全なケアには「確認・注意・意識・認知」が欠かせません。事故防止の観点からも、これらの漢字を含む表現を正確に理解することが重要です。
+
+Nhóm Kanji liên quan đến xác nhận, chú ý và ý thức. Để chăm sóc an toàn, không thể thiếu 確認・注意・意識・認知. Từ góc độ phòng ngừa tai nạn, hiểu chính xác các biểu đạt chứa các Kanji này rất quan trọng.`,
+      keyPoints: [
+        '確（たしか・かく）: 確認・確実・確定・明確',
+        '認（みとめる・にん）: 確認・認知・認める・承認',
+        '注（そそぐ・ちゅう）: 注意・注射・注目・注入',
+        '意（い）: 注意・意識・意見・意味',
+        '識（しき）: 意識・知識・認識・常識',
+      ],
+      vocabulary: [
+        { word: '確認', reading: 'かくにん', meaning: '確かめること（xác nhận）', example: '安全を確認する' },
+        { word: '注意', reading: 'ちゅうい', meaning: '気をつけること（chú ý, cẩn thận）', example: '転倒に注意する' },
+        { word: '意識', reading: 'いしき', meaning: '気がついている状態（ý thức）', example: '意識がある・意識がない' },
+        { word: '認知症', reading: 'にんちしょう', meaning: '記憶・認識機能が低下する病気（sa sầu）', example: '認知症の方への対応' },
+        { word: '承認', reading: 'しょうにん', meaning: '認めること（phê duyệt）', example: '上司の承認を得る' },
+        { word: '認識', reading: 'にんしき', meaning: '理解・把握すること（nhận thức）', example: '状況を正確に認識する' },
+      ],
+      examples: [
+        { japanese: '与薬前に必ず本人確認をしてください。', reading: 'よやくまえにかならずほんにんかくにんをしてください。', translation: 'Trước khi cho dùng thuốc, nhất thiết phải xác nhận danh tính.' },
+        { japanese: '認知症の方は、注意深く観察する必要があります。', reading: 'にんちしょうのかたは、ちゅういぶかくかんさつするひつようがあります。', translation: 'Đối với người bị sa sầu, cần quan sát cẩn thận.' },
+        { japanese: '転倒後、意識の確認を行いました。', reading: 'てんとうご、いしきのかくにんをおこないました。', translation: 'Sau khi ngã, đã tiến hành kiểm tra ý thức.' },
+      ],
+      grammarNote: `【確認のチェックリスト表現】
+〜を確認する（xác nhận〜）
+〜に注意する（chú ý〜）
+〜を意識する（ý thức về〜）
+
+「5つのR」与薬確認:
+Right Patient（本人確認）
+Right Drug（薬確認）
+Right Dose（用量確認）
+Right Route（経路確認）
+Right Time（時間確認）`,
+      quiz: {
+        question: '「意識がない」状態はどんな状態ですか？',
+        options: [
+          { id: 'a', text: '眠っている状態' },
+          { id: 'b', text: '気がついていない・反応がない状態' },
+          { id: 'c', text: '考えていない状態' },
+          { id: 'd', text: '目を閉じている状態' },
+        ],
+        correctId: 'b',
+        explanation: '意識がない（いしきがない）は「外部の刺激に反応しない・気がついていない状態」。緊急事態のサイン。\n意識がない = không có phản ứng với kích thích bên ngoài, là dấu hiệu khẩn cấp.',
+      },
+      xpReward: 25,
+    },
+  },
+
+  'n4-05-15': {
+    courseTitle: { ja: 'N4 漢字300字 完全習得', vi: 'Hoàn thiện 300 chữ Kanji N4' },
+    isLocked: true,
+    requiredPlan: 'premium',
+    lesson: {
+      title: 'N4漢字 総復習テスト〜300字マスター確認〜',
+      titleTranslation: 'Kiểm tra tổng hợp Kanji N4 〜Xác nhận thành thạo 300 chữ〜',
+      introduction: `N4漢字300字 完全習得コースの総仕上げです。医療・介護現場で使う漢字を総復習します。身体・食事・安全・記録・職場・変化・伝達・治療・確認の各グループから出題します。
+
+Đây là bài kiểm tra tổng kết khóa học Hoàn thiện 300 chữ Kanji N4. Ôn lại tổng hợp các Kanji dùng trong y tế và điều dưỡng. Đề thi từ các nhóm: cơ thể, ăn uống, an toàn, ghi chép, nơi làm việc, thay đổi, truyền đạt, điều trị, xác nhận.`,
+      keyPoints: [
+        '医療・介護漢字の総まとめ（Tổng hợp Kanji y tế và điều dưỡng）',
+        '読み方と意味の総確認（Xác nhận cách đọc và nghĩa）',
+        '現場で使える複合語の定着（Ghi nhớ từ ghép dùng được ở thực tế）',
+        '記録・報告文での応用（Ứng dụng trong văn ghi chép và báo cáo）',
+        'N4試験レベルの問題に挑戦（Thử sức với câu hỏi cấp độ thi N4）',
+      ],
+      vocabulary: [
+        { word: '看護師', reading: 'かんごし', meaning: '医療のケアを担う専門職（y tá）', example: '看護師に報告する' },
+        { word: '急変', reading: 'きゅうへん', meaning: '状態が急に変わること（thay đổi đột ngột）', example: '急変時の対応' },
+        { word: '口腔ケア', reading: 'こうくうケア', meaning: '口の中の清潔管理（chăm sóc khoang miệng）', example: '毎食後の口腔ケア' },
+        { word: '改善', reading: 'かいぜん', meaning: '状態が良くなること（cải thiện）', example: '症状の改善' },
+        { word: '確認', reading: 'かくにん', meaning: '確かめること（xác nhận）', example: '安全確認' },
+        { word: '連携', reading: 'れんけい', meaning: '協力して行動すること（phối hợp）', example: '多職種連携' },
+      ],
+      examples: [
+        { japanese: '急変した利用者さんを看護師に報告し、安全確認をしました。', reading: 'きゅうへんしたりようしゃさんをかんごしにほうこくし、あんぜんかくにんをしました。', translation: 'Đã báo cáo người dùng thay đổi đột ngột cho y tá và kiểm tra an toàn.' },
+        { japanese: '多職種と連携して改善計画を作成しました。', reading: 'たしょくしゅとれんけいしてかいぜんけいかくをさくせいしました。', translation: 'Phối hợp đa ngành để lập kế hoạch cải thiện.' },
+      ],
+      grammarNote: `【N4漢字 総まとめ】
+①身体: 体・頭・手・足・口
+②食事: 食・飲・水・栄・養
+③安全: 安・全・危・急・緊
+④記録: 書・読・記・録・報
+⑤人・職種: 人・者・員・師・士
+⑥変化: 高・低・増・減・変
+⑦連絡: 送・受・伝・連・知
+⑧治療: 治・療・回・復・改
+⑨確認: 確・認・注・意・識
+
+N4漢字300字の習得、おめでとうございます！
+Chúc mừng bạn đã hoàn thành 300 chữ Kanji N4!`,
+      quizzes: [
+        {
+          question: '「口腔ケア」の正しい読み方は？',
+          options: [
+            { id: 'a', text: 'くちこうケア' },
+            { id: 'b', text: 'こうくうケア' },
+            { id: 'c', text: 'こうこうケア' },
+            { id: 'd', text: 'くちくうケア' },
+          ],
+          correctId: 'b',
+          explanation: '口腔（こうくう）= 口の中。口腔ケアは「お口の清潔管理」のこと。\n口腔（こうくう）= khoang miệng.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「急変」と同じグループの漢字は？',
+          options: [
+            { id: 'a', text: '安（あん）' },
+            { id: 'b', text: '緊（きん）' },
+            { id: 'c', text: '静（せい）' },
+            { id: 'd', text: '低（てい）' },
+          ],
+          correctId: 'b',
+          explanation: '急変（きゅうへん）の「急」と緊急（きんきゅう）の「緊」は安全・緊急グループ。\n急 và 緊 đều thuộc nhóm an toàn/khẩn cấp.',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '介護記録で「状態変化を〜し、看護師に〜した」という文の（）に入る動詞は？',
+          options: [
+            { id: 'a', text: '記録・報告' },
+            { id: 'b', text: '確認・送迎' },
+            { id: 'c', text: '改善・治療' },
+            { id: 'd', text: '申し送り・連携' },
+          ],
+          correctId: 'a',
+          explanation: '「状態変化を記録し、看護師に報告した」が正しいパターン。記録→報告の流れが基本。\nMẫu cơ bản: ghi chép (記録) → báo cáo (報告).',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '次のうち「職種」を表す漢字が入っていない言葉は？',
+          options: [
+            { id: 'a', text: '看護師' },
+            { id: 'b', text: '栄養士' },
+            { id: 'c', text: '利用者' },
+            { id: 'd', text: '介護福祉士' },
+          ],
+          correctId: 'c',
+          explanation: '利用者（りようしゃ）はサービスを受ける人で職種ではない。看護師・栄養士・介護福祉士は職種。\n利用者 là người sử dụng dịch vụ, không phải tên nghề.',
+          difficulty: 'hard' as const,
+        },
+        {
+          question: '「回復が見られない場合、治療方針を改善する」この文で使われている漢字グループの組み合わせは？',
+          options: [
+            { id: 'a', text: '治療グループ + 変化グループ' },
+            { id: 'b', text: '安全グループ + 記録グループ' },
+            { id: 'c', text: '身体グループ + 食事グループ' },
+            { id: 'd', text: '連絡グループ + 確認グループ' },
+          ],
+          correctId: 'a',
+          explanation: '回復・治療（治療グループ）と改善（変化グループ）の組み合わせ。複数グループの漢字が連携して使われる。\n回復・治療（nhóm điều trị）và 改善（nhóm thay đổi）kết hợp.',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
   // ===== N3 文法・語彙 =====
   'n3-01': {
     courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
@@ -11237,6 +12023,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n4-03': ['n4-03', 'n4-03-2', 'n4-03-3', 'n4-03-4', 'n4-03-5', 'n4-03-6', 'n4-03-7', 'n4-03-8', 'n4-03-9', 'n4-03-10', 'n4-03-11', 'n4-03-12', 'n4-03-13', 'n4-03-14', 'n4-03-15', 'n4-03-16', 'n4-03-17', 'n4-03-18'],
   'n4-02': ['n4-02', 'n4-02-2', 'n4-02-3', 'n4-02-4', 'n4-02-5', 'n4-02-6', 'n4-02-7', 'n4-02-8', 'n4-02-9', 'n4-02-10', 'n4-02-11', 'n4-02-12', 'n4-02-13', 'n4-02-14', 'n4-02-15', 'n4-02-16', 'n4-02-17', 'n4-02-18', 'n4-02-19', 'n4-02-20', 'n4-02-21', 'n4-02-22', 'n4-02-23', 'n4-02-24', 'n4-02-25'],
   'n4-04': ['n4-04', 'n4-04-2', 'n4-04-3', 'n4-04-4', 'n4-04-5', 'n4-04-6', 'n4-04-7', 'n4-04-8', 'n4-04-9', 'n4-04-10', 'n4-04-11', 'n4-04-12', 'n4-04-13', 'n4-04-14', 'n4-04-15', 'n4-04-16'],
+  'n4-05': ['n4-05', 'n4-05-2', 'n4-05-3', 'n4-05-4', 'n4-05-5', 'n4-05-6', 'n4-05-7', 'n4-05-8', 'n4-05-9', 'n4-05-10', 'n4-05-11', 'n4-05-12', 'n4-05-13', 'n4-05-14', 'n4-05-15'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -11349,6 +12136,21 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n4-04-14': { ja: '模擬試験①短文問題', vi: 'Thi thử① Đoạn ngắn' },
   'n4-04-15': { ja: '模擬試験②長文問題', vi: 'Thi thử② Đoạn dài' },
   'n4-04-16': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
+  'n4-05':    { ja: '薬・病・院・護・祉', vi: 'Nhóm Kanji y tế & phúc lợi' },
+  'n4-05-2':  { ja: '体・頭・手・足・口', vi: 'Bộ phận cơ thể' },
+  'n4-05-3':  { ja: '心・気・力・動・静', vi: 'Trạng thái & cảm xúc' },
+  'n4-05-4':  { ja: '食・飲・水・栄・養', vi: 'Ăn uống & dinh dưỡng' },
+  'n4-05-5':  { ja: '時・分・週・月・年', vi: 'Thời gian & lịch trình' },
+  'n4-05-6':  { ja: '人・者・員・師・士', vi: 'Người & chức danh' },
+  'n4-05-7':  { ja: '書・読・記・録・報', vi: 'Ghi chép & báo cáo' },
+  'n4-05-8':  { ja: '安・全・危・急・緊', vi: 'An toàn & khẩn cấp' },
+  'n4-05-9':  { ja: '家・室・所・場・区', vi: 'Địa điểm & không gian' },
+  'n4-05-10': { ja: '仕・事・作・業・働', vi: 'Công việc & nghề nghiệp' },
+  'n4-05-11': { ja: '高・低・増・減・変', vi: 'Thay đổi & mức độ' },
+  'n4-05-12': { ja: '送・受・伝・連・知', vi: 'Truyền đạt & liên lạc' },
+  'n4-05-13': { ja: '治・療・回・復・改', vi: 'Điều trị & hồi phục' },
+  'n4-05-14': { ja: '確・認・注・意・識', vi: 'Xác nhận & chú ý' },
+  'n4-05-15': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
   'n4-02':    { ja: '〜てしまう / 〜ちゃう', vi: '〜てしまう / 〜ちゃう' },
   'n4-02-2':  { ja: '〜ておく（事前準備）', vi: '〜ておく (chuẩn bị trước)' },
   'n4-02-3':  { ja: '〜てある（結果状態）', vi: '〜てある (trạng thái kết quả)' },
