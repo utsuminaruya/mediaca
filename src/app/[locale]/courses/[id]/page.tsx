@@ -9101,6 +9101,1128 @@ Từ N3, trợ từ phức hợp tăng lên. 〜に対して・〜について�
     },
   },
 
+  'n3-02-2': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '新聞記事の読み方基礎（見出し・リード文・本文構造）',
+      titleTranslation: 'Cơ bản đọc bài báo (tiêu đề, đoạn dẫn, cấu trúc bài)',
+      introduction: `新聞記事には決まった構造があります。「見出し」は記事の内容を短くまとめたもの、「リード文」は最初の段落で記事全体の要約、「本文」では詳細が順番に説明されます。この構造を理解すると、長い記事でも素早く内容をつかめます。
+
+Bài báo có cấu trúc cố định. "Tiêu đề" tóm tắt ngắn gọn nội dung, "đoạn dẫn" là đoạn đầu tóm tắt toàn bài, "thân bài" giải thích chi tiết theo thứ tự. Hiểu cấu trúc này giúp nắm nội dung bài dài nhanh chóng.`,
+      keyPoints: [
+        '見出し（headline）：記事の主題を短く表す、体言止めが多い',
+        'リード文（lead）：5W1H（いつ・どこで・誰が・何を・なぜ・どのように）を含む',
+        '本文は逆ピラミッド型：重要な情報が先、詳細・背景が後',
+        '段落の最初の文（トピックセンテンス）に注目する',
+        '引用符「」内は関係者の発言・コメントを示す',
+        '記事末尾に記者名・情報源が記載されることが多い',
+      ],
+      vocabulary: [
+        { word: '見出し', reading: 'みだし', meaning: '記事のタイトル（tiêu đề bài báo）', example: '見出しを読めば記事の内容が分かる' },
+        { word: 'リード文', reading: 'リードぶん', meaning: '記事の冒頭要約（đoạn dẫn tóm tắt）', example: 'リード文には記事の核心が含まれる' },
+        { word: '報じる', reading: 'ほうじる', meaning: '報道する（đưa tin）', example: '新聞は高齢化問題を大きく報じた' },
+        { word: '取材', reading: 'しゅざい', meaning: '情報収集のための調査（phóng viên điều tra）', example: '記者が介護施設を取材した' },
+        { word: '掲載', reading: 'けいさい', meaning: '新聞・雑誌に載せること（đăng báo）', example: '記事が一面に掲載された' },
+      ],
+      examples: [
+        { japanese: '【見出し】外国人介護士、過去最多に　【リード文】厚生労働省は15日、昨年度に日本国内で働いた外国人介護士が3万人を超えたと発表した。', reading: 'がいこくじんかいごし、かこさいたに。こうせいろうどうしょうは15にち、さくねんどにほんこくないではたらいたがいこくじんかいごしが3まんにんをこえたとはっぴょうした。', translation: '[Tiêu đề] Điều dưỡng nước ngoài đạt mức cao kỷ lục. [Đoạn dẫn] Bộ Lao động Nhật Bản ngày 15 thông báo số điều dưỡng nước ngoài làm việc tại Nhật năm ngoái đã vượt 30.000 người.' },
+        { japanese: 'この問題について、山田厚生労働大臣は「介護人材の確保は急務だ」と述べた。', reading: 'このもんだいについて、やまだこうせいろうどうだいじんは「かいごじんざいのかくほはきゅうむだ」とのべた。', translation: 'Về vấn đề này, Bộ trưởng Lao động Yamada phát biểu: "Đảm bảo nguồn nhân lực điều dưỡng là việc cấp bách."' },
+      ],
+      grammarNote: `【新聞記事の読み方のコツ】
+1. まず見出しを読んで話題を確認する
+2. リード文（第1段落）で5W1Hを整理する
+3. 本文は重要度順なので、時間がなければ前半を優先
+4. 「〜と述べた・〜と語った」は引用の表現
+5. 「〜によると」は情報源を示す表現
+
+【読解戦略 / Chiến lược đọc hiểu】
+"〜によると" = theo (nguồn tin)
+"〜と述べた" = phát biểu rằng
+体言止め = danh từ cuối câu (thường dùng trong tiêu đề)`,
+      quiz: {
+        question: '新聞記事の「逆ピラミッド構造」とはどういう意味ですか？',
+        options: [
+          { id: 'a', text: '重要な情報が記事の最後にある' },
+          { id: 'b', text: '重要な情報が記事の最初にあり、詳細が後に続く' },
+          { id: 'c', text: '記事の中ほどに最も重要な情報がある' },
+          { id: 'd', text: '記事全体が同じ重要度で書かれている' },
+        ],
+        correctId: 'b',
+        explanation: '逆ピラミッド構造とは、最も重要な情報（結論・事実）を記事の冒頭に置き、詳細や背景説明が後に続く構造です。読者が途中で読むのをやめても、核心を理解できるよう工夫されています。\nCấu trúc kim tự tháp ngược có nghĩa là thông tin quan trọng nhất đặt ở đầu bài, chi tiết và bối cảnh theo sau.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-3': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '指示語の理解（この・その・あの・これ・それ）',
+      titleTranslation: 'Hiểu từ chỉ định (この・その・あの・これ・それ)',
+      introduction: `読解問題でよく問われるのが「指示語」です。「この・その・あの・これ・それ・あれ・ここ・そこ」などが何を指しているかを正確に理解することが、文章全体の理解につながります。指示語の多くは直前に出てきた言葉や内容を指します。
+
+Từ chỉ định thường xuyên xuất hiện trong bài đọc hiểu. Hiểu chính xác "この・その・あの・これ・それ・あれ・ここ・そこ" chỉ cái gì sẽ giúp hiểu toàn bộ văn bản. Phần lớn từ chỉ định trỏ về từ hoặc nội dung vừa đề cập trước đó.`,
+      keyPoints: [
+        'この＋名詞：話し手に近いもの・直前の内容を指す',
+        'その＋名詞：聞き手に近いもの・前文の内容を受ける（読解で最頻出）',
+        'あの＋名詞：話し手・聞き手両方から遠いもの・共有の話題',
+        'これ・それ・あれ：名詞の代わりに使う（代名詞）',
+        '「そのような・このような」は前の内容全体を受けることが多い',
+        '指示語を見つけたら、前の文に戻って指示対象を確認する',
+      ],
+      vocabulary: [
+        { word: '指示語', reading: 'しじご', meaning: '何かを指し示す言葉（từ chỉ định）', example: '「それ」という指示語が何を指すか考える' },
+        { word: '前文', reading: 'ぜんぶん', meaning: '前の文（câu trước）', example: '指示語は前文の内容を受けることが多い' },
+        { word: '対象', reading: 'たいしょう', meaning: '指し示しているもの（đối tượng được chỉ）', example: '指示語の対象を特定する' },
+        { word: '把握', reading: 'はあく', meaning: '理解・つかむこと（nắm bắt）', example: '文脈を把握して指示語を解釈する' },
+        { word: '文脈', reading: 'ぶんみゃく', meaning: '文章の流れ・前後関係（văn mạch, ngữ cảnh）', example: '文脈から指示語の意味を読み取る' },
+      ],
+      examples: [
+        { japanese: '介護施設では、利用者の転倒事故が増えている。この問題を解決するため、センサーの導入が進んでいる。', reading: 'かいごしせつでは、りようしゃのてんとうじこがふえている。このもんだいをかいけつするため、センサーのどうにゅうがすすんでいる。', translation: 'Tại cơ sở điều dưỡng, tai nạn té ngã của người sử dụng đang tăng. Để giải quyết vấn đề này, việc lắp đặt cảm biến đang được đẩy mạnh.' },
+        { japanese: '日本の高齢化率は29%を超えた。それは世界最高水準である。', reading: 'にほんのこうれいかりつは29%をこえた。それはせかいさいこうすいじゅんである。', translation: 'Tỷ lệ người cao tuổi ở Nhật đã vượt 29%. Đó là mức cao nhất thế giới.' },
+      ],
+      grammarNote: `【指示語の解き方ステップ】
+1. 指示語（この・その・これ・それ など）を見つける
+2. 直前の文・句・段落に戻る
+3. 指示語を具体的な言葉に置き換えて読んでみる
+4. 意味が通じれば正解
+
+【よく出る指示語パターン / Mẫu thường gặp】
+「このような状況」= tình huống như vậy（指前段落の内容）
+「その結果」= kết quả đó（指前文の出来事）
+「こうした問題」= vấn đề như thế（指直前の問題）`,
+      quiz: {
+        question: '「高齢者の孤独死が社会問題になっている。この問題に対応するため、地域のボランティア活動が注目されている。」この「この問題」は何を指しますか？',
+        options: [
+          { id: 'a', text: '地域のボランティア活動' },
+          { id: 'b', text: '高齢者の孤独死が社会問題になっていること' },
+          { id: 'c', text: '高齢者の増加' },
+          { id: 'd', text: 'ボランティアの不足' },
+        ],
+        correctId: 'b',
+        explanation: '「この問題」は直前の文の内容「高齢者の孤独死が社会問題になっていること」を指します。指示語の直前に指示対象があるのが基本パターンです。\n"Vấn đề này" trỏ về nội dung câu trước: "cái chết cô đơn của người cao tuổi trở thành vấn đề xã hội".',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-4': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '接続詞から文の流れを読む（逆接・順接・並列・添加）',
+      titleTranslation: 'Đọc luồng văn bản qua liên từ (nghịch tiếp, thuận tiếp, song song, bổ sung)',
+      introduction: `接続詞は文と文、段落と段落をつなぐ重要な言葉です。接続詞の種類を理解すると、次に来る内容が予測でき、文章の論理展開をつかむことができます。N3読解では接続詞を問う問題が頻繁に出題されます。
+
+Liên từ là từ quan trọng nối câu với câu, đoạn với đoạn. Hiểu loại liên từ giúp dự đoán nội dung tiếp theo và nắm logic triển khai văn bản. Trong đọc hiểu N3, câu hỏi về liên từ xuất hiện thường xuyên.`,
+      keyPoints: [
+        '順接（thuận tiếp）：だから・そのため・したがって・その結果 → 前の内容の結果',
+        '逆接（nghịch tiếp）：しかし・だが・ところが・けれども → 前の内容と反対のことが続く',
+        '並列（song song）：また・そして・さらに → 同じレベルの情報を追加',
+        '添加（bổ sung）：しかも・それに・加えて → 前の内容を強調して追加',
+        '換言（diễn đạt lại）：つまり・すなわち・言い換えれば → 前の内容を別の言葉で言い直す',
+        '転換（chuyển chủ đề）：さて・では・ところで → 話題を変える',
+      ],
+      vocabulary: [
+        { word: 'ところが', reading: 'ところが', meaning: '予想外の逆接（nhưng không ngờ）', example: '準備を進めた。ところが、当日は中止になった' },
+        { word: 'したがって', reading: 'したがって', meaning: '前の内容の結論（do đó, vì vậy）', example: '高齢化が進む。したがって、介護需要が増える' },
+        { word: 'さらに', reading: 'さらに', meaning: 'その上・もっと（hơn nữa）', example: '人手不足が深刻だ。さらに、賃金も低い' },
+        { word: 'つまり', reading: 'つまり', meaning: 'すなわち・言い換えると（tức là, nghĩa là）', example: 'つまり、早期対応が必要だということだ' },
+        { word: 'ただし', reading: 'ただし', meaning: '条件・例外を加える（tuy nhiên, nhưng điều kiện）', example: '参加できる。ただし、事前登録が必要だ' },
+      ],
+      examples: [
+        { japanese: '介護施設の数は増加している。しかし、働くスタッフの数が追いつかない状況だ。', reading: 'かいごしせつのかずはぞうかしている。しかし、はたらくスタッフのかずがおいつかないじょうきょうだ。', translation: 'Số lượng cơ sở điều dưỡng đang tăng. Tuy nhiên, số nhân viên làm việc không theo kịp.' },
+        { japanese: '日本の平均寿命は延びている。したがって、老後の生活設計がますます重要になっている。', reading: 'にほんのへいきんじゅみょうはのびている。したがって、ろうごのせいかつせっけいがますますじゅうようになっている。', translation: 'Tuổi thọ trung bình của Nhật Bản đang tăng. Do đó, thiết kế cuộc sống sau khi về hưu ngày càng quan trọng.' },
+      ],
+      grammarNote: `【接続詞の種類と働き / Phân loại liên từ】
+■ 順接：だから／そのため／したがって／その結果
+■ 逆接：しかし／でも／ところが／一方
+■ 並列・添加：また／そして／さらに／加えて／しかも
+■ 説明・換言：つまり／すなわち／つまり／要するに
+■ 転換：さて／では／ところで
+
+【読解のコツ】
+逆接の後に筆者の主張が来ることが多い。
+「しかし・だが」の後を特に注意して読もう。
+Sau liên từ nghịch tiếp thường là luận điểm chính của tác giả.`,
+      quiz: {
+        question: '「医療技術は発展している。（　　）、医療費の増大という問題も生じている。」（　　）に入る最も適切な接続詞は？',
+        options: [
+          { id: 'a', text: 'したがって' },
+          { id: 'b', text: 'つまり' },
+          { id: 'c', text: 'その結果' },
+          { id: 'd', text: 'しかし' },
+        ],
+        correctId: 'c',
+        explanation: '「医療技術の発展」という原因から「医療費の増大」という結果が生じているので、順接の「その結果」が最も適切です。「しかし」は逆接なので、内容が反対のときに使います。\n"Kết quả là" phù hợp vì đây là quan hệ nhân quả: công nghệ y tế phát triển dẫn đến chi phí y tế tăng.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-5': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '筆者の主張と根拠を探す（〜べきだ・なぜなら・〜からだ）',
+      titleTranslation: 'Tìm luận điểm và căn cứ của tác giả (〜べきだ・なぜなら・〜からだ)',
+      introduction: `論説文や意見文では、筆者が何かを主張し、その根拠を示します。「筆者の言いたいことは何か」を読み取ることがN3読解の核心です。主張を示す表現と、根拠を示す表現のパターンを覚えましょう。
+
+Trong văn nghị luận và văn ý kiến, tác giả đưa ra luận điểm và bằng chứng. Đọc được "tác giả muốn nói gì" là cốt lõi của đọc hiểu N3. Hãy nhớ các mẫu thể hiện luận điểm và căn cứ.`,
+      keyPoints: [
+        '主張の表現：〜べきだ・〜が必要だ・〜と考える・〜ではないだろうか',
+        '根拠の表現：なぜなら〜からだ・〜ため・〜ことから・〜によると',
+        '結論の表現：つまり・以上のことから・このように・したがって',
+        '筆者の主張は多くの場合、最終段落か逆接の後に現れる',
+        '「〜ではないだろうか」は柔らかい主張・問いかけの形',
+        '具体例（たとえば〜）の後は根拠・裏付けになっている',
+      ],
+      vocabulary: [
+        { word: '主張', reading: 'しゅちょう', meaning: '自分の意見を強く言うこと（luận điểm, ý kiến）', example: '筆者の主張を読み取る' },
+        { word: '根拠', reading: 'こんきょ', meaning: '理由・証拠（căn cứ, bằng chứng）', example: '主張の根拠を示す' },
+        { word: '論じる', reading: 'ろんじる', meaning: '議論する・説明する（lập luận）', example: '介護問題について論じた記事を読む' },
+        { word: '指摘', reading: 'してき', meaning: '問題点などを示すこと（chỉ ra, nêu ra）', example: '専門家は人手不足の深刻さを指摘した' },
+        { word: '提言', reading: 'ていげん', meaning: '改善案を提案すること（đề xuất, kiến nghị）', example: '政府に対して制度改革を提言した' },
+      ],
+      examples: [
+        { japanese: '介護現場の人手不足は深刻だ。なぜなら、低賃金と重労働により離職者が多いからだ。したがって、処遇改善が急務だと言える。', reading: 'かいごげんばのひとでぶそくはしんこくだ。なぜなら、ていちんぎんとじゅうろうどうによりりしょくしゃがおおいからだ。したがって、しょぐうかいぜんがきゅうむだといえる。', translation: 'Tình trạng thiếu nhân lực điều dưỡng rất nghiêm trọng. Bởi vì lương thấp và công việc nặng nhọc khiến nhiều người bỏ việc. Do đó, cải thiện đãi ngộ là việc cấp bách.' },
+        { japanese: '高齢者の健康維持のために、地域のコミュニティを活性化すべきではないだろうか。', reading: 'こうれいしゃのけんこういじのために、ちいきのコミュニティをかっせいかすべきではないだろうか。', translation: 'Để duy trì sức khỏe người cao tuổi, chẳng phải chúng ta nên thúc đẩy cộng đồng địa phương sao?' },
+      ],
+      grammarNote: `【主張・根拠の読み取り方】
+主張を示す表現：
+・〜べきだ／〜べきではないか（should）
+・〜が重要だ／〜が必要だ
+・〜と考える／〜と思われる
+
+根拠を示す表現：
+・なぜなら〜からだ（vì rằng...）
+・〜ため（do...）
+・〜によると（theo...）
+・たとえば〜（ví dụ...）
+
+【読解のコツ / Mẹo đọc hiểu】
+最終段落に戻って「つまり」「以上のことから」を探すと筆者の結論が分かる。`,
+      quiz: {
+        question: '「なぜなら〜からだ」はどのような役割を果たしますか？',
+        options: [
+          { id: 'a', text: '結論をまとめる' },
+          { id: 'b', text: '話題を転換する' },
+          { id: 'c', text: '主張の理由・根拠を示す' },
+          { id: 'd', text: '反対意見を紹介する' },
+        ],
+        correctId: 'c',
+        explanation: '「なぜなら〜からだ」は主張や事実に対する理由・根拠を説明するパターンです。「なぜなら」の後に根拠が続き、「〜からだ」でその理由を締めくくります。\n"なぜなら〜からだ" là mẫu giải thích lý do/căn cứ cho luận điểm. Sau "なぜなら" là căn cứ, "〜からだ" kết thúc lý do.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-6': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '比較・対比の文章（AはBと違って・〜に対して・〜一方）',
+      titleTranslation: 'Văn bản so sánh, đối chiếu (A khác B・〜に対して・〜一方)',
+      introduction: `説明文や論説文では、二つのものを比べる「比較・対比」の構造がよく使われます。「AはBと違って〜」「Aに対して、Bは〜」「〜一方、〜」などの表現を理解すると、筆者が何を対比させているかがわかります。
+
+Trong văn thông tin và văn nghị luận, cấu trúc so sánh đối chiếu hai thứ thường được dùng. Hiểu các biểu thức "A khác B ở chỗ", "đối với A thì B là", "trong khi〜" giúp nhận ra tác giả đang đối chiếu gì.`,
+      keyPoints: [
+        '〜に対して：対比・対照を示す（đối với〜, so với〜）',
+        '〜一方（で）：反対の性質・方向を対比（trong khi đó）',
+        'AはBと違って：AとBの違いを説明（A khác B ở chỗ）',
+        '〜に比べて：数値・程度の比較（so sánh với〜）',
+        '共通点を示す：同様に・どちらも・共に',
+        '対比の文章では、何と何を比べているかを先に確認する',
+      ],
+      vocabulary: [
+        { word: '対比', reading: 'たいひ', meaning: '二つを比べること（đối chiếu, so sánh）', example: '日本とベトナムの医療制度を対比する' },
+        { word: '一方', reading: 'いっぽう', meaning: '片方・それに対して（một mặt khác）', example: '施設ケアが増える一方、在宅ケアも注目されている' },
+        { word: '共通', reading: 'きょうつう', meaning: '同じ点（điểm chung）', example: '両国に共通する課題は高齢化問題だ' },
+        { word: '異なる', reading: 'ことなる', meaning: '違う（khác nhau）', example: '日本とベトナムでは介護の文化が異なる' },
+        { word: '特徴', reading: 'とくちょう', meaning: '特別な性質・特性（đặc điểm, đặc trưng）', example: '日本の介護保険制度の特徴を説明する' },
+      ],
+      examples: [
+        { japanese: '施設介護は24時間のサポートが可能だ。これに対して、在宅介護は家族の負担が大きい一方、利用者が住み慣れた環境で生活できる利点がある。', reading: 'しせつかいごは24じかんのサポートがかのうだ。これにたいして、ざいたくかいごはかぞくのふたんがおおきいいっぽう、りようしゃがすみなれたかんきょうでせいかつできるりてんがある。', translation: 'Chăm sóc tại cơ sở có thể hỗ trợ 24 giờ. Ngược lại, chăm sóc tại nhà tuy gánh nặng cho gia đình lớn, nhưng có ưu điểm là người sử dụng sống trong môi trường quen thuộc.' },
+        { japanese: '日本の高齢化率は約29%であるのに対して、ベトナムはまだ約8%にとどまっている。', reading: 'にほんのこうれいかりつはやく29%であるのにたいして、ベトナムはまだやく8%にとどまっている。', translation: 'Tỷ lệ người cao tuổi ở Nhật khoảng 29%, trong khi đó Việt Nam vẫn còn khoảng 8%.' },
+      ],
+      grammarNote: `【比較・対比の表現まとめ】
+■ 対比を示す：
+・AはBと違って〜（A khác B ở chỗ）
+・Aに対して、Bは〜（đối với A, B thì）
+・〜一方（で）、〜（trong khi đó）
+・〜のに対して〜（trong khi A thì B）
+
+■ 比較を示す：
+・〜に比べて（so với）
+・〜より（hơn）
+・〜ほど〜ない（không〜bằng）
+
+【読解のコツ / Mẹo đọc】
+対比文章では「何と何を比べているか」を最初に確認。それぞれの特徴を整理しながら読もう。`,
+      quiz: {
+        question: '「公的介護保険は65歳以上を対象とする。（　　）、民間の介護保険は年齢制限が低く設定されている。」（　　）に入る最も適切な表現は？',
+        options: [
+          { id: 'a', text: 'なぜなら' },
+          { id: 'b', text: 'これに対して' },
+          { id: 'c', text: 'したがって' },
+          { id: 'd', text: 'つまり' },
+        ],
+        correctId: 'b',
+        explanation: '公的介護保険（65歳以上）と民間介護保険（年齢制限が低い）を対比しているので、対比を示す「これに対して」が正解です。\n"Ngược lại" (これに対して) phù hợp vì hai chủ thể được đối chiếu: bảo hiểm công cộng và bảo hiểm tư nhân.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-7': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '数字・データを含む文章（割合・増減・統計表現）',
+      titleTranslation: 'Văn bản chứa số liệu và dữ liệu (tỷ lệ, tăng giảm, biểu đạt thống kê)',
+      introduction: `新聞記事や報告書では、数字やデータを使って事実を説明します。割合・増減・統計を表す表現を理解することで、数字が持つ意味を正確に読み取ることができます。介護・医療分野の記事では統計データが頻繁に登場します。
+
+Trong báo và báo cáo, số liệu và dữ liệu được dùng để giải thích sự thật. Hiểu biểu đạt về tỷ lệ, tăng giảm, thống kê giúp đọc chính xác ý nghĩa của các con số. Trong bài về y tế điều dưỡng, dữ liệu thống kê xuất hiện thường xuyên.`,
+      keyPoints: [
+        '割合の表現：〜割・〜パーセント・約〜・〜に1人・〜人に〜人',
+        '増加の表現：増える・上昇する・高まる・〜倍になる・過去最多',
+        '減少の表現：減る・低下する・下がる・最低水準・〜割減',
+        '比較の表現：前年比〜%増・〜年前と比べて・対前年度比',
+        '範囲の表現：〜以上・〜以下・〜から〜まで・〜前後',
+        '「約」「およそ」「ほぼ」は大まかな数字を示す',
+      ],
+      vocabulary: [
+        { word: '割合', reading: 'わりあい', meaning: '全体に対する比率（tỷ lệ）', example: '高齢者の割合が増加している' },
+        { word: '前年比', reading: 'ぜんねんひ', meaning: '前の年との比較（so với năm trước）', example: '入院患者数は前年比5%増加した' },
+        { word: '推移', reading: 'すいい', meaning: '時間とともに変化すること（biến đổi theo thời gian）', example: '介護施設数の推移をグラフで確認する' },
+        { word: '上回る', reading: 'うわまわる', meaning: '〜より多い（vượt qua, hơn）', example: '需要が供給を上回っている' },
+        { word: '下回る', reading: 'したまわる', meaning: '〜より少ない（dưới mức, ít hơn）', example: '目標を下回る結果となった' },
+      ],
+      examples: [
+        { japanese: '2023年度の介護職員数は約232万人で、前年度比で約3万人増加した。しかし、2040年度には約272万人が必要とされており、依然として不足している。', reading: '2023ねんどのかいごしょくいんすうはやく232まんにんで、ぜんねんどひでやく3まんにんぞうかした。しかし、2040ねんどにはやく272まんにんがひつようとされており、いぜんとしてふそくしている。', translation: 'Số nhân viên điều dưỡng năm 2023 khoảng 2,32 triệu người, tăng khoảng 30.000 người so với năm trước. Tuy nhiên, đến năm 2040 cần khoảng 2,72 triệu người, vẫn còn thiếu.' },
+        { japanese: '日本国内の認知症患者は2025年には約700万人に達すると予測されており、65歳以上の約5人に1人が認知症になる計算だ。', reading: 'にほんこくないのにんちしょうかんじゃは2025ねんにはやく700まんにんにたっするとよそくされており、65さいいじょうのやく5にんに1にんがにんちしょうになるけいさんだ。', translation: 'Số bệnh nhân mất trí nhớ ở Nhật được dự báo đạt khoảng 7 triệu người vào năm 2025, tính ra cứ khoảng 5 người từ 65 tuổi trở lên thì có 1 người mắc bệnh.' },
+      ],
+      grammarNote: `【数字・データを読む表現】
+■ 割合：
+・〜割（ví dụ: 3割 = 30%）
+・〜パーセント（%）
+・〜人に〜人（cứ A người thì có B người）
+
+■ 増減：
+・〜%増／〜%減（tăng/giảm〜%）
+・〜倍（gấp〜 lần）
+・過去最多／最少（cao/thấp nhất từ trước đến nay）
+
+■ 予測・推計：
+・〜と予測される（được dự báo là）
+・〜に達すると見込まれる（dự kiến đạt）
+・〜の見通しだ（triển vọng là）`,
+      quiz: {
+        question: '「介護施設の数は10年前と比べて約2倍に増えた」という文から分かることは？',
+        options: [
+          { id: 'a', text: '介護施設の数が10年前の半分になった' },
+          { id: 'b', text: '介護施設の数が10年前より2つ増えた' },
+          { id: 'c', text: '介護施設の数が10年前の2倍になった' },
+          { id: 'd', text: '介護施設の数が毎年2つずつ増えた' },
+        ],
+        correctId: 'c',
+        explanation: '「〜倍に増えた」は元の数量の〜倍になったという意味です。「2倍に増えた」= 10年前の2倍の数になった、という意味です。\n"Tăng gấp 2 lần" có nghĩa là số lượng hiện tại bằng 2 lần số lượng 10 năm trước.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-8': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '原因・理由の表現（〜ため・〜から・なぜなら・〜によって）',
+      titleTranslation: 'Biểu đạt nguyên nhân và lý do (〜ため・〜から・なぜなら・〜によって)',
+      introduction: `説明文では「なぜそうなったのか」という原因・理由の説明が重要な役割を果たします。原因・理由を示す表現を理解することで、文章の論理的なつながりを正確に読み取ることができます。
+
+Trong văn thông tin, giải thích nguyên nhân/lý do "tại sao như vậy" đóng vai trò quan trọng. Hiểu biểu đạt nguyên nhân/lý do giúp đọc chính xác mối liên kết logic trong văn bản.`,
+      keyPoints: [
+        '〜ため（に）：原因・目的を示す書き言葉表現（do〜, vì〜）',
+        '〜から：理由を示す話し言葉・書き言葉両方で使用',
+        'なぜなら〜からだ：理由を強調して説明するパターン',
+        '〜によって：手段・原因・変化の主体を示す',
+        '〜ことから：事実・観察から判断の根拠を示す',
+        '〜ので：原因・理由（からより柔らかい表現）',
+      ],
+      vocabulary: [
+        { word: '要因', reading: 'よういん', meaning: '原因となる要素（yếu tố nguyên nhân）', example: '介護離職の主な要因は家族の介護負担だ' },
+        { word: '影響', reading: 'えいきょう', meaning: 'ある事柄が他に及ぼす作用（ảnh hưởng）', example: '高齢化は医療費に大きな影響を与える' },
+        { word: '背景', reading: 'はいけい', meaning: '物事の後ろにある事情（bối cảnh）', example: '人手不足の背景には低賃金問題がある' },
+        { word: '起因', reading: 'きいん', meaning: '〜が原因で起こること（bắt nguồn từ）', example: '感染症に起因する死者が増えた' },
+        { word: '生じる', reading: 'しょうじる', meaning: '起こる・発生する（phát sinh, nảy sinh）', example: '制度の変更により様々な問題が生じた' },
+      ],
+      examples: [
+        { japanese: '介護職員の不足は、労働環境の厳しさと賃金の低さによって引き起こされている。そのため、外国人介護士の受け入れが重要な解決策となっている。', reading: 'かいごしょくいんのふそくは、ろうどうかんきょうのきびしさとちんぎんのひくさによってひきおこされている。そのため、がいこくじんかいごしのうけいれがじゅうような解決策となっている。', translation: 'Tình trạng thiếu nhân viên điều dưỡng bắt nguồn từ môi trường làm việc khắt khe và mức lương thấp. Do đó, tiếp nhận điều dưỡng nước ngoài trở thành giải pháp quan trọng.' },
+        { japanese: '高齢化が急速に進んでいることから、認知症の患者数が今後さらに増加すると予測されている。', reading: 'こうれいかがきゅうそくにすすんでいることから、にんちしょうのかんじゃすうがこんごさらにぞうかするとよそくされている。', translation: 'Do già hóa dân số diễn ra nhanh chóng, số bệnh nhân mất trí nhớ được dự báo sẽ tiếp tục tăng trong tương lai.' },
+      ],
+      grammarNote: `【原因・理由の表現パターン】
+■ 書き言葉（formal, thường dùng trong báo/văn bản）：
+・〜ため（に）= do〜, vì〜
+・〜によって = bởi vì, do
+・〜ことから = từ thực tế〜
+
+■ 話し言葉・書き言葉両方：
+・〜から = vì〜（lý do）
+・〜ので = do〜（lý do, lịch sự hơn）
+・なぜなら〜からだ = bởi vì〜
+
+【注意】
+「ため」は原因（〜が原因で）と目的（〜の目的で）の両方に使える。
+文脈でどちらの意味か判断する。`,
+      quiz: {
+        question: '「少子化が進んでいる（　　）、将来の介護士不足がさらに深刻になると言われている。」（　　）に入る最も適切な表現は？',
+        options: [
+          { id: 'a', text: 'ため' },
+          { id: 'b', text: 'しかし' },
+          { id: 'c', text: 'つまり' },
+          { id: 'd', text: 'または' },
+        ],
+        correctId: 'a',
+        explanation: '「少子化が進んでいる」が原因で「介護士不足がさらに深刻になる」という結果が生じているので、原因を示す「ため」が正解です。\n"ため" thể hiện nguyên nhân: già hóa dân số dẫn đến thiếu hụt nhân lực điều dưỡng.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-9': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '結果・影響の表現（〜ので・その結果・したがって・〜ことになった）',
+      titleTranslation: 'Biểu đạt kết quả và ảnh hưởng (〜ので・その結果・したがって・〜ことになった)',
+      introduction: `説明文では原因に続いて「その結果どうなったか」を説明する部分が重要です。結果・影響を示す表現を理解することで、文章の論理展開を正確に追うことができます。医療・介護の記事では政策の効果や問題の影響を述べる際によく使われます。
+
+Trong văn thông tin, phần giải thích "kết quả là gì" tiếp theo nguyên nhân rất quan trọng. Hiểu biểu đạt kết quả/ảnh hưởng giúp theo dõi chính xác logic triển khai. Trong bài về y tế điều dưỡng, thường dùng khi nêu hiệu quả chính sách hay ảnh hưởng của vấn đề.`,
+      keyPoints: [
+        'その結果：前の内容の結果として起きたことを示す',
+        'したがって：論理的な結論・帰結を示す（書き言葉）',
+        '〜ことになった：状況・決定の結果そうなった（やや受け身）',
+        '〜ようになった：変化の結果、新しい状態になった',
+        '〜ため（に）〜た：原因→結果の両方を一文で表す',
+        '「その影響で」「これにより」も結果を導く表現',
+      ],
+      vocabulary: [
+        { word: '結果', reading: 'けっか', meaning: '原因から生じる出来事（kết quả）', example: '調査の結果、問題が明らかになった' },
+        { word: '影響', reading: 'えいきょう', meaning: '他に及ぼす作用（ảnh hưởng）', example: '少子化は経済に大きな影響を与える' },
+        { word: '招く', reading: 'まねく', meaning: '（悪い）結果を引き起こす（dẫn đến）', example: '過労は健康問題を招く恐れがある' },
+        { word: '改善', reading: 'かいぜん', meaning: 'よくなること（cải thiện）', example: '処遇改善により離職率が下がった' },
+        { word: '普及', reading: 'ふきゅう', meaning: '広く行き渡ること（phổ biến）', example: 'ICT技術の普及により業務が効率化した' },
+      ],
+      examples: [
+        { japanese: '介護報酬が引き上げられた。その結果、介護職員の離職率がやや低下し、採用状況も改善された。', reading: 'かいごほうしゅうがひきあげられた。そのけっか、かいごしょくいんのりしょくりつがやていかし、さいようじょうきょうもかいぜんされた。', translation: 'Thù lao điều dưỡng được nâng lên. Kết quả là tỷ lệ nghỉ việc của nhân viên điều dưỡng giảm nhẹ và tình hình tuyển dụng cũng được cải thiện.' },
+        { japanese: '高齢者向けICTサービスが普及したことにより、独居老人の孤立問題が緩和されるようになった。', reading: 'こうれいしゃむけICTサービスがふきゅうしたことにより、どっきょろうじんのこりつもんだいがかんわされるようになった。', translation: 'Nhờ dịch vụ ICT dành cho người cao tuổi được phổ biến, vấn đề cô lập của người cao tuổi sống một mình dần được giảm bớt.' },
+      ],
+      grammarNote: `【結果・影響の表現まとめ】
+■ 結果を示す接続詞：
+・その結果（kết quả là）
+・したがって（do đó, vì vậy）
+・これにより（nhờ đó, do đó）
+・その影響で（dưới ảnh hưởng đó）
+
+■ 変化の結果を示す：
+・〜ようになった（trở nên〜）
+・〜ことになった（trở thành〜, được quyết định〜）
+・〜ことが明らかになった（trở nên rõ ràng rằng〜）
+
+【読解のコツ】
+「その結果」の直後に注目すると、問いの答えになることが多い。`,
+      quiz: {
+        question: '「制度が改正された。（　　）、より多くの外国人が介護職に就けるようになった。」最も適切な表現は？',
+        options: [
+          { id: 'a', text: 'なぜなら' },
+          { id: 'b', text: 'その結果' },
+          { id: 'c', text: 'ところが' },
+          { id: 'd', text: 'たとえば' },
+        ],
+        correctId: 'b',
+        explanation: '制度改正という原因から、外国人が介護職に就けるようになったという結果が続いています。結果を示す「その結果」が最も適切です。\n"Kết quả là" phù hợp vì đây là kết quả của việc cải cách chế độ.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-10': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '医療・健康情報の説明文（病気・予防・介護）',
+      titleTranslation: 'Văn bản thông tin y tế và sức khỏe (bệnh tật, phòng ngừa, điều dưỡng)',
+      introduction: `医療・健康に関する説明文は、N3の読解問題でよく出題されます。特に介護・看護分野で働くベトナム人にとって、日本語の医療文書を正確に読む力は欠かせません。病気の症状・予防策・治療法・介護方法を説明する表現を学びましょう。
+
+Văn bản thông tin về y tế và sức khỏe thường xuất hiện trong bài đọc hiểu N3. Đặc biệt với người Việt làm ngành điều dưỡng/y tế, khả năng đọc chính xác văn bản y tế tiếng Nhật là không thể thiếu. Hãy học các biểu đạt về triệu chứng, biện pháp phòng ngừa, phương pháp điều trị và chăm sóc.`,
+      keyPoints: [
+        '症状の表現：〜が現れる・〜を示す・〜を訴える・〜が起こる',
+        '予防の表現：〜を防ぐ・〜することが大切だ・〜に努める',
+        '原因の表現：〜が原因で・〜によって引き起こされる',
+        '経過の表現：〜が進行する・〜が悪化する・〜が改善する',
+        '医療文書の特徴：受動態（〜される・〜が行われる）が多い',
+        '注意情報：「〜には注意が必要だ」「〜の恐れがある」',
+      ],
+      vocabulary: [
+        { word: '症状', reading: 'しょうじょう', meaning: '病気の表れ方（triệu chứng）', example: '発熱・咳などの症状が現れた' },
+        { word: '予防', reading: 'よぼう', meaning: '病気にならないようにすること（phòng ngừa）', example: '感染症の予防には手洗いが効果的だ' },
+        { word: '悪化', reading: 'あっか', meaning: '状態が悪くなること（trở nên tệ hơn）', example: '早期発見により症状の悪化を防ぐ' },
+        { word: '介護予防', reading: 'かいごよぼう', meaning: '要介護状態を防ぐこと（phòng ngừa cần chăm sóc）', example: '介護予防のための運動教室が開かれた' },
+        { word: '重篤', reading: 'じゅうとく', meaning: '病状が重いこと（nghiêm trọng, nặng）', example: '重篤な状態になる前に対処することが重要だ' },
+      ],
+      examples: [
+        { japanese: '認知症は脳の神経細胞が失われることで起こり、記憶障害・判断力の低下などの症状が現れる。早期発見・早期対応が重要とされている。', reading: 'にんちしょうはのうのしんけいさいぼうがうしなわれることでおこり、きおくしょうがい・はんだんりょくのていかなどのしょうじょうがあらわれる。そうきはっけん・そうきたいおうがじゅうようとされている。', translation: 'Chứng mất trí nhớ xảy ra khi tế bào thần kinh não bị mất, xuất hiện các triệu chứng như rối loạn trí nhớ, giảm khả năng phán đoán. Phát hiện sớm và ứng phó sớm được coi là quan trọng.' },
+        { japanese: '高血圧は自覚症状が出にくいため、「サイレントキラー」とも呼ばれる。定期的な血圧測定と生活習慣の改善が予防に効果的だ。', reading: 'こうけつあつはじかくしょうじょうがでにくいため、「サイレントキラー」ともよばれる。ていきてきなけつあつそくていとせいかつしゅうかんのかいぜんがよぼうにこうかてきだ。', translation: 'Huyết áp cao khó có triệu chứng tự giác nên còn được gọi là "kẻ giết người thầm lặng". Đo huyết áp định kỳ và cải thiện thói quen sinh hoạt có hiệu quả trong phòng ngừa.' },
+      ],
+      grammarNote: `【医療文書の読み方】
+■ よく使われる受動態：
+・〜が行われる（được thực hiện）
+・〜が確認される（được xác nhận）
+・〜と診断される（được chẩn đoán）
+・〜が求められる（được yêu cầu）
+
+■ 注意・警告の表現：
+・〜の恐れがある（có nguy cơ〜）
+・〜には注意が必要だ（cần chú ý đến〜）
+・〜を避けることが大切だ（quan trọng là tránh〜）
+
+■ 医療数値の読み方：
+血圧 120/80 = 上が120、下が80（収縮期/拡張期）`,
+      quiz: {
+        question: '「早期発見・早期対応が重要とされている」の「とされている」はどういう意味ですか？',
+        options: [
+          { id: 'a', text: '筆者だけがそう思っている' },
+          { id: 'b', text: '一般的にそのように考えられている・言われている' },
+          { id: 'c', text: '法律でそのように決められている' },
+          { id: 'd', text: '昔からそう決まっている' },
+        ],
+        correctId: 'b',
+        explanation: '「〜とされている」は「一般的に・広く〜と考えられている」という意味で、社会的な認識や通説を表します。筆者個人の意見ではなく、多くの人が共有する見解です。\n"〜とされている" có nghĩa là "được cho là〜 nói chung", thể hiện nhận thức xã hội hay quan điểm phổ biến.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-11': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '社会問題を扱う記事（少子高齢化・外国人労働者）',
+      titleTranslation: 'Bài báo về vấn đề xã hội (già hóa dân số, lao động nước ngoài)',
+      introduction: `日本の新聞では少子高齢化・外国人労働者・介護人材不足などの社会問題が頻繁に取り上げられます。これらのテーマはN3読解でも頻出です。社会問題を扱う記事では、問題の現状・原因・対策という構造を意識して読みましょう。
+
+Báo Nhật thường đề cập các vấn đề xã hội như già hóa dân số, lao động nước ngoài, thiếu nhân lực điều dưỡng. Những chủ đề này cũng thường xuất hiện trong đọc hiểu N3. Khi đọc bài về vấn đề xã hội, hãy ý thức cấu trúc: hiện trạng vấn đề → nguyên nhân → biện pháp.`,
+      keyPoints: [
+        '社会問題記事の基本構造：現状→原因→影響→対策',
+        '問題提起の表現：〜が深刻化している・〜が課題となっている',
+        '現状の表現：〜の割合が高まっている・〜が増加傾向にある',
+        '対策の表現：〜の取り組みが進む・〜を推進する・〜を検討する',
+        '引用表現：〜によると・〜が明らかになった・〜が示している',
+        '意見・提言：〜が求められる・〜が必要だ・〜を目指すべきだ',
+      ],
+      vocabulary: [
+        { word: '少子高齢化', reading: 'しょうしこうれいか', meaning: '子どもが減り高齢者が増える現象（già hóa dân số, giảm sinh）', example: '少子高齢化により労働力不足が進む' },
+        { word: '深刻', reading: 'しんこく', meaning: '問題が非常に重大なこと（nghiêm trọng）', example: '介護人材不足は深刻な問題だ' },
+        { word: '対策', reading: 'たいさく', meaning: '問題への取り組み（biện pháp đối phó）', example: '政府は少子化対策を強化している' },
+        { word: '受け入れ', reading: 'うけいれ', meaning: '外国人などを迎え入れること（tiếp nhận）', example: '外国人労働者の受け入れが拡大している' },
+        { word: '定着', reading: 'ていちゃく', meaning: '定住・安定して続くこと（định cư, ổn định）', example: '外国人介護士の定着率を高める取り組み' },
+      ],
+      examples: [
+        { japanese: '日本では少子高齢化が急速に進み、介護人材の不足が深刻化している。政府はこの問題に対応するため、外国人介護士の受け入れ拡大や処遇改善を推進している。', reading: 'にほんではしょうしこうれいかがきゅうそくにすすみ、かいごじんざいのふそくがしんこくかしている。せいふはこのもんだいにたいおうするため、がいこくじんかいごしのうけいれかくだいやしょぐうかいぜんをすいしんしている。', translation: 'Tại Nhật Bản, già hóa dân số diễn ra nhanh chóng, tình trạng thiếu nhân lực điều dưỡng ngày càng nghiêm trọng. Chính phủ đang thúc đẩy mở rộng tiếp nhận điều dưỡng nước ngoài và cải thiện đãi ngộ để ứng phó với vấn đề này.' },
+        { japanese: '外国人労働者の増加に伴い、職場での多文化共生への取り組みが企業や施設に求められるようになっている。', reading: 'がいこくじんろうどうしゃのぞうかにともない、しょくばでのたぶんかきょうせいへのとりくみがきぎょうやしせつにもとめられるようになっている。', translation: 'Cùng với sự gia tăng của lao động nước ngoài, doanh nghiệp và cơ sở ngày càng được yêu cầu nỗ lực cùng chung sống đa văn hóa tại nơi làm việc.' },
+      ],
+      grammarNote: `【社会問題記事の読み方】
+■ 問題の深刻さを表す表現：
+・〜が深刻化している（đang trở nên nghiêm trọng）
+・〜が課題となっている（đang là thách thức）
+・〜が懸念される（đáng lo ngại）
+
+■ 対策・解決策の表現：
+・〜に取り組む（nỗ lực giải quyết〜）
+・〜を推進する（thúc đẩy〜）
+・〜を検討する（xem xét〜）
+・〜が求められる（được yêu cầu〜）
+
+【読解のコツ】
+「〜という課題がある。これに対し、〜」という構造に注目。
+課題提示→解決策という流れを追う。`,
+      quiz: {
+        question: '「少子化対策の一環として、育児休業制度の充実が図られている」の「〜の一環として」はどういう意味ですか？',
+        options: [
+          { id: 'a', text: '少子化対策に反対して' },
+          { id: 'b', text: '少子化対策の全てとして' },
+          { id: 'c', text: '少子化対策の取り組みの一部として' },
+          { id: 'd', text: '少子化対策の結果として' },
+        ],
+        correctId: 'c',
+        explanation: '「〜の一環として」は「〜という大きな取り組みの一部として」という意味です。育児休業制度の充実は少子化対策の中の一つの施策であることを示しています。\n"〜の一環として" có nghĩa là "như một phần của〜", thể hiện đây là một trong nhiều biện pháp của chính sách lớn hơn.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-12': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '科学・技術の説明文（AI・医療技術）',
+      titleTranslation: 'Văn bản thông tin về khoa học công nghệ (AI, công nghệ y tế)',
+      introduction: `近年、AI・ロボット・ICTなどの技術が医療・介護分野に急速に導入されています。科学・技術の説明文では、技術の仕組み・効果・課題を論理的に説明します。専門用語が多いですが、文章の構造を理解することで内容を読み取ることができます。
+
+Gần đây, các công nghệ như AI, robot, ICT đang được đưa vào lĩnh vực y tế và điều dưỡng nhanh chóng. Văn bản thông tin về khoa học công nghệ giải thích cơ chế, hiệu quả và thách thức của công nghệ một cách logic. Dù có nhiều thuật ngữ chuyên môn nhưng hiểu cấu trúc văn bản giúp đọc được nội dung.`,
+      keyPoints: [
+        '技術説明文の構造：概要→仕組み→効果・メリット→課題・デメリット',
+        '仕組みの説明：〜によって・〜を通じて・〜を用いて',
+        '効果の表現：〜が可能になる・〜を実現する・〜に貢献する',
+        '課題の表現：〜という問題がある・〜が懸念される・〜には限界がある',
+        '専門用語：文脈と前後の説明から意味を推測する',
+        '受動態が多い：〜が開発された・〜が導入されている・〜が活用されている',
+      ],
+      vocabulary: [
+        { word: '導入', reading: 'どうにゅう', meaning: '新しいものを取り入れること（đưa vào, áp dụng）', example: 'AIを介護施設に導入する試みが進む' },
+        { word: '活用', reading: 'かつよう', meaning: 'うまく使うこと（tận dụng, ứng dụng）', example: 'データを活用して介護の質を向上させる' },
+        { word: '課題', reading: 'かだい', meaning: '解決すべき問題（thách thức, vấn đề cần giải quyết）', example: 'AI導入のコストが課題となっている' },
+        { word: '精度', reading: 'せいど', meaning: '正確さの程度（độ chính xác）', example: 'AI診断の精度が向上している' },
+        { word: '実証', reading: 'じっしょう', meaning: '実際に証明すること（chứng minh thực tế）', example: '介護ロボットの効果を実証実験で確認する' },
+      ],
+      examples: [
+        { japanese: 'AIを活用した転倒予防システムが介護施設で試験導入されている。このシステムは、カメラ映像を解析して転倒リスクの高い利用者を事前に検知することが可能だ。', reading: 'AIをかつようしたてんとうよぼうシステムがかいごしせつでしけんどうにゅうされている。このシステムは、カメラえいぞうをかいせきしててんとうリスクのたかいりようしゃをじぜんにけんちすることがかのうだ。', translation: 'Hệ thống phòng ngừa té ngã ứng dụng AI đang được thí điểm tại cơ sở điều dưỡng. Hệ thống này có thể phân tích hình ảnh camera để phát hiện trước người dùng có nguy cơ té ngã cao.' },
+        { japanese: '医療AIの活用により診断の精度が向上している一方、医師の判断を補助するツールとして位置づけることが重要であるという指摘もある。', reading: 'いりょうAIのかつようによりしんだんのせいどがこうじょうしているいっぽう、いしのはんだんをほじょするツールとしてくらいづけることがじゅうようであるというしてきもある。', translation: 'Trong khi ứng dụng AI y tế giúp nâng cao độ chính xác chẩn đoán, cũng có ý kiến chỉ ra rằng quan trọng là định vị nó như một công cụ hỗ trợ phán đoán của bác sĩ.' },
+      ],
+      grammarNote: `【科学・技術の説明文で使われる表現】
+■ 仕組み・方法：
+・〜によって（bằng cách〜）
+・〜を用いて（sử dụng〜）
+・〜を通じて（thông qua〜）
+
+■ 可能性・効果：
+・〜が可能になる（có thể〜）
+・〜を実現する（thực hiện〜）
+・〜に貢献する（đóng góp vào〜）
+
+■ 問題・限界：
+・〜という問題がある（có vấn đề là〜）
+・〜には限界がある（có giới hạn là〜）
+・〜が懸念される（đáng lo ngại về〜）
+
+【コツ】専門用語は前後の文から意味を推測しよう。`,
+      quiz: {
+        question: '「このシステムは転倒リスクを事前に検知することが可能だ」の「〜ことが可能だ」と同じ意味の表現は？',
+        options: [
+          { id: 'a', text: '〜ことができる' },
+          { id: 'b', text: '〜ことがある' },
+          { id: 'c', text: '〜かもしれない' },
+          { id: 'd', text: '〜ようになる' },
+        ],
+        correctId: 'a',
+        explanation: '「〜ことが可能だ」は「〜ことができる」とほぼ同じ意味ですが、「〜ことが可能だ」は書き言葉・フォーマルな文章でよく使われます。\n"〜ことが可能だ" và "〜ことができる" gần như cùng nghĩa, nhưng "〜ことが可能だ" thường dùng trong văn viết/văn phong trang trọng.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-13': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '生活・習慣に関するコラム（日本の習慣・食文化）',
+      titleTranslation: 'Cột báo về cuộc sống và thói quen (phong tục Nhật Bản, văn hóa ẩm thực)',
+      introduction: `新聞のコラムや生活情報記事は、日本の文化・習慣・食生活などを読みやすい文体で紹介します。N3レベルでは、筆者の視点や感想が入った「コラム」を読む練習も重要です。文化的な背景を理解しながら読むことで、理解が深まります。
+
+Cột báo và bài thông tin sinh hoạt giới thiệu văn hóa, phong tục, chế độ ăn uống Nhật Bản bằng văn phong dễ đọc. Ở trình độ N3, luyện đọc "cột báo" có quan điểm và cảm nhận của tác giả cũng quan trọng. Đọc với sự hiểu biết về nền tảng văn hóa giúp nắm bài sâu hơn.`,
+      keyPoints: [
+        'コラムの特徴：筆者の意見・感想・体験談が含まれる',
+        '日常の観察から社会的なテーマに広げる構造が多い',
+        '「〜ものだ」「〜ではないだろうか」は筆者の感慨・主張',
+        '文化説明：日本特有の習慣を外国人にも分かるよう説明',
+        '食文化：「〜を食べる習慣がある」「〜に由来する」',
+        '季節・行事：「〜の時期になると」「〜が行われる」',
+      ],
+      vocabulary: [
+        { word: '習慣', reading: 'しゅうかん', meaning: '繰り返し行われる行動・慣例（thói quen, tập tục）', example: '手を合わせて「いただきます」と言う習慣がある' },
+        { word: '由来', reading: 'ゆらい', meaning: 'もとになった起源（nguồn gốc, xuất phát）', example: '「いただきます」は感謝の気持ちに由来する' },
+        { word: '根付く', reading: 'ねづく', meaning: '定着する・浸透する（ăn sâu, bén rễ）', example: '和食文化は日本に深く根付いている' },
+        { word: '風習', reading: 'ふうしゅう', meaning: '地域・集団の慣わし（phong tục）', example: '正月に雑煮を食べる風習がある' },
+        { word: '伝承', reading: 'でんしょう', meaning: '代々伝えること（truyền thừa）', example: '伝統的な食文化を次世代に伝承する' },
+      ],
+      examples: [
+        { japanese: '日本の介護施設では、食事の際に「いただきます」「ごちそうさまでした」を声に出す習慣がある。これは食べ物や料理した人への感謝を表す日本独自の文化だ。', reading: 'にほんのかいごしせつでは、しょくじのさいに「いただきます」「ごちそうさまでした」をこえにだすしゅうかんがある。これはたべものやりょうりしたひとへのかんしゃをあらわすにほんどくじのぶんかだ。', translation: 'Tại cơ sở điều dưỡng Nhật Bản, có thói quen nói to "itadakimasu" và "gochisousama deshita" khi ăn. Đây là văn hóa độc đáo của Nhật thể hiện lòng biết ơn đối với thức ăn và người nấu.' },
+        { japanese: '高齢者の多い介護施設では、行事食として季節の料理を提供することで、利用者が季節の変化を感じられるよう工夫されている。', reading: 'こうれいしゃのおおいかいごしせつでは、ぎょうじしょくとしてきせつのりょうりをていきょうすることで、りようしゃがきせつのへんかをかんじられるようくふうされている。', translation: 'Tại cơ sở điều dưỡng nhiều người cao tuổi, người ta phục vụ món ăn theo mùa như bữa ăn lễ hội để người dùng cảm nhận được sự thay đổi của mùa.' },
+      ],
+      grammarNote: `【コラム読解のポイント】
+■ 筆者の意見・感想を示す表現：
+・〜ものだ（đó là lẽ thường, thật〜）
+・〜ではないだろうか（chẳng phải〜sao?）
+・〜と感じる（cảm thấy〜）
+・〜と言えるだろう（có thể nói là〜）
+
+■ 日本文化の説明でよく使う表現：
+・〜という習慣がある（có thói quen〜）
+・〜に由来する（có nguồn gốc từ〜）
+・〜が行われる（được tổ chức/thực hiện〜）
+・〜が根付いている（đã ăn sâu〜）`,
+      quiz: {
+        question: '「〜ものだ」が文末に使われているとき、筆者はどのような気持ちを表していますか？',
+        options: [
+          { id: 'a', text: '命令・指示' },
+          { id: 'b', text: '感慨・しみじみとした感想・一般的な真理' },
+          { id: 'c', text: '強い否定' },
+          { id: 'd', text: '未来の予測' },
+        ],
+        correctId: 'b',
+        explanation: '「〜ものだ」はコラムなどで「しみじみとした感慨」や「一般的な真理」を表します。例：「時間が経つのは早いものだ」「人は誰でも老いるものだ」。\n"〜ものだ" trong cột báo thể hiện cảm xúc sâu lắng hay chân lý chung, ví dụ "thời gian trôi nhanh thật" hay "ai rồi cũng già".',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-14': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '統計・調査報告を読む（グラフの説明文・アンケート結果）',
+      titleTranslation: 'Đọc báo cáo thống kê và khảo sát (văn bản giải thích biểu đồ, kết quả ankét)',
+      introduction: `新聞や報告書では、統計データやアンケート結果を文章で説明することがよくあります。グラフや表を言葉で説明する文章では、数値の読み方・変化の表現・割合の表現が重要です。調査報告を正確に読む力はN3で必要なスキルです。
+
+Báo và báo cáo thường giải thích bằng văn bản dữ liệu thống kê và kết quả khảo sát. Trong văn bản mô tả biểu đồ và bảng, cách đọc số liệu, biểu đạt thay đổi và tỷ lệ rất quan trọng. Đọc chính xác báo cáo điều tra là kỹ năng cần thiết ở N3.`,
+      keyPoints: [
+        'グラフ説明の定番表現：〜は〜%を占めている・〜が最も多い',
+        '変化の表現：〜から〜へと増加した・〜が〜%上昇した',
+        '調査主体の表示：〜省・〜研究所によると・〜が調査した結果',
+        'アンケート結果：〜と回答した人が最多・〜と感じている割合',
+        '注目すべき点：特に・とりわけ・際立っているのは',
+        '調査の限界：〜に限られる・〜のみを対象とした調査',
+      ],
+      vocabulary: [
+        { word: '調査', reading: 'ちょうさ', meaning: '情報を集めて確かめること（điều tra, khảo sát）', example: '厚生労働省が介護実態調査を実施した' },
+        { word: '割合', reading: 'わりあい', meaning: '全体に対する比（tỷ lệ）', example: '認知症の割合は年齢とともに増加する' },
+        { word: '占める', reading: 'しめる', meaning: '全体の中の一定の部分を持つ（chiếm）', example: '女性が介護職員全体の7割を占める' },
+        { word: '回答', reading: 'かいとう', meaning: 'アンケートの答え（câu trả lời, phản hồi）', example: '「負担が大きい」と回答した人が60%に達した' },
+        { word: '傾向', reading: 'けいこう', meaning: '一定の方向性・パターン（xu hướng）', example: '要介護度が重くなる傾向が見られる' },
+      ],
+      examples: [
+        { japanese: '介護職員を対象にした調査によると、「仕事の負担が大きい」と回答した人が全体の72%を占め、特に夜勤の負担を挙げる人が多かった。', reading: 'かいごしょくいんをたいしょうにしたちょうさによると、「しごとのふたんがおおきい」とかいとうしたひとがぜんたいの72%をしめ、とくによきんのふたんをあげるひとがおおかった。', translation: 'Theo khảo sát nhắm vào nhân viên điều dưỡng, 72% trong tổng số trả lời "gánh nặng công việc lớn", đặc biệt nhiều người nêu gánh nặng trực đêm.' },
+        { japanese: '同調査では、年収300万円未満の介護職員が全体の45%を占めており、処遇改善が急務であることが改めて示された。', reading: 'どうちょうさでは、ねんしゅう300まんえんみまんのかいごしょくいんがぜんたいの45%をしめており、しょぐうかいぜんがきゅうむであることがあらためてしめされた。', translation: 'Trong cùng cuộc khảo sát, nhân viên điều dưỡng có thu nhập hàng năm dưới 3 triệu yên chiếm 45% tổng số, một lần nữa cho thấy cải thiện đãi ngộ là việc cấp bách.' },
+      ],
+      grammarNote: `【統計・調査報告の読み方】
+■ データの出所を示す：
+・〜によると（theo〜）
+・〜が調査した結果（kết quả điều tra của〜）
+・〜省の発表によれば（theo công bố của bộ〜）
+
+■ 割合の表現：
+・〜%を占める（chiếm〜%）
+・〜割に達する（đạt〜/10）
+・〜人に1人（cứ〜 người thì có 1 người）
+
+■ 変化の表現：
+・〜ポイント増加/減少（tăng/giảm〜 điểm phần trăm）
+・〜比で〜%増（tăng〜% so với〜）
+・過去最高/最低を記録（ghi kỷ lục cao/thấp nhất）`,
+      quiz: {
+        question: '「女性が介護職員全体の7割を占める」を別の言い方にすると？',
+        options: [
+          { id: 'a', text: '介護職員の70%が女性だ' },
+          { id: 'b', text: '介護職員の女性は7人だ' },
+          { id: 'c', text: '7割の介護施設で女性が働いている' },
+          { id: 'd', text: '女性は7つの施設で働いている' },
+        ],
+        correctId: 'a',
+        explanation: '「7割を占める」= 70%を占める＝ 70%がそれにあたる、という意味です。「〜割」は10分の〜のことで、7割＝70%です。\n"7割" = 70%. "〜を占める" = chiếm〜. Vậy "女性が7割を占める" = 70% là nữ.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-15': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '条件・例外を含む文章（ただし・〜の場合・〜を除いて）',
+      titleTranslation: 'Văn bản chứa điều kiện và ngoại lệ (ただし・〜の場合・〜を除いて)',
+      introduction: `規則・制度・案内文などでは、基本的なルールに加えて条件や例外が書かれていることが多いです。「ただし」「〜の場合」「〜を除いて」などの表現を正確に読み取ることが、内容の正確な理解につながります。介護施設の案内や就労規則でもよく使われます。
+
+Trong quy tắc, chế độ, văn bản hướng dẫn, ngoài quy tắc cơ bản thường có điều kiện và ngoại lệ. Đọc chính xác các biểu đạt như "ただし", "〜の場合", "〜を除いて" giúp hiểu đúng nội dung. Cũng thường dùng trong hướng dẫn cơ sở điều dưỡng và nội quy lao động.`,
+      keyPoints: [
+        'ただし：基本ルールの後に例外・条件を加える',
+        '〜の場合（は）：特定の条件の下での取り扱いを示す',
+        '〜を除いて／〜を除き：一部を除外することを示す',
+        '〜に限り：特定の条件の場合のみ適用されることを示す',
+        '〜であれば：条件を示す仮定表現',
+        '〜とは限らない：一般化できない・例外があることを示す',
+      ],
+      vocabulary: [
+        { word: '条件', reading: 'じょうけん', meaning: 'ある事が成り立つための要件（điều kiện）', example: '利用条件を確認してから申し込む' },
+        { word: '例外', reading: 'れいがい', meaning: '通常のルールが適用されない場合（ngoại lệ）', example: '緊急の場合は例外として対応する' },
+        { word: '適用', reading: 'てきよう', meaning: 'ルールなどを当てはめること（áp dụng）', example: '介護保険は65歳以上に適用される' },
+        { word: '対象', reading: 'たいしょう', meaning: 'ある事が向けられるもの（đối tượng）', example: 'このサービスは要介護1以上が対象だ' },
+        { word: '除く', reading: 'のぞく', meaning: '含めない・外す（loại trừ）', example: '祝日を除く平日に開催される' },
+      ],
+      examples: [
+        { japanese: '介護保険サービスは原則として65歳以上が利用できる。ただし、40歳以上64歳以下であっても、特定の疾病が原因で介護が必要な場合は利用可能だ。', reading: 'かいごほけんサービスはげんそくとして65さいいじょうがりようできる。ただし、40さいいじょう64さいいかであっても、とくていのしっぺいがげんいんでかいごがひつようなばあいはりようかのうだ。', translation: 'Nguyên tắc là dịch vụ bảo hiểm điều dưỡng dành cho người từ 65 tuổi trở lên. Tuy nhiên, ngay cả người từ 40 đến 64 tuổi cũng có thể sử dụng nếu cần chăm sóc do bệnh đặc định.' },
+        { japanese: '施設の面会は毎日10時から17時まで可能です。ただし、感染症流行時を除き、事前予約は不要です。', reading: 'しせつのめんかいはまいにち10じから17じまでかのうです。ただし、かんせんしょうりゅうこうじをのぞき、じぜんよやくはふようです。', translation: 'Thăm hỏi tại cơ sở có thể thực hiện mỗi ngày từ 10 giờ đến 17 giờ. Tuy nhiên, trừ thời điểm bệnh truyền nhiễm lưu hành, không cần đặt lịch trước.' },
+      ],
+      grammarNote: `【条件・例外の表現まとめ】
+■ 例外を加える：
+・ただし（tuy nhiên, nhưng là điều kiện）
+・もっとも（tuy nhiên）
+
+■ 特定条件を示す：
+・〜の場合（は）（trong trường hợp〜）
+・〜であれば（nếu là〜）
+・〜に限り（chỉ trong trường hợp〜）
+
+■ 除外を示す：
+・〜を除いて/〜を除き（trừ〜, ngoại trừ〜）
+・〜以外（ngoài〜）
+・〜を除く（loại trừ〜）
+
+■ 一般化できないことを示す：
+・〜とは限らない（không nhất thiết là〜）
+・〜わけではない（không có nghĩa là〜）`,
+      quiz: {
+        question: '「このサービスは無料で利用できます。ただし、65歳以上の方に限ります。」この文の意味は？',
+        options: [
+          { id: 'a', text: '65歳以上の人は有料でこのサービスを使える' },
+          { id: 'b', text: '65歳以上の人だけが無料でこのサービスを使える' },
+          { id: 'c', text: '65歳未満の人も無料でこのサービスを使える' },
+          { id: 'd', text: '65歳以上の人はサービスを使えない' },
+        ],
+        correctId: 'b',
+        explanation: '「ただし〜に限ります」は「基本的には無料だが、条件として65歳以上のみ」という意味です。「〜に限る」は「〜だけ」「〜のみ」と同じ意味で、対象を限定します。\n"ただし〜に限ります" nghĩa là "nhưng chỉ dành cho〜", giới hạn đối tượng là người từ 65 tuổi trở lên.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-16': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '伝統・文化の説明文（日本の年中行事・伝統文化）',
+      titleTranslation: 'Văn bản thông tin về truyền thống và văn hóa (lễ hội hàng năm, văn hóa truyền thống Nhật)',
+      introduction: `日本の年中行事や伝統文化に関する説明文は、N3の読解問題でよく出題されます。また、介護施設では年間を通じて様々な行事が行われており、その文化的背景を理解することは、利用者との会話にも役立ちます。
+
+Văn bản thông tin về lễ hội hàng năm và văn hóa truyền thống Nhật Bản thường xuất hiện trong đọc hiểu N3. Ngoài ra, tại cơ sở điều dưỡng có nhiều sự kiện quanh năm, hiểu bối cảnh văn hóa cũng hữu ích cho trò chuyện với người dùng.`,
+      keyPoints: [
+        '行事の説明：〜という行事がある・〜が行われる・〜を祝う',
+        '由来の説明：〜に由来する・〜が起源とされる・〜という意味がある',
+        '慣習の表現：〜する習慣がある・〜を食べる風習がある',
+        '変化の表現：近年では〜・現代では〜・かつては〜',
+        '伝統と現代の対比：昔は〜だったが、今では〜',
+        '地域差の表現：地域によって〜・〜の場合もある',
+      ],
+      vocabulary: [
+        { word: '年中行事', reading: 'ねんじゅうぎょうじ', meaning: '毎年行われる行事・祭り（lễ hội hàng năm）', example: '正月・お盆・七五三などの年中行事がある' },
+        { word: '風物詩', reading: 'ふうぶつし', meaning: '季節を感じさせるもの（biểu tượng theo mùa）', example: '花見は春の風物詩だ' },
+        { word: '先祖', reading: 'せんぞ', meaning: 'ご先祖様・祖先（tổ tiên）', example: 'お盆は先祖の霊を迎える行事だ' },
+        { word: '節句', reading: 'せっく', meaning: '季節の節目の行事（lễ tiết）', example: '3月3日は桃の節句（ひな祭り）だ' },
+        { word: '縁起', reading: 'えんぎ', meaning: '良し悪しの前兆（điềm may mắn）', example: '正月に鏡餅を飾るのは縁起が良いとされる' },
+      ],
+      examples: [
+        { japanese: 'お盆は毎年8月に行われる日本の伝統行事で、先祖の霊が家に戻ってくると信じられている。多くの介護施設でも盆踊りなどの行事が開催される。', reading: 'おぼんはまいとし8がつにおこなわれるにほんのでんとうぎょうじで、せんぞのたましいがいえにもどってくるとしんじられている。おおくのかいごしせつでもぼんおどりなどのぎょうじがかいさいされる。', translation: 'Obon là lễ hội truyền thống Nhật Bản tổ chức hàng năm vào tháng 8, được tin rằng linh hồn tổ tiên sẽ trở về nhà. Nhiều cơ sở điều dưỡng cũng tổ chức các sự kiện như múa Bon.' },
+        { japanese: '節分は2月に行われる行事で、「福は内、鬼は外」と言いながら豆をまく風習がある。近年では恵方巻きを食べる習慣も全国に広まった。', reading: 'せつぶんは2がつにおこなわれるぎょうじで、「ふくはうち、おにはそと」といいながらまめをまくふうしゅうがある。きんねんではえほうまきをたべるしゅうかんもぜんこくにひろまった。', translation: 'Setsubun là lễ hội tổ chức vào tháng 2, có phong tục ném đậu miệng đọc "phúc vào nhà, quỷ ra ngoài". Gần đây thói quen ăn Ehoumaki cũng lan rộng khắp cả nước.' },
+      ],
+      grammarNote: `【伝統・文化の説明文でよく使う表現】
+■ 行事・習慣の説明：
+・〜という行事がある（có lễ hội gọi là〜）
+・〜が行われる（〜được tổ chức）
+・〜する習慣がある（có thói quen〜）
+・〜を食べる風習がある（có phong tục ăn〜）
+
+■ 由来の説明：
+・〜に由来する（có nguồn gốc từ〜）
+・〜が起源とされる（được coi là xuất phát từ〜）
+・〜という意味がある（có nghĩa là〜）
+
+■ 変化・普及：
+・近年では〜（gần đây〜）
+・現代では〜（trong thời hiện đại〜）
+・全国に広まった（lan rộng khắp cả nước）`,
+      quiz: {
+        question: '「お盆は先祖の霊を迎える行事だ」における「迎える」の意味として最も適切なものは？',
+        options: [
+          { id: 'a', text: '先祖の霊を追い払う' },
+          { id: 'b', text: '先祖の霊を歓迎して受け入れる' },
+          { id: 'c', text: '先祖の霊を探す' },
+          { id: 'd', text: '先祖の霊と戦う' },
+        ],
+        correctId: 'b',
+        explanation: '「迎える」は「来た人・ものを受け入れる・歓迎する」という意味です。お盆では先祖の霊が家に帰ってくると考えられており、それを歓迎する行事です。\n"迎える" có nghĩa là "chào đón, tiếp nhận người/vật đến". Obon là lễ hội chào đón linh hồn tổ tiên trở về nhà.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-17': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '環境・自然に関する記事（環境問題・エネルギー）',
+      titleTranslation: 'Bài báo về môi trường và thiên nhiên (vấn đề môi trường, năng lượng)',
+      introduction: `環境問題やエネルギーに関する記事は、N3の読解問題でも扱われることがあります。気候変動・再生可能エネルギー・廃棄物問題などのテーマで使われる特有の表現を学びましょう。また、介護・医療施設の環境への取り組みを紹介する記事も増えています。
+
+Bài báo về vấn đề môi trường và năng lượng đôi khi cũng xuất hiện trong đọc hiểu N3. Hãy học các biểu đạt đặc thù trong chủ đề biến đổi khí hậu, năng lượng tái tạo, vấn đề rác thải. Ngoài ra, bài viết giới thiệu nỗ lực bảo vệ môi trường của cơ sở điều dưỡng/y tế cũng ngày càng nhiều.`,
+      keyPoints: [
+        '環境問題の表現：〜が深刻化する・〜に悪影響を与える・〜が懸念される',
+        '対策の表現：〜を削減する・〜を促進する・〜に取り組む',
+        '数値・目標の表現：〜%削減を目指す・〜年までに〜を達成する',
+        '原因・影響：〜が原因で・〜の影響により・〜をもたらす',
+        '国際的な文脈：〜条約・〜目標・〜に向けた取り組み',
+        '施設での取り組み：省エネ・ゴミ分別・再生可能エネルギー',
+      ],
+      vocabulary: [
+        { word: '排出', reading: 'はいしゅつ', meaning: '外に出すこと（thải ra）', example: '温室効果ガスの排出を削減する' },
+        { word: '削減', reading: 'さくげん', meaning: '量を減らすこと（cắt giảm）', example: 'CO2排出量の削減が求められる' },
+        { word: '再生可能', reading: 'さいせいかのう', meaning: '繰り返し使えるエネルギー源（tái tạo được）', example: '再生可能エネルギーの普及が進む' },
+        { word: '持続可能', reading: 'じぞくかのう', meaning: '長期間続けられる（bền vững）', example: '持続可能な社会の実現を目指す' },
+        { word: '廃棄物', reading: 'はいきぶつ', meaning: 'ゴミ・廃棄するもの（chất thải, rác）', example: '医療廃棄物の適切な処理が義務付けられている' },
+      ],
+      examples: [
+        { japanese: '地球温暖化の影響により、日本でも異常気象が増加している。政府は2050年までにカーボンニュートラルを達成することを目標に掲げている。', reading: 'ちきゅうおんだんかのえいきょうにより、にほんでもいじょうきしょうがぞうかしている。せいふは2050ねんまでにカーボンニュートラルをたっせいすることをもくひょうにかかげている。', translation: 'Do ảnh hưởng của ấm lên toàn cầu, thời tiết bất thường cũng đang tăng ở Nhật Bản. Chính phủ đặt mục tiêu đạt trung hòa carbon vào năm 2050.' },
+        { japanese: 'ある介護施設では、太陽光パネルを設置して電力の一部を再生可能エネルギーでまかなうことで、環境への負荷を減らす取り組みを始めた。', reading: 'あるかいごしせつでは、たいようこうパネルをせっちしてでんりょくのいちぶをさいせいかのうエネルギーでまかなうことで、かんきょうへのふかをへらすとりくみをはじめた。', translation: 'Một cơ sở điều dưỡng đã bắt đầu nỗ lực giảm tác động đến môi trường bằng cách lắp đặt tấm pin mặt trời để cung cấp một phần điện năng từ năng lượng tái tạo.' },
+      ],
+      grammarNote: `【環境記事の表現まとめ】
+■ 問題の深刻さ：
+・〜が深刻化している（đang trở nên nghiêm trọng）
+・〜が懸念される（đáng lo ngại về〜）
+・〜に悪影響を与える（gây ảnh hưởng xấu đến〜）
+
+■ 目標・取り組み：
+・〜%削減を目指す（hướng tới cắt giảm〜%）
+・〜に取り組む（nỗ lực về〜）
+・〜を推進する（thúc đẩy〜）
+・〜年までに〜を達成する（đạt được〜 vào năm〜）
+
+■ SDGs関連表現：
+・持続可能な発展（phát triển bền vững）
+・環境に配慮した（có ý thức về môi trường）`,
+      quiz: {
+        question: '「2050年までにカーボンニュートラルを達成することを目標に掲げている」の「目標に掲げる」の意味は？',
+        options: [
+          { id: 'a', text: '目標をあきらめること' },
+          { id: 'b', text: '目標として公式に宣言・設定すること' },
+          { id: 'c', text: '目標をすでに達成したこと' },
+          { id: 'd', text: '目標を秘密にすること' },
+        ],
+        correctId: 'b',
+        explanation: '「目標に掲げる」は「目標として公式に設定し、発表すること」を意味します。特に政府や組織が公式な方針・目標を宣言する際によく使われます。\n"目標に掲げる" có nghĩa là "chính thức đặt ra và tuyên bố mục tiêu", thường dùng khi chính phủ hay tổ chức tuyên bố phương hướng chính thức.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-18': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '長文読解①（中程度の新聞記事 - 高齢化問題）',
+      titleTranslation: 'Đọc hiểu văn dài ① (bài báo trung bình - vấn đề già hóa)',
+      introduction: `これまで学んだ読解スキル（接続詞・指示語・主張と根拠・比較対比）を使って、実際の新聞記事スタイルの長文を読んでみましょう。高齢化問題をテーマにした記事を通じて、段落ごとの役割を確認しながら読む練習をします。
+
+Hãy dùng các kỹ năng đọc hiểu đã học (liên từ, từ chỉ định, luận điểm và căn cứ, so sánh đối chiếu) để đọc văn dài theo phong cách bài báo thực tế. Luyện đọc bài về chủ đề già hóa dân số, vừa đọc vừa xác nhận vai trò từng đoạn văn.`,
+      keyPoints: [
+        '長文は段落ごとに役割がある：問題提起・説明・具体例・主張',
+        '各段落の最初の文（トピックセンテンス）を優先して読む',
+        '接続詞で論理の流れを確認しながら読む',
+        '指示語が出たら前の文に戻って確認する',
+        '問いに答えるときは該当段落を特定してから読む',
+        '全部を完全に理解しようとせず、問われている部分に集中する',
+      ],
+      vocabulary: [
+        { word: '高齢化社会', reading: 'こうれいかしゃかい', meaning: '高齢者の割合が高い社会（xã hội già hóa）', example: '日本は世界有数の高齢化社会だ' },
+        { word: '要介護', reading: 'ようかいご', meaning: '介護が必要な状態（cần chăm sóc）', example: '要介護状態になるリスクを減らす' },
+        { word: '財政', reading: 'ざいせい', meaning: '国や自治体のお金の管理（tài chính công）', example: '介護保険の財政が逼迫している' },
+        { word: '担う', reading: 'になう', meaning: '役割を持つ・支える（gánh vác, đảm nhận）', example: '地域が高齢者を支える役割を担う' },
+        { word: '逼迫', reading: 'ひっぱく', meaning: '余裕がなく切迫した状態（khủng hoảng, căng thẳng）', example: '介護施設の定員が逼迫している' },
+      ],
+      examples: [
+        {
+          japanese: `【読解文】
+日本の総人口に占める65歳以上の割合は、2023年時点で約29%に達しており、これは世界最高水準である。高齢化の進行に伴い、要介護者の数も増加の一途をたどっており、介護保険制度の財政的な持続可能性が課題となっている。
+
+こうした状況の中、政府は介護人材の確保と介護予防の強化を両輪として政策を進めている。一方で、テクノロジーの活用による介護の効率化も注目されており、介護ロボットやICTを用いたサービスの普及が期待されている。`,
+          reading: 'にほんのそうじんこうにしめる65さいいじょうのわりあいは、2023ねんじてんでやく29%にたっしており、これはせかいさいこうすいじゅんである。こうれいかのしんこうにともない、ようかいごしゃのかずもぞうかのいっとをたどっており、かいごほけんせいどのざいせいてきなじぞくかのうせいがかだいとなっている。',
+          translation: '[Văn đọc] Tỷ lệ người từ 65 tuổi trở lên trong tổng dân số Nhật Bản tính đến năm 2023 đạt khoảng 29%, đây là mức cao nhất thế giới. Cùng với sự tiến triển của già hóa, số người cần chăm sóc ngày càng tăng, tính bền vững về tài chính của chế độ bảo hiểm điều dưỡng trở thành thách thức. Trong tình huống này, chính phủ đang thúc đẩy chính sách song song giữa đảm bảo nhân lực điều dưỡng và tăng cường phòng ngừa cần chăm sóc. Mặt khác, hiệu quả hóa điều dưỡng nhờ ứng dụng công nghệ cũng được chú ý, kỳ vọng vào việc phổ biến robot điều dưỡng và dịch vụ sử dụng ICT.'
+        },
+      ],
+      grammarNote: `【長文読解の戦略】
+Step 1: 見出し・タイトルを読んでテーマを把握
+Step 2: 各段落の最初の文を読んで全体像をつかむ
+Step 3: 設問を確認してから、関係する段落を精読
+Step 4: 指示語・接続詞を手がかりに論理を追う
+Step 5: 選択肢を本文と照合して正解を選ぶ
+
+【よく出る設問タイプ / Dạng câu hỏi thường gặp】
+・「〜とはどういうことか」= 言い換え問題
+・「なぜ〜か」= 理由を本文から探す
+・「〜について、筆者の考えは」= 主張を探す
+・「〜に当てはまる内容は」= 指示語・代名詞問題`,
+      quiz: {
+        question: '上の読解文で、日本政府が進めている政策として述べられているものはどれですか？',
+        options: [
+          { id: 'a', text: '介護保険制度の廃止と新制度の導入' },
+          { id: 'b', text: '介護人材の確保と介護予防の強化' },
+          { id: 'c', text: '高齢者の労働参加の義務化' },
+          { id: 'd', text: '外国人介護士の受け入れ禁止' },
+        ],
+        correctId: 'b',
+        explanation: '第2段落に「政府は介護人材の確保と介護予防の強化を両輪として政策を進めている」と明記されています。本文に直接書かれている内容を正確に読み取ることが大切です。\nĐoạn 2 ghi rõ "chính phủ đang thúc đẩy chính sách song song giữa đảm bảo nhân lực điều dưỡng và tăng cường phòng ngừa". Quan trọng là đọc chính xác nội dung được viết trực tiếp trong bài.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-19': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '長文読解②（説明文 - 外国人介護士）',
+      titleTranslation: 'Đọc hiểu văn dài ② (văn thông tin - điều dưỡng nước ngoài)',
+      introduction: `今回は外国人介護士をテーマにした説明文の長文読解を練習します。この話題はベトナム人学習者にとって特に身近なテーマです。文章全体の主旨をつかみながら、細かい情報も正確に読み取る練習をしましょう。
+
+Lần này luyện đọc hiểu văn dài với chủ đề điều dưỡng nước ngoài. Chủ đề này đặc biệt gần gũi với người học Việt Nam. Hãy luyện vừa nắm ý chính toàn bài vừa đọc chính xác các thông tin chi tiết.`,
+      keyPoints: [
+        '全体の主旨（テーマ・結論）を先に把握する',
+        '具体例や数値は根拠として筆者の主張を支えている',
+        '「〜によると」で始まる文は情報源の明示',
+        '逆接の接続詞（しかし・一方）の後に重要な内容が続く',
+        '最終段落に筆者の意見・提言がまとめられることが多い',
+        '選択肢は「言い過ぎ」「逆の内容」「本文にない内容」を除外する',
+      ],
+      vocabulary: [
+        { word: '在留資格', reading: 'ざいりゅうしかく', meaning: '外国人が日本に滞在できる資格（tư cách lưu trú）', example: '介護の在留資格で日本に来た' },
+        { word: '技能実習', reading: 'ぎのうじっしゅう', meaning: '技術を学ぶための実習制度（thực tập kỹ năng）', example: '技能実習生として介護を学ぶ' },
+        { word: '特定技能', reading: 'とくていぎのう', meaning: '一定の技能がある外国人の在留資格（kỹ năng đặc định）', example: '特定技能1号で介護施設に就職した' },
+        { word: '定着率', reading: 'ていちゃくりつ', meaning: '離職せずに定着している割合（tỷ lệ duy trì, tỷ lệ ổn định）', example: '外国人介護士の定着率向上が課題だ' },
+        { word: '養成', reading: 'ようせい', meaning: '育てること・育成（đào tạo, bồi dưỡng）', example: '介護人材の養成に力を入れる' },
+      ],
+      examples: [
+        {
+          japanese: `【読解文】
+近年、日本の介護現場では外国人介護士の存在が欠かせないものになっている。厚生労働省のデータによると、現在約3万人の外国人が介護分野で働いており、その数は年々増加している。出身国はフィリピン・インドネシア・ベトナムが多く、技能実習や特定技能などの在留資格で来日している。
+
+しかし、外国人介護士の定着に向けては様々な課題がある。日本語の専門用語や文書の読み書きへの対応、文化・習慣の違いへの理解、そしてキャリアパスの整備が主な課題として挙げられる。一方、外国人介護士を積極的に受け入れ、日本語研修や生活サポートを充実させることで、高い定着率を実現している施設もある。
+
+以上のことから、外国人介護士が長期的に活躍できる環境の整備こそが、日本の介護現場の持続可能性を高める鍵だと言えるだろう。`,
+          reading: 'きんねん、にほんのかいごげんばではがいこくじんかいごしのそんざいがかかせないものになっている。こうせいろうどうしょうのデータによると、げんざいやく3まんにんのがいこくじんがかいごぶんやではたらいており、そのかずはねんねんぞうかしている。',
+          translation: '[Văn đọc] Gần đây, sự hiện diện của điều dưỡng nước ngoài đã trở nên không thể thiếu tại hiện trường điều dưỡng Nhật Bản. Theo dữ liệu của Bộ Lao động, hiện có khoảng 30.000 người nước ngoài làm việc trong lĩnh vực điều dưỡng, con số này tăng hàng năm. Phần lớn đến từ Philippines, Indonesia, Việt Nam, sang Nhật theo tư cách thực tập kỹ năng hoặc kỹ năng đặc định. Tuy nhiên, có nhiều thách thức trong việc giữ chân điều dưỡng nước ngoài: thuật ngữ chuyên môn tiếng Nhật, đọc viết tài liệu, hiểu biết về văn hóa phong tục, và xây dựng lộ trình sự nghiệp là các thách thức chính. Mặt khác, cũng có cơ sở tích cực tiếp nhận điều dưỡng nước ngoài, đào tạo tiếng Nhật và hỗ trợ cuộc sống đầy đủ, đạt tỷ lệ duy trì cao. Từ những điều trên, có thể nói rằng xây dựng môi trường để điều dưỡng nước ngoài hoạt động lâu dài chính là chìa khóa nâng cao tính bền vững của hiện trường điều dưỡng Nhật Bản.'
+        },
+      ],
+      grammarNote: `【長文読解②のポイント】
+■ 情報の整理：
+・「〜によると」= 情報源を確認する
+・具体的な数字は裏付けとして使われる
+・「出身国は〜が多く」= 複数の例を列挙
+
+■ 問題提起と解決策：
+・「しかし〜課題がある」= 問題点を示す
+・「一方、〜ている施設もある」= 解決例を示す
+・「以上のことから〜だろう」= 筆者の結論
+
+【選択肢を絞る方法 / Cách loại đáp án】
+× 言い過ぎ（すべて・必ず など）
+× 本文にない情報
+× 本文と逆の内容
+○ 本文の言い換え・要約`,
+      quiz: {
+        question: '上の読解文で、外国人介護士の定着に向けての「課題」として挙げられていないものは？',
+        options: [
+          { id: 'a', text: '日本語の専門用語への対応' },
+          { id: 'b', text: '文化・習慣の違いへの理解' },
+          { id: 'c', text: '出身国の違いによる言語の多様性' },
+          { id: 'd', text: 'キャリアパスの整備' },
+        ],
+        correctId: 'c',
+        explanation: '本文では「日本語の専門用語・文書への対応」「文化・習慣の違い」「キャリアパスの整備」が課題として挙げられていますが、「出身国の違いによる言語の多様性」は本文に記載されていません。\nBài không đề cập "sự đa dạng ngôn ngữ do khác quốc gia xuất thân" là thách thức. Cần chọn nội dung không có trong bài.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-02-20': {
+    courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '総復習テスト（N3読解力の確認）',
+      titleTranslation: 'Bài kiểm tra tổng ôn tập (xác nhận năng lực đọc hiểu N3)',
+      introduction: `このレッスンはコース全体の総復習です。新聞記事の構造・指示語・接続詞・筆者の主張・比較対比・数字の読み方・原因と結果・条件と例外など、これまで学んだすべての読解スキルを確認しましょう。
+
+Bài học này là tổng ôn tập toàn bộ khóa học. Hãy xác nhận tất cả kỹ năng đọc hiểu đã học: cấu trúc bài báo, từ chỉ định, liên từ, luận điểm tác giả, so sánh đối chiếu, đọc số liệu, nguyên nhân và kết quả, điều kiện và ngoại lệ.`,
+      keyPoints: [
+        '【復習①】見出し・リード文・逆ピラミッド構造を意識して読む',
+        '【復習②】指示語（この・その・これ・それ）の対象を前の文から特定する',
+        '【復習③】接続詞（逆接・順接・換言）で論理の流れを追う',
+        '【復習④】「なぜなら〜からだ」「〜べきだ」で筆者の主張と根拠を見つける',
+        '【復習⑤】数字・割合（〜割・前年比・〜倍）を正確に読む',
+        '【復習⑥】「ただし・〜を除いて・〜の場合」で条件・例外を見落とさない',
+      ],
+      vocabulary: [
+        { word: '概要', reading: 'がいよう', meaning: '全体のあらまし（tổng quan, tóm lược）', example: '記事の概要を素早くつかむ' },
+        { word: '論旨', reading: 'ろんし', meaning: '論文・文章の主旨（luận điểm chính）', example: '筆者の論旨を正確に読み取る' },
+        { word: '裏付け', reading: 'うらづけ', meaning: '証拠・根拠（bằng chứng, căn cứ）', example: 'データが主張の裏付けになっている' },
+        { word: '要約', reading: 'ようやく', meaning: '短くまとめること（tóm tắt）', example: '記事を3文で要約する練習をする' },
+        { word: '読解力', reading: 'どっかいりょく', meaning: '文章を理解する能力（năng lực đọc hiểu）', example: '読解力を高めるには多読が効果的だ' },
+      ],
+      examples: [
+        { japanese: '【総復習問題文】日本の介護保険制度は2000年に創設された。制度開始から20年以上が経過した現在、利用者数は当初の約3倍に増加し、給付費も急増している。その一方で、介護を支える人材の不足は深刻であり、政府・民間・地域が連携して解決策を模索している。', reading: 'にほんのかいごほけんせいどは2000ねんにそうせつされた。せいどかいしから20ねんいじょうがけいかしたげんざい、りようしゃすうはとうしょのやく3ばいにぞうかし、きゅうふひもきゅうぞうしている。そのいっぽうで、かいごをささえるじんざいのふそくはしんこくであり、せいふ・みんかん・ちいきがれんけいしてかいけつさくをもさくしている。', translation: '[Bài ôn tổng hợp] Chế độ bảo hiểm điều dưỡng Nhật Bản được thành lập năm 2000. Hiện nay hơn 20 năm kể từ khi bắt đầu, số người sử dụng tăng khoảng gấp 3 lần ban đầu, chi phí trợ cấp cũng tăng mạnh. Mặt khác, tình trạng thiếu nhân lực hỗ trợ điều dưỡng rất nghiêm trọng, chính phủ, tư nhân và cộng đồng đang phối hợp tìm kiếm giải pháp.' },
+        { japanese: '【指示語問題】「制度開始から20年以上が経過した現在、利用者数は当初の約3倍に増加した。その一方で、介護を支える人材の不足は深刻だ。」「その一方で」の「その」は何を指しますか？', reading: 'せいどかいしから20ねんいじょうがけいかしたげんざい、りようしゃすうはとうしょのやく3ばいにぞうかした。そのいっぽうで、かいごをささえるじんざいのふそくはしんこくだ。', translation: '[Bài tập từ chỉ định] "Hiện nay hơn 20 năm kể từ khi bắt đầu, số người sử dụng tăng khoảng gấp 3 lần ban đầu. Mặt khác, thiếu nhân lực hỗ trợ điều dưỡng rất nghiêm trọng." "その" trong "その一方で" chỉ điều gì?' },
+      ],
+      grammarNote: `【N3読解 総復習チェックリスト】
+□ 記事の構造（見出し→リード文→本文）を意識できる
+□ 指示語（この・その・これ・それ）の指示対象を特定できる
+□ 接続詞の種類（逆接・順接・換言・添加）を判断できる
+□ 筆者の主張を示す表現（〜べきだ・〜ではないか）を見つけられる
+□ 比較・対比の表現（〜に対して・〜一方）を理解できる
+□ 数字・割合（〜割・前年比・〜倍）を正確に読める
+□ 原因（〜ため・なぜなら）と結果（その結果・したがって）を区別できる
+□ 条件・例外（ただし・〜の場合・〜を除いて）を見落とさない
+
+【Danh sách kiểm tra N3 đọc hiểu tổng ôn】
+□ Ý thức cấu trúc bài (tiêu đề→dẫn→thân bài)
+□ Xác định đối tượng từ chỉ định
+□ Phân biệt loại liên từ (nghịch tiếp, thuận tiếp, diễn đạt lại, bổ sung)
+□ Tìm biểu đạt luận điểm tác giả
+□ Hiểu biểu đạt so sánh đối chiếu
+□ Đọc chính xác số liệu và tỷ lệ
+□ Phân biệt nguyên nhân và kết quả
+□ Không bỏ sót điều kiện và ngoại lệ`,
+      quiz: {
+        question: '「利用者数は当初の約3倍に増加し、給付費も急増している。その一方で、人材の不足は深刻だ。」「その一方で」はどのような関係を示していますか？',
+        options: [
+          { id: 'a', text: '前の内容の理由を示している' },
+          { id: 'b', text: '前の内容に反対のこと・対照的な事実を加えている' },
+          { id: 'c', text: '前の内容をくわしく説明している' },
+          { id: 'd', text: '前の内容の結果を示している' },
+        ],
+        correctId: 'b',
+        explanation: '「その一方で」は対比・逆接の接続詞で、前の内容（利用者数・給付費の増加）に対して、反対・対照的な事実（人材不足）を加えています。このコースで学んだ接続詞の使い方の総確認問題です。\n"その一方で" là liên từ đối chiếu/nghịch tiếp, thêm sự thật ngược lại (thiếu nhân lực) so với nội dung trước (số người dùng và chi phí tăng). Đây là câu hỏi ôn tập tổng hợp về cách dùng liên từ đã học trong khóa.',
+      },
+      xpReward: 30,
+    },
+  },
+
   // ===== N3 聴解 =====
   'n3-03': {
     courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
@@ -12024,6 +13146,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n4-02': ['n4-02', 'n4-02-2', 'n4-02-3', 'n4-02-4', 'n4-02-5', 'n4-02-6', 'n4-02-7', 'n4-02-8', 'n4-02-9', 'n4-02-10', 'n4-02-11', 'n4-02-12', 'n4-02-13', 'n4-02-14', 'n4-02-15', 'n4-02-16', 'n4-02-17', 'n4-02-18', 'n4-02-19', 'n4-02-20', 'n4-02-21', 'n4-02-22', 'n4-02-23', 'n4-02-24', 'n4-02-25'],
   'n4-04': ['n4-04', 'n4-04-2', 'n4-04-3', 'n4-04-4', 'n4-04-5', 'n4-04-6', 'n4-04-7', 'n4-04-8', 'n4-04-9', 'n4-04-10', 'n4-04-11', 'n4-04-12', 'n4-04-13', 'n4-04-14', 'n4-04-15', 'n4-04-16'],
   'n4-05': ['n4-05', 'n4-05-2', 'n4-05-3', 'n4-05-4', 'n4-05-5', 'n4-05-6', 'n4-05-7', 'n4-05-8', 'n4-05-9', 'n4-05-10', 'n4-05-11', 'n4-05-12', 'n4-05-13', 'n4-05-14', 'n4-05-15'],
+  'n3-02': ['n3-02', 'n3-02-2', 'n3-02-3', 'n3-02-4', 'n3-02-5', 'n3-02-6', 'n3-02-7', 'n3-02-8', 'n3-02-9', 'n3-02-10', 'n3-02-11', 'n3-02-12', 'n3-02-13', 'n3-02-14', 'n3-02-15', 'n3-02-16', 'n3-02-17', 'n3-02-18', 'n3-02-19', 'n3-02-20'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -12176,6 +13299,26 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n4-02-23': { ja: '受身形 〜られる', vi: 'Thể bị động 〜られる' },
   'n4-02-24': { ja: '〜ていただく / 〜てくれる / 〜てあげる', vi: 'Động từ trao nhận' },
   'n4-02-25': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
+  'n3-02':    { ja: '説明文の構造を読む', vi: 'Cấu trúc văn bản thông tin' },
+  'n3-02-2':  { ja: '新聞記事の読み方基礎', vi: 'Cơ bản đọc báo' },
+  'n3-02-3':  { ja: '指示語の理解', vi: 'Hiểu từ chỉ định' },
+  'n3-02-4':  { ja: '接続詞で流れを読む', vi: 'Đọc luồng qua liên từ' },
+  'n3-02-5':  { ja: '筆者の主張と根拠', vi: 'Luận điểm & Lý do' },
+  'n3-02-6':  { ja: '比較・対比の文章', vi: 'So sánh & Đối chiếu' },
+  'n3-02-7':  { ja: '数字・データの文章', vi: 'Số liệu & Dữ liệu' },
+  'n3-02-8':  { ja: '原因・理由の表現', vi: 'Nguyên nhân & Lý do' },
+  'n3-02-9':  { ja: '結果・影響の表現', vi: 'Kết quả & Ảnh hưởng' },
+  'n3-02-10': { ja: '医療・健康の説明文', vi: 'Y tế & Sức khỏe' },
+  'n3-02-11': { ja: '社会問題の記事', vi: 'Vấn đề xã hội' },
+  'n3-02-12': { ja: '科学・技術の説明文', vi: 'Khoa học & Công nghệ' },
+  'n3-02-13': { ja: '生活・習慣のコラム', vi: 'Cột báo cuộc sống' },
+  'n3-02-14': { ja: '統計・調査報告を読む', vi: 'Báo cáo thống kê' },
+  'n3-02-15': { ja: '条件・例外の文章', vi: 'Điều kiện & Ngoại lệ' },
+  'n3-02-16': { ja: '伝統・文化の説明文', vi: 'Truyền thống & Văn hóa' },
+  'n3-02-17': { ja: '環境・自然の記事', vi: 'Môi trường & Tự nhiên' },
+  'n3-02-18': { ja: '長文読解①新聞記事', vi: 'Văn dài①Bài báo' },
+  'n3-02-19': { ja: '長文読解②説明文', vi: 'Văn dài②Văn thông tin' },
+  'n3-02-20': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
 };
 
 // Find course ID for a given lesson ID
