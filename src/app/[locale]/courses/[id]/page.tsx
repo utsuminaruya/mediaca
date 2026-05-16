@@ -15559,7 +15559,2732 @@ Step 4: 設問に答える
     },
   },
 
-  // ===== N5 ひらがな L2 =====
+  // ===== N2 上級文法マスター L2-35 =====
+  'n2-01-2': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法②: 〜をめぐって・〜をめぐる',
+      titleTranslation: 'Ngữ pháp N2②: Xoay quanh... / Về vấn đề...',
+      introduction: `「〜をめぐって」は「〜について話し合ったり争ったりする」という意味で、対立・議論・競争などの文脈で使います。名詞に接続し、後ろには「議論する・対立する・争う」などの動詞が来ることが多いです。
+
+「〜をめぐる」は連体修飾語として使い、名詞を修飾します。
+
+"〜をめぐって" có nghĩa là "xoay quanh (vấn đề/chủ đề nào đó)" - dùng trong ngữ cảnh tranh luận, đối lập, cạnh tranh. Kết nối với danh từ, sau đó thường có các động từ như 議論する、対立する、争う.`,
+      keyPoints: [
+        '接続：名詞 + をめぐって（動詞用法）/ をめぐる + 名詞（連体修飾）',
+        '意味：〜について（争い・議論・競争の対象として）',
+        '後続：議論する・対立する・争う・競争するなど',
+        '書き言葉的・ニュース・論説文でよく使われる',
+        '例：「領土問題をめぐって両国が対立した」',
+      ],
+      vocabulary: [
+        { word: '〜をめぐって', reading: 'をめぐって', meaning: '〜について争う・議論する（xoay quanh）', example: '賃金問題をめぐって交渉が続いている' },
+        { word: '〜をめぐる', reading: 'をめぐる', meaning: '〜に関する（連体修飾）', example: '環境問題をめぐる議論' },
+        { word: '対立', reading: 'たいりつ', meaning: 'đối lập、mâu thuẫn', example: '意見が対立する' },
+        { word: '交渉', reading: 'こうしょう', meaning: 'đàm phán', example: '労使交渉' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '今、医療費の問題をめぐって国会で議論が続いているね。', reading: 'いま、いりょうひのもんだいをめぐってこっかいでぎろんがつづいているね。', translation: 'Hiện tại, quốc hội đang tiếp tục tranh luận xoay quanh vấn đề chi phí y tế nhỉ.' },
+        { speaker: 'B', japanese: 'ええ、与党と野党の対立が激しくなっていますね。', reading: 'ええ、よとうとやとうのたいりつがはげしくなっていますね。', translation: 'Vâng, sự đối lập giữa đảng cầm quyền và đảng đối lập đang ngày càng gay gắt.' },
+        { speaker: 'A', japanese: 'その問題をめぐる報道も増えているようだ。', reading: 'そのもんだいをめぐるほうどうもふえているようだ。', translation: 'Có vẻ như tin tức liên quan đến vấn đề đó cũng đang tăng lên.' },
+      ],
+      examples: [
+        { japanese: '遺産をめぐって兄弟間で争いが起きた。', reading: 'いさんをめぐってきょうだいかんでそうがおきた。', translation: 'Đã xảy ra tranh chấp giữa anh chị em xoay quanh việc thừa kế.' },
+        { japanese: '環境保護をめぐる国際交渉は難航している。', reading: 'かんきょうほごをめぐるこくさいこうしょうはなんこうしている。', translation: 'Đàm phán quốc tế xoay quanh vấn đề bảo vệ môi trường đang gặp nhiều khó khăn.' },
+        { japanese: '経営方針をめぐって取締役会が紛糾した。', reading: 'けいえいほうしんをめぐってとりしまりやくかいがふんきゅうした。', translation: 'Hội đồng quản trị đã xảy ra tranh cãi xoay quanh phương châm kinh doanh.' },
+      ],
+      grammarNote: `【〜をめぐって vs 〜について の違い】
+
+〜をめぐって：争い・議論・対立などの感情的・社会的文脈
+例：「領土問題をめぐって対立」= tranh chấp xoay quanh lãnh thổ
+
+〜について：中立的に「〜のことを話す・書く・考える」
+例：「領土問題について話し合う」= thảo luận về lãnh thổ（中立）
+
+【ポイント】
+「をめぐって」の後ろには否定的ニュアンス（対立・争い・競争）の言葉が多い。「〜をめぐる + 名詞」の形も重要：「彼女をめぐる争い」「資源をめぐる問題」`,
+      quizzes: [
+        {
+          question: '「経営方針（　）、株主と経営陣が激しく対立した。」に入る最も適切な表現は？',
+          options: [
+            { id: 'a', text: 'に関して' },
+            { id: 'b', text: 'をめぐって' },
+            { id: 'c', text: 'について' },
+            { id: 'd', text: 'において' },
+          ],
+          correctId: 'b',
+          explanation: '「対立した」という争いの文脈では「をめぐって」が最適。「に関して」「について」は中立的な表現。
+"Đối lập" là ngữ cảnh tranh chấp nên dùng "をめぐって".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '次の（　）に入る最も適切な語を選んでください：「資源（　）争いが続いている。」',
+          options: [
+            { id: 'a', text: 'をめぐる' },
+            { id: 'b', text: 'に関する' },
+            { id: 'c', text: 'についての' },
+            { id: 'd', text: 'において' },
+          ],
+          correctId: 'a',
+          explanation: '後ろの名詞「争い」を修飾するので連体形「をめぐる」が正解。
+Vì sửa đổi danh từ "争い" phía sau nên dùng dạng liên thể "をめぐる".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-3': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法③: 〜に基づいて・〜に基づく',
+      titleTranslation: 'Ngữ pháp N2③: Dựa trên... / Căn cứ vào...',
+      introduction: `「〜に基づいて」は「〜を根拠・基準として」という意味で、規則・法律・データ・事実などを根拠にして何かをする場合に使います。書き言葉でよく使われ、正式な文書・ビジネス文書・論文などに多く見られます。
+
+「〜に基づく」は連体修飾形として、後ろの名詞を修飾します。
+
+"〜に基づいて" có nghĩa là "dựa trên (quy tắc/luật/dữ liệu/sự thật)" - dùng khi làm gì đó căn cứ vào nền tảng nào đó. Thường xuất hiện trong văn bản chính thức, tài liệu kinh doanh, luận văn.`,
+      keyPoints: [
+        '接続：名詞 + に基づいて（動詞用法）/ に基づく + 名詞（連体修飾）',
+        '意味：〜を根拠・基準として（dựa trên, căn cứ vào）',
+        '根拠となるもの：規則・法律・データ・事実・証拠・経験など',
+        '書き言葉的：公式文書・ビジネス・論文で多用',
+        '例：「法律に基づいて処分された」「証拠に基づく判断」',
+      ],
+      vocabulary: [
+        { word: '〜に基づいて', reading: 'にもとづいて', meaning: 'dựa trên、căn cứ vào', example: '規則に基づいて行動する' },
+        { word: '〜に基づく', reading: 'にもとづく', meaning: 'dựa trên（連体形）', example: '証拠に基づく判断' },
+        { word: '根拠', reading: 'こんきょ', meaning: 'căn cứ, cơ sở', example: '根拠のない噂' },
+        { word: '規程', reading: 'きてい', meaning: 'quy định nội bộ', example: '社内規程に基づく' },
+      ],
+      dialogue: [
+        { speaker: '上司', japanese: 'この評価は何に基づいているの？', reading: 'このひょうかはなににもとづいているの？', translation: 'Đánh giá này dựa trên điều gì vậy?' },
+        { speaker: '部下', japanese: '半年間の売上データに基づいています。', reading: 'はんねんかんのうりあげデータにもとづいています。', translation: 'Dựa trên dữ liệu doanh số 6 tháng ạ.' },
+        { speaker: '上司', japanese: '事実に基づいた報告書を作成してください。', reading: 'じじつにもとづいたほうこくしょをさくせいしてください。', translation: 'Hãy lập báo cáo dựa trên sự thật.' },
+      ],
+      examples: [
+        { japanese: '就業規則に基づいて、処分が下された。', reading: 'しゅうぎょうきそくにもとづいて、しょぶんがくだされた。', translation: 'Hình thức kỷ luật đã được ban hành dựa trên nội quy lao động.' },
+        { japanese: 'この薬は最新の研究に基づいて開発されました。', reading: 'このくすりはさいしんのけんきゅうにもとづいてかいはつされました。', translation: 'Loại thuốc này được phát triển dựa trên nghiên cứu mới nhất.' },
+        { japanese: 'エビデンスに基づく医療が重要視されている。', reading: 'エビデンスにもとづくいりょうがじゅうようしされている。', translation: 'Y học dựa trên bằng chứng đang được coi trọng.' },
+      ],
+      grammarNote: `【に基づいて vs によって の違い】
+
+に基づいて：根拠・基準を示す（規則・データ・事実が根拠）
+例：「法律に基づいて処罰する」= Căn cứ luật để xử phạt
+
+によって：手段・原因・行為者など幅広い意味（L4で詳しく学習）
+例：「事故によって被害が出た」= Thiệt hại do tai nạn
+
+【に基づいた vs に基づく】
+「に基づいた + 名詞」も「に基づく + 名詞」も正しい。
+例：「事実に基づいた/基づく判断」= Phán quyết dựa trên sự thật`,
+      quizzes: [
+        {
+          question: '「（　）に基づいて、この決定が行われました。」の（　）に入る最も自然な語は？',
+          options: [
+            { id: 'a', text: '雰囲気' },
+            { id: 'b', text: '規則' },
+            { id: 'c', text: '感情' },
+            { id: 'd', text: '希望' },
+          ],
+          correctId: 'b',
+          explanation: '「に基づいて」は客観的な根拠（規則・法律・データなど）と一緒に使います。感情や雰囲気は根拠として不適切。
+"に基づいて" dùng với căn cứ khách quan như quy tắc, luật, dữ liệu.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '次の文の（　）に適切な形を選んでください：「（　）判断が求められる。」（に基づく）',
+          options: [
+            { id: 'a', text: '証拠に基づいている' },
+            { id: 'b', text: '証拠に基づく' },
+            { id: 'c', text: '証拠に基づいて' },
+            { id: 'd', text: '証拠に基づき' },
+          ],
+          correctId: 'b',
+          explanation: '後ろの「判断」という名詞を修飾するので、連体形「に基づく」が正解。
+Vì sửa đổi danh từ "判断" phía sau nên dùng dạng liên thể "に基づく".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-4': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法④: 〜によって（手段・原因・違い）',
+      titleTranslation: 'Ngữ pháp N2④: Tùy theo... / Do... / Bởi...',
+      introduction: `「〜によって」はN2で最も重要な表現の一つで、複数の意味を持ちます。①手段・方法「〜を使って」、②原因・理由「〜が原因で」、③違い「〜によって異なる」、④受身の行為者「〜に（よって）行われた」の4つの用法を区別して覚えましょう。
+
+"〜によって" là một trong những biểu hiện quan trọng nhất ở N2 với nhiều nghĩa: ①phương tiện/phương pháp, ②nguyên nhân/lý do, ③sự khác biệt, ④tác nhân bị động.`,
+      keyPoints: [
+        '①手段：「メールによって連絡する」= liên lạc bằng email',
+        '②原因：「地震によって被害が出た」= thiệt hại do động đất',
+        '③違い：「人によって意見が違う」= tùy người mà khác nhau',
+        '④受身の行為者：「法律によって禁止されている」= bị cấm bởi luật',
+        '接続：名詞 + によって / によっては / によっても',
+      ],
+      vocabulary: [
+        { word: '〜によって①', reading: 'によって', meaning: '手段（bằng/thông qua）', example: 'インターネットによって情報を得る' },
+        { word: '〜によって②', reading: 'によって', meaning: '原因（do/vì）', example: '火事によって建物が焼けた' },
+        { word: '〜によって③', reading: 'によって', meaning: '違い（tùy theo）', example: '地域によって習慣が違う' },
+        { word: '〜によっては', reading: 'によっては', meaning: '場合によって（tùy trường hợp）', example: '状況によっては変更する' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: 'この病気の治療法は患者によって違うんですか？', reading: 'このびょうきのちりょうほうはかんじゃによってちがうんですか？', translation: 'Phương pháp điều trị bệnh này có khác nhau tùy bệnh nhân không ạ?' },
+        { speaker: '医師', japanese: 'はい、年齢や体質によって適切な治療が異なります。', reading: 'はい、ねんれいやたいしつによってこうせつなちりょうがことなります。', translation: 'Vâng, phương pháp điều trị thích hợp khác nhau tùy theo tuổi và thể trạng.' },
+        { speaker: 'A', japanese: 'では、場合によっては手術も必要ですか？', reading: 'では、ばあいによってはしゅじゅつもひつようですか？', translation: 'Vậy thì tùy trường hợp có cần phẫu thuật không ạ?' },
+      ],
+      examples: [
+        { japanese: '研究によって新薬の効果が確認された。', reading: 'けんきゅうによってしんやくのこうかがかくにんされた。', translation: 'Hiệu quả của thuốc mới đã được xác nhận thông qua nghiên cứu.' },
+        { japanese: 'その条例は市議会によって可決された。', reading: 'そのじょうれいはしぎかいによってかけつされた。', translation: 'Điều lệ đó đã được hội đồng thành phố thông qua.' },
+        { japanese: '人によっては副作用が出ることもある。', reading: 'ひとによってはふくさようがでることもある。', translation: 'Tùy người cũng có thể xuất hiện tác dụng phụ.' },
+      ],
+      grammarNote: `【〜によって の4つの意味を見分けるポイント】
+
+①手段：「〜を使って」に言い換えられる
+例：「電話によって連絡」→「電話を使って連絡」
+
+②原因：「〜が原因で」に言い換えられる
+例：「地震によって被害」→「地震が原因で被害」
+
+③違い：「〜次第で変わる/異なる」の文脈
+例：「人によって違う」→ tùy người mà khác
+
+④受身の行為者：受身文「〜される」の前後
+例：「先生によって書かれた本」
+
+【重要】「によっては」は「ある条件では」という意味で条件節に使う`,
+      quizzes: [
+        {
+          question: '「この結果は研究（　）明らかになった。」の（　）に入るのは？',
+          options: [
+            { id: 'a', text: 'をめぐって' },
+            { id: 'b', text: 'によって' },
+            { id: 'c', text: 'において' },
+            { id: 'd', text: 'にとって' },
+          ],
+          correctId: 'b',
+          explanation: '「研究によって明らかになった」= Được làm rõ thông qua nghiên cứu。手段・方法の「によって」。
+Đây là "によって" chỉ phương tiện/thủ đoạn.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「地域（　）、医療サービスの質が大きく異なります。」',
+          options: [
+            { id: 'a', text: 'によって' },
+            { id: 'b', text: 'において' },
+            { id: 'c', text: 'に関して' },
+            { id: 'd', text: 'をめぐって' },
+          ],
+          correctId: 'a',
+          explanation: '「地域によって異なる」= Tùy địa phương mà khác nhau。違い・差を表す「によって」。
+Đây là "によって" chỉ sự khác biệt tùy theo điều kiện.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-5': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑤: 〜として・〜としては・〜とした',
+      titleTranslation: 'Ngữ pháp N2⑤: Với tư cách là... / Là...',
+      introduction: `「〜として」は「〜の立場・資格・役割で」という意味で、役割・資格・種類などを表します。N2では「〜としては」「〜とした」「〜としての」などの応用形も重要です。
+
+"〜として" có nghĩa là "với tư cách là / trong vai trò" - biểu thị lập trường, tư cách, vai trò, loại. Ở N2 cũng quan trọng các dạng ứng dụng như "〜としては"、"〜とした"、"〜としての".`,
+      keyPoints: [
+        '接続：名詞 + として（〜の資格・立場・役割で）',
+        '〜としては：〜の立場から言えば（từ góc độ của...）',
+        '〜とした：〜を根拠・条件として（dựa vào/lấy làm）',
+        '〜としての：後ろの名詞を修飾（với tư cách là... + danh từ）',
+        '例：「医師として働く」「日本として賛成できない」',
+      ],
+      vocabulary: [
+        { word: '〜として', reading: 'として', meaning: 'với tư cách là、trong vai trò', example: '看護師として10年働いた' },
+        { word: '〜としては', reading: 'としては', meaning: '〜の立場では（từ góc độ của）', example: '医療機関としては対応が難しい' },
+        { word: '〜としての', reading: 'としての', meaning: '〜として（連体形）', example: '医師としての責任' },
+        { word: '資格', reading: 'しかく', meaning: 'tư cách, bằng cấp', example: '専門家としての資格' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '田中先生は指導医として長く活躍されていますね。', reading: 'たなかせんせいはしどういとしてながくかつやくされていますね。', translation: 'Thầy Tanaka đã hoạt động lâu năm với tư cách là bác sĩ hướng dẫn nhỉ.' },
+        { speaker: 'B', japanese: 'はい、専門家としての知識と経験が豊富です。', reading: 'はい、せんもんかとしてのちしきとけいけんがほうふです。', translation: 'Vâng, có nhiều kiến thức và kinh nghiệm với tư cách chuyên gia.' },
+        { speaker: 'A', japanese: '私個人としては、先生の方針に賛同します。', reading: 'わたしこじんとしては、せんせいのほうしんにさんどうします。', translation: 'Cá nhân tôi thì đồng ý với phương châm của thầy.' },
+      ],
+      examples: [
+        { japanese: '薬剤師として、正確な調剤を心がけています。', reading: 'やくざいしとして、せいかくなちょうざいをこころがけています。', translation: 'Với tư cách là dược sĩ, tôi luôn chú ý pha chế chính xác.' },
+        { japanese: '病院としては、患者のプライバシーを最優先にしています。', reading: 'びょういんとしては、かんじゃのプライバシーをさいゆうせんにしています。', translation: 'Với tư cách là bệnh viện, chúng tôi ưu tiên hàng đầu quyền riêng tư của bệnh nhân.' },
+        { japanese: '介護士としての誇りを持って仕事に臨む。', reading: 'かいごしとしてのほこりをもってしごとにのぞむ。', translation: 'Tham gia công việc với lòng tự hào của người điều dưỡng.' },
+      ],
+      grammarNote: `【〜として の用法まとめ】
+
+①資格・立場：「〜の身分・役職で」
+例：「医師として働く」、「代表として出席する」
+
+②〜としては：「〜の立場から言えば」評価・判断を述べる
+例：「病院としては賛成できない」
+
+③〜とした：「〜を前提・条件として」（やや書き言葉）
+例：「治癒を目標とした治療計画」
+
+④〜としての：連体修飾「〜として（の立場における）」
+例：「看護師としての使命」
+
+【注意】「として」と「にとって」の違い：
+として → 役割・立場（với tư cách）
+にとって → 〜の観点から（đối với）`,
+      quizzes: [
+        {
+          question: '「彼女は通訳（　）会議に参加した。」の（　）は？',
+          options: [
+            { id: 'a', text: 'にとって' },
+            { id: 'b', text: 'として' },
+            { id: 'c', text: 'について' },
+            { id: 'd', text: 'において' },
+          ],
+          correctId: 'b',
+          explanation: '「通訳の立場・役割で」参加したので「として」が正解。「にとって」は「〜の観点では」という意味。
+"として" biểu thị vai trò/tư cách tham gia.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「医療機関（　）、患者の安全が最優先です。」',
+          options: [
+            { id: 'a', text: 'として' },
+            { id: 'b', text: 'としては' },
+            { id: 'c', text: 'にとって' },
+            { id: 'd', text: 'としての' },
+          ],
+          correctId: 'b',
+          explanation: '「医療機関の立場から言えば」というニュアンスがあるので「としては」が最適。
+"としては" biểu thị "từ góc độ/lập trường của".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-6': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑥: 〜に関して・〜に関する',
+      titleTranslation: 'Ngữ pháp N2⑥: Về... / Liên quan đến...',
+      introduction: `「〜に関して」は「〜について（やや公式）」という意味で、公式文書・ビジネスシーン・論説などでよく使われます。「〜について」より格式が高く、書き言葉的な表現です。「〜に関する」は連体修飾形で後ろの名詞を修飾します。
+
+"〜に関して" có nghĩa là "về/liên quan đến (hơi trang trọng)" - thường dùng trong văn bản chính thức, tình huống kinh doanh, xã luận. Trang trọng hơn "〜について". "〜に関する" là dạng liên thể để bổ nghĩa danh từ phía sau.`,
+      keyPoints: [
+        '接続：名詞 + に関して（動詞用法）/ に関する + 名詞（連体修飾）',
+        '意味：〜について（格式的・公式な場面）',
+        '「〜について」との違い：より書き言葉的・フォーマル',
+        '「に関しては」「に関しても」「に関しての」の形も使われる',
+        '例：「個人情報に関してお知らせします」',
+      ],
+      vocabulary: [
+        { word: '〜に関して', reading: 'にかんして', meaning: '〜について（trang trọng）', example: '手続きに関してご説明します' },
+        { word: '〜に関する', reading: 'にかんする', meaning: '〜についての（連体形）', example: '医療に関する法律' },
+        { word: '〜に関しては', reading: 'にかんしては', meaning: '〜については（trang trọng）', example: '費用に関しては別途ご連絡します' },
+        { word: '情報', reading: 'じょうほう', meaning: 'thông tin', example: '患者情報に関して' },
+      ],
+      dialogue: [
+        { speaker: '担当者', japanese: '個人情報の取り扱いに関してご説明いたします。', reading: 'こじんじょうほうのとりあつかいにかんしてごせつめいいたします。', translation: 'Tôi xin giải thích về việc xử lý thông tin cá nhân.' },
+        { speaker: '患者', japanese: 'はい、プライバシーに関する規定を教えてください。', reading: 'はい、プライバシーにかんするきていをおしえてください。', translation: 'Vâng, xin hãy cho tôi biết quy định liên quan đến quyền riêng tư.' },
+        { speaker: '担当者', japanese: '費用に関しては、後ほど詳しくご案内します。', reading: 'ひようにかんしては、のちほどくわしくごあんないします。', translation: 'Về chi phí, tôi sẽ hướng dẫn chi tiết sau.' },
+      ],
+      examples: [
+        { japanese: '薬の副作用に関して、詳しく調査が必要だ。', reading: 'くすりのふくさようにかんして、くわしくちょうさがひつようだ。', translation: 'Cần điều tra chi tiết về tác dụng phụ của thuốc.' },
+        { japanese: '介護報酬に関する制度が変わります。', reading: 'かいごほうしゅうにかんするせいどがかわります。', translation: 'Chế độ liên quan đến phí điều dưỡng sẽ thay đổi.' },
+        { japanese: '労働条件に関しては、組合と交渉中です。', reading: 'ろうどうじょうけんにかんしては、くみあいとこうしょうちゅうです。', translation: 'Về điều kiện lao động, đang trong quá trình đàm phán với công đoàn.' },
+      ],
+      grammarNote: `【〜に関して vs 〜について の使い分け】
+
+に関して（格式高い・書き言葉）
+例：「本件に関してご報告いたします」
+→ ビジネス文書・公式文書・論文
+
+について（普通・話し言葉OK）
+例：「この問題について話し合いましょう」
+→ 日常会話・一般文書
+
+【に関する + 名詞】
+「〜に関する問題/規定/情報/調査」など名詞との組み合わせが多い
+例：「個人情報に関する法律」= Luật liên quan đến thông tin cá nhân
+
+【類似表現との比較】
+〜に関して：内容・主題を示す
+〜について：内容・主題（やや口語的）
+〜をめぐって：争い・議論の対象`,
+      quizzes: [
+        {
+          question: 'より格式の高い表現はどちらですか？',
+          options: [
+            { id: 'a', text: '残業代について説明します' },
+            { id: 'b', text: '残業代に関して説明いたします' },
+            { id: 'c', text: '残業代のことを話します' },
+            { id: 'd', text: '残業代を教えます' },
+          ],
+          correctId: 'b',
+          explanation: '「に関して」+「いたします」の組み合わせが最も格式高い。ビジネス場面に最適。
+"に関して" + "いたします" là kết hợp trang trọng nhất, phù hợp với môi trường kinh doanh.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「（　）に関する書類を提出してください。」の（　）に入る最も自然な語は？',
+          options: [
+            { id: 'a', text: '経歴' },
+            { id: 'b', text: 'だれ' },
+            { id: 'c', text: 'どこ' },
+            { id: 'd', text: 'なにか' },
+          ],
+          correctId: 'a',
+          explanation: '「〜に関する」は名詞と結合するので、名詞「経歴」が適切。
+"〜に関する" kết hợp với danh từ nên "経歴" (tiểu sử) là phù hợp.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-7': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑦: 〜において・〜においては',
+      titleTranslation: 'Ngữ pháp N2⑦: Tại.../Trong lĩnh vực...',
+      introduction: `「〜において」は「〜で（場所・時・状況・分野）」という意味の格式高い表現です。場所だけでなく、時間・分野・状況なども表せる点が「〜で」との大きな違いです。公式文書・スピーチ・論説文などで多用されます。
+
+"〜において" có nghĩa là "tại / trong (địa điểm, thời gian, lĩnh vực, tình huống)" - biểu hiện trang trọng hơn "〜で". Ngoài địa điểm còn có thể biểu thị thời gian, lĩnh vực, tình huống. Thường dùng trong văn bản chính thức, diễn văn, xã luận.`,
+      keyPoints: [
+        '接続：名詞 + において（場所・時・状況・分野）',
+        '「〜で」より格式が高い書き言葉的表現',
+        '場所だけでなく時間・分野・状況にも使える',
+        '「においては」「においても」「における + 名詞」の形も重要',
+        '例：「現代社会において」「医療分野において」',
+      ],
+      vocabulary: [
+        { word: '〜において', reading: 'において', meaning: '〜で（tại/trong）格式的', example: '手術室において処置を行う' },
+        { word: '〜においては', reading: 'においては', meaning: '〜ではとくに（trong ~ thì）', example: '日本においては稀な病気だ' },
+        { word: '〜における', reading: 'における', meaning: '〜での（liên thể）', example: '医療における最先端技術' },
+        { word: '分野', reading: 'ぶんや', meaning: 'lĩnh vực', example: '医療分野において' },
+      ],
+      dialogue: [
+        { speaker: '司会', japanese: '本日は、医療分野における最新の研究についてご報告します。', reading: 'ほんじつは、いりょうぶんやにおけるさいしんのけんきゅうについてごほうこくします。', translation: 'Hôm nay chúng tôi sẽ báo cáo về nghiên cứu mới nhất trong lĩnh vực y tế.' },
+        { speaker: '研究者', japanese: 'この研究は臨床において大きな意義を持っています。', reading: 'このけんきゅうはりんしょうにおいておおきないぎをもっています。', translation: 'Nghiên cứu này có ý nghĩa lớn trong lâm sàng.' },
+        { speaker: '司会', japanese: '現代においては、AIの活用も進んでいますね。', reading: 'げんだいにおいては、AIのかつようもすすんでいますね。', translation: 'Trong thời đại hiện nay, việc ứng dụng AI cũng đang tiến triển nhỉ.' },
+      ],
+      examples: [
+        { japanese: '医療現場において、感染対策は最重要課題だ。', reading: 'いりょうげんばにおいて、かんせんたいさくはさいじゅうようかだいだ。', translation: 'Tại hiện trường y tế, biện pháp phòng chống nhiễm khuẩn là vấn đề quan trọng nhất.' },
+        { japanese: '日本における高齢化率は世界最高水準だ。', reading: 'にほんにおけるこうれいかりつはせかいさいこうすいじゅんだ。', translation: 'Tỷ lệ già hóa tại Nhật Bản ở mức cao nhất thế giới.' },
+        { japanese: '職場においては、上司への敬語が重要です。', reading: 'しょくばにおいては、じょうしへのけいごがじゅうようです。', translation: 'Tại nơi làm việc, kính ngữ với cấp trên là quan trọng.' },
+      ],
+      grammarNote: `【〜において vs 〜で の違い】
+
+で（日常）：場所のみ
+例：「病院で手術する」= Phẫu thuật ở bệnh viện（日常的）
+
+において（格式）：場所・時・分野・状況
+例：「手術室において処置を行う」= Thực hiện xử lý tại phòng mổ（公式）
+
+【において の応用形】
+「においては」：「〜ではとくに」条件を強調
+例：「この地域においては珍しい」
+
+「における + 名詞」：連体修飾
+例：「職場における問題」= Vấn đề tại nơi làm việc
+
+【頻出パターン】
+現代において / 日本において / 医療分野において / 歴史において`,
+      quizzes: [
+        {
+          question: '格式の高い場面で使う表現として適切なのはどれですか？',
+          options: [
+            { id: 'a', text: '病院で説明会をします' },
+            { id: 'b', text: '病院において説明会を開催します' },
+            { id: 'c', text: '病院のところで説明します' },
+            { id: 'd', text: '病院に行って説明します' },
+          ],
+          correctId: 'b',
+          explanation: '「において＋開催します」が最も格式高い表現。ビジネス・公式な場面に適している。
+"において＋開催します" là cách diễn đạt trang trọng nhất, phù hợp với trường hợp chính thức.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「（　）における問題を解決することが急務です。」の（　）に入る最も自然な語は？',
+          options: [
+            { id: 'a', text: '医療現場' },
+            { id: 'b', text: '食べること' },
+            { id: 'c', text: '笑う' },
+            { id: 'd', text: 'とても' },
+          ],
+          correctId: 'a',
+          explanation: '「における」の前は名詞が必要。「医療現場における問題」が最も自然な組み合わせ。
+Trước "における" cần danh từ. "医療現場における問題" là kết hợp tự nhiên nhất.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-8': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑧: 〜とともに・〜に伴って',
+      titleTranslation: 'Ngữ pháp N2⑧: Cùng với... / Đi kèm với...',
+      introduction: `「〜とともに」は「〜と一緒に」または「〜に伴って（同時変化）」という意味があります。「〜に伴って」は「〜が起きると、それに連動して〜も変化する」という意味で、変化・増減などを表すときに使います。
+
+"〜とともに" có hai nghĩa: "cùng với" hoặc "đồng thời thay đổi cùng". "〜に伴って" có nghĩa là "đi kèm với ~ (khi ~ xảy ra thì ~ cũng thay đổi theo)" - dùng khi biểu thị sự thay đổi, tăng giảm đồng thời.`,
+      keyPoints: [
+        '〜とともに①：「〜と一緒に」（cùng với, cùng nhau）',
+        '〜とともに②：「〜するにつれて同時に変化する」（変化の同時性）',
+        '〜に伴って：「〜の変化に連動して」（đi kèm với sự thay đổi）',
+        '接続：名詞/動詞辞書形 + とともに / 名詞 + に伴って',
+        '例：「高齢化とともに医療費が増加している」',
+      ],
+      vocabulary: [
+        { word: '〜とともに①', reading: 'とともに', meaning: 'cùng với（一緒に）', example: '家族とともに働く' },
+        { word: '〜とともに②', reading: 'とともに', meaning: '〜につれて同時に（đồng thời）', example: '時代とともに変化する' },
+        { word: '〜に伴って', reading: 'にともなって', meaning: 'đi kèm với（連動して変化）', example: '高齢化に伴って費用も増える' },
+        { word: '伴う', reading: 'ともなう', meaning: 'đi kèm, kéo theo', example: '副作用を伴う治療' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '高齢化とともに、認知症患者も増えていますね。', reading: 'こうれいかとともに、にんちしょうかんじゃもふえていますね。', translation: 'Cùng với việc già hóa, bệnh nhân mất trí nhớ cũng đang tăng nhỉ.' },
+        { speaker: 'B', japanese: 'ええ、それに伴って介護施設の需要も高まっています。', reading: 'ええ、それにともなって かいごしせつのじゅようもたかまっています。', translation: 'Vâng, đi kèm với đó, nhu cầu về cơ sở điều dưỡng cũng đang tăng cao.' },
+        { speaker: 'A', japanese: '医療技術の進歩とともに、治療の選択肢も広がりますね。', reading: 'いりょうぎじゅつのしんぽとともに、ちりょうのせんたくしもひろがりますね。', translation: 'Cùng với sự tiến bộ của công nghệ y tế, các lựa chọn điều trị cũng được mở rộng nhỉ.' },
+      ],
+      examples: [
+        { japanese: '経済発展に伴って、生活水準が向上した。', reading: 'けいざいはってんにともなって、せいかつすいじゅんがこうじょうした。', translation: 'Đi kèm với sự phát triển kinh tế, mức sống đã được cải thiện.' },
+        { japanese: '年齢とともに体力が落ちるのは自然なことだ。', reading: 'ねんれいとともにたいりょくがおちるのはしぜんなことだ。', translation: 'Thể lực giảm cùng với tuổi tác là điều tự nhiên.' },
+        { japanese: '手術に伴うリスクについて説明します。', reading: 'しゅじゅつにともなうリスクについてせつめいします。', translation: 'Tôi sẽ giải thích về rủi ro đi kèm với phẫu thuật.' },
+      ],
+      grammarNote: `【〜とともに vs 〜に伴って の使い分け】
+
+とともに：
+①「一緒に」：人や物と一緒に行動する
+例：「同僚とともに研修を受けた」
+
+②変化の同時性（〜するにつれて）：
+例：「老化とともに免疫力が低下する」
+
+に伴って：
+変化Aが起きると、連動してBも変化する
+例：「少子化に伴って学校の数が減っている」
+
+【ポイント】
+「に伴う + 名詞」の形も頻出
+例：「高齢化に伴う問題」= Vấn đề đi kèm với già hóa`,
+      quizzes: [
+        {
+          question: '「気温が下がる（　）、インフルエンザ患者が増える。」',
+          options: [
+            { id: 'a', text: 'とともに' },
+            { id: 'b', text: 'によって' },
+            { id: 'c', text: 'にかかわらず' },
+            { id: 'd', text: 'において' },
+          ],
+          correctId: 'a',
+          explanation: '「気温が下がるにつれてインフルエンザも増える」という同時変化・連動の関係なので「とともに」が正解。
+Đây là sự thay đổi đồng thời/liên động nên dùng "とともに".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「（　）に伴う問題に対処する必要がある。」の（　）に最も適切な語は？',
+          options: [
+            { id: 'a', text: '高齢化' },
+            { id: 'b', text: '嬉しい' },
+            { id: 'c', text: '走る' },
+            { id: 'd', text: 'きれい' },
+          ],
+          correctId: 'a',
+          explanation: '「に伴う」の前は名詞が必要。「高齢化に伴う問題」が最も自然。
+Trước "に伴う" cần danh từ. "高齢化に伴う問題" là tự nhiên nhất.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-9': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑨: 〜を通じて・〜を通して',
+      titleTranslation: 'Ngữ pháp N2⑨: Thông qua... / Suốt...',
+      introduction: `「〜を通じて」と「〜を通して」はほぼ同じ意味で使われますが、微妙な違いがあります。①媒介・手段「〜を経由して」、②期間「〜の間ずっと」の2つの用法があります。「を通じて」はやや書き言葉的で、「を通して」は口語でも使えます。
+
+"〜を通じて" và "〜を通して" gần giống nhau nhưng có sự khác biệt nhỏ: ①trung gian/phương tiện "thông qua", ②thời gian "suốt thời gian". "を通じて" hơi văn viết; "を通して" dùng được cả trong hội thoại.`,
+      keyPoints: [
+        '①媒介・手段：「〜を経由して・〜を使って」（thông qua phương tiện）',
+        '②期間：「〜の間ずっと」（suốt năm/mùa）',
+        '「を通じて」：やや書き言葉（hơi văn viết）',
+        '「を通して」：口語でも使用可（dùng được cả khi nói）',
+        '例：「友人を通じて知った」「一年を通して暖かい」',
+      ],
+      vocabulary: [
+        { word: '〜を通じて①', reading: 'をつうじて', meaning: '〜経由で（thông qua）', example: 'SNSを通じて情報を発信する' },
+        { word: '〜を通して①', reading: 'をとおして', meaning: '〜経由で（thông qua）', example: 'ボランティアを通して成長できた' },
+        { word: '〜を通じて②', reading: 'をつうじて', meaning: '〜の間ずっと（suốt）', example: '一年を通じて温暖な気候' },
+        { word: '媒介', reading: 'ばいかい', meaning: 'trung gian, môi giới', example: '感染の媒介になる' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '研修を通じて、多くのことを学びました。', reading: 'けんしゅうをつうじて、おおくのことをまなびました。', translation: 'Thông qua khóa đào tạo, tôi đã học được nhiều điều.' },
+        { speaker: 'B', japanese: 'ハノイは一年を通して蒸し暑い日が多いですね。', reading: 'ハノイはいちねんをとおしてむしあついひがおおいですね。', translation: 'Hà Nội có nhiều ngày nóng ẩm suốt cả năm nhỉ.' },
+        { speaker: 'A', japanese: 'SNSを通して患者さんへの情報提供もできますね。', reading: 'SNSをとおしてかんじゃさんへのじょうほうていきょうもできますね。', translation: 'Thông qua mạng xã hội cũng có thể cung cấp thông tin cho bệnh nhân nhỉ.' },
+      ],
+      examples: [
+        { japanese: '教育を通じて、社会に貢献したいと思う。', reading: 'きょういくをつうじて、しゃかいにこうけんしたいとおもう。', translation: 'Tôi muốn đóng góp cho xã hội thông qua giáo dục.' },
+        { japanese: '仕事を通して、様々な人との出会いがあった。', reading: 'しごとをとおして、さまざまなひととのであいがあった。', translation: 'Thông qua công việc, tôi đã gặp gỡ nhiều người.' },
+        { japanese: '一年を通じて花が咲く温暖な地域だ。', reading: 'いちねんをつうじてはながさくおんだんなちいきだ。', translation: 'Đây là vùng ấm áp mà hoa nở suốt cả năm.' },
+      ],
+      grammarNote: `【〜を通じて vs 〜を通して の微妙な違い】
+
+ほぼ互換的だが：
+を通じて：より書き言葉的・フォーマル
+を通して：書き言葉・話し言葉両方OK
+
+【意味①：媒介・手段】
+「Aを通じて/通してBする」= AというルートでBを行う
+例：「仲介業者を通じて契約する」= Ký hợp đồng thông qua đại lý
+
+【意味②：期間「〜ずっと」】
+「〜を通じて/通して」= 〜の間ずっと
+例：「夏を通して猛暑が続いた」= Nắng nóng gay gắt suốt mùa hè
+
+【一年を通じて vs 一年中】
+ほぼ同義だが「一年を通じて」のほうが書き言葉的`,
+      quizzes: [
+        {
+          question: '「インターネット（　）、世界中と繋がることができる。」',
+          options: [
+            { id: 'a', text: 'において' },
+            { id: 'b', text: 'を通じて' },
+            { id: 'c', text: 'にとって' },
+            { id: 'd', text: 'をめぐって' },
+          ],
+          correctId: 'b',
+          explanation: '「インターネットを経由して/手段として繋がる」という媒介・手段の意味なので「を通じて」が正解。
+Đây là "thông qua internet" - phương tiện nên dùng "を通じて".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「この地方は（　）を通じて、温暖な気候が続く。」の（　）は？',
+          options: [
+            { id: 'a', text: '夏' },
+            { id: 'b', text: '一年' },
+            { id: 'c', text: '毎日' },
+            { id: 'd', text: 'いつも' },
+          ],
+          correctId: 'b',
+          explanation: '「を通じて」の期間用法では「一年を通じて」「四季を通じて」などの期間を表す語が前に来る。
+Dạng thời gian của "を通じて" thường đi với "一年" (cả năm).',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-10': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑩: 〜にわたって・〜にわたる',
+      titleTranslation: 'Ngữ pháp N2⑩: Kéo dài... / Trải rộng...',
+      introduction: `「〜にわたって」は「〜の全期間/全範囲に広がって」という意味で、時間的・空間的・内容的な範囲の広さを表します。数量や期間を表す語と一緒に使うことが多く、「3時間にわたって」「全国にわたって」のように使います。
+
+"〜にわたって" có nghĩa là "kéo dài/trải rộng trong suốt (toàn bộ thời gian/phạm vi)" - biểu thị phạm vi rộng về thời gian, không gian, nội dung. Thường dùng với từ chỉ số lượng/thời gian như "3時間にわたって", "全国にわたって".`,
+      keyPoints: [
+        '接続：数量/範囲を表す名詞 + にわたって / にわたる + 名詞',
+        '意味：〜の全体に広がる（trải rộng, kéo dài khắp）',
+        '時間：「3時間にわたって」「数年にわたって」',
+        '空間：「全国にわたって」「広い範囲にわたって」',
+        '例：「3日間にわたる調査が終了した」',
+      ],
+      vocabulary: [
+        { word: '〜にわたって', reading: 'にわたって', meaning: '〜の全体に（trải dài, kéo dài）', example: '半年にわたって研修が続いた' },
+        { word: '〜にわたる', reading: 'にわたる', meaning: '〜の全体に（連体形）', example: '数年にわたる研究' },
+        { word: '広範囲', reading: 'こうはんい', meaning: 'phạm vi rộng', example: '広範囲にわたる調査' },
+        { word: '延べ', reading: 'のべ', meaning: 'tổng số（累計）', example: '延べ100人にわたる参加者' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '今回の調査は3か月にわたって実施されたそうです。', reading: 'こんかいのちょうさは3かげつにわたってじっしされたそうです。', translation: 'Đợt điều tra lần này nghe nói được thực施 kéo dài 3 tháng.' },
+        { speaker: 'B', japanese: 'ええ、全国にわたる医療機関への聞き取りでした。', reading: 'ええ、ぜんこくにわたるいりょうきかんへのききとりでした。', translation: 'Vâng, đó là cuộc phỏng vấn các cơ sở y tế trải khắp cả nước.' },
+        { speaker: 'A', japanese: '広範囲にわたる問題だから、対策も難しいですね。', reading: 'こうはんいにわたるもんだいだから、たいさくもむずかしいですね。', translation: 'Vì là vấn đề trải rộng trên phạm vi rộng nên đối sách cũng khó khăn nhỉ.' },
+      ],
+      examples: [
+        { japanese: '手術は8時間にわたって行われた。', reading: 'しゅじゅつは8じかんにわたっておこなわれた。', translation: 'Cuộc phẫu thuật được tiến hành kéo dài 8 tiếng.' },
+        { japanese: '5年にわたる研究の末、新薬が完成した。', reading: '5ねんにわたるけんきゅうのすえ、しんやくがかんせいした。', translation: 'Sau nghiên cứu kéo dài 5 năm, thuốc mới đã hoàn thành.' },
+        { japanese: '被害は数十か所にわたって確認された。', reading: 'ひがいはすうじゅっかしょにわたってかくにんされた。', translation: 'Thiệt hại được xác nhận trải rộng tại hàng chục địa điểm.' },
+      ],
+      grammarNote: `【〜にわたって の使い方ポイント】
+
+前に来る語のパターン：
+①時間量：「3時間・数年・長期間・半年」にわたって
+②数量：「10か所・多数・延べ100人」にわたって
+③範囲：「全国・広い地域・全体」にわたって
+
+【にわたって vs にわたる】
+「にわたって」：動詞を修飾（述語前）
+例：「3時間にわたって話し合った」
+
+「にわたる + 名詞」：名詞を修飾
+例：「3時間にわたる会議」
+
+【類似表現との比較】
+〜を通じて：手段・期間
+〜にわたって：範囲の広さ・全体への広がり`,
+      quizzes: [
+        {
+          question: '「（　）にわたる調査で、深刻な問題が明らかになった。」の（　）に適切な語は？',
+          options: [
+            { id: 'a', text: '長期間' },
+            { id: 'b', text: 'とても' },
+            { id: 'c', text: 'きれいな' },
+            { id: 'd', text: 'すぐ' },
+          ],
+          correctId: 'a',
+          explanation: '「にわたる」の前は時間・範囲・数量を表す名詞が必要。「長期間にわたる」は自然な組み合わせ。
+Trước "にわたる" cần danh từ biểu thị thời gian/phạm vi/số lượng.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「手術は（　）にわたって行われた。」の（　）に入る最も自然な語は？',
+          options: [
+            { id: 'a', text: '6時間' },
+            { id: 'b', text: '楽しい' },
+            { id: 'c', text: 'たくさん' },
+            { id: 'd', text: '難しく' },
+          ],
+          correctId: 'a',
+          explanation: '「にわたって」の前は「時間・数量・範囲」を表す名詞。「6時間」が最適。
+"にわたって" cần danh từ chỉ thời gian như "6時間".',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-11': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑪: 〜上（じょう）で・〜上の',
+      titleTranslation: 'Ngữ pháp N2⑪: Về mặt... / Trong...',
+      introduction: `「〜上（じょう）で」は「〜の点で・〜の観点から」という意味で、ある観点・分野・側面から見て、という意味を表します。「法律上」「仕事上」「手続き上」のように使います。また「〜うえで」（〜した後で・〜するために）という別の用法も重要です。
+
+"〜上（じょう）" có nghĩa là "về mặt.../xét từ góc độ..." - biểu thị quan điểm hoặc lĩnh vực cụ thể. Ví dụ: "法律上"（về mặt pháp lý）, "仕事上"（trong công việc）. Còn có dạng "〜うえで" nghĩa khác: "sau khi.../để..."`,
+      keyPoints: [
+        '〜上（じょう）：「〜の点で・〜の観点から」（về mặt...）',
+        '接続：名詞 + 上（じょう）で / 上（じょう）の + 名詞',
+        '頻出：法律上・仕事上・手続き上・制度上・形式上・記録上',
+        '〜うえで（別用法）：「〜した後で/〜するために」',
+        '例：「法律上、問題はない」「確認のうえでご返答します」',
+      ],
+      vocabulary: [
+        { word: '法律上', reading: 'ほうりつじょう', meaning: 'về mặt pháp lý', example: '法律上の問題はない' },
+        { word: '仕事上', reading: 'しごとじょう', meaning: 'trong công việc', example: '仕事上のつきあい' },
+        { word: '手続き上', reading: 'てつづきじょう', meaning: 'về mặt thủ tục', example: '手続き上の問題' },
+        { word: '形式上', reading: 'けいしきじょう', meaning: 'về mặt hình thức', example: '形式上は問題ない' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '手続き上、書類の提出が必要です。', reading: 'てつづきじょう、しょるいのていしゅつがひつようです。', translation: 'Về mặt thủ tục, cần nộp hồ sơ.' },
+        { speaker: 'B', japanese: '法律上の問題はないと確認しました。', reading: 'ほうりつじょうのもんだいはないとかくにんしました。', translation: 'Tôi đã xác nhận không có vấn đề về mặt pháp lý.' },
+        { speaker: 'A', japanese: '内容を確認したうえで、ご連絡いたします。', reading: 'ないようをかくにんしたうえで、ごれんらくいたします。', translation: 'Sau khi xác nhận nội dung, tôi sẽ liên lạc lại.' },
+      ],
+      examples: [
+        { japanese: '記録上は退院済みとなっています。', reading: 'きろくじょうはたいいんずみとなっています。', translation: 'Về mặt hồ sơ, đã được ghi nhận là xuất viện.' },
+        { japanese: '制度上、申請が必要な場合があります。', reading: 'せいどじょう、しんせいがひつようなばあいがあります。', translation: 'Về mặt chế độ, đôi khi cần phải nộp đơn.' },
+        { japanese: '資格を取得したうえで、業務に就く必要がある。', reading: 'しかくをしゅとくしたうえで、ぎょうむにつくひつようがある。', translation: 'Cần phải làm việc sau khi đã có bằng cấp.' },
+      ],
+      grammarNote: `【〜上（じょう） vs 〜うえで の区別】
+
+〜上（じょう）：名詞に接続、「〜の観点・分野では」
+例：「法律上（ほうりつじょう）」「業務上（ぎょうむじょう）」
+→ Danh từ Hán-Nhật + 上
+
+〜うえで：動詞た形/名詞 + うえで、「〜した後で」または「〜するために」
+例：「確認したうえで連絡する」= Liên lạc sau khi xác nhận
+例：「健康のうえで大切なこと」= Điều quan trọng để có sức khỏe
+
+【頻出の〜上（じょう）表現】
+業務上・事務上・制度上・記録上・形式上・慣例上・道義上`,
+      quizzes: [
+        {
+          question: '「（　）上、患者の同意が必要です。」の（　）に適切な語は？',
+          options: [
+            { id: 'a', text: '法律' },
+            { id: 'b', text: '好き' },
+            { id: 'c', text: '走る' },
+            { id: 'd', text: 'とても' },
+          ],
+          correctId: 'a',
+          explanation: '「〜上（じょう）」の前は名詞（特に漢語）が来る。「法律上」= về mặt pháp lý が正解。
+Trước "〜上（じょう）" là danh từ（đặc biệt là từ Hán-Nhật）.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「内容を確認した（　）、ご回答いたします。」の（　）は？',
+          options: [
+            { id: 'a', text: 'うえで' },
+            { id: 'b', text: '上（じょう）で' },
+            { id: 'c', text: 'として' },
+            { id: 'd', text: 'にわたって' },
+          ],
+          correctId: 'a',
+          explanation: '「確認したうえで」= Sau khi xác nhận。動詞た形 + うえで で「〜してから/〜した後」の意味。
+"動詞た形 + うえで" = sau khi làm gì đó.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-12': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑫: 〜にほかならない',
+      titleTranslation: 'Ngữ pháp N2⑫: Chẳng phải gì khác mà là...',
+      introduction: `「〜にほかならない」は「〜以外の何でもない・まさに〜だ」という強調表現で、「これこそが〜だ」という断定・強調のニュアンスを持ちます。論説文・スピーチ・書き言葉でよく使われるN2重要表現です。
+
+"〜にほかならない" là biểu hiện nhấn mạnh nghĩa là "chẳng phải gì khác ngoài.../chính là..." - mang sắc thái khẳng định mạnh "đây chính là...". Thường dùng trong xã luận, diễn văn, văn viết.`,
+      keyPoints: [
+        '接続：名詞 / 動詞辞書形 + にほかならない',
+        '意味：「〜以外の何でもない」（強調・断定）（chính là...）',
+        '書き言葉的・論説文・スピーチでよく使用',
+        '否定形：「〜にほかならない」の文を否定する場合は「〜とは言えない」',
+        '例：「これは患者への裏切りにほかならない」',
+      ],
+      vocabulary: [
+        { word: 'にほかならない', reading: 'にほかならない', meaning: 'chính là, không gì khác', example: 'それは差別にほかならない' },
+        { word: '断定', reading: 'だんてい', meaning: 'khẳng định chắc chắn', example: '断定的な言い方' },
+        { word: '〜に過ぎない', reading: 'にすぎない', meaning: 'chỉ là... mà thôi（次の課）', example: '言い訳に過ぎない' },
+        { word: 'まさに', reading: 'まさに', meaning: 'đúng là, chính là', example: 'まさにそのとおりだ' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '患者に虚偽の説明をするのは、信頼の裏切りにほかならない。', reading: 'かんじゃにきょぎのせつめいをするのは、しんらいのうらぎりにほかならない。', translation: 'Giải thích dối trá cho bệnh nhân chẳng phải gì khác mà là sự phản bội lòng tin.' },
+        { speaker: 'B', japanese: 'おっしゃる通りです。患者の信頼こそが医療の基盤ですから。', reading: 'おっしゃるとおりです。かんじゃのしんらいこそがいりょうのきばんですから。', translation: 'Đúng như anh nói. Vì lòng tin của bệnh nhân chính là nền tảng của y tế.' },
+      ],
+      examples: [
+        { japanese: 'この成功は、チーム全員の努力にほかならない。', reading: 'このせいこうは、チームぜんいんのどりょくにほかならない。', translation: 'Thành công này chính là nhờ nỗ lực của toàn bộ đội.' },
+        { japanese: '患者を無視した決定は、医療倫理の違反にほかならない。', reading: 'かんじゃをむしにしたけっていは、いりょうりんりのいはんにほかならない。', translation: 'Quyết định bỏ qua bệnh nhân chính là vi phạm đạo đức y tế.' },
+        { japanese: 'これは社会全体の問題にほかならないと考える。', reading: 'これはしゃかいぜんたいのもんだいにほかならないとかんがえる。', translation: 'Tôi cho rằng đây chính là vấn đề của toàn xã hội.' },
+      ],
+      grammarNote: `【〜にほかならない の使い方】
+
+「AはBにほかならない」= A chính là B（強い断定）
+例：「それは嘘にほかならない」= Điều đó chính là nói dối
+
+【類似表現との比較】
+〜にほかならない（強い断定・書き言葉）
+〜に過ぎない（「ただ〜だけ」謙虚・否定的ニュアンス）
+〜というものだ（一般的な断定）
+
+【文体】
+書き言葉・論説文・スピーチ向け。日常会話では「まさに〜だ」「まさしく〜だ」を使う。`,
+      quizzes: [
+        {
+          question: '「この失敗は、準備不足（　）。」の（　）に入る表現は？',
+          options: [
+            { id: 'a', text: 'にほかならない' },
+            { id: 'b', text: 'にわたる' },
+            { id: 'c', text: 'において' },
+            { id: 'd', text: 'とともに' },
+          ],
+          correctId: 'a',
+          explanation: '「この失敗の原因はまさに準備不足だ」という強い断定の表現なので「にほかならない」が正解。
+Đây là khẳng định mạnh "chính là thiếu chuẩn bị" nên dùng "にほかならない".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「にほかならない」と最も近い意味の表現はどれですか？',
+          options: [
+            { id: 'a', text: 'まさに〜だ' },
+            { id: 'b', text: '〜かもしれない' },
+            { id: 'c', text: 'たとえ〜でも' },
+            { id: 'd', text: '〜に過ぎない' },
+          ],
+          correctId: 'a',
+          explanation: '「にほかならない」は「まさに〜だ・〜以外の何でもない」という強い断定表現。
+"にほかならない" = "まさに〜だ" - đây là biểu hiện khẳng định mạnh.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-13': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑬: 〜に過ぎない・〜に過ぎなかった',
+      titleTranslation: 'Ngữ pháp N2⑬: Chỉ là... mà thôi',
+      introduction: `「〜に過ぎない」は「ただ〜だけで、大したことではない」という意味で、過小評価や謙遜のニュアンスを表します。「〜に過ぎなかった」は過去形です。程度・規模・重要性を小さく見せる表現で、日本語能力試験N2の頻出文法です。
+
+"〜に過ぎない" có nghĩa là "chỉ là... mà thôi / không hơn không kém..." - biểu thị sắc thái đánh giá thấp hoặc khiêm tốn. "〜に過ぎなかった" là dạng quá khứ. Đây là ngữ pháp xuất hiện thường xuyên trong N2.`,
+      keyPoints: [
+        '接続：名詞 / 動詞辞書形 / 数量詞 + に過ぎない',
+        '意味：「ただ〜だけ・〜以上でも以下でもない」（chỉ là）',
+        '謙遜・過小評価のニュアンス',
+        '数量表現と相性がよい：「3人に過ぎない」「少数に過ぎない」',
+        '例：「私はただの学生に過ぎない」',
+      ],
+      vocabulary: [
+        { word: '〜に過ぎない', reading: 'にすぎない', meaning: 'chỉ là... thôi / không gì hơn', example: 'まだ始まりに過ぎない' },
+        { word: '〜に過ぎなかった', reading: 'にすぎなかった', meaning: 'chỉ là... (quá khứ)', example: '夢に過ぎなかった' },
+        { word: '過小評価', reading: 'かしょうひょうか', meaning: 'đánh giá thấp', example: '過小評価してはいけない' },
+        { word: 'ただ〜だけ', reading: 'ただ〜だけ', meaning: 'chỉ là/chỉ có', example: 'ただ5人だけ参加した' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '先生のご研究は世界的に有名ですね。', reading: 'せんせいのごけんきゅうはせかいてきにゆうめいですね。', translation: 'Nghiên cứu của thầy nổi tiếng toàn thế giới nhỉ.' },
+        { speaker: '先生', japanese: 'いいえ、私はまだ駆け出しの研究者に過ぎません。', reading: 'いいえ、わたしはまだかけだしのけんきゅうしゃにすぎません。', translation: 'Không, tôi chỉ là một nhà nghiên cứu mới vào nghề thôi.' },
+        { speaker: 'A', japanese: 'ご謙遜を。患者数は100人に過ぎないのに、成果はすばらしいです。', reading: 'ごけんそんを。かんじゃすうは100にんにすぎないのに、せいかはすばらしいです。', translation: 'Khiêm tốn quá. Dù số bệnh nhân chỉ là 100 người nhưng kết quả thật tuyệt vời.' },
+      ],
+      examples: [
+        { japanese: 'これは一例に過ぎず、他にも多くの問題がある。', reading: 'これはいちれいにすぎず、ほかにもおおくのもんだいがある。', translation: 'Đây chỉ là một ví dụ, còn nhiều vấn đề khác nữa.' },
+        { japanese: '当時、参加者は10名に過ぎなかった。', reading: 'とうじ、さんかしゃは10めいにすぎなかった。', translation: 'Vào thời đó, số người tham gia chỉ có 10 người thôi.' },
+        { japanese: '私の意見は個人的な感想に過ぎませんが…。', reading: 'わたしのいけんはこじんてきなかんそうにすぎませんが…。', translation: 'Ý kiến của tôi chỉ là cảm nhận cá nhân thôi, nhưng...' },
+      ],
+      grammarNote: `【〜に過ぎない vs 〜にほかならない】
+
+〜に過ぎない：「ただ〜だけ・取るに足りない」（nhỏ bé, khiêm tốn）
+例：「私は新人に過ぎない」= Tôi chỉ là người mới thôi
+
+〜にほかならない：「まさに〜・〜以外の何でもない」（強い断定）
+例：「これは欺瞞にほかならない」= Điều này chính là lừa dối
+
+【に過ぎない の形に注意】
+否定形（〜に過ぎない）のまま使う → 文末に否定が来る
+「〜に過ぎず、〜」の形もある（中間節として使う）
+例：「3人に過ぎず、人手が足りない」`,
+      quizzes: [
+        {
+          question: '「私は新入社員（　）。偉そうなことは言えません。」の（　）は？',
+          options: [
+            { id: 'a', text: 'に過ぎません' },
+            { id: 'b', text: 'にほかなりません' },
+            { id: 'c', text: 'にわたります' },
+            { id: 'd', text: 'においてです' },
+          ],
+          correctId: 'a',
+          explanation: '謙遜して自分を小さく見せているので「に過ぎない」が正解。「にほかならない」は強い断定で謙遜には使わない。
+Khiêm tốn về bản thân nên dùng "に過ぎない".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「参加者は（　）に過ぎなかった。」の（　）に適切な語は？',
+          options: [
+            { id: 'a', text: '数名' },
+            { id: 'b', text: 'たくさん' },
+            { id: 'c', text: '非常に多く' },
+            { id: 'd', text: '盛況' },
+          ],
+          correctId: 'a',
+          explanation: '「に過ぎない」は少ない・小さいニュアンスなので「数名（少人数）」が適切。
+"に過ぎない" mang sắc thái ít/nhỏ nên "数名" phù hợp.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-14': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑭: 〜どころか',
+      titleTranslation: 'Ngữ pháp N2⑭: Chứ đừng nói đến.../Không những...mà còn...',
+      introduction: `「〜どころか」は「〜は言うまでもなく、それ以上/以下のことが起きた」という意味で、予想や期待とは大きく違う結果を強調します。「A（低い期待）どころか、もっとひどいB/もっと良いBだ」という構造で使います。
+
+"〜どころか" có nghĩa là "chứ đừng nói đến.../không những...mà còn..." - nhấn mạnh kết quả rất khác so với kỳ vọng. Cấu trúc: "Aどころか B" = Không phải chỉ là A, mà còn B hơn thế.`,
+      keyPoints: [
+        '接続：名詞 / 動詞辞書形 / い形容詞 / な形容詞語幹 + どころか',
+        '意味①：「〜は言うまでもなく、それ以上」（không những... mà còn）',
+        '意味②：「〜とは全く逆で、むしろ」（ngược lại）',
+        '後ろには予想外の内容・逆の内容が来る',
+        '例：「良くなるどころか、悪化した」「一人どころか10人来た」',
+      ],
+      vocabulary: [
+        { word: '〜どころか', reading: 'どころか', meaning: 'chứ đừng nói đến / không những', example: '改善どころか悪化した' },
+        { word: '言うまでもなく', reading: 'いうまでもなく', meaning: 'không cần phải nói', example: '言うまでもなく大切だ' },
+        { word: 'むしろ', reading: 'むしろ', meaning: 'ngược lại / thay vào đó', example: 'むしろ悪くなった' },
+        { word: '悪化', reading: 'あっか', meaning: 'trở nên tồi tệ hơn', example: '症状が悪化する' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '薬を飲んで、症状は良くなりましたか？', reading: 'くすりをのんで、しょうじょうはよくなりましたか？', translation: 'Uống thuốc rồi, triệu chứng có đỡ hơn không?' },
+        { speaker: 'B', japanese: 'よくなるどころか、副作用が出てしまいました。', reading: 'よくなるどころか、ふくさようがでてしまいました。', translation: 'Chứ đừng nói đến đỡ hơn, còn bị tác dụng phụ nữa.' },
+        { speaker: 'A', japanese: 'では、一日どころか一週間も入院が必要かもしれません。', reading: 'では、いちにちどころかいっしゅうかんもにゅういんがひつようかもしれません。', translation: 'Vậy thì có thể cần nhập viện không phải một ngày mà cả một tuần nữa.' },
+      ],
+      examples: [
+        { japanese: '治療費は安くなるどころか、さらに高くなった。', reading: 'ちりょうひはやすくなるどころか、さらにたかくなった。', translation: 'Chứ đừng nói đến giảm, chi phí điều trị còn tăng hơn nữa.' },
+        { japanese: '休憩どころか、食事する時間もない忙しさだ。', reading: 'きゅうけいどころか、しょくじするじかんもないいそがしさだ。', translation: 'Không những không có thời gian nghỉ ngơi, mà còn không có thời gian ăn uống.' },
+        { japanese: '5人どころか20人もの志願者が集まった。', reading: '5にんどころか20にんものしがんしゃがあつまった。', translation: 'Không phải 5 người, mà tới 20 ứng viên đã tập trung.' },
+      ],
+      grammarNote: `【〜どころか の2つの用法】
+
+①期待・想定より「さらにひどい/さらに良い」
+例：「良くなるどころか悪化した」（予想より悪い）
+例：「1万円どころか10万円もかかった」（予想より多い）
+
+②「〜は言うまでもなく、それ以上のことも」
+例：「英語どころか、日本語も話せる」（英語+日本語も）
+
+【ポイント】
+後ろには必ず「予想外の内容・反対の内容」が来る
+「良くなるどころか、良くなった」は不自然（矛盾なし）
+「良くなるどころか、悪化した」が正しい`,
+      quizzes: [
+        {
+          question: '「回復する（　）、容態が悪化した。」の（　）は？',
+          options: [
+            { id: 'a', text: 'どころか' },
+            { id: 'b', text: 'ものの' },
+            { id: 'c', text: 'とともに' },
+            { id: 'd', text: 'に基づいて' },
+          ],
+          correctId: 'a',
+          explanation: '「回復する（期待）とは逆に悪化した（予想外の結果）」という流れなので「どころか」が正解。
+"どころか" dùng khi kết quả ngược với kỳ vọng.',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「今月の患者数は100人どころか（　）にもなった。」の（　）は？',
+          options: [
+            { id: 'a', text: '300人' },
+            { id: 'b', text: '50人' },
+            { id: 'c', text: '10人' },
+            { id: 'd', text: '0人' },
+          ],
+          correctId: 'a',
+          explanation: '「どころか」の後は「それ以上の数量」が来る。100人どころか → もっと多い300人が自然。
+Sau "どころか" là số lượng vượt xa kỳ vọng.',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-15': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑮: 〜ものの・〜とはいえ',
+      titleTranslation: 'Ngữ pháp N2⑮: Mặc dù... / Tuy nói là...',
+      introduction: `「〜ものの」は「〜ではあるが（逆接）」という意味で、予想外の結果や矛盾する状況を表します。「〜とはいえ」は「〜と言っても完全には言い切れない」というニュアンスで、部分的な認定をしながら留保を示します。
+
+"〜ものの" có nghĩa là "mặc dù...nhưng" - biểu thị kết quả bất ngờ hoặc tình huống mâu thuẫn. "〜とはいえ" có sắc thái "dù nói là... nhưng không hoàn toàn như vậy" - thừa nhận một phần nhưng đặt ra điều kiện.`,
+      keyPoints: [
+        '〜ものの：「〜ではあるが（逆接）」（mặc dù... nhưng）',
+        '〜とはいえ：「〜と言っても完全には言い切れない」（tuy nói là... nhưng）',
+        '接続：〜ものの → 普通形 + ものの',
+        '接続：〜とはいえ → 普通形/名詞 + とはいえ',
+        '例：「申し込んだものの、行けなかった」「夏とはいえ、涼しい日もある」',
+      ],
+      vocabulary: [
+        { word: '〜ものの', reading: 'ものの', meaning: 'mặc dù... nhưng（逆接）', example: '参加したものの、何もできなかった' },
+        { word: '〜とはいえ', reading: 'とはいえ', meaning: 'tuy nói là...（部分認定）', example: '専門家とはいえ、間違うこともある' },
+        { word: '逆接', reading: 'ぎゃくせつ', meaning: 'nghịch nghĩa (mặc dù... nhưng)', example: '逆接の接続詞' },
+        { word: '留保', reading: 'りゅうほ', meaning: 'bảo lưu, điều kiện', example: '留保条件をつける' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '研修には参加したものの、内容が難しくてよくわかりませんでした。', reading: 'けんしゅうにはさんかしたものの、ないようがむずかしくてよくわかりませんでした。', translation: 'Mặc dù đã tham gia đào tạo nhưng nội dung khó nên không hiểu lắm.' },
+        { speaker: 'B', japanese: '新人とはいえ、基本的な知識は必要ですよ。', reading: 'しんじんとはいえ、きほんてきなちしきはひつようですよ。', translation: 'Dù là người mới nhưng kiến thức cơ bản là cần thiết đấy.' },
+        { speaker: 'A', japanese: '勉強したものの、まだ不安が残っています。', reading: 'べんきょうしたものの、まだふあんがのこっています。', translation: 'Mặc dù đã học nhưng vẫn còn lo lắng.' },
+      ],
+      examples: [
+        { japanese: '手術は成功したものの、回復に時間がかかっている。', reading: 'しゅじゅつはせいこうしたものの、かいふくにじかんがかかっている。', translation: 'Mặc dù phẫu thuật thành công nhưng việc phục hồi đang mất thời gian.' },
+        { japanese: '冬とはいえ、南部では雪が降ることはほとんどない。', reading: 'ふゆとはいえ、なんぶではゆきがふることはほとんどない。', translation: 'Dù là mùa đông nhưng ở vùng phía nam hầu như không có tuyết.' },
+        { japanese: '経験者とはいえ、新しい技術には慣れが必要だ。', reading: 'けいけんしゃとはいえ、あたらしいぎじゅつにはなれがひつようだ。', translation: 'Dù là người có kinh nghiệm, vẫn cần thời gian làm quen với kỹ thuật mới.' },
+      ],
+      grammarNote: `【〜ものの vs 〜とはいえ の違い】
+
+〜ものの：前件を認めながら後件が逆の結果
+例：「申し込んだものの、キャンセルした」
+→ 申し込んだ（事実）→ でもキャンセル（予想外）
+
+〜とはいえ：前件を条件として認めながら、後件で修正・留保
+例：「プロとはいえ、失敗することもある」
+→ プロだと認める + でも完璧ではない（修正）
+
+【類似表現】
+〜が：逆接（最も一般的）
+〜けれど(も)：逆接（口語的）
+〜にもかかわらず：強い逆接（書き言葉）
+〜ものの：逆接（書き言葉・やや堅め）
+〜とはいえ：部分認定の逆接`,
+      quizzes: [
+        {
+          question: '「薬を飲んだ（　）、熱が下がらない。」の（　）は？',
+          options: [
+            { id: 'a', text: 'ものの' },
+            { id: 'b', text: 'とはいえ' },
+            { id: 'c', text: 'どころか' },
+            { id: 'd', text: 'とともに' },
+          ],
+          correctId: 'a',
+          explanation: '「薬を飲んだ（事実）→ 熱が下がらない（予想外の結果）」という逆接なので「ものの」が自然。
+"ものの" = mặc dù đã làm X nhưng Y (kết quả bất ngờ).',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「医師（　）、すべての病気を治せるわけではない。」の（　）は？',
+          options: [
+            { id: 'a', text: 'とはいえ' },
+            { id: 'b', text: 'ものの' },
+            { id: 'c', text: 'どころか' },
+            { id: 'd', text: 'にほかならない' },
+          ],
+          correctId: 'a',
+          explanation: '「医師だと認めるが、完璧ではない」という部分認定＋留保のニュアンスなので「とはいえ」が適切。
+"とはいえ" = thừa nhận một phần nhưng đặt ra giới hạn.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-16': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑯: 〜つつ(も)・〜ながらも',
+      titleTranslation: 'Ngữ pháp N2⑯: Vừa...vừa / Tuy...nhưng',
+      introduction: `「〜つつ」には2つの用法があります。①「〜しながら（同時動作）」、②「〜つつも（逆接）〜しながらも矛盾する行動をとる」。「〜ながらも」は「〜ではあるが、それでも」という逆接で、矛盾した状況を表します。
+
+"〜つつ" có hai cách dùng: ①"vừa...vừa (động tác đồng thời)", ②"〜つつも (nghịch nghĩa) tuy...nhưng vẫn làm điều mâu thuẫn". "〜ながらも" là nghịch nghĩa "mặc dù là...nhưng vẫn...", biểu thị tình huống mâu thuẫn.`,
+      keyPoints: [
+        '〜つつ①：「〜しながら（同時動作）」書き言葉（vừa...vừa）',
+        '〜つつも②：「〜しながらも（逆接）矛盾した行動」',
+        '〜ながらも：「〜ではあるが（逆接）」（mặc dù...nhưng）',
+        '接続：動詞ます形 + つつ(も) / 動詞ます形/名詞/形容詞 + ながらも',
+        '例：「反省しつつも、また同じ失敗をした」',
+      ],
+      vocabulary: [
+        { word: '〜つつ①', reading: 'つつ', meaning: 'vừa...vừa（同時動作・書き言葉）', example: '考えつつ仕事をする' },
+        { word: '〜つつも', reading: 'つつも', meaning: 'tuy...nhưng（逆接）', example: 'わかっていつつも、やめられない' },
+        { word: '〜ながらも', reading: 'ながらも', meaning: 'mặc dù...nhưng（逆接）', example: '初心者ながらも活躍している' },
+        { word: '矛盾', reading: 'むじゅん', meaning: 'mâu thuẫn', example: '矛盾した行動' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '悪いとわかりつつも、残業が続いてしまいます。', reading: 'わるいとわかりつつも、ざんぎょうがつづいてしまいます。', translation: 'Tuy biết là không tốt nhưng vẫn cứ tiếp tục làm thêm giờ.' },
+        { speaker: 'B', japanese: '疲れているながらも、患者さんのために頑張っているんですね。', reading: 'つかれているながらも、かんじゃさんのためにがんばっているんですね。', translation: 'Mặc dù mệt mỏi nhưng vẫn cố gắng vì bệnh nhân nhỉ.' },
+        { speaker: 'A', japanese: 'はい、不安を感じつつも、毎日前向きに取り組んでいます。', reading: 'はい、ふあんをかんじつつも、まいにちまえむきにとりくんでいます。', translation: 'Vâng, tuy cảm thấy lo lắng nhưng mỗi ngày vẫn tích cực đối mặt.' },
+      ],
+      examples: [
+        { japanese: '危険と知りつつも、その治療法を選択した。', reading: 'きけんとしりつつも、そのちりょうほうをせんたくした。', translation: 'Tuy biết là nguy hiểm nhưng vẫn chọn phương pháp điều trị đó.' },
+        { japanese: '初めてながらも、堂々と発表できた。', reading: 'はじめてながらも、どうどうとはっぴょうできた。', translation: 'Mặc dù là lần đầu tiên nhưng vẫn trình bày một cách tự tin.' },
+        { japanese: '音楽を聴きつつ、報告書を作成した。', reading: 'おんがくをきつつ、ほうこくしょをさくせいした。', translation: 'Vừa nghe nhạc vừa lập báo cáo.' },
+      ],
+      grammarNote: `【〜つつ の2用法の区別】
+
+①同時動作（〜しながら）→書き言葉
+例：「資料を見つつ、説明する」= Vừa xem tài liệu vừa giải thích
+→「〜ながら」と交換可能（but「つつ」のほうが書き言葉的）
+
+②逆接（〜つつも）→矛盾した行動・心理
+例：「知りつつも、黙っていた」= Dù biết nhưng vẫn im lặng
+→「〜ながらも」と交換可能
+
+【〜ながらも vs 〜ものの vs 〜にもかかわらず】
+〜ながらも：日常〜書き言葉、矛盾した行動・状態
+〜ものの：やや書き言葉、事実の逆接
+〜にもかかわらず：最も書き言葉・強い逆接`,
+      quizzes: [
+        {
+          question: '「問題があると知り（　）、黙って見ていた。」の（　）は？',
+          options: [
+            { id: 'a', text: 'つつも' },
+            { id: 'b', text: 'とともに' },
+            { id: 'c', text: 'に基づいて' },
+            { id: 'd', text: 'において' },
+          ],
+          correctId: 'a',
+          explanation: '「知っているのに（矛盾した行動で）黙っていた」という逆接の意味なので「つつも」が正解。
+Mâu thuẫn giữa "biết" và "im lặng" → dùng "つつも".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「新人（　）、彼は素晴らしい活躍を見せた。」の（　）は？',
+          options: [
+            { id: 'a', text: 'ながらも' },
+            { id: 'b', text: 'につれて' },
+            { id: 'c', text: 'をめぐって' },
+            { id: 'd', text: 'にわたって' },
+          ],
+          correctId: 'a',
+          explanation: '「新人（という条件）にもかかわらず、活躍した」という逆接なので「ながらも」が正解。
+"新人（điều kiện）mặc dù vậy vẫn hoạt động xuất sắc" → "ながらも".',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-17': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑰: 〜かねない・〜かねる',
+      titleTranslation: 'Ngữ pháp N2⑰: Có thể... / Không thể không...',
+      introduction: `「〜かねない」は「悪いことが起きる可能性がある」という意味で、マイナスの可能性を警告する表現です。「〜かねる」は「〜することができない（困難・気が引ける）」という意味で、丁寧に断る・拒否する時に使います。
+
+"〜かねない" có nghĩa là "có khả năng điều xấu xảy ra" - biểu thị cảnh báo về khả năng tiêu cực. "〜かねる" có nghĩa là "không thể làm... (khó thực hiện / không nỡ)" - dùng để từ chối lịch sự.`,
+      keyPoints: [
+        '〜かねない：「悪い結果になる可能性がある」（có thể [xấu]）',
+        '接続：動詞ます形 + かねない',
+        '〜かねる：「〜できない・〜する気になれない（丁寧な断り）」',
+        '接続：動詞ます形 + かねる（ます形接続に注意）',
+        '例：「命に関わりかねない」「ご要望にはお応えしかねます」',
+      ],
+      vocabulary: [
+        { word: '〜かねない', reading: 'かねない', meaning: 'có thể (điều xấu) xảy ra', example: '事故になりかねない' },
+        { word: '〜かねる', reading: 'かねる', meaning: 'không thể...（丁寧な断り）', example: 'ご要望にはお応えしかねます' },
+        { word: '命に関わる', reading: 'いのちにかかわる', meaning: 'liên quan đến tính mạng', example: '命に関わる問題' },
+        { word: 'お応えする', reading: 'おこたえする', meaning: 'đáp ứng（謙譲語）', example: 'ご期待にはお応えしかねます' },
+      ],
+      dialogue: [
+        { speaker: '医師', japanese: 'このまま放置すると、命に関わりかねません。', reading: 'このままほうちすると、いのちにかかわりかねません。', translation: 'Nếu cứ để vậy, có thể ảnh hưởng đến tính mạng.' },
+        { speaker: '患者', japanese: 'えっ、そんなに深刻なんですか。', reading: 'えっ、そんなにしんこくなんですか。', translation: 'Ồ, nghiêm trọng đến vậy sao ạ.' },
+        { speaker: '医師', japanese: '残念ですが、その方法での治療はお引き受けしかねます。', reading: 'ざんねんですが、そのほうほうでのちりょうはおひきうけしかねます。', translation: 'Rất tiếc nhưng chúng tôi không thể tiếp nhận điều trị theo phương pháp đó.' },
+      ],
+      examples: [
+        { japanese: '誤った投薬は重篤な副作用を招きかねない。', reading: 'あやまったとうやくはじゅうとくなふくさようをまねきかねない。', translation: 'Dùng thuốc sai có thể gây ra tác dụng phụ nghiêm trọng.' },
+        { japanese: '大変申し訳ございませんが、ご要望にはお応えしかねます。', reading: 'たいへんもうしわけございませんが、ごようぼうにはおこたえしかねます。', translation: 'Tôi rất xin lỗi nhưng không thể đáp ứng yêu cầu của anh/chị.' },
+        { japanese: 'その発言は誤解を生みかねないので、注意が必要だ。', reading: 'そのはつげんはごかいをうみかねないので、ちゅういがひつようだ。', translation: 'Vì phát biểu đó có thể gây hiểu lầm nên cần thận trọng.' },
+      ],
+      grammarNote: `【〜かねない vs 〜かねる の区別】
+
+〜かねない：否定形 → 意味はプラスではなくマイナスの可能性
+例：「事故になりかねない」= Có thể xảy ra tai nạn（警告）
+
+〜かねる：動詞ます形 + かねる → 「できない/する気になれない」
+例：「お答えしかねます」= Không thể trả lời được（丁寧な断り）
+
+【〜かねる は丁寧な断り表現】
+「できません」より「〜しかねます」のほうが丁寧
+ビジネス日本語・医療現場でよく使用
+
+【注意：混同しやすいポイント】
+「食べかねない」= 食べてしまう可能性がある（かねない）
+「食べかねる」= 食べられない・食べる気になれない（かねる）`,
+      quizzes: [
+        {
+          question: '「無理な残業を続けると、倒れ（　）。」の（　）は？',
+          options: [
+            { id: 'a', text: 'かねない' },
+            { id: 'b', text: 'かねる' },
+            { id: 'c', text: 'うる' },
+            { id: 'd', text: 'ざるを得ない' },
+          ],
+          correctId: 'a',
+          explanation: '「倒れるという悪い結果になる可能性がある」という警告なので「かねない」が正解。
+"Cảnh báo khả năng kết quả xấu" → dùng "かねない".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '丁寧に断る場面で使う表現として最も適切なのは？',
+          options: [
+            { id: 'a', text: 'ご要望にはお応えしかねます' },
+            { id: 'b', text: 'ご要望にはお応えしかねない' },
+            { id: 'c', text: 'ご要望にはお応えかねない' },
+            { id: 'd', text: 'ご要望にはお応えかねます' },
+          ],
+          correctId: 'a',
+          explanation: '丁寧な断りには「〜しかねます」（動詞ます形 + かねます）。「お応えし + かねます」が正しい形。
+Để từ chối lịch sự dùng "〜しかねます" (ます形 + かねます).',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-18': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑱: 〜得る(うる/える)・〜得ない',
+      titleTranslation: 'Ngữ pháp N2⑱: Có thể... / Không thể...',
+      introduction: `「〜得る（うる・える）」は「〜することが可能だ」、「〜得ない（えない）」は「〜することが不可能だ」という意味です。「ありえる」「ありえない」が最も有名な例です。論理的・理論的な可能性を述べる場合に使い、書き言葉的な表現です。
+
+"〜得る（うる/える）" có nghĩa là "có thể...(về mặt lý thuyết)" và "〜得ない（えない）" là "không thể...". "ありえる/ありえない" là ví dụ phổ biến nhất. Dùng khi nói về khả năng logic/lý thuyết, văn viết.`,
+      keyPoints: [
+        '接続：動詞ます形 + 得る（うる/える）/ 得ない（えない）',
+        '〜得る：「〜する可能性がある（理論的に）」（có thể）',
+        '〜得ない：「〜することは不可能だ」（không thể）',
+        '「うる」は文語・「える」は口語：「ありうる/ありえる」',
+        '例：「起こり得る事態」「あり得ない結果」',
+      ],
+      vocabulary: [
+        { word: 'あり得る', reading: 'ありうる/ありえる', meaning: 'có thể xảy ra', example: 'そういうことはあり得る' },
+        { word: 'あり得ない', reading: 'ありえない', meaning: 'không thể có / không thể xảy ra', example: 'そんなことはあり得ない' },
+        { word: '起こり得る', reading: 'おこりうる', meaning: 'có thể xảy ra（起こる可能性）', example: '起こり得る最悪の事態' },
+        { word: '考えられる', reading: 'かんがえられる', meaning: 'có thể nghĩ đến（類似表現）', example: '考えられる原因' },
+      ],
+      dialogue: [
+        { speaker: '医師', japanese: '副作用として発熱が起こり得ます。', reading: 'ふくさようとしてはつねつがおこりえます。', translation: 'Sốt có thể xảy ra như một tác dụng phụ.' },
+        { speaker: '患者', japanese: 'そんなことがあり得るんですか？', reading: 'そんなことがありえるんですか？', translation: 'Điều như vậy có thể xảy ra sao ạ?' },
+        { speaker: '医師', japanese: '可能性は低いですが、あり得ない話ではありません。', reading: 'かのうせいはひくいですが、ありえないはなしではありません。', translation: 'Khả năng thấp nhưng không phải chuyện không thể xảy ra.' },
+      ],
+      examples: [
+        { japanese: '医療ミスは、どの病院でも起こり得る問題だ。', reading: 'いりょうミスは、どのびょういんでもおこりえるもんだいだ。', translation: 'Sai sót y tế là vấn đề có thể xảy ra ở bất kỳ bệnh viện nào.' },
+        { japanese: '患者の同意なしに手術することはあり得ない。', reading: 'かんじゃのどういなしにしゅじゅつすることはありえない。', translation: 'Việc phẫu thuật mà không có sự đồng ý của bệnh nhân là không thể.' },
+        { japanese: '彼女が遅刻するとはあり得ないことだ。', reading: 'かのじょがちこくするとはありえないことだ。', translation: 'Việc cô ấy đi trễ là điều không thể xảy ra.' },
+      ],
+      grammarNote: `【〜得る の読み方】
+
+「うる」（文語・書き言葉）：
+例：「起こりうる」「考えうる」「あり得（う）る」
+
+「える」（口語・日常的）：
+例：「起こりえる」「考えられる」「あり得（え）る」
+
+【〜得ない（えない）だけ】
+否定形は「えない」のみ（「うない」とは言わない）
+例：「起こりえない」○ / 「起こりうない」×
+
+【〜かねない との違い】
+〜得ない：論理的・理論的に不可能
+〜かねない：実際にそうなる危険性・可能性（マイナス）`,
+      quizzes: [
+        {
+          question: '「そのような事態は決して起こり（　）と思っていた。」',
+          options: [
+            { id: 'a', text: 'えない' },
+            { id: 'b', text: 'うる' },
+            { id: 'c', text: 'かねない' },
+            { id: 'd', text: 'かねる' },
+          ],
+          correctId: 'a',
+          explanation: '「そんなことは不可能だ」という意味なので「起こりえない」（〜得ない）が正解。
+"Không thể xảy ra" → dùng "えない".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「あり得る」と同じ意味に最も近いのはどれですか？',
+          options: [
+            { id: 'a', text: '可能性がある' },
+            { id: 'b', text: '必ずある' },
+            { id: 'c', text: 'ありがたい' },
+            { id: 'd', text: 'あるべきだ' },
+          ],
+          correctId: 'a',
+          explanation: '「あり得る」= 「存在/発生する可能性がある」という意味。
+"あり得る" = "có khả năng xảy ra".',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-19': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑲: 〜べき・〜べきだ・〜べきではない',
+      titleTranslation: 'Ngữ pháp N2⑲: Nên... / Phải... / Không nên...',
+      introduction: `「〜べきだ」は「当然〜しなければならない・〜するのが正しい」という義務・当然性を表します。「〜べきではない」はその否定形で「〜してはいけない」。「〜べき + 名詞」の連体修飾形もよく使われます。
+
+"〜べきだ" có nghĩa là "nên làm.../đương nhiên phải làm..." - biểu thị nghĩa vụ, sự đương nhiên. "〜べきではない" là phủ định "không nên làm...". Dạng liên thể "〜べき + danh từ" cũng được dùng nhiều.`,
+      keyPoints: [
+        '接続：動詞辞書形 + べきだ（するべきだ/すべきだ）',
+        '意味：「〜するのが当然だ・〜する義務がある」（nên, phải）',
+        '否定：「〜べきではない」= 「〜してはならない」',
+        '連体：「〜べき + 名詞」= 「すべき課題」「当然の義務」',
+        '例：「患者に正直に説明すべきだ」',
+      ],
+      vocabulary: [
+        { word: '〜べきだ', reading: 'べきだ', meaning: 'nên.../phải... (nghĩa vụ/đương nhiên)', example: '報告すべきだ' },
+        { word: '〜べきではない', reading: 'べきではない', meaning: 'không nên...', example: '隠すべきではない' },
+        { word: '義務', reading: 'ぎむ', meaning: 'nghĩa vụ', example: '説明する義務' },
+        { word: '当然', reading: 'とうぜん', meaning: 'đương nhiên', example: '当然の責任' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '患者さんには病状を正直に説明すべきだと思います。', reading: 'かんじゃさんにはびょうじょうをしょうじきにせつめいすべきだとおもいます。', translation: 'Tôi nghĩ nên giải thích thành thật về tình trạng bệnh cho bệnh nhân.' },
+        { speaker: 'B', japanese: 'そうですね。医師として隠すべきではないですよね。', reading: 'そうですね。いしとしてかくすべきではないですよね。', translation: 'Đúng thế. Với tư cách là bác sĩ, không nên che giấu nhỉ.' },
+        { speaker: 'A', japanese: 'インフォームドコンセントは守るべき原則ですから。', reading: 'インフォームドコンセントはまもるべきげんそくですから。', translation: 'Vì informed consent là nguyên tắc cần phải tuân thủ.' },
+      ],
+      examples: [
+        { japanese: '医療従事者は患者の権利を尊重すべきだ。', reading: 'いりょうじゅうじしゃはかんじゃのけんりをそんちょうすべきだ。', translation: 'Nhân viên y tế nên tôn trọng quyền lợi của bệnh nhân.' },
+        { japanese: '個人情報を無断で公開するべきではない。', reading: 'こじんじょうほうをむだんでこうかいするべきではない。', translation: 'Không nên công bố thông tin cá nhân mà không có phép.' },
+        { japanese: '改善すべき点を率直に指摘してください。', reading: 'かいぜんすべきてんをそっちょくにしてきしてください。', translation: 'Hãy thẳng thắn chỉ ra những điểm cần cải thiện.' },
+      ],
+      grammarNote: `【〜べきだ vs 〜なければならない の違い】
+
+〜べきだ：道徳的・論理的な当然性、強い推薦
+例：「謝るべきだ」= Đương nhiên phải xin lỗi（道義的義務）
+
+〜なければならない：規則・必要性による義務
+例：「7時までに来なければならない」= Phải đến trước 7 giờ（規則）
+
+【するべきだ vs すべきだ】
+両方正しいが「すべきだ」のほうが書き言葉的・伝統的
+「するべきだ」は口語でもOK
+
+【〜べきでない vs 〜べきではない】
+両方正しい。「べきではない」がやや丁寧`,
+      quizzes: [
+        {
+          question: '「医師は患者の同意を得る（　）。」の（　）は？',
+          options: [
+            { id: 'a', text: 'べきだ' },
+            { id: 'b', text: 'かねない' },
+            { id: 'c', text: 'に過ぎない' },
+            { id: 'd', text: 'にほかならない' },
+          ],
+          correctId: 'a',
+          explanation: '「当然そうしなければならない・道義的義務がある」という意味なので「べきだ」が正解。
+"Nghĩa vụ đạo đức/đương nhiên phải làm" → dùng "べきだ".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「〜べきではない」の意味として正しいのは？',
+          options: [
+            { id: 'a', text: 'してはいけない（強い否定）' },
+            { id: 'b', text: 'しなくてもいい（許可）' },
+            { id: 'c', text: 'したほうがいい（推薦）' },
+            { id: 'd', text: 'したいと思わない（欲求否定）' },
+          ],
+          correctId: 'a',
+          explanation: '「べきではない」=「してはいけない・すべきでない」という道徳的・論理的な否定・禁止。
+"べきではない" = "không nên làm" (cấm về mặt đạo đức/logic).',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-20': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法⑳: 〜ざるを得ない',
+      titleTranslation: 'Ngữ pháp N2⑳: Không thể không.../Buộc phải...',
+      introduction: `「〜ざるを得ない」は「〜したくないけれど、状況的に〜するしかない」という意味で、不本意ながらもそうせざるを得ない状況を表します。「〜しなければならない」より強い不本意・強制のニュアンスがあります。
+
+"〜ざるを得ない" có nghĩa là "không muốn làm nhưng hoàn cảnh buộc phải làm" - biểu thị tình huống bất đắc dĩ, không thể không làm. Mạnh hơn "〜しなければならない" về sắc thái bất đắc dĩ/bị ép buộc.`,
+      keyPoints: [
+        '接続：動詞ない形（ない→ざる） + を得ない（するざるを得ない→せざるを得ない）',
+        '意味：「したくないが、そうするしかない」（buộc phải）',
+        '「する」は特殊形：「せざるを得ない」（するざるを得ない×）',
+        '強制・不本意のニュアンスが強い',
+        '例：「残業せざるを得ない」「認めざるを得ない」',
+      ],
+      vocabulary: [
+        { word: '〜ざるを得ない', reading: 'ざるをえない', meaning: 'buộc phải... / không thể không...', example: '認めざるを得ない' },
+        { word: '不本意', reading: 'ふほんい', meaning: 'bất đắc dĩ, không như ý muốn', example: '不本意ながら承諾した' },
+        { word: 'やむを得ない', reading: 'やむをえない', meaning: 'bất đắc dĩ, không còn cách nào', example: 'やむを得ない事情' },
+        { word: '仕方がない', reading: 'しかたがない', meaning: 'không có cách nào khác', example: '仕方がないから行く' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '予算不足で、このプロジェクトは中止せざるを得ません。', reading: 'よさんぶそくで、このプロジェクトはちゅうしせざるをえません。', translation: 'Do thiếu ngân sách, buộc phải dừng dự án này.' },
+        { speaker: 'B', japanese: '残念ですが、その判断を認めざるを得ないですね。', reading: 'ざんねんですが、そのはんだんをみとめざるをえないですね。', translation: 'Tiếc thật nhưng không thể không công nhận quyết định đó nhỉ.' },
+        { speaker: 'A', japanese: '状況を考えると、残業せざるを得ない日も出てくるかもしれません。', reading: 'じょうきょうをかんがえると、ざんぎょうせざるをえないひもでてくるかもしれません。', translation: 'Xét tình hình, có thể có những ngày buộc phải làm thêm giờ.' },
+      ],
+      examples: [
+        { japanese: 'エビデンスを見る限り、この事実を認めざるを得ない。', reading: 'エビデンスをみるかぎり、このじじつをみとめざるをえない。', translation: 'Nhìn vào bằng chứng, không thể không công nhận sự thật này.' },
+        { japanese: '人手不足で、休日出勤せざるを得ない状況だ。', reading: 'ひとでぶそくで、きゅうじつしゅっきんせざるをえないじょうきょうだ。', translation: 'Do thiếu nhân lực, đây là tình huống buộc phải đi làm vào ngày nghỉ.' },
+        { japanese: 'インフレにより、医療費を値上げせざるを得なかった。', reading: 'インフレにより、いりょうひをねあげせざるをえなかった。', translation: 'Do lạm phát, buộc phải tăng phí y tế.' },
+      ],
+      grammarNote: `【ざるを得ない の接続に注意】
+
+一般の動詞：ない形 → ない → ざる
+例：「行かない → 行かざる → 行かざるを得ない」
+例：「認めない → 認めざる → 認めざるを得ない」
+
+「する」は特殊：
+「しない → せざる → せざるを得ない」（「するざる」ではない！）
+
+【〜ざるを得ない vs 〜なければならない】
+〜ざるを得ない：不本意・強制感が強い
+例：「残業せざるを得ない」= Buộc phải làm thêm（したくない）
+
+〜なければならない：義務・必要性
+例：「報告しなければならない」= Phải báo cáo（普通の義務）`,
+      quizzes: [
+        {
+          question: '「〜ざるを得ない」の「する」の正しい形は？',
+          options: [
+            { id: 'a', text: 'せざるを得ない' },
+            { id: 'b', text: 'するざるを得ない' },
+            { id: 'c', text: 'しざるを得ない' },
+            { id: 'd', text: 'さざるを得ない' },
+          ],
+          correctId: 'a',
+          explanation: '「する」は特殊変形：「しない」の否定ではなく「せ」に変化。「せざるを得ない」が正しい形。
+"する" biến đổi đặc biệt: "せざるを得ない" là dạng đúng.',
+          difficulty: 'hard' as const,
+        },
+        {
+          question: '「人手不足で、みんな残業（　）。」の（　）に入る表現は？',
+          options: [
+            { id: 'a', text: 'せざるを得ない' },
+            { id: 'b', text: 'するべきだ' },
+            { id: 'c', text: 'してもいい' },
+            { id: 'd', text: 'するに過ぎない' },
+          ],
+          correctId: 'a',
+          explanation: '「したくないが状況が許さない・仕方がない」というニュアンスなので「せざるを得ない」が適切。
+"Không muốn nhưng hoàn cảnh buộc phải làm" → "せざるを得ない".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-21': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉑: 〜ずにはいられない・〜ないではいられない',
+      titleTranslation: 'Ngữ pháp N2㉑: Không thể không... / Không nhịn được...',
+      introduction: `「〜ずにはいられない」は「〜せずにいることができない・どうしても〜してしまう」という意味で、自然な衝動・感情を抑えられない状態を表します。「〜ないではいられない」もほぼ同じ意味で、こちらのほうが口語的です。
+
+"〜ずにはいられない" có nghĩa là "không thể không làm.../không nhịn được việc..." - biểu thị trạng thái không thể kìm chế xung động hoặc cảm xúc tự nhiên. "〜ないではいられない" gần giống và thông thường hơn.`,
+      keyPoints: [
+        '〜ずにはいられない：動詞ない形（ない→ず） + にはいられない',
+        '〜ないではいられない：動詞ない形 + ではいられない（より口語的）',
+        '意味：「どうしても〜してしまう・〜せずにいられない」',
+        '感情・衝動・習慣的行動を表す',
+        '例：「笑わずにはいられない」「泣かずにはいられなかった」',
+      ],
+      vocabulary: [
+        { word: '〜ずにはいられない', reading: 'ずにはいられない', meaning: 'không thể không...（衝動）', example: '笑わずにはいられない' },
+        { word: '〜ないではいられない', reading: 'ないではいられない', meaning: 'không nhịn được...（口語）', example: '泣かないではいられない' },
+        { word: '衝動', reading: 'しょうどう', meaning: 'xung động, thôi thúc', example: '衝動的に行動する' },
+        { word: '抑える', reading: 'おさえる', meaning: 'kìm chế, nén lại', example: '感情を抑える' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: 'あの患者さんのお話を聞いて、感動せずにはいられませんでした。', reading: 'あのかんじゃさんのおはなしをきいて、かんどうせずにはいられませんでした。', translation: 'Nghe câu chuyện của bệnh nhân đó, tôi không thể không xúc động.' },
+        { speaker: 'B', japanese: 'そうですよね。あの体験談には、涙を流さないではいられません。', reading: 'そうですよね。あのたいけんだんには、なみだをながさないではいられません。', translation: 'Đúng thế nhỉ. Câu chuyện trải nghiệm đó không thể không rơi nước mắt.' },
+        { speaker: 'A', japanese: '医療の現場では、患者さんの状況に共感せずにはいられないですね。', reading: 'いりょうのげんばでは、かんじゃさんのじょうきょうにきょうかんせずにはいられないですね。', translation: 'Tại hiện trường y tế, không thể không đồng cảm với tình trạng của bệnh nhân nhỉ.' },
+      ],
+      examples: [
+        { japanese: 'その映像を見て、誰もが心を動かされずにはいられなかった。', reading: 'そのえいぞうをみて、だれもがこころをうごかされずにはいられなかった。', translation: 'Xem đoạn video đó, ai cũng không thể không xúc động.' },
+        { japanese: '彼の献身的な仕事ぶりに、感謝せずにはいられない。', reading: 'かれのけんしんてきなしごとぶりに、かんしゃせずにはいられない。', translation: 'Trước tinh thần làm việc tận tụy của anh ấy, không thể không biết ơn.' },
+        { japanese: '不正を見て、声を上げずにはいられなかった。', reading: 'ふせいをみて、こえをあげずにはいられなかった。', translation: 'Chứng kiến sự bất công, không thể không lên tiếng.' },
+      ],
+      grammarNote: `【〜ずにはいられない の接続】
+
+一般動詞：ない形 → ない → ず
+例：「笑わない → 笑わず → 笑わずにはいられない」
+
+「する」は特殊：
+「しない → せず → せずにはいられない」
+
+【〜ずにはいられない vs 〜ないではいられない】
+意味はほぼ同じだが：
+「ずにはいられない」→ やや書き言葉的
+「ないではいられない」→ 口語的・現代語
+
+【〜ざるを得ない との違い】
+ざるを得ない：外部の状況・強制から「しかたなく〜する」
+ずにはいられない：内部の衝動・感情から「〜せずにいられない」`,
+      quizzes: [
+        {
+          question: '「あの曲を聴くと、体が動か（　）。」の（　）は？',
+          options: [
+            { id: 'a', text: 'ずにはいられない' },
+            { id: 'b', text: 'ざるを得ない' },
+            { id: 'c', text: 'べきだ' },
+            { id: 'd', text: 'かねない' },
+          ],
+          correctId: 'a',
+          explanation: '「体が自然に動いてしまう」という衝動・自然な反応なので「ずにはいられない」が正解。
+Phản ứng tự nhiên/xung động không kìm chế được → "ずにはいられない".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「ずにはいられない」に近い意味の表現はどれですか？',
+          options: [
+            { id: 'a', text: 'どうしても〜してしまう' },
+            { id: 'b', text: '〜するべきだ' },
+            { id: 'c', text: '〜するに過ぎない' },
+            { id: 'd', text: '〜することがある' },
+          ],
+          correctId: 'a',
+          explanation: '「ずにはいられない」は「どうしても〜せずにいられない・自然にそうしてしまう」という意味。
+"不由自主地.../ không kìm được...".',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-22': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉒: 〜ことなく・〜ないまま',
+      titleTranslation: 'Ngữ pháp N2㉒: Mà không... / Vẫn giữ nguyên...',
+      introduction: `「〜ことなく」は「〜しないで（ずっと）」という意味で、ある動作を行わずに別の動作・状態が続くことを表します。「〜ないまま」は「〜していない状態のまま」で、状態が変わらず続くことを表します。どちらも書き言葉的な表現です。
+
+"〜ことなく" có nghĩa là "mà không làm... (mãi mãi)" - biểu thị việc không thực hiện một động tác nào đó trong khi tiếp tục làm việc khác. "〜ないまま" là "vẫn giữ nguyên trạng thái chưa làm..." - trạng thái không thay đổi.`,
+      keyPoints: [
+        '〜ことなく：動詞辞書形 + ことなく（〜しないで / without doing）',
+        '意味：「〜しないでずっと〜する」（mà không làm...）',
+        '〜ないまま：動詞ない形/形容詞 + まま',
+        '意味：「〜していない状態が続く」（vẫn giữ nguyên...）',
+        '例：「休むことなく働く」「原因がわからないまま退院した」',
+      ],
+      vocabulary: [
+        { word: '〜ことなく', reading: 'ことなく', meaning: 'mà không... / không ngừng...', example: '休むことなく3時間働いた' },
+        { word: '〜ないまま', reading: 'ないまま', meaning: 'vẫn giữ nguyên（chưa làm）', example: '食事をとらないまま出かけた' },
+        { word: '変わらず', reading: 'かわらず', meaning: 'không thay đổi', example: '変わらず元気だ' },
+        { word: '途中', reading: 'とちゅう', meaning: 'giữa chừng', example: '途中でやめた' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '先生は休むことなく患者さんを診続けました。', reading: 'せんせいはやすむことなくかんじゃさんをみつづけました。', translation: 'Thầy thuốc đã tiếp tục khám bệnh nhân mà không nghỉ ngơi.' },
+        { speaker: 'B', japanese: '診断がつかないまま、数週間が過ぎてしまいました。', reading: 'しんだんがつかないまま、すうしゅうかんがすぎてしまいました。', translation: 'Vẫn chưa chẩn đoán được mà vài tuần đã trôi qua.' },
+        { speaker: 'A', japanese: '原因がわからないまま退院させるわけにはいきません。', reading: 'げんいんがわからないままたいいんさせるわけにはいきません。', translation: 'Không thể để bệnh nhân xuất viện khi vẫn chưa biết nguyên nhân.' },
+      ],
+      examples: [
+        { japanese: '誰にも気づかれることなく、病状が悪化していた。', reading: 'だれにもきづかれることなく、びょうじょうがあっかしていた。', translation: 'Tình trạng bệnh đang xấu đi mà không ai nhận ra.' },
+        { japanese: '治療を受けないまま長年過ごしてきた患者さんだ。', reading: 'ちりょうをうけないままながねんすごしてきたかんじゃさんだ。', translation: 'Đây là bệnh nhân đã trải qua nhiều năm mà không được điều trị.' },
+        { japanese: '一度も休むことなく、フルマラソンを完走した。', reading: 'いちどもやすむことなく、フルマラソンをかんそうした。', translation: 'Hoàn thành marathon mà không nghỉ lấy một lần.' },
+      ],
+      grammarNote: `【〜ことなく vs 〜ないで の違い】
+
+〜ことなく：書き言葉的・フォーマル・「ずっと〜しないで続ける」
+例：「諦めることなく挑戦し続けた」= Tiếp tục thử thách mà không bỏ cuộc
+
+〜ないで：普通・日常的・単純に「〜しないで」
+例：「朝食を食べないで来た」= Đến mà không ăn sáng
+
+【〜ないまま のパターン】
+名詞修飾：「〜していない状態のまま = 状態が変わらない」
+例：「解決しないまま話が終わった」= Vấn đề kết thúc mà chưa được giải quyết
+例：「熱が下がらないまま退院した」= Xuất viện khi sốt vẫn chưa hạ`,
+      quizzes: [
+        {
+          question: '「患者さんは原因が（　）、ずっと入院していた。」の（　）は？',
+          options: [
+            { id: 'a', text: 'わからないまま' },
+            { id: 'b', text: 'わかることなく' },
+            { id: 'c', text: 'わからずに' },
+            { id: 'd', text: 'わかるものの' },
+          ],
+          correctId: 'a',
+          explanation: '「わからない状態が続いている」という状態の継続なので「わからないまま」が最適。
+"Trạng thái không biết vẫn tiếp tục" → "ないまま".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「先生は（　）ことなく、患者に向き合い続けた。」の（　）は？',
+          options: [
+            { id: 'a', text: '諦める' },
+            { id: 'b', text: '諦めない' },
+            { id: 'c', text: '諦めた' },
+            { id: 'd', text: '諦め' },
+          ],
+          correctId: 'a',
+          explanation: '「〜ことなく」の前は動詞辞書形が必要。「諦めることなく」が正しい接続形。
+Trước "ことなく" là động từ thể từ điển.',
+          difficulty: 'hard' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-23': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉓: 〜に際して・〜に際し',
+      titleTranslation: 'Ngữ pháp N2㉓: Nhân dịp... / Vào lúc...',
+      introduction: `「〜に際して」は「〜という場面・機会に（特別な準備や注意が必要な時）」という意味で、重要なイベント・手続き・場面の前後に何かをする時に使います。「〜に当たって」とほぼ同義で、どちらも書き言葉的な格式ある表現です。
+
+"〜に際して" có nghĩa là "nhân dịp.../vào lúc (cần chuẩn bị hoặc chú ý đặc biệt)" - dùng trước/sau sự kiện quan trọng, thủ tục, tình huống đặc biệt. Gần nghĩa với "〜に当たって", đều là biểu hiện trang trọng.`,
+      keyPoints: [
+        '接続：名詞 / 動詞辞書形 + に際して（に際し）',
+        '意味：「〜という重要な場面・機会に」（nhân dịp, vào lúc quan trọng）',
+        '「〜に当たって」とほぼ同義でより書き言葉的',
+        '手続き・式典・重要イベントの文脈でよく使用',
+        '例：「入院に際して、説明をいたします」',
+      ],
+      vocabulary: [
+        { word: '〜に際して', reading: 'にさいして', meaning: 'nhân dịp.../vào lúc quan trọng', example: '手術に際して注意事項を説明する' },
+        { word: '〜に際し', reading: 'にさいし', meaning: '〜に際して（書き言葉）', example: '入学に際し、手続きが必要です' },
+        { word: '〜に当たって', reading: 'にあたって', meaning: 'nhân dịp.../vào lúc（類語）', example: '卒業に当たって一言述べます' },
+        { word: '手続き', reading: 'てつづき', meaning: 'thủ tục', example: '入院手続き' },
+      ],
+      dialogue: [
+        { speaker: '担当者', japanese: '入院に際して、いくつか確認させていただきます。', reading: 'にゅういんにさいして、いくつかかくにんさせていただきます。', translation: 'Nhân dịp nhập viện, tôi xin xác nhận một số điều.' },
+        { speaker: '患者', japanese: 'はい、何でも確認してください。', reading: 'はい、なんでもかくにんしてください。', translation: 'Vâng, xin cứ xác nhận bất kỳ điều gì.' },
+        { speaker: '担当者', japanese: '手術に際し、同意書へのご署名をお願いしています。', reading: 'しゅじゅつにさいし、どういしょへのごしょめいをおねがいしています。', translation: 'Nhân dịp phẫu thuật, chúng tôi xin ký vào bản đồng ý.' },
+      ],
+      examples: [
+        { japanese: '試験に際して、不正行為は絶対に禁止されています。', reading: 'しけんにさいして、ふせいこういはぜったいにきんしされています。', translation: 'Nhân dịp thi, gian lận tuyệt đối bị cấm.' },
+        { japanese: '採用に際し、健康診断書の提出が必要です。', reading: 'さいようにさいし、けんこうしんだんしょのていしゅつがひつようです。', translation: 'Nhân dịp tuyển dụng, cần nộp giấy khám sức khỏe.' },
+        { japanese: '退職に際して、これまでの感謝を述べたいと思います。', reading: 'たいしょくにさいして、これまでのかんしゃをのべたいとおもいます。', translation: 'Nhân dịp nghỉ việc, tôi muốn bày tỏ lòng biết ơn đến nay.' },
+      ],
+      grammarNote: `【〜に際して vs 〜に当たって の違い】
+
+どちらもほぼ同義（書き言葉・格式）だが：
+「に際して」：ある場面・機会に「その場で」の行動を述べる
+例：「面接に際して、注意すること」
+
+「に当たって」：ある機会に「これからの」行動・心構えを述べる
+例：「新年に当たって、目標を立てる」
+
+【に際して vs に際し】
+「に際して」：文中でも文末でも使える
+「に際し」：書き言葉のみ、やや格式が高い
+
+【頻出場面】
+入院・手術・採用・卒業・入学・退職・試験・開会 + に際して`,
+      quizzes: [
+        {
+          question: '「退院（　）、今後の生活について説明します。」の（　）は？',
+          options: [
+            { id: 'a', text: 'に際して' },
+            { id: 'b', text: 'にわたって' },
+            { id: 'c', text: 'をめぐって' },
+            { id: 'd', text: 'において' },
+          ],
+          correctId: 'a',
+          explanation: '「退院という重要な場面において」の意味で「に際して」が最適。重要なイベントの場面を指す表現。
+Nhân dịp sự kiện quan trọng (xuất viện) → "に際して".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「に際して」とほぼ同じ意味の表現はどれですか？',
+          options: [
+            { id: 'a', text: 'に当たって' },
+            { id: 'b', text: 'にわたって' },
+            { id: 'c', text: 'をめぐって' },
+            { id: 'd', text: 'に基づいて' },
+          ],
+          correctId: 'a',
+          explanation: '「に際して」と「に当たって」は「〜という重要な場面・機会に」という意味でほぼ同義。
+"に際して" và "に当たって" gần như đồng nghĩa.',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-24': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉔: 〜を機に・〜をきっかけに',
+      titleTranslation: 'Ngữ pháp N2㉔: Nhân cơ hội... / Bắt đầu từ...',
+      introduction: `「〜を機に」は「〜という好機・転機を利用して（次のステップへ）」という意味で、ポジティブなきっかけを表します。「〜をきっかけに」は「〜が原因・きっかけになって（変化が起きた）」で、中立的で良いことも悪いことも使えます。
+
+"〜を機に" có nghĩa là "nhân cơ hội tốt/bước ngoặt này..." - biểu thị cơ hội tích cực. "〜をきっかけに" là "bắt đầu từ/lấy cái đó làm nguyên nhân" - trung tính, dùng cho cả sự kiện tốt và xấu.`,
+      keyPoints: [
+        '〜を機に（好機・転機）：「良いきっかけ・チャンス」（nhân cơ hội tốt）',
+        '〜をきっかけに（中立）：「原因・始まり」（lấy... làm cơ hội/nguyên nhân）',
+        '接続：名詞 + を機に / をきっかけに / をきっかけとして',
+        '後ろには「変化・新しいスタート」の内容が来る',
+        '例：「転職を機に禁煙した」「事故をきっかけに健康に気をつけた」',
+      ],
+      vocabulary: [
+        { word: '〜を機に', reading: 'をきに', meaning: 'nhân cơ hội... / bước ngoặt（ポジティブ）', example: '退院を機に生活を改めた' },
+        { word: '〜をきっかけに', reading: 'をきっかけに', meaning: 'lấy... làm cơ hội（中立）', example: '入院をきっかけに禁煙した' },
+        { word: '転機', reading: 'てんき', meaning: 'bước ngoặt', example: '人生の転機' },
+        { word: '改める', reading: 'あらためる', meaning: 'cải thiện, đổi mới', example: '生活習慣を改める' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '退院を機に、生活習慣を見直そうと思います。', reading: 'たいいんをきに、せいかつしゅうかんをみなおそうとおもいます。', translation: 'Nhân cơ hội xuất viện, tôi muốn xem xét lại thói quen sinh hoạt.' },
+        { speaker: '医師', japanese: 'それは素晴らしい考えです。入院をきっかけに、生活改善を始める方も多いです。', reading: 'それはすばらしいかんがえです。にゅういんをきっかけに、せいかつかいぜんをはじめるかたもおおいです。', translation: 'Đó là suy nghĩ tuyệt vời. Cũng có nhiều người bắt đầu cải thiện lối sống lấy việc nhập viện làm cơ hội.' },
+        { speaker: 'A', japanese: 'この病気をきっかけに、体のことを真剣に考えるようになりました。', reading: 'このびょうきをきっかけに、からだのことをしんけんにかんがえるようになりました。', translation: 'Từ căn bệnh này, tôi đã bắt đầu suy nghĩ nghiêm túc về sức khỏe.' },
+      ],
+      examples: [
+        { japanese: '海外赴任を機に、英語の勉強を本格的に始めた。', reading: 'かいがいふにんをきに、えいごのべんきょうをほんかくてきにはじめた。', translation: 'Nhân cơ hội được phái ra nước ngoài, tôi bắt đầu học tiếng Anh nghiêm túc.' },
+        { japanese: '交通事故をきっかけに、車の安全運転を心がけるようになった。', reading: 'こうつうじこをきっかけに、くるまのあんぜんうんてんをこころがけるようになった。', translation: 'Từ vụ tai nạn giao thông, tôi đã bắt đầu chú ý lái xe an toàn.' },
+        { japanese: 'この出来事をきっかけとして、病院の方針が大きく変わった。', reading: 'このできごとをきっかけとして、びょういんのほうしんがおおきくかわった。', translation: 'Lấy sự kiện này làm cơ hội, phương châm của bệnh viện đã thay đổi lớn.' },
+      ],
+      grammarNote: `【〜を機に vs 〜をきっかけに の違い】
+
+〜を機に：良いチャンス・転機（ポジティブ）
+例：「転職を機に新しい生活を始めた」= Nhân cơ hội chuyển việc bắt đầu cuộc sống mới
+
+〜をきっかけに：原因・始まり（中立・良いも悪いも）
+例：「病気をきっかけに禁煙した」= Lấy bệnh tật làm cơ hội bỏ thuốc
+
+【〜をきっかけとして】
+「をきっかけとして」＝「をきっかけに」（より書き言葉的）
+例：「この事件をきっかけとして、法律が変わった」
+
+【注意】
+「〜を機に」の後は良い変化・前向きな内容が来ることが多い`,
+      quizzes: [
+        {
+          question: '「就職（　）、一人暮らしを始めた。」の（　）に適切な表現は？',
+          options: [
+            { id: 'a', text: 'を機に' },
+            { id: 'b', text: 'にわたって' },
+            { id: 'c', text: 'において' },
+            { id: 'd', text: 'をめぐって' },
+          ],
+          correctId: 'a',
+          explanation: '「就職という良い転機を利用して新生活を始めた」というポジティブな文脈なので「を機に」が適切。
+Cơ hội tích cực (xin việc) → "を機に".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「病気（　）、健康について真剣に考えるようになった。」',
+          options: [
+            { id: 'a', text: 'をきっかけに' },
+            { id: 'b', text: 'を機に' },
+            { id: 'c', text: 'に際して' },
+            { id: 'd', text: 'に基づいて' },
+          ],
+          correctId: 'a',
+          explanation: '「病気（悪いこと）がきっかけで変化した」という中立的な原因なので「をきっかけに」が適切。「を機に」は良いことに使う。
+Nguyên nhân trung tính (bệnh tật) → "をきっかけに".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-25': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉕: 〜次第（しだい）・〜次第で',
+      titleTranslation: 'Ngữ pháp N2㉕: Ngay khi... / Tùy theo...',
+      introduction: `「〜次第」には2つの意味があります。①「動詞ます形 + 次第」=「〜したらすぐ」（完了後すぐに次のアクション）、②「名詞 + 次第で」=「〜による・〜によって違う」（〜に依存する）。N2頻出で、両方の用法を覚えましょう。
+
+"〜次第" có hai nghĩa: ①"動詞ます形 + 次第" = "ngay khi..." (hành động ngay sau khi hoàn thành), ②"名詞 + 次第で" = "tùy theo.../phụ thuộc vào..." (phụ thuộc vào điều kiện).`,
+      keyPoints: [
+        '①〜次第（完了後すぐ）：動詞ます形 + 次第（ngay khi...xong）',
+        '②〜次第で（〜による）：名詞 + 次第で（tùy theo...）',
+        '「〜次第です」：状況を説明する・事情を述べる',
+        '「〜いかん（に）よる/にかかわらず」と合わせて覚える',
+        '例：「確認でき次第、ご連絡します」「努力次第で変わる」',
+      ],
+      vocabulary: [
+        { word: '〜次第①', reading: 'しだい', meaning: 'ngay khi...（完了後すぐ）', example: '到着次第連絡する' },
+        { word: '〜次第で②', reading: 'しだいで', meaning: 'tùy theo...（依存）', example: '準備次第で結果が変わる' },
+        { word: '〜いかんによる', reading: 'いかんによる', meaning: 'tùy theo thế nào（書き言葉）', example: '結果のいかんによる' },
+        { word: '成否', reading: 'せいひ', meaning: 'thành bại, thành hay bại', example: '成否は努力次第だ' },
+      ],
+      dialogue: [
+        { speaker: '医師', japanese: '検査結果が出次第、ご説明いたします。', reading: 'けんさけっかがでしだい、ごせつめいいたします。', translation: 'Ngay khi có kết quả xét nghiệm, tôi sẽ giải thích.' },
+        { speaker: '患者', japanese: 'いつ頃わかりますか？', reading: 'いつごろわかりますか？', translation: 'Khoảng bao giờ thì biết ạ?' },
+        { speaker: '医師', japanese: '検体の状態次第ですが、明日の午後には出るはずです。', reading: 'けんたいのじょうたいしだいですが、あしたのごごにはでるはずです。', translation: 'Tùy theo tình trạng mẫu xét nghiệm nhưng dự kiến chiều mai sẽ có.' },
+      ],
+      examples: [
+        { japanese: '準備が整い次第、手術を開始します。', reading: 'じゅんびがととのいしだい、しゅじゅつをかいしします。', translation: 'Ngay khi chuẩn bị xong, sẽ bắt đầu phẫu thuật.' },
+        { japanese: '回復の速さは、患者の体力と意欲次第です。', reading: 'かいふくのはやさは、かんじゃのたいりょくといよくしだいです。', translation: 'Tốc độ phục hồi phụ thuộc vào thể lực và ý chí của bệnh nhân.' },
+        { japanese: '治療方針は状況次第で変わることがあります。', reading: 'ちりょうほうしんはじょうきょうしだいでかわることがあります。', translation: 'Phương châm điều trị có thể thay đổi tùy theo tình hình.' },
+      ],
+      grammarNote: `【〜次第 の2用法の区別】
+
+①動詞ます形 + 次第：「〜したらすぐ次の行動をとる」
+例：「終わり次第電話します」= Điện thoại ngay khi xong
+→ ビジネスメール・敬語によく使用
+
+②名詞 + 次第で：「〜によって（結果・状況が）変わる」
+例：「努力次第で結果が変わる」= Kết quả thay đổi tùy theo nỗ lực
+→ 「によって」と言い換えられることが多い
+
+【〜次第です（事情説明）】
+「〜というわけです・〜という状況です」
+例：「こういう次第で遅刻しました」= Vì lý do đó mà đến trễ`,
+      quizzes: [
+        {
+          question: '「空き（　）、ご連絡いたします。」の（　）は？',
+          options: [
+            { id: 'a', text: '次第' },
+            { id: 'b', text: 'にわたって' },
+            { id: 'c', text: 'をめぐって' },
+            { id: 'd', text: 'に際して' },
+          ],
+          correctId: 'a',
+          explanation: '「空きが出たらすぐに連絡する」という意味なので「次第」（完了後すぐ）が正解。
+"Ngay khi có chỗ trống sẽ liên lạc" → "次第".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「成功するかどうかは、あなたの努力（　）です。」の（　）は？',
+          options: [
+            { id: 'a', text: '次第' },
+            { id: 'b', text: 'において' },
+            { id: 'c', text: 'とともに' },
+            { id: 'd', text: 'に過ぎない' },
+          ],
+          correctId: 'a',
+          explanation: '「あなたの努力による・依存する」という意味なので「次第」（〜による）が正解。
+"Phụ thuộc vào nỗ lực của bạn" → "次第".',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-26': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉖: 〜末（すえ）に・〜あげく（に）',
+      titleTranslation: 'Ngữ pháp N2㉖: Sau khi.../ Sau rốt...',
+      introduction: `「〜末に」は「〜というプロセスの後、ついに（よい結果・重要な決断に至った）」という意味で、ポジティブな結果に使います。「〜あげくに」は「〜を繰り返した後、結局（悪い・否定的な結果になった）」で、ネガティブな結果に使います。
+
+"〜末に" có nghĩa là "sau khi trải qua (quá trình)..., cuối cùng (đạt kết quả tốt/quyết định quan trọng)" - dùng cho kết quả tích cực. "〜あげくに" là "sau khi (lặp đi lặp lại)..., rốt cuộc (kết quả xấu)" - dùng cho kết quả tiêu cực.`,
+      keyPoints: [
+        '〜末に（ポジティブ）：「長い過程の後、良い結果・重要な決断」',
+        '〜あげくに（ネガティブ）：「繰り返した後、否定的な結果」',
+        '接続：名詞（の）末に / 動詞た形の末に / 名詞（の）あげくに',
+        '〜末に：長い検討・努力の後の結論',
+        '例：「長い議論の末に決定した」「散々迷ったあげくに断った」',
+      ],
+      vocabulary: [
+        { word: '〜末に', reading: 'すえに', meaning: 'sau khi (kết quả tốt)', example: '長い入院生活の末に退院した' },
+        { word: '〜あげくに', reading: 'あげくに', meaning: 'rốt cuộc (kết quả xấu)', example: '散々迷ったあげくに辞めた' },
+        { word: '散々', reading: 'さんざん', meaning: 'rất nhiều, hết cỡ', example: '散々悩んだあげく' },
+        { word: 'ついに', reading: 'ついに', meaning: 'cuối cùng', example: 'ついに完成した' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '長い検討の末に、手術を受けることにしました。', reading: 'ながいけんとうのすえに、しゅじゅつをうけることにしました。', translation: 'Sau khi cân nhắc lâu dài, tôi đã quyết định phẫu thuật.' },
+        { speaker: '医師', japanese: 'そうですか。慎重に考えた末の決断ですね。', reading: 'そうですか。しんちょうにかんがえたすえのけつだんですね。', translation: 'Vậy ạ. Đó là quyết định sau khi suy nghĩ cẩn thận nhỉ.' },
+        { speaker: 'B', japanese: '散々悩んだあげくに、セカンドオピニオンを求めることにした。', reading: 'さんざんなやんだあげくに、セカンドオピニオンをもとめることにした。', translation: 'Sau khi đắn đo rất nhiều, rốt cuộc quyết định tìm ý kiến thứ hai.' },
+      ],
+      examples: [
+        { japanese: '5年間の研究の末に、新薬の開発に成功した。', reading: '5ねんかんのけんきゅうのすえに、しんやくのかいはつにせいこうした。', translation: 'Sau 5 năm nghiên cứu, đã thành công phát triển thuốc mới.' },
+        { japanese: '話し合いを重ねたあげくに、プロジェクトは中止になった。', reading: 'はなしあいをかさねたあげくに、プロジェクトはちゅうしになった。', translation: 'Sau nhiều lần thảo luận, rốt cuộc dự án bị hủy.' },
+        { japanese: '悩みに悩んだ末に、専門家に相談する決意をした。', reading: 'なやみになやんだすえに、せんもんかにそうだんするけついをした。', translation: 'Sau khi trăn trở mãi, cuối cùng quyết tâm tham khảo ý kiến chuyên gia.' },
+      ],
+      grammarNote: `【〜末に vs 〜あげくに の使い分け】
+
+〜末に：ポジティブな結果・重要な決断（結果が良い）
+例：「検討の末に採用された」= Sau khi xem xét đã được tuyển dụng
+→ 後ろは良いことが来る（합격・成功・決断など）
+
+〜あげくに：ネガティブな結果（結果が悪い・否定的）
+例：「迷ったあげくに失敗した」= Sau khi do dự rốt cuộc thất bại
+→ 後ろは悪いことが来る（失敗・断念・けんかなど）
+
+【注意】
+どちらも「長いプロセスの後」というニュアンスがあるが、
+末に → 苦労が報われる感じ（positive）
+あげくに → 無駄な努力・無益な結果（negative）`,
+      quizzes: [
+        {
+          question: '「10年の研究（　）、ついに治療法が見つかった。」の（　）は？',
+          options: [
+            { id: 'a', text: 'の末に' },
+            { id: 'b', text: 'のあげくに' },
+            { id: 'c', text: 'に際して' },
+            { id: 'd', text: 'をきっかけに' },
+          ],
+          correctId: 'a',
+          explanation: '「治療法が見つかった」というポジティブな結果なので「末に」が正解。「あげくに」は否定的な結果に使う。
+Kết quả tích cực → "末に".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「散々口論した（　）、二人は別れてしまった。」の（　）は？',
+          options: [
+            { id: 'a', text: 'あげくに' },
+            { id: 'b', text: '末に' },
+            { id: 'c', text: 'とともに' },
+            { id: 'd', text: 'を機に' },
+          ],
+          correctId: 'a',
+          explanation: '「別れた」というネガティブな結果なので「あげくに」が正解。
+Kết quả tiêu cực (chia tay) → "あげくに".',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-27': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉗: 〜ぬきで・〜ぬきには・〜ぬきの',
+      titleTranslation: 'Ngữ pháp N2㉗: Không có.../Thiếu...',
+      introduction: `「〜ぬきで」は「〜がなく・〜を省いて」という意味で、何かを除いた状態を表します。「〜ぬきには」は「〜がなければ（その後は成立しない）」という条件的な意味を持ちます。「〜抜き（ぬき）」は名詞として「砂糖抜き」「前置きぬき」のように使われます。
+
+"〜ぬきで" có nghĩa là "không có.../bỏ đi..." - biểu thị trạng thái thiếu một thứ gì đó. "〜ぬきには" là điều kiện "nếu không có... (thì không thể...)". "〜抜き" dùng như danh từ.`,
+      keyPoints: [
+        '〜ぬきで：「〜なしで・〜を省いて」（không có/bỏ đi）',
+        '〜ぬきには：「〜なければ〜できない」（nếu không có...）',
+        '〜ぬきの：連体修飾「〜なしの」（không có... + danh từ）',
+        '接続：名詞 + ぬきで / ぬきには / ぬきの',
+        '例：「前置きぬきに言う」「あなたぬきには成立しない」',
+      ],
+      vocabulary: [
+        { word: '〜ぬきで', reading: 'ぬきで', meaning: 'không có.../bỏ đi...', example: '砂糖ぬきで作る' },
+        { word: '〜ぬきには', reading: 'ぬきには', meaning: 'nếu không có... (thì không thể)', example: '彼の協力ぬきには無理だ' },
+        { word: '前置き', reading: 'まえおき', meaning: 'lời mở đầu, dẫn dắt', example: '前置きぬきに言う' },
+        { word: '省く', reading: 'はぶく', meaning: 'bỏ qua, lược bỏ', example: '説明を省く' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '前置きぬきに申し上げます。この治療法には問題があります。', reading: 'まえおきぬきにもうしあげます。このちりょうほうにはもんだいがあります。', translation: 'Tôi xin nói thẳng vào vấn đề. Phương pháp điều trị này có vấn đề.' },
+        { speaker: 'B', japanese: 'チームの協力ぬきには、この手術は成功しなかったでしょう。', reading: 'チームのきょうりょくぬきには、このしゅじゅつはせいこうしなかったでしょう。', translation: 'Nếu không có sự hợp tác của đội, cuộc phẫu thuật này hẳn đã không thành công.' },
+        { speaker: 'A', japanese: '患者さんの同意ぬきに、治療を進めることはできません。', reading: 'かんじゃさんのどういぬきに、ちりょうをすすめることはできません。', translation: 'Không thể tiến hành điều trị khi thiếu sự đồng ý của bệnh nhân.' },
+      ],
+      examples: [
+        { japanese: '彼女の存在ぬきには、このプロジェクトは語れない。', reading: 'かのじょのそんざいぬきには、このプロジェクトはかたれない。', translation: 'Không thể nói về dự án này nếu thiếu sự đóng góp của cô ấy.' },
+        { japanese: 'インフォームドコンセントぬきに手術をするのは許されない。', reading: 'インフォームドコンセントぬきにしゅじゅつをするのはゆるされない。', translation: 'Không được phép phẫu thuật khi thiếu informed consent.' },
+        { japanese: '余分なものぬきのシンプルな説明が患者には伝わりやすい。', reading: 'よぶんなものぬきのシンプルなせつめいがかんじゃにはつたわりやすい。', translation: 'Giải thích đơn giản không có những thứ không cần thiết dễ truyền đạt cho bệnh nhân.' },
+      ],
+      grammarNote: `【〜ぬきで / ぬきには / ぬきに の使い分け】
+
+〜ぬきで：「〜なしで（動作・状態の説明）」
+例：「朝食ぬきで来た」= Đến mà không ăn sáng
+
+〜ぬきには：「〜なければ（後件が不可能・困難）」
+例：「あなたぬきには無理だ」= Thiếu bạn thì không thể
+
+〜ぬきに/で：「〜を省いて（手順を飛ばす）」
+例：「説明ぬきに渡された」= Được đưa cho mà không giải thích
+
+【類語：〜なしで・〜なしには】
+「〜ぬき」のほうが書き言葉的・固い表現`,
+      quizzes: [
+        {
+          question: '「医師の説明（　）に、患者は手術に同意した。」の（　）は？',
+          options: [
+            { id: 'a', text: 'ぬき' },
+            { id: 'b', text: 'に伴って' },
+            { id: 'c', text: 'をもとに' },
+            { id: 'd', text: 'に関して' },
+          ],
+          correctId: 'a',
+          explanation: '「医師の説明がないまま（省いて）」という意味なので「ぬき」が正解。
+Không có sự giải thích → "ぬき".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「スタッフ全員の協力（　）、この目標は達成できない。」の（　）は？',
+          options: [
+            { id: 'a', text: 'ぬきには' },
+            { id: 'b', text: 'ぬきで' },
+            { id: 'c', text: 'ぬきの' },
+            { id: 'd', text: 'ぬきに' },
+          ],
+          correctId: 'a',
+          explanation: '「協力がなければ達成できない」という条件の意味なので「ぬきには」が正解。
+Điều kiện "nếu không có..." → "ぬきには".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-28': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉘: 〜を問わず・〜いかんにかかわらず',
+      titleTranslation: 'Ngữ pháp N2㉘: Bất kể.../Không phân biệt...',
+      introduction: `「〜を問わず」は「〜の違いに関係なく・〜を区別しないで」という意味で、条件・違い・状況に関係なく同じ結果になる場合に使います。「〜いかんにかかわらず」は「〜がどうであっても」という意味で、より書き言葉的な表現です。
+
+"〜を問わず" có nghĩa là "bất kể.../không phân biệt..." - dùng khi không phân biệt điều kiện/sự khác biệt mà kết quả vẫn giống nhau. "〜いかんにかかわらず" là "dù thế nào cũng..." - văn viết hơn.`,
+      keyPoints: [
+        '〜を問わず：「〜に関係なく・〜を区別しない」（bất kể）',
+        '接続：名詞 + を問わず（対をなす言葉と相性がよい）',
+        '頻出：「国籍・性別・年齢・経験・天候」を問わず',
+        '〜いかんにかかわらず：「〜がどうであっても」（書き言葉）',
+        '例：「経験の有無を問わず応募可能」「結果いかんにかかわらず」',
+      ],
+      vocabulary: [
+        { word: '〜を問わず', reading: 'をとわず', meaning: 'bất kể.../không phân biệt...', example: '年齢を問わず参加できる' },
+        { word: 'いかんにかかわらず', reading: 'いかんにかかわらず', meaning: 'dù thế nào cũng（書き言葉）', example: '結果のいかんにかかわらず続ける' },
+        { word: '有無', reading: 'うむ', meaning: 'có hay không', example: '経験の有無を問わず' },
+        { word: '性別', reading: 'せいべつ', meaning: 'giới tính', example: '性別を問わず採用する' },
+      ],
+      dialogue: [
+        { speaker: '担当者', japanese: 'この研修は、経験の有無を問わず参加できます。', reading: 'このけんしゅうは、けいけんのうむをとわずさんかできます。', translation: 'Khóa đào tạo này có thể tham gia bất kể có kinh nghiệm hay không.' },
+        { speaker: 'A', japanese: '国籍を問わず応募できるんですか？', reading: 'こくせきをとわずおうぼできるんですか？', translation: 'Bất kể quốc tịch đều có thể ứng tuyển à?' },
+        { speaker: '担当者', japanese: 'はい、結果のいかんにかかわらず、全員に修了証を発行します。', reading: 'はい、けっかのいかんにかかわらず、ぜんいんにしゅうりょうしょうをはっこうします。', translation: 'Vâng, dù kết quả thế nào, tất cả đều được cấp chứng chỉ hoàn thành.' },
+      ],
+      examples: [
+        { japanese: '医療は、収入や地位を問わず受けられるべきだ。', reading: 'いりょうは、しゅうにゅうやちいをとわずうけられるべきだ。', translation: 'Y tế nên được tiếp cận bất kể thu nhập hay địa vị.' },
+        { japanese: '試験の結果いかんにかかわらず、努力は報われる。', reading: 'しけんのけっかいかんにかかわらず、どりょくはむくわれる。', translation: 'Dù kết quả thi thế nào, nỗ lực cũng sẽ được đền đáp.' },
+        { japanese: '天候を問わず、毎日運動する習慣をつけている。', reading: 'てんこうをとわず、まいにちうんどうするしゅうかんをつけている。', translation: 'Tôi có thói quen tập thể dục mỗi ngày bất kể thời tiết.' },
+      ],
+      grammarNote: `【〜を問わず の頻出パターン】
+
+対をなす言葉（両方を含む）と相性がよい：
+「男女を問わず」= Bất kể nam nữ
+「昼夜を問わず」= Bất kể ngày đêm
+「老若男女を問わず」= Bất kể già trẻ trai gái
+「経験の有無を問わず」= Bất kể có kinh nghiệm hay không
+
+【〜を問わず vs 〜にかかわらず】
+どちらも「〜に関係なく」の意味だが：
+「を問わず」→ 条件・資格の区別なし（選考・資格）
+「にかかわらず」→ より広い状況での無関係
+
+【〜いかんにかかわらず（書き言葉）】
+「いかん」=「どのような状態か」
+「結果のいかんにかかわらず」= どんな結果でも`,
+      quizzes: [
+        {
+          question: '「年齢（　）、誰でも参加できます。」の（　）は？',
+          options: [
+            { id: 'a', text: 'を問わず' },
+            { id: 'b', text: 'において' },
+            { id: 'c', text: 'に際して' },
+            { id: 'd', text: 'をめぐって' },
+          ],
+          correctId: 'a',
+          explanation: '「年齢の違いに関係なく誰でも参加できる」という意味なので「を問わず」が正解。
+"Bất kể tuổi tác" → "を問わず".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「を問わず」とほぼ同じ意味の表現はどれですか？',
+          options: [
+            { id: 'a', text: 'に関係なく' },
+            { id: 'b', text: 'に関して' },
+            { id: 'c', text: 'に基づいて' },
+            { id: 'd', text: 'において' },
+          ],
+          correctId: 'a',
+          explanation: '「を問わず」=「〜に関係なく・〜を区別せずに」という意味。「に関係なく」が最も近い。
+"を問わず" ≈ "に関係なく" (không liên quan đến).',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-29': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉙: 〜はもとより・〜はおろか',
+      titleTranslation: 'Ngữ pháp N2㉙: Chưa nói đến... / Không chỉ...',
+      introduction: `「〜はもとより」は「〜は言うまでもなく、その他にも（さらに幅広い範囲が）」という意味で、ポジティブな追加を表します。「〜はおろか」は「〜は言うまでもなく（当然できないのに）、さらに〜もできない」というネガティブな追加表現です。
+
+"〜はもとより" có nghĩa là "không cần nói đến...cả...nữa (tích cực)" - biểu thị bổ sung tích cực. "〜はおろか" là "chưa nói đến...còn không...nữa (tiêu cực)" - biểu thị bổ sung tiêu cực.`,
+      keyPoints: [
+        '〜はもとより（ポジティブ）：「〜は当然として、さらに広い範囲も」',
+        '〜はおろか（ネガティブ）：「〜は言うまでもなく（できない）、さらに〜も」',
+        '接続：名詞 + はもとより / はおろか',
+        '「はもとより」→「はもちろん」と言い換えられる',
+        '例：「日本語はもとより、英語も話せる」「食べるはおろか、立つこともできない」',
+      ],
+      vocabulary: [
+        { word: '〜はもとより', reading: 'はもとより', meaning: 'không cần nói đến.../không chỉ...（ポジティブ）', example: '日本語はもとより中国語もできる' },
+        { word: '〜はおろか', reading: 'はおろか', meaning: 'chưa nói đến.../còn không...（ネガティブ）', example: '歩くはおろか、立つこともできない' },
+        { word: '言うまでもなく', reading: 'いうまでもなく', meaning: 'không cần phải nói', example: '言うまでもなく大切だ' },
+        { word: 'おろか', reading: 'おろか', meaning: 'đã không...còn không...', example: '読むはおろか書けない' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '山田先生は医療の知識はもとより、語学力も素晴らしいです。', reading: 'やまだせんせいはいりょうのちしきはもとより、ごがくりょくもすばらしいです。', translation: 'Thầy Yamada không chỉ có kiến thức y tế mà kỹ năng ngoại ngữ cũng tuyệt vời.' },
+        { speaker: 'B', japanese: '彼女は術後に歩くはおろか、起き上がることもできませんでした。', reading: 'かのじょはじゅつごにあるくはおろか、おきあがることもできませんでした。', translation: 'Sau phẫu thuật, cô ấy chưa nói đến đi lại, ngay cả ngồi dậy cũng không được.' },
+        { speaker: 'A', japanese: 'この病院は設備はもとより、スタッフの質も高い。', reading: 'このびょういんはせつびはもとより、スタッフのしつもたかい。', translation: 'Bệnh viện này không chỉ cơ sở vật chất mà chất lượng nhân viên cũng cao.' },
+      ],
+      examples: [
+        { japanese: '彼は専門知識はもとより、コミュニケーション能力も優れている。', reading: 'かれはせんもんちしきはもとより、コミュニケーションのうりょくもすぐれている。', translation: 'Anh ấy không chỉ có kiến thức chuyên môn mà kỹ năng giao tiếp cũng xuất sắc.' },
+        { japanese: '栄養が足りなくて、動くはおろか、考えることもできなかった。', reading: 'えいようがたりなくて、うごくはおろか、かんがえることもできなかった。', translation: 'Thiếu dinh dưỡng đến mức chưa nói đến vận động, ngay cả suy nghĩ cũng không được.' },
+        { japanese: '医療の技術はもとより、患者への接し方も重要だ。', reading: 'いりょうのぎじゅつはもとより、かんじゃへのせっしかたもじゅうようだ。', translation: 'Không chỉ kỹ thuật y tế mà cách tiếp xúc với bệnh nhân cũng quan trọng.' },
+      ],
+      grammarNote: `【〜はもとより vs 〜はおろか の使い分け】
+
+〜はもとより（プラス追加）：
+「Aはもとより、Bも（できる/ある/良い）」
+例：「英語はもとより、中国語も話せる」= Không chỉ tiếng Anh mà tiếng Trung cũng nói được
+
+〜はおろか（マイナス追加）：
+「Aはおろか、Bも（できない/ない）」
+例：「歩くはおろか、立てない」= Chưa nói đến đi, đứng cũng không được
+
+【〜はもとより の類義語】
+「〜はもちろん」（口語的・やや軽い）
+「〜は言うまでもなく」（書き言葉・丁寧）
+「〜のみならず」（書き言葉）`,
+      quizzes: [
+        {
+          question: '「この病院はサービス（　）、医療技術も世界トップレベルです。」の（　）は？',
+          options: [
+            { id: 'a', text: 'はもとより' },
+            { id: 'b', text: 'はおろか' },
+            { id: 'c', text: 'どころか' },
+            { id: 'd', text: 'につれて' },
+          ],
+          correctId: 'a',
+          explanation: '「サービスも医療技術も両方優れている」というポジティブな追加なので「はもとより」が正解。
+Bổ sung tích cực → "はもとより".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「彼は立つ（　）、指一本動かすこともできなかった。」の（　）は？',
+          options: [
+            { id: 'a', text: 'はおろか' },
+            { id: 'b', text: 'はもとより' },
+            { id: 'c', text: 'ものの' },
+            { id: 'd', text: 'ことなく' },
+          ],
+          correctId: 'a',
+          explanation: '「立てない（できない）どころか、もっとひどく指も動かせない」というネガティブな追加なので「はおろか」が正解。
+Bổ sung tiêu cực → "はおろか".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-30': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉚: 〜からこそ・〜てこそ',
+      titleTranslation: 'Ngữ pháp N2㉚: Chính vì... / Có... mới...',
+      introduction: `「〜からこそ」は「〜という理由があるからこそ（他の理由ではなく、まさにこの理由で）」という強調の逆接表現です。「〜てこそ」は「〜してはじめて（その後の結果・価値が生まれる）」という意味で、条件の重要性を強調します。
+
+"〜からこそ" có nghĩa là "chính vì... (không phải lý do khác, mà chính lý do này)" - nhấn mạnh lý do. "〜てこそ" là "có làm... mới...(giá trị/kết quả mới xuất hiện)" - nhấn mạnh tầm quan trọng của điều kiện.`,
+      keyPoints: [
+        '〜からこそ：「まさにこの理由だからこそ（強調）」（chính vì）',
+        '〜てこそ：「〜してはじめて価値・結果が生まれる」（có...mới）',
+        '接続：普通形/名詞 + からこそ / 動詞て形 + こそ',
+        '「こそ」は強調の助詞（đây là trợ từ nhấn mạnh）',
+        '例：「あなたがいるからこそ頑張れる」「努力してこそ意味がある」',
+      ],
+      vocabulary: [
+        { word: '〜からこそ', reading: 'からこそ', meaning: 'chính vì...（nhấn mạnh lý do）', example: '患者のためだからこそ厳しく言う' },
+        { word: '〜てこそ', reading: 'てこそ', meaning: 'có...mới...（điều kiện quan trọng）', example: '実践してこそ身につく' },
+        { word: 'こそ', reading: 'こそ', meaning: 'chính là/đây mới là（強調助詞）', example: '今こそチャンスだ' },
+        { word: 'はじめて', reading: 'はじめて', meaning: 'lần đầu tiên/mới bắt đầu', example: '経験してはじめてわかる' },
+      ],
+      dialogue: [
+        { speaker: '看護師', japanese: '大変な仕事ですが、患者さんに感謝されるからこそ続けられます。', reading: 'たいへんなしごとですが、かんじゃさんにかんしゃされるからこそつづけられます。', translation: 'Là công việc vất vả nhưng chính vì được bệnh nhân cảm ơn nên mới tiếp tục được.' },
+        { speaker: 'A', japanese: '現場を経験してこそ、本当の医療がわかると思います。', reading: 'げんばをけいけんしてこそ、ほんとうのいりょうがわかるとおもいます。', translation: 'Tôi nghĩ có trải nghiệm thực tế mới hiểu được y tế thực sự.' },
+        { speaker: 'B', japanese: 'そうですね。失敗を経験するからこそ成長できるんです。', reading: 'そうですね。しっぱいをけいけんするからこそせいちょうできるんです。', translation: 'Đúng thế. Chính vì trải qua thất bại mới có thể trưởng thành.' },
+      ],
+      examples: [
+        { japanese: '辛い経験があるからこそ、患者の気持ちがわかる。', reading: 'つらいけいけんがあるからこそ、かんじゃのきもちがわかる。', translation: 'Chính vì có những trải nghiệm gian khổ mới hiểu được tâm trạng bệnh nhân.' },
+        { japanese: '患者と信頼関係を築いてこそ、よりよい治療ができる。', reading: 'かんじゃとしんらいかんけいをきずいてこそ、よりよいちりょうができる。', translation: 'Có xây dựng được quan hệ tin cậy với bệnh nhân mới có thể điều trị tốt hơn.' },
+        { japanese: '困難があるからこそ、達成したときの喜びが大きい。', reading: 'こんなんがあるからこそ、たっせいしたときのよろこびがおおきい。', translation: 'Chính vì có khó khăn nên khi đạt được niềm vui mới lớn.' },
+      ],
+      grammarNote: `【〜からこそ と 〜から の違い】
+
+〜から：単純な原因・理由
+例：「疲れたから帰る」= Vì mệt nên về
+
+〜からこそ：「この理由こそが（他ではなく）」強調
+例：「あなたがいるからこそ続けられる」
+= Chính vì có bạn (không phải lý do khác) mới tiếp tục được
+
+【〜てこそ の意味】
+「〜することが条件で、初めて価値・結果が生まれる」
+例：「経験してこそわかる」= Phải trải nghiệm mới hiểu được
+→「〜して初めて」に言い換えられる`,
+      quizzes: [
+        {
+          question: '「苦しい経験をした（　）、患者の痛みが理解できる。」の（　）は？',
+          options: [
+            { id: 'a', text: 'からこそ' },
+            { id: 'b', text: 'ものの' },
+            { id: 'c', text: 'ことなく' },
+            { id: 'd', text: 'に過ぎず' },
+          ],
+          correctId: 'a',
+          explanation: '「この経験こそが（他でなく）理解の理由だ」という強調の原因表現なので「からこそ」が正解。
+Nhấn mạnh lý do "chính vì..." → "からこそ".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「実際に患者を診（　）、医療の難しさがわかる。」の（　）は？',
+          options: [
+            { id: 'a', text: 'てこそ' },
+            { id: 'b', text: 'ながらも' },
+            { id: 'c', text: 'てもいい' },
+            { id: 'd', text: 'たうえで' },
+          ],
+          correctId: 'a',
+          explanation: '「診察することが条件で、初めてわかる」という意味なので「てこそ」が正解。
+Điều kiện quan trọng "có làm... mới..." → "てこそ".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-31': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉛: 〜ばかりでなく・〜のみならず',
+      titleTranslation: 'Ngữ pháp N2㉛: Không chỉ... mà còn...',
+      introduction: `「〜ばかりでなく」は「〜だけでなく、さらに（追加の情報がある）」という意味で、並列・追加を表します。「〜のみならず」はほぼ同義でより書き言葉的・格式ある表現です。どちらも「〜だけでなく」よりフォーマルです。
+
+"〜ばかりでなく" có nghĩa là "không chỉ...mà còn..." - biểu thị song song/bổ sung. "〜のみならず" gần nghĩa, văn viết và trang trọng hơn. Cả hai đều trang trọng hơn "〜だけでなく".`,
+      keyPoints: [
+        '〜ばかりでなく：「〜だけでなく、さらに〜も」（không chỉ...mà còn）',
+        '〜のみならず：「〜ばかりでなく」の書き言葉版（trang trọng）',
+        '接続：名詞 / 普通形 + ばかりでなく / のみならず',
+        '後ろには追加の情報・事実が来る',
+        '例：「日本ばかりでなく、海外でも有名」「個人のみならず社会全体の問題」',
+      ],
+      vocabulary: [
+        { word: '〜ばかりでなく', reading: 'ばかりでなく', meaning: 'không chỉ...mà còn...（日常〜書き言葉）', example: '技術ばかりでなく心も大切だ' },
+        { word: '〜のみならず', reading: 'のみならず', meaning: 'không chỉ...mà còn...（書き言葉）', example: '国内のみならず海外でも知られている' },
+        { word: '〜だけでなく', reading: 'だけでなく', meaning: 'không chỉ...（口語・普通）', example: '技術だけでなく心も大切' },
+        { word: '追加', reading: 'ついか', meaning: 'bổ sung, thêm vào', example: '追加情報' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: 'この治療法は効果があるばかりでなく、副作用も少ない。', reading: 'このちりょうほうはこうかがあるばかりでなく、ふくさようもすくない。', translation: 'Phương pháp điều trị này không chỉ có hiệu quả mà còn ít tác dụng phụ.' },
+        { speaker: 'B', japanese: '患者本人のみならず、ご家族にも説明が必要ですね。', reading: 'かんじゃほんにんのみならず、ごかぞくにもせつめいがひつようですね。', translation: 'Không chỉ cần giải thích cho bản thân bệnh nhân mà cả gia đình cũng cần nhỉ.' },
+        { speaker: 'A', japanese: '医療の質ばかりでなく、接遇の向上も求められています。', reading: 'いりょうのしつばかりでなく、せつぐうのこうじょうももとめられています。', translation: 'Không chỉ chất lượng y tế mà cả việc cải thiện tiếp đón cũng được yêu cầu.' },
+      ],
+      examples: [
+        { japanese: '高齢化は日本のみならず、世界的な問題だ。', reading: 'こうれいかはにほんのみならず、せかいてきなもんだいだ。', translation: 'Già hóa dân số không chỉ là vấn đề của Nhật Bản mà là vấn đề toàn cầu.' },
+        { japanese: 'ストレスは精神ばかりでなく、身体にも悪影響を与える。', reading: 'ストレスはせいしんばかりでなく、しんたいにもあくえいきょうをあたえる。', translation: 'Stress không chỉ ảnh hưởng xấu đến tinh thần mà còn đến thể chất.' },
+        { japanese: '医師のみならず、看護師も法律上の責任を持つ。', reading: 'いしのみならず、かんごしもほうりつじょうのせきにんをもつ。', translation: 'Không chỉ bác sĩ mà y tá cũng có trách nhiệm theo pháp luật.' },
+      ],
+      grammarNote: `【〜ばかりでなく vs 〜のみならず vs 〜だけでなく】
+
+フォーマル度：のみならず ＞ ばかりでなく ＞ だけでなく
+
+〜だけでなく（口語・普通）：
+例：「A病院だけでなくB病院も行った」
+
+〜ばかりでなく（日常〜書き言葉）：
+例：「A病院ばかりでなくB病院も評判がいい」
+
+〜のみならず（書き言葉・格式）：
+例：「A病院のみならずB病院も世界的に有名だ」
+
+【はもとより との違い】
+「はもとより」= 当然のこと + さらに
+「ばかりでなく」= 単なる追加（当然とは限らない）`,
+      quizzes: [
+        {
+          question: '「この病気は子供（　）、大人にも感染する。」の（　）は？',
+          options: [
+            { id: 'a', text: 'ばかりでなく' },
+            { id: 'b', text: 'はおろか' },
+            { id: 'c', text: 'どころか' },
+            { id: 'd', text: 'ものの' },
+          ],
+          correctId: 'a',
+          explanation: '「子供だけでなく大人も（追加情報）」という並列・追加の表現なので「ばかりでなく」が正解。
+Bổ sung tích cực "không chỉ...mà còn..." → "ばかりでなく".',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「〜ばかりでなく」の書き言葉・格式表現はどれですか？',
+          options: [
+            { id: 'a', text: 'のみならず' },
+            { id: 'b', text: 'どころか' },
+            { id: 'c', text: 'はおろか' },
+            { id: 'd', text: 'もとより' },
+          ],
+          correctId: 'a',
+          explanation: '「のみならず」は「ばかりでなく」の書き言葉・格式表現。論説文・公式文書でよく使われる。
+"のみならず" là dạng văn viết trang trọng của "ばかりでなく".',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-32': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉜: 〜ことから・〜ことで',
+      titleTranslation: 'Ngữ pháp N2㉜: Từ chỗ... / Bằng việc...',
+      introduction: `「〜ことから」は「〜という事実・理由から（判断・命名などをした）」という意味で、根拠・由来を示します。「〜ことで」は「〜するという行為によって（結果が生まれる）」という手段・方法を示す表現で、「〜することで」の形でよく使われます。
+
+"〜ことから" có nghĩa là "từ chỗ.../vì...lý do đó" - chỉ ra căn cứ, xuất xứ. "〜ことで" là "bằng việc.../nhờ..." - chỉ ra phương tiện, phương pháp tạo ra kết quả.`,
+      keyPoints: [
+        '〜ことから：「〜という事実・理由から（命名・判断）」（từ chỗ/vì）',
+        '〜ことで：「〜することによって（結果・効果が生まれる）」（bằng việc）',
+        '接続：普通形 + ことから / 動詞辞書形/名詞 + ことで',
+        '「ことから」は命名・由来の説明によく使用',
+        '例：「白い花が咲くことから、白梅と呼ばれる」',
+      ],
+      vocabulary: [
+        { word: '〜ことから', reading: 'ことから', meaning: 'từ chỗ.../vì lý do này...（根拠・由来）', example: '肌が白いことから「雪女」と呼ばれた' },
+        { word: '〜ことで', reading: 'ことで', meaning: 'bằng việc.../nhờ...（手段・方法）', example: '運動することで健康を保てる' },
+        { word: '由来', reading: 'ゆらい', meaning: 'xuất xứ, nguồn gốc', example: '名前の由来' },
+        { word: '呼ばれる', reading: 'よばれる', meaning: 'được gọi là', example: '〜と呼ばれる植物' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: 'この薬はなぜ「ホワイト錠」という名前なんですか？', reading: 'このくすりはなぜ「ホワイトじょう」というなまえなんですか？', translation: 'Sao thuốc này lại có tên là "White錠" vậy ạ?' },
+        { speaker: '薬剤師', japanese: '白い錠剤であることから、その名前がつけられました。', reading: 'しろいじょうざいであることから、そのなまえがつけられました。', translation: 'Từ chỗ là viên thuốc màu trắng, tên đó đã được đặt cho nó.' },
+        { speaker: 'A', japanese: '毎日薬を飲むことで、症状が改善するんですね。', reading: 'まいにちくすりをのむことで、しょうじょうがかいぜんするんですね。', translation: 'Bằng việc uống thuốc mỗi ngày, triệu chứng sẽ cải thiện nhỉ.' },
+      ],
+      examples: [
+        { japanese: '葉が桜のような形をしていることから、「桜草」と呼ばれる。', reading: 'はがさくらのようなかたちをしていることから、「さくらそう」とよばれる。', translation: 'Từ chỗ lá có hình dạng như hoa anh đào, được gọi là "Sakurasou".' },
+        { japanese: 'コミュニケーションを取ることで、患者との信頼関係が深まる。', reading: 'コミュニケーションをとることで、かんじゃとのしんらいかんけいがふかまる。', translation: 'Bằng việc giao tiếp, quan hệ tin cậy với bệnh nhân được củng cố.' },
+        { japanese: '副作用が多く報告されることから、使用が制限されている。', reading: 'ふくさようがおおくほうこくされることから、しようがせいげんされている。', translation: 'Từ chỗ có nhiều báo cáo về tác dụng phụ, việc sử dụng bị hạn chế.' },
+      ],
+      grammarNote: `【〜ことから vs 〜ことで の違い】
+
+〜ことから：根拠・由来・理由
+「〜という事実をもとに判断/命名した」
+例：「色が赤いことから、赤血球と名付けられた」
+→ Từ sự thật... → đặt tên/phán quyết
+
+〜ことで：手段・方法・条件
+「〜するという行為によって、〜という結果が出る」
+例：「定期的に運動することで、体力がつく」
+→ Bằng việc... → kết quả xảy ra
+
+【ことから の特徴】
+命名・由来の説明に多用
+「〜から」を「〜ことから」に置き換えたフォーマル版`,
+      quizzes: [
+        {
+          question: '「川の流れが速い（　）、この橋は「急流橋」と呼ばれている。」の（　）は？',
+          options: [
+            { id: 'a', text: 'ことから' },
+            { id: 'b', text: 'ことで' },
+            { id: 'c', text: 'ことなく' },
+            { id: 'd', text: 'ことに' },
+          ],
+          correctId: 'a',
+          explanation: '「川の流れが速いという事実を根拠に命名した」という由来・根拠を表すので「ことから」が正解。
+Căn cứ/nguồn gốc đặt tên → "ことから".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「日記をつける（　）、自分の成長が見えてくる。」の（　）は？',
+          options: [
+            { id: 'a', text: 'ことで' },
+            { id: 'b', text: 'ことから' },
+            { id: 'c', text: 'ことに' },
+            { id: 'd', text: 'ことなく' },
+          ],
+          correctId: 'a',
+          explanation: '「日記をつけるという行為の結果として成長が見える」という手段・方法なので「ことで」が正解。
+Phương tiện/cách thức tạo ra kết quả → "ことで".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-33': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N2文法㉝: 複合助詞まとめ（〜に対して・〜に応じて・〜に沿って）',
+      titleTranslation: 'Ngữ pháp N2㉝: Tổng hợp trợ từ phức hợp',
+      introduction: `N2の複合助詞の中でも特に重要な「〜に対して」「〜に応じて」「〜に沿って」をまとめて学習します。「〜に対して」は「〜へ向けて・〜に関して（方向・対象）」、「〜に応じて」は「〜の状況に合わせて」、「〜に沿って」は「〜の方針・方向に従って」という意味です。
+
+Học tổng hợp 3 trợ từ phức hợp quan trọng nhất N2: "〜に対して"（đối với/hướng đến）, "〜に応じて"（tùy theo/đáp lại）, "〜に沿って"（theo/dọc theo）.`,
+      keyPoints: [
+        '〜に対して：「〜へ向けて・〜に関して（方向・対象）」（đối với）',
+        '〜に応じて：「〜の状況・レベルに合わせて」（tùy theo）',
+        '〜に沿って：「〜の方針・方向に従って」（theo/tuân theo）',
+        '接続：すべて 名詞 + に対して/に応じて/に沿って',
+        '例：「患者に対して丁寧に説明する」「状況に応じて対応する」',
+      ],
+      vocabulary: [
+        { word: '〜に対して', reading: 'にたいして', meaning: 'đối với/hướng đến（対象・方向）', example: '患者に対して丁寧に接する' },
+        { word: '〜に応じて', reading: 'におうじて', meaning: 'tùy theo/đáp lại（適応）', example: '需要に応じて供給する' },
+        { word: '〜に沿って', reading: 'にそって', meaning: 'theo/tuân theo（従って）', example: 'マニュアルに沿って作業する' },
+        { word: '〜に従って', reading: 'にしたがって', meaning: 'theo/tuân theo（類語）', example: '指示に従って動く' },
+      ],
+      dialogue: [
+        { speaker: '上司', japanese: '患者さんに対して、常に敬語を使うようにしてください。', reading: 'かんじゃさんにたいして、つねにけいごをつかうようにしてください。', translation: 'Đối với bệnh nhân, hãy luôn sử dụng kính ngữ.' },
+        { speaker: '部下', japanese: '患者の状態に応じて、説明の難易度を変えるべきですね。', reading: 'かんじゃのじょうたいにおうじて、せつめいのなんいどをかえるべきですね。', translation: 'Nên thay đổi mức độ giải thích tùy theo tình trạng bệnh nhân nhỉ.' },
+        { speaker: '上司', japanese: 'マニュアルに沿って対応しつつも、臨機応変さも必要です。', reading: 'マニュアルにそっておうじつつも、りんきおうへんさもひつようです。', translation: 'Vừa đối ứng theo sổ tay hướng dẫn vừa cần linh hoạt ứng biến.' },
+      ],
+      examples: [
+        { japanese: '医師は患者に対して誠実に向き合う義務がある。', reading: 'いしはかんじゃにたいしてせいじつにむきあうぎむがある。', translation: 'Bác sĩ có nghĩa vụ đối xử thành thật với bệnh nhân.' },
+        { japanese: '患者の回復状況に応じて、リハビリの内容を変更する。', reading: 'かんじゃのかいふくじょうきょうにおうじて、リハビリのないようをへんこうする。', translation: 'Thay đổi nội dung phục hồi chức năng tùy theo tình trạng phục hồi của bệnh nhân.' },
+        { japanese: '治療方針に沿って、各スタッフが連携して動く。', reading: 'ちりょうほうしんにそって、かくスタッフがれんけいしてうごく。', translation: 'Mỗi nhân viên phối hợp hoạt động theo phương châm điều trị.' },
+      ],
+      grammarNote: `【3つの複合助詞の使い分け】
+
+〜に対して（対象・方向）：
+「Aに対してBする」= Làm B đối với A
+例：「批判に対して反論する」= Phản bác lại chỉ trích
+
+〜に応じて（適応・対応）：
+「Aに応じてBを変える/調整する」= Điều chỉnh B tùy theo A
+例：「年齢に応じた薬の量」= Liều thuốc phù hợp với tuổi
+
+〜に沿って（方針・方向に従う）：
+「Aに沿ってBを行う」= Thực hiện B theo A
+例：「計画に沿って進める」= Tiến hành theo kế hoạch
+
+【に従って vs に沿って】
+に従って：命令・規則・指示に従う（tuân theo）
+に沿って：方針・計画・方向性に沿う（theo hướng）`,
+      quizzes: [
+        {
+          question: '「患者の要望（　）、治療方針を変更することがある。」の（　）は？',
+          options: [
+            { id: 'a', text: 'に応じて' },
+            { id: 'b', text: 'に対して' },
+            { id: 'c', text: 'に沿って' },
+            { id: 'd', text: 'に際して' },
+          ],
+          correctId: 'a',
+          explanation: '「患者の要望の状況に合わせて変更する」という適応・対応の意味なので「に応じて」が正解。
+Thích nghi/đáp lại tình huống → "に応じて".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「治療計画（　）、段階的に療養を進める。」の（　）は？',
+          options: [
+            { id: 'a', text: 'に沿って' },
+            { id: 'b', text: 'に対して' },
+            { id: 'c', text: 'に応じて' },
+            { id: 'd', text: 'をめぐって' },
+          ],
+          correctId: 'a',
+          explanation: '「治療計画の方針・方向性に従って進める」という意味なので「に沿って」が正解。
+Theo phương hướng/kế hoạch → "に沿って".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n2-01-34': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'premium',
+    lesson: {
+      title: 'N2文法㉞: 総合練習問題（文法選択・穴埋め）',
+      titleTranslation: 'N2 Ngữ pháp㉞: Bài tập tổng hợp (chọn ngữ pháp, điền vào chỗ trống)',
+      introduction: `これまでに学習したN2文法（L1〜L33）の総合練習です。実際のJLPT形式に近い選択問題と穴埋め問題で、理解度を確認しましょう。各問題の解説をしっかり読んで、苦手な文法は復習してください。
+
+Đây là bài tập tổng hợp ngữ pháp N2 (L1~L33) đã học. Hãy kiểm tra mức độ hiểu biết với các câu hỏi chọn đáp án và điền vào chỗ trống gần giống định dạng JLPT thực tế. Hãy đọc kỹ giải thích từng câu và ôn lại ngữ pháp còn yếu.`,
+      keyPoints: [
+        '〜にもかかわらず / 〜にかかわらず の区別（L1）',
+        '〜をめぐって / 〜において / 〜として の使い分け（L2・L7・L5）',
+        '〜ざるを得ない / 〜べきだ / 〜得る の区別（L20・L19・L18）',
+        '〜末に / 〜あげくに のポジネガの使い分け（L26）',
+        '実際のN2問題パターンで練習',
+      ],
+      vocabulary: [
+        { word: '総合練習', reading: 'そうごうれんしゅう', meaning: 'luyện tập tổng hợp', example: '文法の総合練習をする' },
+        { word: '穴埋め問題', reading: 'あなうめもんだい', meaning: 'câu hỏi điền vào chỗ trống', example: '穴埋め問題を解く' },
+        { word: '選択問題', reading: 'せんたくもんだい', meaning: 'câu hỏi chọn đáp án', example: 'N2選択問題' },
+        { word: '復習', reading: 'ふくしゅう', meaning: 'ôn tập', example: '苦手な文法を復習する' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: 'N2の文法問題はどのくらい難しいですか？', reading: 'N2のぶんぽうもんだいはどのくらいむずかしいですか？', translation: 'Câu hỏi ngữ pháp N2 khó đến mức nào ạ?' },
+        { speaker: 'B', japanese: 'N3と比べると、より複雑な文型や使い分けが問われます。', reading: 'N3とくらべると、よりふくざつなぶんけいやつかいわけがとわれます。', translation: 'So với N3, người ta hỏi về các mẫu câu phức tạp hơn và sự phân biệt cách dùng.' },
+        { speaker: 'A', japanese: 'この練習問題で実力を確認していきます。', reading: 'このれんしゅうもんだいでじつりょくをかくにんしていきます。', translation: 'Tôi sẽ xác nhận năng lực thực tế qua bài tập luyện này.' },
+      ],
+      examples: [
+        { japanese: '困難（　）あきらめず、最後まで取り組んだ。→ にもかかわらず', reading: 'こんなんにもかかわらずあきらめず、さいごまでとりくんだ。', translation: 'Mặc dù có khó khăn, không bỏ cuộc và làm việc đến cùng.' },
+        { japanese: '医療分野（　）、AIの活用が進んでいる。→ において', reading: 'いりょうぶんやにおいて、AIのかつようがすすんでいる。', translation: 'Trong lĩnh vực y tế, việc ứng dụng AI đang tiến triển.' },
+        { japanese: '人手不足で、休日も働か（　）。→ ざるを得ない', reading: 'ひとでぶそくで、きゅうじつもはたらかざるをえない。', translation: 'Do thiếu nhân lực, buộc phải làm việc cả ngày nghỉ.' },
+      ],
+      grammarNote: `【総合問題 解答のポイント】
+
+1. 逆接・让步の区別：
+・〜にもかかわらず：強い逆接（書き言葉）
+・〜ものの：事実の逆接
+・〜ながらも/つつも：矛盾した行動
+・〜とはいえ：部分認定
+
+2. 可能・不可能の区別：
+・〜得る：論理的に可能
+・〜かねない：悪い可能性
+・〜かねる：丁寧な断り
+・〜ざるを得ない：不本意な強制
+
+3. 根拠・手段の区別：
+・〜に基づいて：規則・データが根拠
+・〜によって：手段・原因・違い
+・〜を通じて：経由・媒介
+・〜ことから：由来・根拠`,
+      quizzes: [
+        {
+          question: '「長い入院生活（　）、ついに退院が許可された。」の（　）は？',
+          options: [
+            { id: 'a', text: 'の末に' },
+            { id: 'b', text: 'のあげくに' },
+            { id: 'c', text: 'をめぐって' },
+            { id: 'd', text: 'とともに' },
+          ],
+          correctId: 'a',
+          explanation: '「長いプロセスの後、よい結果（退院許可）が出た」のでポジティブな「末に」が正解。
+Sau quá trình dài, kết quả tốt → "末に".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「患者本人（　）、ご家族にも説明が必要です。」の（　）は？',
+          options: [
+            { id: 'a', text: 'のみならず' },
+            { id: 'b', text: 'はおろか' },
+            { id: 'c', text: 'どころか' },
+            { id: 'd', text: 'ぬきには' },
+          ],
+          correctId: 'a',
+          explanation: '「患者だけでなく家族も（追加）」というポジティブな並列なので「のみならず」が正解。
+Bổ sung tích cực "không chỉ...mà còn..." → "のみならず".',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 40,
+    },
+  },
+
+  'n2-01-35': {
+    courseTitle: { ja: 'N2 上級文法マスター', vi: 'Ngữ pháp nâng cao N2' },
+    isLocked: false,
+    requiredPlan: 'premium',
+    lesson: {
+      title: 'N2文法㉟: 総復習テスト（20問）',
+      titleTranslation: 'N2 Ngữ pháp㉟: Kiểm tra tổng hợp（20 câu）',
+      introduction: `N2 上級文法マスター（全35レッスン）の総復習テストです。L1〜L34で学習したすべての文法項目から20問出題します。合格ライン：80点（16問/20問）。間違えた問題は必ず復習してください。
+
+Đây là bài kiểm tra tổng hợp N2 Ngữ pháp Nâng Cao (35 bài). Có 20 câu từ tất cả các mục ngữ pháp đã học ở L1~L34. Điểm đậu: 80 điểm (16/20 câu). Hãy nhất định ôn lại những câu trả lời sai.`,
+      keyPoints: [
+        '全35レッスンからバランスよく出題',
+        '合格ライン：80点（16問/20問正解）',
+        '苦手項目：解説を読んで必ず復習',
+        'JLPT N2本試験形式に近い出題パターン',
+        'XP報酬：50XP（最高報酬）',
+      ],
+      vocabulary: [
+        { word: '総復習', reading: 'そうふくしゅう', meaning: 'ôn tập tổng hợp tất cả', example: 'N2文法の総復習' },
+        { word: '合格ライン', reading: 'ごうかくライン', meaning: 'điểm đậu, mức vượt qua', example: '合格ラインは80点' },
+        { word: 'バランスよく', reading: 'バランスよく', meaning: 'cân bằng, đều đặn', example: 'バランスよく出題する' },
+        { word: '本試験', reading: 'ほんしけん', meaning: 'kỳ thi thực tế', example: 'JLPT本試験' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: 'いよいよ総復習テストです。準備はいいですか？', reading: 'いよいよそうふくしゅうテストです。じゅんびはいいですか？', translation: 'Cuối cùng đến bài kiểm tra tổng hợp rồi. Đã sẵn sàng chưa?' },
+        { speaker: 'B', japanese: 'はい！35レッスンを頑張って学習しました。', reading: 'はい！35レッスンをがんばってがくしゅうしました。', translation: 'Vâng! Tôi đã cố gắng học 35 bài.' },
+        { speaker: 'A', japanese: '自信を持って取り組んでください。応援しています！', reading: 'じしんをもってとりくんでください。おうえんしています！', translation: 'Hãy tự tin mà làm nhé. Tôi cổ vũ bạn!' },
+      ],
+      examples: [
+        { japanese: '問題例①：彼女の努力（　）、このプロジェクトは成功した。', reading: 'もんだいれいいち：かのじょのどりょくにほかならない、このプロジェクトはせいこうした。', translation: 'Ví dụ①: Thành công của dự án này chính là nhờ nỗ lực của cô ấy.' },
+        { japanese: '問題例②：繁忙期（　）も、患者への対応は丁寧にすべきだ。', reading: 'もんだいれいに：はんぼうきにもかかわらず、かんじゃへのたいおうはていねいにすべきだ。', translation: 'Ví dụ②: Dù trong mùa bận rộn, cách ứng xử với bệnh nhân vẫn nên lịch sự.' },
+        { japanese: '問題例③：長年の研究（　）に、ついに治療法が確立された。', reading: 'もんだいれいさん：ながねんのけんきゅうのすえに、ついにちりょうほうがかくりつされた。', translation: 'Ví dụ③: Sau nhiều năm nghiên cứu, cuối cùng phương pháp điều trị đã được xác lập.' },
+      ],
+      grammarNote: `【総復習テスト 対策のまとめ】
+
+■ 逆接グループ（にもかかわらず・ものの・つつも・ながらも・とはいえ）
+→ ニュアンスの強さ・場面に注意
+
+■ 可能・義務グループ（べきだ・ざるを得ない・得る・かねない・かねる）
+→ ポジネガ・書き言葉か口語かに注意
+
+■ 程度・強調グループ（にほかならない・に過ぎない・どころか・はおろか）
+→ 強調の方向（プラス・マイナス）に注意
+
+■ 時間・条件グループ（次第・に際して・末に・あげくに・を機に）
+→ 前後の文脈に注意
+
+■ 複合格助詞（において・によって・をめぐって・に関して・に基づいて）
+→ 文体・場面・意味の違いに注意`,
+      quizzes: [
+        {
+          question: '「現場（　）は、理論だけでは通用しない部分がある。」の（　）は？',
+          options: [
+            { id: 'a', text: 'においては' },
+            { id: 'b', text: 'に際しては' },
+            { id: 'c', text: 'をめぐっては' },
+            { id: 'd', text: 'に関しては' },
+          ],
+          correctId: 'a',
+          explanation: '「現場という場所・状況においては（特に）」というニュアンスなので「においては」が正解。「においては」は特定の場面・状況を強調する形。
+"おいては" nhấn mạnh tình huống cụ thể.',
+          difficulty: 'hard' as const,
+        },
+        {
+          question: '「経験を積む（　）、本当のプロになれる。」の（　）は？',
+          options: [
+            { id: 'a', text: 'てこそ' },
+            { id: 'b', text: 'ことなく' },
+            { id: 'c', text: 'ないまま' },
+            { id: 'd', text: 'ものの' },
+          ],
+          correctId: 'a',
+          explanation: '「経験を積むことが条件で、初めてプロになれる」という「てこそ」の意味が最適。
+Điều kiện quan trọng "có...mới..." → "てこそ".',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「長い議論（　）、最終的に合意に達した。」の（　）は？',
+          options: [
+            { id: 'a', text: 'の末に' },
+            { id: 'b', text: 'のあげくに' },
+            { id: 'c', text: 'をきっかけに' },
+            { id: 'd', text: 'にわたって' },
+          ],
+          correctId: 'a',
+          explanation: '「長い議論というプロセスの後、良い結果（合意）が出た」のでポジティブな「末に」が正解。
+Sau quá trình, kết quả tốt → "末に".',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
+
   'n5-01-2': {
     courseTitle: { ja: 'N5 ひらがな・カタカナ完全マスター', vi: 'Hoàn thiện Hiragana & Katakana N5' },
     isLocked: false, requiredPlan: 'free',
@@ -17997,6 +20722,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n3-02': ['n3-02', 'n3-02-2', 'n3-02-3', 'n3-02-4', 'n3-02-5', 'n3-02-6', 'n3-02-7', 'n3-02-8', 'n3-02-9', 'n3-02-10', 'n3-02-11', 'n3-02-12', 'n3-02-13', 'n3-02-14', 'n3-02-15', 'n3-02-16', 'n3-02-17', 'n3-02-18', 'n3-02-19', 'n3-02-20'],
   'n3-03': ['n3-03', 'n3-03-2', 'n3-03-3', 'n3-03-4', 'n3-03-5', 'n3-03-6', 'n3-03-7', 'n3-03-8', 'n3-03-9', 'n3-03-10', 'n3-03-11', 'n3-03-12', 'n3-03-13', 'n3-03-14', 'n3-03-15', 'n3-03-16', 'n3-03-17', 'n3-03-18', 'n3-03-19', 'n3-03-20'],
   'n3-04': ['n3-04', 'n3-04-2', 'n3-04-3', 'n3-04-4', 'n3-04-5', 'n3-04-6', 'n3-04-7', 'n3-04-8', 'n3-04-9', 'n3-04-10', 'n3-04-11', 'n3-04-12', 'n3-04-13', 'n3-04-14', 'n3-04-15', 'n3-04-16', 'n3-04-17', 'n3-04-18'],
+  'n2-01': ['n2-01', 'n2-01-2', 'n2-01-3', 'n2-01-4', 'n2-01-5', 'n2-01-6', 'n2-01-7', 'n2-01-8', 'n2-01-9', 'n2-01-10', 'n2-01-11', 'n2-01-12', 'n2-01-13', 'n2-01-14', 'n2-01-15', 'n2-01-16', 'n2-01-17', 'n2-01-18', 'n2-01-19', 'n2-01-20', 'n2-01-21', 'n2-01-22', 'n2-01-23', 'n2-01-24', 'n2-01-25', 'n2-01-26', 'n2-01-27', 'n2-01-28', 'n2-01-29', 'n2-01-30', 'n2-01-31', 'n2-01-32', 'n2-01-33', 'n2-01-34', 'n2-01-35'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -18237,6 +20963,41 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n3-04-16': { ja: '重要語彙①動詞・名詞100語', vi: 'Từ vựng quan trọng①Động từ & Danh từ' },
   'n3-04-17': { ja: '重要語彙②形容詞・副詞80語', vi: 'Từ vựng quan trọng②Tính từ & Phó từ' },
   'n3-04-18': { ja: '総復習テスト（20問）', vi: 'Kiểm tra tổng hợp（20 câu）' },
+  'n2-01':    { ja: '〜にもかかわらず/〜にかかわらず', vi: 'にもかかわらず/にかかわらず' },
+  'n2-01-2':  { ja: '〜をめぐって・〜をめぐる', vi: 'をめぐって・をめぐる' },
+  'n2-01-3':  { ja: '〜に基づいて・〜に基づく', vi: 'に基づいて・に基づく' },
+  'n2-01-4':  { ja: '〜によって（手段・原因・違い）', vi: 'によって（手段・原因）' },
+  'n2-01-5':  { ja: '〜として・〜としては', vi: 'として・としては' },
+  'n2-01-6':  { ja: '〜に関して・〜に関する', vi: 'に関して・に関する' },
+  'n2-01-7':  { ja: '〜において・〜においては', vi: 'において・においては' },
+  'n2-01-8':  { ja: '〜とともに・〜に伴って', vi: 'とともに・に伴って' },
+  'n2-01-9':  { ja: '〜を通じて・〜を通して', vi: 'を通じて・を通して' },
+  'n2-01-10': { ja: '〜にわたって・〜にわたる', vi: 'にわたって・にわたる' },
+  'n2-01-11': { ja: '〜上（じょう）で・〜うえで', vi: '〜上（じょう）で' },
+  'n2-01-12': { ja: '〜にほかならない', vi: 'にほかならない' },
+  'n2-01-13': { ja: '〜に過ぎない・〜に過ぎなかった', vi: 'に過ぎない' },
+  'n2-01-14': { ja: '〜どころか', vi: 'どころか' },
+  'n2-01-15': { ja: '〜ものの・〜とはいえ', vi: 'ものの・とはいえ' },
+  'n2-01-16': { ja: '〜つつ(も)・〜ながらも', vi: 'つつも・ながらも' },
+  'n2-01-17': { ja: '〜かねない・〜かねる', vi: 'かねない・かねる' },
+  'n2-01-18': { ja: '〜得る(うる/える)・〜得ない', vi: '得る・得ない' },
+  'n2-01-19': { ja: '〜べき・〜べきだ・〜べきではない', vi: 'べきだ・べきではない' },
+  'n2-01-20': { ja: '〜ざるを得ない', vi: 'ざるを得ない' },
+  'n2-01-21': { ja: '〜ずにはいられない', vi: 'ずにはいられない' },
+  'n2-01-22': { ja: '〜ことなく・〜ないまま', vi: 'ことなく・ないまま' },
+  'n2-01-23': { ja: '〜に際して・〜に際し', vi: 'に際して・に際し' },
+  'n2-01-24': { ja: '〜を機に・〜をきっかけに', vi: 'を機に・をきっかけに' },
+  'n2-01-25': { ja: '〜次第（しだい）・〜次第で', vi: '次第・次第で' },
+  'n2-01-26': { ja: '〜末（すえ）に・〜あげくに', vi: '末に・あげくに' },
+  'n2-01-27': { ja: '〜ぬきで・〜ぬきには', vi: 'ぬきで・ぬきには' },
+  'n2-01-28': { ja: '〜を問わず・〜いかんにかかわらず', vi: 'を問わず' },
+  'n2-01-29': { ja: '〜はもとより・〜はおろか', vi: 'はもとより・はおろか' },
+  'n2-01-30': { ja: '〜からこそ・〜てこそ', vi: 'からこそ・てこそ' },
+  'n2-01-31': { ja: '〜ばかりでなく・〜のみならず', vi: 'ばかりでなく・のみならず' },
+  'n2-01-32': { ja: '〜ことから・〜ことで', vi: 'ことから・ことで' },
+  'n2-01-33': { ja: '複合助詞まとめ（に対して・に応じて）', vi: 'Tổng hợp trợ từ phức hợp' },
+  'n2-01-34': { ja: '総合練習問題', vi: 'Bài tập tổng hợp' },
+  'n2-01-35': { ja: '総復習テスト（20問）', vi: 'Kiểm tra tổng hợp（20 câu）' },
 };
 
 // Find course ID for a given lesson ID
