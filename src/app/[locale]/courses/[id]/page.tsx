@@ -9049,6 +9049,1813 @@ Từ N3, trợ từ phức hợp tăng lên. 〜に対して・〜について�
     },
   },
 
+  'n3-01-2': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜ながら（逆接「しながら」と「〜ながら（も）」の違い）',
+      titleTranslation: '〜ながら（Sự khác biệt giữa "làm đồng thời" và "mặc dù"）',
+      introduction: `「〜ながら」には二つの意味があります。①同時動作「音楽を聴きながら仕事する」②逆接「知りながら言わない」。介護現場では「声かけながらケアする」「疲れながらも笑顔で接する」などよく使います。
+
+「〜ながら」có hai nghĩa: ①hành động đồng thời "vừa nghe nhạc vừa làm việc" ②mặc dù "biết mà không nói". Trong điều dưỡng thường dùng "vừa nói chuyện vừa chăm sóc" hay "dù mệt vẫn tiếp đón với nụ cười".`,
+      keyPoints: [
+        '同時動作の〜ながら: 主語が同じ、前の動詞は連用形（vừa...vừa...）',
+        '逆接の〜ながら（も）: 「〜なのに・〜けれど」の意味（mặc dù, nhưng）',
+        '同時動作: テレビを見ながら食事する（menh đề sau là hành động chính）',
+        '逆接: 知りながら黙っていた・狭いながらも快適な部屋（biết mà vẫn im lặng）',
+        '注意: 逆接の〜ながら は書き言葉・フォーマルな場面が多い（thường dùng văn viết）',
+        '介護例: 話しかけながら体を拭く / 疲れながらも丁寧に対応する',
+      ],
+      vocabulary: [
+        { word: '〜ながら（同時）', reading: 'ながら', meaning: '〜しつつ（vừa...vừa...）', example: '記録を書きながら報告する' },
+        { word: '〜ながら（逆接）', reading: 'ながら', meaning: '〜なのに（mặc dù）', example: '知りながら言わなかった' },
+        { word: '声かけ', reading: 'こえかけ', meaning: '話しかけること（lên tiếng, nói chuyện）', example: '移動の前に必ず声かけをする' },
+        { word: '笑顔', reading: 'えがお', meaning: 'にっこりした顔（nụ cười）', example: '笑顔で利用者さんに接する' },
+        { word: '丁寧に', reading: 'ていねいに', meaning: '礼儀正しく・注意深く（cẩn thận, lịch sự）', example: '丁寧に体を拭く' },
+      ],
+      examples: [
+        { japanese: '利用者さんに話しかけながら、体を拭きます。', reading: 'りようしゃさんにはなしかけながら、からだをふきます。', translation: 'Vừa nói chuyện với người được chăm sóc, vừa lau người.' },
+        { japanese: '疲れながらも、笑顔で対応しました。', reading: 'つかれながらも、えがおでたいおうしました。', translation: 'Dù mệt, vẫn tiếp đón với nụ cười.' },
+        { japanese: '狭いながらも、清潔な居室を保つことが大切です。', reading: 'せまいながらも、せいけつなきょしつをたもつことがたいせつです。', translation: 'Dù chật nhưng việc giữ phòng sạch sẽ là điều quan trọng.' },
+      ],
+      grammarNote: `【〜ながら の二つの用法】
+
+①同時動作: Vする + ながら + Vする（主語が同じ）
+  ○ 音楽を聴きながら仕事する
+  ✗ 雨が降りながら出かける（主語が違うので不可）
+
+②逆接 〜ながら（も）: い形容詞・な形容詞・動詞＋ながら
+  ○ 知りながら言わない（動詞）
+  ○ 小さいながらも立派な施設（い形容詞）
+  ○ 不便ながらも住みやすい（な形容詞語幹）
+
+【ベトナム語メモ】
+①同時: vừa～vừa～ / trong khi～
+②逆接: mặc dù～nhưng～ / dù～vẫn～`,
+      quiz: {
+        question: '「彼女は疲れて（　）、最後まで仕事を続けた」に入るのは？',
+        options: [
+          { id: 'a', text: 'いながら' },
+          { id: 'b', text: 'ながらも' },
+          { id: 'c', text: 'ながらに' },
+          { id: 'd', text: 'ながらで' },
+        ],
+        correctId: 'b',
+        explanation: '逆接の意味（疲れているのに続けた）なので「ながらも」が正解。「ながらも」= mặc dù mệt nhưng vẫn tiếp tục làm việc đến cuối.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-3': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜ばかり / 〜だけ / 〜しか〜ない（限定表現の比較）',
+      titleTranslation: '〜ばかり / 〜だけ / 〜しか〜ない（So sánh các cách diễn đạt giới hạn）',
+      introduction: `「ばかり」「だけ」「しか〜ない」はどれも「限定」を表しますが、ニュアンスが違います。介護記録や報告書では正確な表現が求められるので、違いをしっかり覚えましょう。
+
+「ばかり」「だけ」「しか〜ない」đều biểu thị "giới hạn" nhưng sắc thái khác nhau. Trong hồ sơ điều dưỡng và báo cáo cần diễn đạt chính xác, hãy ghi nhớ sự khác biệt.`,
+      keyPoints: [
+        '〜だけ: 中立的な限定「それのみ」（chỉ, duy nhất — trung tính）',
+        '〜ばかり: 偏りへの批判・程度の強調「それだらけ・それが多い」（toàn là, cứ mãi — có sắc thái phê phán）',
+        '〜しか〜ない: 否定文必須、少なさを強調「それ以外ない」（chỉ có...thôi — nhấn mạnh ít）',
+        '「薬だけ飲む」= 薬のみ（trung tính）',
+        '「薬ばかり飲む」= 薬を飲みすぎて心配（có sắc thái lo ngại）',
+        '「薬しか飲まない」= 薬以外何も飲まない・量が少ない（nhấn mạnh không có gì khác）',
+      ],
+      vocabulary: [
+        { word: '〜だけ', reading: 'だけ', meaning: 'それのみ（chỉ, duy nhất）', example: '今日だけ特別に許可する' },
+        { word: '〜ばかり', reading: 'ばかり', meaning: 'それが多すぎる（toàn là, cứ mãi）', example: '甘いものばかり食べている' },
+        { word: '〜しか〜ない', reading: 'しかない', meaning: 'それ以外ない（chỉ có...thôi）', example: '水しか飲まない' },
+        { word: '限定', reading: 'げんてい', meaning: '範囲を限ること（giới hạn）', example: '入室は職員だけに限定する' },
+        { word: '偏り', reading: 'かたより', meaning: 'バランスが崩れること（lệch lạc, mất cân bằng）', example: '食事に偏りがある' },
+      ],
+      examples: [
+        { japanese: '利用者さんは野菜だけ残して、他は全部食べました。', reading: 'りようしゃさんはやさいだけのこして、ほかはぜんぶたべました。', translation: 'Người được chăm sóc chỉ để lại rau, còn lại ăn hết.' },
+        { japanese: '最近、ゼリーばかり食べていて、固い食事を取りません。', reading: 'さいきん、ゼリーばかりたべていて、かたいしょくじをとりません。', translation: 'Gần đây toàn ăn thạch, không ăn đồ cứng.' },
+        { japanese: '今日は水しか飲んでいないので、脱水に注意が必要です。', reading: 'きょうはみずしかのんでいないので、だっすいにちゅういがひつようです。', translation: 'Hôm nay chỉ uống nước thôi nên cần chú ý mất nước.' },
+      ],
+      grammarNote: `【三つの限定表現の比較】
+
+だけ（trung tính）: Nだけ / Vだけ
+  → 「今日だけ休む」= hôm nay chỉ nghỉ thôi
+
+ばかり（phê phán/nhấn mạnh）: N/Vばかり
+  → 「休んでばかりいる」= cứ nghỉ mãi（含有批判）
+  → 「入ったばかり」= mới vừa vào（thời gian gần đây）
+
+しか〜ない（強調・少なさ）: N/Vしか + 否定
+  → 「3時間しか寝ていない」= chỉ ngủ 3 tiếng thôi
+  ✗ 「〜しか飲む」→ 必ず否定形`,
+      quiz: {
+        question: '「この患者さんは牛乳（　）飲みません」— 水分が少ないことを心配している文は？',
+        options: [
+          { id: 'a', text: 'だけ' },
+          { id: 'b', text: 'ばかり' },
+          { id: 'c', text: 'しか' },
+          { id: 'd', text: 'まで' },
+        ],
+        correctId: 'c',
+        explanation: '少なさ・心配を強調するのは「しか〜ない」。「しか飲みません」= chỉ uống sữa thôi（lo lắng vì ít）. 「だけ」は中立、「ばかり」は多すぎる批判。',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-4': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '推量表現まとめ〜ようだ・〜らしい・〜そうだ の違い',
+      titleTranslation: 'Tổng hợp biểu đạt suy đoán: 〜ようだ・〜らしい・〜そうだ',
+      introduction: `推量表現は情報の出所と確信度によって使い分けます。介護現場では「利用者さんが痛そうだ」「熱があるようだ」「風邪らしい」など状態の観察・推測に毎日使います。
+
+Các cách diễn đạt suy đoán phân biệt theo nguồn thông tin và mức độ chắc chắn. Trong điều dưỡng dùng hàng ngày để quan sát và suy đoán tình trạng như "có vẻ đau", "có vẻ sốt", "có vẻ bị cảm".`,
+      keyPoints: [
+        '〜ようだ: 自分の直接観察による推測（suy đoán từ quan sát trực tiếp của mình）',
+        '〜らしい: 間接情報・伝聞による推測（suy đoán từ thông tin gián tiếp/nghe nói）',
+        '〜そうだ（様態）: 見た目・様子からの推測（suy đoán từ vẻ ngoài — thêm vào gốc từ）',
+        '〜そうだ（伝聞）: 聞いた情報を伝える（truyền đạt thông tin nghe được — thêm vào cuối câu）',
+        '確信度: ようだ ≧ らしい ＞ そうだ（様態）',
+        '接続: ようだ・らしい＋普通形 / そうだ（様態）＋語幹',
+      ],
+      vocabulary: [
+        { word: '〜ようだ', reading: 'ようだ', meaning: '〜と思われる（có vẻ — quan sát）', example: '熱があるようだ' },
+        { word: '〜らしい', reading: 'らしい', meaning: '〜と聞いた/知った（có vẻ — nghe nói）', example: '退院したらしい' },
+        { word: '〜そうだ（様態）', reading: 'そうだ', meaning: '見た目で推測（trông có vẻ）', example: '転びそうだ・おいしそうだ' },
+        { word: '様態', reading: 'ようたい', meaning: '様子・状態（trạng thái, vẻ ngoài）', example: '様態を観察する' },
+        { word: '伝聞', reading: 'でんぶん', meaning: '聞いた情報を伝えること（nghe nói, truyền đạt）', example: '伝聞表現を使う' },
+      ],
+      examples: [
+        { japanese: '田中さんは足が痛いようで、歩くのが辛そうです。', reading: 'たなかさんはあしがいたいようで、あるくのがつらそうです。', translation: 'Ông Tanaka có vẻ đau chân, trông khó đi lại.' },
+        { japanese: '夜中に転んだらしく、ひじに青あざができていました。', reading: 'よなかにころんだらしく、ひじにあおあざができていました。', translation: 'Có vẻ đã ngã vào ban đêm, khuỷu tay có vết bầm.' },
+        { japanese: '山田さんが明日退院するそうです。（伝聞）', reading: 'やまださんがあしたたいいんするそうです。', translation: 'Nghe nói ông Yamada ngày mai xuất viện.' },
+      ],
+      grammarNote: `【推量表現の使い分け】
+
+〜ようだ: 自分が見て・感じて推測
+  「顔色が悪いようだ」→ tôi thấy và suy đoán
+  接続: 普通形＋ようだ
+
+〜らしい: 情報・証拠から推測
+  「昨日転んだらしい」→ nghe nói / có dấu hiệu
+  接続: 普通形＋らしい
+
+〜そうだ（様態）: 見た目・直前の判断
+  「転びそうだ」→ trông sắp ngã（語幹＋そうだ）
+  ✗ 「よさそうだ」→ ○ 「よさそうだ」（いい→よさ）
+
+〜そうだ（伝聞）: 聞いた話をそのまま伝える
+  「退院するそうだ」→ nghe nói sẽ xuất viện（普通形＋そうだ）`,
+      quiz: {
+        question: '「利用者さんが転び（　）なので、そばについています」に入るのは？',
+        options: [
+          { id: 'a', text: 'らしい' },
+          { id: 'b', text: 'そう' },
+          { id: 'c', text: 'ようだ' },
+          { id: 'd', text: 'はず' },
+        ],
+        correctId: 'b',
+        explanation: '見た目・今まさに起きそうな状況なので「転びそう」（様態のそうだ、語幹接続）が正解。「転びそうなので」= trông sắp ngã nên đứng bên cạnh.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-5': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜てしまう / 〜てしまった（完了・後悔・困惑）',
+      titleTranslation: '〜てしまう / 〜てしまった（Hoàn thành, hối tiếc, bối rối）',
+      introduction: `「〜てしまう」には①完了（すっかり終わった）②後悔・残念・困惑の気持ちの二つの意味があります。会話では「〜ちゃう・〜ちゃった」と短縮されます。介護現場では「薬を飲ませてしまった」「転倒させてしまった」など重要な場面で使います。
+
+「〜てしまう」có hai nghĩa: ①hoàn thành (xong hẳn) ②hối tiếc/tiếc nuối/bối rối. Trong hội thoại được rút gọn thành「〜ちゃう・〜ちゃった」. Trong điều dưỡng dùng trong các tình huống quan trọng như "đã cho uống nhầm thuốc", "đã để ngã".`,
+      keyPoints: [
+        '完了の意味: 「全部食べてしまった」= đã ăn hết rồi（xong hẳn）',
+        '後悔・困惑: 「忘れてしまった」「転んでしまった」= đáng tiếc đã quên/ngã',
+        '会話の縮約形: 〜てしまう→〜ちゃう / 〜でしまう→〜じゃう',
+        '過去形: 〜てしまった→〜ちゃった / 〜でしまった→〜じゃった',
+        'ミスの報告: 「〜させてしまいました」は謝罪・報告に使う（dùng để báo cáo lỗi）',
+        '注意: 문맥によって完了か後悔か判断する（phán đoán theo ngữ cảnh）',
+      ],
+      vocabulary: [
+        { word: '〜てしまう', reading: 'てしまう', meaning: '完了/後悔（hoàn thành/hối tiếc）', example: '書類をなくしてしまった' },
+        { word: '転倒', reading: 'てんとう', meaning: '転ぶこと（té ngã）', example: '転倒事故を防ぐ' },
+        { word: 'ヒヤリハット', reading: 'ひやりはっと', meaning: 'ミスになりそうな出来事（sự cố suýt xảy ra）', example: 'ヒヤリハットを報告する' },
+        { word: '誤薬', reading: 'ごやく', meaning: '薬を間違えること（nhầm thuốc）', example: '誤薬防止のため確認する' },
+        { word: '申し訳ない', reading: 'もうしわけない', meaning: '大変失礼な（thực sự xin lỗi）', example: '申し訳ありません' },
+      ],
+      examples: [
+        { japanese: '薬を別の利用者さんに渡してしまいました。申し訳ありません。', reading: 'くすりをべつのりようしゃさんにわたしてしまいました。もうしわけありません。', translation: 'Tôi đã đưa thuốc nhầm cho người được chăm sóc khác. Tôi thực sự xin lỗi.' },
+        { japanese: '山田さんが廊下で転んでしまいました。すぐに報告します。', reading: 'やまださんがろうかでころんでしまいました。すぐにほうこくします。', translation: 'Ông Yamada đã ngã ở hành lang. Tôi sẽ báo cáo ngay.' },
+        { japanese: '記録を書き忘れちゃった。急いで書かなきゃ。（会話）', reading: 'きろくをかきわすれちゃった。いそいでかかなきゃ。', translation: 'Mình đã quên viết hồ sơ mất rồi. Phải viết nhanh thôi.' },
+      ],
+      grammarNote: `【〜てしまう の使い方】
+
+①完了（ポジティブまたは中立）:
+  「仕事が終わってしまった」= đã xong việc rồi
+  「全部食べてしまった」= đã ăn hết rồi
+
+②後悔・困惑（ネガティブ）:
+  「鍵をなくしてしまった」= đáng tiếc đã mất chìa
+  「転んでしまいました」= không may đã ngã
+
+【縮約形（会話）】
+〜てしまう → 〜ちゃう
+〜てしまった → 〜ちゃった
+〜でしまう → 〜じゃう（読んでしまう→読んじゃう）
+
+【報告の表現】
+「〜させてしまいました」= Tôi đã để～xảy ra（báo cáo lỗi với cấp trên）`,
+      quiz: {
+        question: '「大切な書類を（　）。どうしよう」に入るのは？',
+        options: [
+          { id: 'a', text: 'なくすちゃった' },
+          { id: 'b', text: 'なくしてしまった' },
+          { id: 'c', text: 'なくすてしまった' },
+          { id: 'd', text: 'なくしてあった' },
+        ],
+        correctId: 'b',
+        explanation: '「なくして＋しまった」が正しい形。動詞のて形＋しまった。「なくしてしまった」= đã đánh mất rồi（hối tiếc）。縮約形は「なくしちゃった」。',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-6': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜ことになる / 〜ことにする（他者の決定 vs 自分の決定）',
+      titleTranslation: '〜ことになる / 〜ことにする（Quyết định của người khác vs quyết định của bản thân）',
+      introduction: `「ことになる」は外部・組織・状況による決定、「ことにする」は自分自身の意思による決定を表します。職場での変更通知や、個人の生活習慣の変更を話すとき重要な区別です。
+
+「ことになる」biểu thị quyết định từ bên ngoài/tổ chức/hoàn cảnh, còn「ことにする」biểu thị quyết định theo ý chí của bản thân. Đây là sự phân biệt quan trọng khi nói về thông báo thay đổi tại nơi làm việc hay thay đổi thói quen cá nhân.`,
+      keyPoints: [
+        '〜ことになる: 外部・組織・状況が決める（quyết định từ bên ngoài/tổ chức）',
+        '〜ことにする: 自分が決める（tự mình quyết định）',
+        '〜ことになっている: 規則・慣習として決まっている（đã được quy định sẵn）',
+        '〜ことにしている: 自分の習慣として決めている（thói quen tự đặt ra）',
+        '例：「異動することになった」vs「転職することにした」',
+        '介護例：「夜勤をすることになりました」「毎日記録を確認することにしています」',
+      ],
+      vocabulary: [
+        { word: 'ことになる', reading: 'ことになる', meaning: '（外部から）決定される（được quyết định từ ngoài）', example: '来月から夜勤をすることになった' },
+        { word: 'ことにする', reading: 'ことにする', meaning: '（自分で）決定する（tự quyết định）', example: '毎朝早く来ることにした' },
+        { word: '異動', reading: 'いどう', meaning: '職場・部署が変わること（chuyển công tác）', example: '来月から別の施設に異動になる' },
+        { word: '規則', reading: 'きそく', meaning: 'ルール（quy tắc, quy định）', example: '施設の規則に従う' },
+        { word: '習慣', reading: 'しゅうかん', meaning: '繰り返す行動（thói quen）', example: '手洗いの習慣をつける' },
+      ],
+      examples: [
+        { japanese: '来月から田中さんの担当をすることになりました。よろしくお願いします。', reading: 'らいげつからたなかさんのたんとうをすることになりました。よろしくおねがいします。', translation: 'Từ tháng sau tôi sẽ phụ trách ông Tanaka. Mong mọi người hỗ trợ.' },
+        { japanese: '私は毎日仕事の前に申し送りを見直すことにしています。', reading: 'わたしはまいにちしごとのまえにもうしおくりをみなおすことにしています。', translation: 'Tôi đã tự đặt thói quen xem lại bàn giao trước khi làm việc mỗi ngày.' },
+        { japanese: '施設では面会時間は午後2時から5時までと決まっています（ことになっています）。', reading: 'しせつではめんかいじかんはごごにじからごじまでとなっています。', translation: 'Tại cơ sở, giờ thăm được quy định từ 14h đến 17h.' },
+      ],
+      grammarNote: `【〜ことになる vs 〜ことにする】
+
+ことになる（ngoại lực quyết định）:
+  「来月から夜勤をすることになりました」
+  → Được thông báo/sắp xếp từ cơ sở
+  → Người nói không phải người quyết định
+
+ことにする（tự mình quyết định）:
+  「来月から夜勤をすることにしました」
+  → Tự mình chọn và quyết định
+
+【慣習・規則の表現】
+〜ことになっている = quy định đã có sẵn（bị động）
+〜ことにしている = thói quen tự đặt ra（chủ động）
+
+例：
+  「利用者の同意を確認することになっている」（規則）
+  「必ず2回チェックすることにしている」（習慣）`,
+      quiz: {
+        question: '「来月から夜勤シフトに入る（　）。上司に言われました」に入るのは？',
+        options: [
+          { id: 'a', text: 'ことにした' },
+          { id: 'b', text: 'ことになった' },
+          { id: 'c', text: 'ことがある' },
+          { id: 'd', text: 'ことにしている' },
+        ],
+        correctId: 'b',
+        explanation: '上司から言われた＝外部の決定なので「ことになった」が正解。「ことにした」は自分で決めた場合。「ことになった」= được sắp xếp/được quyết định từ cấp trên.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-7': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜ことがある / 〜ことになっている / 〜ことにしている（慣習・規則）',
+      titleTranslation: '〜ことがある / 〜ことになっている / 〜ことにしている（Thói quen & Quy định）',
+      introduction: `「ことがある」は経験・時々の出来事、「ことになっている」は規則や取り決め、「ことにしている」は自分の習慣を表します。介護施設では規則や手順の説明によく使います。
+
+「ことがある」biểu thị kinh nghiệm hoặc sự việc thỉnh thoảng xảy ra,「ことになっている」biểu thị quy tắc hoặc quy định, 「ことにしている」biểu thị thói quen của bản thân. Thường dùng để giải thích quy tắc và quy trình trong cơ sở điều dưỡng.`,
+      keyPoints: [
+        '〜たことがある: 過去の経験（đã từng...）',
+        '〜ことがある: 時々〜する（thỉnh thoảng có khi...）',
+        '〜ことになっている: 規則・取り決め・予定（quy định, đã được quy định）',
+        '〜ことにしている: 自分で決めた習慣（thói quen tự đặt ra）',
+        '介護例：「夜間に転倒することがある」「面会は事前に連絡することになっている」',
+        '区別: ことになっている（受け身・規則）/ ことにしている（能動・習慣）',
+      ],
+      vocabulary: [
+        { word: '経験', reading: 'けいけん', meaning: '実際に体験したこと（kinh nghiệm）', example: '介護の経験がある' },
+        { word: '規則', reading: 'きそく', meaning: 'ルール（quy tắc）', example: '施設の規則を守る' },
+        { word: '手順', reading: 'てじゅん', meaning: 'やり方の順番（quy trình）', example: '手順に従って行う' },
+        { word: '申し送り', reading: 'もうしおくり', meaning: '引き継ぎ（bàn giao）', example: '申し送りをしっかり行う' },
+        { word: '事前', reading: 'じぜん', meaning: '前もって（trước, sự chuẩn bị trước）', example: '事前に確認する' },
+      ],
+      examples: [
+        { japanese: '夜間、山田さんがトイレに起きることがあります。注意してください。', reading: 'やかん、やまださんがトイレにおきることがあります。ちゅういしてください。', translation: 'Ban đêm, ông Yamada thỉnh thoảng thức dậy đi vệ sinh. Hãy chú ý.' },
+        { japanese: 'この施設では、入浴の前に体温を測ることになっています。', reading: 'このしせつでは、にゅうよくのまえにたいおんをはかることになっています。', translation: 'Tại cơ sở này, đã quy định phải đo nhiệt độ trước khi tắm.' },
+        { japanese: '私は毎朝、その日の担当利用者さんの記録を確認することにしています。', reading: 'わたしはまいあさ、そのひのたんとうりようしゃさんのきろくをかくにんすることにしています。', translation: 'Mỗi sáng tôi tự đặt thói quen kiểm tra hồ sơ của người được chăm sóc phụ trách hôm đó.' },
+      ],
+      grammarNote: `【三つの「こと」表現の比較】
+
+①たことがある（kinh nghiệm quá khứ）:
+  「一度ヒヤリハットを経験したことがある」
+
+②ことがある（thỉnh thoảng）:
+  「夜中に起きることがある」= đôi khi thức dậy ban đêm
+
+③ことになっている（quy định/quy tắc）:
+  「残業は上司に報告することになっている」
+  → Quy định của tổ chức, không phải ý mình
+
+④ことにしている（thói quen chủ động）:
+  「毎日メモを取ることにしている」
+  → Tự mình quyết định làm hàng ngày`,
+      quiz: {
+        question: '「この施設では、外出前に必ず家族に連絡する（　）」に入るのは？',
+        options: [
+          { id: 'a', text: 'ことにしている' },
+          { id: 'b', text: 'ことになっている' },
+          { id: 'c', text: 'ことがある' },
+          { id: 'd', text: 'ことにする' },
+        ],
+        correctId: 'b',
+        explanation: '施設の規則として決まっているので「ことになっている」が正解。「ことにしている」は個人の習慣。「ことになっている」= đã được quy định（quy tắc của cơ sở）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-8': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜のに（逆接・不満）/ 〜くせに（非難）',
+      titleTranslation: '〜のに（Nghịch lý, bất mãn）/ 〜くせに（Chỉ trích）',
+      introduction: `「〜のに」は期待と違う結果への驚き・失望・不満を表します。「〜くせに」は非難・批判のニュアンスが強い表現です。職場での不満や期待のギャップを表すときに使いますが、目上の人には使えない表現もあります。
+
+「〜のに」biểu thị sự ngạc nhiên, thất vọng, bất mãn khi kết quả khác kỳ vọng. 「〜くせに」có sắc thái chỉ trích/phê phán mạnh. Dùng khi diễn đạt bất mãn hay khoảng cách kỳ vọng tại nơi làm việc, nhưng có những cách diễn đạt không dùng được với người trên.`,
+      keyPoints: [
+        '〜のに（逆接）: 期待と違う結果・不満・驚き（mặc dù...nhưng — bất mãn/ngạc nhiên）',
+        '〜のに（目的）: 〜するために（để làm gì — N2/N3用法）',
+        '〜くせに: 非難・批判（能力・立場があるのに～しない）（dù có khả năng/vị thế mà không làm）',
+        '〜くせに は目上の人・客には使わない（không dùng với cấp trên hay khách hàng）',
+        '「せっかく〜のに」= khó khăn lắm mới...mà...（惜しい気持ち）',
+        '接続: 普通形＋のに / 名詞・な形容詞＋な/である＋のに',
+      ],
+      vocabulary: [
+        { word: '〜のに', reading: 'のに', meaning: '〜なのに（mặc dù, nhưng mà）', example: '頑張ったのに失敗した' },
+        { word: '〜くせに', reading: 'くせに', meaning: '〜なのに（批判）（mặc dù mà lại — chỉ trích）', example: '知っているくせに教えない' },
+        { word: '不満', reading: 'ふまん', meaning: '満足していないこと（bất mãn）', example: '職場に不満がある' },
+        { word: 'せっかく', reading: 'せっかく', meaning: '折角（khó khăn lắm mới, mất công）', example: 'せっかく来たのに会えなかった' },
+        { word: '非難', reading: 'ひなん', meaning: '批判・責めること（chỉ trích, chê bai）', example: '人を非難しないようにする' },
+      ],
+      examples: [
+        { japanese: 'せっかく早めに準備したのに、遅刻してしまいました。', reading: 'せっかくはやめにじゅんびしたのに、ちこくしてしまいました。', translation: 'Mất công chuẩn bị sớm mà vẫn đến muộn.' },
+        { japanese: '毎日練習したのに、試験に落ちてしまった。', reading: 'まいにちれんしゅうしたのに、しけんにおちてしまった。', translation: 'Luyện tập mỗi ngày mà vẫn trượt kỳ thi.' },
+        { japanese: '（同僚に対して）経験があるくせに、新人に全部押し付けるのは良くない。', reading: 'けいけんがあるくせに、しんじんにぜんぶおしつけるのはよくない。', translation: '（Với đồng nghiệp）Có kinh nghiệm mà lại đẩy hết cho người mới là không tốt.' },
+      ],
+      grammarNote: `【〜のに vs 〜くせに】
+
+のに（逆接・感情）:
+  「こんなに頑張ったのに評価されない」
+  → Mặc dù cố gắng nhưng không được đánh giá cao
+  → Cảm xúc: thất vọng, bất mãn, ngạc nhiên
+
+くせに（非難・批判）:
+  「分かっているくせに説明しない」
+  → Biết rõ mà không giải thích（phê phán）
+  → Mạnh hơn のに, chứa đựng sự chỉ trích
+
+【使える相手】
+のに: 誰にでも使える（dùng được với tất cả）
+くせに: 目下・同年代のみ（chỉ dùng với người dưới/ngang hàng）
+
+【接続】
+普通形＋のに / 名詞・な形容詞＋な＋のに
+普通形＋くせに / 名詞・な形容詞＋な＋くせに`,
+      quiz: {
+        question: '「もう8年も日本にいる（　）、敬語が使えない」— 批判のニュアンスで使うのは？',
+        options: [
+          { id: 'a', text: 'のに' },
+          { id: 'b', text: 'なのに' },
+          { id: 'c', text: 'くせに' },
+          { id: 'd', text: 'けれど' },
+        ],
+        correctId: 'c',
+        explanation: '批判・非難のニュアンスが強い文なので「くせに」が最も適切。「くせに」= dù đã ở Nhật 8 năm mà vẫn không dùng được kính ngữ（chỉ trích）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-9': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜ために（目的・原因）/ 〜ように（目的・希望）の使い分け',
+      titleTranslation: '〜ために（Mục đích/Nguyên nhân）/ 〜ように（Mục đích/Hy vọng）— Cách phân biệt',
+      introduction: `「ために」と「ように」はどちらも目的を表せますが、動詞の種類によって使い方が違います。意志動詞なら「ために」、無意志動詞・状態なら「ように」を使います。介護現場での「安全のために」「転ばないように」は重要な表現です。
+
+「ために」và「ように」đều có thể biểu thị mục đích nhưng cách dùng khác nhau theo loại động từ. Nếu là động từ có ý chí dùng「ために」, nếu là động từ không có ý chí/trạng thái dùng「ように」. "Vì an toàn" và "để khỏi ngã" là những cách diễn đạt quan trọng trong điều dưỡng.`,
+      keyPoints: [
+        '〜ために（目的）: 意志動詞＋ために（mục đích — động từ có ý chí）',
+        '〜ために（原因）: N/普通形＋ために（nguyên nhân — vì, do）',
+        '〜ように（目的）: 無意志動詞・可能形＋ように（để có thể.../ để không...）',
+        '〜ように（希望・祈り）: 〜ように祈る・願う（mong, cầu）',
+        '意志動詞の例: 食べる・行く・勉強する（động từ có ý chí）',
+        '無意志動詞の例: 分かる・できる・聞こえる・転ぶ（động từ không có ý chí）',
+      ],
+      vocabulary: [
+        { word: '意志動詞', reading: 'いしどうし', meaning: '意図してする動作（động từ có ý chí）', example: '食べる・書く・話す' },
+        { word: '無意志動詞', reading: 'むいしどうし', meaning: '意図しない動作（động từ không có ý chí）', example: '分かる・できる・聞こえる' },
+        { word: '予防', reading: 'よぼう', meaning: '事前に防ぐこと（phòng ngừa）', example: '転倒予防のための訓練' },
+        { word: '改善', reading: 'かいぜん', meaning: '良くすること（cải thiện）', example: '生活の質を改善する' },
+        { word: '配慮', reading: 'はいりょ', meaning: '気を配ること（quan tâm, lưu ý）', example: '安全に配慮する' },
+      ],
+      examples: [
+        { japanese: '利用者さんの健康のために、毎日体温を記録します。', reading: 'りようしゃさんのけんこうのために、まいにちたいおんをきろくします。', translation: 'Để đảm bảo sức khỏe người được chăm sóc, ghi lại nhiệt độ mỗi ngày.' },
+        { japanese: '転ばないように、廊下に手すりをつけました。', reading: 'ころばないように、ろうかにてすりをつけました。', translation: 'Để khỏi ngã, đã lắp tay vịn ở hành lang.' },
+        { japanese: '早く回復できるように祈っています。', reading: 'はやくかいふくできるようにいのっています。', translation: 'Tôi cầu mong sẽ hồi phục sớm.' },
+      ],
+      grammarNote: `【ために vs ように の使い分け】
+
+ために（目的）: 意志動詞のみ
+  ○「健康になるために運動する」
+  ✗「聞こえるために大きく話す」→ ○ ように
+
+ように（目的）: 無意志動詞・可能形・否定形
+  ○「聞こえるように大きく話す」
+  ○「忘れないように書いておく」
+  ○「転ばないように気をつける」
+
+ために（原因）: N＋のために / 普通形＋ために
+  「病気のために休んだ」= vì bị bệnh nên nghỉ
+
+【まとめ】
+意志動詞 + ために ← 自分の意志で行う目的
+無意志動詞 + ように ← 自然な状態・結果を目指す`,
+      quiz: {
+        question: '「よく（　）、ゆっくり話してください」に入るのは？',
+        options: [
+          { id: 'a', text: '聞くために' },
+          { id: 'b', text: '聞けるように' },
+          { id: 'c', text: '聞くように' },
+          { id: 'd', text: '聞くために' },
+        ],
+        correctId: 'b',
+        explanation: '「聞こえる」は無意志動詞なので「ように」を使う。可能形「聞ける」＋ように が正しい。「聞けるように」= để có thể nghe được.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-10': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜てから / 〜た後で / 〜前に（時間の前後関係）',
+      titleTranslation: '〜てから / 〜た後で / 〜前に（Quan hệ trước sau về thời gian）',
+      introduction: `「〜てから」「〜た後で」「〜前に」は行動の順序を示します。似ていますが微妙な違いがあります。介護の手順説明（「手洗いをしてからケアに入る」「食事の前に口腔ケアをする」）では正確な順序表現が重要です。
+
+「〜てから」「〜た後で」「〜前に」biểu thị trình tự hành động. Có điểm tương đồng nhưng khác biệt tế nhị. Trong giải thích quy trình điều dưỡng ("rửa tay xong mới bắt đầu chăm sóc", "chăm sóc răng miệng trước khi ăn") thì cách diễn đạt trình tự chính xác rất quan trọng.`,
+      keyPoints: [
+        '〜てから: 前の行為が完了後、次の行為（sau khi làm xong A thì B）',
+        '〜た後で: 前の行為後に続く行為（sau khi A, rồi B — ít ràng buộc hơn）',
+        '〜前に: 次の行為の前に〜する（trước khi B thì làm A）',
+        'てから vs た後で: てから は順序の強調、た後で はより独立した二つの行為',
+        '前に の後は必ず動詞辞書形・名詞（trước「前に」phải là dạng từ điển）',
+        '例：手洗いしてからケアする / 食事の前に体温を測る',
+      ],
+      vocabulary: [
+        { word: '手順', reading: 'てじゅん', meaning: '順序・やり方（quy trình）', example: '正しい手順で行う' },
+        { word: '口腔ケア', reading: 'こうくうケア', meaning: '口の中の清潔（chăm sóc răng miệng）', example: '食後に口腔ケアをする' },
+        { word: '消毒', reading: 'しょうどく', meaning: '菌を殺すこと（khử trùng）', example: '手を消毒してから入室する' },
+        { word: '確認', reading: 'かくにん', meaning: '確かめること（xác nhận, kiểm tra）', example: '薬を確認してから渡す' },
+        { word: '申し送り', reading: 'もうしおくり', meaning: '勤務の引き継ぎ（bàn giao ca）', example: '申し送りを聞いてから業務を始める' },
+      ],
+      examples: [
+        { japanese: '手を洗ってから、利用者さんのケアを始めます。', reading: 'てをあらってから、りようしゃさんのケアをはじめます。', translation: 'Sau khi rửa tay xong mới bắt đầu chăm sóc người được chăm sóc.' },
+        { japanese: '食事の前に、必ず体温と血圧を測ります。', reading: 'しょくじのまえに、かならずたいおんとけつあつをはかります。', translation: 'Trước khi ăn, nhất định phải đo nhiệt độ và huyết áp.' },
+        { japanese: '申し送りを聞いた後で、ケア記録を確認しました。', reading: 'もうしおくりをきいたあとで、ケアきろくをかくにんしました。', translation: 'Sau khi nghe bàn giao, đã kiểm tra hồ sơ chăm sóc.' },
+      ],
+      grammarNote: `【時間の順序表現の比較】
+
+〜てから（sau khi hoàn thành A rồi mới B）:
+  「薬を確認してから渡す」
+  → Nhấn mạnh A phải xong trước
+
+〜た後で（sau khi A, rồi B）:
+  「報告した後で、記録を書いた」
+  → Hai hành động tương đối độc lập
+
+〜前に（trước khi B thì làm A）:
+  「外出する前に、声かけをする」
+  接続: 動詞辞書形＋前に / 名詞＋の前に
+
+【注意！】
+「てから」の前は必ずて形
+「た後で」の前は必ずた形
+「前に」の前は辞書形（否定できない）
+✗「食べた前に」→ ○「食べる前に」`,
+      quiz: {
+        question: '「（　）から、必ず手を消毒してください」に入るのは？',
+        options: [
+          { id: 'a', text: '入室する' },
+          { id: 'b', text: '入室して' },
+          { id: 'c', text: '入室した' },
+          { id: 'd', text: '入室の後' },
+        ],
+        correctId: 'b',
+        explanation: '「〜てから」の接続はて形＋から。「入室してから消毒する」が正しい順序。「入室してから」= sau khi vào phòng.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-11': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜ても / 〜たとしても（譲歩・仮定）',
+      titleTranslation: '〜ても / 〜たとしても（Nhượng bộ và giả định）',
+      introduction: `「〜ても」は「〜であっても、それでも〜」という譲歩を表します。「〜たとしても」は仮定の状況を強調します。介護では「どんなに忙しくても安全を優先する」「もし転倒したとしても、まず状態を確認する」などに使います。
+
+「〜ても」biểu thị nhượng bộ "dù là...nhưng vẫn...".「〜たとしても」nhấn mạnh tình huống giả định. Trong điều dưỡng dùng như "dù bận đến đâu cũng ưu tiên an toàn", "nếu dù có ngã đi nữa thì trước tiên kiểm tra tình trạng".`,
+      keyPoints: [
+        '〜ても: 逆接の条件「たとえ〜でも」（dù...cũng, dù...nhưng）',
+        '〜たとしても: 仮定の強調「もし〜だとしても」（ngay cả khi giả sử...）',
+        '「どんなに〜ても」「たとえ〜ても」で強調（dù thế nào đi nữa）',
+        '接続: て形＋も / た形＋としても',
+        'い形容詞: 〜くても（忙しくても）/ な形容詞: 〜でも（元気でも）',
+        '注意: ても は事実・仮定両方使える（cả thực tế lẫn giả định）',
+      ],
+      vocabulary: [
+        { word: '譲歩', reading: 'じょうほ', meaning: '相手の条件を認めた上で（nhượng bộ）', example: '忙しくても、報告は必ずする' },
+        { word: 'たとえ', reading: 'たとえ', meaning: 'もし仮に（dù, giả sử）', example: 'たとえ失敗しても、諦めない' },
+        { word: '優先', reading: 'ゆうせん', meaning: '先にすること（ưu tiên）', example: '安全を最優先にする' },
+        { word: '緊急', reading: 'きんきゅう', meaning: '急いで対処が必要（khẩn cấp）', example: '緊急時の対応を確認する' },
+        { word: '対処', reading: 'たいしょ', meaning: '問題への対応（xử lý, ứng phó）', example: '冷静に対処する' },
+      ],
+      examples: [
+        { japanese: 'どんなに忙しくても、利用者さんへの声かけは欠かせません。', reading: 'どんなにいそがしくても、りようしゃさんへのこえかけはかかせません。', translation: 'Dù bận đến đâu, việc nói chuyện với người được chăm sóc là không thể thiếu.' },
+        { japanese: 'たとえ疲れていても、安全確認を省くことはできません。', reading: 'たとえつかれていても、あんぜんかくにんをはぶくことはできません。', translation: 'Dù có mệt đi nữa, cũng không thể bỏ qua việc kiểm tra an toàn.' },
+        { japanese: 'もし転倒したとしても、まず意識と呼吸を確認してください。', reading: 'もしてんとうしたとしても、まずいしきとこきゅうをかくにんしてください。', translation: 'Ngay cả khi giả sử có ngã, trước tiên hãy kiểm tra ý thức và hô hấp.' },
+      ],
+      grammarNote: `【〜ても vs 〜たとしても】
+
+〜ても（nhượng bộ chung）:
+  「疲れても頑張る」= dù mệt vẫn cố gắng
+  「雨でも出かける」= dù mưa vẫn đi
+  接続: て形＋も / 〜くても / 〜でも
+
+〜たとしても（仮定の強調）:
+  「失敗したとしても、学びがある」
+  = ngay cả khi giả sử thất bại, vẫn có bài học
+  接続: た形＋としても（仮定の色が強い）
+
+【強調表現】
+たとえ〜ても = dù thế nào cũng
+どんなに〜ても = dù đến mức nào cũng
+いくら〜ても = dù bao nhiêu cũng`,
+      quiz: {
+        question: '「（　）忙しくても、報告は必ず行ってください」の（　）に入るのは？',
+        options: [
+          { id: 'a', text: 'もし' },
+          { id: 'b', text: 'たとえ' },
+          { id: 'c', text: 'どんなに' },
+          { id: 'd', text: 'なぜ' },
+        ],
+        correctId: 'c',
+        explanation: '「どんなに〜ても」は程度の強調。「どんなに忙しくても」= dù bận đến mức nào. 「たとえ〜ても」も正しいが、程度の強調は「どんなに」が自然。',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-12': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜てみる / 〜ておく / 〜ていく・てくる（補助動詞）',
+      titleTranslation: '〜てみる / 〜ておく / 〜ていく・てくる（Trợ động từ）',
+      introduction: `補助動詞「てみる・ておく・ていく・てくる」はそれぞれ動作に意味を加えます。介護の指示や報告でよく使います。「試しにやってみる」「準備しておく」「利用者さんが落ち着いてきた」など自然な日本語の表現に欠かせません。
+
+Trợ động từ「てみる・ておく・ていく・てくる」mỗi cái thêm ý nghĩa vào hành động. Thường dùng trong chỉ thị và báo cáo điều dưỡng. Những cách diễn đạt như "thử làm xem", "chuẩn bị sẵn", "người được chăm sóc đã bình tĩnh lại" là không thể thiếu trong tiếng Nhật tự nhiên.`,
+      keyPoints: [
+        '〜てみる: 試してする「試みる」（thử làm xem）',
+        '〜ておく: 準備・前もって〜する（làm sẵn, chuẩn bị trước）',
+        '〜ていく: 現在から未来へ変化・動作が続く（tiếp tục từ hiện tại về phía tương lai）',
+        '〜てくる: 過去から現在へ変化・帰還（từ quá khứ đến hiện tại / về）',
+        '介護例: 「声かけてみる」「記録しておく」「状態が悪くなっていく」「回復してきた」',
+        '〜ておく の縮約形: 〜とく（書いとく・準備しとく）',
+      ],
+      vocabulary: [
+        { word: '〜てみる', reading: 'てみる', meaning: '試す（thử）', example: '新しい方法でやってみる' },
+        { word: '〜ておく', reading: 'ておく', meaning: '前もって準備する（chuẩn bị sẵn）', example: '薬を準備しておく' },
+        { word: '〜ていく', reading: 'ていく', meaning: '変化が続く・移動する（tiếp tục, đi）', example: '状態が改善していく' },
+        { word: '〜てくる', reading: 'てくる', meaning: '変化が来る・帰る（thay đổi đến nay, về）', example: '食欲が戻ってきた' },
+        { word: '食欲', reading: 'しょくよく', meaning: '食べたい気持ち（cảm giác thèm ăn）', example: '食欲が出てきた' },
+      ],
+      examples: [
+        { japanese: '田中さんに声をかけてみましたが、反応がありませんでした。', reading: 'たなかさんにこえをかけてみましたが、はんのうがありませんでした。', translation: 'Đã thử lên tiếng với ông Tanaka nhưng không có phản ứng.' },
+        { japanese: '夜間に備えて、薬と記録用紙を準備しておきました。', reading: 'やかんにそなえて、くすりときろくようしをじゅんびしておきました。', translation: 'Để chuẩn bị cho ban đêm, đã để sẵn thuốc và giấy ghi chép.' },
+        { japanese: '最近、山田さんの食欲が戻ってきました。回復のサインです。', reading: 'さいきん、やまださんのしょくよくがもどってきました。かいふくのサインです。', translation: 'Gần đây cảm giác thèm ăn của ông Yamada đã trở lại. Đây là dấu hiệu hồi phục.' },
+      ],
+      grammarNote: `【補助動詞の意味と使い方】
+
+てみる（thử）:
+  「薬を減らしてみる」= thử giảm thuốc xem
+
+ておく（chuẩn bị/duy trì）:
+  「記録しておく」= ghi lại sẵn（phòng sau）
+  会話縮約: 「記録しとく」
+
+ていく（→ 未来方向）:
+  「体力が落ちていく」= sức khỏe ngày càng giảm
+  「これから頑張っていく」= sẽ tiếp tục cố gắng
+
+てくる（← 過去から現在）:
+  「だんだん回復してきた」= dần dần đã hồi phục
+  「雨が降ってきた」= trời bắt đầu mưa rồi`,
+      quiz: {
+        question: '「申し送りの内容をメモし（　）。後で確認できるように」に入るのは？',
+        options: [
+          { id: 'a', text: 'てみた' },
+          { id: 'b', text: 'ておいた' },
+          { id: 'c', text: 'てきた' },
+          { id: 'd', text: 'ていった' },
+        ],
+        correctId: 'b',
+        explanation: '後で使えるように準備・保存するのは「ておく」。「メモしておいた」= đã ghi chú sẵn để sau này có thể xem lại.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-13': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '間接疑問〜かどうか / 〜か（疑問詞＋か）',
+      titleTranslation: 'Câu hỏi gián tiếp 〜かどうか / 〜か（Nghi vấn từ + か）',
+      introduction: `間接疑問文は「〜かどうか」「〜か」を使って、疑問文を文の一部として埋め込みます。直接疑問（「来ますか？」）とは異なり、報告や質問を柔らかく伝えるときに使います。「利用者さんが食事をしたかどうか確認する」など介護記録や報告に必須です。
+
+Câu hỏi gián tiếp dùng「〜かどうか」「〜か」để nhúng câu hỏi vào câu. Khác với câu hỏi trực tiếp（「来ますか？」）, dùng khi truyền đạt báo cáo hay câu hỏi một cách nhẹ nhàng. Không thể thiếu trong hồ sơ và báo cáo điều dưỡng như "xác nhận xem người được chăm sóc đã ăn chưa".`,
+      keyPoints: [
+        '〜かどうか: yes/no疑問の間接表現（có...hay không）',
+        '〜か（疑問詞＋か）: who/what/when等の間接疑問（ai, cái gì, khi nào... + か）',
+        '接続: 普通形＋かどうか / 疑問詞＋普通形＋か',
+        '動詞・形容詞: 普通形のまま（だ は省略可）',
+        '名詞・な形容詞: 〜か / 〜かどうか（だ は外す）',
+        '介護例：「薬を飲んだかどうか確認する」「どこが痛いか聞く」',
+      ],
+      vocabulary: [
+        { word: 'かどうか', reading: 'かどうか', meaning: '〜か〜ないか（có...không, liệu có...không）', example: '熱があるかどうか確認する' },
+        { word: '疑問詞', reading: 'ぎもんし', meaning: '何・どこ・いつ・誰（nghi vấn từ）', example: '疑問詞は文の最初に来ることが多い' },
+        { word: '確認', reading: 'かくにん', meaning: '確かめること（xác nhận）', example: '薬を飲んだか確認する' },
+        { word: '報告', reading: 'ほうこく', meaning: '情報を上に伝えること（báo cáo）', example: '状態を上司に報告する' },
+        { word: '把握', reading: 'はあく', meaning: '正確に理解すること（nắm bắt, hiểu rõ）', example: '状況を把握する' },
+      ],
+      examples: [
+        { japanese: '田中さんが昼食を食べたかどうか確認してください。', reading: 'たなかさんがちゅうしょくをたべたかどうかかくにんしてください。', translation: 'Hãy xác nhận xem ông Tanaka có ăn bữa trưa không.' },
+        { japanese: 'どこが痛いか、利用者さんに聞いてみました。', reading: 'どこがいたいか、りようしゃさんにきいてみました。', translation: 'Đã thử hỏi người được chăm sóc xem đau ở đâu.' },
+        { japanese: 'いつ転倒したか、詳しく記録してください。', reading: 'いつてんとうしたか、くわしくきろくしてください。', translation: 'Hãy ghi chép chi tiết xem khi nào ngã.' },
+      ],
+      grammarNote: `【間接疑問文の作り方】
+
+①かどうか（yes/no疑問）:
+  直接: 「薬を飲みましたか？」
+  間接: 「薬を飲んだかどうか確認する」
+  接続: 普通形＋かどうか
+
+②疑問詞＋か（WH疑問）:
+  直接: 「どこが痛いですか？」
+  間接: 「どこが痛いか聞く」
+  接続: 疑問詞＋普通形＋か
+
+【注意点】
+間接疑問文の動詞は普通形
+✗「薬を飲みましたかどうか」→ ○「飲んだかどうか」
+✗「どこが痛いですか聞く」→ ○「どこが痛いか聞く」`,
+      quiz: {
+        question: '「山田さんが転倒した後、意識がある（　）確認しました」に入るのは？',
+        options: [
+          { id: 'a', text: 'かどうかを' },
+          { id: 'b', text: 'かですかを' },
+          { id: 'c', text: 'ですかどうか' },
+          { id: 'd', text: 'かもしれなく' },
+        ],
+        correctId: 'a',
+        explanation: 'yes/no疑問の間接表現は「かどうか」。「意識があるかどうか確認した」= xác nhận xem có ý thức không.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-14': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜と思う / 〜と思っている / 〜と言われている（引用・意見）',
+      titleTranslation: '〜と思う / 〜と思っている / 〜と言われている（Trích dẫn và ý kiến）',
+      introduction: `「〜と思う」は一時的な意見・感想、「〜と思っている」は継続的な考え、「〜と言われている」は一般的に広く言われていることを表します。医療・介護の場では意見や情報の出所を明示することが重要です。
+
+「〜と思う」biểu thị ý kiến/cảm nhận nhất thời,「〜と思っている」là suy nghĩ liên tục, 「〜と言われている」là điều được nói rộng rãi nói chung. Trong y tế và điều dưỡng, việc chỉ rõ nguồn gốc của ý kiến và thông tin rất quan trọng.`,
+      keyPoints: [
+        '〜と思う: 今・この瞬間の意見・判断（ý kiến nhất thời hiện tại）',
+        '〜と思っている: 以前から持っている考え（suy nghĩ đang duy trì）',
+        '〜と言われている: 世間・専門家などの一般的な意見（được nói chung là...）',
+        '〜と言っていた: 特定の人が言ったことの引用（ai đó đã nói rằng...）',
+        '接続: 普通形＋と思う / 普通形＋と言われている',
+        '引用の「と」は直接・間接引用に使う',
+      ],
+      vocabulary: [
+        { word: '引用', reading: 'いんよう', meaning: '他の人の言葉を使うこと（trích dẫn）', example: '報告書に引用する' },
+        { word: '意見', reading: 'いけん', meaning: '自分の考え（ý kiến）', example: '自分の意見を述べる' },
+        { word: '〜と言われている', reading: 'といわれている', meaning: '一般にそう言われる（được cho là, được nói là）', example: '認知症は早期発見が大切と言われている' },
+        { word: '専門家', reading: 'せんもんか', meaning: 'その分野の知識がある人（chuyên gia）', example: '専門家の意見を聞く' },
+        { word: '一般的', reading: 'いっぱんてき', meaning: '広く普通に（nói chung, phổ biến）', example: '一般的にそう言われている' },
+      ],
+      examples: [
+        { japanese: '今日は田中さんの調子が少し悪いと思います。様子を見ましょう。', reading: 'きょうはたなかさんのちょうしがすこしわるいとおもいます。ようすをみましょう。', translation: 'Tôi nghĩ hôm nay tình trạng của ông Tanaka hơi xấu. Hãy theo dõi xem.' },
+        { japanese: '高齢者の転倒は夜間に多いと言われています。', reading: 'こうれいしゃのてんとうはやかんにおおいといわれています。', translation: 'Người ta nói rằng người cao tuổi hay ngã nhiều vào ban đêm.' },
+        { japanese: '山田さんは早く家に帰りたいと言っていました。', reading: 'やまださんははやくいえにかえりたいといっていました。', translation: 'Ông Yamada đã nói rằng muốn sớm về nhà.' },
+      ],
+      grammarNote: `【引用・意見の表現比較】
+
+と思う（意見・現在）:
+  「これは間違いだと思う」= tôi nghĩ cái này sai
+  話し手の今の判断
+
+と思っている（継続的な意見）:
+  「介護はやりがいがあると思っている」
+  = tôi luôn nghĩ rằng điều dưỡng có ý nghĩa
+
+と言われている（一般論・通説）:
+  「早期発見が大切と言われている」
+  = người ta nói rằng phát hiện sớm là quan trọng
+
+と言っていた（特定の人の発言）:
+  「先生がそう言っていた」
+  = thầy đã nói như vậy`,
+      quiz: {
+        question: '「認知症は運動が予防に効果的（　）。専門家の研究による」に入るのは？',
+        options: [
+          { id: 'a', text: 'と思う' },
+          { id: 'b', text: 'と言っていた' },
+          { id: 'c', text: 'と言われている' },
+          { id: 'd', text: 'と思っていた' },
+        ],
+        correctId: 'c',
+        explanation: '専門家の研究から広く言われていることなので「と言われている」が正解。「と言われている」= được cho là, được nói chung là（nguồn gốc là chuyên gia/xã hội）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-15': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '受身形 〜られる（直接受身・間接受身・迷惑受身）',
+      titleTranslation: 'Thể bị động 〜られる（Bị động trực tiếp, gián tiếp, bất lợi）',
+      introduction: `受身形（〜られる）には①直接受身②間接受身③迷惑受身の三種類があります。介護現場では「転倒させられる」「声をかけられた」「夜中に起こされた」など多くの場面で使います。正確な受身の理解は報告書作成にも重要です。
+
+Thể bị động（〜られる）có ba loại: ①bị động trực tiếp ②bị động gián tiếp ③bị động bất lợi. Trong điều dưỡng dùng trong nhiều tình huống như "bị ngã", "được lên tiếng với", "bị đánh thức ban đêm". Hiểu chính xác thể bị động cũng quan trọng cho việc viết báo cáo.`,
+      keyPoints: [
+        '直接受身: 動作の対象が主語（A は B に〜られる）（bị động trực tiếp）',
+        '間接受身: 動作が影響を及ぼす（A は B に〜られる — ảnh hưởng gián tiếp）',
+        '迷惑受身: 被害・不都合な事態（A は B に〜られる — bất lợi, phiền）',
+        '受身形の作り方: グループ1: u→aれる / グループ2: る→られる / グループ3: される',
+        '「〜に」が行為者を示す（「〜に」chỉ người thực hiện hành động）',
+        '敬語的受身: 先生が来られた（尊敬語）— 注意！',
+      ],
+      vocabulary: [
+        { word: '受身', reading: 'うけみ', meaning: '受ける立場の形（thể bị động）', example: '受身文を作る' },
+        { word: '迷惑', reading: 'めいわく', meaning: '困ること（phiền phức, bất lợi）', example: '夜中に起こされて迷惑した' },
+        { word: '行為者', reading: 'こういしゃ', meaning: '動作をする人（người thực hiện hành động）', example: '行為者は「に」で示す' },
+        { word: '批判', reading: 'ひはん', meaning: '悪い評価をすること（chỉ trích, phê bình）', example: '上司に批判された' },
+        { word: '怒られる', reading: 'おこられる', meaning: '叱られること（bị mắng）', example: 'ミスをして怒られた' },
+      ],
+      examples: [
+        { japanese: '田中さんは昨夜、看護師に血圧を測られました。（直接受身）', reading: 'たなかさんはゆうべ、かんごしにけつあつをはかられました。', translation: 'Ông Tanaka tối qua được y tá đo huyết áp.（bị động trực tiếp）' },
+        { japanese: '私は夜中に利用者さんに起こされて、眠れませんでした。（迷惑受身）', reading: 'わたしはよなかにりようしゃさんにおこされて、ねむれませんでした。', translation: 'Tôi bị người được chăm sóc đánh thức giữa đêm và không ngủ được.（bị động bất lợi）' },
+        { japanese: '記録を書き忘れて、上司に注意されました。（迷惑受身）', reading: 'きろくをかきわすれて、じょうしにちゅういされました。', translation: 'Do quên viết hồ sơ nên bị cấp trên nhắc nhở.' },
+      ],
+      grammarNote: `【受身形の三種類】
+
+①直接受身（bị động trực tiếp）:
+  「利用者さんがスタッフにケアされた」
+  = người được chăm sóc được nhân viên chăm sóc
+
+②間接受身（bị động gián tiếp — ảnh hưởng）:
+  「私は隣の人に話しかけられた」
+  = tôi được/bị người kế bên nói chuyện
+
+③迷惑受身（bị động bất lợi）:
+  「夜中に電話をかけられて困った」
+  = bị gọi điện giữa đêm, thật phiền
+
+【活用】
+グループ1: 書く→書かれる / 飲む→飲まれる
+グループ2: 食べる→食べられる
+グループ3: する→される / くる→こられる`,
+      quiz: {
+        question: '「私は上司に仕事を（　）、困りました」— 迷惑受身の文は？',
+        options: [
+          { id: 'a', text: '頼む' },
+          { id: 'b', text: '頼まれて' },
+          { id: 'c', text: '頼んで' },
+          { id: 'd', text: '頼まして' },
+        ],
+        correctId: 'b',
+        explanation: '迷惑受身は「（頼む→）頼まれる」のて形「頼まれて」。「上司に頼まれて困った」= bị cấp trên nhờ vả, thật phiền.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-16': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '使役形 〜させる / 使役受身 〜させられる',
+      titleTranslation: 'Thể sai khiến 〜させる / Bị động sai khiến 〜させられる',
+      introduction: `使役形（〜させる）は「誰かに〜させる（allow/make）」、使役受身（〜させられる）は「誰かに無理やり〜させられる（forced to）」を表します。介護の職場では上司が指示する場面や、職員が感じる負担を表すときに使います。
+
+Thể sai khiến（〜させる）biểu thị "khiến ai đó làm～（cho phép/bắt buộc）", thể bị động sai khiến（〜させられる）biểu thị "bị ai đó ép buộc phải làm～". Trong môi trường điều dưỡng dùng khi cấp trên ra chỉ thị hoặc diễn đạt gánh nặng mà nhân viên cảm nhận.`,
+      keyPoints: [
+        '使役形: AはBを/にVさせる（A khiến/cho B làm V）',
+        '使役受身: AはBにVさせられる（A bị B ép buộc làm V）',
+        '使役の意味①: 強制「〜させる」（ép buộc）',
+        '使役の意味②: 許可「〜させる」（cho phép）',
+        '活用: グループ1: 飲む→飲ませる / グループ2: 食べる→食べさせる / グループ3: させる・こさせる',
+        '使役受身の短縮形: グループ1のみ 〜させられる→〜される（呼ぶ→呼ばされる）',
+      ],
+      vocabulary: [
+        { word: '使役', reading: 'しえき', meaning: 'させる形（thể sai khiến）', example: '薬を飲ませる' },
+        { word: '強制', reading: 'きょうせい', meaning: '無理やり〜させること（cưỡng bức, bắt buộc）', example: '無理やり働かされた' },
+        { word: '許可', reading: 'きょか', meaning: '〜してよいと認めること（cho phép）', example: '外出を許可する' },
+        { word: '負担', reading: 'ふたん', meaning: '重い仕事・責任（gánh nặng）', example: '業務の負担が大きい' },
+        { word: '指示', reading: 'しじ', meaning: '上から命令・指導（chỉ thị）', example: '上司の指示に従う' },
+      ],
+      examples: [
+        { japanese: '看護師は患者に薬を飲ませました。（使役・強制/許可）', reading: 'かんごしはかんじゃにくすりをのませました。', translation: 'Y tá đã cho/bắt bệnh nhân uống thuốc.（sai khiến）' },
+        { japanese: '毎日残業させられて、とても疲れました。（使役受身・不満）', reading: 'まいにちざんぎょうさせられて、とてもつかれました。', translation: 'Bị bắt làm thêm giờ mỗi ngày, tôi rất mệt.（bị động sai khiến — bất mãn）' },
+        { japanese: '施設長は新人スタッフに研修を受けさせました。', reading: 'しせつちょうはしんじんスタッフにけんしゅうをうけさせました。', translation: 'Giám đốc cơ sở đã cho/yêu cầu nhân viên mới tham gia đào tạo.' },
+      ],
+      grammarNote: `【使役形 vs 使役受身】
+
+使役形（〜させる）— "khiến/cho phép làm":
+  「子どもに薬を飲ませる」= cho trẻ uống thuốc
+  「利用者さんに歩かせる」= cho người được chăm sóc đi bộ
+
+使役受身（〜させられる）— "bị ép buộc phải làm":
+  「毎日早く来させられる」= bị bắt phải đến sớm mỗi ngày
+  「無理な仕事をさせられた」= bị ép làm công việc quá sức
+
+【活用表】
+グループ1: 書く→書かせる→書かせられる（書かされる）
+グループ2: 食べる→食べさせる→食べさせられる
+グループ3: する→させる→させられる`,
+      quiz: {
+        question: '「新人のときは、毎日早く来る（　）。辛かった」— 強制の意味は？',
+        options: [
+          { id: 'a', text: 'ようにした' },
+          { id: 'b', text: 'させた' },
+          { id: 'c', text: 'させられた' },
+          { id: 'd', text: 'させてもらった' },
+        ],
+        correctId: 'c',
+        explanation: '自分が強制された（辛かった）ので「させられた」（使役受身）が正解。「させられた」= bị ép buộc phải làm（bất đắc dĩ）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-17': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜ば〜ほど / 〜につれて / 〜とともに（比例・変化）',
+      titleTranslation: '〜ば〜ほど / 〜につれて / 〜とともに（Tỷ lệ thuận và sự thay đổi）',
+      introduction: `「〜ば〜ほど」「〜につれて」「〜とともに」はどれも二つの事柄の変化が比例していることを表します。介護・医療の観察記録（「年齢が上がるにつれて認知症リスクが高まる」）に役立つ表現です。
+
+「〜ば〜ほど」「〜につれて」「〜とともに」đều biểu thị hai sự việc thay đổi tỷ lệ thuận với nhau. Hữu ích cho hồ sơ quan sát y tế/điều dưỡng（"tuổi càng cao thì nguy cơ sa sút trí tuệ càng tăng"）.`,
+      keyPoints: [
+        '〜ば〜ほど: 一方が増すほど他方も増す（càng...càng...）',
+        '〜につれて: Aの変化に伴いBも変化（cùng với A thay đổi thì B cũng thay đổi）',
+        '〜とともに: Aと同時にBも〜（cùng với, đồng thời với）',
+        '〜ば〜ほど の接続: 動詞ば形＋同じ動詞＋ほど / い形容詞ければ〜ほど',
+        '〜につれて は自然な変化に使いやすい（biến đổi tự nhiên）',
+        '〜とともに はやや書き言葉的（thiên về văn viết）',
+      ],
+      vocabulary: [
+        { word: '比例', reading: 'ひれい', meaning: '一方が増えると他方も増える（tỷ lệ thuận）', example: '年齢と体力は反比例する' },
+        { word: '高齢化', reading: 'こうれいか', meaning: '高齢者が増える（già hóa）', example: '日本の高齢化が進む' },
+        { word: '低下', reading: 'ていか', meaning: '下がること（giảm xuống）', example: '体力が低下する' },
+        { word: '向上', reading: 'こうじょう', meaning: '上がること（nâng cao, cải thiện）', example: '技術が向上する' },
+        { word: '進む', reading: 'すすむ', meaning: '前に進む・発展する（tiến triển, tiến lên）', example: '病気が進む' },
+      ],
+      examples: [
+        { japanese: '経験を積めば積むほど、利用者さんの変化に気づきやすくなります。', reading: 'けいけんをつめばつむほど、りようしゃさんのへんかにきづきやすくなります。', translation: 'Càng tích lũy kinh nghiệm, càng dễ nhận ra sự thay đổi của người được chăm sóc.' },
+        { japanese: '年齢が上がるにつれて、転倒のリスクが高まります。', reading: 'ねんれいがあがるにつれて、てんとうのリスクがたかまります。', translation: 'Cùng với tuổi tác tăng lên, nguy cơ té ngã cũng tăng lên.' },
+        { japanese: '高齢化の進行とともに、介護ニーズも増加しています。', reading: 'こうれいかのしんこうとともに、かいごニーズもぞうかしています。', translation: 'Cùng với sự tiến triển của già hóa dân số, nhu cầu điều dưỡng cũng tăng lên.' },
+      ],
+      grammarNote: `【比例・変化表現の比較】
+
+〜ば〜ほど（càng...càng...）:
+  「練習すればするほど上手になる」
+  接続: 動詞ば形＋同動詞辞書形＋ほど
+
+〜につれて（cùng với A thì B cũng）:
+  「春になるにつれて暖かくなる」
+  接続: 動詞辞書形・名詞＋につれて
+
+〜とともに（cùng với, đồng thời）:
+  「技術の発展とともに介護も変わった」
+  接続: 名詞＋とともに / 動詞辞書形＋とともに
+
+【ニュアンス比較】
+ば〜ほど = 強調した比例
+につれて = 自然な変化の連動
+とともに = 同時進行・格式的`,
+      quiz: {
+        question: '「日本語を勉強すれば（　）、仕事がしやすくなる」に入るのは？',
+        options: [
+          { id: 'a', text: 'するにつれて' },
+          { id: 'b', text: 'するほど' },
+          { id: 'c', text: 'するとともに' },
+          { id: 'd', text: 'したほど' },
+        ],
+        correctId: 'b',
+        explanation: '「〜ば〜ほど」の形：「勉強すれば（するほど）」。「するほど」が正解。「勉強すればするほど」= càng học càng dễ làm việc.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-18': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜はずだ / 〜はずがない（当然・否定の確信）',
+      titleTranslation: '〜はずだ / 〜はずがない（Điều đương nhiên / Không thể nào）',
+      introduction: `「〜はずだ」は根拠に基づく確信・当然の推測、「〜はずがない」は根拠に基づく強い否定を表します。「この薬を飲んだはずだ」「そんなミスをするはずがない」など、介護現場での事実確認や確信の表現に使います。
+
+「〜はずだ」biểu thị sự chắc chắn/suy đoán đương nhiên dựa trên căn cứ,「〜はずがない」biểu thị sự phủ định mạnh dựa trên căn cứ. Dùng trong xác nhận sự thật và diễn đạt sự chắc chắn tại nơi làm việc điều dưỡng như "hẳn là đã uống thuốc rồi", "không thể nào mắc lỗi như vậy".`,
+      keyPoints: [
+        '〜はずだ: 根拠のある確信「当然〜のはず」（đương nhiên phải là, hẳn là）',
+        '〜はずがない: 根拠のある否定「〜のはずはない」（không thể nào）',
+        '〜はずだった: 予定・期待が実現しなかった（đáng lẽ phải...nhưng）',
+        '接続: 普通形＋はずだ / 名詞＋のはずだ / な形容詞＋な＋はずだ',
+        '根拠が重要: 証拠・理由があって言う（căn cứ quan trọng）',
+        'vs 〜と思う: はずだ は根拠あり、と思う は主観的意見',
+      ],
+      vocabulary: [
+        { word: '確信', reading: 'かくしん', meaning: '強く信じること（sự chắc chắn）', example: '絶対に正しいと確信している' },
+        { word: '根拠', reading: 'こんきょ', meaning: '理由・証拠（căn cứ, bằng chứng）', example: '根拠のある判断をする' },
+        { word: '当然', reading: 'とうぜん', meaning: '普通そうあるべき（đương nhiên, tất nhiên）', example: '当然のことをする' },
+        { word: '予定', reading: 'よてい', meaning: '前もって決まっていること（kế hoạch, dự định）', example: '今日は早退の予定だった' },
+        { word: '一致', reading: 'いっち', meaning: '合っていること（khớp, trùng nhau）', example: '記録と現実が一致している' },
+      ],
+      examples: [
+        { japanese: '田中さんは朝9時に薬を飲んだはずです。記録に書いてあります。', reading: 'たなかさんはあさくじにくすりをのんだはずです。きろくにかいてあります。', translation: 'Ông Tanaka hẳn đã uống thuốc lúc 9h sáng. Được ghi trong hồ sơ.' },
+        { japanese: '彼女はベテランスタッフだから、そんなミスをするはずがない。', reading: 'かのじょはベテランスタッフだから、そんなミスをするはずがない。', translation: 'Cô ấy là nhân viên lành nghề nên không thể nào mắc lỗi như vậy.' },
+        { japanese: '今日は退院のはずだったが、体調が悪くて延期になった。', reading: 'きょうはたいいんのはずだったが、たいちょうがわるくてえんきになった。', translation: 'Đáng lẽ hôm nay xuất viện nhưng vì sức khỏe kém nên đã hoãn lại.' },
+      ],
+      grammarNote: `【〜はずだ / 〜はずがない】
+
+はずだ（chắc chắn là, đương nhiên）:
+  「確認したはずだ」= hẳn là đã kiểm tra rồi
+  根拠: 記録がある・手順を踏んだ
+
+はずがない（không thể nào）:
+  「こんな場所にあるはずがない」= không thể nào có ở đây
+  根拠: 常識的に考えて不可能
+
+はずだった（đáng lẽ phải...nhưng）:
+  「来るはずだったが来なかった」
+  = đáng lẽ phải đến nhưng không đến
+
+【接続】
+動詞普通形・い形容詞＋はずだ
+名詞＋の＋はずだ
+な形容詞語幹＋な＋はずだ`,
+      quiz: {
+        question: '「この薬は冷蔵庫に（　）。昨日確認しました」に入るのは？',
+        options: [
+          { id: 'a', text: 'あるはずがない' },
+          { id: 'b', text: 'あるはずだ' },
+          { id: 'c', text: 'あるかもしれない' },
+          { id: 'd', text: 'あるらしい' },
+        ],
+        correctId: 'b',
+        explanation: '昨日確認したという根拠があるので「あるはずだ」が正解。「あるはずだ」= hẳn là có（có căn cứ — đã kiểm tra hôm qua）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-19': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜わけだ / 〜わけがない / 〜わけにはいかない',
+      titleTranslation: '〜わけだ / 〜わけがない / 〜わけにはいかない（Lý do / Không thể / Không thể không）',
+      introduction: `「わけ」は「道理・理由・当然の結果」を意味します。「〜わけだ」は理解・納得、「〜わけがない」は強い否定、「〜わけにはいかない」は社会的・道義的に不可能を表します。介護現場での判断・義務の表現に役立ちます。
+
+「わけ」có nghĩa là "lý do, đạo lý, kết quả đương nhiên". 「〜わけだ」biểu thị sự hiểu/chấp nhận, 「〜わけがない」biểu thị phủ định mạnh, 「〜わけにはいかない」biểu thị không thể làm vì lý do xã hội/đạo đức. Hữu ích cho diễn đạt phán quyết và nghĩa vụ tại nơi làm việc điều dưỡng.`,
+      keyPoints: [
+        '〜わけだ: 当然の結果・納得「それは〜だよね」（đương nhiên là vậy, hóa ra là）',
+        '〜わけがない: 強い否定「〜のは不可能」（không thể nào, vô lý）',
+        '〜わけにはいかない: 社会的・道徳的にできない（không thể không, không được phép）',
+        '〜わけではない: 全否定ではない「〜というわけでもない」（không phải là...）',
+        '接続: 普通形＋わけだ / 名詞・な形容詞＋な＋わけだ',
+        'vs はずだ: わけだ は理解・納得、はずだ は予測・確信',
+      ],
+      vocabulary: [
+        { word: '道理', reading: 'どうり', meaning: '筋が通った理由（đạo lý, lẽ phải）', example: '道理として正しい' },
+        { word: '義務', reading: 'ぎむ', meaning: 'しなければならない責任（nghĩa vụ）', example: '報告する義務がある' },
+        { word: '納得', reading: 'なっとく', meaning: '理解して受け入れること（chấp nhận, thông hiểu）', example: '説明を聞いて納得した' },
+        { word: 'プロ', reading: 'プロ', meaning: '専門家・プロフェッショナル（chuyên nghiệp）', example: 'プロとして仕事をする' },
+        { word: '責任', reading: 'せきにん', meaning: 'やるべき義務（trách nhiệm）', example: '責任を持って対応する' },
+      ],
+      examples: [
+        { japanese: '10年の経験があるなら、難しい介護ができるわけだ。（納得）', reading: 'じゅうねんのけいけんがあるなら、むずかしいかいごができるわけだ。', translation: 'Có 10 năm kinh nghiệm thì đương nhiên làm được việc chăm sóc khó.（hóa ra là vậy）' },
+        { japanese: 'プロの介護士が基本的な手順を知らないわけがない。（否定）', reading: 'プロのかいごしがきほんてきなてじゅんをしらないわけがない。', translation: 'Điều dưỡng viên chuyên nghiệp không thể nào không biết quy trình cơ bản.' },
+        { japanese: '利用者さんの安全を守る仕事を途中でやめるわけにはいかない。', reading: 'りようしゃさんのあんぜんをまもるしごとをとちゅうでやめるわけにはいかない。', translation: 'Không thể bỏ dở công việc bảo vệ an toàn cho người được chăm sóc giữa chừng.' },
+      ],
+      grammarNote: `【わけ の三つの表現】
+
+わけだ（hóa ra là / đương nhiên）:
+  「そういうわけか、納得した」= À ra vậy, tôi hiểu rồi
+  前の情報から自然に導かれる結論
+
+わけがない（không thể nào）:
+  「嘘をつくわけがない」= không thể nào nói dối
+  根拠があって強く否定
+
+わけにはいかない（không được phép / không thể không）:
+  「安全確認をしないわけにはいかない」
+  = không thể không kiểm tra an toàn
+  社会的/道義的に不可能
+
+【注意】わけではない = 「完全にそうではない」
+  「嫌いなわけではない」= không phải là ghét đâu`,
+      quiz: {
+        question: '「利用者さんが転倒した。すぐに報告しない（　）」に入るのは？',
+        options: [
+          { id: 'a', text: 'わけだ' },
+          { id: 'b', text: 'わけがない' },
+          { id: 'c', text: 'わけにはいかない' },
+          { id: 'd', text: 'わけではない' },
+        ],
+        correctId: 'c',
+        explanation: '社会的・職務的にできないことなので「わけにはいかない」が正解。「報告しないわけにはいかない」= không thể không báo cáo（nghĩa vụ）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-20': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '〜のではないか / 〜にちがいない / 〜に違いない（推量の強さ）',
+      titleTranslation: '〜のではないか / 〜にちがいない（Mức độ mạnh của suy đoán）',
+      introduction: `推量表現には確信の強さがあります。「〜にちがいない」は強い確信（80〜90%）、「〜のではないか」は可能性の提示（50〜70%）です。医療・介護の場では確信の程度に応じた表現選択が報告書の精度に影響します。
+
+Các cách diễn đạt suy đoán có mức độ chắc chắn. 「〜にちがいない」là sự chắc chắn mạnh（80〜90%）,「〜のではないか」là đề xuất khả năng（50〜70%）. Trong y tế/điều dưỡng, việc chọn cách diễn đạt theo mức độ chắc chắn ảnh hưởng đến độ chính xác của báo cáo.`,
+      keyPoints: [
+        '〜にちがいない: 強い確信（mức độ chắc chắn cao — chắc chắn là）',
+        '〜のではないか / 〜のではないだろうか: 可能性・婉曲な推量（có lẽ là, có phải chăng）',
+        '確信の強さ: にちがいない ＞ はずだ ＞ のではないか ＞ かもしれない',
+        '接続: 普通形＋にちがいない / 普通形＋のではないか',
+        '〜のではないか は意見・提案を柔らかく言う時にも使う',
+        '書き言葉: 〜に違いない（漢字）も使う',
+      ],
+      vocabulary: [
+        { word: 'にちがいない', reading: 'にちがいない', meaning: '絶対に〜だ（chắc chắn là）', example: '彼は知っているにちがいない' },
+        { word: 'のではないか', reading: 'のではないか', meaning: 'おそらく〜だろう（có lẽ là, phải chăng）', example: '熱があるのではないか' },
+        { word: '確信', reading: 'かくしん', meaning: '強い信念（sự chắc chắn）', example: '確信を持って言う' },
+        { word: '推量', reading: 'すいりょう', meaning: '推測・予測（suy đoán）', example: '推量の表現を使う' },
+        { word: '可能性', reading: 'かのうせい', meaning: '〜かもしれない度合い（khả năng）', example: '可能性が高い' },
+      ],
+      examples: [
+        { japanese: '顔色が悪い。何か体調が悪いのではないだろうか。（婉曲な推量）', reading: 'かおいろがわるい。なにかたいちょうがわるいのではないだろうか。', translation: 'Nước da xấu. Có phải sức khỏe có vấn đề gì không nhỉ?（suy đoán nhẹ nhàng）' },
+        { japanese: '3日間食事を食べていないなら、体力が落ちているにちがいない。', reading: 'みっかかんしょくじをたべていないなら、たいりょくがおちているにちがいない。', translation: 'Nếu 3 ngày không ăn, chắc chắn là sức lực đã giảm sút rồi.' },
+        { japanese: 'これは誤薬事故ではないかと思い、すぐに報告しました。', reading: 'これはごやくじこではないかとおもい、すぐにほうこくしました。', translation: 'Tôi nghĩ có lẽ đây là sự cố nhầm thuốc nên đã báo cáo ngay.' },
+      ],
+      grammarNote: `【推量の強さの段階】
+
+強い確信 → 弱い推量:
+にちがいない（90%）:「絶対に〜だ」chắc chắn
+はずだ（80%）:「根拠があって〜のはず」có căn cứ
+のではないか（60%）:「〜かもしれない、提案」có lẽ
+かもしれない（50%）:「〜の可能性がある」có thể
+
+にちがいない の接続:
+普通形＋にちがいない
+「熱があるにちがいない」
+
+のではないか の接続:
+普通形＋のではないか
+  「病気なのではないか」= có phải bị bệnh không
+  「難しいのではないだろうか」= có lẽ khó`,
+      quiz: {
+        question: '「彼は経験が10年ある。このケースを知っている（　）」— 強い確信は？',
+        options: [
+          { id: 'a', text: 'かもしれない' },
+          { id: 'b', text: 'のではないか' },
+          { id: 'c', text: 'にちがいない' },
+          { id: 'd', text: 'らしい' },
+        ],
+        correctId: 'c',
+        explanation: '「10年の経験がある」という根拠から強い確信を表すのは「にちがいない」。「知っているにちがいない」= chắc chắn là biết（sự chắc chắn mạnh nhất）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-21': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3頻出複合動詞①（〜し直す・〜続ける・〜始める・〜終わる）',
+      titleTranslation: 'Động từ phức hợp N3 thường gặp ①（〜し直す・〜続ける・〜始める・〜終わる）',
+      introduction: `複合動詞は二つの動詞を組み合わせた動詞です。「書き直す・話し続ける・食べ始める・読み終わる」のように動詞の連用形に別の動詞をつなげます。介護の手順指示・記録に多用されます。
+
+Động từ phức hợp là động từ kết hợp từ hai động từ. Như "viết lại", "tiếp tục nói", "bắt đầu ăn", "đọc xong" — nối dạng renjōkei（連用形）của động từ với một động từ khác. Thường dùng trong hướng dẫn quy trình và hồ sơ điều dưỡng.`,
+      keyPoints: [
+        '〜直す: やり直す・書き直す（làm lại, viết lại — làm lần 2）',
+        '〜続ける: 話し続ける・飲み続ける（tiếp tục làm — duy trì）',
+        '〜始める: 食べ始める・歩き始める（bắt đầu làm — khởi đầu）',
+        '〜終わる: 読み終わる・書き終わる（làm xong, kết thúc）',
+        '接続: 動詞連用形（ます形の語幹）＋複合動詞',
+        '他の複合動詞: 〜出す（急に始める）・〜込む（中へ）・〜上げる（完成）',
+      ],
+      vocabulary: [
+        { word: '書き直す', reading: 'かきなおす', meaning: 'もう一度書く（viết lại）', example: '記録を書き直す' },
+        { word: '飲み続ける', reading: 'のみつづける', meaning: '飲むことを続ける（tiếp tục uống）', example: '薬を飲み続ける' },
+        { word: '食べ始める', reading: 'たべはじめる', meaning: '食べることを始める（bắt đầu ăn）', example: '利用者が食べ始めた' },
+        { word: '書き終わる', reading: 'かきおわる', meaning: '書くことが終わる（viết xong）', example: '記録を書き終わった' },
+        { word: '立ち上がる', reading: 'たちあがる', meaning: '立つ動作を始める（đứng dậy）', example: '急に立ち上がった' },
+        { word: '動き出す', reading: 'うごきだす', meaning: '急に動き始める（bắt đầu di chuyển）', example: '利用者が動き出した' },
+      ],
+      examples: [
+        { japanese: '記録の書き方を間違えたので、書き直しました。', reading: 'きろくのかきかたをまちがえたので、かきなおしました。', translation: 'Vì viết sai cách ghi hồ sơ nên đã viết lại.' },
+        { japanese: '田中さんは指示された薬を毎日飲み続けています。', reading: 'たなかさんはしじされたくすりをまいにちのみつづけています。', translation: 'Ông Tanaka tiếp tục uống thuốc được chỉ định mỗi ngày.' },
+        { japanese: '山田さんがベッドから急に立ち上がろうとしたので、すぐに声をかけました。', reading: 'やまださんがベッドからきゅうにたちあがろうとしたので、すぐにこえをかけました。', translation: 'Vì ông Yamada đột ngột toan đứng dậy khỏi giường nên đã lên tiếng ngay.' },
+      ],
+      grammarNote: `【主な複合動詞のパターン】
+
+〜直す（làm lại）: 動詞連用形＋直す
+  書く→書き直す / 確認する→確認し直す
+
+〜続ける（tiếp tục）: 動詞連用形＋続ける
+  飲む→飲み続ける / 歩く→歩き続ける
+
+〜始める（bắt đầu）: 動詞連用形＋始める
+  食べる→食べ始める / 降る→降り始める
+
+〜終わる（xong）: 動詞連用形＋終わる
+  読む→読み終わる / 洗う→洗い終わる
+
+〜出す（đột ngột bắt đầu）: 動詞連用形＋出す
+  泣く→泣き出す / 走る→走り出す`,
+      quiz: {
+        question: '「申し送りを（　）、ケアを始めてください」に入るのは？',
+        options: [
+          { id: 'a', text: '聞き終わってから' },
+          { id: 'b', text: '聞き始めてから' },
+          { id: 'c', text: '聞き続けてから' },
+          { id: 'd', text: '聞き直してから' },
+        ],
+        correctId: 'a',
+        explanation: '申し送りを全て聞き終えてからケアを始める順序。「聞き終わってから」= sau khi nghe xong bàn giao.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-22': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3頻出動詞②（変化・状態: 回復する・低下する・増加する・減少する）',
+      titleTranslation: 'Động từ N3 thường gặp ②（Thay đổi & Trạng thái: hồi phục, giảm sút, tăng, giảm）',
+      introduction: `医療・介護の記録や報告では変化を表す動詞が頻繁に使われます。「回復する・低下する・増加する・減少する・悪化する・改善する」などの対義語をセットで覚えましょう。
+
+Trong hồ sơ và báo cáo y tế/điều dưỡng, các động từ biểu thị sự thay đổi được sử dụng thường xuyên. Hãy ghi nhớ theo cặp từ trái nghĩa như "hồi phục - giảm sút, tăng - giảm, trở nên tệ hơn - cải thiện".`,
+      keyPoints: [
+        '回復する ↔ 悪化する（hồi phục ↔ trở nên tệ hơn）',
+        '増加する ↔ 減少する（tăng ↔ giảm）',
+        '向上する ↔ 低下する（nâng cao ↔ giảm xuống）',
+        '安定する ↔ 不安定になる（ổn định ↔ trở nên bất ổn）',
+        '改善する ↔ 悪化する（cải thiện ↔ trở nên tệ）',
+        '記録例：「食欲が回復した」「血圧が低下した」「体重が減少した」',
+      ],
+      vocabulary: [
+        { word: '回復する', reading: 'かいふくする', meaning: '良くなること（hồi phục）', example: '体調が回復した' },
+        { word: '低下する', reading: 'ていかする', meaning: '下がること（giảm xuống）', example: '体力が低下した' },
+        { word: '増加する', reading: 'ぞうかする', meaning: '増えること（tăng lên）', example: '入院患者が増加した' },
+        { word: '減少する', reading: 'げんしょうする', meaning: '減ること（giảm）', example: '食事量が減少した' },
+        { word: '悪化する', reading: 'あっかする', meaning: '悪くなること（trở nên tệ hơn）', example: '症状が悪化した' },
+        { word: '安定する', reading: 'あんていする', meaning: '落ち着くこと（ổn định）', example: '状態が安定した' },
+      ],
+      examples: [
+        { japanese: '先週から食欲が回復し、毎食8割以上食べられています。', reading: 'せんしゅうからしょくよくがかいふくし、まいしょくはちわりいじょうたべられています。', translation: 'Từ tuần trước cảm giác thèm ăn đã hồi phục, mỗi bữa ăn được hơn 80%.' },
+        { japanese: '山田さんの体重が先月から2kg減少しています。栄養指導が必要です。', reading: 'やまださんのたいじゅうがせんげつから2kgげんしょうしています。えいようしどうがひつようです。', translation: 'Cân nặng của ông Yamada đã giảm 2kg từ tháng trước. Cần tư vấn dinh dưỡng.' },
+        { japanese: '介護施設の利用者数は毎年増加しています。', reading: 'かいごしせつのりようしゃすうはまいとしぞうかしています。', translation: 'Số người sử dụng cơ sở điều dưỡng tăng lên mỗi năm.' },
+      ],
+      grammarNote: `【変化動詞の対義語セット】
+
+良くなる方向:
+  回復する（hồi phục）/ 改善する（cải thiện）
+  向上する（nâng cao）/ 安定する（ổn định）
+
+悪くなる方向:
+  悪化する（trở nên tệ）/ 低下する（giảm sút）
+  減少する（giảm）/ 不安定になる（bất ổn）
+
+増減:
+  増加する・増える（tăng）
+  減少する・減る（giảm）
+
+【記録での使い方】
+「〜が〜した」形で使う:
+  「体温が低下した」「食欲が回復した」
+  「体重が3kg増加した」`,
+      quiz: {
+        question: '「田中さんの血圧が130から100に（　）しました」— 下がった意味は？',
+        options: [
+          { id: 'a', text: '回復' },
+          { id: 'b', text: '増加' },
+          { id: 'c', text: '低下' },
+          { id: 'd', text: '向上' },
+        ],
+        correctId: 'c',
+        explanation: '130から100に下がったので「低下」が正解。「低下する」= giảm xuống（huyết áp từ 130 xuống 100）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-23': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3形容詞・副詞（適切な・十分な・丁寧な・すでに・なるべく・ほとんど）',
+      titleTranslation: 'Tính từ & Phó từ N3（thích hợp, đầy đủ, lịch sự, đã, càng nhiều càng tốt, hầu hết）',
+      introduction: `N3レベルの形容詞・副詞は報告書・申し送り・職場でのコミュニケーションに欠かせません。「適切な対応」「十分な休養」「すでに確認済み」「ほとんど食べた」など医療・介護の文脈でよく使われる表現を覚えましょう。
+
+Tính từ và phó từ cấp N3 không thể thiếu trong báo cáo, bàn giao, giao tiếp nơi làm việc. Hãy ghi nhớ các cách diễn đạt thường dùng trong y tế/điều dưỡng như "ứng phó thích hợp", "nghỉ ngơi đầy đủ", "đã xác nhận rồi", "ăn hầu hết".`,
+      keyPoints: [
+        '適切な（な形容詞）: 状況に合った（thích hợp, phù hợp）— 適切な対応・適切な判断',
+        '十分な（な形容詞）: 必要なだけある（đầy đủ）— 十分な休養・十分な説明',
+        '丁寧な（な形容詞）: 礼儀正しい（lịch sự, cẩn thận）— 丁寧な対応',
+        'すでに（副詞）: もう（đã, đã rồi）— すでに確認した・すでに完了',
+        'なるべく（副詞）: できる限り（càng nhiều càng tốt, cố gắng）— なるべく早く',
+        'ほとんど（副詞）: 大部分・ほぼ全部（hầu hết, gần như tất cả）',
+      ],
+      vocabulary: [
+        { word: '適切な', reading: 'てきせつな', meaning: '状況に合った（thích hợp）', example: '適切な介護を提供する' },
+        { word: '十分な', reading: 'じゅうぶんな', meaning: '必要なだけある（đầy đủ）', example: '十分な水分を摂る' },
+        { word: '丁寧な', reading: 'ていねいな', meaning: '礼儀正しい（lịch sự, cẩn thận）', example: '丁寧な言葉遣いをする' },
+        { word: 'すでに', reading: 'すでに', meaning: 'もう・もはや（đã, đã rồi）', example: 'すでに報告済みです' },
+        { word: 'なるべく', reading: 'なるべく', meaning: 'できるだけ（càng nhiều càng tốt）', example: 'なるべく早く対応する' },
+        { word: 'ほとんど', reading: 'ほとんど', meaning: '大部分（hầu hết）', example: 'ほとんど食べました' },
+      ],
+      examples: [
+        { japanese: '田中さんへの適切な対応のために、チームで相談しました。', reading: 'たなかさんへのてきせつなたいおうのために、チームでそうだんしました。', translation: 'Để có ứng phó thích hợp với ông Tanaka, nhóm đã thảo luận.' },
+        { japanese: '山田さんは昼食をほとんど食べました。残したのは野菜だけです。', reading: 'やまださんはちゅうしょくをほとんどたべました。のこしたのはやさいだけです。', translation: 'Ông Yamada đã ăn hầu hết bữa trưa. Chỉ để lại rau thôi.' },
+        { japanese: '申し送りはすでに完了しています。なるべく早くケアを始めてください。', reading: 'もうしおくりはすでにかんりょうしています。なるべくはやくケアをはじめてください。', translation: 'Việc bàn giao đã hoàn thành rồi. Hãy bắt đầu chăm sóc càng sớm càng tốt.' },
+      ],
+      grammarNote: `【形容詞・副詞の使い方ポイント】
+
+適切な vs 正しい:
+  適切な = phù hợp với hoàn cảnh（linh hoạt）
+  正しい = đúng（tuyệt đối）
+
+十分な vs 多い:
+  十分な = đủ（đạt yêu cầu）
+  多い = nhiều（số lượng）
+
+すでに vs もう:
+  すでに = đã（văn viết, trang trọng）
+  もう = đã（hội thoại thông thường）
+
+なるべく vs できるだけ:
+  なるべく = càng nhiều càng tốt（nhẹ nhàng hơn）
+  できるだけ = càng nhiều càng tốt（nhấn mạnh hơn）
+
+ほとんど + 肯定 = hầu hết
+ほとんど + 否定 = hầu như không`,
+      quiz: {
+        question: '「利用者さんの水分補給は（　）十分ではありません。もっと促してください」の（　）に入るのは？',
+        options: [
+          { id: 'a', text: 'すでに' },
+          { id: 'b', text: 'ほとんど' },
+          { id: 'c', text: 'なるべく' },
+          { id: 'd', text: 'まだ' },
+        ],
+        correctId: 'd',
+        explanation: '「まだ十分ではない」= chưa đầy đủ（vẫn chưa）. 「すでに」は完了、「ほとんど」は大部分、「なるべく」は副詞として不適切。',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-24': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3漢語名詞（介護・医療分野: 状態・対応・確認・連絡・報告・記録）',
+      titleTranslation: 'Danh từ Hán-Nhật N3（Điều dưỡng/Y tế: tình trạng, ứng phó, xác nhận, liên lạc, báo cáo, ghi chép）',
+      introduction: `介護・医療現場では漢語名詞（漢字二字・三字語）が多用されます。「状態・対応・確認・連絡・報告・記録」は毎日使う基本語彙です。動詞と組み合わせた「〜する」形も覚えましょう。
+
+Tại nơi làm việc điều dưỡng/y tế, danh từ Hán-Nhật（từ 2-3 chữ Hán）được sử dụng nhiều. 「状態・対応・確認・連絡・報告・記録」là từ vựng cơ bản dùng hàng ngày. Hãy học cả dạng「〜する」kết hợp với động từ.`,
+      keyPoints: [
+        '状態（じょうたい）: tình trạng — 利用者さんの状態を観察する',
+        '対応（たいおう）: ứng phó — 緊急時の対応マニュアル',
+        '確認（かくにん）: xác nhận — 薬の確認をする',
+        '連絡（れんらく）: liên lạc — 家族に連絡する',
+        '報告（ほうこく）: báo cáo — 上司に報告する',
+        '記録（きろく）: ghi chép — ケア記録を書く',
+      ],
+      vocabulary: [
+        { word: '状態', reading: 'じょうたい', meaning: '様子・具合（tình trạng）', example: '今日の状態は安定しています' },
+        { word: '対応', reading: 'たいおう', meaning: '対処すること（ứng phó）', example: '緊急時の対応をする' },
+        { word: '確認', reading: 'かくにん', meaning: '確かめること（xác nhận）', example: '内服薬を確認する' },
+        { word: '連絡', reading: 'れんらく', meaning: '情報を伝えること（liên lạc）', example: '家族に連絡を取る' },
+        { word: '報告', reading: 'ほうこく', meaning: '結果を上に伝えること（báo cáo）', example: '異変をすぐ報告する' },
+        { word: '記録', reading: 'きろく', meaning: '書いて残すこと（ghi chép）', example: 'バイタルを記録する' },
+      ],
+      examples: [
+        { japanese: '山田さんの状態を確認し、異変があれば上司に報告してください。', reading: 'やまださんのじょうたいをかくにんし、いへんがあればじょうしにほうこくしてください。', translation: 'Hãy xác nhận tình trạng của ông Yamada, nếu có gì bất thường thì báo cáo cấp trên.' },
+        { japanese: '転倒後は必ず家族に連絡し、詳しい記録を残してください。', reading: 'てんとうごはかならずかぞくにれんらくし、くわしいきろくをのこしてください。', translation: 'Sau khi ngã nhất định phải liên lạc gia đình và để lại hồ sơ chi tiết.' },
+        { japanese: '緊急時の対応手順を全スタッフが確認しておく必要があります。', reading: 'きんきゅうじのたいおうてじゅんをぜんスタッフがかくにんしておくひつようがあります。', translation: 'Tất cả nhân viên cần xác nhận trước quy trình ứng phó khẩn cấp.' },
+      ],
+      grammarNote: `【介護・医療の基本漢語名詞】
+
+報告・連絡・相談（ほうれんそう）:
+  ビジネス日本語の基本3語
+  「報告する」「連絡を取る」「相談する」
+
+観察・確認・記録の流れ:
+  観察（かんさつ）= quan sát
+  確認（かくにん）= xác nhận
+  記録（きろく）= ghi chép
+
+状態の表現:
+  良好（りょうこう）= tốt
+  安定（あんてい）= ổn định
+  不安定（ふあんてい）= không ổn định
+  悪化（あっか）= xấu đi
+
+【動詞化】
+多くの漢語名詞は＋する で動詞になる:
+  報告→報告する / 連絡→連絡する`,
+      quiz: {
+        question: '「田中さんが転倒した。まず何をするべきか？」— 正しい順序は？',
+        options: [
+          { id: 'a', text: '記録→報告→対応' },
+          { id: 'b', text: '対応→報告→記録' },
+          { id: 'c', text: '報告→記録→対応' },
+          { id: 'd', text: '連絡→確認→対応' },
+        ],
+        correctId: 'b',
+        explanation: '緊急時は①対応（安全確認・応急処置）②報告（上司・看護師へ）③記録（詳しく書く）の順が基本。「対応→報告→記録」= xử lý→báo cáo→ghi chép.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-25': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: '接続詞・つなぎ言葉N3（したがって・一方・ただし・なお・また・つまり・要するに）',
+      titleTranslation: 'Liên từ & từ nối N3（do đó, mặt khác, tuy nhiên, ngoài ra, còn nữa, tức là, nói tóm lại）',
+      introduction: `接続詞は文と文をつなぐ言葉です。N3レベルでは書き言葉的な接続詞が増えます。介護記録・報告書・申し送りを正確に書くためにこれらの接続詞を使いこなしましょう。
+
+Liên từ là từ nối câu với câu. Ở cấp N3, các liên từ thuộc văn viết tăng lên. Hãy thành thạo các liên từ này để viết hồ sơ điều dưỡng, báo cáo, bàn giao một cách chính xác.`,
+      keyPoints: [
+        'したがって: 前の内容から結論（do đó, vì vậy — văn viết）',
+        '一方: 対比・反対の事実（mặt khác, trong khi đó）',
+        'ただし: 例外・条件の追加（tuy nhiên, nhưng mà — thêm điều kiện）',
+        'なお: 補足情報の追加（ngoài ra, ngoài ra cần biết thêm）',
+        'また: 追加・並列（hơn nữa, và, còn）',
+        'つまり・要するに: まとめ・言い換え（tức là, nói tóm lại）',
+      ],
+      vocabulary: [
+        { word: 'したがって', reading: 'したがって', meaning: 'そのため（do đó, vì vậy）', example: '状態が悪化した。したがって入院が必要だ' },
+        { word: '一方', reading: 'いっぽう', meaning: '他方・反対に（mặt khác）', example: '食欲は戻った。一方、体重は減少している' },
+        { word: 'ただし', reading: 'ただし', meaning: '例外・条件（tuy nhiên, nhưng）', example: '外出可能。ただし付き添いが必要' },
+        { word: 'なお', reading: 'なお', meaning: '補足（ngoài ra, thêm vào đó）', example: 'なお、詳細は記録を参照のこと' },
+        { word: 'つまり', reading: 'つまり', meaning: '言い換え（tức là）', example: 'つまり、すぐに対応が必要ということだ' },
+        { word: '要するに', reading: 'ようするに', meaning: 'まとめると（nói tóm lại）', example: '要するに、安全が第一だ' },
+      ],
+      examples: [
+        { japanese: '血圧が急上昇した。したがって、すぐに看護師に報告した。', reading: 'けつあつがきゅうじょうしょうした。したがって、すぐにかんごしにほうこくした。', translation: 'Huyết áp tăng đột ngột. Do đó, đã báo cáo ngay cho y tá.' },
+        { japanese: '外出は許可した。ただし、必ず職員が付き添うこと。', reading: 'がいしゅつはきょかした。ただし、かならずしょくいんがつきそうこと。', translation: 'Được phép ra ngoài. Tuy nhiên, nhân viên phải nhất định đi kèm.' },
+        { japanese: '食事量が減り、体重も落ちている。つまり、栄養不足の状態だ。', reading: 'しょくじりょうがへり、たいじゅうもおちている。つまり、えいようぶそくのじょうたいだ。', translation: 'Lượng ăn giảm, cân nặng cũng giảm. Tức là đang trong tình trạng thiếu dinh dưỡng.' },
+      ],
+      grammarNote: `【接続詞の種類と役割】
+
+結果・結論（kết quả/kết luận）:
+  したがって・そのため・だから・よって
+
+対比（đối chiếu）:
+  一方・それに対して・しかし・ところが
+
+追加（bổ sung）:
+  また・さらに・なお・加えて
+
+例外・条件（ngoại lệ/điều kiện）:
+  ただし・もっとも
+
+言い換え・まとめ（tóm lại）:
+  つまり・要するに・すなわち
+
+【文体】
+したがって・よって→書き言葉
+だから・でも→話し言葉`,
+      quiz: {
+        question: '「外出の許可を出しました。（　）、ひとりでは行かないこと」に入るのは？',
+        options: [
+          { id: 'a', text: 'したがって' },
+          { id: 'b', text: 'つまり' },
+          { id: 'c', text: 'ただし' },
+          { id: 'd', text: '一方' },
+        ],
+        correctId: 'c',
+        explanation: '許可を出した上での条件・例外を示すのは「ただし」。「ただし」= tuy nhiên, nhưng mà（thêm điều kiện ngoại lệ）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-26': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3カタカナ語・外来語（医療・介護・ビジネス場面）',
+      titleTranslation: 'Từ katakana/ngoại lai N3（Y tế, Điều dưỡng, Công sở）',
+      introduction: `現代の介護・医療現場ではカタカナ語が多く使われます。英語由来の外来語は意味が分かれば理解しやすいですが、日本語特有の使い方や意味の変化に注意が必要です。
+
+Tại nơi làm việc điều dưỡng/y tế hiện đại, từ katakana được sử dụng nhiều. Từ ngoại lai gốc tiếng Anh dễ hiểu nếu biết nghĩa, nhưng cần chú ý cách dùng đặc thù trong tiếng Nhật và sự thay đổi nghĩa.`,
+      keyPoints: [
+        'ケア（care）: 介護・世話（chăm sóc）',
+        'スタッフ（staff）: 職員（nhân viên）',
+        'マニュアル（manual）: 手順書（sách hướng dẫn）',
+        'バイタル（vital signs）: 体温・血圧・脈拍（dấu hiệu sinh tồn）',
+        'リスク（risk）: 危険性（rủi ro）',
+        'サポート（support）: 支援・援助（hỗ trợ）',
+      ],
+      vocabulary: [
+        { word: 'バイタル', reading: 'バイタル', meaning: '体温・血圧・脈拍（dấu hiệu sinh tồn）', example: 'バイタルを測定する' },
+        { word: 'ケアプラン', reading: 'ケアプラン', meaning: '介護計画書（kế hoạch chăm sóc）', example: 'ケアプランを作成する' },
+        { word: 'リハビリ', reading: 'リハビリ', meaning: '機能回復訓練（phục hồi chức năng）', example: 'リハビリを行う' },
+        { word: 'スタッフ', reading: 'スタッフ', meaning: '職員・従業員（nhân viên）', example: '夜間スタッフが対応する' },
+        { word: 'マニュアル', reading: 'マニュアル', meaning: '手順書（sách hướng dẫn）', example: 'マニュアルに従う' },
+        { word: 'モニタリング', reading: 'モニタリング', meaning: '継続的な観察・監視（theo dõi liên tục）', example: '状態をモニタリングする' },
+      ],
+      examples: [
+        { japanese: '毎朝バイタルを測定して、記録に残してください。', reading: 'まいあさバイタルをそくていして、きろくにのこしてください。', translation: 'Hãy đo dấu hiệu sinh tồn mỗi sáng và ghi lại hồ sơ.' },
+        { japanese: 'リハビリの効果をモニタリングしながら、ケアプランを見直します。', reading: 'リハビリのこうかをモニタリングしながら、ケアプランをみなおします。', translation: 'Vừa theo dõi hiệu quả phục hồi chức năng vừa xem lại kế hoạch chăm sóc.' },
+        { japanese: '緊急時のマニュアルをスタッフ全員で確認しておきましょう。', reading: 'きんきゅうじのマニュアルをスタッフぜんいんでかくにんしておきましょう。', translation: 'Hãy cùng tất cả nhân viên xác nhận trước sách hướng dẫn khẩn cấp.' },
+      ],
+      grammarNote: `【医療・介護カタカナ語リスト】
+
+バイタル = vital signs（体温・血圧・脈拍・呼吸）
+ケア = care（chăm sóc, điều dưỡng）
+リハビリ = rehabilitation（phục hồi chức năng）
+ターミナルケア = terminal care（chăm sóc cuối đời）
+インフォームドコンセント = informed consent（đồng thuận có thông tin）
+モニタリング = monitoring（theo dõi）
+マニュアル = manual（sách hướng dẫn）
+スタッフ = staff（nhân viên）
+ケアプラン = care plan（kế hoạch chăm sóc）
+ヒヤリハット = near miss（sự cố suýt xảy ra）
+アセスメント = assessment（đánh giá）
+リスク = risk（rủi ro）`,
+      quiz: {
+        question: '「体温・血圧・脈拍・呼吸をまとめて（　）と言います」に入るのは？',
+        options: [
+          { id: 'a', text: 'ケアプラン' },
+          { id: 'b', text: 'バイタル' },
+          { id: 'c', text: 'モニタリング' },
+          { id: 'd', text: 'リハビリ' },
+        ],
+        correctId: 'b',
+        explanation: '体温・血圧・脈拍・呼吸をまとめて「バイタル（サイン）」と言います。「バイタル」= vital signs（dấu hiệu sinh tồn）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-27': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3重要語彙200選①（名詞・動詞 100語から精選）',
+      titleTranslation: 'Từ vựng N3 quan trọng 200 từ ①（Tuyển chọn từ 100 danh từ & động từ）',
+      introduction: `N3試験によく出る名詞・動詞を精選しました。介護・医療・日常生活の文脈で使える重要語彙です。読み方と意味だけでなく、例文の中で実際の使い方を確認しましょう。
+
+Đã tuyển chọn danh từ và động từ thường xuất hiện trong kỳ thi N3. Đây là từ vựng quan trọng có thể dùng trong ngữ cảnh điều dưỡng, y tế và đời sống hàng ngày. Hãy xác nhận cách dùng thực tế qua ví dụ, không chỉ đọc và nghĩa.`,
+      keyPoints: [
+        '名詞グループ①: 状況・環境（tình huống, môi trường）: 環境・状況・場合・状態・様子',
+        '名詞グループ②: 行動・結果（hành động, kết quả）: 原因・結果・影響・変化・効果',
+        '動詞グループ①: 変化（thay đổi）: 変わる・改善する・悪化する・増える・減る',
+        '動詞グループ②: コミュニケーション（giao tiếp）: 伝える・相談する・説明する・確認する',
+        '動詞グループ③: 介護動作（hành động điều dưỡng）: 支える・見守る・助ける・促す',
+        '注意語: 様子（ようす）= tình trạng/vẻ ngoài / 状態（じょうたい）= tình trạng（客観的）',
+      ],
+      vocabulary: [
+        { word: '状況', reading: 'じょうきょう', meaning: 'その時の様子（tình huống）', example: '状況を正確に把握する' },
+        { word: '影響', reading: 'えいきょう', meaning: '他への作用（ảnh hưởng）', example: '睡眠が健康に影響する' },
+        { word: '促す', reading: 'うながす', meaning: '〜するよう勧める（thúc đẩy, nhắc nhở）', example: '水分摂取を促す' },
+        { word: '見守る', reading: 'みまもる', meaning: '注意して見る（quan sát, trông chừng）', example: '歩行を見守る' },
+        { word: '伝える', reading: 'つたえる', meaning: '情報を渡す（truyền đạt）', example: '申し送りで状態を伝える' },
+        { word: '把握する', reading: 'はあくする', meaning: '正確に理解する（nắm bắt, nắm rõ）', example: '利用者の状態を把握する' },
+      ],
+      examples: [
+        { japanese: '山田さんの今日の状況をスタッフ全員に伝えてください。', reading: 'やまださんのきょうのじょうきょうをスタッフぜんいんにつたえてください。', translation: 'Hãy truyền đạt tình huống hôm nay của ông Yamada cho tất cả nhân viên.' },
+        { japanese: '転倒リスクが高いので、歩行時は常に見守ることが必要です。', reading: 'てんとうリスクがたかいので、ほこうじはつねにみまもることがひつようです。', translation: 'Vì nguy cơ té ngã cao nên khi đi bộ cần luôn trông chừng.' },
+        { japanese: '食事の後、利用者さんの口腔ケアを促すようにしています。', reading: 'しょくじのあと、りようしゃさんのこうくうケアをうながすようにしています。', translation: 'Sau bữa ăn, tôi thường nhắc nhở người được chăm sóc chăm sóc răng miệng.' },
+      ],
+      grammarNote: `【N3重要名詞・動詞リスト（精選）】
+
+【名詞】
+環境（かんきょう）= môi trường
+状況（じょうきょう）= tình huống
+原因（げんいん）= nguyên nhân
+結果（けっか）= kết quả
+影響（えいきょう）= ảnh hưởng
+効果（こうか）= hiệu quả
+課題（かだい）= vấn đề, thách thức
+目標（もくひょう）= mục tiêu
+
+【動詞】
+促す（うながす）= thúc đẩy, nhắc
+見守る（みまもる）= trông chừng
+把握する（はあくする）= nắm bắt
+伝える（つたえる）= truyền đạt
+判断する（はんだんする）= phán đoán`,
+      quiz: {
+        question: '「利用者さんが水を（　）ことが大切です。脱水を防ぐために」に入るのは？',
+        options: [
+          { id: 'a', text: '飲むように促す' },
+          { id: 'b', text: '飲むように見守る' },
+          { id: 'c', text: '飲むように把握する' },
+          { id: 'd', text: '飲むように伝える' },
+        ],
+        correctId: 'a',
+        explanation: '水分摂取を勧める・勧めることを「促す」。「飲むように促す」= nhắc nhở/thúc đẩy uống nước（để phòng mất nước）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-28': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3重要語彙200選②（形容詞・副詞・敬語表現）',
+      titleTranslation: 'Từ vựng N3 quan trọng 200 từ ②（Tính từ, Phó từ, Kính ngữ）',
+      introduction: `N3で重要な形容詞・副詞と、介護現場で欠かせない敬語表現を学びます。「いらっしゃる・おっしゃる・ご〜になる」などの尊敬語と「〜ていただく・お〜する」などの謙譲語を整理しましょう。
+
+Học tính từ và phó từ quan trọng ở N3, cùng kính ngữ không thể thiếu tại nơi làm việc điều dưỡng. Hãy sắp xếp kính ngữ tôn kính như「いらっしゃる・おっしゃる・ご〜になる」và kính ngữ khiêm tốn như「〜ていただく・お〜する」.`,
+      keyPoints: [
+        'N3形容詞: 穏やか・慎重・深刻・緊急・適切・不十分（ôn hòa, thận trọng, nghiêm trọng）',
+        'N3副詞: 急に・徐々に・突然・特に・主に・基本的に（đột ngột, dần dần, đặc biệt）',
+        '尊敬語（kính ngữ tôn kính）: いらっしゃる・おっしゃる・なさる・ご覧になる',
+        '謙譲語（kính ngữ khiêm tốn）: 参ります・申します・いたします・拝見する',
+        '丁寧語: ございます・〜でございます（礼儀正しい表現）',
+        '介護例：「いらっしゃいますか」「おっしゃる通りです」「参ります」',
+      ],
+      vocabulary: [
+        { word: '穏やかな', reading: 'おだやかな', meaning: 'おとなしく落ち着いた（ôn hòa, bình lặng）', example: '今日は穏やかな様子です' },
+        { word: '慎重に', reading: 'しんちょうに', meaning: '注意深く（thận trọng）', example: '慎重に移動を手伝う' },
+        { word: '急に', reading: 'きゅうに', meaning: '突然（đột ngột）', example: '急に意識がなくなった' },
+        { word: '徐々に', reading: 'じょじょに', meaning: 'だんだん（dần dần）', example: '徐々に回復している' },
+        { word: 'いらっしゃる', reading: 'いらっしゃる', meaning: 'いる・来る・行く の尊敬語（kính ngữ của いる/来る/行く）', example: '田中様はいらっしゃいますか' },
+        { word: 'おっしゃる', reading: 'おっしゃる', meaning: '言う の尊敬語（kính ngữ của 言う）', example: 'おっしゃる通りです' },
+      ],
+      examples: [
+        { japanese: '山田さんは今朝から急に様子が変わりました。徐々に落ち着いてきています。', reading: 'やまださんはけさからきゅうにようすがかわりました。じょじょにおちついてきています。', translation: 'Từ sáng nay tình trạng của ông Yamada đột ngột thay đổi. Đang dần dần bình tĩnh lại.' },
+        { japanese: '田中様、ご家族の方がいらっしゃっています。', reading: 'たなかさま、ごかぞくのかたがいらっしゃっています。', translation: 'Thưa ông Tanaka, gia đình của ông đã đến ạ.' },
+        { japanese: 'ご不明な点がございましたら、何でもおっしゃってください。', reading: 'ごふめいなてんがございましたら、なんでもおっしゃってください。', translation: 'Nếu có điều gì không rõ, xin mời nói ra bất cứ điều gì ạ.' },
+      ],
+      grammarNote: `【敬語の三種類】
+
+尊敬語（相手を高める — tôn kính）:
+  いる→いらっしゃる / おられる
+  言う→おっしゃる
+  する→なさる
+  食べる→召し上がる（めしあがる）
+
+謙譲語（自分を低める — khiêm tốn）:
+  いる→おります
+  言う→申します（もうします）
+  する→いたします
+  行く/来る→参ります（まいります）
+
+丁寧語（文を丁寧にする）:
+  です/ます/ございます
+
+【介護での使い方】
+利用者さんへ: 尊敬語を使う
+自分の行動: 謙譲語を使う`,
+      quiz: {
+        question: '「田中様に薬を（　）。（私が渡すという意味）」に入る謙譲語は？',
+        options: [
+          { id: 'a', text: '召し上がりました' },
+          { id: 'b', text: 'お渡しいたしました' },
+          { id: 'c', text: 'お渡しになりました' },
+          { id: 'd', text: 'おっしゃいました' },
+        ],
+        correctId: 'b',
+        explanation: '自分の行動（渡す）を丁寧に表すのは謙譲語「お〜いたす」。「お渡しいたしました」= đã trao cho（kính ngữ khiêm tốn — hành động của bản thân）.',
+      },
+      xpReward: 30,
+    },
+  },
+
+  'n3-01-29': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3文法まとめ練習問題（穴埋め・選択問題）',
+      titleTranslation: 'Bài tập tổng hợp ngữ pháp N3（Điền vào chỗ trống & Chọn đáp án）',
+      introduction: `このレッスンではN3文法のまとめ練習をします。これまでに学んだ「ながら・ばかり・ようだ・てしまう・ことになる・はずだ・わけだ・受身・使役」などを総復習します。実際の試験形式で練習しましょう。
+
+Bài học này thực hành tổng hợp ngữ pháp N3. Ôn tập toàn bộ những gì đã học như「ながら・ばかり・ようだ・てしまう・ことになる・はずだ・わけだ・thể bị động・thể sai khiến」. Hãy luyện tập theo hình thức thi thực tế.`,
+      keyPoints: [
+        '穴埋め①: 「音楽を聴き（　）、記録を書いた」→ ながら（đồng thời）',
+        '穴埋め②: 「薬を（　）しまった。申し訳ない」→ なくして（completer verb）',
+        '穴埋め③: 「来月から夜勤をする（　）になった」→ こと（外部決定）',
+        '穴埋め④: 「経験者（　）、初歩的なミスをした」→ なのに/なのにもかかわらず',
+        '穴埋め⑤: 「どんなに忙しく（　）、安全確認は必要」→ ても（譲歩）',
+        '選択問題: 「利用者さんが転倒（　）に対して、適切に対応した」— した・して・する・すること',
+      ],
+      vocabulary: [
+        { word: '復習', reading: 'ふくしゅう', meaning: '学んだことを繰り返す（ôn tập）', example: '毎日復習する' },
+        { word: '穴埋め', reading: 'あなうめ', meaning: '空欄に言葉を入れる（điền vào chỗ trống）', example: '穴埋め問題を解く' },
+        { word: '選択問題', reading: 'せんたくもんだい', meaning: '正しい答えを選ぶ問題（câu hỏi chọn đáp án）', example: '4択の選択問題' },
+        { word: '正答率', reading: 'せいとうりつ', meaning: '正解の割合（tỷ lệ đúng）', example: '正答率80%を目指す' },
+        { word: '総復習', reading: 'そうふくしゅう', meaning: '全体の復習（ôn tập toàn bộ）', example: '試験前に総復習する' },
+      ],
+      examples: [
+        { japanese: '田中さんに声をかけ（　）、体温を測った。（ながら）', reading: 'たなかさんにこえをかけながら、たいおんをはかった。', translation: 'Vừa lên tiếng với ông Tanaka vừa đo nhiệt độ.（ながら = đồng thời）' },
+        { japanese: '書類をなくして（　）。困った。（しまった）', reading: 'しょるいをなくしてしまった。こまった。', translation: 'Đã đánh mất tài liệu rồi. Thật phiền.（てしまった = hối tiếc）' },
+        { japanese: '転倒した（　）、すぐに対応した。（ので）', reading: 'てんとうしたので、すぐにたいおうした。', translation: 'Vì ngã nên đã ứng phó ngay.（ので = vì, nên）' },
+      ],
+      grammarNote: `【N3文法まとめ — 試験のポイント】
+
+時間・順序:
+  〜てから（sau khi）/ 〜た後で / 〜前に
+
+限定:
+  〜だけ（trung tính）/ 〜ばかり（phê phán）/ 〜しか〜ない（nhấn mạnh）
+
+推量:
+  〜ようだ（quan sát）/ 〜らしい（gián tiếp）/ 〜そうだ（様態/伝聞）
+
+確信:
+  〜はずだ（căn cứ）/ 〜にちがいない（mạnh）/ 〜わけだ（納得）
+
+受身・使役:
+  〜られる（受身）/ 〜させる（使役）/ 〜させられる（使役受身）
+
+その他:
+  〜ことになる（外部決定）/ 〜ことにする（自分の決定）`,
+      quiz: {
+        question: '「彼女はベテランスタッフだから、この手順を（　）はずだ」に入るのは？',
+        options: [
+          { id: 'a', text: '知っている' },
+          { id: 'b', text: '知っていた' },
+          { id: 'c', text: '知って' },
+          { id: 'd', text: '知る' },
+        ],
+        correctId: 'a',
+        explanation: '「知っているはずだ」= hẳn là biết rồi（hiện tại の確信）。「はずだ」の前は普通形（現在/過去）。「知っているはずだ」が自然な文。',
+      },
+      xpReward: 40,
+    },
+  },
+
+  'n3-01-30': {
+    courseTitle: { ja: 'N3 文法・語彙総まとめ', vi: 'Tổng hợp ngữ pháp & từ vựng N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3文法・語彙 総復習テスト（20問チャレンジ）',
+      titleTranslation: 'Bài kiểm tra tổng ôn N3 Ngữ pháp & Từ vựng（Thử thách 20 câu）',
+      introduction: `このレッスンではN3文法・語彙の総復習テストを行います。文法（ながら・受身・使役・推量・限定・比例・確信・引用）と語彙（複合動詞・漢語名詞・形容詞・副詞・敬語）から総合的に出題します。合格目標: 20問中16問以上正解！
+
+Bài học này thực hiện bài kiểm tra tổng ôn ngữ pháp và từ vựng N3. Ra đề tổng hợp từ ngữ pháp（ながら, bị động, sai khiến, suy đoán, giới hạn, tỷ lệ, chắc chắn, trích dẫn）và từ vựng（động từ phức hợp, danh từ Hán-Nhật, tính từ, phó từ, kính ngữ）. Mục tiêu đậu: Đúng 16/20 câu trở lên！`,
+      keyPoints: [
+        '【文法】〜ながら（同時/逆接）: 「声かけながらケアする」「疲れながらも頑張る」',
+        '【文法】受身・使役: 「利用者に起こされた（迷惑）」「薬を飲ませた（使役）」',
+        '【文法】推量: ようだ・らしい・そうだ・はずだ・にちがいない の使い分け',
+        '【文法】条件・限定: ても・ばかり・だけ・しか の使い分け',
+        '【語彙】変化動詞: 回復・悪化・低下・増加・減少・改善 の対義語',
+        '【語彙】接続詞: したがって・ただし・なお・一方・つまり の使い方',
+      ],
+      vocabulary: [
+        { word: '総合テスト', reading: 'そうごうテスト', meaning: '全体を試す試験（bài kiểm tra tổng hợp）', example: '総合テストで実力を確認する' },
+        { word: '合格', reading: 'ごうかく', meaning: '試験に受かること（đậu, vượt qua）', example: 'N3に合格する' },
+        { word: '実力', reading: 'じつりょく', meaning: '本当の能力（năng lực thực sự）', example: '実力を試す' },
+        { word: '課題', reading: 'かだい', meaning: '弱点・やるべきこと（điểm yếu, bài tập）', example: '自分の課題を見つける' },
+        { word: 'チャレンジ', reading: 'チャレンジ', meaning: '挑戦（thử thách, thách thức）', example: 'N3にチャレンジする' },
+      ],
+      examples: [
+        { japanese: '（総合問題①）「田中さんが転倒した。（　）、すぐに看護師に知らせた」— 正しい接続詞は「したがって」', reading: 'たなかさんがてんとうした。したがって、すぐにかんごしにしらせた。', translation: 'Ông Tanaka đã ngã.（Bài tổng hợp①）Do đó, đã báo cáo ngay cho y tá.' },
+        { japanese: '（総合問題②）「山田さんに薬を（　）いただきました」— 正しい形は「飲んで」（て形）', reading: 'やまださんにくすりをのんでいただきました。', translation: '（Bài tổng hợp②）Đã được ông Yamada uống thuốc.（もらう→いただく 謙譲語）' },
+        { japanese: '（総合問題③）「経験が10年ある彼女は、手順を知っている（　）。」— はずだ・にちがいない どちらが強い？→にちがいない', reading: 'けいけんがじゅうねんあるかのじょは、てじゅんをしっているにちがいない。', translation: '（Bài tổng hợp③）Cô ấy có 10 năm kinh nghiệm, chắc chắn biết quy trình.（にちがいない mạnh hơn はずだ）' },
+      ],
+      grammarNote: `【N3文法・語彙 総まとめチェックリスト】
+
+□ ながら（同時/逆接）の違いが分かる
+□ ばかり・だけ・しか〜ない の違いが分かる
+□ ようだ・らしい・そうだ（様態/伝聞）が使える
+□ てしまう（完了/後悔）が分かる
+□ ことになる vs ことにする の違いが分かる
+□ ために vs ように（目的）が使い分けられる
+□ 受身（直接/間接/迷惑）が作れる
+□ 使役・使役受身が作れる
+□ はずだ・わけだ・にちがいない が使える
+□ 変化動詞の対義語が言える
+□ 接続詞（したがって/ただし/なお）が使える
+□ 基本的な敬語（尊敬語/謙譲語）が使える
+
+全部チェックできたらN3合格レベル！`,
+      quiz: {
+        question: '「利用者さんが（　）いるのを見て、すぐに声をかけました」— 正しいのは？',
+        options: [
+          { id: 'a', text: '転びそうにして' },
+          { id: 'b', text: '転びそうにして' },
+          { id: 'c', text: '転びそうになって' },
+          { id: 'd', text: '転ぶようになって' },
+        ],
+        correctId: 'c',
+        explanation: '「転びそうになる」= sắp ngã（様態のそうだ＋になる）。「転びそうになっているのを見て」が自然な表現。「〜そうになる」= suýt nữa thì / sắp～. Đây là biểu thị trạng thái suýt xảy ra.',
+      },
+      xpReward: 50,
+    },
+  },
+
   // ===== N3 読解 =====
   'n3-02': {
     courseTitle: { ja: 'N3 読解練習 〜新聞・説明文〜', vi: 'Luyện đọc N3 - Báo và văn bản thông tin' },
@@ -13146,6 +14953,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n4-02': ['n4-02', 'n4-02-2', 'n4-02-3', 'n4-02-4', 'n4-02-5', 'n4-02-6', 'n4-02-7', 'n4-02-8', 'n4-02-9', 'n4-02-10', 'n4-02-11', 'n4-02-12', 'n4-02-13', 'n4-02-14', 'n4-02-15', 'n4-02-16', 'n4-02-17', 'n4-02-18', 'n4-02-19', 'n4-02-20', 'n4-02-21', 'n4-02-22', 'n4-02-23', 'n4-02-24', 'n4-02-25'],
   'n4-04': ['n4-04', 'n4-04-2', 'n4-04-3', 'n4-04-4', 'n4-04-5', 'n4-04-6', 'n4-04-7', 'n4-04-8', 'n4-04-9', 'n4-04-10', 'n4-04-11', 'n4-04-12', 'n4-04-13', 'n4-04-14', 'n4-04-15', 'n4-04-16'],
   'n4-05': ['n4-05', 'n4-05-2', 'n4-05-3', 'n4-05-4', 'n4-05-5', 'n4-05-6', 'n4-05-7', 'n4-05-8', 'n4-05-9', 'n4-05-10', 'n4-05-11', 'n4-05-12', 'n4-05-13', 'n4-05-14', 'n4-05-15'],
+  'n3-01': ['n3-01', 'n3-01-2', 'n3-01-3', 'n3-01-4', 'n3-01-5', 'n3-01-6', 'n3-01-7', 'n3-01-8', 'n3-01-9', 'n3-01-10', 'n3-01-11', 'n3-01-12', 'n3-01-13', 'n3-01-14', 'n3-01-15', 'n3-01-16', 'n3-01-17', 'n3-01-18', 'n3-01-19', 'n3-01-20', 'n3-01-21', 'n3-01-22', 'n3-01-23', 'n3-01-24', 'n3-01-25', 'n3-01-26', 'n3-01-27', 'n3-01-28', 'n3-01-29', 'n3-01-30'],
   'n3-02': ['n3-02', 'n3-02-2', 'n3-02-3', 'n3-02-4', 'n3-02-5', 'n3-02-6', 'n3-02-7', 'n3-02-8', 'n3-02-9', 'n3-02-10', 'n3-02-11', 'n3-02-12', 'n3-02-13', 'n3-02-14', 'n3-02-15', 'n3-02-16', 'n3-02-17', 'n3-02-18', 'n3-02-19', 'n3-02-20'],
 };
 
@@ -13299,6 +15107,36 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n4-02-23': { ja: '受身形 〜られる', vi: 'Thể bị động 〜られる' },
   'n4-02-24': { ja: '〜ていただく / 〜てくれる / 〜てあげる', vi: 'Động từ trao nhận' },
   'n4-02-25': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
+  'n3-01':    { ja: '複合助詞〜に対して・〜について', vi: 'Trợ từ phức hợp' },
+  'n3-01-2':  { ja: '〜ながら（同時・逆接）', vi: '〜ながら（Đồng thời/Nghịch lý）' },
+  'n3-01-3':  { ja: '〜ばかり・だけ・しか〜ない', vi: 'Giới hạn: ばかり・だけ・しか' },
+  'n3-01-4':  { ja: '推量: ようだ・らしい・そうだ', vi: 'Suy đoán: ようだ・らしい・そうだ' },
+  'n3-01-5':  { ja: '〜てしまう（完了・後悔）', vi: '〜てしまう（Hoàn thành/Hối tiếc）' },
+  'n3-01-6':  { ja: 'ことになる vs ことにする', vi: 'ことになる vs ことにする' },
+  'n3-01-7':  { ja: 'ことがある・ことになっている', vi: 'Thói quen & Quy định' },
+  'n3-01-8':  { ja: '〜のに（逆接）/ 〜くせに', vi: '〜のに / 〜くせに' },
+  'n3-01-9':  { ja: '〜ために vs 〜ように（目的）', vi: 'ために vs ように（Mục đích）' },
+  'n3-01-10': { ja: '〜てから・た後で・前に', vi: 'Quan hệ trước sau thời gian' },
+  'n3-01-11': { ja: '〜ても / 〜たとしても（譲歩）', vi: 'Nhượng bộ & Giả định' },
+  'n3-01-12': { ja: '〜てみる・ておく・ていく・てくる', vi: 'Trợ động từ' },
+  'n3-01-13': { ja: '間接疑問〜かどうか・〜か', vi: 'Câu hỏi gián tiếp' },
+  'n3-01-14': { ja: '〜と思う・と言われている', vi: 'Trích dẫn & Ý kiến' },
+  'n3-01-15': { ja: '受身形 〜られる（3種類）', vi: 'Thể bị động 3 loại' },
+  'n3-01-16': { ja: '使役〜させる / 使役受身', vi: 'Thể sai khiến & Bị động sai khiến' },
+  'n3-01-17': { ja: 'ば〜ほど・につれて・とともに', vi: 'Tỷ lệ & Biến đổi' },
+  'n3-01-18': { ja: '〜はずだ / 〜はずがない', vi: 'Đương nhiên / Không thể nào' },
+  'n3-01-19': { ja: '〜わけだ・わけがない・わけにはいかない', vi: 'わけ 3 cách dùng' },
+  'n3-01-20': { ja: '〜にちがいない・のではないか', vi: 'Mức độ chắc chắn' },
+  'n3-01-21': { ja: '複合動詞①（直す・続ける・始める）', vi: 'Động từ phức hợp①' },
+  'n3-01-22': { ja: '変化動詞（回復・低下・増加・減少）', vi: 'Động từ thay đổi' },
+  'n3-01-23': { ja: '形容詞・副詞（適切・十分・すでに）', vi: 'Tính từ & Phó từ' },
+  'n3-01-24': { ja: '漢語名詞（状態・報告・確認・記録）', vi: 'Danh từ Hán-Nhật y tế' },
+  'n3-01-25': { ja: '接続詞（したがって・ただし・なお）', vi: 'Liên từ N3' },
+  'n3-01-26': { ja: 'カタカナ語（医療・介護）', vi: 'Từ ngoại lai y tế/điều dưỡng' },
+  'n3-01-27': { ja: '重要語彙①（名詞・動詞）', vi: 'Từ vựng quan trọng①' },
+  'n3-01-28': { ja: '重要語彙②（形容詞・副詞・敬語）', vi: 'Từ vựng quan trọng②' },
+  'n3-01-29': { ja: '文法まとめ練習問題', vi: 'Bài tập tổng hợp' },
+  'n3-01-30': { ja: '総復習テスト（20問）', vi: 'Kiểm tra tổng hợp（20 câu）' },
   'n3-02':    { ja: '説明文の構造を読む', vi: 'Cấu trúc văn bản thông tin' },
   'n3-02-2':  { ja: '新聞記事の読み方基礎', vi: 'Cơ bản đọc báo' },
   'n3-02-3':  { ja: '指示語の理解', vi: 'Hiểu từ chỉ định' },
