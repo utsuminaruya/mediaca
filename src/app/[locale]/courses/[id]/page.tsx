@@ -12080,6 +12080,1590 @@ Nghe hiểu N3 có hội thoại dài hơn, điện thoại, thông báo. Cần 
     },
   },
 
+  // ===== N3 聴解・速読 L2〜L7 =====
+  'n3-03-2': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: 電話・アナウンスを聞く',
+      titleTranslation: 'Nghe hiểu N3: Điện thoại và thông báo',
+      introduction: `N3の聴解には電話の会話や施設内アナウンスが多く出ます。電話では「折り返す・保留・不在」などの定型表現、アナウンスでは「いつ・どこで・誰が・何を」の情報を素早く聞き取る力が求められます。介護施設での電話応対は特に重要なスキルです。
+
+Trong nghe hiểu N3 có nhiều hội thoại điện thoại và thông báo trong cơ sở. Điện thoại cần nắm các mẫu câu cố định như "gọi lại / giữ máy / vắng mặt". Thông báo cần nghe nhanh "khi nào / ở đâu / ai / làm gì".`,
+      keyPoints: [
+        '電話の基本：「はい、〇〇でございます」「少々お待ちください」「折り返しご連絡します」',
+        'アナウンス聴解：時間・場所・対象者・内容を素早くメモ',
+        '不在の表現：「ただいま席を外しております」「外出中でございます」',
+        '伝言依頼：「伝言をお願いできますか」「〜とお伝えください」',
+        '数字の聞き取り：電話番号・時刻・部屋番号は繰り返し確認',
+      ],
+      vocabulary: [
+        { word: '折り返す', reading: 'おりかえす', meaning: '電話を掛け直す（gọi lại）', example: '折り返しご連絡いたします' },
+        { word: '保留', reading: 'ほりゅう', meaning: '電話を一時止める（giữ máy）', example: '少々保留にしてください' },
+        { word: '伝言', reading: 'でんごん', meaning: 'メッセージを伝える（nhắn tin）', example: '伝言をお願いします' },
+        { word: '不在', reading: 'ふざい', meaning: 'その場にいない（vắng mặt）', example: '田中は只今不在です' },
+        { word: 'アナウンス', reading: 'あなうんす', meaning: '放送・案内（thông báo）', example: '施設内アナウンスが流れた' },
+      ],
+      dialogue: [
+        { speaker: 'A（外部）', japanese: 'もしもし、山田介護センターでしょうか。', reading: 'もしもし、やまだかいごせんたーでしょうか。', translation: 'A-lô, đây có phải Trung tâm điều dưỡng Yamada không ạ?' },
+        { speaker: 'B（施設スタッフ）', japanese: 'はい、山田介護センターでございます。', reading: 'はい、やまだかいごせんたーでございます。', translation: 'Vâng, đây là Trung tâm điều dưỡng Yamada ạ.' },
+        { speaker: 'A', japanese: '鈴木さんをお願いできますか。', reading: 'すずきさんをおねがいできますか。', translation: 'Tôi xin gặp bà Suzuki được không ạ?' },
+        { speaker: 'B', japanese: '鈴木はただいま席を外しております。折り返しご連絡いたしましょうか。', reading: 'すずきはただいませきをはずしております。おりかえしごれんらくいたしましょうか。', translation: 'Bà Suzuki hiện không có mặt ở bàn. Tôi sẽ nhờ gọi lại cho quý khách có được không ạ?' },
+      ],
+      examples: [
+        { japanese: '施設内放送：「入浴の時間は14時から15時です。対象の方はリハビリ室にお集まりください。」', reading: 'しせつないほうそう：「にゅうよくのじかんは14じから15じです。たいしょうのかたはりはびりしつにおあつまりください。」', translation: 'Thông báo trong cơ sở: "Thời gian tắm từ 14h đến 15h. Những người có trong danh sách vui lòng tập trung tại phòng phục hồi chức năng."' },
+        { japanese: '「田中様からお電話がありました。3時以降にお電話いただけるとのことです。」', reading: 'たなかさまからおでんわがありました。3じいこうにおでんわいただけるとのことです。', translation: '"Ông Tanaka đã gọi điện. Ông ấy nói sau 3 giờ mới có thể nghe máy."' },
+      ],
+      grammarNote: `【電話応対の定型フレーズ】
+受ける：「はい、〇〇でございます」
+取り次ぎ：「少々お待ちください」／「ただいま代わります」
+不在の場合：「ただいま席を外しております」
+折り返し：「折り返しご連絡いたします」
+伝言受け：「ご伝言を承ります」
+
+【アナウンスを聞くときのポイント】
+① いつ（時間）② どこで（場所）③ 誰が（対象）④ 何を（内容）⑤ なぜ（理由）`,
+      quizzes: [
+        {
+          question: '「折り返しご連絡いたします」の意味は？ / Nghĩa của "折り返しご連絡いたします" là?',
+          options: [
+            { id: 'a', text: '今すぐ答えます（trả lời ngay）' },
+            { id: 'b', text: 'かけ直します（gọi lại）' },
+            { id: 'c', text: '後で来てください（hãy đến sau）' },
+            { id: 'd', text: '電話を切ります（cúp máy）' },
+          ],
+          correctId: 'b',
+          explanation: '「折り返す」は「電話をかけ直す」という意味。相手が電話に出られないときに「後でかけ直します」と伝える丁寧な表現です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「ただいま席を外しております」はどういう状況？',
+          options: [
+            { id: 'a', text: '電話に出られない（không nghe được máy）' },
+            { id: 'b', text: '退勤した（đã về）' },
+            { id: 'c', text: '休暇中（đang nghỉ）' },
+            { id: 'd', text: '電話中（đang gọi điện）' },
+          ],
+          correctId: 'a',
+          explanation: '「席を外す」は一時的にその場を離れている状態。「ただいま」は「今現在」という意味で、「今は席にいません」と伝える表現です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: 'アナウンスを聞くとき、最初に確認すべきことは？',
+          options: [
+            { id: 'a', text: '話者の名前' },
+            { id: 'b', text: 'いつ・どこで・誰が・何を' },
+            { id: 'c', text: '天気' },
+            { id: 'd', text: '話の感想' },
+          ],
+          correctId: 'b',
+          explanation: 'アナウンスは「5W1H（いつ・どこで・誰が・何を・なぜ・どのように）」を素早く把握することが重要です。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-3': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: 申し送り・報告を正確に聞く',
+      titleTranslation: 'Nghe hiểu N3: Nghe bàn giao ca và báo cáo chính xác',
+      introduction: `介護・医療の現場では申し送り（bàn giao ca）と口頭報告が毎日行われます。「誰の・何の・いつ・どんな変化があったか」を正確に聞き取り、適切な対応をとることが求められます。N3レベルの聴解では、複数の情報を整理して聞く力が問われます。
+
+Trong điều dưỡng và y tế, bàn giao ca và báo cáo miệng diễn ra hàng ngày. Cần nghe chính xác "của ai / về điều gì / khi nào / có thay đổi gì" để xử lý phù hợp. Nghe hiểu N3 đòi hỏi khả năng tổng hợp nhiều thông tin cùng lúc.`,
+      keyPoints: [
+        '申し送りの構成：対象者名 → 状態・変化 → 対応した内容 → 引き継ぎ事項',
+        '重要語彙：血圧・体温・食欲・排泄・睡眠・転倒・拒否・訴え',
+        '数値を聞く：「血圧が140/90でした」「体温が37.5度でした」',
+        '変化を表す語：上昇・低下・改善・悪化・安定・不安定',
+        '注意点：「〜に注意してください」「〜を確認してください」',
+      ],
+      vocabulary: [
+        { word: '申し送り', reading: 'もうしおくり', meaning: '業務引き継ぎ（bàn giao ca）', example: '朝の申し送りで報告する' },
+        { word: '訴え', reading: 'うったえ', meaning: '患者・利用者の訴え（triệu chứng than phiền）', example: '痛みの訴えがある' },
+        { word: '安定', reading: 'あんてい', meaning: '状態が落ち着いている（ổn định）', example: 'バイタルは安定しています' },
+        { word: '観察', reading: 'かんさつ', meaning: '注意して見る（quan sát）', example: '状態を継続観察する' },
+        { word: '引き継ぎ', reading: 'ひきつぎ', meaning: '次の人に仕事を渡す（bàn giao）', example: '次の担当者に引き継ぐ' },
+      ],
+      dialogue: [
+        { speaker: '夜勤者', japanese: '田中様ですが、夜中に2回トイレに行かれました。特に異常はありませんでした。', reading: 'たなかさまですが、よなかに2かいといれにいかれました。とくにいじょうはありませんでした。', translation: 'Về bà Tanaka, đêm qua bà đi vệ sinh 2 lần. Không có gì bất thường.' },
+        { speaker: '日勤者', japanese: '分かりました。今朝のバイタルはいかがでしたか。', reading: 'わかりました。けさのばいたるはいかがでしたか。', translation: 'Tôi hiểu rồi. Dấu hiệu sinh tồn sáng nay thế nào?' },
+        { speaker: '夜勤者', japanese: '血圧が少し高めで140の88でした。食欲はありましたが、量は少なめです。引き続き観察をお願いします。', reading: 'けつあつがすこしたかめで140の88でした。しょくよくはありましたが、りょうはすくなめです。ひきつづきかんさつをおねがいします。', translation: 'Huyết áp hơi cao, 140/88. Có muốn ăn nhưng ăn ít. Tiếp tục theo dõi nhé.' },
+      ],
+      examples: [
+        { japanese: '「山田様は昨日の夕方から発熱があり、体温は38.2度です。食事は半量摂取で、水分補給を促しています。」', reading: 'やまださまはきのうのゆうがたからはつねつがあり、たいおんは38.2どです。しょくじははんりょうせっしゅで、すいぶんほきゅうをうながしています。', translation: '"Ông Yamada bị sốt từ chiều hôm qua, nhiệt độ 38.2°C. Ăn được nửa suất, đang khuyến khích bổ sung nước."' },
+      ],
+      grammarNote: `【申し送りでよく使う表現】
+状態報告：「〜の状態が〜です」「〜に変化がありました」
+数値報告：「〇〇が〜でした（体温・血圧・SpO2）」
+経過報告：「〜がありましたので、〜しました」
+引き継ぎ：「引き続き〜をお願いします」「特に〜に注意してください」
+問題なし：「特記事項はありません」「変化なく経過しています」`,
+      quizzes: [
+        {
+          question: '申し送りで最初に確認すべき情報は？',
+          options: [
+            { id: 'a', text: '天気・曜日' },
+            { id: 'b', text: '対象者名と状態変化' },
+            { id: 'c', text: '食事のメニュー' },
+            { id: 'd', text: 'スタッフの名前' },
+          ],
+          correctId: 'b',
+          explanation: '申し送りでは「誰の（対象者名）」「何があったか（状態変化）」「何をしたか（対応）」「何を引き継ぐか」の順に聞き取ります。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「バイタルは安定しています」の意味は？',
+          options: [
+            { id: 'a', text: '状態が悪い（tình trạng xấu）' },
+            { id: 'b', text: '測定していない（chưa đo）' },
+            { id: 'c', text: '状態が落ち着いている（tình trạng ổn định）' },
+            { id: 'd', text: '体温が高い（nhiệt độ cao）' },
+          ],
+          correctId: 'c',
+          explanation: '「安定」は「ổn định」の意味。「バイタルは安定しています」＝「生命兆候（dấu hiệu sinh tồn）が正常で問題ない」ということです。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「引き続き観察をお願いします」はどういう意味？',
+          options: [
+            { id: 'a', text: 'もう観察しなくていい' },
+            { id: 'b', text: '今から観察を始める' },
+            { id: 'c', text: '次の担当者にも続けて観察してほしい' },
+            { id: 'd', text: '観察は不要' },
+          ],
+          correctId: 'c',
+          explanation: '「引き続き」は「tiếp tục（継続して）」の意味。「引き続き観察をお願いします」＝「次の担当者も継続して状態を観察してください」というお願いです。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-4': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: 感情・意図・ニュアンスを読む',
+      titleTranslation: 'Nghe hiểu N3: Đọc cảm xúc, ý định và sắc thái',
+      introduction: `日本語では感情や意図が直接表現されないことが多く、声のトーン・間（ま）・言葉の選び方からニュアンスを読み取る必要があります。N3の聴解では「この人はどう感じているか」「何を伝えたいのか」を推測する問題が出ます。介護現場では利用者の「訴えの裏にある気持ち」を理解する力も必要です。
+
+Trong tiếng Nhật, cảm xúc và ý định thường không được diễn đạt trực tiếp. Cần đọc sắc thái qua giọng điệu, khoảng lặng và cách chọn từ. Nghe hiểu N3 có câu hỏi "người này cảm thấy thế nào" hoặc "muốn truyền đạt điều gì".`,
+      keyPoints: [
+        '間接的な断り：「ちょっと...」「〜は難しいかもしれません」「〜ですが...」',
+        '遠回しな依頼：「〜していただけると助かりますが...」「〜は可能でしょうか」',
+        '不満・困惑：「〜なんですけど」「〜ているんですが...」の語尾を聞く',
+        '感謝・安心：「〜ていただけて、本当に助かりました」「おかげさまで」',
+        '心配・不安：「〜でなければいいですが」「〜だといいのですが」',
+      ],
+      vocabulary: [
+        { word: 'ニュアンス', reading: 'にゅあんす', meaning: '微妙な意味の違い（sắc thái）', example: 'ニュアンスを読み取る' },
+        { word: '遠回し', reading: 'とおまわし', meaning: '直接言わない（nói vòng vo）', example: '遠回しに断る' },
+        { word: '本音', reading: 'ほんね', meaning: '本当の気持ち（tâm tư thật）', example: '本音を語る' },
+        { word: '建前', reading: 'たてまえ', meaning: '表向きの考え（ý kiến bề ngoài）', example: '建前と本音の違い' },
+        { word: '察する', reading: 'さっする', meaning: '気持ちを理解する（thấu hiểu）', example: '相手の気持ちを察する' },
+      ],
+      examples: [
+        { japanese: '「今日の夕食なんですが、あまり食べられなくて...」→ 体調不良や食欲不振の間接的な訴え', reading: 'きょうのゆうしょくなんですが、あまりたべられなくて...', translation: '"Bữa tối hôm nay tôi không ăn được nhiều..." → Lời than phiền gián tiếp về sức khỏe hoặc chán ăn' },
+        { japanese: '「〜は少し難しいかもしれませんが...」→ 断りの柔らかい表現', reading: '〜はすこしむずかしいかもしれませんが...', translation: '"... có lẽ hơi khó ạ..." → Cách từ chối nhẹ nhàng' },
+      ],
+      grammarNote: `【感情・ニュアンスを示す表現】
+断り（gián tiếp từ chối）：
+・「ちょっと...」「〜は難しいですね」「〜かどうか分かりませんが」
+遠慮・遠回し（ngại ngùng）：
+・「〜していただけると助かります」「〜はいかがでしょうか」
+心配（lo lắng）：
+・「〜でなければいいですが」「大丈夫でしょうか...」
+感謝・安堵（biết ơn/nhẹ nhõm）：
+・「おかげさまで」「ありがたいです」「助かりました」`,
+      quizzes: [
+        {
+          question: '「ちょっと...」と言うとき、最も多い意図は？',
+          options: [
+            { id: 'a', text: '強い賛成（đồng ý mạnh mẽ）' },
+            { id: 'b', text: '間接的な断りや困惑（từ chối gián tiếp）' },
+            { id: 'c', text: '急いでいる（đang vội）' },
+            { id: 'd', text: 'よく分からない（không hiểu）' },
+          ],
+          correctId: 'b',
+          explanation: '日本語の「ちょっと...」は直接断るのを避ける文化的表現です。「少し難しいです・できません」という意味を遠回しに伝えています。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「本音」と「建前」の違いは？',
+          options: [
+            { id: 'a', text: '同じ意味' },
+            { id: 'b', text: '本音＝本当の気持ち、建前＝表向きの意見' },
+            { id: 'c', text: '本音＝嘘、建前＝真実' },
+            { id: 'd', text: '関係ない言葉' },
+          ],
+          correctId: 'b',
+          explanation: '「本音（ほんね）」は本当の気持ち・考え、「建前（たてまえ）」は人前での表向きの意見。日本語コミュニケーションを理解するうえで重要な概念です。',
+          difficulty: 'hard' as const,
+        },
+        {
+          question: '「〜ていただけると助かりますが」は何を表す？',
+          options: [
+            { id: 'a', text: '強い命令（ra lệnh mạnh）' },
+            { id: 'b', text: '丁寧なお願い（nhờ vả lịch sự）' },
+            { id: 'c', text: '断り（từ chối）' },
+            { id: 'd', text: '謝罪（xin lỗi）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜ていただけると助かりますが」は「もしして（いただけたら）嬉しいです」という丁寧な依頼表現です。強制ではなくお願いのニュアンスを含みます。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-5': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: 数字・日程・スケジュールを聞く',
+      titleTranslation: 'Nghe hiểu N3: Nghe số liệu, ngày tháng và lịch trình',
+      introduction: `介護・医療現場では数字の正確な聴取が命に関わります。「血圧 140/90」「体温 37.5度」「食事 8割摂取」など、数値情報を素早く正確に聞き取る練習をします。また予定表・スケジュールを聞いてメモする力も重要です。
+
+Trong điều dưỡng và y tế, nghe chính xác số liệu là vấn đề sống còn. Luyện nghe nhanh và chính xác các thông tin số như "huyết áp 140/90", "nhiệt độ 37.5°C", "ăn 80% suất ăn". Ngoài ra, khả năng nghe và ghi chú lịch trình cũng rất quan trọng.`,
+      keyPoints: [
+        '数字の読み方：整数・小数・分数・パーセント・比率',
+        'バイタル数値：「血圧 上が〜・下が〜」「体温〜度〜分」「SpO2（サチュレーション）〜%」',
+        '日程・時刻：「〜時〜分」「〜月〜日（火曜日）」「来週の〜曜日」',
+        '量・程度：「約〜」「〜割（はち わり = 80%）」「半量（はんりょう）」「全量（ぜんりょう）」',
+        '確認の大切さ：「〜でよろしいでしょうか」「もう一度お願いできますか」',
+      ],
+      vocabulary: [
+        { word: '全量', reading: 'ぜんりょう', meaning: '全部食べた（ăn hết）', example: '全量摂取できました' },
+        { word: '半量', reading: 'はんりょう', meaning: '半分食べた（ăn nửa）', example: '半量しか食べられなかった' },
+        { word: '割', reading: 'わり', meaning: '10分の1の単位（10%)（tỷ lệ %）', example: '8割摂取（80%食べた）' },
+        { word: 'サチュレーション', reading: 'さちゅれーしょん', meaning: '血中酸素飽和度（SpO2）', example: 'SpOが95%です' },
+        { word: '測定', reading: 'そくてい', meaning: '数値を計る（đo đạc）', example: 'バイタルを測定する' },
+      ],
+      examples: [
+        { japanese: '「山田さんの今朝のバイタルです。血圧は上が138、下が86。体温は36.8度。SpO2は98%でした。食事は朝食8割摂取しました。」', reading: 'やまださんのけさのばいたるです。けつあつはうえが138、したが86。たいおんは36.8ど。SpO2は98%でした。しょくじはちょうしょく8わりせっしゅしました。', translation: '"Dấu hiệu sinh tồn sáng nay của bà Yamada: Huyết áp tâm thu 138, tâm trương 86. Nhiệt độ 36.8°C. SpO2 98%. Ăn sáng được 80% suất."' },
+        { japanese: '「次のケアカンファレンスは来月の15日、火曜日の午後2時から会議室Aで行います。」', reading: 'つぎのけあかんふぁれんすはらいげつの15にち、かようびのごご2じからかいぎしつAでおこないます。', translation: '"Hội nghị chăm sóc lần tới vào ngày 15 tháng sau, thứ Ba, từ 14h tại phòng họp A."' },
+      ],
+      grammarNote: `【数値を正確に聞き取るテクニック】
+・聞こえなかったら：「もう一度おっしゃっていただけますか」
+・確認する：「〜でよろしいでしょうか」「〜ということでしょうか」
+・メモの取り方：「上：138 下：86 体温：36.8 SpO2：98%」
+
+【よく使う数値表現】
+8割（はちわり）= 80%
+半量（はんりょう）= 約50%
+全量（ぜんりょう）= 100%
+微熱（びねつ）= 37〜37.9度
+高熱（こうねつ）= 38度以上`,
+      quizzes: [
+        {
+          question: '「8割摂取」はどういう意味？',
+          options: [
+            { id: 'a', text: '20%食べた（ăn 20%）' },
+            { id: 'b', text: '80%食べた（ăn 80%）' },
+            { id: 'c', text: '8回食べた（ăn 8 lần）' },
+            { id: 'd', text: '全部食べた（ăn hết）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜割（わり）」は10を1とした単位。「8割」= 80%。介護記録では「8割摂取」のように食事量を記録します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '血圧「上が138、下が86」とは？',
+          options: [
+            { id: 'a', text: '収縮期138・拡張期86（tâm thu 138, tâm trương 86）' },
+            { id: 'b', text: '体温138度' },
+            { id: 'c', text: '心拍数138' },
+            { id: 'd', text: '酸素量138%' },
+          ],
+          correctId: 'a',
+          explanation: '血圧の「上」は収縮期血圧（tâm thu）、「下」は拡張期血圧（tâm trương）。正常値は120/80mmHg程度です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '聞き取れなかった数字を確認するとき、正しい表現は？',
+          options: [
+            { id: 'a', text: '「え？」' },
+            { id: 'b', text: '「何ですか？」' },
+            { id: 'c', text: '「もう一度おっしゃっていただけますか」' },
+            { id: 'd', text: '「知りません」' },
+          ],
+          correctId: 'c',
+          explanation: '「もう一度おっしゃっていただけますか」は「もう一度言っていただけますか」の丁寧な表現で、ビジネス・医療現場での適切な確認フレーズです。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-6': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: 指示・依頼・提案を聞き分ける',
+      titleTranslation: 'Nghe hiểu N3: Phân biệt chỉ示, nhờ vả và đề xuất',
+      introduction: `職場での指示・依頼・提案・禁止を正確に聞き分けることは、仕事上のコミュニケーションの基本です。N3レベルでは「〜てください」「〜ていただけますか」「〜したほうがいい」「〜してはいけない」など、異なる強さの指示表現を区別する力が求められます。
+
+Phân biệt chỉ thị, nhờ vả, đề xuất và cấm đoán là nền tảng giao tiếp tại nơi làm việc. N3 yêu cầu phân biệt các mức độ chỉ thị khác nhau như 〜てください, 〜ていただけますか, 〜したほうがいい, 〜してはいけない.`,
+      keyPoints: [
+        '強い命令：「〜してください」「〜しなさい」「〜すること」（規則・マニュアル）',
+        '丁寧な依頼：「〜していただけますか」「〜をお願いできますか」',
+        '提案・アドバイス：「〜したほうがいいです」「〜てみてはどうですか」',
+        '禁止：「〜してはいけません」「〜しないでください」「〜は禁止です」',
+        '許可：「〜してもかまいません」「〜してもいいです」「〜は大丈夫です」',
+      ],
+      vocabulary: [
+        { word: '指示', reading: 'しじ', meaning: '指図（chỉ thị）', example: '上司から指示を受ける' },
+        { word: '依頼', reading: 'いらい', meaning: 'お願い（nhờ vả）', example: '作業を依頼する' },
+        { word: '提案', reading: 'ていあん', meaning: '意見を出す（đề xuất）', example: '改善策を提案する' },
+        { word: '禁止', reading: 'きんし', meaning: 'してはいけない（cấm）', example: '無断外出禁止' },
+        { word: '許可', reading: 'きょか', meaning: 'してもいい（cho phép）', example: '上司の許可を得る' },
+      ],
+      dialogue: [
+        { speaker: '上司', japanese: '鈴木さん、山田様の食事介助をお願いできますか。', reading: 'すずきさん、やまださまのしょくじかいじょをおねがいできますか。', translation: 'Bạn Suzuki, bạn có thể hỗ trợ bữa ăn cho bà Yamada không?' },
+        { speaker: '鈴木', japanese: 'はい、今すぐ参ります。', reading: 'はい、いますぐまいります。', translation: 'Vâng, tôi đến ngay.' },
+        { speaker: '上司', japanese: '食前に手洗いを確認してからお願いします。薬も食後に飲んでいただくことになっています。', reading: 'しょくぜんにてあらいをかくにんしてからおねがいします。くすりもしょくごにのんでいただくことになっています。', translation: 'Hãy xác nhận rửa tay trước bữa ăn nhé. Thuốc cũng phải uống sau ăn.' },
+      ],
+      examples: [
+        { japanese: '「この廊下は濡れているので、走らないでください。転倒の危険があります。」', reading: 'このろうかはぬれているので、はしらないでください。てんとうのきけんがあります。', translation: '"Hành lang này đang ướt, vui lòng không chạy. Có nguy cơ ngã."' },
+        { japanese: '「次の会議には全員参加することになっていますので、予定を調整してください。」', reading: 'つぎのかいぎにはぜんいんさんかすることになっていますので、よていをちょうせいしてください。', translation: '"Tất cả phải tham dự cuộc họp tiếp theo, vui lòng điều chỉnh lịch."' },
+      ],
+      grammarNote: `【指示の強さの順番（từ mạnh đến nhẹ）】
+① 強制：〜しなければなりません / 〜すること（規則）
+② 命令：〜してください / 〜しなさい
+③ 依頼：〜していただけますか / 〜をお願いできますか
+④ 提案：〜したほうがいいです / 〜てみてはどうですか
+⑤ 許可：〜してもかまいません / 〜していいです
+
+【禁止表現】
+〜してはいけません / 〜しないでください / 〜は禁止です`,
+      quizzes: [
+        {
+          question: '「〜していただけますか」は何を表す？',
+          options: [
+            { id: 'a', text: '強制（bắt buộc）' },
+            { id: 'b', text: '禁止（cấm）' },
+            { id: 'c', text: '丁寧な依頼（nhờ vả lịch sự）' },
+            { id: 'd', text: '許可（cho phép）' },
+          ],
+          correctId: 'c',
+          explanation: '「〜していただけますか」は「してもらえますか」の敬語形で、丁寧な依頼表現です。強制ではなくお願いのニュアンスを含みます。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「〜してはいけません」は何を表す？',
+          options: [
+            { id: 'a', text: '許可（cho phép）' },
+            { id: 'b', text: '提案（đề xuất）' },
+            { id: 'c', text: '禁止（cấm）' },
+            { id: 'd', text: '依頼（nhờ vả）' },
+          ],
+          correctId: 'c',
+          explanation: '「〜してはいけません」は禁止を表す文型で、「〜することを禁じます」と同じ意味。介護・医療現場では安全のため禁止事項が多く使われます。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「〜したほうがいいです」は何を表す？',
+          options: [
+            { id: 'a', text: '絶対にしなければならない（bắt buộc phải làm）' },
+            { id: 'b', text: 'するな（đừng làm）' },
+            { id: 'c', text: 'アドバイス・提案（lời khuyên）' },
+            { id: 'd', text: '今すぐしてください（làm ngay）' },
+          ],
+          correctId: 'c',
+          explanation: '「〜したほうがいいです」はアドバイス・提案の表現。強制ではなく「こうするのがよいと思います」という意味です。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-7': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: 会議・カンファレンスを聞く',
+      titleTranslation: 'Nghe hiểu N3: Nghe hội họp và conference',
+      introduction: `介護・医療現場では定期的にカンファレンス（ケア会議）が行われます。複数の人が発言する中で「誰が・何を・どう言ったか」を追跡する力、議題の流れと結論を把握する力が必要です。N3の聴解問題では、このような複数話者・複数情報を扱う問題が頻出します。
+
+Trong điều dưỡng và y tế, conference（họp chăm sóc）được tổ chức định kỳ. Cần theo dõi "ai / nói gì / nói như thế nào" khi nhiều người phát biểu, đồng thời nắm được luồng nghị sự và kết luận. Dạng câu hỏi về nhiều người nói và nhiều thông tin thường xuất hiện trong N3.`,
+      keyPoints: [
+        '会議の構成：開会 → 議題確認 → 各自の発言 → 議論 → まとめ・決定 → 閉会',
+        '議題を追う：「次の議題は〜です」「〜についてどうでしょうか」',
+        '意見の表明：「私は〜と思います」「〜という観点からは」「〜の立場から言うと」',
+        '同意と反対：「おっしゃる通りです」「それについては少し異なる意見があります」',
+        '結論・決定：「それでは〜ということで確認しました」「次回は〜を検討します」',
+      ],
+      vocabulary: [
+        { word: 'カンファレンス', reading: 'かんふぁれんす', meaning: '多職種会議（hội nghị đa ngành）', example: 'ケアカンファレンスに参加する' },
+        { word: '議題', reading: 'ぎだい', meaning: '会議で話す内容（nghị trình）', example: '今日の議題は3つあります' },
+        { word: '確認', reading: 'かくにん', meaning: '間違いないか調べる（xác nhận）', example: '内容を確認する' },
+        { word: 'まとめ', reading: 'まとめ', meaning: '整理・結論（tổng kết）', example: '会議のまとめをする' },
+        { word: '検討', reading: 'けんとう', meaning: 'よく考える（xem xét）', example: '改善策を検討する' },
+      ],
+      dialogue: [
+        { speaker: '司会', japanese: 'では、本日のケアカンファレンスを始めます。本日の議題は田中様のケアプラン見直しです。', reading: 'では、ほんじつのけあかんふぁれんすをはじめます。ほんじつのぎだいはたなかさまのけあぷらんみなおしです。', translation: 'Vậy xin bắt đầu hội nghị chăm sóc hôm nay. Nghị trình hôm nay là xem xét lại kế hoạch chăm sóc của bà Tanaka.' },
+        { speaker: '担当者', japanese: '田中様は最近、食欲が低下しています。食事形態を変更することを提案します。', reading: 'たなかさまはさいきん、しょくよくがていかしています。しょくじけいたいをへんこうすることをていあんします。', translation: 'Gần đây bà Tanaka giảm cảm giác ngon miệng. Tôi đề xuất thay đổi dạng thức ăn.' },
+        { speaker: '栄養士', japanese: 'おっしゃる通りです。刻み食やとろみ食への変更を試してみましょう。', reading: 'おっしゃるとおりです。きざみしょくやとろみしょくへのへんこうをためしてみましょう。', translation: 'Đúng vậy. Hãy thử đổi sang dạng thức ăn thái nhỏ hoặc thức ăn sệt xem sao.' },
+      ],
+      examples: [
+        { japanese: '「以上で本日の議題は終わりです。次回は来月第一火曜日に行います。何かご質問がある方はいらっしゃいますか。」', reading: 'いじょうでほんじつのぎだいはおわりです。じかいはらいげつだいいちかようびにおこないます。なにかごしつもんがあるかたはいらっしゃいますか。', translation: '"Vậy là đã hết nghị trình hôm nay. Lần tới vào thứ Ba đầu tiên của tháng sau. Có ai có câu hỏi không?"' },
+      ],
+      grammarNote: `【会議でよく使う表現】
+開会：「ただいまより〇〇会議を始めます」
+議題の提示：「本日の議題は〜です」「次の議題に移ります」
+意見を言う：「〜と思います」「〜という意見があります」「〜についてはいかがでしょうか」
+同意：「おっしゃる通りです」「賛成です」「その通りだと思います」
+反対・別意見：「〜については少し異なる意見があります」「〜という点を考えると」
+まとめ：「それでは〜ということに決まりました」「以上で本日の会議を終わります」`,
+      quizzes: [
+        {
+          question: '「おっしゃる通りです」はどういう意味？',
+          options: [
+            { id: 'a', text: '反対します（phản đối）' },
+            { id: 'b', text: '同意します（đồng ý）' },
+            { id: 'c', text: '質問があります（có câu hỏi）' },
+            { id: 'd', text: '分かりません（không hiểu）' },
+          ],
+          correctId: 'b',
+          explanation: '「おっしゃる通りです」は「あなたの言ったことは正しいです・同意します」という丁寧な同意表現。「おっしゃる」は「言う」の尊敬語です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '会議の「議題」とは何ですか？',
+          options: [
+            { id: 'a', text: '会議の場所' },
+            { id: 'b', text: '参加者の名前リスト' },
+            { id: 'c', text: '会議で話し合う内容・テーマ' },
+            { id: 'd', text: '会議の時間' },
+          ],
+          correctId: 'c',
+          explanation: '「議題（ぎだい）」は「会議で話し合うべき内容・テーマ」のこと。「本日の議題は〜です」のように使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「それでは〜ということに決まりました」は何を表す？',
+          options: [
+            { id: 'a', text: '議論の開始（bắt đầu thảo luận）' },
+            { id: 'b', text: '意見の発表（phát biểu ý kiến）' },
+            { id: 'c', text: '会議での決定・合意（kết luận/thống nhất）' },
+            { id: 'd', text: '質問（câu hỏi）' },
+          ],
+          correctId: 'c',
+          explanation: '「〜ということに決まりました」は会議で結論が出たときの表現。「決まりました」は「đã được quyết định」という意味です。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-8': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: ニュース・施設アナウンスを聞く',
+      titleTranslation: 'Nghe hiểu N3: Nghe tin tức và thông báo cơ sở',
+      introduction: `日本語のニュースや施設内アナウンスは話すスピードが速く、標準語・フォーマルな語彙が使われます。「何について・何が起きたか・どのように対応するか」を短時間で把握する力が求められます。N3の聴解問題ではニュース形式の音声が出題されます。
+
+Tin tức tiếng Nhật và thông báo cơ sở có tốc độ nói nhanh, dùng từ ngữ chuẩn và trang trọng. Cần nắm nhanh "về điều gì / điều gì đã xảy ra / cần xử lý thế nào". Câu hỏi nghe N3 có dạng âm thanh tin tức.`,
+      keyPoints: [
+        'ニュースの構造：見出し（headline）→ 詳細 → 背景・原因 → 今後の対応',
+        '施設アナウンスの構造：対象者 → 場所 → 時間 → 内容 → お願い',
+        '重要語彙：発表・報告・増加・減少・改善・悪化・対応・措置',
+        'テンポ対策：最初の文が最重要情報（逆三角形構成）',
+        '聞き逃した場合：前後の文脈から推測する力が必要',
+      ],
+      vocabulary: [
+        { word: '発表', reading: 'はっぴょう', meaning: '公式に知らせる（thông báo chính thức）', example: '新しい方針が発表された' },
+        { word: '措置', reading: 'そち', meaning: '対処方法（biện pháp）', example: '緊急措置をとる' },
+        { word: '対応', reading: 'たいおう', meaning: '適切に処理する（ứng phó）', example: '迅速に対応する' },
+        { word: '改善', reading: 'かいぜん', meaning: 'よりよくする（cải thiện）', example: '業務を改善する' },
+        { word: '影響', reading: 'えいきょう', meaning: '何かに与える変化（ảnh hưởng）', example: '健康への影響が懸念される' },
+      ],
+      examples: [
+        { japanese: '（施設アナウンス）「本日午後3時から避難訓練を実施します。利用者様は職員の誘導に従ってください。」', reading: 'ほんじつごご3じからひなんくんれんをじっしします。りようしゃさまはしょくいんのゆうどうにしたがってください。', translation: '(Thông báo cơ sở) "Hôm nay từ 15h sẽ thực hiện diễn tập sơ tán. Người dùng vui lòng làm theo hướng dẫn của nhân viên."' },
+        { japanese: '（ニュース）「厚生労働省は本日、介護施設での感染対策の新しいガイドラインを発表しました。」', reading: 'こうせいろうどうしょうはほんじつ、かいごしせつでのかんせんたいさくのあたらしいがいどらいんをはっぴょうしました。', translation: '(Tin tức) "Hôm nay Bộ Y tế Lao động và Phúc lợi đã công bố hướng dẫn mới về phòng chống lây nhiễm tại cơ sở điều dưỡng."' },
+      ],
+      grammarNote: `【ニュース・アナウンスで使う表現】
+・「〜が発表されました」：何かが公式に発表された
+・「〜によりますと」：情報源（nguồn thông tin）を示す
+・「〜に対して〜する」：〜に向けて対応する
+・「〜を実施します」：〜を行います（sẽ tiến hành）
+・「〜の方はご注意ください」：対象者へのお願い
+
+【速読・速聴のポイント】
+ニュースは「最初の一文に最重要情報」→ 最初を集中して聞く
+施設アナウンスは「誰が・いつ・どこで・何を」を素早くメモ`,
+      quizzes: [
+        {
+          question: 'ニュースを聞くとき、最初の一文が重要な理由は？',
+          options: [
+            { id: 'a', text: '一番長いから' },
+            { id: 'b', text: '最重要情報（見出し）が含まれているから' },
+            { id: 'c', text: '一番簡単だから' },
+            { id: 'd', text: '繰り返されるから' },
+          ],
+          correctId: 'b',
+          explanation: 'ニュースは「逆三角形構成」で、最初の文に最重要情報（何が起きたか）が含まれます。後半に詳細・背景が続きます。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '施設アナウンスで最初に確認すべきことは？',
+          options: [
+            { id: 'a', text: '話者の声のトーン' },
+            { id: 'b', text: '対象者・場所・時間・内容' },
+            { id: 'c', text: '天気予報' },
+            { id: 'd', text: '食事のメニュー' },
+          ],
+          correctId: 'b',
+          explanation: '施設アナウンスは「誰に（対象者）・どこで（場所）・いつ（時間）・何を（内容）」の順で情報を整理します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「〜によりますと」はどういう意味？',
+          options: [
+            { id: 'a', text: '〜によって変わる（thay đổi theo）' },
+            { id: 'b', text: '〜の情報によると（theo thông tin từ〜）' },
+            { id: 'c', text: '〜にとって（đối với〜）' },
+            { id: 'd', text: '〜に依頼する（nhờ〜）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜によりますと」は情報源を示す表現で、「〜からの情報によると」という意味。ニュースで「厚生労働省によりますと」のように使われます。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-9': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: 省略・縮約形・話し言葉を聞く',
+      titleTranslation: 'Nghe hiểu N3: Nghe dạng rút gọn và ngôn ngữ nói',
+      introduction: `実際の会話では「〜てしまう → 〜ちゃう」「〜ている → 〜てる」「〜なければ → 〜なきゃ」など、縮約形（rút gọn）がよく使われます。聴解問題でも自然な話し言葉が出題されるため、書き言葉との対応を学ぶことが重要です。
+
+Trong hội thoại thực tế, thường dùng dạng rút gọn như 〜てしまう→〜ちゃう, 〜ている→〜てる, 〜なければ→〜なきゃ. Câu hỏi nghe cũng dùng ngôn ngữ nói tự nhiên, nên học cách đối chiếu với văn viết là rất quan trọng.`,
+      keyPoints: [
+        '〜てしまう → 〜ちゃう（男女共通）/ 〜じゃう（〜でしまう）',
+        '〜ている → 〜てる / 〜てます → 〜てます（略さない場合も）',
+        '〜なければ → 〜なきゃ / 〜なくちゃ',
+        '〜ておく → 〜とく',
+        '〜てしまった → 〜ちゃった（後悔・完了）',
+        '〜ではない → 〜じゃない / 〜じゃないですか（確認）',
+      ],
+      vocabulary: [
+        { word: '縮約形', reading: 'しゅくやくけい', meaning: '短くした形（dạng rút gọn）', example: '話し言葉の縮約形' },
+        { word: '省略', reading: 'しょうりゃく', meaning: '短くする（bỏ bớt）', example: '助詞を省略する' },
+        { word: '話し言葉', reading: 'はなしことば', meaning: '口語（ngôn ngữ nói）', example: '話し言葉と書き言葉' },
+        { word: '書き言葉', reading: 'かきことば', meaning: '文語（ngôn ngữ viết）', example: '書き言葉は丁寧' },
+        { word: '自然な表現', reading: 'しぜんなひょうげん', meaning: '実際の会話で使う（cách nói tự nhiên）', example: '自然な表現を覚える' },
+      ],
+      examples: [
+        { japanese: '書き言葉：「薬を飲んでしまいました」→ 話し言葉：「薬飲んじゃいました」', reading: 'くすりをのんでしまいました → くすりのんじゃいました', translation: 'Văn viết: "Tôi đã uống thuốc mất rồi" → Nói: "Uống thuốc mất rồi"' },
+        { japanese: '書き言葉：「しなければなりません」→ 話し言葉：「しなきゃならない / しなきゃ」', reading: 'しなければなりません → しなきゃならない / しなきゃ', translation: 'Văn viết: "Phải làm" → Nói: "Phải làm / Phải thôi"' },
+        { japanese: '書き言葉：「今何をしていますか」→ 話し言葉：「今何してる？」', reading: 'いまなにをしていますか → いまなにしてる？', translation: 'Văn viết: "Bây giờ bạn đang làm gì?" → Nói: "Đang làm gì?"' },
+      ],
+      grammarNote: `【主な縮約形・省略形一覧】
+〜てしまう → 〜ちゃう（〜でしまう → 〜じゃう）
+〜てしまった → 〜ちゃった（〜でしまった → 〜じゃった）
+〜ている → 〜てる
+〜ておく → 〜とく
+〜なければ → 〜なきゃ
+〜なくては → 〜なくちゃ
+〜ではない → 〜じゃない
+〜ということ → 〜ってこと
+〜という → 〜って（引用）`,
+      quizzes: [
+        {
+          question: '「薬飲んじゃいました」の書き言葉は？',
+          options: [
+            { id: 'a', text: '薬を飲んでいます（đang uống thuốc）' },
+            { id: 'b', text: '薬を飲んでしまいました（đã uống thuốc mất rồi）' },
+            { id: 'c', text: '薬を飲みたいです（muốn uống thuốc）' },
+            { id: 'd', text: '薬を飲みました（đã uống thuốc）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜じゃいました」は「〜でしまいました」の縮約形。「飲んじゃいました」は「飲んでしまいました」で、意図せず完了したか後悔を含む表現です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「しなきゃ」の書き言葉は？',
+          options: [
+            { id: 'a', text: 'してもいいです（có thể làm）' },
+            { id: 'b', text: 'しなくてもいいです（không cần làm）' },
+            { id: 'c', text: 'しなければなりません（phải làm）' },
+            { id: 'd', text: 'したいです（muốn làm）' },
+          ],
+          correctId: 'c',
+          explanation: '「しなきゃ」は「しなければ（ならない）」の縮約形。「phải làm」という義務を表します。口語では「しなきゃ」「しなきゃな」のように使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「今何してる？」の書き言葉は？',
+          options: [
+            { id: 'a', text: '今何をしたいですか' },
+            { id: 'b', text: '今何をしていますか' },
+            { id: 'c', text: '今何をしましたか' },
+            { id: 'd', text: '今何をしますか' },
+          ],
+          correctId: 'b',
+          explanation: '「〜てる」は「〜ている」の縮約形。「何してる？」は「何をしていますか？」の口語形で、現在進行形を表します。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-10': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解: 情報統合・複数情報の処理',
+      titleTranslation: 'Nghe hiểu N3: Tổng hợp và xử lý nhiều thông tin',
+      introduction: `N3の聴解には「複数の人の発言を聞いて正しい内容を選ぶ」「会話の要点をまとめる」「話者の関係や状況を判断する」などの情報統合問題が出ます。単純な聞き取りだけでなく、複数の情報を整理・統合して正答を導く力が重要です。
+
+N3 có dạng câu hỏi tổng hợp: nghe phát biểu của nhiều người rồi chọn đúng, tóm tắt ý chính, phán đoán mối quan hệ. Không chỉ nghe đơn giản mà cần sắp xếp và tổng hợp nhiều thông tin để tìm đáp án đúng.`,
+      keyPoints: [
+        '情報統合の手順：①全体を聞く → ②各情報をメモ → ③矛盾を確認 → ④正しい情報を選ぶ',
+        '話者の関係を判断：敬語・口調から上下関係を読む',
+        '矛盾・誤りを見つける：「AはBと言ったが、CはDと言った」',
+        '時系列を整理：「まず〜、次に〜、最後に〜」',
+        '条件・例外を聞き取る：「ただし〜」「〜の場合を除いて」',
+      ],
+      vocabulary: [
+        { word: '統合', reading: 'とうごう', meaning: '複数を一つにまとめる（tổng hợp）', example: '情報を統合する' },
+        { word: '矛盾', reading: 'むじゅん', meaning: '内容が合わない（mâu thuẫn）', example: '発言に矛盾がある' },
+        { word: '整理', reading: 'せいり', meaning: 'きちんと並べる（sắp xếp）', example: '情報を整理する' },
+        { word: '要点', reading: 'ようてん', meaning: '最も重要な点（điểm chính）', example: '要点をまとめる' },
+        { word: 'まとめる', reading: 'まとめる', meaning: '整理してまとめる（tổng kết）', example: '会議の内容をまとめる' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '来週の研修は月曜日の午前10時からですよね。', reading: 'らいしゅうのけんしゅうはげつようびのごぜん10じからですよね。', translation: 'Đào tạo tuần tới từ 10 giờ sáng thứ Hai phải không?' },
+        { speaker: 'B', japanese: 'いいえ、月曜日じゃなくて火曜日ですよ。時間は同じ10時からです。', reading: 'いいえ、げつようびじゃなくてかようびですよ。じかんはおなじ10じからです。', translation: 'Không, không phải thứ Hai mà là thứ Ba. Giờ vẫn là 10 giờ.' },
+        { speaker: 'A', japanese: 'あ、そうでしたか。場所はどこですか。', reading: 'あ、そうでしたか。ばしょはどこですか。', translation: 'À, vậy à. Địa điểm ở đâu?' },
+        { speaker: 'B', japanese: '研修センターのB会議室です。', reading: 'けんしゅうせんたーのBかいぎしつです。', translation: 'Phòng họp B tại Trung tâm đào tạo.' },
+      ],
+      examples: [
+        { japanese: 'Q: この会話から、研修は何曜日・何時・どこですか？ A: 火曜日・午前10時・研修センターB会議室', reading: 'けんしゅうはかようび・ごぜん10じ・けんしゅうせんたーBかいぎしつ', translation: 'H: Qua hội thoại, đào tạo vào thứ mấy, mấy giờ, ở đâu? Đ: Thứ Ba, 10h sáng, phòng họp B trung tâm đào tạo.' },
+      ],
+      grammarNote: `【情報統合問題の解き方】
+Step 1: メモを取りながら聞く（ai/khi nào/ở đâu/cái gì）
+Step 2: 修正情報に注意する（「〜じゃなくて〜」「〜ではなく〜」）
+Step 3: 最後の確認発言を重視する（最後に訂正されることが多い）
+Step 4: 選択肢と照合する
+
+【よく出る情報訂正の表現】
+「〜じゃなくて〜です」（không phải...mà là...）
+「〜ではなく〜」
+「〜に変更になりました」
+「〜は間違いで、正しくは〜です」`,
+      quizzes: [
+        {
+          question: 'A「月曜10時」B「月曜じゃなくて火曜10時」正しいのは？',
+          options: [
+            { id: 'a', text: '月曜日10時' },
+            { id: 'b', text: '火曜日10時' },
+            { id: 'c', text: '月曜日11時' },
+            { id: 'd', text: '火曜日11時' },
+          ],
+          correctId: 'b',
+          explanation: 'BがAの「月曜」を訂正して「火曜日」と言いました。時間「10時」はそのまま。訂正発言を優先します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '情報統合問題で最も重要なテクニックは？',
+          options: [
+            { id: 'a', text: '最初の発言だけ聞く' },
+            { id: 'b', text: '訂正・修正の発言に注目する' },
+            { id: 'c', text: '感情の表現を探す' },
+            { id: 'd', text: '一番長い発言を選ぶ' },
+          ],
+          correctId: 'b',
+          explanation: '情報統合問題では、最初の情報が後で訂正されることが多いです。「〜じゃなくて」「〜ではなく」「変更になりました」などの修正表現に特に注意します。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「〜じゃなくて〜です」はどういう役割？',
+          options: [
+            { id: 'a', text: '新しい情報を追加する' },
+            { id: 'b', text: '間違いを訂正して正しい情報を伝える' },
+            { id: 'c', text: '質問する' },
+            { id: 'd', text: '感謝を述べる' },
+          ],
+          correctId: 'b',
+          explanation: '「〜じゃなくて〜です」は「〜ではなく、正しくは〜です」という訂正表現。情報を修正するときに使います。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n3-03-11': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3速読①: スキャニング（必要情報を素早く探す）',
+      titleTranslation: 'Đọc nhanh N3①: Scanning – Tìm thông tin cần thiết nhanh',
+      introduction: `速読（đọc nhanh）の第一技術は「スキャニング（scanning）」です。文章全体を読まずに、必要な情報（数字・固有名詞・キーワード）だけを素早く探す方法です。N3の読解問題では時間が限られているため、スキャニングを使って設問に必要な情報を効率よく見つける練習をします。
+
+Kỹ thuật đọc nhanh đầu tiên là "scanning" – tìm nhanh thông tin cần thiết (số liệu, danh từ riêng, từ khóa) mà không đọc toàn bộ văn bản. Trong đọc hiểu N3, thời gian có hạn nên cần luyện tìm thông tin cần thiết cho câu hỏi một cách hiệu quả.`,
+      keyPoints: [
+        'スキャニングとは：文章全体を読まず、特定の情報を探す技術',
+        '使う場面：日時・数字・名前・場所・定義を探すとき',
+        '方法：設問を先に読む → キーワードを決める → 文章でそのキーワードを探す',
+        '目の動かし方：一字ずつ読まず、ブロックで視野を広げる',
+        '練習法：時刻表・地図・案内文でスキャニングを練習する',
+      ],
+      vocabulary: [
+        { word: 'スキャニング', reading: 'すきゃにんぐ', meaning: '必要情報を素早く探す読み方（scanning）', example: 'スキャニングで数字を探す' },
+        { word: 'キーワード', reading: 'きーわーど', meaning: '重要な言葉（từ khóa）', example: 'キーワードを先に確認する' },
+        { word: '設問', reading: 'せつもん', meaning: '試験の質問（câu hỏi đề）', example: '設問を先に読む' },
+        { word: '固有名詞', reading: 'こゆうめいし', meaning: '特定の名前・地名（danh từ riêng）', example: '固有名詞を探す' },
+        { word: '効率', reading: 'こうりつ', meaning: '少ない努力で多くこなす（hiệu quả）', example: '効率よく読む' },
+      ],
+      examples: [
+        { japanese: '（練習）次の文章から「開始時刻」を探してください：「本日のケアカンファレンスは午後2時30分から第3会議室で開催されます。参加者は・・・」→ 答え：午後2時30分', reading: 'ほんじつのけあかんふぁれんすはごご2じ30ぷんからだい3かいぎしつでかいさいされます。', translation: '(Luyện tập) Tìm "giờ bắt đầu" trong đoạn văn: "Hôm nay hội nghị chăm sóc bắt đầu lúc 14h30 tại phòng họp số 3..." → Đáp án: 14h30' },
+        { japanese: '（練習）「研修の締め切りはいつか」を探す：「申し込みは来月の20日（木）までにお願いします」→ 答え：来月20日（木）', reading: 'もうしこみはらいげつの20にち（もく）までにおねがいします', translation: '(Luyện tập) Tìm "hạn chót đăng ký đào tạo": "Vui lòng đăng ký trước ngày 20 tháng sau (Thứ Năm)" → Đáp án: Ngày 20 tháng sau (Thứ Năm)' },
+      ],
+      grammarNote: `【スキャニングの手順】
+① 設問（question）を先に読む
+② 探すキーワードを確認する（数字？名前？場所？）
+③ 文章を「読む」のではなく「探す」
+④ キーワードを見つけたらその周辺だけ精読する
+⑤ 答えを選ぶ
+
+【スキャニングが有効な設問タイプ】
+・「〜はいつですか」→ 日時を探す
+・「〜は誰ですか」→ 固有名詞を探す
+・「〜はどこですか」→ 場所を探す
+・「〜はいくらですか」→ 数字を探す`,
+      quizzes: [
+        {
+          question: 'スキャニングとはどんな読み方？',
+          options: [
+            { id: 'a', text: '文章全体をゆっくり精読する' },
+            { id: 'b', text: '必要な情報だけを素早く探す' },
+            { id: 'c', text: '音読する' },
+            { id: 'd', text: '要約を作る' },
+          ],
+          correctId: 'b',
+          explanation: 'スキャニングは必要な情報（数字・名前・キーワード）を文章全体を読まずに素早く探す読み方です。時間効率が高い技術です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '設問を先に読む理由は？',
+          options: [
+            { id: 'a', text: '時間がないから' },
+            { id: 'b', text: '何を探すか分かるから（効率よく読める）' },
+            { id: 'c', text: '設問が難しいから' },
+            { id: 'd', text: '文章が長いから' },
+          ],
+          correctId: 'b',
+          explanation: '設問を先に読むことで、「何を探すべきか（日時？名前？数字？）」が分かり、文章でキーワードを効率よく探せます。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「締め切りはいつですか」という設問にスキャニングを使うとき、何を探す？',
+          options: [
+            { id: 'a', text: '感情を表す言葉' },
+            { id: 'b', text: '数字・日付・期限に関する語句' },
+            { id: 'c', text: '人物の名前' },
+            { id: 'd', text: '場所を表す言葉' },
+          ],
+          correctId: 'b',
+          explanation: '「締め切り・期限」の設問では、文章中の数字・日付（〜日・〜月・〜まで）に注目してスキャニングします。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-12': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3速読②: スキミング（全体の要旨を素早く把握する）',
+      titleTranslation: 'Đọc nhanh N3②: Skimming – Nắm đại ý toàn bài nhanh',
+      introduction: `速読の第二技術は「スキミング（skimming）」です。文章全体をざっと読んで、主題・全体の流れ・筆者の主張を素早く把握する方法です。N3の読解では「筆者が最も言いたいことは何か」「文章の目的は何か」という設問があり、スキミングが有効です。
+
+Kỹ thuật đọc nhanh thứ hai là "skimming" – lướt qua toàn bộ văn bản để nắm nhanh chủ đề, dòng chảy tổng thể và luận điểm của tác giả. N3 có câu hỏi "tác giả muốn nói điều gì nhất" hoặc "mục đích của bài là gì", và skimming rất hiệu quả cho dạng này.`,
+      keyPoints: [
+        'スキミングとは：文章全体をざっと読んで要旨を把握する技術',
+        '方法：①タイトル・見出しを読む ②各段落の最初の文を読む ③最後の段落を読む',
+        '目の動かし方：左右に振らずに、文章の中央付近を縦に流し読み',
+        '何を探すか：主題（main topic）・筆者の意見・文章の目的',
+        '使う場面：「この文章は何について書かれていますか」「筆者の主張は何ですか」',
+      ],
+      vocabulary: [
+        { word: 'スキミング', reading: 'すきみんぐ', meaning: '要旨を素早く把握する読み方（skimming）', example: 'スキミングで全体を把握する' },
+        { word: '要旨', reading: 'ようし', meaning: '文章の主な内容（đại ý）', example: '文章の要旨をまとめる' },
+        { word: '主張', reading: 'しゅちょう', meaning: '筆者の言いたいこと（luận điểm）', example: '筆者の主張を把握する' },
+        { word: '段落', reading: 'だんらく', meaning: '文章の区切り（đoạn văn）', example: '各段落の要点を読む' },
+        { word: '把握', reading: 'はあく', meaning: '理解・認識する（nắm bắt）', example: '全体の流れを把握する' },
+      ],
+      examples: [
+        { japanese: '（スキミング練習）タイトル「高齢者の食事と健康」→ 段落1の最初「近年、高齢者の低栄養が問題になっています」→ 最後の段落「バランスの取れた食事と適切な水分補給が重要です」→ 要旨：高齢者の低栄養問題と食事の重要性', reading: 'こうれいしゃのしょくじとけんこう / こうれいしゃのていえいようがもんだい / ようし：こうれいしゃのていえいようとしょくじのじゅうようせい', translation: '(Luyện skimming) Tiêu đề: "Chế độ ăn và sức khỏe người cao tuổi" → Đoạn 1 đầu: "Gần đây, suy dinh dưỡng ở người cao tuổi đang là vấn đề" → Đoạn cuối: "Chế độ ăn cân bằng và bổ sung nước đúng cách là quan trọng" → Đại ý: Vấn đề suy dinh dưỡng và tầm quan trọng của chế độ ăn cho người cao tuổi' },
+      ],
+      grammarNote: `【スキミングの手順】
+① タイトル・見出しを読む（全体テーマを把握）
+② 各段落の最初の文だけ読む（各パラグラフの主題文）
+③ 最後の段落を読む（結論・まとめ）
+④ 要旨・筆者の主張をまとめる
+
+【スキミングが有効な設問タイプ】
+・「この文章のテーマは何ですか」
+・「筆者が最も言いたいことは何ですか」
+・「この文章の目的は何ですか」
+・「文章の内容と合うものはどれですか」（合致問題）`,
+      quizzes: [
+        {
+          question: 'スキミングでは、各段落のどの文を最優先で読む？',
+          options: [
+            { id: 'a', text: '最後の文' },
+            { id: 'b', text: '最初の文（主題文）' },
+            { id: 'c', text: '真ん中の文' },
+            { id: 'd', text: '最も長い文' },
+          ],
+          correctId: 'b',
+          explanation: '段落の最初の文は「主題文（topic sentence）」と言い、その段落で最も重要な情報が含まれます。スキミングでは各段落の最初の文を読むことが基本です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: 'スキミングとスキャニングの違いは？',
+          options: [
+            { id: 'a', text: '同じ読み方' },
+            { id: 'b', text: 'スキミング＝要旨把握、スキャニング＝特定情報を探す' },
+            { id: 'c', text: 'スキミング＝精読、スキャニング＝速読' },
+            { id: 'd', text: 'スキミング＝リスニング、スキャニング＝リーディング' },
+          ],
+          correctId: 'b',
+          explanation: 'スキミング（skimming）は文章全体の要旨・テーマを把握する技術。スキャニング（scanning）は特定の情報（数字・名前など）を素早く探す技術。目的が異なります。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「筆者が最も言いたいことは何ですか」という設問にはどちらが有効？',
+          options: [
+            { id: 'a', text: 'スキャニング（特定キーワードを探す）' },
+            { id: 'b', text: 'スキミング（全体の要旨を把握する）' },
+            { id: 'c', text: '精読（全部読む）' },
+            { id: 'd', text: '音読' },
+          ],
+          correctId: 'b',
+          explanation: '「筆者の主張・要旨」を問う設問にはスキミングが有効。タイトル・各段落の最初の文・結論を読んで全体の主張を把握します。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-13': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3速読③: 接続詞で文章の流れを読む',
+      titleTranslation: 'Đọc nhanh N3③: Đọc luồng văn bản qua liên từ',
+      introduction: `接続詞（liên từ）は文章の論理構造を示す「道標」です。接続詞を見れば「この先に何が来るか」が予測でき、速読の速度が大幅に上がります。N3の読解では「しかし・したがって・ただし・なお・また」などの接続詞を正確に理解することが重要です。
+
+Liên từ là "biển chỉ đường" thể hiện cấu trúc logic của văn bản. Nhìn vào liên từ là có thể đoán trước "điều gì sẽ đến tiếp theo", giúp tốc độ đọc tăng đáng kể. N3 đòi hỏi hiểu chính xác các liên từ như しかし, したがって, ただし, なお, また.`,
+      keyPoints: [
+        '逆接：しかし・でも・ところが・それでも → 前の内容と反対のことが来る',
+        '順接・結果：したがって・そのため・だから・よって → 前の原因の結果が来る',
+        '追加：また・さらに・しかも・加えて → 情報を追加する',
+        '条件・例外：ただし・なお・もっとも → 例外・補足情報が来る',
+        '転換：ところで・さて・それでは → 話題が変わる',
+      ],
+      vocabulary: [
+        { word: 'したがって', reading: 'したがって', meaning: 'そのために（do đó/vì vậy）', example: '〜した。したがって〜' },
+        { word: 'しかし', reading: 'しかし', meaning: 'でも・反対に（tuy nhiên/nhưng）', example: '〜だ。しかし〜' },
+        { word: 'ただし', reading: 'ただし', meaning: '例外・補足（tuy nhiên/ngoại lệ）', example: '参加可能。ただし事前申込必要' },
+        { word: 'また', reading: 'また', meaning: '追加（ngoài ra/thêm nữa）', example: '〜する。また〜もする' },
+        { word: 'ところが', reading: 'ところが', meaning: '予想に反して（trái với dự đoán）', example: '〜と思った。ところが〜' },
+      ],
+      examples: [
+        { japanese: '「血圧が高いため、塩分を控えることをお勧めします。したがって、漬物や味噌汁は少量にしてください。」→ 「したがって」の後に前文の結論（行動）が来る', reading: 'けつあつがたかいため、えんぶんをひかえることをおすすめします。したがって、つけものやみそしるはしょうりょうにしてください。', translation: '"Vì huyết áp cao, nên hạn chế muối. Do đó, hãy ăn ít dưa muối và canh miso." → Sau したがって là hành động kết luận từ lý do trước' },
+        { japanese: '「リハビリを実施します。ただし、体調が悪い日は中止することがあります。」→ 「ただし」の後に例外・補足情報が来る', reading: 'りはびりをじっしします。ただし、たいちょうがわるいひはちゅうしすることがあります。', translation: '"Sẽ tiến hành phục hồi chức năng. Tuy nhiên, có thể hủy nếu sức khỏe không tốt." → Sau ただし là thông tin ngoại lệ/bổ sung' },
+      ],
+      grammarNote: `【接続詞と文章の方向性】
+逆接（đảo chiều）：
+しかし・でも・ところが・それでも・とはいえ
+→ 後ろに反対・矛盾の内容
+
+順接・結果（kết quả）：
+したがって・そのため・だから・よって・そこで
+→ 後ろに前文の結論・結果
+
+追加（bổ sung）：
+また・さらに・しかも・加えて・その上
+→ 後ろに追加情報
+
+転換（chuyển chủ đề）：
+ところで・さて・それでは・話は変わりますが
+→ 後ろに新しい話題`,
+      quizzes: [
+        {
+          question: '「〜した。したがって〜」の「したがって」の後には何が来る？',
+          options: [
+            { id: 'a', text: '反対の内容（đảo chiều）' },
+            { id: 'b', text: '前文の結果・結論（kết quả）' },
+            { id: 'c', text: '例外情報' },
+            { id: 'd', text: '新しい話題' },
+          ],
+          correctId: 'b',
+          explanation: '「したがって」は順接の接続詞で、前文の原因・理由に対する「結果・結論」が後ろに来ます。「なので」「そのため」と同じ役割です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「〜だ。しかし〜」の「しかし」の後には何が来る？',
+          options: [
+            { id: 'a', text: '前文の結果' },
+            { id: 'b', text: '前文と反対・矛盾する内容' },
+            { id: 'c', text: '追加情報' },
+            { id: 'd', text: '例外' },
+          ],
+          correctId: 'b',
+          explanation: '「しかし」は逆接の接続詞で、前文の内容と反対・対立する内容が後ろに来ます。「nhưng / tuy nhiên」と同じ役割です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「参加可能。ただし事前申込が必要です。」の「ただし」の後には何が来る？',
+          options: [
+            { id: 'a', text: '前文の結果' },
+            { id: 'b', text: '反対の内容' },
+            { id: 'c', text: '例外・補足・条件情報' },
+            { id: 'd', text: '新しい話題' },
+          ],
+          correctId: 'c',
+          explanation: '「ただし」は例外・補足条件を示す接続詞。前文に対して「でも〜という条件がある」という情報を追加します。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-14': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3速読④: 主題・要点を素早く抽出する',
+      titleTranslation: 'Đọc nhanh N3④: Tách nhanh chủ đề và điểm chính',
+      introduction: `N3の読解問題では「この文章の主題は何ですか」「文章の要点として正しいものはどれですか」という設問が多く出ます。主題（chủ đề）は「文章が何について書かれているか」、要点（điểm chính）は「最も重要な情報・メッセージ」です。これらを素早く見つける技術を練習します。
+
+N3 có nhiều câu hỏi "chủ đề của bài là gì" hoặc "điều nào là điểm chính đúng". Chủ đề là "bài viết về điều gì", điểm chính là "thông tin/thông điệp quan trọng nhất". Luyện kỹ thuật tìm nhanh các yếu tố này.`,
+      keyPoints: [
+        '主題の見つけ方：タイトル・最初の段落・繰り返し出る語',
+        '要点の見つけ方：結論段落・「まとめると〜」「つまり〜」「このように〜」の後',
+        '重要な信号語：「つまり」「要するに」「したがって」「このように」→ 要点の前',
+        '誤りの選択肢を除外：文章に書かれていない情報・細部の誇張・逆の意味',
+        '正答の特徴：文章全体の内容を適切にまとめている・具体的すぎない',
+      ],
+      vocabulary: [
+        { word: '主題', reading: 'しゅだい', meaning: '文章全体のテーマ（chủ đề）', example: 'この文章の主題は何ですか' },
+        { word: '要点', reading: 'ようてん', meaning: '最も大切な点（điểm chính）', example: '要点を整理する' },
+        { word: 'つまり', reading: 'つまり', meaning: '言い換え・まとめ（tức là/nói cách khác）', example: 'つまり〜ということです' },
+        { word: '要するに', reading: 'ようするに', meaning: '要約すると（tóm lại）', example: '要するに〜です' },
+        { word: '抽出', reading: 'ちゅうしゅつ', meaning: '取り出す（trích xuất）', example: '重要情報を抽出する' },
+      ],
+      examples: [
+        { japanese: '文章の結論段落：「このように、高齢者の孤立を防ぐためには地域コミュニティの支援が不可欠です。」→ 要点：地域コミュニティが高齢者孤立防止に重要', reading: 'このように、こうれいしゃのこりつをふせぐためにはちいきこみゅにてぃのしえんがふかけつです。', translation: 'Đoạn kết: "Như vậy, để ngăn chặn sự cô lập của người cao tuổi, sự hỗ trợ của cộng đồng địa phương là không thể thiếu." → Điểm chính: Cộng đồng địa phương quan trọng trong việc ngăn cô lập người cao tuổi' },
+      ],
+      grammarNote: `【要点を示す信号語】
+「つまり」→ 前の内容を言い換え・まとめ
+「要するに」→ 要約・結論
+「このように」→ 前の内容の結論・まとめ
+「したがって」→ 前の理由に基づく結論
+「以上から」→ 前の議論の最終結論
+
+【主題の見つけ方ステップ】
+① タイトル・見出しを確認
+② 最初の段落（問題提起・テーマ提示）を読む
+③ 繰り返し出てくる語・テーマを確認
+④ 最後の段落（結論）を読む`,
+      quizzes: [
+        {
+          question: '「つまり〜」の後には何が来る？',
+          options: [
+            { id: 'a', text: '新しい情報が来る' },
+            { id: 'b', text: '前の内容の言い換え・まとめが来る' },
+            { id: 'c', text: '反対の意見が来る' },
+            { id: 'd', text: '例外情報が来る' },
+          ],
+          correctId: 'b',
+          explanation: '「つまり」は前の内容を分かりやすく言い換えたり、まとめたりするときに使います。「つまり〜ということです」の形で要点を示します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '文章の要点を見つけるとき、最優先で読む場所は？',
+          options: [
+            { id: 'a', text: '文章の真ん中' },
+            { id: 'b', text: '最初と最後の段落' },
+            { id: 'c', text: '最も長い段落' },
+            { id: 'd', text: '括弧内の内容' },
+          ],
+          correctId: 'b',
+          explanation: '文章の要点は「最初の段落（問題提起・テーマ）」と「最後の段落（結論・まとめ）」に集中することが多いです。この2箇所を先に読むと効率的です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '読解問題で誤りの選択肢に多い特徴は？',
+          options: [
+            { id: 'a', text: '文章の内容と完全に一致する' },
+            { id: 'b', text: '文章に書かれていない情報や、内容の誇張・逆の意味を含む' },
+            { id: 'c', text: '文章より短い' },
+            { id: 'd', text: '難しい語彙を使っている' },
+          ],
+          correctId: 'b',
+          explanation: '誤りの選択肢は「文章に書かれていない情報の追加」「程度の誇張（少し→大幅に）」「意味の逆転」などのパターンが多いです。正答は文章全体の内容を適切にまとめています。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-03-15': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3速読⑤: 長文読解①（説明文・医療文書）',
+      titleTranslation: 'Đọc nhanh N3⑤: Đọc hiểu văn dài①（văn thông tin/tài liệu y tế）',
+      introduction: `N3の読解問題で最も時間がかかるのが「長文読解」です。医療・介護に関連する説明文は専門用語が多く、読み飛ばしと精読を組み合わせる戦略が必要です。このレッスンでは「医療・健康に関する説明文」の読み方と、設問に答えるための技術を練習します。
+
+Trong đọc hiểu N3, phần tốn thời gian nhất là "đọc văn dài". Văn thông tin liên quan đến y tế và điều dưỡng có nhiều thuật ngữ chuyên môn, cần chiến lược kết hợp bỏ qua và đọc kỹ. Bài này luyện cách đọc văn thông tin về y tế/sức khỏe và kỹ thuật trả lời câu hỏi.`,
+      keyPoints: [
+        '説明文の構造：問題提起 → 説明・根拠 → 解決策・結論',
+        '段落の役割を見分ける：「〜について説明します」「例えば〜」「つまり〜」',
+        '医療文書でよく出る型：症状・原因・治療法・予防法の説明',
+        '設問先読み戦略：設問を読んでから文章を読む',
+        '答えの場所を予測：「なぜ〜ですか」→ 「〜から・ので・ため」を探す',
+      ],
+      vocabulary: [
+        { word: '予防', reading: 'よぼう', meaning: '病気などを事前に防ぐ（phòng ngừa）', example: '感染症の予防が重要です' },
+        { word: '症状', reading: 'しょうじょう', meaning: '病気のサイン（triệu chứng）', example: '主な症状は〜です' },
+        { word: '原因', reading: 'げんいん', meaning: '何が引き起こすか（nguyên nhân）', example: '発症の原因は〜です' },
+        { word: '改善策', reading: 'かいぜんさく', meaning: '問題を良くする方法（biện pháp cải thiện）', example: '改善策として〜が挙げられます' },
+        { word: '推奨', reading: 'すいしょう', meaning: '勧める（khuyến nghị）', example: '一日8杯の水分摂取が推奨されます' },
+      ],
+      examples: [
+        { japanese: '（説明文の例）「高齢者の脱水は、のどの渇きを感じにくいため気づきにくい。原因としては、加齢による体内水分量の減少や利尿剤の使用が挙げられる。予防には、定期的な水分補給の促しが効果的である。」', reading: 'こうれいしゃのだっすいは、のどのかわきをかんじにくいためきづきにくい。げんいんとしては、かれいによるたいないすいぶんりょうのげんしょうやりにょうざいのしようがあげられる。よぼうには、ていきてきなすいぶんほきゅうのうながしがこうかてきである。', translation: '(Ví dụ văn thông tin) "Mất nước ở người cao tuổi khó nhận ra vì họ ít cảm thấy khát. Nguyên nhân bao gồm giảm lượng nước trong cơ thể theo tuổi tác và sử dụng thuốc lợi tiểu. Để phòng ngừa, nhắc nhở bổ sung nước thường xuyên rất hiệu quả."' },
+      ],
+      grammarNote: `【説明文の設問タイプと対策】
+「なぜ〜ですか」→ 「〜から・ので・ため・によって」を含む文を探す
+「〜とはどういう意味ですか」→ 定義文「〜とは〜のことです」を探す
+「〜の原因は何ですか」→ 「原因・理由・要因・によって」を含む文を探す
+「〜するとどうなりますか」→ 結果・影響を含む文を探す
+「文章の内容と合うものを選びなさい」→ 各選択肢と文章を照合
+
+【設問先読みの効果】
+「何を聞かれているか」を把握 → 関連する文だけを精読 → 時間短縮`,
+      quizzes: [
+        {
+          question: '「なぜ〜ですか」という設問で、答えを探すとき注目する語は？',
+          options: [
+            { id: 'a', text: '「そして・また」（追加を示す語）' },
+            { id: 'b', text: '「〜から・ので・ため・によって」（理由・原因を示す語）' },
+            { id: 'c', text: '「つまり・要するに」（まとめを示す語）' },
+            { id: 'd', text: '「しかし・ところが」（逆接を示す語）' },
+          ],
+          correctId: 'b',
+          explanation: '「なぜ〜ですか」という因果関係の設問では、「から・ので・ため・によって」という原因・理由を示す語の周辺に答えがあります。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '長文読解で設問を先に読む理由は？',
+          options: [
+            { id: 'a', text: '設問が短いから' },
+            { id: 'b', text: '何を探すかが分かり、関連する文だけ精読できるから' },
+            { id: 'c', text: '設問の方が重要だから' },
+            { id: 'd', text: '文章が難しいから' },
+          ],
+          correctId: 'b',
+          explanation: '設問を先に読むことで、「どの情報が必要か」が分かります。文章全体を精読せず、設問に関係する部分だけ読めるので時間を大幅に節約できます。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '説明文で「〜とは〜のことです」という文はどんな役割？',
+          options: [
+            { id: 'a', text: '反論' },
+            { id: 'b', text: '定義（用語の説明）' },
+            { id: 'c', text: '例示' },
+            { id: 'd', text: '結論' },
+          ],
+          correctId: 'b',
+          explanation: '「〜とは〜のことです」は定義文で、用語や概念を説明します。「〜とはどういう意味ですか」という設問の答えはこの形の文に含まれています。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n3-03-16': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3速読⑥: 長文読解②（記事・コラム・意見文）',
+      titleTranslation: 'Đọc nhanh N3⑥: Đọc hiểu văn dài②（bài báo/cột báo/bài ý kiến）',
+      introduction: `N3の読解には「記事・コラム・意見文」など、筆者の主張や意見が含まれる文章も出ます。「筆者は〜についてどう思っているか」「この文章で筆者が最も伝えたいことは何か」を読み取るには、主張文・根拠・反論・結論の構造を理解する力が必要です。
+
+N3 cũng có dạng văn "bài báo / cột báo / bài ý kiến" chứa quan điểm của tác giả. Để đọc hiểu "tác giả nghĩ gì về..." hoặc "tác giả muốn truyền đạt điều gì nhất", cần hiểu cấu trúc: luận điểm – lý do – phản biện – kết luận.`,
+      keyPoints: [
+        '意見文の構造：問題提起 → 自分の意見（主張）→ 根拠・理由 → 反論の考慮 → 結論',
+        '主張文を探す：「〜と考える」「〜べきだ」「〜が重要だ」「〜ではないだろうか」',
+        '根拠を探す：「なぜなら〜」「〜からだ」「〜のためだ」「〜という点で」',
+        '反論の考慮：「たしかに〜しかし〜」「〜という意見もあるが〜」',
+        '結論：「以上から〜」「このように〜」「要するに〜」',
+      ],
+      vocabulary: [
+        { word: '主張', reading: 'しゅちょう', meaning: '自分の意見を強く言う（luận điểm）', example: '筆者の主張は〜です' },
+        { word: '根拠', reading: 'こんきょ', meaning: '理由・証拠（cơ sở/lý do）', example: '根拠を示す' },
+        { word: '反論', reading: 'はんろん', meaning: '反対意見（phản biện）', example: '反論を考慮する' },
+        { word: '賛成', reading: 'さんせい', meaning: '同じ意見（đồng ý）', example: '〜に賛成する' },
+        { word: '反対', reading: 'はんたい', meaning: '違う意見（phản đối）', example: '〜に反対する' },
+      ],
+      examples: [
+        { japanese: '（意見文の例）「高齢化社会が進む中、外国人介護士の受け入れは不可欠だと考える。なぜなら、国内の介護従事者不足は深刻だからだ。たしかに、言語・文化の壁という課題もある。しかし、適切な教育プログラムを整備することで、質の高いケアは実現できる。」→ 主張：外国人介護士受け入れが必要 / 根拠：人手不足 / 反論考慮：言語・文化の問題 / 結論：教育で解決可能', reading: 'こうれいかしゃかいがすすむなか、がいこくじんかいごしのうけいれはふかけつだとかんがえる。なぜなら、こくないのかいごじゅうじしゃぶそくはしんこくだからだ。', translation: '(Ví dụ bài ý kiến) "Trong bối cảnh xã hội già hóa, tôi cho rằng tiếp nhận điều dưỡng viên nước ngoài là không thể thiếu. Bởi vì, tình trạng thiếu nhân lực điều dưỡng trong nước đang rất nghiêm trọng. Tuy nhiên cũng có rào cản ngôn ngữ và văn hóa. Nhưng với chương trình đào tạo phù hợp, có thể cung cấp dịch vụ chăm sóc chất lượng cao."' },
+      ],
+      grammarNote: `【意見文の信号語】
+主張：「〜と考える」「〜べきだ」「〜が重要だ」
+根拠：「なぜなら」「〜からだ」「〜のためだ」
+反論考慮：「たしかに〜しかし〜」「〜かもしれないが〜」
+結論：「以上から〜」「このように〜」「要するに〜」
+
+【筆者の意見を問う設問の解き方】
+「筆者は〜についてどう思っているか」
+→ 「〜と考える・〜べきだ・〜が大切だ」などの主張文を探す
+「この文章で筆者が最も言いたいことは？」
+→ 最後の段落の結論文を重視する`,
+      quizzes: [
+        {
+          question: '「たしかに〜しかし〜」の構造で筆者の本当の意見はどちら？',
+          options: [
+            { id: 'a', text: '「たしかに〜」の部分' },
+            { id: 'b', text: '「しかし〜」の部分' },
+            { id: 'c', text: '両方同じ' },
+            { id: 'd', text: 'どちらでもない' },
+          ],
+          correctId: 'b',
+          explanation: '「たしかに〜（反論を認める）、しかし〜（でも自分の意見はこちら）」の構造では、「しかし」の後が筆者の本当の主張です。逆接の後に重要な意見が来ます。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '意見文で「なぜなら〜からだ」は何の役割？',
+          options: [
+            { id: 'a', text: '主張の根拠・理由を示す' },
+            { id: 'b', text: '反論を示す' },
+            { id: 'c', text: '結論を示す' },
+            { id: 'd', text: '問題提起をする' },
+          ],
+          correctId: 'a',
+          explanation: '「なぜなら〜からだ」は「その理由は〜だから」という意味で、前の主張に対する根拠・理由を示します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「以上から〜と考えられる」はどこに来ることが多い？',
+          options: [
+            { id: 'a', text: '文章の冒頭' },
+            { id: 'b', text: '文章の中間' },
+            { id: 'c', text: '文章の最後（結論部分）' },
+            { id: 'd', text: '反論の後' },
+          ],
+          correctId: 'c',
+          explanation: '「以上から」は「前に述べてきたことから（kết luận từ những điều trên）」という意味で、議論の結論部分（最後の段落）に来ることがほとんどです。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n3-03-17': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3統合演習①: 聴解＋速読の複合練習',
+      titleTranslation: 'Luyện tổng hợp N3①: Kết hợp nghe và đọc nhanh',
+      introduction: `N3試験の聴解と読解を組み合わせた複合演習です。実際の試験では聴解と読解が交互に出題されます。このレッスンでは、同じテーマについて「聴解（話し言葉）」と「読解（書き言葉）」の両方で情報を処理する練習をします。介護現場では口頭の申し送りと書面の記録を同時に扱うスキルが求められます。
+
+Bài luyện kết hợp nghe và đọc N3. Trong đề thi thực tế, nghe và đọc xen kẽ nhau. Bài này luyện xử lý thông tin cùng một chủ đề qua cả hai kênh "nghe (ngôn ngữ nói)" và "đọc (ngôn ngữ viết)". Tại nơi làm việc điều dưỡng, cần kỹ năng xử lý đồng thời cả bàn giao miệng và hồ sơ viết.`,
+      keyPoints: [
+        '聴解と読解の違い：話し言葉（省略・縮約）vs 書き言葉（正式・詳細）',
+        '同じ情報の2種類の表現に慣れる',
+        '聴解中のメモ技術：記号を使って素早くメモする',
+        '読解との照合：メモした情報を文書で確認する',
+        '実践力アップ：スピードと正確さのバランスを取る',
+      ],
+      vocabulary: [
+        { word: '複合', reading: 'ふくごう', meaning: '複数の要素の組み合わせ（kết hợp）', example: '複合演習で実力を高める' },
+        { word: '照合', reading: 'しょうごう', meaning: '比べて確認する（đối chiếu）', example: '音声と文書を照合する' },
+        { word: '記号', reading: 'きごう', meaning: '簡単なしるし（ký hiệu）', example: 'メモで記号を使う' },
+        { word: '実践', reading: 'じっせん', meaning: '実際に行う（thực hành）', example: '実践的な練習をする' },
+        { word: '正確', reading: 'せいかく', meaning: '間違いのない（chính xác）', example: '正確に聞き取る' },
+      ],
+      dialogue: [
+        { speaker: '音声（申し送り）', japanese: '田中様の今日の様子です。朝から食欲がなく、昼食は3割程度しか食べられませんでした。体温は37.2度で微熱があります。水分補給を促しましたが、あまり飲めていません。', reading: 'たなかさまのきょうのようすです。あさからしょくよくがなく、ちゅうしょくは3わりていどしかたべられませんでした。たいおんは37.2どでびねつがあります。すいぶんほきゅうをうながしましたが、あまりのめていません。', translation: 'Tình trạng hôm nay của bà Tanaka: Từ sáng đã mất cảm giác ngon miệng, bữa trưa chỉ ăn được khoảng 30%. Nhiệt độ 37.2°C, có sốt nhẹ. Đã nhắc uống nước nhưng uống không nhiều.' },
+      ],
+      examples: [
+        { japanese: '（文書）介護記録：「田中様 昼食摂取量：3割。体温：37.2度（微熱あり）。食欲不振、水分摂取量少。要観察。」→ 音声と文書の内容が一致しているか確認する練習', reading: 'たなかさま ちゅうしょくせっしゅりょう：3わり。たいおん：37.2ど（びねつあり）。しょくよくふしん、すいぶんせっしゅりょうすくない。ようかんさつ。', translation: '(Tài liệu) Hồ sơ điều dưỡng: "Bà Tanaka: Lượng ăn trưa 30%. Nhiệt độ 37.2°C (sốt nhẹ). Chán ăn, uống ít nước. Cần theo dõi." → Luyện xác nhận nội dung âm thanh và tài liệu có khớp không' },
+      ],
+      grammarNote: `【メモの取り方（基本記号）】
+→ : 変化・経過（thay đổi/tiến triển）
+↑ : 増加・上昇（tăng lên）
+↓ : 減少・低下（giảm xuống）
+× : 問題あり・NG（có vấn đề）
+○ : 問題なし・OK（ổn）
+⚠ : 注意（chú ý）
+? : 不明・確認必要（chưa rõ）
+
+【聴解メモの実例】
+田中：食欲↓（3割）体温37.2（微熱）水分↓　→要観察`,
+      quizzes: [
+        {
+          question: '口頭の「3割しか食べられなかった」を文書に記録するとき、適切な表現は？',
+          options: [
+            { id: 'a', text: '「たくさん食べた」' },
+            { id: 'b', text: '「食欲なし・昼食摂取量3割」' },
+            { id: 'c', text: '「何も食べなかった」' },
+            { id: 'd', text: '「全量摂取」' },
+          ],
+          correctId: 'b',
+          explanation: '口頭表現「3割程度しか食べられなかった」は文書では「食欲不振・摂取量3割」のように簡潔に記録します。3割＝全体の30%のみ食べたという意味です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: 'メモを素早く取るときに便利な方法は？',
+          options: [
+            { id: 'a', text: '全部の文章を書く' },
+            { id: 'b', text: '記号と略語を使う' },
+            { id: 'c', text: '書かない' },
+            { id: 'd', text: 'ひらがなで全部書く' },
+          ],
+          correctId: 'b',
+          explanation: '「↑」「↓」「→」「×」「○」などの記号と略語を使うと、素早く正確にメモを取れます。全文を書こうとすると重要情報を聞き逃します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「微熱」とはどの程度の体温？',
+          options: [
+            { id: 'a', text: '36.5度以下' },
+            { id: 'b', text: '37〜37.9度程度' },
+            { id: 'c', text: '39度以上' },
+            { id: 'd', text: '38〜38.9度' },
+          ],
+          correctId: 'b',
+          explanation: '「微熱（びねつ）」は37〜37.9度程度の軽い熱。「高熱（こうねつ）」は38度以上。介護記録では体温の区分を正確に記録します。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n3-03-18': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3統合演習②: 時間制限付き速読トレーニング',
+      titleTranslation: 'Luyện tổng hợp N3②: Đọc nhanh có giới hạn thời gian',
+      introduction: `N3試験の読解問題には制限時間があります。このレッスンでは「時間を意識した読み方」を練習します。「1問あたり何分で解くか」を意識して、スキャニング・スキミング・精読を組み合わせた時間管理の技術を身につけます。
+
+Đọc hiểu thi N3 có giới hạn thời gian. Bài này luyện "cách đọc có ý thức về thời gian". Nắm kỹ thuật quản lý thời gian kết hợp scanning, skimming và đọc kỹ, với ý thức "mỗi câu hỏi tốn bao nhiêu phút".`,
+      keyPoints: [
+        'N3読解の時間目安：短文（100字以内）30秒〜1分、中文（200〜400字）2〜3分、長文（400字以上）3〜5分',
+        '優先順位：簡単な設問から解く → 難問は後回し',
+        '速読の3ステップ：① 設問先読み → ② スキミング（15秒）→ ③ 設問に関係する部分だけ精読',
+        '時間超過のサイン：1問に3分以上かかったら次へ',
+        '見直し時間：最後の5分は確認に使う',
+      ],
+      vocabulary: [
+        { word: '制限時間', reading: 'せいげんじかん', meaning: '決められた時間（giới hạn thời gian）', example: '制限時間は60分です' },
+        { word: '優先', reading: 'ゆうせん', meaning: '先にやる（ưu tiên）', example: '簡単な問題を優先する' },
+        { word: '精読', reading: 'せいどく', meaning: 'じっくり丁寧に読む（đọc kỹ）', example: '重要な部分だけ精読する' },
+        { word: '後回し', reading: 'あとまわし', meaning: '後でやる（để sau）', example: '難問は後回しにする' },
+        { word: 'ペース', reading: 'ぺーす', meaning: 'スピード・リズム（tốc độ）', example: '解答のペースを保つ' },
+      ],
+      examples: [
+        { japanese: '（時間管理の例）200字の文章と3設問 → 全体を15秒でスキミング → 設問1：40秒で解く → 設問2：40秒 → 設問3：40秒 → 合計：約2分30秒で完了', reading: '200じのぶんしょうと3せつもん → ぜんたいを15びょうでスキミング → せつもん1：40びょうでとく', translation: '(Ví dụ quản lý thời gian) Văn bản 200 chữ, 3 câu hỏi → Skimming toàn bài trong 15 giây → Câu 1: 40 giây → Câu 2: 40 giây → Câu 3: 40 giây → Tổng: khoảng 2 phút 30 giây' },
+      ],
+      grammarNote: `【N3読解の時間配分目安】
+短文（〜100字）：1〜1.5分 / 1問
+中文（200〜400字）：2〜3分 / 1問
+長文（400字以上）：4〜5分 / 1問
+
+【速読3ステップ】
+STEP 1: 設問を先読み（10〜15秒）
+STEP 2: 文章をスキミング（15〜30秒）
+STEP 3: 設問に関係する箇所のみ精読（30秒〜2分）
+
+【時間切れを防ぐルール】
+・1問3分超 → いったん次へ
+・最後5分 → 全体見直し
+・分からない問題 → 最後でも必ず選択肢を選ぶ（空白はNG）`,
+      quizzes: [
+        {
+          question: '速読3ステップの正しい順序は？',
+          options: [
+            { id: 'a', text: '精読 → スキミング → 設問先読み' },
+            { id: 'b', text: 'スキミング → 設問先読み → 精読' },
+            { id: 'c', text: '設問先読み → スキミング → 精読' },
+            { id: 'd', text: '精読 → 設問先読み → スキミング' },
+          ],
+          correctId: 'c',
+          explanation: '最も効率的な順序は「①設問先読み（何を探すか確認）→ ②スキミング（全体把握）→ ③設問関連箇所のみ精読（答えを探す）」です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '1問に時間をかけすぎたとき、正しい対応は？',
+          options: [
+            { id: 'a', text: 'その問題が解けるまで続ける' },
+            { id: 'b', text: 'いったん次の問題に進む' },
+            { id: 'c', text: '試験をやめる' },
+            { id: 'd', text: '最初に戻る' },
+          ],
+          correctId: 'b',
+          explanation: '1問に時間をかけすぎると後の問題に影響します。難問はいったん次へ進み、時間があれば後で戻ります。試験では全体のペース管理が重要です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '試験で分からない問題への正しい対応は？',
+          options: [
+            { id: 'a', text: '空白のまま提出する' },
+            { id: 'b', text: '必ず何かを選択する' },
+            { id: 'c', text: 'その問題だけ長時間考える' },
+            { id: 'd', text: '試験官に相談する' },
+          ],
+          correctId: 'b',
+          explanation: '選択式問題で空白は必ず0点です。分からなくても必ず選択肢を選びましょう。確率的に正解する可能性があります。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 30,
+    },
+  },
+
+  'n3-03-19': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3模擬演習: 本番形式の聴解・読解総合問題',
+      titleTranslation: 'N3 Luyện thi thử: Tổng hợp nghe và đọc dạng thực chiến',
+      introduction: `このレッスンはN3試験に近い形式の模擬演習です。聴解問題（場面理解・ポイント理解）と読解問題（短文・中文）を組み合わせた総合練習をします。今まで学んだすべての技術（スキャニング・スキミング・接続詞・情報統合）を総動員して解答します。
+
+Bài này là luyện thi thử gần với định dạng thi N3 thực tế. Luyện tổng hợp kết hợp câu nghe (hiểu tình huống / hiểu điểm chính) và câu đọc (đoạn ngắn / đoạn vừa). Huy động tất cả kỹ thuật đã học (scanning, skimming, liên từ, tổng hợp thông tin) để trả lời.`,
+      keyPoints: [
+        '聴解問題の形式：①課題理解（何をするべきか）②ポイント理解（話の要点は何か）③発話表現（どの表現が適切か）',
+        '読解問題の形式：①内容理解（短文）②内容理解（中文）③情報検索（掲示・広告）',
+        '解答の流れ：選択肢を先に読む → 音声・文章を聞く/読む → 答えを選ぶ',
+        '頻出テーマ：医療・介護・健康・環境・社会問題・日常生活',
+        '最終確認：答えを選んだ後、根拠が文章にあるか確認する',
+      ],
+      vocabulary: [
+        { word: '模擬', reading: 'もぎ', meaning: '本番に似せた練習（mô phỏng）', example: '模擬試験で実力を確認する' },
+        { word: '課題', reading: 'かだい', meaning: 'やるべき問題・仕事（nhiệm vụ）', example: '課題理解問題に答える' },
+        { word: '発話', reading: 'はつわ', meaning: '話すこと・発言（lời nói）', example: '適切な発話表現を選ぶ' },
+        { word: '検索', reading: 'けんさく', meaning: '探して調べる（tìm kiếm）', example: '情報検索問題を解く' },
+        { word: '根拠', reading: 'こんきょ', meaning: '答えの理由・証拠（cơ sở）', example: '根拠を文章から探す' },
+      ],
+      dialogue: [
+        { speaker: '聴解問題例（課題理解）', japanese: '「来週の月曜日に健康診断があります。前日の夜から食事は取らないでください。飲み物は水だけにしてください。当日は8時30分までに保健室に来てください。」問：この人は何をしなければなりませんか？', reading: 'らいしゅうのげつようびにけんこうしんだんがあります。ぜんじつのよるからしょくじはとらないでください。のみものはみずだけにしてください。とうじつは8じ30ぷんまでにほけんしつにきてください。', translation: '(Ví dụ câu nghe - hiểu nhiệm vụ) "Thứ Hai tuần tới có khám sức khỏe. Từ tối hôm trước không ăn gì. Chỉ được uống nước. Hôm khám đến phòng y tế trước 8:30." Hỏi: Người này phải làm gì?' },
+      ],
+      examples: [
+        { japanese: '（読解問題例）「当施設では毎週水曜日にリハビリ体操を実施しています。対象は入所者全員です。ただし、医師の判断により参加できない場合があります。参加希望の方は担当スタッフまでお申し出ください。」問：参加できない場合があるのはなぜですか？→ 医師の判断による', reading: 'とうしせつではまいしゅうすいようびにりはびりたいそうをじっししています。たいしょうはにゅうしょしゃぜんいんです。ただし、いしのはんだんによりさんかできないばあいがあります。', translation: '(Ví dụ câu đọc) "Cơ sở chúng tôi tổ chức thể dục phục hồi mỗi thứ Tư. Đối tượng là tất cả người ở trọ. Tuy nhiên, có trường hợp không thể tham gia theo quyết định của bác sĩ. Ai muốn tham gia hãy báo nhân viên phụ trách." Hỏi: Tại sao có trường hợp không tham gia được? → Theo quyết định của bác sĩ' },
+      ],
+      grammarNote: `【聴解問題タイプ別の解き方】
+課題理解（何をすべきか）：
+→「〜してください」「〜なければなりません」を中心に聞く
+ポイント理解（話の要点）：
+→ 最後の発言・結論部分を重視する
+発話表現（どの表現が適切か）：
+→ 場面・相手・フォーマル度を判断する
+
+【読解問題タイプ別の解き方】
+内容理解：設問先読み → スキャニングで答えを探す
+情報検索（掲示物・広告）：スキャニングで数字・条件を探す
+主旨理解：スキミングで筆者の意見を把握する`,
+      quizzes: [
+        {
+          question: '聴解の「課題理解」問題で最重要なのは？',
+          options: [
+            { id: 'a', text: '話者の感情' },
+            { id: 'b', text: '「〜してください」「〜すること」など行動指示の表現' },
+            { id: 'c', text: '話の背景' },
+            { id: 'd', text: '話者の名前' },
+          ],
+          correctId: 'b',
+          explanation: '課題理解問題は「何をすべきか・何をしてはいけないか」を聞く問題。「〜してください」「〜なければなりません」「〜はいけません」などの指示・義務・禁止表現に注目します。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '読解の「情報検索」問題（掲示物・広告）で最も有効な技術は？',
+          options: [
+            { id: 'a', text: 'スキミング（全体の要旨把握）' },
+            { id: 'b', text: 'スキャニング（特定情報を素早く探す）' },
+            { id: 'c', text: '精読（全部じっくり読む）' },
+            { id: 'd', text: '音読' },
+          ],
+          correctId: 'b',
+          explanation: '掲示物・広告の情報検索問題は「日時・場所・条件・料金」などの特定情報を素早く探す問題。スキャニングが最も効率的です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '選択肢を選んだ後、最後に確認すべきことは？',
+          options: [
+            { id: 'a', text: '選択肢の長さ' },
+            { id: 'b', text: '答えの根拠が文章・音声の中にあるか' },
+            { id: 'c', text: '漢字の書き方' },
+            { id: 'd', text: '選択肢の順番' },
+          ],
+          correctId: 'b',
+          explanation: '選択肢を選んだ後、「その答えの根拠が文章・音声の中に実際に存在するか」を確認します。自分の知識・常識ではなく、必ず問題のテキスト・音声に根拠を求めます。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 35,
+    },
+  },
+
+  'n3-03-20': {
+    courseTitle: { ja: 'N3 聴解・速読トレーニング', vi: 'Luyện nghe & đọc nhanh N3' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3聴解・速読 総復習テスト（20問）',
+      titleTranslation: 'Kiểm tra tổng hợp N3 Nghe & Đọc nhanh（20 câu）',
+      introduction: `このレッスンはN3聴解・速読トレーニング全20レッスンの総復習テストです。聴解のポイント（場面理解・情報統合・省略形）と速読技術（スキャニング・スキミング・接続詞・要点抽出）を総合的に確認します。合格を目指して全力で取り組みましょう！
+
+Bài này là kiểm tra tổng hợp toàn bộ 20 bài N3 nghe & đọc nhanh. Kiểm tra toàn diện các điểm nghe (hiểu tình huống, tổng hợp thông tin, dạng rút gọn) và kỹ thuật đọc nhanh (scanning, skimming, liên từ, tách điểm chính). Hãy cố hết sức để vượt qua!`,
+      keyPoints: [
+        'L1〜L10（聴解）：場面理解・電話・申し送り・感情・数字・指示・会議・アナウンス・省略形・情報統合',
+        'L11〜L16（速読）：スキャニング・スキミング・接続詞・要点抽出・長文①説明文・長文②意見文',
+        'L17〜L19（複合演習）：聴解＋速読・時間管理・模擬演習',
+        'N3試験の傾向：実用的な場面・介護医療テーマ・情報の整理力が重要',
+        '合格ポイント：根拠を文章から探す・時間管理・接続詞の活用',
+      ],
+      vocabulary: [
+        { word: '総復習', reading: 'そうふくしゅう', meaning: '全部をもう一度確認する（ôn tập tổng hợp）', example: '総復習テストで実力確認' },
+        { word: '合格', reading: 'ごうかく', meaning: '試験に受かる（đỗ）', example: 'N3合格を目指す' },
+        { word: '実力', reading: 'じつりょく', meaning: '本当の能力（thực lực）', example: '実力を発揮する' },
+        { word: '対策', reading: 'たいさく', meaning: '準備・方法（đối sách）', example: '試験対策をする' },
+        { word: '総合', reading: 'そうごう', meaning: '全部合わせた（tổng hợp）', example: '総合的な力を確認する' },
+      ],
+      examples: [
+        { japanese: '【聴解の重要ポイントまとめ】場面理解：誰が・誰に・何を・なぜ／感情：声のトーン・間接表現／数字：数値を正確にメモ／省略形：ちゃう・てる・なきゃ／情報統合：訂正発言に注目', reading: 'ばめんりかい：だれが・だれに・なにを・なぜ／かんじょう：こえのとーん・かんせつひょうげん／すうじ：すうちをせいかくにめも', translation: '【Tóm tắt điểm nghe quan trọng】Hiểu tình huống: ai/với ai/làm gì/tại sao / Cảm xúc: giọng điệu & cách nói gián tiếp / Số liệu: ghi chú chính xác / Rút gọn: ちゃう・てる・なきゃ / Tổng hợp: chú ý câu chỉnh sửa' },
+        { japanese: '【速読の重要ポイントまとめ】スキャニング：キーワードを探す／スキミング：段落の最初と最後を読む／接続詞：しかし→逆接・したがって→結果・ただし→例外／要点：つまり・要するに・このように', reading: 'すきゃにんぐ：きーわーどをさがす／すきみんぐ：だんらくのさいしょとさいごをよむ／せつぞくし：しかし→ぎゃくせつ・したがって→けっか', translation: '【Tóm tắt điểm đọc nhanh quan trọng】Scanning: tìm từ khóa / Skimming: đọc đầu và cuối đoạn / Liên từ: しかし→đảo chiều, したがって→kết quả, ただし→ngoại lệ / Điểm chính: つまり・要するに・このように' },
+      ],
+      grammarNote: `【N3聴解・速読 全技術まとめ】
+聴解技術：
+① 場面把握（誰が・誰に・何を・なぜ）
+② 感情・ニュアンス（ちょっと=断り、声のトーン）
+③ 数字の正確なメモ（↑↓記号活用）
+④ 縮約形の理解（ちゃう・てる・なきゃ）
+⑤ 情報統合（訂正発言を優先）
+
+速読技術：
+① スキャニング（特定情報を素早く探す）
+② スキミング（全体の要旨を把握）
+③ 接続詞（しかし=逆接・したがって=結果・ただし=例外）
+④ 要点抽出（つまり・要するに・このように の後）
+⑤ 設問先読み（時間効率アップ）`,
+      quizzes: [
+        {
+          question: '「ちょっと...」という発言が表す最も一般的な意味は？',
+          options: [
+            { id: 'a', text: '少し・わずか（ít/một chút）' },
+            { id: 'b', text: '間接的な断り・困惑（từ chối gián tiếp）' },
+            { id: 'c', text: '急いでいる（đang vội）' },
+            { id: 'd', text: '大変嬉しい（rất vui）' },
+          ],
+          correctId: 'b',
+          explanation: '会話の中で「ちょっと...（言葉を濁す）」は間接的な断りや困惑を表す日本語特有の表現です。直接断ることを避ける文化的ニュアンスがあります。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「したがって」の後に来る内容は？',
+          options: [
+            { id: 'a', text: '前文と反対の内容' },
+            { id: 'b', text: '例外・補足情報' },
+            { id: 'c', text: '前文の原因に基づく結果・結論' },
+            { id: 'd', text: '新しい話題' },
+          ],
+          correctId: 'c',
+          explanation: '「したがって」は順接の接続詞で、前の原因・理由に基づいた「結果・結論」が後に来ます。「そのため・だから」と同じ役割です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: 'N3速読でスキャニングが最も有効な設問は？',
+          options: [
+            { id: 'a', text: '「筆者の主張は何ですか」' },
+            { id: 'b', text: '「文章のテーマは何ですか」' },
+            { id: 'c', text: '「この活動はいつ・どこで行われますか」' },
+            { id: 'd', text: '「この文章の目的は何ですか」' },
+          ],
+          correctId: 'c',
+          explanation: 'スキャニングは特定の情報（日時・場所・数字・名前）を探すときに有効。「いつ・どこで」という具体的な情報を問う設問はスキャニングで素早く解けます。a・b・dはスキミングが有効な設問です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '申し送りで「引き続き観察をお願いします」の意味は？',
+          options: [
+            { id: 'a', text: '観察を終了してください' },
+            { id: 'b', text: '今から観察を始めてください' },
+            { id: 'c', text: '次の担当者も継続して観察してください' },
+            { id: 'd', text: '医師に報告してください' },
+          ],
+          correctId: 'c',
+          explanation: '「引き続き（ひきつづき）」は「tiếp tục（継続して）」の意味。「引き続き観察をお願いします」は「次の担当者も継続して状態を観察してください」という申し送りの定型表現です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '速読の正しいステップの順序は？',
+          options: [
+            { id: 'a', text: '精読 → スキミング → 設問先読み' },
+            { id: 'b', text: '設問先読み → スキミング → 設問関連箇所の精読' },
+            { id: 'c', text: 'スキミング → 精読 → 設問先読み' },
+            { id: 'd', text: '設問先読み → 精読 → スキミング' },
+          ],
+          correctId: 'b',
+          explanation: '最も効率的な速読ステップは「①設問先読み（何を探すか把握）→ ②スキミング（全体の流れを把握）→ ③設問に関係する箇所のみ精読（答えを探す）」です。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
   // ===== N3 語彙強化 =====
   'n3-04': {
     courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
@@ -14955,6 +16539,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n4-05': ['n4-05', 'n4-05-2', 'n4-05-3', 'n4-05-4', 'n4-05-5', 'n4-05-6', 'n4-05-7', 'n4-05-8', 'n4-05-9', 'n4-05-10', 'n4-05-11', 'n4-05-12', 'n4-05-13', 'n4-05-14', 'n4-05-15'],
   'n3-01': ['n3-01', 'n3-01-2', 'n3-01-3', 'n3-01-4', 'n3-01-5', 'n3-01-6', 'n3-01-7', 'n3-01-8', 'n3-01-9', 'n3-01-10', 'n3-01-11', 'n3-01-12', 'n3-01-13', 'n3-01-14', 'n3-01-15', 'n3-01-16', 'n3-01-17', 'n3-01-18', 'n3-01-19', 'n3-01-20', 'n3-01-21', 'n3-01-22', 'n3-01-23', 'n3-01-24', 'n3-01-25', 'n3-01-26', 'n3-01-27', 'n3-01-28', 'n3-01-29', 'n3-01-30'],
   'n3-02': ['n3-02', 'n3-02-2', 'n3-02-3', 'n3-02-4', 'n3-02-5', 'n3-02-6', 'n3-02-7', 'n3-02-8', 'n3-02-9', 'n3-02-10', 'n3-02-11', 'n3-02-12', 'n3-02-13', 'n3-02-14', 'n3-02-15', 'n3-02-16', 'n3-02-17', 'n3-02-18', 'n3-02-19', 'n3-02-20'],
+  'n3-03': ['n3-03', 'n3-03-2', 'n3-03-3', 'n3-03-4', 'n3-03-5', 'n3-03-6', 'n3-03-7', 'n3-03-8', 'n3-03-9', 'n3-03-10', 'n3-03-11', 'n3-03-12', 'n3-03-13', 'n3-03-14', 'n3-03-15', 'n3-03-16', 'n3-03-17', 'n3-03-18', 'n3-03-19', 'n3-03-20'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -15157,6 +16742,26 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n3-02-18': { ja: '長文読解①新聞記事', vi: 'Văn dài①Bài báo' },
   'n3-02-19': { ja: '長文読解②説明文', vi: 'Văn dài②Văn thông tin' },
   'n3-02-20': { ja: '総復習テスト', vi: 'Kiểm tra tổng hợp' },
+  'n3-03':    { ja: '長い会話と場面理解', vi: 'Hội thoại dài & Hiểu bối cảnh' },
+  'n3-03-2':  { ja: '電話・アナウンス聴解', vi: 'Điện thoại & Thông báo' },
+  'n3-03-3':  { ja: '申し送り・報告を聞く', vi: 'Bàn giao ca & Báo cáo' },
+  'n3-03-4':  { ja: '感情・意図・ニュアンス', vi: 'Cảm xúc & Sắc thái' },
+  'n3-03-5':  { ja: '数字・日程・スケジュール', vi: 'Số liệu & Lịch trình' },
+  'n3-03-6':  { ja: '指示・依頼・提案の区別', vi: 'Chỉ thị / Nhờ vả / Đề xuất' },
+  'n3-03-7':  { ja: '会議・カンファレンス', vi: 'Hội họp & Conference' },
+  'n3-03-8':  { ja: 'ニュース・施設アナウンス', vi: 'Tin tức & Thông báo cơ sở' },
+  'n3-03-9':  { ja: '省略・縮約形・話し言葉', vi: 'Dạng rút gọn & Ngôn ngữ nói' },
+  'n3-03-10': { ja: '情報統合・複数情報の処理', vi: 'Tổng hợp nhiều thông tin' },
+  'n3-03-11': { ja: '速読①スキャニング', vi: 'Đọc nhanh①Scanning' },
+  'n3-03-12': { ja: '速読②スキミング', vi: 'Đọc nhanh②Skimming' },
+  'n3-03-13': { ja: '速読③接続詞で流れを読む', vi: 'Đọc nhanh③Liên từ' },
+  'n3-03-14': { ja: '速読④主題・要点の抽出', vi: 'Đọc nhanh④Chủ đề & Điểm chính' },
+  'n3-03-15': { ja: '長文速読①説明文・医療文書', vi: 'Văn dài①Thông tin y tế' },
+  'n3-03-16': { ja: '長文速読②記事・意見文', vi: 'Văn dài②Bài báo & Ý kiến' },
+  'n3-03-17': { ja: '複合演習①聴解＋速読', vi: 'Tổng hợp①Nghe & Đọc nhanh' },
+  'n3-03-18': { ja: '複合演習②時間管理速読', vi: 'Tổng hợp②Quản lý thời gian' },
+  'n3-03-19': { ja: 'N3模擬演習（本番形式）', vi: 'N3 Luyện thi thử' },
+  'n3-03-20': { ja: '総復習テスト（20問）', vi: 'Kiểm tra tổng hợp（20 câu）' },
 };
 
 // Find course ID for a given lesson ID
