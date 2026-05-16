@@ -13718,6 +13718,1462 @@ communication → コミュニケーション
     },
   },
 
+  // ===== N3 語彙強化 L2〜L8 =====
+  'n3-04-2': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 生活・職場のカタカナ語',
+      titleTranslation: 'Từ vựng N3: Từ Katakana trong cuộc sống và nơi làm việc',
+      introduction: `医療・介護以外にも、日本の職場や日常生活では多くのカタカナ語が使われます。「スケジュール・マニュアル・チェック・フォロー」など、ビジネス場面でよく使うカタカナ語をマスターすることで、職場でのコミュニケーションがスムーズになります。
+
+Ngoài y tế và điều dưỡng, nhiều từ Katakana được dùng trong nơi làm việc và cuộc sống hàng ngày ở Nhật. Nắm vững các từ Katakana thường dùng trong môi trường làm việc như スケジュール・マニュアル・チェック・フォロー giúp giao tiếp tại nơi làm việc trơn tru hơn.`,
+      keyPoints: [
+        'スケジュール（schedule）: 日程・予定 — lịch trình',
+        'マニュアル（manual）: 手順書・説明書 — sổ tay hướng dẫn',
+        'チェック（check）: 確認・点検 — kiểm tra',
+        'フォロー（follow）: 補助・サポート — hỗ trợ theo dõi',
+        'シフト（shift）: 勤務時間帯 — ca làm việc',
+        'ミーティング（meeting）: 会議・打ち合わせ — cuộc họp',
+      ],
+      vocabulary: [
+        { word: 'スケジュール', reading: 'すけじゅーる', meaning: '予定・日程（lịch trình）', example: 'スケジュールを確認する' },
+        { word: 'マニュアル', reading: 'まにゅある', meaning: '手順書（sổ tay）', example: 'マニュアル通りに行う' },
+        { word: 'シフト', reading: 'しふと', meaning: '勤務の時間帯（ca làm việc）', example: '今日のシフトは夜勤です' },
+        { word: 'フォロー', reading: 'ふぉろー', meaning: '補助・サポート（hỗ trợ）', example: '新人をフォローする' },
+        { word: 'チームワーク', reading: 'ちーむわーく', meaning: '協力して働く力（tinh thần đồng đội）', example: 'チームワークが大切です' },
+      ],
+      dialogue: [
+        { speaker: '上司', japanese: '来週のシフトを確認してください。マニュアルも一度読んでおいてください。', reading: 'らいしゅうのしふとをかくにんしてください。まにゅあるもいちどよんでおいてください。', translation: 'Hãy xác nhận ca làm việc tuần tới. Cũng hãy đọc sổ tay hướng dẫn một lần nhé.' },
+        { speaker: '新人', japanese: 'はい、分かりました。ミーティングのスケジュールはいつですか。', reading: 'はい、わかりました。みーてぃんぐのすけじゅーるはいつですか。', translation: 'Vâng, tôi hiểu. Lịch cuộc họp là khi nào ạ?' },
+      ],
+      examples: [
+        { japanese: '「今日は日勤シフトです。ケアカンファレンスのスケジュールをチェックしておいてください。」', reading: 'きょうはにっきんしふとです。けあかんふぁれんすのすけじゅーるをちぇっくしておいてください。', translation: '"Hôm nay ca ngày. Hãy kiểm tra lịch hội nghị chăm sóc nhé."' },
+        { japanese: '「新しいスタッフのフォローをお願いします。マニュアルに沿って指導してください。」', reading: 'あたらしいすたっふのふぉろーをおねがいします。まにゅあるにそってしどうしてください。', translation: '"Nhờ bạn hỗ trợ nhân viên mới. Hãy hướng dẫn theo sổ tay nhé."' },
+      ],
+      grammarNote: `【職場でよく使うカタカナ語一覧】
+ビジネス全般：
+スケジュール / マニュアル / チェック / フォロー
+ミーティング / プレゼン / レポート / フィードバック
+チームワーク / コミュニケーション / スタッフ / リーダー
+
+勤務関連：
+シフト / タイムカード / オーバータイム（残業）
+ローテーション（交替制）/ フルタイム / パートタイム
+
+介護・医療特有：
+カンファレンス / ケアプラン / インシデント / ヒヤリハット`,
+      quizzes: [
+        {
+          question: '「シフト」の意味は？',
+          options: [
+            { id: 'a', text: '会議（cuộc họp）' },
+            { id: 'b', text: '勤務の時間帯（ca làm việc）' },
+            { id: 'c', text: '報告書（báo cáo）' },
+            { id: 'd', text: '計画書（kế hoạch）' },
+          ],
+          correctId: 'b',
+          explanation: '「シフト（shift）」は勤務の時間帯や交替制のこと。「今日は何シフトですか？」「夜勤シフトです」のように使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「フォロー」の職場での意味は？',
+          options: [
+            { id: 'a', text: '追いかける（đuổi theo）' },
+            { id: 'b', text: 'SNSでフォローする（theo dõi mạng xã hội）' },
+            { id: 'c', text: '補助・サポートする（hỗ trợ）' },
+            { id: 'd', text: '電話する（gọi điện）' },
+          ],
+          correctId: 'c',
+          explanation: '職場での「フォロー」は「補助・サポート・フォローアップ」の意味。「新人をフォローする」＝「新入りを助ける・サポートする」ということです。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「マニュアル通りに行う」はどういう意味？',
+          options: [
+            { id: 'a', text: '手順書に書かれた通りに実行する（làm theo sổ tay）' },
+            { id: 'b', text: '自分のやり方でする（làm theo cách của mình）' },
+            { id: 'c', text: '急いでする（làm nhanh）' },
+            { id: 'd', text: '後でする（làm sau）' },
+          ],
+          correctId: 'a',
+          explanation: '「マニュアル（manual）」は手順書・説明書。「マニュアル通り」は「手順書に書かれた通り」という意味で、決められた手順を守ることを強調します。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  'n3-04-3': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: カタカナ語の読み方・変換ルール',
+      titleTranslation: 'Từ vựng N3: Quy tắc đọc và chuyển đổi từ Katakana',
+      introduction: `カタカナ語（外来語）は英語をはじめ、フランス語・ドイツ語・ポルトガル語などからも来ています。「英語と発音が違う」「意味が日本語独自に変わっている」ことも多く、ルールを知ることで新しいカタカナ語も推測しやすくなります。
+
+Từ Katakana (từ ngoại lai) có nguồn gốc từ tiếng Anh, Pháp, Đức, Bồ Đào Nha... Nhiều từ có phát âm khác tiếng Anh hoặc nghĩa đã thay đổi theo cách riêng của tiếng Nhật. Nắm quy tắc giúp đoán được các từ Katakana mới.`,
+      keyPoints: [
+        '短縮：長い語は短くする（リモコン ← リモートコントロール）',
+        '母音の変化：英語の「r」→ ラ行（radio→ラジオ）',
+        '子音の処理：末尾に小さい「ッ」（truck→トラック）',
+        '和製英語：英語にない意味（ハンドル＝steering wheel）',
+        '語尾の処理：「-tion」→「ション」（station→ステーション）',
+      ],
+      vocabulary: [
+        { word: 'リモコン', reading: 'りもこん', meaning: 'リモートコントロールの略（điều khiển từ xa）', example: 'リモコンでテレビを操作する' },
+        { word: 'スマホ', reading: 'すまほ', meaning: 'スマートフォンの略（điện thoại thông minh）', example: 'スマホで連絡する' },
+        { word: 'エアコン', reading: 'えあこん', meaning: 'エアコンディショナーの略（điều hòa）', example: 'エアコンをつけてください' },
+        { word: 'パソコン', reading: 'ぱそこん', meaning: 'パーソナルコンピューターの略（máy tính）', example: 'パソコンで記録する' },
+        { word: 'ナイター', reading: 'ないたー', meaning: '夜間試合（和製英語）（trận đấu đêm）', example: 'ナイターゲームを見る' },
+      ],
+      examples: [
+        { japanese: '（短縮の例）スマートフォン → スマホ / エアコンディショナー → エアコン / リモートコントロール → リモコン / パーソナルコンピューター → パソコン', reading: 'すまーとふぉん → すまほ / えあこんでぃしょなー → えあこん', translation: '(Ví dụ rút gọn) Smartphone → スマホ / Air conditioner → エアコン / Remote control → リモコン / Personal computer → パソコン' },
+        { japanese: '（和製英語の例）ハンドル（steering wheel）/ ガソリンスタンド（gas station）/ クーラーボックス（cooler box）', reading: 'はんどる / がそりんすたんど / くーらーぼっくす', translation: '(Ví dụ từ Nhật gốc Anh) ハンドル（tay lái）/ ガソリンスタンド（trạm xăng）/ クーラーボックス（hộp giữ lạnh）' },
+      ],
+      grammarNote: `【カタカナ語変換のルール】
+① 短縮（rút gọn）：長い語を短く
+　リモートコントロール → リモコン
+　スマートフォン → スマホ
+② 語尾パターン：
+　〜tion → 〜ション（station → ステーション）
+　〜er → 〜ー（computer → コンピューター）
+　〜al → 〜ル（manual → マニュアル）
+③ 和製英語（Từ Nhật gốc Anh, không dùng trong tiếng Anh）：
+　ハンドル（steering wheel）
+　クレーム（complaint）
+　サラリーマン（office worker）`,
+      quizzes: [
+        {
+          question: '「スマホ」は何の略？',
+          options: [
+            { id: 'a', text: 'スマートホーム（smart home）' },
+            { id: 'b', text: 'スマートフォン（smartphone）' },
+            { id: 'c', text: 'スマートホテル（smart hotel）' },
+            { id: 'd', text: 'スマートボタン（smart button）' },
+          ],
+          correctId: 'b',
+          explanation: '「スマホ」は「スマートフォン（smartphone）」の短縮形。日本語では長い外来語を短縮することが多いです。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '英語の「-tion」はカタカナ語でどう変わる？',
+          options: [
+            { id: 'a', text: '〜ツ' },
+            { id: 'b', text: '〜ション' },
+            { id: 'c', text: '〜ト' },
+            { id: 'd', text: '〜ズ' },
+          ],
+          correctId: 'b',
+          explanation: '英語の「-tion」はカタカナでは「〜ション」になります。例：station→ステーション、communication→コミュニケーション、rehabilitation→リハビリテーション。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「和製英語」とは？',
+          options: [
+            { id: 'a', text: '英語と全く同じ意味のカタカナ語' },
+            { id: 'b', text: '日本で作られた英語風の語で英語では通じない表現' },
+            { id: 'c', text: '英語の正しい発音のカタカナ表記' },
+            { id: 'd', text: 'フランス語起源のカタカナ語' },
+          ],
+          correctId: 'b',
+          explanation: '「和製英語」は英語に見えるが実際の英語では通じない日本製の語。例：ハンドル（英：steering wheel）、クレーム（英：complaint）、ガソリンスタンド（英：gas station）。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 20,
+    },
+  },
+
+  'n3-04-4': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 複合動詞①（〜出す・〜込む・〜上げる）',
+      titleTranslation: 'Từ vựng N3: Động từ ghép①（〜出す・〜込む・〜上げる）',
+      introduction: `複合動詞（động từ ghép）は2つの動詞を組み合わせた語で、N3以上でよく使われます。「〜出す」「〜込む」「〜上げる」などの後半部分が方向・結果・意味を追加します。介護現場でも「取り出す・飲み込む・持ち上げる」など多く使われます。
+
+Động từ ghép là từ kết hợp 2 động từ, thường dùng từ N3 trở lên. Phần sau như 〜出す, 〜込む, 〜上げる bổ sung nghĩa về hướng, kết quả. Trong điều dưỡng cũng dùng nhiều như 取り出す, 飲み込む, 持ち上げる.`,
+      keyPoints: [
+        '〜出す（dashi）: 内から外へ・始まり — lấy ra / bắt đầu đột ngột（取り出す・話し出す・飛び出す）',
+        '〜込む（komu）: 内へ入る・深く — đưa vào / sâu hơn（飲み込む・押し込む・落ち込む）',
+        '〜上げる（ageru）: 上方向・完成 — nâng lên / hoàn thành（持ち上げる・仕上げる・立ち上げる）',
+        '動詞+動詞の組み合わせ：前の動詞が主な動作、後の動詞が方向・結果を示す',
+        '介護でよく使う：持ち上げる・取り出す・飲み込む・申し込む・思い出す',
+      ],
+      vocabulary: [
+        { word: '取り出す', reading: 'とりだす', meaning: '中から取り出す（lấy ra）', example: '薬を取り出す' },
+        { word: '飲み込む', reading: 'のみこむ', meaning: '口に入れて飲む（nuốt）', example: '薬を飲み込む' },
+        { word: '持ち上げる', reading: 'もちあげる', meaning: '下から上へ上げる（nâng lên）', example: '荷物を持ち上げる' },
+        { word: '申し込む', reading: 'もうしこむ', meaning: '正式に申請する（đăng ký）', example: '研修に申し込む' },
+        { word: '思い出す', reading: 'おもいだす', meaning: '記憶を呼び戻す（nhớ lại）', example: '名前を思い出す' },
+      ],
+      examples: [
+        { japanese: '「薬ケースから薬を取り出して、コップの水と一緒に飲み込んでください。」', reading: 'くすりけーすからくすりをとりだして、こっぷのみずといっしょにのみこんでください。', translation: '"Hãy lấy thuốc ra từ hộp và nuốt cùng với nước trong cốc."' },
+        { japanese: '「移乗の際は、しっかり体を持ち上げてから車椅子に移ってください。」', reading: 'いじょうのさいは、しっかりからだをもちあげてからくるまいすにうつってください。', translation: '"Khi chuyển vị trí, hãy nâng người lên hẳn rồi mới chuyển sang xe lăn."' },
+      ],
+      grammarNote: `【〜出す・〜込む・〜上げる の意味まとめ】
+〜出す（lấy ra / bắt đầu đột ngột）：
+取り出す・飛び出す・話し出す・思い出す・作り出す
+
+〜込む（đưa vào / sâu hơn）：
+飲み込む・押し込む・落ち込む・申し込む・信じ込む
+
+〜上げる（nâng lên / hoàn thành）：
+持ち上げる・立ち上げる・仕上げる・作り上げる・盛り上げる
+
+【介護現場でよく使う複合動詞】
+取り出す / 飲み込む / 持ち上げる / 申し込む / 思い出す
+引き上げる / 抱き上げる / 立ち上がる / 座り込む`,
+      quizzes: [
+        {
+          question: '「飲み込む」の意味は？',
+          options: [
+            { id: 'a', text: '吐き出す（nôn ra）' },
+            { id: 'b', text: '口に入れて飲む（nuốt）' },
+            { id: 'c', text: '飲み始める（bắt đầu uống）' },
+            { id: 'd', text: '飲まない（không uống）' },
+          ],
+          correctId: 'b',
+          explanation: '「飲み込む」は「口の中のものを飲んで喉を通す」こと。「込む」は「内部へ」の方向を示します。高齢者の嚥下障害（えんげしょうがい）のケアで重要な語です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「〜出す」が持つ意味として正しいものは？',
+          options: [
+            { id: 'a', text: '内から外へ・突然始まる（lấy ra/bắt đầu đột ngột）' },
+            { id: 'b', text: '内へ入る（đưa vào）' },
+            { id: 'c', text: '上へ移動する（nâng lên）' },
+            { id: 'd', text: '完全に終わる（hoàn thành）' },
+          ],
+          correctId: 'a',
+          explanation: '「〜出す」は「内から外への移動」または「突然動作が始まる」を示します。取り出す（lấy ra）、話し出す（bắt đầu nói）、飛び出す（nhảy ra）などが例です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「申し込む」の「込む」はどんな意味を加えている？',
+          options: [
+            { id: 'a', text: '外に出る（ra ngoài）' },
+            { id: 'b', text: '上に上がる（nâng lên）' },
+            { id: 'c', text: '内部・深く入る（vào trong/sâu）' },
+            { id: 'd', text: '完全に終わる（hoàn thành）' },
+          ],
+          correctId: 'c',
+          explanation: '「込む」は「内部へ・深く」の方向性を示します。「申し込む」＝「申し（申請）+ 込む（内部へ入れる）」→「正式に申請して中に入れる」という意味になります。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-5': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 複合動詞②（〜切る・〜続ける・〜直す）',
+      titleTranslation: 'Từ vựng N3: Động từ ghép②（〜切る・〜続ける・〜直す）',
+      introduction: `複合動詞の第2回です。「〜切る」「〜続ける」「〜直す」は動作の「完了・継続・やり直し」を表し、日常会話でよく使われます。介護記録や指示の中でも「食べ切れない・観察し続ける・書き直す」など頻繁に出てきます。
+
+Phần 2 động từ ghép. 〜切る, 〜続ける, 〜直す diễn đạt "hoàn thành, tiếp tục, làm lại" của động tác, thường dùng trong hội thoại hàng ngày. Trong hồ sơ và chỉ thị điều dưỡng cũng thường xuất hiện như 食べ切れない, 観察し続ける, 書き直す.`,
+      keyPoints: [
+        '〜切る（kiru）: 完全に終わる — hoàn toàn/hết（食べ切る・飲み切る・やり切る）',
+        '〜切れない: できない — không thể làm hết（食べ切れない・飲み切れない）',
+        '〜続ける（tsuzukeru）: 継続してする — tiếp tục（観察し続ける・飲み続ける・働き続ける）',
+        '〜直す（naosu）: もう一度する — làm lại（書き直す・やり直す・確認し直す）',
+        '〜終わる（owaru）: 完了する — kết thúc（食べ終わる・読み終わる）',
+      ],
+      vocabulary: [
+        { word: '食べ切る', reading: 'たべきる', meaning: '全部食べる（ăn hết）', example: 'お膳を食べ切った' },
+        { word: '観察し続ける', reading: 'かんさつしつづける', meaning: 'ずっと観察する（tiếp tục quan sát）', example: '状態を観察し続ける' },
+        { word: '書き直す', reading: 'かきなおす', meaning: 'もう一度書く（viết lại）', example: '記録を書き直す' },
+        { word: 'やり切る', reading: 'やりきる', meaning: '最後まで完了する（hoàn thành đến cùng）', example: 'リハビリをやり切る' },
+        { word: '飲み続ける', reading: 'のみつづける', meaning: 'ずっと飲む（tiếp tục uống）', example: '薬を飲み続ける' },
+      ],
+      examples: [
+        { japanese: '「食事を食べ切れない場合は、摂取量を記録してください。」', reading: 'しょくじをたべきれないばあいは、せっしゅりょうをきろくしてください。', translation: '"Nếu không ăn hết bữa, hãy ghi lại lượng đã ăn."' },
+        { japanese: '「この薬は途中でやめず、医師の指示通りに飲み続けてください。」', reading: 'このくすりはとちゅうでやめず、いしのしじどおりにのみつづけてください。', translation: '"Đừng dừng thuốc này giữa chừng, hãy tiếp tục uống theo chỉ dẫn của bác sĩ."' },
+      ],
+      grammarNote: `【〜切る・〜続ける・〜直す の意味まとめ】
+〜切る（hoàn toàn/hết sức）：
+食べ切る / 飲み切る / 使い切る / やり切る / 言い切る
+※「〜切れない」= できない、の意味
+
+〜続ける（tiếp tục）：
+観察し続ける / 飲み続ける / 働き続ける / 話し続ける
+
+〜直す（làm lại）：
+書き直す / やり直す / 確認し直す / 考え直す / 読み直す
+
+〜終わる（kết thúc/xong）：
+食べ終わる / 飲み終わる / 書き終わる / 読み終わる`,
+      quizzes: [
+        {
+          question: '「食べ切れない」の意味は？',
+          options: [
+            { id: 'a', text: '全部食べた（ăn hết）' },
+            { id: 'b', text: '全部食べることができない（không thể ăn hết）' },
+            { id: 'c', text: '食べたくない（không muốn ăn）' },
+            { id: 'd', text: '食べ終わった（ăn xong）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜切れない」は「完全にすることができない」の意味。「食べ切れない」＝「全部食べることができない」で、食欲不振などで量が多い場合に使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「書き直す」の意味は？',
+          options: [
+            { id: 'a', text: '書き終わる（viết xong）' },
+            { id: 'b', text: '書き続ける（tiếp tục viết）' },
+            { id: 'c', text: 'もう一度書く（viết lại）' },
+            { id: 'd', text: '書き始める（bắt đầu viết）' },
+          ],
+          correctId: 'c',
+          explanation: '「〜直す」は「もう一度する」という意味を加えます。「書き直す」＝「間違いなどがあって、もう一度書く」こと。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「観察し続ける」の意味は？',
+          options: [
+            { id: 'a', text: '観察が終わった（quan sát xong）' },
+            { id: 'b', text: '継続して観察する（tiếp tục quan sát）' },
+            { id: 'c', text: 'もう一度観察する（quan sát lại）' },
+            { id: 'd', text: '観察できない（không thể quan sát）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜続ける」は「継続してする」という意味。「観察し続ける」＝「ずっと継続して観察する」こと。申し送りで「引き続き観察をお願いします」と同様の意味です。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-6': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 複合動詞③（〜合う・〜かける・〜始める）',
+      titleTranslation: 'Từ vựng N3: Động từ ghép③（〜合う・〜かける・〜始める）',
+      introduction: `複合動詞の第3回です。「〜合う」「〜かける」「〜始める」は日常・職場でよく使われる動詞です。「話し合う・声をかける・歩き始める」など、コミュニケーションや状態変化を表す複合動詞をマスターします。
+
+Phần 3 động từ ghép. 〜合う, 〜かける, 〜始める thường dùng trong cuộc sống và nơi làm việc. Nắm vững các động từ ghép như 話し合う, 声をかける, 歩き始める diễn đạt giao tiếp và thay đổi trạng thái.`,
+      keyPoints: [
+        '〜合う（au）: お互いに〜する — cùng nhau（話し合う・助け合う・確認し合う）',
+        '〜かける（kakeru）: 途中・外に向けて — đang làm dở/hướng ra ngoài（話しかける・声をかける・食べかける）',
+        '〜始める（hajimeru）: 動作の開始 — bắt đầu（歩き始める・話し始める・食べ始める）',
+        '〜終わる（owaru）: 動作の完了 — kết thúc（食べ終わる・読み終わる）',
+        '〜やすい / 〜にくい: しやすい / しにくい — dễ/khó（食べやすい・飲みやすい）',
+      ],
+      vocabulary: [
+        { word: '話し合う', reading: 'はなしあう', meaning: 'お互いに話す（thảo luận）', example: 'スタッフで話し合う' },
+        { word: '声をかける', reading: 'こえをかける', meaning: '呼びかける（gọi/tiếp chuyện）', example: '利用者に声をかける' },
+        { word: '歩き始める', reading: 'あるきはじめる', meaning: '歩き出す（bắt đầu đi）', example: 'リハビリで歩き始める' },
+        { word: '助け合う', reading: 'たすけあう', meaning: 'お互いに助ける（giúp đỡ lẫn nhau）', example: 'チームで助け合う' },
+        { word: '食べかける', reading: 'たべかける', meaning: '食べている途中（đang ăn dở）', example: '食べかけのご飯を残す' },
+      ],
+      dialogue: [
+        { speaker: 'A', japanese: '山田様が廊下を歩き始めましたよ。', reading: 'やまださまがろうかをあるきはじめましたよ。', translation: 'Ông Yamada bắt đầu đi lại ở hành lang rồi đấy.' },
+        { speaker: 'B', japanese: 'そうですか。転倒しないよう、声をかけてサポートしてあげてください。', reading: 'そうですか。てんとうしないよう、こえをかけてさぽーとしてあげてください。', translation: 'Vậy à. Hãy gọi và hỗ trợ để ông ấy không bị ngã nhé.' },
+      ],
+      examples: [
+        { japanese: '「次のシフト変更についてスタッフ全員で話し合いましょう。」', reading: 'つぎのしふとへんこうについてすたっふぜんいんではなしあいましょう。', translation: '"Hãy cùng nhau thảo luận về việc thay đổi ca làm việc tiếp theo."' },
+        { japanese: '「利用者様が食べやすいように、刻み食に変更しました。」', reading: 'りようしゃさまがたべやすいように、きざみしょくにへんこうしました。', translation: '"Để người dùng ăn dễ hơn, tôi đã đổi sang dạng thức ăn thái nhỏ."' },
+      ],
+      grammarNote: `【〜合う・〜かける・〜始める の意味まとめ】
+〜合う（cùng nhau・lẫn nhau）：
+話し合う / 助け合う / 確認し合う / 支え合う / 見つめ合う
+
+〜かける（đang dở/hướng ra ngoài）：
+声をかける / 話しかける / 食べかける / 飲みかける / 駆けかける
+
+〜始める（bắt đầu）：
+歩き始める / 話し始める / 食べ始める / 動き始める
+
+【介護で重要】
+声をかける = 利用者に話しかける（声かけ）
+食べやすい / 飲みやすい = 食事形態の選択で使う`,
+      quizzes: [
+        {
+          question: '「声をかける」はどういう意味？',
+          options: [
+            { id: 'a', text: '声が出る（có tiếng）' },
+            { id: 'b', text: '相手に話しかける（tiếp chuyện/gọi）' },
+            { id: 'c', text: '声を出す練習（luyện giọng）' },
+            { id: 'd', text: '電話する（gọi điện）' },
+          ],
+          correctId: 'b',
+          explanation: '「声をかける」は「相手に話しかける・呼びかける」こと。介護現場では「利用者様に積極的に声かけをしてください」のように使います。「声かけ（こえかけ）」は介護の重要なケアのひとつです。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「話し合う」の意味は？',
+          options: [
+            { id: 'a', text: '一人で話す（nói một mình）' },
+            { id: 'b', text: 'お互いに話し合って意見を交わす（thảo luận）' },
+            { id: 'c', text: '話し終わる（nói xong）' },
+            { id: 'd', text: '声をかける（gọi）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜合う」は「お互いに〜する」の意味。「話し合う」＝「お互いに話して意見を交わす」＝「thảo luận」。介護では「スタッフで話し合う」などのように使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「食べやすい」はどういう意味？',
+          options: [
+            { id: 'a', text: '食べたい（muốn ăn）' },
+            { id: 'b', text: '食べることが簡単・しやすい（dễ ăn）' },
+            { id: 'c', text: '食べすぎる（ăn quá nhiều）' },
+            { id: 'd', text: '食べた（đã ăn）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜やすい」は「〜しやすい（dễ làm）」の意味。「食べやすい」＝「食べることが簡単・やりやすい」。介護では「食べやすい食事形態」として刻み食・ムース食などを指します。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-7': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 擬音語・擬態語①（体の状態・症状）',
+      titleTranslation: 'Từ vựng N3: Từ tượng thanh/hình①（Trạng thái cơ thể/Triệu chứng）',
+      introduction: `擬音語（từ tượng thanh）は音を表す語、擬態語（từ tượng hình）は状態・様子を表す語です。日本語には非常に多くあり、N3レベルでは体の状態・症状を表す擬態語が特に重要です。介護現場では「ズキズキ痛む・ふらふらする・ぐったりしている」などが利用者の訴えとしてよく出てきます。
+
+Từ tượng thanh mô tả âm thanh, từ tượng hình mô tả trạng thái/hình thái. Tiếng Nhật có rất nhiều loại này, và từ tượng hình thể hiện trạng thái cơ thể/triệu chứng đặc biệt quan trọng ở N3. Trong điều dưỡng, các từ như ズキズキ痛む, ふらふらする, ぐったりしている thường xuất hiện trong lời than phiền của người dùng.`,
+      keyPoints: [
+        'ズキズキ：脈打つような痛み — đau nhói/đau theo nhịp（頭がズキズキ痛む）',
+        'ふらふら：立ちくらみ・不安定 — choáng váng（立つとふらふらする）',
+        'ぐったり：疲れて力がない様子 — kiệt sức/mệt lả（ぐったりしている）',
+        'むかむか：吐き気がある感じ — buồn nôn（胃がむかむかする）',
+        'ドキドキ：心臓が速く動く感じ — hồi hộp/tim đập nhanh（胸がドキドキする）',
+      ],
+      vocabulary: [
+        { word: 'ズキズキ', reading: 'ずきずき', meaning: '脈打つような痛み（đau nhói）', example: '頭がズキズキ痛みます' },
+        { word: 'ふらふら', reading: 'ふらふら', meaning: '体が不安定な様子（choáng váng）', example: '立つとふらふらします' },
+        { word: 'ぐったり', reading: 'ぐったり', meaning: '疲れて力がない（kiệt sức）', example: 'ぐったりして動けない' },
+        { word: 'むかむか', reading: 'むかむか', meaning: '吐き気がする（buồn nôn）', example: '胃がむかむかします' },
+        { word: 'チクチク', reading: 'ちくちく', meaning: '針で刺すような痛み（đau châm chích）', example: '傷がチクチクします' },
+      ],
+      dialogue: [
+        { speaker: '利用者', japanese: 'ちょっと頭がズキズキして、立つとふらふらします。', reading: 'ちょっとあたまがずきずきして、たつとふらふらします。', translation: 'Đầu tôi đau nhói và đứng dậy thì thấy choáng váng.' },
+        { speaker: 'スタッフ', japanese: '分かりました。体温と血圧を測りますね。ぐったりしていますか？', reading: 'わかりました。たいおんとけつあつをはかりますね。ぐったりしていますか？', translation: 'Tôi hiểu. Để tôi đo nhiệt độ và huyết áp nhé. Bạn cảm thấy kiệt sức không?' },
+      ],
+      examples: [
+        { japanese: '「田中様が胃がむかむかすると訴えています。顔色も少し青白いです。」', reading: 'たなかさまがいがむかむかするとうったえています。かおいろもすこしあおじろいです。', translation: '"Bà Tanaka than phiền rằng dạ dày buồn nôn. Sắc mặt cũng hơi xanh xao."' },
+      ],
+      grammarNote: `【体の状態を表す擬態語一覧】
+痛みの種類：
+ズキズキ（đau nhói/theo nhịp）/ チクチク（đau châm）
+ジンジン（đau rát/tê）/ ガンガン（đau dữ dội）/ シクシク（đau âm ỉ）
+
+体の調子：
+ふらふら（choáng váng）/ ぐったり（kiệt sức）
+よろよろ（loạng choạng）/ だるだる（nặng nề）
+
+消化器系：
+むかむか（buồn nôn）/ もたれる（khó tiêu）
+
+心臓・呼吸：
+ドキドキ（tim đập nhanh）/ ハアハア（thở hổn hển）`,
+      quizzes: [
+        {
+          question: '「頭がズキズキ痛む」はどんな痛み？',
+          options: [
+            { id: 'a', text: 'じわじわとした鈍痛（đau âm ỉ）' },
+            { id: 'b', text: '脈打つような痛み（đau nhói theo nhịp）' },
+            { id: 'c', text: '針で刺すような痛み（đau châm）' },
+            { id: 'd', text: '重い痛み（đau nặng nề）' },
+          ],
+          correctId: 'b',
+          explanation: '「ズキズキ」は心臓の鼓動に合わせてズキン・ズキンと脈打つように痛む感じ。偏頭痛や歯痛によく使われます。介護では利用者の訴えを理解するために重要です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「立つとふらふらします」はどんな状態？',
+          options: [
+            { id: 'a', text: '立つのが怖い（sợ đứng）' },
+            { id: 'b', text: '体がよく動く（cơ thể linh hoạt）' },
+            { id: 'c', text: '立つと体が不安定・めまいがする（choáng váng）' },
+            { id: 'd', text: '元気いっぱい（đầy năng lượng）' },
+          ],
+          correctId: 'c',
+          explanation: '「ふらふら」は体が不安定でしっかり立てない様子。立ちくらみ（tụt huyết áp khi đứng）や平衡感覚の問題があるときによく使われます。転倒のリスクサインとして重要です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「胃がむかむかする」はどんな訴え？',
+          options: [
+            { id: 'a', text: '空腹（đói）' },
+            { id: 'b', text: '吐き気・むかつき（buồn nôn）' },
+            { id: 'c', text: '満腹（no）' },
+            { id: 'd', text: '喉が渇く（khát nước）' },
+          ],
+          correctId: 'b',
+          explanation: '「むかむか」は吐き気・むかつきの感覚。「胃がむかむかする」は「気持ち悪い・吐きそうな感じ」を表します。介護記録では「嘔気（おうき）の訴えあり」と記録します。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-9': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 接尾語〜的・〜化・〜性（造語力アップ）',
+      titleTranslation: 'Từ vựng N3: Hậu tố 〜的・〜化・〜性（Tăng khả năng tạo từ）',
+      introduction: `接尾語（hậu tố）は語の後ろにつけて新しい意味を作ります。「〜的」「〜化」「〜性」を理解することで、知らない語でも意味を推測できるようになります。N3の試験問題や医療・介護文書では、これらの接尾語を使った語が頻繁に出てきます。
+
+Hậu tố gắn vào sau từ để tạo nghĩa mới. Hiểu 〜的, 〜化, 〜性 giúp đoán được nghĩa của những từ chưa biết. Trong đề thi N3 và tài liệu y tế/điều dưỡng, các từ dùng hậu tố này xuất hiện thường xuyên.`,
+      keyPoints: [
+        '〜的（てき）: 〜の性質を持つ・〜に関する（như/mang tính）→ 積極的・専門的・定期的',
+        '〜化（か）: 〜の状態になる（trở thành/hóa）→ 高齢化・悪化・改善化・デジタル化',
+        '〜性（せい）: 〜の性質・可能性（tính chất/khả năng）→ 安全性・可能性・重要性',
+        '〜的：名詞・形容動詞を作る（積極的に・専門的な）',
+        '〜化：サ変動詞を作る（高齢化する・悪化する）',
+      ],
+      vocabulary: [
+        { word: '積極的', reading: 'せっきょくてき', meaning: 'やる気がある・前向き（tích cực）', example: '積極的に参加する' },
+        { word: '高齢化', reading: 'こうれいか', meaning: '高齢者が増える（già hóa）', example: '社会の高齢化が進む' },
+        { word: '可能性', reading: 'かのうせい', meaning: 'できるかもしれない度合（khả năng）', example: '回復の可能性がある' },
+        { word: '定期的', reading: 'ていきてき', meaning: '決まった間隔で（định kỳ）', example: '定期的に検査する' },
+        { word: '悪化', reading: 'あっか', meaning: '状態が悪くなる（xấu đi）', example: '症状が悪化する' },
+      ],
+      examples: [
+        { japanese: '「利用者様の症状が悪化したため、定期的なバイタル測定を行うことになりました。」', reading: 'りようしゃさまのしょうじょうがあっかしたため、ていきてきなばいたるそくていをおこなうことになりました。', translation: '"Vì triệu chứng của người dùng xấu đi, chúng tôi sẽ tiến hành đo dấu hiệu sinh tồn định kỳ."' },
+        { japanese: '「専門的な知識を身につけるため、積極的に研修に参加してください。」', reading: 'せんもんてきなちしきをみにつけるため、せっきょくてきにけんしゅうにさんかしてください。', translation: '"Để tích lũy kiến thức chuyên môn, hãy tích cực tham gia đào tạo."' },
+      ],
+      grammarNote: `【接尾語の意味まとめ】
+〜的（てき）= 〜の性質を持つ・〜に関する：
+積極的 / 消極的 / 定期的 / 専門的 / 具体的 / 一般的
+
+〜化（か）= 〜の状態になる（サ変動詞）：
+高齢化 / 悪化 / 改善 / 変化 / 強化 / 活性化 / 近代化
+
+〜性（せい）= 〜の性質・可能性：
+可能性 / 安全性 / 重要性 / 必要性 / 有効性 / 信頼性
+
+【読み方のコツ】
+〜的 = 〜てき（ない場合もある：的（まと））
+〜化 = 〜か
+〜性 = 〜せい（ただし性質（せいしつ）は別）`,
+      quizzes: [
+        {
+          question: '「積極的に参加する」の「積極的」の意味は？',
+          options: [
+            { id: 'a', text: '受け身に・消極的に（thụ động）' },
+            { id: 'b', text: '自らやる気を持って・前向きに（tích cực/chủ động）' },
+            { id: 'c', text: '強制的に（bắt buộc）' },
+            { id: 'd', text: 'たまに（thỉnh thoảng）' },
+          ],
+          correctId: 'b',
+          explanation: '「積極的（せっきょくてき）」は「自ら進んで・前向きに・やる気を持って」の意味。反対語は「消極的（しょうきょくてき）」です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「高齢化」の「〜化」はどんな意味？',
+          options: [
+            { id: 'a', text: '〜が減る（giảm）' },
+            { id: 'b', text: '〜の状態になる・変化する（trở thành/hóa）' },
+            { id: 'c', text: '〜が良くなる（tốt hơn）' },
+            { id: 'd', text: '〜に関する（liên quan đến）' },
+          ],
+          correctId: 'b',
+          explanation: '「〜化」は「〜の状態に変化する」を意味します。「高齢化」＝「高齢者が増える方向に変化すること（già hóa）」。「悪化」＝「悪い状態になること」。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「回復の可能性がある」の「可能性」の意味は？',
+          options: [
+            { id: 'a', text: '確実に回復する（chắc chắn phục hồi）' },
+            { id: 'b', text: '回復できるかもしれない度合（khả năng phục hồi）' },
+            { id: 'c', text: '回復できない（không thể phục hồi）' },
+            { id: 'd', text: '回復が必要（cần phục hồi）' },
+          ],
+          correctId: 'b',
+          explanation: '「可能性（かのうせい）」は「できるかもしれない度合・確率」の意味。「回復の可能性がある」＝「回復できるかもしれない」という不確かな未来を示します。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-10': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 接頭語（不〜・非〜・再〜・超〜）',
+      titleTranslation: 'Từ vựng N3: Tiền tố（不〜・非〜・再〜・超〜）',
+      introduction: `接頭語（tiền tố）は語の前につけて新しい意味を作ります。「不〜・非〜・再〜・超〜」などを理解すると、知らない語でも意味が推測できます。N3の試験問題では「不規則・非常識・再確認・超高齢社会」など、接頭語を使った語が多く出てきます。
+
+Tiền tố gắn vào trước từ để tạo nghĩa mới. Hiểu 不〜, 非〜, 再〜, 超〜 giúp đoán được nghĩa của từ chưa biết. Trong đề thi N3, các từ dùng tiền tố như 不規則, 非常識, 再確認, 超高齢社会 xuất hiện nhiều.`,
+      keyPoints: [
+        '不〜（ふ）: 否定・反対（phủ định）→ 不規則・不安定・不満・不安',
+        '非〜（ひ）: 〜でない・〜以外（không phải）→ 非常識・非公式・非常',
+        '再〜（さい）: もう一度（làm lại）→ 再確認・再利用・再発・再検討',
+        '超〜（ちょう）: 程度が非常に高い（siêu/cực）→ 超高齢・超えた・超重要',
+        '未〜（み）: まだ〜していない（chưa）→ 未確認・未使用・未来',
+      ],
+      vocabulary: [
+        { word: '不規則', reading: 'ふきそく', meaning: 'ルールがない・不安定（không đều/bất quy tắc）', example: '不規則な生活リズム' },
+        { word: '再確認', reading: 'さいかくにん', meaning: 'もう一度確認する（xác nhận lại）', example: '内容を再確認する' },
+        { word: '非常識', reading: 'ひじょうしき', meaning: '常識に反する（thiếu ý thức/vô lễ）', example: '非常識な行動' },
+        { word: '不安定', reading: 'ふあんてい', meaning: '安定していない（không ổn định）', example: 'バイタルが不安定だ' },
+        { word: '未確認', reading: 'みかくにん', meaning: 'まだ確認していない（chưa xác nhận）', example: '未確認の情報' },
+      ],
+      examples: [
+        { japanese: '「バイタルが不安定なため、再確認をお願いします。」', reading: 'ばいたるがふあんていなため、さいかくにんをおねがいします。', translation: '"Vì dấu hiệu sinh tồn không ổn định, nhờ bạn xác nhận lại."' },
+        { japanese: '「超高齢社会の日本では、介護スタッフの確保が重要な課題です。」', reading: 'ちょうこうれいしゃかいのにほんでは、かいごすたっふのかくほがじゅうようなかだいです。', translation: '"Tại Nhật Bản là xã hội siêu già hóa, đảm bảo nhân lực điều dưỡng là nhiệm vụ quan trọng."' },
+      ],
+      grammarNote: `【接頭語の意味まとめ】
+不〜（phủ định/thiếu）：
+不規則 / 不安定 / 不満 / 不安 / 不足 / 不明 / 不適切
+
+非〜（không phải）：
+非常識 / 非公式 / 非常（emergency）/ 非常口
+
+再〜（làm lại）：
+再確認 / 再利用 / 再発 / 再検討 / 再入院 / 再開
+
+超〜（siêu/cực độ）：
+超高齢 / 超重要 / 超多忙
+
+未〜（chưa）：
+未確認 / 未使用 / 未来 / 未経験 / 未成年`,
+      quizzes: [
+        {
+          question: '「不安定」の意味は？',
+          options: [
+            { id: 'a', text: '非常に安定している（rất ổn định）' },
+            { id: 'b', text: '安定していない（không ổn định）' },
+            { id: 'c', text: '少し安定している（hơi ổn định）' },
+            { id: 'd', text: '安定を確認した（đã xác nhận ổn định）' },
+          ],
+          correctId: 'b',
+          explanation: '「不〜」は否定・反対を表す接頭語。「不安定」＝「安定していない」。医療・介護では「バイタルが不安定」のように、生命徴候が正常範囲でない状態を指します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「再確認」の意味は？',
+          options: [
+            { id: 'a', text: '確認しない（không xác nhận）' },
+            { id: 'b', text: 'もう一度確認する（xác nhận lại）' },
+            { id: 'c', text: '最初の確認（lần xác nhận đầu）' },
+            { id: 'd', text: '確認が終わった（đã xác nhận xong）' },
+          ],
+          correctId: 'b',
+          explanation: '「再〜」は「もう一度（làm lại）」を意味します。「再確認」＝「もう一度確認する（xác nhận lại）」。業務で「念のため再確認してください」のように使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「未確認の情報」はどういう意味？',
+          options: [
+            { id: 'a', text: '確認済みの情報（thông tin đã xác nhận）' },
+            { id: 'b', text: 'まだ確認されていない情報（thông tin chưa xác nhận）' },
+            { id: 'c', text: '間違いの情報（thông tin sai）' },
+            { id: 'd', text: '古い情報（thông tin cũ）' },
+          ],
+          correctId: 'b',
+          explanation: '「未〜」は「まだ〜していない（chưa）」を意味します。「未確認」＝「まだ確認していない」。「未確認の情報」は信頼性が低いため、確認が必要です。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-11': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 同音異義語（発音が同じで意味が違う語）',
+      titleTranslation: 'Từ vựng N3: Từ đồng âm dị nghĩa',
+      introduction: `同音異義語（từ đồng âm dị nghĩa）は発音が同じでも意味が異なる語です。日本語には漢字があるため多く存在し、N3の試験・介護記録では正確な使い分けが求められます。「こうかん・いたい・きかん・かいご」など、文脈から正しい意味を判断する力が必要です。
+
+Từ đồng âm dị nghĩa là những từ phát âm giống nhau nhưng nghĩa khác nhau. Tiếng Nhật có nhiều vì có chữ Hán. Trong thi N3 và hồ sơ điều dưỡng cần phân biệt chính xác. Cần khả năng phán đoán nghĩa đúng từ văn cảnh cho các từ như こうかん, いたい, きかん, かいご.`,
+      keyPoints: [
+        'こうかん：交換（trao đổi）/ 好感（cảm tình）→ 文脈で判断',
+        'いたい：痛い（đau）/ 遺体（thi thể）→ 漢字で区別',
+        'きかん：期間（thời gian）/ 機関（cơ quan）/ 器官（cơ quan bộ phận）',
+        'かいご：介護（chăm sóc）/ 介抱（giúp đỡ người ốm）',
+        'ほうこく：報告（báo cáo）/ 法国（nước Pháp）→ 文脈で判断',
+      ],
+      vocabulary: [
+        { word: '交換', reading: 'こうかん', meaning: '取り換える（trao đổi/thay thế）', example: 'おむつを交換する' },
+        { word: '好感', reading: 'こうかん', meaning: 'いい印象（cảm tình tốt）', example: '利用者に好感を持たれる' },
+        { word: '期間', reading: 'きかん', meaning: '時間の長さ（khoảng thời gian）', example: '入院期間は2週間' },
+        { word: '機関', reading: 'きかん', meaning: '組織・機関（cơ quan/tổ chức）', example: '医療機関に相談する' },
+        { word: '器官', reading: 'きかん', meaning: '体の部位（cơ quan bộ phận cơ thể）', example: '消化器官に問題がある' },
+      ],
+      examples: [
+        { japanese: '「定期的におむつ交換を行ってください。（交換＝取り換え）」「田中様は職員への好感を示した。（好感＝いい印象）」', reading: 'ていきてきにおむつこうかんをおこなってください。たなかさまはしょくいんへのこうかんをしめした。', translation: '"Hãy thay tã định kỳ. (交換＝thay thế)" / "Bà Tanaka tỏ ra có thiện cảm với nhân viên. (好感＝thiện cảm)"' },
+        { japanese: '「入院期間（きかん）中は、医療機関（きかん）の指示に従ってください。」', reading: 'にゅういんきかんちゅうは、いりょうきかんのしじにしたがってください。', translation: '"Trong thời gian nằm viện (期間), hãy làm theo chỉ dẫn của cơ sở y tế (機関)."' },
+      ],
+      grammarNote: `【介護でよく出る同音異義語】
+こうかん：交換（取り換え）/ 好感（良い印象）
+きかん：期間（時間）/ 機関（組織）/ 器官（体の部分）
+いたい：痛い（痛み）/ 遺体（死体）
+かいふく：回復（回復する）/ 快復（病気が良くなる）
+しんさつ：診察（医師に診てもらう）
+かんさつ：観察（よく見る）
+ちりょう：治療（病気を治す）
+きろく：記録（記録する）/ 記憶（覚えている）
+
+【見分け方】
+① 文脈から判断する
+② 漢字を確認する（読めれば区別できる）
+③ 前後の語との関係を見る`,
+      quizzes: [
+        {
+          question: '「おむつを交換する」の「こうかん」はどの漢字？',
+          options: [
+            { id: 'a', text: '好感（cảm tình）' },
+            { id: 'b', text: '交換（thay thế）' },
+            { id: 'c', text: '高官（quan chức）' },
+            { id: 'd', text: '後患（hậu quả）' },
+          ],
+          correctId: 'b',
+          explanation: 'おむつを「交換（こうかん）」は「取り換える・替える」の意味。介護現場では「おむつ交換」「シーツ交換」など「交換」をよく使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「入院期間」の「きかん」の漢字は？',
+          options: [
+            { id: 'a', text: '機関（cơ quan）' },
+            { id: 'b', text: '器官（bộ phận cơ thể）' },
+            { id: 'c', text: '期間（khoảng thời gian）' },
+            { id: 'd', text: '気管（khí quản）' },
+          ],
+          correctId: 'c',
+          explanation: '「期間（きかん）」は「時間の長さ（khoảng thời gian）」。「入院期間」＝「入院している時間の長さ」。「機関（機 = 機械）」は組織、「器官（器 = 器）」は体の部位です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「医療機関に相談する」の「機関」の意味は？',
+          options: [
+            { id: 'a', text: '時間の長さ（khoảng thời gian）' },
+            { id: 'b', text: '体の部位（bộ phận cơ thể）' },
+            { id: 'c', text: '組織・機関（tổ chức/cơ quan）' },
+            { id: 'd', text: '機械（máy móc）' },
+          ],
+          correctId: 'c',
+          explanation: '「機関（きかん）」は「組織・機構（tổ chức）」の意味。「医療機関」＝「病院・診療所などの医療を行う組織」。「行政機関」「公的機関」なども同じ使い方です。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-12': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 類義語（似た意味の語を使い分ける）',
+      titleTranslation: 'Từ vựng N3: Từ đồng nghĩa（Phân biệt từ cùng nghĩa）',
+      introduction: `類義語（từ đồng nghĩa）は似た意味を持つ語ですが、微妙なニュアンスの違いがあります。N3試験では「次の言葉に最も意味が近いものは？」という類義語問題がよく出ます。介護現場でも「観察・確認・モニタリング」など似た意味の語を場面によって使い分ける力が必要です。
+
+Từ đồng nghĩa là những từ có nghĩa gần giống nhau nhưng có sắc thái khác nhau. Trong thi N3 thường có câu hỏi "từ nào gần nghĩa nhất với từ này?". Trong điều dưỡng cũng cần phân biệt các từ gần nghĩa theo tình huống như 観察・確認・モニタリング.`,
+      keyPoints: [
+        '見る vs 観察する vs 確認する vs チェックする',
+        '伝える vs 報告する vs 連絡する vs 相談する',
+        '難しい vs 困難だ vs 複雑だ vs 厄介だ',
+        '大切 vs 重要 vs 必要 vs 不可欠',
+        '少し vs やや vs わずか vs ちょっと',
+      ],
+      vocabulary: [
+        { word: '観察', reading: 'かんさつ', meaning: '注意して継続的に見る（quan sát）', example: '状態を観察する' },
+        { word: '確認', reading: 'かくにん', meaning: '正しいか確かめる（xác nhận）', example: '薬の種類を確認する' },
+        { word: '報告', reading: 'ほうこく', meaning: '上の人に伝える（báo cáo）', example: '上司に報告する' },
+        { word: '連絡', reading: 'れんらく', meaning: '情報を伝える（liên lạc）', example: '家族に連絡する' },
+        { word: '相談', reading: 'そうだん', meaning: '意見を聞いて話し合う（hỏi ý kiến/tham khảo）', example: '上司に相談する' },
+      ],
+      examples: [
+        { japanese: '（使い分け例）報告：「田中様の体温が38度です」（事実を上に伝える）/ 連絡：「家族に入院の件を連絡した」（情報を関係者に伝える）/ 相談：「ケアプランについて相談したい」（一緒に考える）', reading: 'ほうこく：たなかさまのたいおんが38どです / れんらく：かぞくににゅういんのけんをれんらくした / そうだん：けあぷらんについてそうだんしたい', translation: '(Ví dụ phân biệt) Báo cáo: "Nhiệt độ bà Tanaka 38 độ" (truyền sự thật lên trên) / Liên lạc: "Đã liên lạc với gia đình về việc nhập viện" (truyền thông tin) / Tham khảo: "Muốn hỏi ý kiến về kế hoạch chăm sóc" (cùng suy nghĩ)' },
+      ],
+      grammarNote: `【よく混同する類義語の使い分け】
+見る・観察・確認・チェック：
+見る = 普通に目で見る
+観察 = 注意して継続的に見る（専門的）
+確認 = 正しいかどうか確かめる
+チェック = 確認（カタカナ語でよりカジュアル）
+
+報告・連絡・相談（報連相）：
+報告 = 上の人に結果・事実を伝える（↑方向）
+連絡 = 関係者に情報を伝える（横・双方向）
+相談 = 意見を聞いて一緒に考える（問題解決）
+
+大切・重要・必要・不可欠：
+大切 = 大事・心を込めて扱う
+重要 = 影響が大きい・serious
+必要 = なければならない
+不可欠 = 絶対に必要で、なくてはならない`,
+      quizzes: [
+        {
+          question: '「上司に〇〇する」に最も適切なのは？（事実を伝えるとき）',
+          options: [
+            { id: 'a', text: '相談（hỏi ý kiến）' },
+            { id: 'b', text: '報告（báo cáo）' },
+            { id: 'c', text: '連絡（liên lạc）' },
+            { id: 'd', text: '観察（quan sát）' },
+          ],
+          correctId: 'b',
+          explanation: '「報告（ほうこく）」は「結果・事実を上の人に伝える」こと。「連絡（れんらく）」は横の関係で情報を伝えること。「相談（そうだん）」は一緒に考えること。事実を上司に伝えるのは「報告」です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「観察する」と「確認する」の違いは？',
+          options: [
+            { id: 'a', text: '同じ意味（cùng nghĩa）' },
+            { id: 'b', text: '観察＝継続的に注意して見る、確認＝正しいか確かめる' },
+            { id: 'c', text: '観察＝上に報告、確認＝横に連絡' },
+            { id: 'd', text: '観察＝記録する、確認＝写真を撮る' },
+          ],
+          correctId: 'b',
+          explanation: '「観察（かんさつ）」は注意して継続的に見ること（例：状態の観察）。「確認（かくにん）」は正しいか・間違いないかを確かめること（例：薬の確認）。似ているが目的が異なります。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「不可欠」に最も近い意味は？',
+          options: [
+            { id: 'a', text: '少し必要（hơi cần thiết）' },
+            { id: 'b', text: 'あれば良い（có thì tốt）' },
+            { id: 'c', text: '絶対になければならない（tuyệt đối cần thiết）' },
+            { id: 'd', text: '特に必要ない（không cần lắm）' },
+          ],
+          correctId: 'c',
+          explanation: '「不可欠（ふかけつ）」は「絶対になければならない・なくてはならない」という最強の必要性を表します。「大切・重要・必要」よりも強い表現です。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-13': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 対義語（反対語）を使いこなす',
+      titleTranslation: 'Từ vựng N3: Từ trái nghĩa',
+      introduction: `対義語（từ trái nghĩa）は反対の意味を持つ語ペアです。N3試験では「〇〇の反対語はどれですか」という問題や、文章の中で対比的に使われる語が出ます。介護記録では「改善・悪化」「安定・不安定」など対義語ペアが頻出します。
+
+Từ trái nghĩa là cặp từ có nghĩa ngược nhau. Trong thi N3 có câu hỏi "đâu là từ trái nghĩa của..." hoặc các từ được dùng đối lập trong văn bản. Trong hồ sơ điều dưỡng, các cặp trái nghĩa như 改善・悪化, 安定・不安定 xuất hiện thường xuyên.`,
+      keyPoints: [
+        '改善 ↔ 悪化（cải thiện ↔ xấu đi）',
+        '増加 ↔ 減少（tăng ↔ giảm）',
+        '促進 ↔ 抑制（thúc đẩy ↔ ức chế/hạn chế）',
+        '積極的 ↔ 消極的（tích cực ↔ tiêu cực/thụ động）',
+        '継続 ↔ 中断（tiếp tục ↔ ngừng）',
+      ],
+      vocabulary: [
+        { word: '悪化', reading: 'あっか', meaning: '状態が悪くなる（xấu đi）', example: '症状が悪化する' },
+        { word: '改善', reading: 'かいぜん', meaning: '状態が良くなる（cải thiện）', example: '体調が改善する' },
+        { word: '増加', reading: 'ぞうか', meaning: '数・量が増える（tăng）', example: '利用者数が増加する' },
+        { word: '減少', reading: 'げんしょう', meaning: '数・量が減る（giảm）', example: '食事量が減少する' },
+        { word: '中断', reading: 'ちゅうだん', meaning: '途中でやめる（ngừng giữa chừng）', example: 'リハビリを中断する' },
+      ],
+      examples: [
+        { japanese: '「昨日まで体調が悪化していましたが、今日は少し改善しています。」', reading: 'きのうまでたいちょうがあっかしていましたが、きょうはすこしかいぜんしています。', translation: '"Cho đến hôm qua sức khỏe vẫn xấu đi, nhưng hôm nay đã cải thiện một chút."' },
+        { japanese: '「食事量が減少しているため、水分摂取量を増加させるよう働きかけています。」', reading: 'しょくじりょうがげんしょうしているため、すいぶんせっしゅりょうをぞうかさせるようはたらきかけています。', translation: '"Vì lượng ăn giảm, chúng tôi đang khuyến khích tăng lượng nước uống."' },
+      ],
+      grammarNote: `【介護・医療でよく使う対義語ペア】
+改善（cải thiện）↔ 悪化（xấu đi）
+安定（ổn định）↔ 不安定（không ổn định）
+増加（tăng）↔ 減少（giảm）
+継続（tiếp tục）↔ 中断（ngừng giữa chừng）
+促進（thúc đẩy）↔ 抑制（ức chế）
+積極的（tích cực）↔ 消極的（tiêu cực）
+回復（hồi phục）↔ 悪化（xấu đi）
+高い（cao）↔ 低い（thấp）
+多い（nhiều）↔ 少ない（ít）
+強い（mạnh）↔ 弱い（yếu）`,
+      quizzes: [
+        {
+          question: '「改善」の対義語は？',
+          options: [
+            { id: 'a', text: '回復（hồi phục）' },
+            { id: 'b', text: '悪化（xấu đi）' },
+            { id: 'c', text: '安定（ổn định）' },
+            { id: 'd', text: '継続（tiếp tục）' },
+          ],
+          correctId: 'b',
+          explanation: '「改善（かいぜん）」＝良くなること、「悪化（あっか）」＝悪くなること。この対義語ペアは介護・医療記録で最もよく使われます。「状態が改善した」「症状が悪化した」のように使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「増加」の対義語は？',
+          options: [
+            { id: 'a', text: '継続（tiếp tục）' },
+            { id: 'b', text: '中断（ngừng）' },
+            { id: 'c', text: '減少（giảm）' },
+            { id: 'd', text: '悪化（xấu đi）' },
+          ],
+          correctId: 'c',
+          explanation: '「増加（ぞうか）」＝増える（tăng）、「減少（げんしょう）」＝減る（giảm）。食事量・水分量・体重などの変化を記録するときに使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「積極的」の対義語は？',
+          options: [
+            { id: 'a', text: '消極的（tiêu cực/thụ động）' },
+            { id: 'b', text: '定期的（định kỳ）' },
+            { id: 'c', text: '具体的（cụ thể）' },
+            { id: 'd', text: '専門的（chuyên môn）' },
+          ],
+          correctId: 'a',
+          explanation: '「積極的（せっきょくてき）」＝自ら進んでやる・前向き（tích cực）。「消極的（しょうきょくてき）」＝受け身・やる気がない（thụ động/tiêu cực）。この対義語ペアはリハビリへの取り組みを表すときに使います。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-8': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 擬音語・擬態語②（気持ち・様子・行動）',
+      titleTranslation: 'Từ vựng N3: Từ tượng thanh/hình②（Cảm xúc/Hành động）',
+      introduction: `擬態語の第2回は「気持ち・様子・行動」を表す語です。「イライラ・のんびり・しっかり・ぼんやり」など、感情状態や動作の様子を生き生きと表現する語を学びます。介護現場では利用者の精神状態や行動の観察に使われます。
+
+Phần 2 từ tượng hình về "cảm xúc, trạng thái, hành động". Học các từ diễn đạt sinh động trạng thái cảm xúc và hành động như イライラ, のんびり, しっかり, ぼんやり. Trong điều dưỡng, dùng để quan sát trạng thái tinh thần và hành động của người dùng.`,
+      keyPoints: [
+        'イライラ：不満・苛立ちの状態 — bực bội（イライラしている）',
+        'のんびり：ゆっくり・リラックス — thư thả（のんびりしている）',
+        'しっかり：確実・強く — chắc chắn（しっかり食べる）',
+        'ぼんやり：集中できない・ぼーっとしている — lơ đãng（ぼんやりしている）',
+        'うとうと：軽く眠っている — lơ mơ/buồn ngủ（うとうとしている）',
+      ],
+      vocabulary: [
+        { word: 'イライラ', reading: 'いらいら', meaning: '苛立ち・不満（bực bội）', example: '待ちすぎてイライラする' },
+        { word: 'ぼんやり', reading: 'ぼんやり', meaning: '意識がはっきりしない（lơ đãng/mơ hồ）', example: 'ぼんやりしている' },
+        { word: 'うとうと', reading: 'うとうと', meaning: '軽く眠りそうな（lơ mơ/buồn ngủ）', example: '食後にうとうとしている' },
+        { word: 'しっかり', reading: 'しっかり', meaning: '確実・力強く（chắc chắn/đầy đủ）', example: 'しっかり食べてください' },
+        { word: 'そわそわ', reading: 'そわそわ', meaning: '落ち着かない様子（lo lắng/bồn chồn）', example: 'そわそわしている' },
+      ],
+      dialogue: [
+        { speaker: 'スタッフ', japanese: '山田様、少しぼんやりされていますね。体調はいかがですか。', reading: 'やまださま、すこしぼんやりされていますね。たいちょうはいかがですか。', translation: 'Ông Yamada, ông có vẻ lơ đãng một chút. Sức khỏe ông thế nào?' },
+        { speaker: '利用者', japanese: '昨日あまり眠れなくて、うとうとしてしまいます。', reading: 'きのうあまりねむれなくて、うとうとしてしまいます。', translation: 'Hôm qua tôi không ngủ được, nên cứ lơ mơ.' },
+      ],
+      examples: [
+        { japanese: '（観察記録）「山田様、午後より表情がぼんやりして、声かけへの反応が鈍い。バイタル測定し、報告済み。」', reading: 'やまださま、ごごよりひょうじょうがぼんやりして、こえかけへのはんのうがにぶい。ばいたるそくていし、ほうこくずみ。', translation: '(Hồ sơ quan sát) "Ông Yamada, từ chiều nét mặt lờ đờ, phản ứng với kích thích chậm. Đã đo dấu hiệu sinh tồn và báo cáo."' },
+      ],
+      grammarNote: `【気持ち・様子の擬態語一覧】
+精神状態（trạng thái tinh thần）：
+イライラ（bực bội）/ のんびり（thư thả）/ そわそわ（bồn chồn）
+うきうき（phấn khởi）/ くよくよ（lo lắng/ủ rũ）
+
+意識の状態（mức độ tỉnh táo）：
+ぼんやり（lơ đãng）/ うとうと（lơ mơ）/ しっかり（tỉnh táo）
+ぼーっと（ngơ ngác）
+
+行動の様子（cách hành động）：
+のろのろ（chậm chạp）/ てきぱき（nhanh nhẹn）
+ふわふわ（bay bổng/lơ lửng）/ ぐらぐら（lung lay）`,
+      quizzes: [
+        {
+          question: '「ぼんやりしている」はどんな状態？',
+          options: [
+            { id: 'a', text: 'とても元気（rất khỏe）' },
+            { id: 'b', text: '意識・集中力がはっきりしない（lơ đãng/không tỉnh táo）' },
+            { id: 'c', text: '機嫌が悪い（tâm trạng xấu）' },
+            { id: 'd', text: '眠っている（đang ngủ）' },
+          ],
+          correctId: 'b',
+          explanation: '「ぼんやり」は意識や集中力がはっきりしない状態。介護記録では「意識レベルの低下・反応が鈍い」のサインとして観察・記録します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「うとうとしている」はどんな状態？',
+          options: [
+            { id: 'a', text: 'ぐっすり眠っている（ngủ sâu）' },
+            { id: 'b', text: '軽く眠りそうな・半分眠っている（lơ mơ）' },
+            { id: 'c', text: '活発に動いている（đang hoạt động）' },
+            { id: 'd', text: 'イライラしている（bực bội）' },
+          ],
+          correctId: 'b',
+          explanation: '「うとうと」は「軽く眠ろうとしている・半分眠っている」様子。「食後にうとうとしている」のように、食後の眠気や昼間の傾眠（けいみん）を表すときに使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '利用者が「イライラしている」様子を観察したとき、正しい対応は？',
+          options: [
+            { id: 'a', text: '無視する' },
+            { id: 'b', text: '声をかけて話を聞く・原因を探る' },
+            { id: 'c', text: '叱る（la mắng）' },
+            { id: 'd', text: '報告しない' },
+          ],
+          correctId: 'b',
+          explanation: '「イライラ」している利用者には、まず優しく声をかけて話を聞きます。不満・痛み・環境など様々な原因がある可能性があり、観察して上司に報告することが大切です。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-14': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 慣用句①（体を使った表現）',
+      titleTranslation: 'Từ vựng N3: Thành ngữ①（Biểu đạt dùng bộ phận cơ thể）',
+      introduction: `慣用句（thành ngữ）は複数の語が組み合わさって特定の意味を持つ表現です。「体の部位（手・目・耳・口・足）」を使った慣用句はN3で頻出です。文字通りの意味とは異なるため、まとめて覚えることが大切です。
+
+Thành ngữ là biểu đạt gồm nhiều từ kết hợp mang nghĩa đặc biệt. Thành ngữ dùng bộ phận cơ thể (手・目・耳・口・足) xuất hiện nhiều ở N3. Vì nghĩa khác với nghĩa đen từng từ nên cần học thuộc theo nhóm.`,
+      keyPoints: [
+        '手（て）：手を貸す（giúp đỡ）/ 手がかかる（tốn công）/ 手に負えない（không kiểm soát được）',
+        '目（め）：目を通す（lướt qua）/ 目が届く（có thể giám sát）/ 目を向ける（chú ý đến）',
+        '耳（みみ）：耳を傾ける（lắng nghe）/ 耳に入る（nghe được）/ 耳を疑う（không tin nổi）',
+        '口（くち）：口をはさむ（xen vào）/ 口が堅い（kín miệng）/ 口が軽い（miệng không vừng）',
+        '足（あし）：足を運ぶ（đến thăm）/ 足を引っ張る（kéo chân người khác）',
+      ],
+      vocabulary: [
+        { word: '手を貸す', reading: 'てをかす', meaning: '助ける（giúp đỡ）', example: '移乗に手を貸す' },
+        { word: '目を通す', reading: 'めをとおす', meaning: '簡単に読む（lướt qua）', example: 'マニュアルに目を通す' },
+        { word: '耳を傾ける', reading: 'みみをかたむける', meaning: '注意して聞く（lắng nghe）', example: '利用者の訴えに耳を傾ける' },
+        { word: '口が堅い', reading: 'くちがかたい', meaning: '秘密を守る（kín miệng）', example: '彼は口が堅いので信頼できる' },
+        { word: '足を運ぶ', reading: 'あしをはこぶ', meaning: 'わざわざ行く（đến thăm/đến tận nơi）', example: '施設まで足を運ぶ' },
+      ],
+      examples: [
+        { japanese: '「新しいスタッフが困っているときは積極的に手を貸してあげてください。」', reading: 'あたらしいすたっふがこまっているときはせっきょくてきにてをかしてあげてください。', translation: '"Khi nhân viên mới gặp khó khăn, hãy tích cực giúp đỡ họ."' },
+        { japanese: '「利用者様の訴えに耳を傾け、気持ちを理解することが大切です。」', reading: 'りようしゃさまのうったえにみみをかたむけ、きもちをりかいすることがたいせつです。', translation: '"Lắng nghe lời than phiền của người dùng và thấu hiểu cảm xúc của họ là điều quan trọng."' },
+      ],
+      grammarNote: `【体を使った慣用句一覧】
+手（te）：
+手を貸す（giúp）/ 手がかかる（tốn công）
+手を抜く（làm qua loa）/ 手に余る（quá sức）
+
+目（me）：
+目を通す（lướt đọc）/ 目が届く（có thể giám sát）
+目を丸くする（trợn mắt/ngạc nhiên）/ 目をつぶる（bỏ qua）
+
+耳（mimi）：
+耳を傾ける（lắng nghe）/ 耳に入る（nghe được）
+耳が痛い（đau tai = khó nghe vì đúng）
+
+口（kuchi）：
+口を出す / 口をはさむ（xen miệng vào）
+口が堅い（kín miệng）/ 口が軽い（miệng không vừng）
+
+足（ashi）：
+足を運ぶ（đến tận nơi）/ 足を引っ張る（kéo chân）`,
+      quizzes: [
+        {
+          question: '「耳を傾ける」の意味は？',
+          options: [
+            { id: 'a', text: '耳を触る（sờ tai）' },
+            { id: 'b', text: '注意して聞く・傾聴する（lắng nghe kỹ）' },
+            { id: 'c', text: '聞こえない（không nghe được）' },
+            { id: 'd', text: '耳が痛い（đau tai）' },
+          ],
+          correctId: 'b',
+          explanation: '「耳を傾ける」は「注意して丁寧に聞く・傾聴する」の慣用句。介護では利用者の訴えや気持ちを丁寧に聞くことを「傾聴（けいちょう）」と言い、重要なケア技術です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「手を貸す」の意味は？',
+          options: [
+            { id: 'a', text: '手を洗う（rửa tay）' },
+            { id: 'b', text: '手紙を出す（gửi thư）' },
+            { id: 'c', text: '助ける・手伝う（giúp đỡ）' },
+            { id: 'd', text: '手を借りる（mượn tay）' },
+          ],
+          correctId: 'c',
+          explanation: '「手を貸す」は「助ける・手伝う（giúp đỡ）」という慣用句。「困っている人に手を貸す」＝「困っている人を助ける」という意味です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「口が堅い」はどんな人を表す？',
+          options: [
+            { id: 'a', text: '口が小さい人（người miệng nhỏ）' },
+            { id: 'b', text: '秘密を守る・しゃべらない人（người kín miệng）' },
+            { id: 'c', text: '話すのが苦手な人（người khó nói）' },
+            { id: 'd', text: '口が固い食べ物が好きな人（người thích đồ ăn cứng）' },
+          ],
+          correctId: 'b',
+          explanation: '「口が堅い（くちがかたい）」は「秘密を守る・他の人に話さない（kín miệng）」という意味の慣用句。反対は「口が軽い（くちがかるい）」＝「すぐに話してしまう」。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-15': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 慣用句②（動物・自然・日常の表現）',
+      titleTranslation: 'Từ vựng N3: Thành ngữ②（Động vật/Tự nhiên/Cuộc sống）',
+      introduction: `慣用句の第2回は「動物・自然・日常生活」を使った表現です。「猫の手も借りたい・骨を折る・水に流す」など、日本語特有の慣用表現をN3レベルでマスターします。職場でのコミュニケーションや文章読解で頻繁に出てきます。
+
+Phần 2 thành ngữ dùng "động vật, tự nhiên, cuộc sống hàng ngày". Nắm vững các biểu đạt đặc trưng tiếng Nhật ở cấp N3 như 猫の手も借りたい, 骨を折る, 水に流す. Thường xuất hiện trong giao tiếp nơi làm việc và đọc hiểu văn bản.`,
+      keyPoints: [
+        '猫の手も借りたい：非常に忙しい（bận đến mức cần cả bàn tay mèo）',
+        '骨を折る：苦労して努力する（cố gắng vất vả）',
+        '水に流す：過去のことを忘れる（xóa bỏ/tha thứ quá khứ）',
+        '油を売る：仕事をさぼる（lãng phí thời gian/lười biếng）',
+        '足がつく：身元が発覚する（bị phát hiện）',
+      ],
+      vocabulary: [
+        { word: '骨を折る', reading: 'ほねをおる', meaning: '苦労して努力する（cố gắng vất vả）', example: '新人の指導に骨を折る' },
+        { word: '水に流す', reading: 'みずにながす', meaning: '忘れる・許す（xóa bỏ/tha thứ）', example: '過去のことは水に流す' },
+        { word: '猫の手も借りたい', reading: 'ねこのてもかりたい', meaning: 'とても忙しい（rất bận）', example: '年末は猫の手も借りたいほど忙しい' },
+        { word: '油を売る', reading: 'あぶらをうる', meaning: 'サボる（lãng phí thời gian）', example: 'こんなところで油を売っている場合じゃない' },
+        { word: '腹を割る', reading: 'はらをわる', meaning: '本音で話す（nói thật lòng）', example: '腹を割って話し合う' },
+      ],
+      examples: [
+        { japanese: '「今日は利用者が多くて猫の手も借りたいくらいだ。みんなで助け合いましょう。」', reading: 'きょうはりようしゃがおおくてねこのてもかりたいくらいだ。みんなでたすけあいましょう。', translation: '"Hôm nay người dùng đông, bận đến mức cần cả tay mèo. Mọi người hãy giúp nhau nhé."' },
+        { japanese: '「新人の指導に骨を折ってくれてありがとう。おかげで成長しました。」', reading: 'しんじんのしどうにほねをおってくれてありがとう。おかげでせいちょうしました。', translation: '"Cảm ơn bạn đã cố gắng vất vả trong việc hướng dẫn nhân viên mới. Nhờ đó họ đã trưởng thành."' },
+      ],
+      grammarNote: `【よく使う慣用句まとめ②】
+多忙を表す：
+猫の手も借りたい（rất bận）/ てんてこ舞い（bận rộn）
+
+努力を表す：
+骨を折る（cố gắng vất vả）/ 骨身を惜しまない（không tiếc sức）
+
+忘れる・許す：
+水に流す（tha thứ/xóa bỏ）/ なかったことにする（coi như không có）
+
+本音で話す：
+腹を割る（nói thật lòng）/ 胸を割る / 打ち明ける
+
+気を遣う：
+気が利く（tinh ý）/ 気を配る（chú ý đến）/ 気にかける（quan tâm）`,
+      quizzes: [
+        {
+          question: '「猫の手も借りたい」の意味は？',
+          options: [
+            { id: 'a', text: '猫が好き（thích mèo）' },
+            { id: 'b', text: '非常に忙しい（rất bận）' },
+            { id: 'c', text: '人手が余っている（dư nhân lực）' },
+            { id: 'd', text: '猫を飼いたい（muốn nuôi mèo）' },
+          ],
+          correctId: 'b',
+          explanation: '「猫の手も借りたい」は「猫（のような役に立たない存在）の手でも借りたいほど忙しい」という意味。非常に人手が足りない・忙しい状況を表します。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「骨を折る」の意味は？',
+          options: [
+            { id: 'a', text: '骨が折れた（gãy xương）' },
+            { id: 'b', text: '休む（nghỉ ngơi）' },
+            { id: 'c', text: '苦労して努力する（cố gắng vất vả）' },
+            { id: 'd', text: '体が弱い（cơ thể yếu）' },
+          ],
+          correctId: 'c',
+          explanation: '「骨を折る」は「苦労して努力する・大変な苦労をする（cố gắng vất vả）」という慣用句。「骨折り（ほねおり）」とも言います。骨が本当に折れた場合は「骨折する（こっせつする）」を使います。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「水に流す」の意味は？',
+          options: [
+            { id: 'a', text: '水を流す（đổ nước）' },
+            { id: 'b', text: '過去のことを忘れて許す（tha thứ/xóa bỏ quá khứ）' },
+            { id: 'c', text: '洗い流す（rửa trôi）' },
+            { id: 'd', text: '流れる（trôi chảy）' },
+          ],
+          correctId: 'b',
+          explanation: '「水に流す」は「過去のできごとや失敗を許して忘れる（xóa bỏ/tha thứ quá khứ）」という慣用句。「水（みず）」は物事を清めるイメージから来ています。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-16': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 重要語彙①（動詞・名詞 精選100語）',
+      titleTranslation: 'Từ vựng N3 quan trọng①（Động từ & Danh từ 100 từ chọn lọc）',
+      introduction: `N3合格に向けた重要語彙の集中学習です。動詞・名詞を中心に、介護・医療・職場・日常生活でよく使う100語を効率的に学習します。例文で文脈の中での使い方を確認し、実践的な語彙力を身につけましょう。
+
+Học tập trung từ vựng quan trọng hướng đến đỗ N3. Học hiệu quả 100 từ thường dùng trong điều dưỡng, y tế, nơi làm việc và cuộc sống hàng ngày, tập trung vào động từ và danh từ. Xác nhận cách dùng trong ngữ cảnh qua câu ví dụ.`,
+      keyPoints: [
+        '介護動詞：介助する・移乗する・促す・訴える・把握する',
+        '状態動詞：悪化する・改善する・安定する・継続する・中断する',
+        '報告動詞：確認する・観察する・記録する・報告する・相談する',
+        '重要名詞：状態・変化・対応・措置・方針・指示・連絡',
+        '頻出名詞：食欲・水分・排泄・睡眠・意識・反応・訴え',
+      ],
+      vocabulary: [
+        { word: '促す', reading: 'うながす', meaning: '〜するよう勧める（thúc giục/khuyến khích）', example: '水分補給を促す' },
+        { word: '把握', reading: 'はあく', meaning: '理解・認識する（nắm bắt）', example: '状態を把握する' },
+        { word: '対応', reading: 'たいおう', meaning: '適切に処理する（ứng phó）', example: '緊急事態に対応する' },
+        { word: '方針', reading: 'ほうしん', meaning: '進む方向・方法（phương châm）', example: 'ケアの方針を決める' },
+        { word: '措置', reading: 'そち', meaning: '対処方法（biện pháp）', example: '緊急措置をとる' },
+      ],
+      examples: [
+        { japanese: '「利用者様の状態変化を把握し、適切に対応することが私たちの方針です。変化があれば速やかに報告し、必要な措置をとります。」', reading: 'りようしゃさまのじょうたいへんかをはあくし、てきせつにたいおうすることがわたしたちのほうしんです。へんかがあればすみやかにほうこくし、ひつようなそちをとります。', translation: '"Nắm bắt những thay đổi về tình trạng của người dùng và ứng phó phù hợp là phương châm của chúng tôi. Nếu có thay đổi, báo cáo nhanh chóng và thực hiện biện pháp cần thiết."' },
+      ],
+      grammarNote: `【N3重要動詞ベスト20】
+1. 促す（thúc giục）2. 把握する（nắm bắt）3. 対応する（ứng phó）
+4. 確認する（xác nhận）5. 観察する（quan sát）6. 記録する（ghi chép）
+7. 報告する（báo cáo）8. 相談する（tham khảo）9. 継続する（tiếp tục）
+10. 中断する（ngừng giữa chừng）11. 改善する（cải thiện）12. 悪化する（xấu đi）
+13. 安定する（ổn định）14. 変化する（thay đổi）15. 増加する（tăng）
+16. 減少する（giảm）17. 実施する（thực hiện）18. 提案する（đề xuất）
+19. 評価する（đánh giá）20. 連携する（phối hợp）`,
+      quizzes: [
+        {
+          question: '「水分補給を促す」の「促す」の意味は？',
+          options: [
+            { id: 'a', text: '強制する（bắt buộc）' },
+            { id: 'b', text: '禁止する（cấm）' },
+            { id: 'c', text: '〜するよう勧める・薦める（khuyến khích）' },
+            { id: 'd', text: '観察する（quan sát）' },
+          ],
+          correctId: 'c',
+          explanation: '「促す（うながす）」は「〜するよう勧める・きっかけを与える（khuyến khích/thúc đẩy）」の意味。強制ではなく、するよう働きかけることです。「水分補給を促す」＝「水分を飲むよう勧める」。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「状態を把握する」の「把握」の意味は？',
+          options: [
+            { id: 'a', text: '状態を変える（thay đổi trạng thái）' },
+            { id: 'b', text: '状態を正確に理解・認識する（nắm bắt）' },
+            { id: 'c', text: '状態を記録する（ghi chép trạng thái）' },
+            { id: 'd', text: '状態を報告する（báo cáo trạng thái）' },
+          ],
+          correctId: 'b',
+          explanation: '「把握（はあく）」は「正確に理解・認識する（nắm bắt）」の意味。「状態を把握する」＝「利用者の状態を正確に理解する」こと。介護・医療のケアの基本です。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「方針」の意味として最も適切なのは？',
+          options: [
+            { id: 'a', text: '過去の記録（hồ sơ quá khứ）' },
+            { id: 'b', text: '進む方向・基本的な方法や考え方（phương châm）' },
+            { id: 'c', text: '緊急の対応（ứng phó khẩn cấp）' },
+            { id: 'd', text: '測定の結果（kết quả đo）' },
+          ],
+          correctId: 'b',
+          explanation: '「方針（ほうしん）」は「進む方向・基本的な考え方や方法（phương châm/chính sách）」の意味。「ケアの方針」＝「どのようにケアを行うかの基本的な方向性」。',
+          difficulty: 'medium' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-17': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙: 重要語彙②（形容詞・副詞 精選80語）',
+      titleTranslation: 'Từ vựng N3 quan trọng②（Tính từ & Phó từ 80 từ chọn lọc）',
+      introduction: `N3合格に向けた重要語彙の第2回です。形容詞・副詞を中心に学習します。「適切・十分・わずか・速やかに・徐々に・継続的に」など、介護記録や会話・読解問題で頻出する語を効率的にマスターします。
+
+Phần 2 từ vựng quan trọng hướng đến đỗ N3. Tập trung học tính từ và phó từ. Nắm vững hiệu quả các từ thường xuất hiện trong hồ sơ điều dưỡng, hội thoại và đọc hiểu như 適切, 十分, わずか, 速やかに, 徐々に, 継続的に.`,
+      keyPoints: [
+        '程度の副詞：わずか（chỉ một ít）・やや（hơi）・かなり（khá）・十分（đủ）・非常に（rất）',
+        '様子の副詞：速やかに（nhanh chóng）・徐々に（từ từ）・急に（đột ngột）・突然（đột ngột）',
+        '頻度の副詞：定期的に（định kỳ）・継続的に（liên tục）・随時（bất cứ khi nào）',
+        '重要な形容詞：適切（phù hợp）・十分（đủ）・不十分（không đủ）・安全（an toàn）',
+        '状態の形容詞：安定した（ổn định）・不安定な（không ổn định）・良好な（tốt）',
+      ],
+      vocabulary: [
+        { word: '適切', reading: 'てきせつ', meaning: 'ふさわしい・正しい（phù hợp）', example: '適切なケアを行う' },
+        { word: '速やかに', reading: 'すみやかに', meaning: '素早く・すぐに（nhanh chóng）', example: '速やかに報告する' },
+        { word: '徐々に', reading: 'じょじょに', meaning: 'ゆっくりと（dần dần）', example: '徐々に回復している' },
+        { word: 'わずか', reading: 'わずか', meaning: '少しだけ（chỉ một ít）', example: 'わずかしか食べられない' },
+        { word: '継続的', reading: 'けいぞくてき', meaning: 'ずっと続いて（liên tục）', example: '継続的に観察する' },
+      ],
+      examples: [
+        { japanese: '「田中様は徐々に回復されており、食欲もわずかながら改善しています。速やかに主治医に報告しました。」', reading: 'たなかさまはじょじょにかいふくされており、しょくよくもわずかながらかいぜんしています。すみやかにしゅじいにほうこくしました。', translation: '"Ông Tanaka đang dần hồi phục, cảm giác ngon miệng cũng cải thiện dù chỉ một chút. Đã báo cáo nhanh chóng cho bác sĩ phụ trách."' },
+        { japanese: '「適切な水分補給を継続的に促すことで、脱水予防に取り組んでいます。」', reading: 'てきせつなすいぶんほきゅうをけいぞくてきにうながすことで、だっすいよぼうにとりくんでいます。', translation: '"Bằng cách liên tục khuyến khích bổ sung nước phù hợp, chúng tôi đang nỗ lực phòng ngừa mất nước."' },
+      ],
+      grammarNote: `【N3重要形容詞・副詞ベスト20】
+程度（mức độ）：
+わずか（chỉ ít）/ やや（hơi）/ かなり（khá）/ 十分（đủ）/ 非常に（rất）
+
+速度・段階（tốc độ）：
+速やかに（nhanh chóng）/ 徐々に（dần dần）/ 急に（đột ngột）
+
+頻度（tần suất）：
+定期的に（định kỳ）/ 継続的に（liên tục）/ 随時（bất cứ khi nào）/ 常に（luôn luôn）
+
+状態の形容動詞：
+適切な（phù hợp）/ 十分な（đủ）/ 不十分な（không đủ）
+良好な（tốt）/ 安全な（an toàn）/ 不安定な（không ổn định）`,
+      quizzes: [
+        {
+          question: '「速やかに報告する」の「速やかに」の意味は？',
+          options: [
+            { id: 'a', text: 'ゆっくり（chậm rãi）' },
+            { id: 'b', text: '素早く・すぐに（nhanh chóng）' },
+            { id: 'c', text: 'たまに（thỉnh thoảng）' },
+            { id: 'd', text: '徐々に（dần dần）' },
+          ],
+          correctId: 'b',
+          explanation: '「速やかに（すみやかに）」は「素早く・すぐに・遅れなく（nhanh chóng）」の意味。介護現場では「異変があれば速やかに報告してください」のように、迅速な行動を求めるときに使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「徐々に回復している」の「徐々に」の意味は？',
+          options: [
+            { id: 'a', text: '突然（đột ngột）' },
+            { id: 'b', text: 'まったく（hoàn toàn không）' },
+            { id: 'c', text: 'ゆっくりと少しずつ（dần dần/từng chút một）' },
+            { id: 'd', text: '全部（hoàn toàn）' },
+          ],
+          correctId: 'c',
+          explanation: '「徐々に（じょじょに）」は「ゆっくりと少しずつ（dần dần）」の意味。「徐々に回復している」＝「少しずつ良くなっている」こと。反対の速度表現は「急に（đột ngột）」「突然（đột ngột）」です。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「適切なケアを行う」の「適切」の意味は？',
+          options: [
+            { id: 'a', text: '間違った（sai）' },
+            { id: 'b', text: 'ふさわしい・正しい（phù hợp）' },
+            { id: 'c', text: '不十分な（không đủ）' },
+            { id: 'd', text: '危険な（nguy hiểm）' },
+          ],
+          correctId: 'b',
+          explanation: '「適切（てきせつ）」は「その状況にふさわしい・正しい（phù hợp）」の意味。「適切なケア」＝「その利用者・状況に合った正しいケア」。反対語は「不適切（ふてきせつ）」です。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 25,
+    },
+  },
+
+  'n3-04-18': {
+    courseTitle: { ja: 'N3 語彙強化 〜カタカナ語・複合語〜', vi: 'Củng cố từ vựng N3 - Từ Katakana và từ ghép' },
+    isLocked: false,
+    requiredPlan: 'free',
+    lesson: {
+      title: 'N3語彙強化 総復習テスト（20問）',
+      titleTranslation: 'Kiểm tra tổng hợp N3 Từ vựng（20 câu）',
+      introduction: `N3語彙強化コース（n3-04）全18レッスンの総復習テストです。カタカナ語・複合動詞・擬音語・擬態語・接尾語・接頭語・同音異義語・類義語・対義語・慣用句・重要語彙を総合的に確認します。しっかり実力を確認しましょう！
+
+Kiểm tra tổng hợp toàn bộ 18 bài khóa học N3 từ vựng (n3-04). Kiểm tra toàn diện từ Katakana, động từ ghép, từ tượng thanh/hình, hậu tố, tiền tố, từ đồng âm, đồng nghĩa, trái nghĩa, thành ngữ và từ vựng quan trọng. Hãy xác nhận thực lực!`,
+      keyPoints: [
+        'カタカナ語（L1〜L3）：医療・介護・職場・変換ルール',
+        '複合動詞（L4〜L6）：〜出す・〜込む・〜上げる・〜切る・〜続ける・〜直す・〜合う',
+        '擬態語（L7〜L8）：体の症状（ズキズキ・ふらふら）・気持ち（イライラ・ぼんやり）',
+        '造語力（L9〜L10）：〜的・〜化・〜性 / 不〜・非〜・再〜・未〜',
+        '語彙分析（L11〜L15）：同音異義語・類義語・対義語・慣用句①②',
+        '重要語彙（L16〜L17）：動詞・名詞・形容詞・副詞 精選180語',
+      ],
+      vocabulary: [
+        { word: '総復習', reading: 'そうふくしゅう', meaning: '全部をもう一度確認する（ôn tập tổng hợp）', example: '総復習テストに挑戦する' },
+        { word: '語彙力', reading: 'ごいりょく', meaning: '語彙の豊かさ・使いこなす力（vốn từ）', example: '語彙力を高める' },
+        { word: '習得', reading: 'しゅうとく', meaning: '学んで身につける（thu thập/nắm vững）', example: '語彙を習得する' },
+        { word: '実力', reading: 'じつりょく', meaning: '本当の能力（thực lực）', example: '実力を確認する' },
+        { word: 'マスター', reading: 'ますたー', meaning: '完全に習得する（thành thạo）', example: 'N3語彙をマスターする' },
+      ],
+      examples: [
+        { japanese: '【カタカナ語まとめ】バイタル・リハビリ・インシデント・モニタリング・カンファレンス・シフト・スケジュール・マニュアル・フォロー・チームワーク', reading: 'ばいたる・りはびり・いんしでんと・もにたりんぐ・かんふぁれんす・しふと・すけじゅーる・まにゅある', translation: '【Tóm tắt từ Katakana】バイタル(sinh tồn)・リハビリ(phục hồi)・インシデント(sự cố)・モニタリング(theo dõi)・カンファレンス(hội nghị)・シフト(ca)・スケジュール(lịch)・マニュアル(sổ tay)・フォロー(hỗ trợ)・チームワーク(tinh thần đồng đội)' },
+        { japanese: '【複合動詞まとめ】取り出す・飲み込む・申し込む・食べ切る・観察し続ける・書き直す・話し合う・声をかける・歩き始める', reading: 'とりだす・のみこむ・もうしこむ・たべきる・かんさつしつづける・かきなおす・はなしあう・こえをかける・あるきはじめる', translation: '【Tóm tắt động từ ghép】取り出す(lấy ra)・飲み込む(nuốt)・申し込む(đăng ký)・食べ切る(ăn hết)・観察し続ける(tiếp tục quan sát)・書き直す(viết lại)・話し合う(thảo luận)・声をかける(gọi)・歩き始める(bắt đầu đi)' },
+      ],
+      grammarNote: `【N3語彙 全カテゴリまとめ】
+カタカナ語：バイタル/リハビリ/シフト/マニュアル 他
+複合動詞：〜出す/〜込む/〜上げる/〜切る/〜続ける/〜直す 他
+擬態語（体）：ズキズキ/ふらふら/ぐったり/むかむか
+擬態語（気持ち）：イライラ/ぼんやり/うとうと/そわそわ
+接尾語：〜的/〜化/〜性
+接頭語：不〜/非〜/再〜/超〜/未〜
+同音異義語：きかん/こうかん/いたい
+類義語：報告/連絡/相談の使い分け
+対義語：改善↔悪化/増加↔減少
+慣用句：耳を傾ける/手を貸す/骨を折る 他
+重要語彙：促す/把握/適切/速やかに/徐々に 他`,
+      quizzes: [
+        {
+          question: '「ズキズキ痛む」はどんな痛み？',
+          options: [
+            { id: 'a', text: '重い痛み（đau nặng）' },
+            { id: 'b', text: '脈打つような痛み（đau nhói theo nhịp）' },
+            { id: 'c', text: '針で刺す痛み（đau châm）' },
+            { id: 'd', text: '燃えるような痛み（đau rát）' },
+          ],
+          correctId: 'b',
+          explanation: '「ズキズキ」は心臓の鼓動に合わせてズキン・ズキンと脈打つような痛み。偏頭痛や歯痛などで使います。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「飲み込む」の「込む」が表す意味は？',
+          options: [
+            { id: 'a', text: '外に出る（ra ngoài）' },
+            { id: 'b', text: '完全に終わる（hoàn thành）' },
+            { id: 'c', text: '内部・深く入る（vào trong）' },
+            { id: 'd', text: '上に上がる（nâng lên）' },
+          ],
+          correctId: 'c',
+          explanation: '「〜込む」は「内部へ・深く」の方向を示します。「飲み込む」＝飲んで喉の奥（内部）に入れる。「申し込む」＝申請して内部に入れる。',
+          difficulty: 'medium' as const,
+        },
+        {
+          question: '「不安定」の「不〜」は何を意味する接頭語？',
+          options: [
+            { id: 'a', text: 'もう一度（làm lại）' },
+            { id: 'b', text: '否定・反対（phủ định）' },
+            { id: 'c', text: '非常に（rất）' },
+            { id: 'd', text: 'まだ〜していない（chưa）' },
+          ],
+          correctId: 'b',
+          explanation: '「不〜（ふ）」は否定・反対を意味する接頭語。「不安定」＝安定していない。「不満」＝満足していない。「不規則」＝規則的でない。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「耳を傾ける」の意味は？',
+          options: [
+            { id: 'a', text: '耳を触る（sờ tai）' },
+            { id: 'b', text: '注意してよく聞く（lắng nghe kỹ）' },
+            { id: 'c', text: '耳が痛い（đau tai）' },
+            { id: 'd', text: '大きな声で話す（nói to）' },
+          ],
+          correctId: 'b',
+          explanation: '「耳を傾ける」は「注意してよく聞く・傾聴する（lắng nghe kỹ）」という慣用句。介護では利用者の気持ちに耳を傾けることが重要なケアです。',
+          difficulty: 'easy' as const,
+        },
+        {
+          question: '「改善」の対義語は？',
+          options: [
+            { id: 'a', text: '継続（tiếp tục）' },
+            { id: 'b', text: '安定（ổn định）' },
+            { id: 'c', text: '悪化（xấu đi）' },
+            { id: 'd', text: '増加（tăng）' },
+          ],
+          correctId: 'c',
+          explanation: '「改善（かいぜん）」＝良くなること（cải thiện）↔「悪化（あっか）」＝悪くなること（xấu đi）。この対義語ペアは介護・医療記録で最もよく使われます。',
+          difficulty: 'easy' as const,
+        },
+      ],
+      xpReward: 50,
+    },
+  },
+
   // ===== N2 読解 =====
   'n2-02': {
     courseTitle: { ja: 'N2 読解・論説文対策', vi: 'Đọc hiểu & văn nghị luận N2' },
@@ -16540,6 +17996,7 @@ const courseLessonMap: Record<string, string[]> = {
   'n3-01': ['n3-01', 'n3-01-2', 'n3-01-3', 'n3-01-4', 'n3-01-5', 'n3-01-6', 'n3-01-7', 'n3-01-8', 'n3-01-9', 'n3-01-10', 'n3-01-11', 'n3-01-12', 'n3-01-13', 'n3-01-14', 'n3-01-15', 'n3-01-16', 'n3-01-17', 'n3-01-18', 'n3-01-19', 'n3-01-20', 'n3-01-21', 'n3-01-22', 'n3-01-23', 'n3-01-24', 'n3-01-25', 'n3-01-26', 'n3-01-27', 'n3-01-28', 'n3-01-29', 'n3-01-30'],
   'n3-02': ['n3-02', 'n3-02-2', 'n3-02-3', 'n3-02-4', 'n3-02-5', 'n3-02-6', 'n3-02-7', 'n3-02-8', 'n3-02-9', 'n3-02-10', 'n3-02-11', 'n3-02-12', 'n3-02-13', 'n3-02-14', 'n3-02-15', 'n3-02-16', 'n3-02-17', 'n3-02-18', 'n3-02-19', 'n3-02-20'],
   'n3-03': ['n3-03', 'n3-03-2', 'n3-03-3', 'n3-03-4', 'n3-03-5', 'n3-03-6', 'n3-03-7', 'n3-03-8', 'n3-03-9', 'n3-03-10', 'n3-03-11', 'n3-03-12', 'n3-03-13', 'n3-03-14', 'n3-03-15', 'n3-03-16', 'n3-03-17', 'n3-03-18', 'n3-03-19', 'n3-03-20'],
+  'n3-04': ['n3-04', 'n3-04-2', 'n3-04-3', 'n3-04-4', 'n3-04-5', 'n3-04-6', 'n3-04-7', 'n3-04-8', 'n3-04-9', 'n3-04-10', 'n3-04-11', 'n3-04-12', 'n3-04-13', 'n3-04-14', 'n3-04-15', 'n3-04-16', 'n3-04-17', 'n3-04-18'],
 };
 
 const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
@@ -16762,6 +18219,24 @@ const lessonShortTitle: Record<string, { ja: string; vi: string }> = {
   'n3-03-18': { ja: '複合演習②時間管理速読', vi: 'Tổng hợp②Quản lý thời gian' },
   'n3-03-19': { ja: 'N3模擬演習（本番形式）', vi: 'N3 Luyện thi thử' },
   'n3-03-20': { ja: '総復習テスト（20問）', vi: 'Kiểm tra tổng hợp（20 câu）' },
+  'n3-04':    { ja: '医療・介護のカタカナ語', vi: 'Từ Katakana y tế & điều dưỡng' },
+  'n3-04-2':  { ja: '生活・職場のカタカナ語', vi: 'Từ Katakana cuộc sống & việc làm' },
+  'n3-04-3':  { ja: 'カタカナ語の変換ルール', vi: 'Quy tắc chuyển đổi Katakana' },
+  'n3-04-4':  { ja: '複合動詞①出す・込む・上げる', vi: 'Động từ ghép①出す・込む・上げる' },
+  'n3-04-5':  { ja: '複合動詞②切る・続ける・直す', vi: 'Động từ ghép②切る・続ける・直す' },
+  'n3-04-6':  { ja: '複合動詞③合う・かける・始める', vi: 'Động từ ghép③合う・かける・始める' },
+  'n3-04-7':  { ja: '擬態語①体の症状', vi: 'Từ tượng hình①Triệu chứng cơ thể' },
+  'n3-04-8':  { ja: '擬態語②気持ち・様子', vi: 'Từ tượng hình②Cảm xúc & Trạng thái' },
+  'n3-04-9':  { ja: '接尾語 〜的・〜化・〜性', vi: 'Hậu tố 〜的・〜化・〜性' },
+  'n3-04-10': { ja: '接頭語 不〜・非〜・再〜・未〜', vi: 'Tiền tố 不〜・非〜・再〜・未〜' },
+  'n3-04-11': { ja: '同音異義語', vi: 'Từ đồng âm dị nghĩa' },
+  'n3-04-12': { ja: '類義語の使い分け', vi: 'Phân biệt từ đồng nghĩa' },
+  'n3-04-13': { ja: '対義語（反対語）', vi: 'Từ trái nghĩa' },
+  'n3-04-14': { ja: '慣用句①体を使った表現', vi: 'Thành ngữ①Bộ phận cơ thể' },
+  'n3-04-15': { ja: '慣用句②動物・自然・日常', vi: 'Thành ngữ②Động vật & Tự nhiên' },
+  'n3-04-16': { ja: '重要語彙①動詞・名詞100語', vi: 'Từ vựng quan trọng①Động từ & Danh từ' },
+  'n3-04-17': { ja: '重要語彙②形容詞・副詞80語', vi: 'Từ vựng quan trọng②Tính từ & Phó từ' },
+  'n3-04-18': { ja: '総復習テスト（20問）', vi: 'Kiểm tra tổng hợp（20 câu）' },
 };
 
 // Find course ID for a given lesson ID
